@@ -180,6 +180,13 @@ table {
 	border-bottom: none;
 }
 
+/* Add space after tables */
+.prose table+p,
+.prose table+h2,
+.prose table+h3 {
+	margin-top: 2rem;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -196,19 +203,21 @@ img:hover {
 .prose h3,
 .prose h4 {
 	color: #fff;
-	margin-top: 2.5em;
-	margin-bottom: 1em;
+	margin-top: 3rem;
+	margin-bottom: 1.2rem;
 }
 
 .prose h2 {
 	font-size: 2rem;
 	border-bottom: 1px solid var(--glass-border);
-	padding-bottom: 0.5rem;
+	padding-bottom: 0.8rem;
 }
 
 .prose h3 {
 	font-size: 1.5rem;
 	color: var(--accent-light);
+	margin-top: 2.5rem;
+	margin-bottom: 1rem;
 }
 
 .prose p {
@@ -267,7 +276,8 @@ img:hover {
 hr {
 	border: none;
 	border-top: 1px solid var(--glass-border);
-	margin: 1.5rem 0;
+	margin: 2.5rem 0;
+	opacity: 0.5;
 }
 
 @media (max-width: 720px) {
