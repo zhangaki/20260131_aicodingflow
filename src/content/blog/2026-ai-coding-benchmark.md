@@ -5,13 +5,10 @@ pubDate: "Feb 01 2026"
 heroImage: "/assets/2026-ai-coding-benchmark.png"
 ---
 
-# Claude Opus 4.5 vs GPT-5.2 vs Gemini 3: The 2026 Coding Benchmark
-
 **February 2026**: Anthropic's Claude Opus 4.5 just hit **80.9% on SWE-bench** (first model to break 80%). OpenAI's GPT-5.2 countered with **80.0%** and 65% lower pricing. Google's Gemini 3 Flash is crushing speed benchmarks.
 
 I tested all three on **50 real production tasks** from my team's backlog. Here's what the official benchmarks don't tell you.
 
----
 
 ## The Test: Real Code, Not Toy Problems
 
