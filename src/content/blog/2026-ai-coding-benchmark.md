@@ -1,8 +1,8 @@
 ---
-title: 'Claude Opus 4.5 vs GPT-5.2 vs Gemini 3: The 2026 Coding Benchmark'
-description: 'I tested all three Feb 2026 models on 50 production tasks. Claude hit 80.9% on SWE-bench. GPT-5.2 costs 65% less. Gemini 3 Flash is the speed demon. Here's the data.'
-pubDate: 'Feb 01 2026'
-heroImage: '/assets/2026-ai-coding-benchmark.png'
+title: "Claude Opus 4.5 vs GPT-5.2 vs Gemini 3: The 2026 Coding Benchmark"
+description: "I tested all three Feb 2026 models on 50 production tasks. Claude hit 80.9% on SWE-bench. GPT-5.2 costs 65% less. Gemini 3 Flash is the speed demon."
+pubDate: "Feb 01 2026"
+heroImage: "/assets/2026-ai-coding-benchmark.png"
 ---
 
 # Claude Opus 4.5 vs GPT-5.2 vs Gemini 3: The 2026 Coding Benchmark
