@@ -41,6 +41,8 @@ import HeaderLink from './HeaderLink.astro';
 	}
 	h2.logo {
 		margin: 0;
+		display: flex;
+		align-items: center;
 	}
 	.logo a {
 		font-family: var(--font-display);
@@ -49,9 +51,12 @@ import HeaderLink from './HeaderLink.astro';
 		text-decoration: none;
 		color: #fff;
 		letter-spacing: -0.05em;
+		line-height: 1;
+		display: block;
 	}
 	.internal-links {
 		display: flex;
+		align-items: center;
 		gap: 0.5rem;
 	}
 	.internal-links a {
@@ -62,6 +67,8 @@ import HeaderLink from './HeaderLink.astro';
 		font-size: 0.9rem;
 		border-radius: 50px;
 		transition: all 0.2s;
+		line-height: 1;
+		display: block;
 	}
 	.internal-links a:hover, .internal-links a.active {
 		color: #fff;
