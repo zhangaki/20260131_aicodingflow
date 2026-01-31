@@ -122,7 +122,8 @@ p {
 }
 
 .prose p {
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
+	line-height: 1.9;
 }
 
 textarea {
@@ -136,6 +137,47 @@ input {
 
 table {
 	width: 100%;
+}
+
+/* Table Styling for Blog Posts */
+.prose table {
+	width: 100%;
+	margin: 2.5rem 0;
+	border-collapse: collapse;
+	border-radius: 12px;
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.prose table thead {
+	background: rgba(111, 177, 252, 0.15);
+}
+
+.prose table th {
+	padding: 1rem 1.5rem;
+	text-align: left;
+	color: #fff;
+	font-weight: 600;
+	font-size: 0.95rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	border-bottom: 2px solid var(--accent);
+}
+
+.prose table td {
+	padding: 1rem 1.5rem;
+	color: var(--gray-dark);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.prose table tbody tr:hover {
+	background: rgba(111, 177, 252, 0.05);
+	transition: background 0.2s ease;
+}
+
+.prose table tbody tr:last-child td {
+	border-bottom: none;
 }
 
 img {
@@ -170,8 +212,8 @@ img:hover {
 }
 
 .prose p {
-	margin-bottom: 1.5rem;
-	line-height: 1.8;
+	margin-bottom: 2rem;
+	line-height: 1.9;
 }
 
 .prose strong {
@@ -191,11 +233,17 @@ img:hover {
 
 .prose ul,
 .prose ol {
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
+	margin-top: 1.5rem;
 	padding-left: 1.5rem;
 }
 
 .prose li {
+	margin-bottom: 0.8rem;
+	line-height: 1.8;
+}
+
+.prose li>p {
 	margin-bottom: 0.5rem;
 }
 
