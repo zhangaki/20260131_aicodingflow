@@ -1,0 +1,72 @@
+---
+interface Props {
+	title: string;
+	url: string;
+}
+
+const { title, url } = Astro.props;
+const encodedUrl = encodeURIComponent(url);
+const encodedTitle = encodeURIComponent(title);
+---
+
+<div class="social-share">
+	<span class="share-label">Share:</span>
+	<a href={`https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`} target="_blank" rel="noopener noreferrer" class="share-btn twitter">
+		Twitter
+	</a>
+	<a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`} target="_blank" rel="noopener noreferrer" class="share-btn linkedin">
+		LinkedIn
+	</a>
+	<a href={`https://www.reddit.com/submit?url=${encodedUrl}&title=${encodedTitle}`} target="_blank" rel="noopener noreferrer" class="share-btn reddit">
+		Reddit
+	</a>
+</div>
+
+<style>
+	.social-share {
+		display: flex;
+		align-items: center;
+		gap: 0.8rem;
+		margin-top: 2rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--glass-border);
+	}
+	.share-label {
+		color: var(--gray);
+		font-size: 0.9rem;
+		font-weight: 700;
+	}
+	.share-btn {
+		padding: 0.4rem 1rem;
+		border-radius: 8px;
+		text-decoration: none;
+		font-size: 0.85rem;
+		font-weight: 500;
+		transition: all 0.2s;
+		border: 1px solid transparent;
+	}
+	.twitter {
+		background: rgba(29, 161, 242, 0.1);
+		color: #1DA1F2;
+	}
+	.twitter:hover {
+		background: rgba(29, 161, 242, 0.2);
+		border-color: #1DA1F2;
+	}
+	.linkedin {
+		background: rgba(10, 102, 194, 0.1);
+		color: #0A66C2;
+	}
+	.linkedin:hover {
+		background: rgba(10, 102, 194, 0.2);
+		border-color: #0A66C2;
+	}
+	.reddit {
+		background: rgba(255, 69, 0, 0.1);
+		color: #FF4500;
+	}
+	.reddit:hover {
+		background: rgba(255, 69, 0, 0.2);
+		border-color: #FF4500;
+	}
+</style>

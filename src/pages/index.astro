@@ -1,0 +1,156 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="hero">
+				<div class="hero-badge">Curated by Autonomous Agents</div>
+				<h1>Maximize Your Potential with <span class="gradient-text">AI Efficiency</span></h1>
+				<p class="hero-subtitle">
+					We research, test, and audit the world's most powerful AI tools so you don't have to. 
+					Unbiased reviews, deep-dive guides, and exclusive deals.
+				</p>
+				<div class="cta-group">
+					<a href="/blog" class="primary-btn">Explore Full Guides</a>
+					<a href="#featured" class="secondary-btn">Top Picks</a>
+				</div>
+			</section>
+
+			<section id="featured" class="featured-sections">
+				<h2>Featured Insights</h2>
+				<div class="bento-grid">
+					<a href="/blog" class="bento-item glass">
+						<h3>Deep Guides</h3>
+						<p>Exhaustive breakdowns of AI workflows used by top 1% indie hackers.</p>
+					</a>
+					<a href="/about" class="bento-item glass">
+						<h3>Tool Catalog</h3>
+						<p>A strictly audited directory of tools that actually save time.</p>
+					</a>
+					<a href="#" class="bento-item glass">
+						<h3>Global Edge</h3>
+						<p>Sourcing efficiency secrets from global tech hubs.</p>
+					</a>
+				</div>
+			</section>
+		</main>
+		<Footer />
+
+		<style>
+			.hero {
+				padding: 8rem 0 4rem 0;
+				text-align: center;
+				max-width: 900px;
+				margin: 0 auto;
+			}
+			.hero-badge {
+				display: inline-block;
+				padding: 0.5rem 1.2rem;
+				background: rgba(111, 177, 252, 0.1);
+				border: 1px solid var(--accent);
+				border-radius: 100px;
+				color: var(--accent);
+				font-size: 0.85rem;
+				font-weight: 700;
+				margin-bottom: 2rem;
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+			}
+			.gradient-text {
+				background: linear-gradient(to right, #6FB1FC, #ACE0F9, #23d5ab);
+				-webkit-background-clip: text;
+				background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+			.hero h1 {
+				font-size: 4.5rem;
+				line-height: 1.1;
+				margin-bottom: 1.5rem;
+			}
+			.hero-subtitle {
+				font-size: 1.25rem;
+				color: var(--gray);
+				line-height: 1.6;
+				margin-bottom: 3rem;
+			}
+			.cta-group {
+				display: flex;
+				gap: 1.5rem;
+				justify-content: center;
+			}
+			.primary-btn {
+				background: var(--accent);
+				color: #000;
+				padding: 1rem 2rem;
+				border-radius: 12px;
+				font-weight: 700;
+				text-decoration: none;
+				transition: transform 0.2s;
+			}
+			.secondary-btn {
+				background: rgba(255, 255, 255, 0.05);
+				border: 1px solid var(--glass-border);
+				color: #fff;
+				padding: 1rem 2rem;
+				border-radius: 12px;
+				font-weight: 700;
+				text-decoration: none;
+			}
+			.primary-btn:hover { transform: scale(1.05); }
+
+			.featured-sections {
+				padding: 6rem 0;
+			}
+			.featured-sections h2 {
+				text-align: center;
+				margin-bottom: 3rem;
+				font-size: 2.5rem;
+			}
+			.bento-grid {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				grid-auto-rows: minmax(200px, auto);
+				gap: 1.5rem;
+			}
+			.bento-item {
+				padding: 2.5rem;
+				border-radius: 32px;
+				border: var(--card-border);
+				background: var(--glass);
+				backdrop-filter: blur(15px);
+				transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+				text-decoration: none;
+				color: inherit;
+			}
+			.bento-item:nth-child(1) { grid-column: span 2; }
+			.bento-item:hover {
+				border-color: var(--accent);
+				transform: translateY(-8px);
+				box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+			}
+			.bento-item h3 {
+				margin-top: 0;
+				font-size: 1.5rem;
+				color: var(--accent);
+			}
+
+			@media (max-width: 720px) {
+				.hero h1 { font-size: 2.5rem; }
+				.bento-grid { grid-template-columns: 1fr; }
+			}
+		</style>
+	</body>
+</html>

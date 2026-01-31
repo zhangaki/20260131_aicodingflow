@@ -1,0 +1,132 @@
+---
+import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="About the Architecture"
+	description="How this AI Efficiency Hub is built and why it exists."
+	pubDate={new Date('January 01 2026')}
+	heroImage="/assets/blog-placeholder-about.jpg"
+>
+	<div class="mission-statement">
+		<p class="lead">
+			Content is no longer limited by human speed. Quality is no longer limited by human fatigue. 
+			<strong>This entire website is a testament to that fact.</strong>
+		</p>
+	</div>
+
+	<h3>The "Super Individual" Philosophy</h3>
+	<p>
+		We believe that in the age of AI, a single developer can wield the output of a 10-person agency. 
+		The <strong>AI Efficiency Hub</strong> is built to prove this concept. It is not just a blog; it is an 
+		<em>autonomous asset</em> managed by AI Agents, curated by human vision.
+	</p>
+
+	<div class="stats-grid">
+		<div class="stat-card">
+			<div class="stat-number">100%</div>
+			<div class="stat-label">AI-Assisted Operations</div>
+		</div>
+		<div class="stat-card">
+			<div class="stat-number">24/7</div>
+			<div class="stat-label">Content Optimization</div>
+		</div>
+		<div class="stat-card">
+			<div class="stat-number">0ms</div>
+			<div class="stat-label">Human Bottlenecks</div>
+		</div>
+	</div>
+
+	<h3>How It Works</h3>
+	<p>
+		Every article you read here is the result of a sophisticated pipeline:
+	</p>
+	<ul>
+		<li><strong>Research:</strong> Agents scan the web for rising trends in AI and development.</li>
+		<li><strong>Analysis:</strong> Deep-dive comparisons are generated based on real documentation and user feedback.</li>
+		<li><strong>Optimization:</strong> Content is rigorously checked for SEO standards and readability.</li>
+		<li><strong>Audit:</strong> A "Visual Auditor" agent reviews every pixel before publication.</li>
+	</ul>
+
+	<p>
+		This isn't just about reading news. It's about seeing the future of digital leverage in action.
+	</p>
+
+	<div class="cta-box">
+		<h4>Ready to scale your own output?</h4>
+		<p>Explore our library of guides and start building your own agent workforce.</p>
+		<a href="/blog" class="btn">Browse the Library</a>
+	</div>
+</Layout>
+
+<style>
+	.mission-statement {
+		font-size: 1.25rem;
+		line-height: 1.6;
+		margin-bottom: 3rem;
+		border-left: 4px solid var(--accent);
+		padding-left: 1.5rem;
+		color: #fff;
+	}
+	.lead strong {
+		color: var(--accent);
+	}
+	.stats-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.5rem;
+		margin: 3rem 0;
+	}
+	.stat-card {
+		background: rgba(255, 255, 255, 0.03);
+		border: 1px solid var(--glass-border);
+		padding: 1.5rem;
+		border-radius: 16px;
+		text-align: center;
+	}
+	.stat-number {
+		font-size: 2.5rem;
+		font-weight: 700;
+		background: linear-gradient(to right, #6FB1FC, #ACE0F9);
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-bottom: 0.5rem;
+	}
+	.stat-label {
+		font-size: 0.9rem;
+		color: var(--gray);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+	}
+	.cta-box {
+		margin-top: 4rem;
+		background: linear-gradient(135deg, rgba(35, 213, 171, 0.1), rgba(0, 0, 0, 0));
+		border: 1px solid rgba(35, 213, 171, 0.2);
+		padding: 2.5rem;
+		border-radius: 24px;
+		text-align: center;
+	}
+	.cta-box h4 {
+		margin-top: 0;
+		font-size: 1.8rem;
+	}
+	.btn {
+		display: inline-block;
+		margin-top: 1.5rem;
+		background: var(--accent);
+		color: #000;
+		padding: 0.8rem 2rem;
+		border-radius: 100px;
+		text-decoration: none;
+		font-weight: 700;
+		transition: transform 0.2s;
+	}
+	.btn:hover {
+		transform: scale(1.05);
+	}
+	@media (max-width: 600px) {
+		.stats-grid { grid-template-columns: 1fr; }
+	}
+</style>

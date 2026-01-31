@@ -1,0 +1,59 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`404 - Page Not Found | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+		<style>
+			main {
+				text-align: center;
+				padding: 8rem 2rem;
+				min-height: 50vh;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+			h1 {
+				font-size: 6rem;
+				margin: 0;
+				background: linear-gradient(to right, #6FB1FC, #ACE0F9);
+				-webkit-background-clip: text;
+				background-clip: text;
+				-webkit-text-fill-color: transparent;
+				line-height: 1;
+			}
+			p {
+				font-size: 1.5rem;
+				color: var(--gray);
+				margin: 2rem 0;
+			}
+			.btn {
+				background: var(--accent);
+				color: #000;
+				padding: 1rem 2rem;
+				border-radius: 100px;
+				text-decoration: none;
+				font-weight: 700;
+				transition: transform 0.2s;
+			}
+			.btn:hover {
+				transform: scale(1.05);
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>404</h1>
+			<p>Lost in the void? Let's get you back on track.</p>
+			<a href="/blog" class="btn">Explore the Library</a>
+		</main>
+		<Footer />
+	</body>
+</html>

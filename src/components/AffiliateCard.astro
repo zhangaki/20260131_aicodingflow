@@ -1,0 +1,88 @@
+---
+interface Props {
+	title: string;
+	description: string;
+	link: string;
+	price?: string;
+	tag?: string;
+}
+
+const { title, description, link, price, tag = "Editor's Choice" } = Astro.props;
+---
+
+<div class="affiliate-card">
+	<div class="card-tag">{tag}</div>
+	<div class="card-content">
+		<h3>{title}</h3>
+		<p>{description}</p>
+		<div class="card-footer">
+			<span class="price">{price || "Free Trial Available"}</span>
+			<a href={link} target="_blank" rel="noopener noreferrer" class="cta-button">
+				Try Now
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+					<path d="M5 12h14M12 5l7 7-7 7"/>
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+
+<style>
+	.affiliate-card {
+		background: linear-gradient(135deg, rgba(111, 177, 252, 0.1) 0%, rgba(0, 82, 212, 0.1) 100%);
+		border: 1px solid var(--accent);
+		border-radius: 16px;
+		padding: 1.5rem;
+		margin: 2rem 0;
+		position: relative;
+		overflow: hidden;
+		transition: transform 0.3s ease;
+	}
+	.affiliate-card:hover {
+		transform: translateY(-4px);
+	}
+	.card-tag {
+		position: absolute;
+		top: 0;
+		right: 0;
+		background: var(--accent);
+		color: #fff;
+		padding: 0.25rem 1rem;
+		font-size: 0.75rem;
+		font-weight: 700;
+		border-bottom-left-radius: 12px;
+		font-family: 'Outfit', sans-serif;
+	}
+	.affiliate-card h3 {
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+		font-size: 1.4rem;
+	}
+	.affiliate-card p {
+		font-size: 0.95rem;
+		color: var(--gray-dark);
+		opacity: 0.8;
+		margin-bottom: 1.5rem;
+	}
+	.card-footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.price {
+		font-weight: 700;
+		color: var(--accent);
+	}
+	.cta-button {
+		background: var(--accent);
+		color: #fff !important;
+		text-decoration: none;
+		padding: 0.6rem 1.2rem;
+		border-radius: 8px;
+		font-weight: 700;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		font-size: 0.9rem;
+	}
+</style>
