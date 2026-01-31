@@ -1,5 +1,5 @@
 #!/bin/bash
-# Safe Deploy Script - 确保构建成功后才推送
+# Safe Deploy Script - 本地构建和提交（不推送）
 
 set -e  # 遇到错误立即退出
 
@@ -21,12 +21,8 @@ if [ $? -eq 0 ]; then
     fi
     
     echo ""
-    echo "🚀 Step 3: 推送到 GitHub..."
-    git push
-    
-    echo ""
-    echo "🎉 部署成功! Vercel 将在 60 秒内自动部署。"
-    echo "📊 查看部署状态: https://vercel.com/zhangaki/ai-coding-flow"
+    echo "✅ 已提交到本地 Git (未推送)"
+    echo "💡 如需推送，请运行: git push"
 else
     echo "❌ 构建失败! 请修复错误后再推送。"
     exit 1
