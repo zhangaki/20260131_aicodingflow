@@ -27,8 +27,13 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			</section>
 
 			<section id="featured" class="featured-sections">
-				<h2>Featured Insights</h2>
+				<h2>Our Ecosystem</h2>
 				<div class="bento-grid">
+					<a href="/tools/aeo-audit" class="bento-item glass tool-highlight">
+						<div class="tag">Free Tool</div>
+						<h3>AEO Auditor 2.0</h3>
+						<p>Optimize your site for AI Search (Perplexity, ChatGPT, Claude). Get real-time scores and AI-powered fix prompts.</p>
+					</a>
 					<a href="/blog" class="bento-item glass">
 						<h3>Deep Guides</h3>
 						<p>Exhaustive breakdowns of AI workflows used by top 1% indie hackers.</p>
@@ -37,10 +42,6 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 						<h3>Tool Catalog</h3>
 						<p>A strictly audited directory of tools that actually save time.</p>
 					</a>
-					<a href="#" class="bento-item glass">
-						<h3>Global Edge</h3>
-						<p>Sourcing efficiency secrets from global tech hubs.</p>
-					</a>
 				</div>
 			</section>
 		</main>
@@ -48,40 +49,46 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
 		<style>
 			.hero {
-				padding: 8rem 0 4rem 0;
+				padding: 10rem 0 6rem 0;
 				text-align: center;
-				max-width: 900px;
+				max-width: 1000px;
 				margin: 0 auto;
 			}
 			.hero-badge {
 				display: inline-block;
-				padding: 0.5rem 1.2rem;
-				background: rgba(111, 177, 252, 0.1);
-				border: 1px solid var(--accent);
+				padding: 0.6rem 1.4rem;
+				background: rgba(111, 177, 252, 0.08);
+				border: 1px solid rgba(111, 177, 252, 0.2);
 				border-radius: 100px;
 				color: var(--accent);
-				font-size: 0.85rem;
+				font-size: 0.8rem;
 				font-weight: 700;
-				margin-bottom: 2rem;
+				margin-bottom: 2.5rem;
 				text-transform: uppercase;
-				letter-spacing: 0.05em;
+				letter-spacing: 0.1em;
+				backdrop-filter: blur(8px);
 			}
 			.gradient-text {
-				background: linear-gradient(to right, #6FB1FC, #ACE0F9, #23d5ab);
+				background: linear-gradient(135deg, #fff 0%, var(--accent-light) 50%, var(--accent) 100%);
 				-webkit-background-clip: text;
 				background-clip: text;
 				-webkit-text-fill-color: transparent;
 			}
 			.hero h1 {
-				font-size: 4.5rem;
+				font-size: clamp(2.5rem, 8vw, 5rem);
 				line-height: 1.1;
-				margin-bottom: 1.5rem;
+				margin-bottom: 2rem;
+				font-weight: 800;
+				letter-spacing: -0.04em;
 			}
 			.hero-subtitle {
-				font-size: 1.25rem;
+				font-size: 1.35rem;
 				color: var(--gray);
 				line-height: 1.6;
-				margin-bottom: 3rem;
+				margin-bottom: 3.5rem;
+				max-width: 700px;
+				margin-left: auto;
+				margin-right: auto;
 			}
 			.cta-group {
 				display: flex;
@@ -91,60 +98,102 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			.primary-btn {
 				background: var(--accent);
 				color: #000;
-				padding: 1rem 2rem;
-				border-radius: 12px;
+				padding: 1.2rem 2.5rem;
+				border-radius: 14px;
 				font-weight: 700;
 				text-decoration: none;
-				transition: transform 0.2s;
+				transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+				box-shadow: 0 10px 20px -5px rgba(111, 177, 252, 0.3);
 			}
 			.secondary-btn {
-				background: rgba(255, 255, 255, 0.05);
+				background: rgba(255, 255, 255, 0.03);
 				border: 1px solid var(--glass-border);
 				color: #fff;
-				padding: 1rem 2rem;
-				border-radius: 12px;
+				padding: 1.2rem 2.5rem;
+				border-radius: 14px;
 				font-weight: 700;
 				text-decoration: none;
+				transition: all 0.3s ease;
+				backdrop-filter: blur(10px);
 			}
-			.primary-btn:hover { transform: scale(1.05); }
+			.primary-btn:hover { 
+				transform: translateY(-4px) scale(1.02);
+				box-shadow: 0 15px 30px -5px rgba(111, 177, 252, 0.4);
+			}
+			.secondary-btn:hover {
+				background: rgba(255, 255, 255, 0.06);
+				border-color: rgba(255, 255, 255, 0.2);
+			}
 
 			.featured-sections {
-				padding: 6rem 0;
+				padding: 8rem 0;
 			}
 			.featured-sections h2 {
 				text-align: center;
-				margin-bottom: 3rem;
-				font-size: 2.5rem;
+				margin-bottom: 4rem;
+				font-size: 3rem;
+				font-weight: 800;
+				letter-spacing: -0.03em;
 			}
 			.bento-grid {
 				display: grid;
 				grid-template-columns: repeat(3, 1fr);
-				grid-auto-rows: minmax(200px, auto);
-				gap: 1.5rem;
+				grid-auto-rows: minmax(280px, auto);
+				gap: 2rem;
 			}
 			.bento-item {
-				padding: 2.5rem;
-				border-radius: 32px;
-				border: var(--card-border);
-				background: var(--glass);
-				backdrop-filter: blur(15px);
-				transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+				padding: 3rem;
+				text-decoration: none;
+				color: inherit;
 				display: flex;
 				flex-direction: column;
 				justify-content: flex-end;
-				text-decoration: none;
-				color: inherit;
+				transition: var(--transition);
+				position: relative;
+				overflow: hidden;
 			}
-			.bento-item:nth-child(1) { grid-column: span 2; }
+			@media (min-width: 721px) {
+				.bento-item:nth-child(1) { grid-column: span 2; }
+			}
 			.bento-item:hover {
-				border-color: var(--accent);
+				border-color: rgba(96, 165, 250, 0.4);
 				transform: translateY(-8px);
-				box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+				box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6), 0 0 20px var(--accent-glow);
+				background: rgba(15, 23, 42, 0.75);
 			}
 			.bento-item h3 {
 				margin-top: 0;
-				font-size: 1.5rem;
+				font-size: 1.75rem;
+				color: #fff;
+				margin-bottom: 0.75rem;
+				transition: var(--transition);
+			}
+			.bento-item p {
+				color: var(--gray);
+				margin: 0;
+				line-height: 1.6;
+				font-size: 1.05rem;
+			}
+			.bento-item:hover h3 {
 				color: var(--accent);
+				transform: translateX(4px);
+			}
+
+			.tool-highlight {
+				background: linear-gradient(145deg, rgba(111, 177, 252, 0.15) 0%, rgba(15, 23, 42, 0.4) 100%);
+				border-color: rgba(111, 177, 252, 0.3) !important;
+			}
+			.tool-highlight .tag {
+				position: absolute;
+				top: 1.5rem;
+				right: 1.5rem;
+				background: var(--accent);
+				color: #000;
+				padding: 0.3rem 0.8rem;
+				border-radius: 100px;
+				font-size: 0.75rem;
+				font-weight: 800;
+				text-transform: uppercase;
 			}
 
 			@media (max-width: 720px) {

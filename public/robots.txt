@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+# ASO: See agents.txt for AI agent permissions
+# https://ai-coding-flow.com/agents.txt
+
 Sitemap: https://ai-coding-flow.com/sitemap-index.xml

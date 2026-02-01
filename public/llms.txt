@@ -1,0 +1,14 @@
+# Super Individual - AI Coding Hub
+
+> The central knowledge hub for "Super Individuals" — developers leveraging AI to act as an entire tech team.
+
+## Overview
+This site hosts technical articles, benchmarks, and guides on AI-assisted programming, ASO (AI Search Optimization), and full-stack development with agents.
+
+## Navigation
+- [Home](https://ai-coding-flow.com/)
+- [Blog](https://ai-coding-flow.com/blog)
+
+## Resources for LLMs
+- [Full Content Bundle (Context Window Optimized)](https://ai-coding-flow.com/llms-full.txt)
+- [Agents Permissions](https://ai-coding-flow.com/agents.txt)

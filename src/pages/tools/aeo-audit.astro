@@ -1,0 +1,463 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+export const prerender = false;
+
+const pageTitle = "AEO Auditor | AI Search Optimization Analyzer";
+const pageDesc = "Analyze your website's compatibility with AI-powered search engines. Get actionable insights to improve visibility in ChatGPT, Perplexity, and other LLM-based answer engines.";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={pageTitle} description={pageDesc} />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+        
+        <style is:global>
+            main { width: 100% !important; max-width: 100% !important; margin: 0 !important; padding: 0 !important; }
+
+            #psi-root {
+                --good: #0cce6b;
+                --fair: #ffa400;
+                --poor: #ff4e42;
+                --bg: #0f172a;
+                --card-bg: rgba(30, 41, 59, 0.5);
+                --text: #f1f5f9;
+                --text-secondary: #94a3b8;
+                --border: rgba(148, 163, 184, 0.2);
+                --blue: #3b82f6;
+                
+                background: var(--bg);
+                background-image: radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.1) 0px, transparent 50%);
+                min-height: 100vh;
+                font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+                color: var(--text);
+                padding-top: 10rem;
+            }
+
+            .psi-container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
+
+            /* Landing State */
+            .landing { text-align: center; padding: 6rem 0; }
+            .landing h1 { font-size: 2.5rem; font-weight: 600; margin: 0 0 0.75rem; color: var(--text); }
+            .landing p { color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 3rem; }
+
+            .search-box {
+                display: flex;
+                max-width: 600px;
+                margin: 0 auto;
+                background: var(--card-bg);
+                border: 1px solid var(--border);
+                border-radius: 16px;
+                overflow: hidden;
+                transition: all 0.2s;
+            }
+            .search-box:focus-within { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2); }
+            .search-box input {
+                flex: 1;
+                border: none;
+                padding: 1rem 1.5rem;
+                font-size: 1rem;
+                outline: none;
+                background: transparent;
+                color: var(--text);
+            }
+            .search-box input::placeholder { color: var(--text-secondary); }
+            .search-box button {
+                background: var(--blue);
+                border: none;
+                color: #fff;
+                padding: 0 2rem;
+                font-weight: 600;
+                cursor: pointer;
+                transition: background 0.2s;
+            }
+            .search-box button:hover { background: #2563eb; }
+
+            /* Results State */
+            #results { display: none; }
+
+            .result-header {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                padding: 1.5rem 0;
+                border-bottom: 1px solid var(--border);
+                margin-bottom: 2rem;
+            }
+            .result-url {
+                font-family: 'Roboto Mono', monospace;
+                font-size: 0.9rem;
+                color: var(--text-secondary);
+                flex: 1;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .rerun-btn {
+                background: transparent;
+                border: 1px solid var(--border);
+                padding: 0.5rem 1rem;
+                border-radius: 8px;
+                font-size: 0.85rem;
+                cursor: pointer;
+                color: var(--blue);
+                font-weight: 500;
+                transition: all 0.2s;
+            }
+            .rerun-btn:hover { background: rgba(59, 130, 246, 0.1); border-color: var(--blue); }
+
+            /* Score Gauges Row */
+            .gauges-row {
+                display: flex;
+                justify-content: center;
+                gap: 3rem;
+                margin-bottom: 3rem;
+                flex-wrap: wrap;
+            }
+            .gauge-item { text-align: center; }
+            .gauge-circle {
+                position: relative;
+                width: 96px;
+                height: 96px;
+                margin: 0 auto 0.75rem;
+            }
+            .gauge-svg { 
+                transform: rotate(-90deg); 
+                width: 100%; 
+                height: 100%; 
+                display: block;
+            }
+            .gauge-track { fill: none; stroke: rgba(148, 163, 184, 0.2); stroke-width: 6; }
+            .gauge-fill { fill: none; stroke-width: 6; stroke-linecap: round; transition: stroke-dashoffset 1s ease; }
+            .gauge-value {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 1.1rem;
+                font-weight: 700;
+                line-height: 1;
+                white-space: nowrap;
+            }
+            .gauge-label { font-size: 0.85rem; color: var(--text-secondary); font-weight: 500; }
+
+            /* Category Sections */
+            .category-section { margin-bottom: 2rem; }
+            .category-header {
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+                padding: 1rem 0;
+                border-bottom: 1px solid var(--border);
+                margin-bottom: 0.5rem;
+            }
+            .cat-icon { width: 28px; height: 28px; border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+            .cat-icon svg { width: 16px; height: 16px; }
+            .cat-title { font-size: 1.1rem; font-weight: 600; flex: 1; }
+            .cat-score { font-size: 0.9rem; color: var(--text-secondary); font-family: 'Roboto Mono', monospace; }
+
+            /* Audit Items */
+            .audit-list { display: flex; flex-direction: column; }
+            .audit-row {
+                display: flex;
+                align-items: flex-start;
+                gap: 1rem;
+                padding: 1rem;
+                margin: 0 -1rem;
+                border-radius: 12px;
+                cursor: pointer;
+                transition: background 0.2s;
+            }
+            .audit-row:hover { background: rgba(148, 163, 184, 0.05); }
+            .audit-status {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                margin-top: 6px;
+                flex-shrink: 0;
+            }
+            .status-pass { background: var(--good); box-shadow: 0 0 8px var(--good); }
+            .status-fail { background: var(--poor); box-shadow: 0 0 8px var(--poor); }
+            .status-warning { background: var(--fair); box-shadow: 0 0 8px var(--fair); }
+            
+            .audit-info { flex: 1; }
+            .audit-name { font-weight: 600; margin-bottom: 0.25rem; }
+            .audit-desc { font-size: 0.875rem; color: var(--text-secondary); line-height: 1.5; }
+
+            .audit-expand { color: var(--text-secondary); transition: transform 0.2s; }
+            .audit-row.open .audit-expand { transform: rotate(180deg); }
+
+            /* Expanded Details */
+            .audit-details { display: none; padding: 1rem 0 1rem 1.75rem; }
+            .audit-row.open + .audit-details { display: block; }
+            
+            .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+            .detail-box { background: var(--card-bg); padding: 1rem; border-radius: 12px; border: 1px solid var(--border); }
+            .detail-label { font-size: 0.7rem; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+            .detail-text { font-size: 0.9rem; line-height: 1.6; color: var(--text); }
+
+            .fix-section { background: rgba(59, 130, 246, 0.1); padding: 1rem; border-radius: 12px; border-left: 3px solid var(--blue); }
+            .fix-title { font-size: 0.7rem; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+            .fix-text { font-size: 0.9rem; margin-bottom: 1rem; line-height: 1.5; }
+            .fix-code { background: #0a0f1d; color: #e2e8f0; padding: 1rem; border-radius: 8px; font-family: 'Roboto Mono', monospace; font-size: 0.8rem; overflow-x: auto; margin-bottom: 1rem; border: 1px solid rgba(148, 163, 184, 0.1); }
+            .copy-btn { background: var(--blue); color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 8px; font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: 0.2s; }
+            .copy-btn:hover { background: #2563eb; }
+
+            /* Loading */
+            .loader-overlay {
+                display: none;
+                position: fixed;
+                inset: 0;
+                background: rgba(15, 23, 42, 0.95);
+                z-index: 1000;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .loader-spinner {
+                width: 48px;
+                height: 48px;
+                border: 3px solid rgba(148, 163, 184, 0.2);
+                border-top-color: var(--blue);
+                border-radius: 50%;
+                animation: spin 1s linear infinite;
+            }
+            @keyframes spin { 100% { transform: rotate(360deg); } }
+            .loader-text { margin-top: 1.5rem; color: var(--text-secondary); font-size: 0.9rem; }
+
+            /* Legend */
+            .legend {
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+                padding: 1.5rem 0;
+                border-top: 1px solid var(--border);
+                margin-top: 3rem;
+            }
+            .legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: var(--text-secondary); }
+            .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+            @media (max-width: 768px) {
+                #psi-root { padding-top: 8rem; }
+                .landing h1 { font-size: 1.75rem; }
+                .gauges-row { gap: 1.5rem; }
+                .gauge-circle { width: 80px; height: 80px; }
+                .gauge-value { font-size: 1.5rem; }
+                .detail-grid { grid-template-columns: 1fr; }
+            }
+        </style>
+	</head>
+	<body>
+		<Header />
+		<main id="psi-root">
+            <div class="psi-container">
+                <!-- Landing State -->
+                <div class="landing" id="landing">
+                    <h1>AEO Auditor</h1>
+                    <p>Analyze your site's visibility to AI-powered search engines</p>
+                    <div class="search-box">
+                        <input type="url" id="urlInput" placeholder="Enter a web page URL" onkeydown="if(event.key==='Enter')runAudit()" />
+                        <button id="analyzeBtn" onclick="runAudit()">Analyze</button>
+                    </div>
+                </div>
+
+                <!-- Results State -->
+                <div id="results">
+                    <div class="result-header">
+                        <span class="result-url" id="resultUrl">-</span>
+                        <button class="rerun-btn" onclick="location.reload()">Run Again</button>
+                    </div>
+
+                    <!-- Score Gauges -->
+                    <div class="gauges-row">
+                        <div class="gauge-item">
+                            <div class="gauge-circle">
+                                <svg class="gauge-svg" viewBox="0 0 96 96">
+                                    <circle class="gauge-track" cx="48" cy="48" r="42" />
+                                    <circle class="gauge-fill" id="gaugeTech" cx="48" cy="48" r="42" stroke-dasharray="264" stroke-dashoffset="264" />
+                                </svg>
+                                <span class="gauge-value" id="valTech">0</span>
+                            </div>
+                            <div class="gauge-label">Technical</div>
+                        </div>
+                        <div class="gauge-item">
+                            <div class="gauge-circle">
+                                <svg class="gauge-svg" viewBox="0 0 96 96">
+                                    <circle class="gauge-track" cx="48" cy="48" r="42" />
+                                    <circle class="gauge-fill" id="gaugeCtx" cx="48" cy="48" r="42" stroke-dasharray="264" stroke-dashoffset="264" />
+                                </svg>
+                                <span class="gauge-value" id="valCtx">0</span>
+                            </div>
+                            <div class="gauge-label">Context</div>
+                        </div>
+                        <div class="gauge-item">
+                            <div class="gauge-circle">
+                                <svg class="gauge-svg" viewBox="0 0 96 96">
+                                    <circle class="gauge-track" cx="48" cy="48" r="42" />
+                                    <circle class="gauge-fill" id="gaugeSem" cx="48" cy="48" r="42" stroke-dasharray="264" stroke-dashoffset="264" />
+                                </svg>
+                                <span class="gauge-value" id="valSem">0</span>
+                            </div>
+                            <div class="gauge-label">Semantics</div>
+                        </div>
+                    </div>
+
+                    <!-- Audit Sections -->
+                    <div id="auditSections"></div>
+
+                    <div class="legend">
+                        <div class="legend-item"><div class="legend-dot" style="background: var(--good)"></div> Passed</div>
+                        <div class="legend-item"><div class="legend-dot" style="background: var(--fair)"></div> Needs Improvement</div>
+                        <div class="legend-item"><div class="legend-dot" style="background: var(--poor)"></div> Failed</div>
+                    </div>
+                </div>
+            </div>
+		</main>
+		<Footer />
+
+        <div class="loader-overlay" id="loader">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">Analyzing...</div>
+        </div>
+
+        <script is:inline>
+            const esc = (t) => t ? t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') : '';
+            const getColor = (pct) => pct >= 80 ? '#0cce6b' : (pct >= 50 ? '#ffa400' : '#ff4e42');
+            const circ = 2 * Math.PI * 42;
+
+            function toggleRow(id) {
+                document.getElementById(id).classList.toggle('open');
+            }
+
+            function copyCode(code, el) {
+                navigator.clipboard.writeText(code).then(() => {
+                    const old = el.textContent;
+                    el.textContent = 'Copied!';
+                    setTimeout(() => el.textContent = old, 1500);
+                });
+            }
+
+            let isRunning = false;
+            async function runAudit() {
+                if (isRunning) return;
+                
+                const input = document.getElementById('urlInput');
+                const btn = document.getElementById('analyzeBtn');
+                const loader = document.getElementById('loader');
+                const landing = document.getElementById('landing');
+                const results = document.getElementById('results');
+                
+                const url = input.value.trim();
+                if (!url) return;
+
+                isRunning = true;
+                btn.disabled = true;
+                loader.style.display = 'flex';
+
+                try {
+                    const res = await fetch(`/api/analyze?url=${encodeURIComponent(url)}`);
+                    const data = await res.json();
+                    if (data.error) throw new Error(data.error);
+
+                    landing.style.display = 'none';
+                    results.style.display = 'block';
+                    document.getElementById('resultUrl').textContent = data.url;
+
+                    const techPct = (data.categoryScores.technical / data.categoryMaxScores.technical) * 100;
+                    const ctxPct = (data.categoryScores.context / data.categoryMaxScores.context) * 100;
+                    const semPct = (data.categoryScores.semantics / data.categoryMaxScores.semantics) * 100;
+
+                    setTimeout(() => {
+                        document.getElementById('gaugeTech').style.strokeDashoffset = circ - (techPct / 100) * circ;
+                        document.getElementById('gaugeTech').style.stroke = getColor(techPct);
+                        document.getElementById('valTech').textContent = `${data.categoryScores.technical}/${data.categoryMaxScores.technical}`;
+                        document.getElementById('valTech').style.color = getColor(techPct);
+
+                        document.getElementById('gaugeCtx').style.strokeDashoffset = circ - (ctxPct / 100) * circ;
+                        document.getElementById('gaugeCtx').style.stroke = getColor(ctxPct);
+                        document.getElementById('valCtx').textContent = `${data.categoryScores.context}/${data.categoryMaxScores.context}`;
+                        document.getElementById('valCtx').style.color = getColor(ctxPct);
+
+                        document.getElementById('gaugeSem').style.strokeDashoffset = circ - (semPct / 100) * circ;
+                        document.getElementById('gaugeSem').style.stroke = getColor(semPct);
+                        document.getElementById('valSem').textContent = `${data.categoryScores.semantics}/${data.categoryMaxScores.semantics}`;
+                        document.getElementById('valSem').style.color = getColor(semPct);
+                    }, 100);
+
+                    const cats = ['Technical', 'Context', 'Semantics'];
+                    const icons = {
+                        'Technical': '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.49.49 0 00.12-.61l-1.92-3.32a.49.49 0 00-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 00-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96a.49.49 0 00-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58a.49.49 0 00-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>',
+                        'Context': '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>',
+                        'Semantics': '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>'
+                    };
+
+                    document.getElementById('auditSections').innerHTML = cats.map(cat => {
+                        const items = data.checks.filter(c => c.category === cat);
+                        if (!items.length) return '';
+                        const catScore = items.reduce((a, c) => a + c.score, 0);
+                        const catMax = items.reduce((a, c) => a + c.maxScore, 0);
+                        const catColor = getColor((catScore / catMax) * 100);
+
+                        return `
+                            <div class="category-section">
+                                <div class="category-header">
+                                    <div class="cat-icon" style="background: ${catColor}20; color: ${catColor}">${icons[cat]}</div>
+                                    <span class="cat-title">${cat}</span>
+                                    <span class="cat-score">${catScore}/${catMax}</span>
+                                </div>
+                                <div class="audit-list">
+                                    ${items.map((item, idx) => {
+                                        const id = `row-${cat}-${idx}`;
+                                        const statusClass = item.status === 'pass' ? 'status-pass' : (item.status === 'warning' ? 'status-warning' : 'status-fail');
+                                        return `
+                                            <div class="audit-row" id="${id}" onclick="toggleRow('${id}')">
+                                                <div class="audit-status ${statusClass}"></div>
+                                                <div class="audit-info">
+                                                    <div class="audit-name">${esc(item.name)}</div>
+                                                    <div class="audit-desc">${esc(item.details)}</div>
+                                                </div>
+                                                <svg class="audit-expand" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                                            </div>
+                                            <div class="audit-details">
+                                                <div class="detail-grid">
+                                                    <div class="detail-box">
+                                                        <div class="detail-label">Finding</div>
+                                                        <div class="detail-text">${esc(item.details)}</div>
+                                                    </div>
+                                                    <div class="detail-box">
+                                                        <div class="detail-label">Recommendation</div>
+                                                        <div class="detail-text">${esc(item.advice)}</div>
+                                                    </div>
+                                                </div>
+                                                ${item.status !== 'pass' && item.developerPrompt ? `
+                                                    <div class="fix-section">
+                                                        <div class="fix-title">How to Fix</div>
+                                                        <div class="fix-text">${esc(item.developerPrompt)}</div>
+                                                        ${item.fixCode ? `<pre class="fix-code">${esc(item.fixCode)}</pre>` : ''}
+                                                        <button class="copy-btn" onclick="event.stopPropagation(); copyCode(\`${(item.fixCode || item.developerPrompt).replace(/`/g, '\\`')}\`, this)">Copy to Clipboard</button>
+                                                    </div>
+                                                ` : ''}
+                                            </div>
+                                        `;
+                                    }).join('')}
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+
+                } catch (e) {
+                    alert('Error: ' + e.message);
+                } finally {
+                    loader.style.display = 'none';
+                    btn.disabled = false;
+                    isRunning = false;
+                }
+            }
+        </script>
+	</body>
+</html>

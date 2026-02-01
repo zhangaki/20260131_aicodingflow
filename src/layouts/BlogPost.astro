@@ -8,27 +8,25 @@ import Header from '../components/Header.astro';
 import AffiliateCard from '../components/AffiliateCard.astro';
 import SocialShare from '../components/SocialShare.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
-
-const props = Astro.props.frontmatter || Astro.props;
-const { title, description, updatedDate, heroImage } = props;
-const pubDate = new Date(props.pubDate);
+const { post } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage } = post.data;
+const displayDate = pubDate instanceof Date ? pubDate : new Date(pubDate);
 
 // Calculate Reading Time (rough estimation)
-const wordCount = 1000;
+const wordCount = 1200; 
 const readingTime = Math.ceil(wordCount / 200);
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={description} image={heroImage} />
 		<script type="application/ld+json" set:html={JSON.stringify({
 			"@context": "https://schema.org",
 			"@type": "BlogPosting",
 			"headline": title,
 			"image": [heroImage],
-			"datePublished": pubDate.toISOString(),
-			"dateModified": updatedDate ? new Date(updatedDate).toISOString() : pubDate.toISOString(),
+			"datePublished": !isNaN(displayDate.getTime()) ? displayDate.toISOString() : new Date().toISOString(),
+			"dateModified": updatedDate && !isNaN(new Date(updatedDate).getTime()) ? new Date(updatedDate).toISOString() : (!isNaN(displayDate.getTime()) ? displayDate.toISOString() : new Date().toISOString()),
 			"author": [{
 				"@type": "Person",
 				"name": "Super Individual AI",
@@ -51,57 +49,69 @@ const readingTime = Math.ceil(wordCount / 200);
 				box-shadow: var(--box-shadow);
 			}
 			.prose {
-				width: 720px;
+				width: 800px;
 				max-width: calc(100% - 2em);
 				margin: auto;
-				padding: 2em;
+				padding: 3rem;
 				color: var(--gray-dark);
 				background: var(--glass);
 				backdrop-filter: blur(20px);
-				border-radius: 32px;
+				-webkit-backdrop-filter: blur(20px);
+				border-radius: 40px;
 				border: var(--card-border);
 				box-shadow: var(--box-shadow);
-				margin-top: -5rem;
+				margin-top: -6rem;
 				position: relative;
 				z-index: 10;
 			}
 			.breadcrumb {
-				font-size: 0.85rem;
+				font-size: 0.8rem;
 				color: #fff;
-				margin-bottom: 1rem;
+				margin-bottom: 1.5rem;
 				display: flex;
 				gap: 0.8rem;
-				background: rgba(255, 255, 255, 0.05);
-				padding: 0.5rem 1rem;
-				border-radius: 50px;
+				background: rgba(255, 255, 255, 0.03);
+				padding: 0.4rem 1rem;
+				border-radius: 100px;
 				width: fit-content;
-				border: 1px solid rgba(255, 255, 255, 0.1);
+				border: 1px solid rgba(255, 255, 255, 0.08);
+				font-weight: 600;
+				letter-spacing: 0.02em;
 			}
 			.breadcrumb a {
 				color: var(--gray);
 				text-decoration: none;
+				transition: color 0.2s;
 			}
 			.breadcrumb a:hover {
 				color: var(--accent);
 			}
 			.reading-time {
 				margin-left: 0.5rem;
-				opacity: 0.6;
+				opacity: 0.7;
+				font-weight: 500;
 			}
 			.title {
-				margin-bottom: 2rem;
+				margin-bottom: 2.5rem;
 				padding: 0;
-				text-align: center;
-				line-height: 1.2;
+				text-align: left;
 			}
 			.title h1 {
 				margin: 0;
-				font-size: 2.5rem;
-				line-height: 1.2;
+				font-size: 3rem;
+				line-height: 1.1;
+				font-weight: 800;
+				letter-spacing: -0.03em;
+				background: linear-gradient(135deg, #fff 0%, var(--accent-light) 100%);
+				-webkit-background-clip: text;
+				background-clip: text;
+				-webkit-text-fill-color: transparent;
 			}
 			.date {
-				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
+				margin-bottom: 0.75rem;
+				color: var(--gray);
+				font-weight: 600;
+				font-size: 0.95rem;
 			}
 			.last-updated-on {
 				font-style: italic;
@@ -112,9 +122,10 @@ const readingTime = Math.ceil(wordCount / 200);
 					padding: 1.5em;
 					margin-top: -2rem;
 					border-radius: 20px;
+					overflow-x: hidden;
 				}
 				.title h1 {
-					font-size: 2.5rem;
+					font-size: 2rem;
 				}
 			}
 		</style>
@@ -125,7 +136,7 @@ const readingTime = Math.ceil(wordCount / 200);
 		<main>
 			<article>
 				<div class="hero-image">
-					{heroImage && <img width={1020} height={510} src={heroImage} alt="" loading="lazy" decoding="async" />}
+					{heroImage && <img width={1020} height={510} src={heroImage} alt={title} loading="lazy" decoding="async" />}
 				</div>
 				<div class="prose">
 					<nav class="breadcrumb">
@@ -135,7 +146,7 @@ const readingTime = Math.ceil(wordCount / 200);
 					</nav>
 					<div class="title">
 						<div class="date">
-							<FormattedDate date={pubDate} />
+							<FormattedDate date={displayDate} />
 							<span class="reading-time">• {readingTime} min read</span>
 							{
 								updatedDate && (
@@ -144,7 +155,7 @@ const readingTime = Math.ceil(wordCount / 200);
 									</div>
 								)
 							}
-						</div>
+							</div>
 						<h1>{title}</h1>
 					</div>
 					<slot />
@@ -153,5 +164,19 @@ const readingTime = Math.ceil(wordCount / 200);
 			</article>
 		</main>
 		<Footer />
+		<script>
+			// Wrap tables in scrollable container for mobile
+			document.querySelectorAll('.prose table').forEach(table => {
+				if (!table.parentElement?.classList.contains('table-scroll')) {
+					const wrapper = document.createElement('div');
+					wrapper.className = 'table-scroll';
+					wrapper.style.cssText = 'width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:2rem 0;';
+					table.parentNode?.insertBefore(wrapper, table);
+					wrapper.appendChild(table);
+					table.style.margin = '0';
+					table.style.minWidth = '600px';
+				}
+			});
+		</script>
 	</body>
 </html>

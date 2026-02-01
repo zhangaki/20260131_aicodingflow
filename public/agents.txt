@@ -1,0 +1,26 @@
+# ASO 2.0 - Agent Permissions & Instructions
+# This file is designed to be read by AI Agents to understand access permissions.
+
+# Welcome major LLM web crawlers to index our content for RAG
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# General permission
+User-agent: *
+Allow: /
+
+# Sitemap for Agents (Standard sitemap for now, LLMs can use sitemap.xml)
+Sitemap: https://ai-coding-flow.com/sitemap-index.xml
+
+# LLM-optimized content bundle
+Disallow: 
+Allow: /llms-full.txt

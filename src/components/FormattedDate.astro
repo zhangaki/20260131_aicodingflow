@@ -6,12 +6,18 @@ interface Props {
 const { date } = Astro.props;
 ---
 
-<time datetime={date.toISOString()}>
-	{
-		date.toLocaleDateString('en-us', {
-			year: 'numeric',
-			month: 'short',
-			day: 'numeric',
-		})
-	}
-</time>
+{
+	!isNaN(date.getTime()) ? (
+		<time datetime={date.toISOString()}>
+			{
+				date.toLocaleDateString('en-us', {
+					year: 'numeric',
+					month: 'short',
+					day: 'numeric',
+				})
+			}
+		</time>
+	) : (
+		<span>Invalid Date</span>
+	)
+}
