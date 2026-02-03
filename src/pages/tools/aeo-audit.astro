@@ -440,10 +440,14 @@ const pageDesc = "Audit your website for the AI era. Check your visibility in Ch
             @keyframes pulse { 50% { opacity: 0.5; } }
 
             @media (max-width: 800px) {
+                .dashboard-container { padding: 6rem 1rem 2rem; }
                 .landing h1 { font-size: 2.5rem; }
-                .metrics-grid { grid-template-columns: 1fr; }
+                .metrics-grid { grid-template-columns: 1fr; gap: 1.5rem; }
                 .detail-grid { grid-template-columns: 1fr; }
-                .audit-body { padding-left: 1.5rem; }
+                .audit-body { padding-left: 0; padding-top: 1rem; }
+                .audit-header { flex-wrap: wrap; gap: 1rem; }
+                .status-dot { margin-top: 6px; }
+                .audit-summary { min-width: 200px; }
             }
         </style>
 	</head>

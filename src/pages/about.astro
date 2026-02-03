@@ -231,7 +231,23 @@ import Layout from '../layouts/BlogPost.astro';
     }
 
 	@media (max-width: 600px) {
-		.stats-grid { grid-template-columns: 1fr; }
-        .agent-grid { grid-template-columns: 1fr; }
+		.stats-grid { 
+            grid-template-columns: 1fr; 
+            gap: 1rem;
+        }
+        .agent-grid { 
+            grid-template-columns: 1fr; 
+        }
+        .mission-statement {
+            font-size: 1.1rem;
+            padding-left: 1rem;
+            margin-bottom: 2rem;
+        }
+        .cta-box {
+            padding: 1.5rem;
+        }
+        .cta-box h4 {
+            font-size: 1.5rem;
+        }
 	}
 </style>

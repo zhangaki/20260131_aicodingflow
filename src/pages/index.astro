@@ -588,9 +588,63 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			}
 
 			@media (max-width: 720px) {
-				.hero h1 { font-size: 3rem; }
-				.bento-grid { grid-template-columns: 1fr; }
+				.hero { 
+                    padding: 6rem 1rem 3rem 1rem; /* Restore padding on mobile to clear header */
+                }
+                .hero h1 { 
+                    font-size: 2.8rem; /* Smaller H1 */
+                    margin-bottom: 1rem;
+                }
+                .hero-subtitle {
+                    font-size: 1.1rem;
+                    padding: 0 1rem;
+                }
+                .cta-group {
+                    flex-direction: column; /* Stack buttons */
+                    gap: 0.8rem;
+                    padding: 0;
+                    align-items: center; /* Center align items */
+                }
+                .primary-btn, .secondary-btn {
+                    width: 100%; 
+                    max-width: 300px; /* Prevent being too wide */
+                    text-align: center;
+                    padding: 0.9rem 1.5rem; /* Slimmer buttons */
+                    font-size: 1rem;
+                }
+                
+                /* Trusted By Mobile */
+                .trusted-by { margin-top: 3rem; }
+                .logo-row { gap: 1.5rem; transform: scale(0.9); }
+                
+				.bento-grid { 
+                    grid-template-columns: 1fr; 
+                    padding: 0 1.5rem;
+                    grid-auto-rows: auto; /* Allow flexible height */
+                    gap: 1rem;
+                }
+                .bento-item {
+                    min-height: auto; /* Remove tall fixed height */
+                    padding: 1.5rem; /* Reduce padding */
+                    gap: 0.5rem; /* Reduce gap between elements */
+                }
+                .bento-item h3 {
+                    font-size: 1.4rem;
+                    margin-bottom: 0.2rem;
+                }
+                .bento-item p {
+                    font-size: 0.9rem;
+                }
                 .bento-item:nth-child(1) { grid-column: span 1; }
+                
+                /* Marquee Mobile Adjustments */
+                .review-card {
+                    width: 260px; /* Smaller cards */
+                    padding: 1.2rem;
+                }
+                .testimonials-section {
+                    mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent); /* Wider visibility */
+                }
 			}
 
             /* Testimonials Marquee */

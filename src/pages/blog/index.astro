@@ -81,6 +81,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
             }
             .search-input {
                 width: 100%;
+                box-sizing: border-box; /* Force padding to be included in width */
                 background: rgba(0, 0, 0, 0.3);
                 border: 1px solid var(--border-color);
                 padding: 0.75rem 1rem 0.75rem 2.8rem;
@@ -264,16 +265,67 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
             }
 
 			@media (max-width: 768px) {
-                main { width: 100%; padding: 1rem; }
-				ul { grid-template-columns: 1fr; }
+                :root {
+                    --page-padding: 1rem;
+                }
+                body, html { overflow-x: hidden; }
+                main { 
+                    width: 100%; 
+                    padding: var(--page-padding); 
+                    max-width: 100vw; 
+                    overflow-x: hidden; 
+                    box-sizing: border-box;
+                }
+                
+				ul { 
+                    display: flex; 
+                    flex-direction: column; 
+                    gap: 1.5rem; 
+                }
+
+                /* Revert to Contained Card style for safety */
                 .controls-sticky-wrapper {
+                    box-sizing: border-box !important; /* THE MISSING LINK */
                     flex-direction: column;
                     align-items: stretch;
-                    top: 0.5rem;
-                    gap: 0.75rem;
+                    top: 1rem; 
+                    margin-left: 0; 
+                    margin-right: 0;
+                    width: 100%;
+                    border-radius: 16px; 
+                    border: 1px solid var(--border-color);
+                    gap: 1rem;
+                    padding: 1rem;
+                    max-width: 100%;
+                    overflow: hidden; /* Force cut-off */
                 }
+                
+                .search-wrapper { 
+                    width: 100%; 
+                    min-width: 0;
+                    box-sizing: border-box;
+                }
+                .search-input {
+                    box-sizing: border-box;
+                    width: 100%;
+                }
+                
                 .tags-scroll-container {
-                    padding-bottom: 0.5rem; /* Add padding for scrollbar space if needed */
+                    display: block !important; /* Disable flex behavior to prevent expansion */
+                    width: 100% !important; 
+                    max-width: 100% !important;
+                    overflow-x: auto !important;
+                    white-space: nowrap !important;
+                    flex: none !important;
+                    padding-bottom: 5px; /* Space for scrollbar */
+                    padding-right: 1rem;
+                    -webkit-overflow-scrolling: touch;
+                }
+                
+                /* Reset chip spacing for inline-block flow */
+                :global(.tag-chip) {
+                    display: inline-block !important;
+                    margin-right: 0.5rem;
                 }
                 .page-title { font-size: 2rem; }
 			}
