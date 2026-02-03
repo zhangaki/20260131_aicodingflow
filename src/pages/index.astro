@@ -187,17 +187,46 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 				<h2>Our Ecosystem</h2>
 				<div class="bento-grid">
 					<a href="/tools/aeo-audit" class="bento-item glass tool-card">
-						<div class="tag">Free Tool</div>
-						<h3>AEO Auditor 2.0</h3>
-						<p>Optimize your site for AI Search (Perplexity, ChatGPT). Get real-time scores and AI-powered fix prompts.</p>
+						<div class="card-content">
+                            <div class="tag">Free Tool</div>
+                            <div class="icon-wrap">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            </div>
+                            <h3>AEO Auditor 2.0</h3>
+                            <p>Optimize your site for AI Search (Perplexity, ChatGPT). Get real-time scores and AI-powered fix prompts.</p>
+                            <div class="card-highlights">
+                                <span>100% Free</span>
+                                <span>•</span>
+                                <span>Open Source</span>
+                                <span>•</span>
+                                <span>API Ready</span>
+                            </div>
+                        </div>
+                        <div class="card-visual">
+                            <img src="/assets/aeo-mockup.png" alt="Website Scan Mockup" class="mockup-img" />
+                            <div class="scan-animation"></div>
+                            <div class="scan-glow"></div>
+                        </div>
 					</a>
 					<a href="/blog" class="bento-item glass blog-card">
+                        <div class="icon-wrap">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                        </div>
 						<h3>Deep Guides</h3>
 						<p>Exhaustive breakdowns of AI workflows used by top 1% indie hackers.</p>
+                        <div class="card-highlights">
+                            <span>50+ Workflows</span>
+                        </div>
 					</a>
 					<a href="/about" class="bento-item glass about-card">
+                        <div class="icon-wrap">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                        </div>
 						<h3>Architecture</h3>
 						<p>See the code, agents, and pipelines powering this autonomous hub.</p>
+                        <div class="card-highlights">
+                            <span>Multi-LLM Mesh</span>
+                        </div>
 					</a>
 				</div>
 			</section>
@@ -356,47 +385,121 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
                 padding: 0 1rem;
 			}
 			.bento-item {
-				padding: 2.5rem;
+				padding: 2rem;
 				text-decoration: none;
 				color: inherit;
 				display: flex;
 				flex-direction: column;
-				justify-content: space-between;
+				justify-content: flex-start;
 				transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 				position: relative;
 				overflow: hidden;
                 border-radius: 24px;
                 background: rgba(15, 23, 42, 0.6);
-                /* Remove static border, we will use animated one */
                 border: 0; 
                 z-index: 1;
+                gap: 1.5rem;
 			}
-            /* The Flowing Border */
-            .bento-item::before, .review-card::before {
-                content: "";
+            .tool-card {
+                flex-direction: row !important;
+                align-items: center;
+                gap: 2rem;
+            }
+            .tool-card .card-content {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 0.8rem;
+            }
+            .tool-card .card-visual {
+                flex: 1.2;
+                height: 220px;
+                background: rgba(0, 0, 0, 0.2);
+                border-radius: 16px;
+                position: relative;
+                overflow: hidden;
+                border: 1px solid rgba(255, 255, 255, 0.05);
+                display: block; /* Always visible */
+            }
+
+            .mockup-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                opacity: 0.5;
+                filter: grayscale(0.5) contrast(1.2);
+                transition: all 0.5s ease;
+            }
+            .tool-card:hover .mockup-img {
+                opacity: 0.8;
+                filter: grayscale(0) contrast(1);
+                transform: scale(1.05);
+            }
+
+            .scan-animation {
                 position: absolute;
-                inset: 0;
-                border-radius: inherit;
-                padding: 1.5px; /* Border width */
-                background: conic-gradient(from 0deg, transparent 0%, var(--accent) 25%, transparent 50%, var(--accent) 75%, transparent 100%);
-                -webkit-mask: 
-                    linear-gradient(#fff 0 0) content-box, 
-                    linear-gradient(#fff 0 0);
-                -webkit-mask-composite: xor;
-                mask-composite: exclude;
-                z-index: -1;
-                animation: spin-border 4s linear infinite;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 3px;
+                background: linear-gradient(90deg, transparent, var(--accent), transparent);
+                box-shadow: 0 0 20px 2px var(--accent);
+                animation: scan 4s ease-in-out infinite;
+                z-index: 2;
+            }
+            .scan-glow {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(to bottom, transparent, rgba(111, 177, 252, 0.05), transparent);
+                animation: scan-glow 4s ease-in-out infinite;
+                z-index: 1;
+                pointer-events: none;
+            }
+            @keyframes scan {
+                0% { top: -5%; opacity: 0; }
+                10% { opacity: 1; }
+                90% { opacity: 1; }
+                100% { top: 105%; opacity: 0; }
+            }
+            @keyframes scan-glow {
+                0% { transform: translateY(-100%); }
+                100% { transform: translateY(100%); }
+            }
+
+            .icon-wrap {
+                width: 48px;
+                height: 48px;
+                background: rgba(148, 163, 184, 0.1);
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: var(--accent);
+                margin-bottom: 0.5rem;
+            }
+            .icon-wrap svg {
+                width: 24px;
+                height: 24px;
+            }
+
+            .card-highlights {
+                margin-top: 1rem;
+                display: flex;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+                font-size: 0.75rem;
+                font-weight: 600;
+                color: #64748b;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+            .card-highlights span:not(:last-child) {
                 opacity: 0.6;
             }
-            .bento-item::after {
-                /* Inner background tint to ensure readability */
-                content: "";
-                position: absolute;
-                inset: 1.5px;
-                border-radius: inherit;
-                background: rgba(15, 23, 42, 0.6);
-                z-index: -1;
-            }
+
             
             /* Review Card specific adjustments */
             .review-card {
@@ -556,10 +659,9 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
             }
             
 			.bento-item h3 {
-				margin-top: auto;
 				font-size: 1.8rem;
 				color: #fff;
-				margin-bottom: 0.5rem;
+				margin: 0;
                 font-weight: 700;
 			}
 			.bento-item p {
@@ -569,13 +671,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 				font-size: 1rem;
 			}
 
-			.tool-highlight {
-				background: linear-gradient(145deg, rgba(30, 58, 138, 0.4) 0%, rgba(15, 23, 42, 0.8) 100%);
-			}
 			.tool-highlight .tag {
-				position: absolute;
-				top: 1.5rem;
-				right: 1.5rem;
 				background: #3b82f6;
 				color: #fff;
 				padding: 0.4rem 1rem;
@@ -585,7 +681,10 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 				text-transform: uppercase;
                 letter-spacing: 0.05em;
                 box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+                width: fit-content;
+                margin-bottom: 1rem;
 			}
+
 
 			@media (max-width: 720px) {
 				.hero { 
@@ -624,9 +723,18 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
                     gap: 1rem;
                 }
                 .bento-item {
-                    min-height: auto; /* Remove tall fixed height */
-                    padding: 1.5rem; /* Reduce padding */
-                    gap: 0.5rem; /* Reduce gap between elements */
+                    min-height: auto;
+                    padding: 1.5rem;
+                    gap: 1.5rem; /* Consistent gap for mobile */
+                }
+                .tool-card {
+                    flex-direction: column !important; /* Stack vertically on mobile */
+                    align-items: stretch;
+                }
+                .tool-card .card-visual {
+                    height: 180px; /* Slimmer on mobile but still prominent */
+                    order: -1; /* Place image on top for mobile */
+                    width: 100%;
                 }
                 .bento-item h3 {
                     font-size: 1.4rem;
