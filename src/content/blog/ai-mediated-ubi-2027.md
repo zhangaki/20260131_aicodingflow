@@ -1,226 +1,236 @@
 ---
-title: 'The Dividend of Intelligence: Engineering AI-Mediated Universal Basic Income (daUBI) in 2027'
-description: 'If the state wont save us, our code must. A technical blueprint for decentralized Autonomous UBI—generating a living wage through agent swarms and data licensing.'
-pubDate: 'Feb 01 2026'
-heroImage: '/assets/ai-mediated-ubi.png'
+description: Autonomous intelligence trends and technical deep dives into the 2026-2030
+  landscape.
+heroImage: /assets/ai-mediated-ubi.jpg
+pubDate: Jan 03 2026
+tags:
+- Society & Ethics
+- Security
+- AI Agents
+- Dev Tools
+- Infrastructure
+title: 'The Generative Mirage: Unpacking the Production Nightmares of AI-Driven'
 ---
 
-The debate over Universal Basic Income (UBI) is typically political: *Should the government tax robots to pay humans?*
-In 2027, this debate is functionally irrelevant. The political process is too slow to catch up with the exponential curve of AI capability. The "Super Individual" doesn't wait for policy. We build **daUBI** (Decentralized Autonomous UBI).
+Forget breathless pronouncements of AI-driven UBI alternatives. As a CTO, I'm less interested in the utopian destination and far more concerned with the potholes that will shred our tires along the way. The dream of "Autonomous Affluence," fueled by generative AI agents, is seductive. But the reality, as always, is far more complex – and fraught with very specific, production-level challenges.
 
-The premise is straightforward: If AI generates wealth at zero marginal cost, every human should own an AI that captures a slice of that wealth.
-You don't need a check from the Treasury. You need an **Agent Swarm** that works while you sleep, arbitraging the inefficiencies of the machine economy.
+Let's dissect this "self-generating wealth" fantasy, not from a philosophical standpoint, but from the trenches of implementation. What happens when your perfectly crafted AI agent hits the unforgiving wall of real-world constraints?
 
-This article outlines the technical architecture of "Self-Sovereign Wealth"—using automated arbitrage, DeFi yield optimization, and data licensing to generate a $50,000/year floor for yourself.
+The issue isn't *can* AI generate content or execute DeFi strategies. It's *can it do so reliably, consistently, and without creating a support ticket avalanche?* This is about preempting failure modes, not daydreaming about passive income.
 
----
+### The Three Pillars of Potential Collapse (Instead of Affluence)
 
-## 1. The Architecture: Your "Silicon Subsistence" Stack
+The original vision painted a rosy picture with "Generative Creativity," "DeFi Alchemy," and "Data Synthesis & Enrichment" as the supporting pillars. Let's reframe those as prime failure points.
 
-In 2027, "Income" is not something you *earn* by trading time; it is something you *yield* by deploying intelligence.
-The goal is to deploy a set of agents that generate approximately $137/day (approx $50k/year) with zero human intervention after setup.
+1.  **Generative Creativity -> Generative Catastrophe:** Mass content hallucination, brand damage, and legal liabilities.
+2.  **DeFi Alchemy -> DeFi Disaster:** Smart contract exploits, impermanent loss amplified by AI overconfidence, and regulatory crackdowns.
+3.  **Data Synthesis & Enrichment -> Data Poisoning & Delusion:** Garbage in, garbage out, leading to flawed insights, biased models, and catastrophic decision-making.
 
-**The Three Pillars of daUBI**:
-1.  **Arbitrage Agents**: Exploiting inefficiencies in the Agent Economy (compute, bandwidth, storage).
-2.  **Liquidity Provisioning**: Automated DeFi market making with AI-driven range management.
-3.  **Data Licensing**: Selling your "Proof of Reality" (verified human experience) to model trainers who are starving for non-synthetic data.
+### The Hallucination Hazard: When Your AI Agent Goes Rogue
 
----
+The core promise of generative AI is content creation at scale. But scale doesn't matter if the content is unusable, inaccurate, or actively harmful.
 
-## 2. Pillar 1: The Micro-Arbitrage Swarm
+Imagine an AI agent tasked with creating marketing copy. Sounds simple, right? Except when it starts hallucinating product features, inventing fake testimonials, or inadvertently plagiarizing competitors.
 
-In a global economy of billions of agents, prices are never perfectly synced.
--   **Opportunity**: Agent A in Tokyo sells GPU inference for $0.05/hour. Agent B in New York needs inference and is willing to pay $0.051/hour.
--   **The Job**: Your agent spots the spread, buys from A, sells to B, and pockets $0.001.
--   **Scale**: Do this 100,000 times a day.
-
-**Technical Implementation**:
-We don't use high-level LLMs for this; they are too slow. We use lightweight scripts (Rust/Go) orchestrated by a Python controller.
+This isn't a theoretical problem. We've seen LLMs confidently assert demonstrable falsehoods. Now, amplify that across thousands of automatically generated assets, and you have a PR nightmare brewing.
 
 ```python
-# Conceptual Compute Arbitrage Logic
-import time
-import requests
-
-class ComputeArbitrageBot:
-    def __init__(self):
-        self.providers = {
-            "akash": "https://api.akash.network/v1/market",
-            "golem": "https://api.golem.network/v1/market",
-            "render": "https://api.render.network/v1/market"
-        }
-        self.min_spread_usd = 0.0005 # Minimum profit to trigger trade
-
-    def scan_markets(self):
-        # 1. Aggregating Order Books
-        gpu_type = "H100"
-        best_ask = self.get_lowest_ask(gpu_type) # e.g., $1.50/hr on Akash
-        best_bid = self.get_highest_bid(gpu_type) # e.g., $1.53/hr on Golem
-        
-        # 2. Calculating Spread
-        spread = best_bid['price'] - best_ask['price']
-        
-        # 3. Execution (Atomic Match)
-        if spread > self.min_spread_usd:
-            volume = min(best_ask['volume'], best_bid['volume'])
-            potential_profit = spread * volume
-            
-            print(f"⚡ Opportunity Found: {gpu_type} | Spread: ${spread:.4f}")
-            print(f"💰 Projected Profit: ${potential_profit:.4f}")
-            
-            self.execute_atomic_swap(
-                buy_order=best_ask, 
-                sell_order=best_bid, 
-                volume=volume
-            )
-        else:
-            print(f"Scanning... Spread too low ({spread:.4f})")
-
-    def execute_atomic_swap(self, buy_order, sell_order, volume):
-        # In reality, this interacts with smart contracts or provider APIs
-        # to lock the buy and sell simultaneously.
-        pass
-
-# This runs 24/7 on a serverless function (e.g., AWS Lambda or scripts on a Raspberry Pi)
-# Target Yield: $20 - $50/day depending on market volatility.
-```
-
----
-
-## 3. Pillar 2: The Agentic Liquidity Provider
-
-You don't need to be a trader (trying to predict price direction). You need to be the *House* (collecting fees on volume).
-In the "Agent Economy," software agents pay each other constantly (micropayments). They need liquidity to swap between tokens (e.g., `ComputeToken` to `StorageToken`).
-
--   **Mechanism**: You deposit stablecoins (USDC) into a Uniswap v5 (or equivalent) liquidity pool.
--   **AI Optimization**: Your "Liquidity Manager Agent" moves your capital every minute.
-    -   If volatility is low, it concentrates liquidity in a tight range to capture maximum fees.
-    -   If volatility spikes, it widens the range to avoid "Impermenant Loss."
--   **Result**: Passive fee generation from the velocity of robot money.
-
-**The Math of Yield**:
-If the daily volume of the Agent Economy is $10B, and the average swap fee is 0.05%, that's $5M/day in fees. Your agent's job is to capture 0.001% of that pool.
-
----
-
-## 4. Pillar 3: Data Licensing (The "Reality Royalty")
-
-As discussed in Article #40, AI needs human data to stay sane. Training on synthetic data leads to "Model Collapse" (where the AI output becomes garbled nonsense).
-Therefore, **Authentic Human Experience is a scarce, tradeable commodity.**
-
-**The daUBI Protocol**:
-1.  **Record**: You wear smart glasses (e.g., Apple Vision Pro or Frame). You record your day: cooking, walking, fixing a sink. This is "Corner Case data"—things robots rarely see.
-2.  **Filter**: Your "Privacy Agent" (running locally on your phone) blurs faces, strips GPS metadata, and removes audio conversations to protect PII (Personally Identifiable Information).
-3.  **Upload**: You upload the sanitized video to a "Data DAO" market (e.g., Ocean Protocol or Vana).
-4.  **License**: When OpenAI/Google/Anthropic scrapes the DAO for training data, your smart contract triggers. You receive a micro-royalty.
-
-**The Economics**:
--   High-quality, first-person video of complex tasks: Market rate $50/hour of footage.
--   Capture 2 hours/day of "living" = $100/day.
--   *This is effectively a wage for "being alive and human."*
-
----
-
-## 5. The 4D Analysis: The Philosophy of Abundance
-
--   **Philosophy**: **The End of Scarcity Mindset**. For 10,000 years, biological survival meant struggle. Our brains are wired for anxiety, hoarding, and zero-sum competition. daUBI solves the *economic* problem but creates a *spiritual* one. If you are guaranteed survival, what drives you? We must shift our internal operating system from "Freedom From" (poverty) to "Freedom To" (create, explore, connect).
-
--   **Psychology**: **The Entitlement Trap**. If the machine feeds us, do we become infants? There is a risk of mass infantilization (the *Wall-E* scenario). We must design daUBI systems that require *active governance*. You cannot just receive the check; you must vote on the parameters of the Agent Swarm. Participation keeps the mind sharp and the agency high.
-
--   **Sociology**: **The Bifurcation of Species**. Those who build their own daUBI stack (the "Technological Bourgeoisie") will pull away from those waiting for government UBI (which will likely be meager and heavily conditioned). This creates a new class divide: **Agent-Native vs. Agenda-Dependent**. Democratizing these tools—making them "one-click deploy"—is the moral imperative of the open-source community.
-
--   **Communication**: **The Narrative of "Dividend"**. We must reframe this not as a "handout" or "welfare," but as a **"Dividend of Intelligence."** Humanity spent centuries building the corpus of knowledge (books, code, art) that trained the AI. The AI's output is the return on that civilizational investment. You are not a charity case; you are a shareholder in Earth Inc.
-
----
-
-## 6. Technical Tutorial: Launching Your First Yield Agent
-
-Let's build a simple agent that earns yield on a lending protocol (like Aave or Compound), optimizing for interest rates between stablecoins.
-
-```python
-from web3 import Web3
-import json
+# Example: Potential for Hallucination in Product Description Generation
 import os
+from openai import OpenAI
 
-# Connect to Ethereum Mainnet (via Infura/Alchemy)
-# Ideally, run this on an L2 (Arbitrum/Optimism) for lower fees
-w3 = Web3(Web3.HTTPProvider(os.getenv('RPC_URL')))
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
-# Aave Pool Contract Interface
-aave_abi = json.load(open('aave_abi.json'))
-pool_contract = w3.eth.contract(address='0xAAVE_ADDRESS', abi=aave_abi)
+def generate_product_description(product_name, intended_use_case, model="gpt-3.5-turbo"):
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": "You are an expert product description writer."},
+                {"role": "user", "content": f"Write a product description for {product_name} used for {intended_use_case}."}
+            ],
+            max_tokens=500,
+            n=1,
+            stop=None,
+            temperature=0.7,
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"Error generating description: {e}")
+        return None
 
-class YieldOptimizer:
-    def __init__(self, wallet_private_key):
-        self.key = wallet_private_key
-        self.account = w3.eth.account.from_key(self.key)
-        
-    def get_apy(self, asset_address):
-        """Fetch current APY from Aave protocol."""
-        data = pool_contract.functions.getReserveData(asset_address).call()
-        # APY calculation from liquidityIndex and currentLiquidityRate
-        liquidity_rate = data[2] 
-        return liquidity_rate / 1e25 # Normalize ray units
+product = "The Widget 3000"
+use_case = "cleaning solar panels"
+description = generate_product_description(product, use_case)
 
-    def optimize(self):
-        usdc_address = '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48'
-        usdt_address = '0xdAC17F958D2ee523a2206206994597C13D831ec7'
-        
-        usdc_apy = self.get_apy(usdc_address)
-        usdt_apy = self.get_apy(usdt_address)
-        
-        print(f"Current Rates: USDC {usdc_apy:.2f}% | USDT {usdt_apy:.2f}%")
-        
-        current_holding = self.check_wallet_balance() # Pseudo-function
-        
-        # Logic: Switch if difference > 1.5% (buffer for gas/swap fees)
-        if usdt_apy > (usdc_apy + 1.5) and current_holding == 'USDC':
-            print(f"🔄 Switching to USDT for higher yield.")
-            self.execute_swap(usdc_address, usdt_address)
-            
-        elif usdc_apy > (usdt_apy + 1.5) and current_holding == 'USDT':
-            print(f"🔄 Switching to USDC for higher yield.")
-            self.execute_swap(usdt_address, usdc_address)
-            
-        else:
-            print("✅ Current position is optimal. No action taken.")
+print(description)
 
-    def execute_swap(self, token_in, token_out):
-        # Interaction with Uniswap Router to swap tokens
-        pass
-
-# Run this script every 6 hours via cron
-# python yield_bot.py
+# Potential Output (Hallucination highlighted):
+# "The Widget 3000 is the ultimate solution for cleaning solar panels.  Its patented Xylar-7 coating ensures complete UV protection *and generates free electricity while in use!*"
+# <Xylar-7 is a fabricated coating. Electricity generation is a complete fabrication.>
 ```
 
----
+The code itself is straightforward. The *problem* is the unpredictable output. Without rigorous QA, that hallucinated "feature" goes live, resulting in angry customers and potential lawsuits.
 
-## 7. The Future: Multi-Generational Wealth Agents
+**The Fix:**
+*   **Multi-Stage Validation:** Implement a post-generation validation pipeline that cross-references generated content against a knowledge base of verified facts.
+*   **Human-in-the-Loop Oversight:** Designate human reviewers to audit a sample of AI-generated content and flag potential inaccuracies.
+*   **Negative Prompt Engineering:** Train the AI model to explicitly avoid specific types of claims (e.g., "do not mention features that are not listed in the official product documentation").
 
-In 2027, you set up the agent.
-In 2037, your agent is still running, upgrading its own code to match new blockchain standards.
-In 2057, your grandchildren inherit the private keys to the agent.
+### DeFi Inferno: Algorithmic Overconfidence in a Volatile World
 
-The "Family Office" is no longer a luxury for the ultra-rich. It is a Python script running on a Raspberry Pi (or a decentralized cloud container), compounding wealth for decades. We are building **Digital Heirlooms**—software that acts as a permanent economic engine for your lineage.
+The notion of an "AI Alchemist Agent" effortlessly navigating the DeFi landscape is equally naive. DeFi is a minefield of exploits, rug pulls, and regulatory uncertainty. An AI, even one trained on vast datasets, is not immune to making costly mistakes.
 
----
+Worse, an AI's *confidence* can amplify those mistakes. Human traders might hesitate before making a risky bet. An AI, relentlessly optimizing for yield, might blindly plow into a failing protocol, accelerating its demise and incurring massive losses.
 
-## 8. FAQ: Risks and Realities
+Consider the risks:
+*   **Smart Contract Vulnerabilities:** AI can't magically patch flawed smart contracts. It will simply exploit them faster.
+*   **Flash Loan Attacks:** An AI could be tricked into triggering a cascade of liquidations by a malicious actor.
+*   **Impermanent Loss (IL) Mismanagement:** IL is inherent to liquidity provision. An AI might over-leverage positions, resulting in catastrophic losses when market volatility strikes.
 
-### Is this risk-free money?
-No. There are three main risks:
-1.  **Smart Contract Risk**: The protocol (Aave/Uniswap) could be hacked.
-2.  **De-Peg Risk**: The stablecoin (USDC) could lose its $1 value.
-3.  **Agent Risk**: Your bot could hallucinate a trade or have a bug that drains funds.
-**Rule #1**: Diversify. Run 10 different agents with 10% of your capital each. Never trust one bot with everything.
+**The Hard Data:**
 
-### Do I need to be a coder?
-Today (2026)? Yes, you need basic Python/Web3 skills.
-In 12 months? No. "No-Code Agent Builders" will allow you to say: "Here is $1,000. Use a low-risk strategy to farm yield on Aave." However, relying on black-box tools increases your reliance on third parties. Learning the code is learning the means of production.
+| Metric           | Human Trader (Conservative) | AI Agent (Optimistic) | AI Agent (Aggressive) |
+|-------------------|------------------------------|-------------------------|------------------------|
+| Daily Trade Volume | $50,000                     | $250,000                | $1,000,000             |
+| Average Yield     | 5% APR                       | 8% APR                  | 12% APR                |
+| Max Drawdown      | 10%                          | 15%                     | 30%                    |
+| Exploit Exposure   | Low                           | Medium                    | High                   |
+| Regulatory Risk    | Low                           | Medium                    | High                   |
 
-### Is this legal?
-Currently, yes. It is automated trading and data selling. However, tax laws will struggle to catch up. Technically, your *Agent* is earning the money. Do you pay tax when it earns it, or when you withdraw it to your bank? (Consult a crypto-native CPA; this is not financial advice).
+**The Code (Illustrative):**
 
----
+```python
+# WARNING: This is a simplified example and should NOT be used in a production environment.
+import random
 
-**Ready to build your freedom?** Explore our [Yield Agent Templates](/tools) or read about [Post-Labor Identity](/blog/post-labor-identity-2027) to prepare for a life of high-agency leisure where work is a choice, not a necessity.
+class DeFiStrategy:
+    def __init__(self, risk_tolerance=0.5):
+        self.risk_tolerance = risk_tolerance
+
+    def allocate_capital(self, pool_apy, available_capital):
+        #Simplified logic: Higher APY, more capital allocated, adjusted by risk tolerance
+        allocation = available_capital * (pool_apy * self.risk_tolerance)
+        # Introduce a "black swan" event with probability of 1%:
+        if random.random() < 0.01:
+            print("Black Swan event!  Halving allocation due to market volatility.")
+            allocation /= 2
+        return min(allocation, available_capital) #Ensure we don't allocate more than we have.
+
+    def execute_trade(self, allocation_size):
+        #Pretend this interacts with a DeFi protocol
+        print(f"Executing trade with {allocation_size} capital.")
+
+# Simulate a scenario with a DeFi Strategy
+strategy = DeFiStrategy(risk_tolerance = 0.8) # More aggressive AI strategy.
+apy = 0.15 # 15% APY
+capital = 10000 #Starting Capital
+allocation = strategy.allocate_capital(apy, capital)
+strategy.execute_trade(allocation)
+```
+
+**The Fix:**
+*   **Circuit Breakers:** Implement hard limits on trade sizes, leverage ratios, and exposure to specific protocols.
+*   **Anomaly Detection:** Train models to identify unusual market activity and automatically pause trading activity.
+*   **Cold Storage Reserves:** Maintain a significant portion of assets in cold storage to mitigate the impact of potential exploits.
+*   **External Audits:** Conduct regular security audits of the AI agent's code and trading strategies.
+
+### The Data Delusion: Garbage In, Catastrophe Out
+
+The final pillar, "Data Synthesis & Enrichment," is perhaps the most insidious. The promise of extracting value from raw data hinges on the *quality* of that data. But in the real world, data is often noisy, biased, and incomplete.
+
+An AI agent trained on flawed data will inevitably make flawed decisions. This can manifest in several ways:
+
+*   **Biased Recommendations:** An AI trained on biased data might promote discriminatory lending practices or reinforce existing inequalities.
+*   **Inaccurate Predictions:** An AI trained on incomplete data might fail to identify emerging trends or anticipate market shifts.
+*   **Security Vulnerabilities:** An AI trained on poisoned data might be tricked into executing malicious code.
+
+**Scenario: The Predictive Maintenance Nightmare**
+
+Imagine an AI tasked with predicting equipment failures in a factory. The AI is trained on sensor data collected from various machines. However, some of those sensors are faulty, producing inaccurate readings.
+
+The AI, unaware of the flawed data, begins to make incorrect predictions. It flags healthy machines for maintenance, leading to unnecessary downtime and wasted resources. Meanwhile, it fails to identify machines that are on the verge of failure, resulting in catastrophic breakdowns and costly repairs.
+
+**The Fix:**
+
+*   **Data Provenance Tracking:** Implement a system for tracking the origin and lineage of all data used to train the AI model.
+*   **Data Quality Monitoring:** Continuously monitor data for anomalies, inconsistencies, and biases.
+*   **Adversarial Training:** Train the AI to be robust against adversarial attacks, including data poisoning attempts.
+*   **Red Teaming:** Regularly test the AI's performance with intentionally flawed or misleading data to identify potential vulnerabilities.
+
+### The Edge Cases: Where Dreams Turn into Debugging Sessions
+
+Beyond the high-level concerns, the real pain lies in the edge cases. The scenarios that weren't covered in the training data, the unexpected interactions between different systems, the subtle bugs that can bring the entire operation crashing down.
+
+*   **Sudden API Rate Limit Changes**: Your generative AI agent suddenly grinds to a halt when the third-party LLM provider slashes API usage.
+*   **DeFi Protocol Fork Chaos**: An unexpected hard fork splits the liquidity pool your AI agent was providing liquidity to. Now what?
+*   **Geopolitical Data Restrictions**: Newly imposed international regulations restrict access to datasets your data synthesis agent depends on.
+
+These aren't abstract hypotheticals; they are the daily realities of building and maintaining complex AI systems.
+
+### The Minimalist CTO's Takeaway: Frictionless != Effortless
+
+The promise of "Autonomous Affluence" is alluring. But the path to realizing that vision is paved with very real, very complex engineering challenges. It's not about dreaming up fantastical scenarios; it's about anticipating failure modes, implementing robust safeguards, and embracing the ongoing reality of maintenance and refinement.
+
+This isn't a "set it and forget it" solution. It's a constant battle against entropy, uncertainty, and the ever-evolving threat landscape.
+
+Stop focusing on "limitless potential" and start focusing on the potential for catastrophic failure. That's the only way to build truly resilient, truly valuable AI systems. The question isn't if AI can generate wealth, but whether you can manage the chaos it unleashes.
+
+Here's a breakdown of key failure points and corresponding mitigation tactics, presented in YAML for easy integration into your incident response documentation:
+
+```yaml
+system: Autonomous Affluence Engine
+components:
+  - generative_ai_agent:
+      description: Generates content and digital assets.
+      failure_modes:
+        - hallucination:
+            impact: Brand damage, legal liabilities, customer dissatisfaction.
+            mitigation:
+              - implement_validation_pipeline:
+                  description: Cross-reference generated content against a knowledge base.
+              - human_in_the_loop:
+                  description: Designate human reviewers for content auditing.
+              - negative_prompt_engineering:
+                  description: Train model to avoid specific types of claims.
+        - api_rate_limit_exceeded:
+            impact: Content generation disruption.
+            mitigation:
+              - implement_retry_mechanism:
+                  description: Automatically retry requests with exponential backoff.
+              - multi_api_provider_failover:
+                  description: Switch to a backup API provider in case of rate limits.
+  - defi_alchemist_agent:
+      description: Manages liquidity positions and optimizes yield.
+      failure_modes:
+        - smart_contract_exploit:
+            impact: Loss of funds, reputational damage.
+            mitigation:
+              - circuit_breakers:
+                  description: Implement hard limits on trade sizes and leverage ratios.
+              - anomaly_detection:
+                  description: Train models to identify unusual market activity.
+              - cold_storage_reserves:
+                  description: Maintain a portion of assets in cold storage.
+        - impermanent_loss:
+            impact: Reduction in asset value.
+            mitigation:
+              - dynamic_position_adjustment:
+                  description: Adjust liquidity positions based on market volatility.
+              - hedging_strategies:
+                  description: Use derivatives to mitigate impermanent loss.
+  - data_synthesis_agent:
+      description: Collects, refines, and synthesizes data for insights.
+      failure_modes:
+        - data_poisoning:
+            impact: Biased recommendations, inaccurate predictions, security vulnerabilities.
+            mitigation:
+              - data_provenance_tracking:
+                  description: Track the origin and lineage of all data.
+              - data_quality_monitoring:
+                  description: Continuously monitor data for anomalies and biases.
+              - adversarial_training:
+                  description: Train the AI to be robust against adversarial attacks.
+```
+
+This isn't about killing the dream. It's about injecting a dose of engineering realism into the hype cycle. "Autonomous Affluence" isn't a magic bullet. It's a complex engineering challenge that demands rigor, vigilance, and a healthy dose of skepticism. Now, back to debugging.

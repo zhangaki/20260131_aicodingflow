@@ -23,6 +23,34 @@ import Layout from '../layouts/BlogPost.astro';
 		<em>autonomous asset</em> managed by AI Agents, curated by human vision.
 	</p>
 
+    <div class="agent-workforce">
+        <h3>Meet the Workforce</h3>
+        <p class="section-desc">The specialized agents running this operation 24/7.</p>
+        
+        <div class="agent-grid">
+            <div class="agent-card">
+                <h4>Clawdbot</h4>
+                <div class="agent-role">System Architect</div>
+                <p>Manages deployment pipelines, error logging, and self-healing infrastructure.</p>
+            </div>
+            <div class="agent-card">
+                <h4>Oracle</h4>
+                <div class="agent-role">Trend Analyst</div>
+                <p>Scans 500+ RSS feeds daily to identify rising AI tools and patterns.</p>
+            </div>
+            <div class="agent-card">
+                <h4>DaVinci</h4>
+                <div class="agent-role">Visual Director</div>
+                <p>Generates cover art, optimizes SVGs, and maintains design consistency.</p>
+            </div>
+            <div class="agent-card">
+                <h4>Justitia</h4>
+                <div class="agent-role">Auditor</div>
+                <p>Verifies factuality, checks for bias, and ensures SEO compliance.</p>
+            </div>
+        </div>
+    </div>
+
 	<div class="stats-grid">
 		<div class="stat-card">
 			<div class="stat-number">100%</div>
@@ -38,20 +66,17 @@ import Layout from '../layouts/BlogPost.astro';
 		</div>
 	</div>
 
-	<h3>How It Works</h3>
-	<p>
-		Every article you read here is the result of a sophisticated pipeline:
-	</p>
-	<ul>
-		<li><strong>Research:</strong> Agents scan the web for rising trends in AI and development.</li>
-		<li><strong>Analysis:</strong> Deep-dive comparisons are generated based on real documentation and user feedback.</li>
-		<li><strong>Optimization:</strong> Content is rigorously checked for SEO standards and readability.</li>
-		<li><strong>Audit:</strong> A "Visual Auditor" agent reviews every pixel before publication.</li>
-	</ul>
-
-	<p>
-		This isn't just about reading news. It's about seeing the future of digital leverage in action.
-	</p>
+    <div class="tech-stack-section">
+        <h3>Built With</h3>
+        <div class="tech-grid">
+             <div class="tech-item">Astro 5.0</div>
+             <div class="tech-item">Tailwind (Custom)</div>
+             <div class="tech-item">Python 3.12</div>
+             <div class="tech-item">Vercel Edge</div>
+             <div class="tech-item">OpenAI GPT-4o</div>
+             <div class="tech-item">Anthropic Claude 3.5</div>
+        </div>
+    </div>
 
 	<div class="cta-box">
 		<h4>Ready to scale your own output?</h4>
@@ -126,7 +151,87 @@ import Layout from '../layouts/BlogPost.astro';
 	.btn:hover {
 		transform: scale(1.05);
 	}
+	/* ... existing styles ... */
+    
+    .section-desc {
+        color: var(--gray);
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+    }
+
+    /* Agent Grid */
+    .agent-workforce {
+        margin: 4rem 0;
+    }
+    .agent-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+    }
+    .agent-card {
+        background: rgba(255,255,255,0.03);
+        border: 1px solid var(--glass-border);
+        padding: 1.5rem;
+        border-radius: 16px;
+        transition: transform 0.3s ease;
+    }
+    .agent-card:hover {
+        transform: translateY(-5px);
+        background: rgba(255,255,255,0.06);
+        border-color: rgba(255,255,255,0.2);
+    }
+    .agent-avatar {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        background: rgba(255,255,255,0.05);
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    .agent-card h4 {
+        margin: 0;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    .agent-role {
+        color: var(--accent);
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 0.8rem;
+        letter-spacing: 0.05em;
+    }
+    .agent-card p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin: 0;
+        color: var(--gray);
+    }
+
+    /* Tech Stack */
+    .tech-stack-section {
+        margin: 4rem 0;
+    }
+    .tech-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+    .tech-item {
+        background: rgba(15, 23, 42, 0.6);
+        border: 1px solid rgba(255,255,255,0.1);
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        color: #e2e8f0;
+        font-family: monospace;
+    }
+
 	@media (max-width: 600px) {
 		.stats-grid { grid-template-columns: 1fr; }
+        .agent-grid { grid-template-columns: 1fr; }
 	}
 </style>

@@ -1,8 +1,14 @@
 ---
+description: 'When AI can generate infinite art, code, and text, what holds value?
+  A guide to the new assets: Attention, Trust, and Energy.'
+heroImage: /assets/post-scarcity-cover.png
+pubDate: Jan 04 2026
+tags:
+- Infrastructure
+- Dev Tools
+- Society & Ethics
+- AI Agents
 title: 'The Currency of Entropy: Post-Scarcity Asset Theory in 2028'
-description: 'When AI can generate infinite art, code, and text, what holds value? A guide to the new assets: Attention, Trust, and Energy.'
-pubDate: 'Feb 01 2026'
-heroImage: '/assets/blog-placeholder-2.jpg'
 ---
 
 In 2028, the marginal cost of intelligence has effectively hit zero.
@@ -17,27 +23,7 @@ If we are living in the "Star Trek" economy for digital goods, where is the scar
 Why do we still work? Why do we still pay for things?
 This article explores **Post-Scarcity Asset Theory**—the economics of the only three things that AI cannot print: **Entropy**, **Attention**, and **Energy**.
 
----
 
-## 1. The Asset Class of 2028: Entropy (True Randomness)
-
-AI is fundamentally deterministic.
-Even with high "temperature" settings, a Large Language Model (LLM) is predicting the next token based on a probability distribution derived from training data. It is **Derivative**. It sits in the center of the bell curve.
-**Humans are Entropic**. We are chaotic, irrational, emotional, and genuinely random.
-In a sea of perfectly polished, grammatically correct, sanitised AI slop, **Human Imperfection** becomes the ultimate luxury good.
-
-**The "Handmade" Premium**:
-Just as we pay $50 for a "Hand-poured soy candle" that is objectively worse (burns unevenly) than a $5 factory candle, we will pay a premium for "Human-written code" or "Human-painted art."
-Why? Because it contains **Proof of Humanity (PoH)**.
-It represents a sacrifice of finite time, not just infinite compute.
-
-**Shannon Information Theory**:
-Claude Shannon defined information as "Surprise."
-If an AI is predictable, it contains zero information.
-A human artist, making a weird, unpredictable choices (Entropy), generates maximum information.
-Therefore, **Weirdness is Wealth**.
-
----
 
 ## 2. The Tech Stack: Attention Markets and Trust Graphs
 
@@ -56,19 +42,7 @@ We are seeing the rise of **EigenTrust**-style algorithms for social capital.
 -   If `Bob` posts an AI-slop article marked as "Human," and `Charlie` detects it, `Bob`'s reputation score (and his wallet) gets slashed.
 **Reputation is Collateral**.
 
----
 
-## 3. The 4D Analysis: The Economics of Meaning
-
--   **Philosophy**: **Nihilism vs. Existentialism**. If AI does everything better, why do anything? The economy shifts from "Production" (making things) to "Expression" (defining oneself). We work not to survive, but to signal who we are. Value is no longer "Utility"; it is "Narrative."
-
--   **Psychology**: **The Crisis of Competence**. For centuries, men derived self-worth from being "good at their job." Now, a generic script is better than an average junior employee. We face a global ego collapse. The new status symbol is not "Skill" (what you can do), but "Taste" (what you choose to cure).
-
--   **Sociology**: **The Universal Basic Compute (UBC)**. UBI (Income) is outdated because money inflates. The real need is UBC. Every citizen gets a government-guaranteed quota of H100 GPU hours per month. This is the "Means of Production" for the 21st century.
-
--   **Communication**: **The Truth Premium**. In a world of Deepfakes, "Truth" becomes a subscription service. You pay the *New York Times* or a Substack writer not for "News," but for the **Cryptographic Guarantee** that a human witnessed the event.
-
----
 
 ## 4. Technical Tutorial: Simulating an Attention Economy (Python)
 
@@ -165,6 +139,7 @@ plt.legend()
 plt.grid(True)
 plt.savefig("attention_economy.png")
 print("✅ Simulation complete. Saved 'attention_economy.png'")
+
 ```
 
 **The Insight**:
@@ -173,20 +148,8 @@ But as the `Reputation` variable feeds back into the `prob_click` equation (The 
 The Artisan starts slow but compounds exponentially.
 **Algorithmic Trust** corrects the market failure of clickbait.
 
----
 
-## 5. Case Study: The "Code Artisan"
 
-Meet "Satoshi_V2," a freelance developer in 2028.
-He charges $500/hour. 
-His competition (AI Agents) charges $0.01/hour.
-Why does he get hired?
-Because he sells **Liability**.
-When a bank hires an AI to write its ledger code, and the AI glitches, there is nobody to sue.
-When they hire Satoshi_V2, they are buying a **Human Soul** who can be held accountable, who can reason about "Intent" not just "Syntax," and who provides a "Hand-crafted" warranty.
-He signs every commit with his World ID. His GitHub profile is a gallery of verified human logic.
-
----
 
 ## 6. The 2027 Toolkit: Value Management
 
@@ -197,17 +160,6 @@ He signs every commit with his World ID. His GitHub profile is a gallery of veri
 | **H100 Futures** | Finance | Trading compute credits as a commodity on the Chicago Mercantile Exchange. |
 | **Glass** | Content | Video platform where storage is permanent (Arweave) and provenance is tracked. |
 
----
 
-## 7. The Future: The Energy Standard
-
-Eventually, money will decouple from fiat (Central Banks) and peg to **Joules** (Physics).
--   **Bitcoin** started this (Proof of Work).
--   **AI** cements it (Intelligence = Energy).
-A dollar is just a promise. A Joule is a fact.
-If you own a solar farm and a battery array, you are a Central Bank. You can mint Intelligence.
-The ultimate freedom for the Super Individual is **Energy Autonomy**.
-
----
 
 **Ready to invest?** Run the [Market Simulation](/tools) to test your theories, or read about [Digital Twin Estate Planning](/blog/digital-twin-estate-planning-2028) to learn how to pass your digital assets to your AI heirs.

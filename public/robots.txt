@@ -1,7 +1,16 @@
 User-agent: *
 Allow: /
 
-# ASO: See agents.txt for AI agent permissions
-# https://ai-coding-flow.com/agents.txt
+User-agent: GPTBot
+Allow: /
 
-Sitemap: https://ai-coding-flow.com/sitemap-index.xml
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+Sitemap: https://super-individual.vercel.app/sitemap-index.xml

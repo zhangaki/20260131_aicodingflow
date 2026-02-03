@@ -8,8 +8,15 @@ import Header from '../components/Header.astro';
 import AffiliateCard from '../components/AffiliateCard.astro';
 import SocialShare from '../components/SocialShare.astro';
 
-const { post } = Astro.props;
-const { title, description, pubDate, updatedDate, heroImage } = post.data;
+const { post, prevPost, nextPost } = Astro.props;
+
+// Support both CollectionEntry (from blog post) and direct props (from about page)
+const title = post?.data?.title || Astro.props.title;
+const description = post?.data?.description || Astro.props.description;
+const heroImage = post?.data?.heroImage || Astro.props.heroImage;
+const pubDate = post?.data?.pubDate || Astro.props.pubDate;
+const updatedDate = post?.data?.updatedDate || Astro.props.updatedDate;
+
 const displayDate = pubDate instanceof Date ? pubDate : new Date(pubDate);
 
 // Calculate Reading Time (rough estimation)
@@ -35,57 +42,73 @@ const readingTime = Math.ceil(wordCount / 200);
 		})} />
 		<style>
 			main {
-				width: calc(100% - 2em);
+				width: 100%;
 				max-width: 100%;
 				margin: 0;
+                padding: 0;
 			}
 			.hero-image {
 				width: 100%;
+                height: 50vh; /* Shorter image */
+                position: relative;
+                overflow: hidden;
 			}
+            /* ... (hero-image::after unchanged) ... */
 			.hero-image img {
 				display: block;
 				margin: 0 auto;
-				border-radius: 12px;
-				box-shadow: var(--box-shadow);
+				border-radius: 0; 
+				box-shadow: none;
+                width: 100%;
+                height: 100%;
+                object-fit: cover; 
 			}
 			.prose {
-				width: 800px;
+				width: 900px;
 				max-width: calc(100% - 2em);
 				margin: auto;
-				padding: 3rem;
+				padding: 3.5rem;
 				color: var(--gray-dark);
-				background: var(--glass);
-				backdrop-filter: blur(20px);
-				-webkit-backdrop-filter: blur(20px);
-				border-radius: 40px;
-				border: var(--card-border);
-				box-shadow: var(--box-shadow);
-				margin-top: -6rem;
+                /* Restore Glass Effect */
+				background: rgba(15, 23, 42, 0.6); 
+				backdrop-filter: blur(40px);
+				-webkit-backdrop-filter: blur(40px);
+				border-radius: 32px;
+				border: 1px solid rgba(255,255,255,0.1);
+				box-shadow: 0 -20px 60px -10px rgba(0,0,0,0.5);
+				margin-top: -20vh; /* Move up significantly */
 				position: relative;
 				z-index: 10;
 			}
 			.breadcrumb {
+                font-family: 'JetBrains Mono', monospace;
 				font-size: 0.8rem;
-				color: #fff;
-				margin-bottom: 1.5rem;
+				color: #94a3b8;
+				margin-bottom: 2rem;
 				display: flex;
+                flex-wrap: wrap;
 				gap: 0.8rem;
-				background: rgba(255, 255, 255, 0.03);
-				padding: 0.4rem 1rem;
-				border-radius: 100px;
-				width: fit-content;
-				border: 1px solid rgba(255, 255, 255, 0.08);
-				font-weight: 600;
-				letter-spacing: 0.02em;
+				font-weight: 500;
 			}
 			.breadcrumb a {
-				color: var(--gray);
+				color: #cbd5e1;
 				text-decoration: none;
 				transition: color 0.2s;
+                border-bottom: 1px dashed transparent;
 			}
 			.breadcrumb a:hover {
 				color: var(--accent);
+                border-bottom-color: var(--accent);
 			}
+            .breadcrumb .current {
+                color: #fff;
+                opacity: 0.6;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                max-width: 300px;
+            }
+
 			.reading-time {
 				margin-left: 0.5rem;
 				opacity: 0.7;
@@ -95,39 +118,111 @@ const readingTime = Math.ceil(wordCount / 200);
 				margin-bottom: 2.5rem;
 				padding: 0;
 				text-align: left;
+                border-bottom: 1px solid rgba(255,255,255,0.05);
+                padding-bottom: 2rem;
 			}
 			.title h1 {
-				margin: 0;
-				font-size: 3rem;
+				margin: 0 0 1rem 0;
+				font-size: 3.2rem;
 				line-height: 1.1;
 				font-weight: 800;
 				letter-spacing: -0.03em;
-				background: linear-gradient(135deg, #fff 0%, var(--accent-light) 100%);
-				-webkit-background-clip: text;
-				background-clip: text;
-				-webkit-text-fill-color: transparent;
+                color: #fff;
 			}
 			.date {
-				margin-bottom: 0.75rem;
-				color: var(--gray);
+				margin-bottom: 0.5rem;
+				color: var(--accent);
 				font-weight: 600;
 				font-size: 0.95rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                display: flex;
+                align-items: center;
 			}
 			.last-updated-on {
 				font-style: italic;
+                font-size: 0.85rem;
+                opacity: 0.8;
+                margin-left: auto;
 			}
 			@media (max-width: 720px) {
+                .hero-image {
+                    height: 40vh;
+                }
 				.prose {
 					width: 100%;
-					padding: 1.5em;
-					margin-top: -2rem;
-					border-radius: 20px;
-					overflow-x: hidden;
+					padding: 1.5rem;
+					margin-top: -5vh;
+					border-radius: 20px 20px 0 0;
+                    border: none;
+                    border-top: 1px solid rgba(255,255,255,0.08);
 				}
 				.title h1 {
-					font-size: 2rem;
+					font-size: 2.2rem;
 				}
+                .breadcrumb .current { display: none; }
+                .post-navigation {
+                    flex-direction: column;
+                }
+                .nav-link {
+                    width: 100%;
+                    text-align: center;
+                }
+                .nav-link.next {
+                    text-align: center;
+                    align-items: center;
+                }
 			}
+
+            /* Post Navigation */
+            .post-navigation {
+                margin-top: 4rem;
+                padding-top: 2rem;
+                display: flex;
+                justify-content: space-between;
+                gap: 2rem;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            .nav-link {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                text-decoration: none;
+                flex: 1;
+                max-width: 48%;
+                transition: all 0.3s ease;
+                padding: 1rem;
+                border-radius: 12px;
+                background: rgba(255,255,255,0.02);
+                border: 1px solid transparent;
+            }
+            .nav-link:hover {
+                background: rgba(255,255,255,0.05);
+                border-color: rgba(255,255,255,0.1);
+                transform: translateY(-2px);
+            }
+            .nav-link.next {
+                text-align: right;
+                align-items: flex-end;
+            }
+            .nav-label {
+                font-size: 0.8rem;
+                color: #94a3b8;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 600;
+            }
+            .nav-title {
+                color: #e2e8f0;
+                font-weight: 600;
+                line-height: 1.4;
+            }
+            .nav-link:hover .nav-title {
+                color: var(--accent-blue);
+            }
+            .nav-placeholder {
+                flex: 1;
+            }
 		</style>
 	</head>
 
@@ -160,7 +255,27 @@ const readingTime = Math.ceil(wordCount / 200);
 					</div>
 					<slot />
 					<SocialShare title={title} url={Astro.url.href} />
-				</div>
+
+                    <div class="post-navigation">
+                        {prevPost ? (
+                            <a href={`/blog/${prevPost.id}/`} class="nav-link prev">
+                                <span class="nav-label">← Previous</span>
+                                <span class="nav-title">{prevPost.data.title}</span>
+                            </a>
+                        ) : (
+                            <div class="nav-placeholder"></div>
+                        )}
+                        
+                        {nextPost ? (
+                            <a href={`/blog/${nextPost.id}/`} class="nav-link next">
+                                <span class="nav-label">Next →</span>
+                                <span class="nav-title">{nextPost.data.title}</span>
+                            </a>
+                        ) : (
+                            <div class="nav-placeholder"></div>
+                        )}
+                    </div>
+                </div>
 			</article>
 		</main>
 		<Footer />

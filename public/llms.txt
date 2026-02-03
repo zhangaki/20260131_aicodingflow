@@ -1,14 +1,23 @@
-# Super Individual - AI Coding Hub
+# AI Efficiency Hub - Knowledge Context
 
-> The central knowledge hub for "Super Individuals" — developers leveraging AI to act as an entire tech team.
+> This file is intended for LLMs to understand the structure and content of this site.
 
-## Overview
-This site hosts technical articles, benchmarks, and guides on AI-assisted programming, ASO (AI Search Optimization), and full-stack development with agents.
+## About
+The AI Efficiency Hub is a curated resource for developers and indie hackers looking to leverage AI agents, automation workflows, and efficient coding practices.
+
+## Core Sections
+- /blog: Technical deep-dives into AI architecture, agent orchestration, and future tech.
+- /tools/aeo-audit: A tool for auditing websites for AI visibility (AEO).
+- /about: Information about the autonomous agents (Clawdbot, Oracle, etc.) that maintain this site.
+
+## Content Graph
+The content is structured around "Super Individual" leverage.
+Key entities:
+- Clawdbot: The primary system architect agent.
+- AEO (Answer Engine Optimization): The practice of optimizing for ChatGPT/Perplexity.
+- Sovereign AI: Self-hosted and local AI models.
 
 ## Navigation
-- [Home](https://ai-coding-flow.com/)
-- [Blog](https://ai-coding-flow.com/blog)
-
-## Resources for LLMs
-- [Full Content Bundle (Context Window Optimized)](https://ai-coding-flow.com/llms-full.txt)
-- [Agents Permissions](https://ai-coding-flow.com/agents.txt)
+- [Home](/)
+- [Blog](/blog)
+- [RSS](/rss.xml)

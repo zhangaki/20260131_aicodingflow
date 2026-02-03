@@ -3,7 +3,7 @@ import * as cheerio from 'cheerio';
 
 export interface AuditCheck {
     id: string;
-    category: 'Technical' | 'Context' | 'Semantics';
+    category: 'Machine Access' | 'Knowledge Layer' | 'Entity Graph';
     name: string;
     status: 'pass' | 'fail' | 'warning';
     score: number;
@@ -22,14 +22,14 @@ export interface AuditResult {
     maxScore: number;
     summary: string;
     categoryScores: {
-        technical: number;
-        context: number;
-        semantics: number;
+        machine: number;
+        knowledge: number;
+        graph: number;
     };
     categoryMaxScores: {
-        technical: number;
-        context: number;
-        semantics: number;
+        machine: number;
+        knowledge: number;
+        graph: number;
     };
     checks: AuditCheck[];
 }
@@ -92,7 +92,7 @@ async function analyzeSite(url: string): Promise<AuditResult> {
 
     if (!robotsText) {
         checks.push({
-            id: 'robots-missing', category: 'Technical', name: 'AI Bot Permissions', status: 'fail', score: 0, maxScore: 10, impact: 'High', complexity: 'Easy',
+            id: 'robots-missing', category: 'Machine Access', name: 'AI Bot Permissions', status: 'fail', score: 0, maxScore: 10, impact: 'High', complexity: 'Easy',
             details: 'Protocol not detected: robots.txt is missing from the origin root.',
             advice: 'Deploy a robots.txt file to allow specific AI crawlers like GPTBot and ClaudeBot for enhanced AEO indexation.',
             fixCode: 'User-agent: GPTBot\nAllow: /\nUser-agent: ClaudeBot\nAllow: /',
@@ -100,23 +100,23 @@ async function analyzeSite(url: string): Promise<AuditResult> {
         });
     } else if (!hasAiRules) {
         checks.push({
-            id: 'robots-no-ai', category: 'Technical', name: 'AI Bot Permissions', status: 'warning', score: 5, maxScore: 10, impact: 'Medium', complexity: 'Easy',
+            id: 'robots-no-ai', category: 'Machine Access', name: 'AI Bot Permissions', status: 'warning', score: 5, maxScore: 10, impact: 'Medium', complexity: 'Easy',
             details: 'Robots.txt found, but it lacks explicit rules for LLM-based crawlers.',
             advice: 'Update your robots.txt to include explicit Allow directives for AI-specific agents to ensure your content is training-ready.',
             fixCode: 'User-agent: GPTBot\nAllow: /\nUser-agent: ClaudeBot\nAllow: /',
             developerPrompt: 'Update robots.txt for AI agents.'
         });
     } else {
-        checks.push({ id: 'robots-pass', category: 'Technical', name: 'AI Bot Permissions', status: 'pass', score: 10, maxScore: 10, impact: 'High', complexity: 'Easy', details: 'Healthy permissions for AI agents detected.', advice: 'Site is highly accessible to major AI crawlers.' });
+        checks.push({ id: 'robots-pass', category: 'Machine Access', name: 'AI Bot Permissions', status: 'pass', score: 10, maxScore: 10, impact: 'High', complexity: 'Easy', details: 'Healthy permissions for AI agents detected.', advice: 'Site is highly accessible to major AI crawlers.' });
     }
 
     // 2. Agents.txt
     const agentsRes = await fetchSafe(`${rootUrl}/agents.txt`);
     if (agentsRes && agentsRes.ok) {
-        checks.push({ id: 'agents-pass', category: 'Technical', name: 'Agents Protocol', status: 'pass', score: 15, maxScore: 15, impact: 'High', complexity: 'Easy', details: 'New-era agents.txt found.', advice: 'Site follows the latest machine-readable permissions standard.' });
+        checks.push({ id: 'agents-pass', category: 'Machine Access', name: 'Agents Protocol', status: 'pass', score: 15, maxScore: 15, impact: 'High', complexity: 'Easy', details: 'New-era agents.txt found.', advice: 'Site follows the latest machine-readable permissions standard.' });
     } else {
         checks.push({
-            id: 'agents-fail', category: 'Technical', name: 'Agents Protocol', status: 'fail', score: 0, maxScore: 15, impact: 'High', complexity: 'Easy',
+            id: 'agents-fail', category: 'Machine Access', name: 'Agents Protocol', status: 'fail', score: 0, maxScore: 15, impact: 'High', complexity: 'Easy',
             details: 'The agents.txt protocol for granular AI control is not active.',
             advice: 'Implement agents.txt to provide clearer indexing instructions to modern Answer Engines.',
             fixCode: 'User-agent: GPTBot\nAllow: /',
@@ -134,10 +134,10 @@ async function analyzeSite(url: string): Promise<AuditResult> {
     const hasArticle = $('article').length > 0;
 
     if (h1s === 1 && (hasMain || hasArticle)) {
-        checks.push({ id: 'semantics-pass', category: 'Semantics', name: 'Semantic Graph', status: 'pass', score: 15, maxScore: 15, impact: 'Medium', complexity: 'Medium', details: 'Full semantic layout (H1 + Semantic Tags) detected.', advice: 'Perfect structural hierarchy for RAG systems.' });
+        checks.push({ id: 'semantics-pass', category: 'Entity Graph', name: 'Semantic Graph', status: 'pass', score: 15, maxScore: 15, impact: 'Medium', complexity: 'Medium', details: 'Full semantic layout (H1 + Semantic Tags) detected.', advice: 'Perfect structural hierarchy for RAG systems.' });
     } else {
         checks.push({
-            id: 'semantics-fail', category: 'Semantics', name: 'Semantic Graph', status: 'fail', score: 5, maxScore: 15, impact: 'Medium', complexity: 'Medium',
+            id: 'semantics-fail', category: 'Entity Graph', name: 'Semantic Graph', status: 'fail', score: 5, maxScore: 15, impact: 'Medium', complexity: 'Medium',
             details: `Structural issues: Found ${h1s} H1 tag(s). Semantic containers: ${hasMain || hasArticle ? 'Detected' : 'Missing'}.`,
             advice: 'Ensure exactly one H1 tag and use semantic HTML5 tags like <main> or <article> to frame your core content.',
             developerPrompt: 'Refactor HTML to include exactly one H1 and semantic tags.'
@@ -147,10 +147,10 @@ async function analyzeSite(url: string): Promise<AuditResult> {
     // 4. Presence / LLMs.txt
     const llmsRes = await fetchSafe(`${rootUrl}/llms.txt`);
     if (llmsRes && llmsRes.ok) {
-        checks.push({ id: 'llms-pass', category: 'Context', name: 'LLM Context Layer', status: 'pass', score: 20, maxScore: 20, impact: 'High', complexity: 'Medium', details: 'llms.txt protocol discovered.', advice: 'Site provides clean RAG context for AI agents.' });
+        checks.push({ id: 'llms-pass', category: 'Knowledge Layer', name: 'LLM Context Layer', status: 'pass', score: 20, maxScore: 20, impact: 'High', complexity: 'Medium', details: 'llms.txt protocol discovered.', advice: 'Site provides clean RAG context for AI agents.' });
     } else {
         checks.push({
-            id: 'llms-fail', category: 'Context', name: 'LLM Context Layer', status: 'fail', score: 0, maxScore: 20, impact: 'High', complexity: 'Medium',
+            id: 'llms-fail', category: 'Knowledge Layer', name: 'LLM Context Layer', status: 'fail', score: 0, maxScore: 20, impact: 'High', complexity: 'Medium',
             details: 'Standard LLM documentation file (llms.txt) is missing.',
             advice: 'Create an llms.txt file to serve as a markdown API for LLMs, significantly improving answer accuracy.',
             developerPrompt: 'Generate llms.txt context file.'
@@ -158,27 +158,27 @@ async function analyzeSite(url: string): Promise<AuditResult> {
     }
 
     // Categories
-    const techChecks = checks.filter(c => c.category === 'Technical');
-    const contextChecks = checks.filter(c => c.category === 'Context');
-    const semanticsChecks = checks.filter(c => c.category === 'Semantics');
+    const machineChecks = checks.filter(c => c.category === 'Machine Access');
+    const knowledgeChecks = checks.filter(c => c.category === 'Knowledge Layer');
+    const graphChecks = checks.filter(c => c.category === 'Entity Graph');
 
-    const techScore = techChecks.reduce((acc, c) => acc + c.score, 0);
-    const techMax = techChecks.reduce((acc, c) => acc + c.maxScore, 0);
-    const contextScore = contextChecks.reduce((acc, c) => acc + c.score, 0);
-    const contextMax = contextChecks.reduce((acc, c) => acc + c.maxScore, 0);
-    const semanticsScore = semanticsChecks.reduce((acc, c) => acc + c.score, 0);
-    const semanticsMax = semanticsChecks.reduce((acc, c) => acc + c.maxScore, 0);
+    const machineScore = machineChecks.reduce((acc, c) => acc + c.score, 0);
+    const machineMax = machineChecks.reduce((acc, c) => acc + c.maxScore, 0);
+    const knowledgeScore = knowledgeChecks.reduce((acc, c) => acc + c.score, 0);
+    const knowledgeMax = knowledgeChecks.reduce((acc, c) => acc + c.maxScore, 0);
+    const graphScore = graphChecks.reduce((acc, c) => acc + c.score, 0);
+    const graphMax = graphChecks.reduce((acc, c) => acc + c.maxScore, 0);
 
-    const totalScore = techScore + contextScore + semanticsScore;
-    const totalMax = techMax + contextMax + semanticsMax;
+    const totalScore = machineScore + knowledgeScore + graphScore;
+    const totalMax = machineMax + knowledgeMax + graphMax;
 
     return {
         url: target,
         totalScore,
         maxScore: totalMax,
         summary: totalScore > (totalMax * 0.8) ? 'Highly Optimized' : (totalScore > (totalMax * 0.5) ? 'Developing' : 'At Risk'),
-        categoryScores: { technical: techScore, context: contextScore, semantics: semanticsScore },
-        categoryMaxScores: { technical: techMax, context: contextMax, semantics: semanticsMax },
+        categoryScores: { machine: machineScore, knowledge: knowledgeScore, graph: graphScore },
+        categoryMaxScores: { machine: machineMax, knowledge: knowledgeMax, graph: graphMax },
         checks
     };
 }

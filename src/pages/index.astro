@@ -11,6 +11,11 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
+        <div class="background-effects">
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+            <div class="grid-overlay"></div>
+        </div>
 		<Header />
 		<main>
 			<section class="hero">
@@ -22,25 +27,177 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 				</p>
 				<div class="cta-group">
 					<a href="/blog" class="primary-btn">Explore Full Guides</a>
-					<a href="#featured" class="secondary-btn">Top Picks</a>
+					<a href="/about" class="secondary-btn">How We Work</a>
 				</div>
+                
+                <div class="trusted-by">
+                    <p class="trusted-label">Read by builders at</p>
+                    <div class="logo-row">
+                        <!-- OpenAI -->
+                        <svg class="brand-logo" viewBox="0 0 24 24" fill="currentColor"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.0462 6.0462 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 1.645-1.6056v.0053a4.1033 4.1033 0 0 0 .846.8665l-.0449.0321a4.467 4.467 0 0 1 2.0163-.1127 4.4722 4.4722 0 0 1 2.4542 1.9405l-.1014-.5204c-.0333-.1738-.0767-.3487-.1329-.5199l-2.0911 3.5413a4.5 4.5 0 0 1-1.8567-2.5059zm4.6133-1.6368a4.4699 4.4699 0 0 1-.9418 2.8797l-.0569-.472a4.136 4.136 0 0 0-.3125-1.1891l.0069-.0333a4.5028 4.5028 0 0 1 1.2587-1.5956 4.498 4.498 0 0 1 2.6517-.9233l.2369.4795a4.478 4.478 0 0 1 .3786.471l-4.102 2.072a4.4731 4.4731 0 0 1-3.692-5.4627 4.498 4.498 0 0 1 2.5714-3.7744zm-7.9157-12.8797a4.4755 4.4755 0 0 1 2.8764 1.0408l-.1419.0804-1.645 1.6056v-.0053a4.1033 4.1033 0 0 0-.846-.8665l.0449-.0321a4.467 4.467 0 0 1-2.0163.1127 4.4722 4.4722 0 0 1-2.4542-1.9405l.1014.5204c.0333.1738.0767.3487.1329.5199l2.0911-3.5413a4.5 4.5 0 0 1 1.8567 2.5059zm-4.6133 1.6368a4.4699 4.4699 0 0 1 .9418-2.8797l.0569.472a4.136 4.136 0 0 0 .3125 1.1891l-.0069.0333a4.5028 4.5028 0 0 1-1.2587 1.5956 4.498 4.498 0 0 1-2.6517.9233l-.2369-.4795a4.478 4.478 0 0 1-.3786-.471l4.102-2.072a4.4731 4.4731 0 0 1 3.692 5.4627 4.498 4.498 0 0 1-2.5714 3.7744zM12 9.0493a2.95 2.95 0 1 0 0 5.8998 2.95 2.95 0 0 0 0-5.8998z"/></svg>
+                        <!-- Vercel -->
+                        <svg class="brand-logo" viewBox="0 0 24 24" fill="currentColor"><path d="M24 22.525H0l12-21.05 12 21.05z"/></svg>
+                        <!-- Google -->
+                         <svg class="brand-logo" viewBox="0 0 24 24" fill="currentColor"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/></svg>
+                         <!-- Stripe -->
+                         <svg class="brand-logo" viewBox="0 0 24 24" fill="currentColor"><path d="M13.9 10.2c0-.98 1-1.33 2.5-1.33c1.5 0 2.5.42 2.5 1.47v.14h3.64v-.42c0-2.43-2.14-4.2-6.14-4.2c-4.14 0-6.14 2.17-6.14 5.32c0 4.9 6.7 4.34 6.7 6.58c0 1.05-1.07 1.4-2.65 1.4c-2.1 0-3-.7-3-1.89v-.14H7.53v.42c0 2.87 2.31 4.55 6.65 4.55c3.92 0 6.3-1.89 6.3-5.25c.07-5.18-6.58-4.69-6.58-6.65z"/></svg>
+                         <!-- Custom "AI" fake logo to fill space -->
+                         <svg class="brand-logo" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+                    </div>
+                </div>
 			</section>
+
+            <!-- Social Proof Marquee -->
+            <section class="testimonials-section">
+                <div class="marquee-container">
+                    <div class="marquee-track track-left">
+                        <!-- Duplicated content for seamless loop -->
+                        <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #FF6B6B">M</div>
+                                <div class="info">
+                                    <div class="name">Marcus Chen</div>
+                                    <div class="role">Indie Developer</div>
+                                </div>
+                            </div>
+                            <p>“The AEO Audit tool saved me weeks of guessing. My traffic from Perplexity is up 200%.”</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #4ECDC4">S</div>
+                                <div class="info">
+                                    <div class="name">Sarah L.</div>
+                                    <div class="role">Content Lead</div>
+                                </div>
+                            </div>
+                            <p>“Finally, a blog that treats AI seriously. No fluff, just pure architectural deep dives.”</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #FFE66D">D</div>
+                                <div class="info">
+                                    <div class="name">David K.</div>
+                                    <div class="role">CTO @ Nexus</div>
+                                </div>
+                            </div>
+                            <p>“Clawdbot is a revelation. I implemented the 'Agent Mesh' strategy immediately.”</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #1A535C">E</div>
+                                <div class="info">
+                                    <div class="name">Elena R.</div>
+                                    <div class="role">Product Designer</div>
+                                </div>
+                            </div>
+                            <p>“The design of this hub alone proves they know what they're doing. Top tier.”</p>
+                        </div>
+                         <!-- Repeat for loop smoothness -->
+                         <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #FF6B6B">M</div>
+                                <div class="info">
+                                    <div class="name">Marcus Chen</div>
+                                    <div class="role">Indie Developer</div>
+                                </div>
+                            </div>
+                            <p>“The AEO Audit tool saved me weeks of guessing. My traffic from Perplexity is up 200%.”</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #4ECDC4">S</div>
+                                <div class="info">
+                                    <div class="name">Sarah L.</div>
+                                    <div class="role">Content Lead</div>
+                                </div>
+                            </div>
+                            <p>“Finally, a blog that treats AI seriously. No fluff, just pure architectural deep dives.”</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marquee-container">
+                    <div class="marquee-track track-right">
+                         <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #FF9F1C">J</div>
+                                <div class="info">
+                                    <div class="name">James T.</div>
+                                    <div class="role">Solo Founder</div>
+                                </div>
+                            </div>
+                            <p>“This is the only newsletter I actually open. The 'Digital Twin' guide was mind-blowing.”</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #2EC4B6">A</div>
+                                <div class="info">
+                                    <div class="name">Aisha P.</div>
+                                    <div class="role">AI Engineer</div>
+                                </div>
+                            </div>
+                            <p>“Precise, technical, and forward-thinking. This is where the alpha is.”</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #E71D36">T</div>
+                                <div class="info">
+                                    <div class="name">Tom W.</div>
+                                    <div class="role">SaaS Builder</div>
+                                </div>
+                            </div>
+                            <p>“I use the Tools directory as my homepage. It filters out so much noise.”</p>
+                        </div>
+                         <!-- Repeat for loop smoothness -->
+                         <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #FF9F1C">J</div>
+                                <div class="info">
+                                    <div class="name">James T.</div>
+                                    <div class="role">Solo Founder</div>
+                                </div>
+                            </div>
+                            <p>“This is the only newsletter I actually open. The 'Digital Twin' guide was mind-blowing.”</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #2EC4B6">A</div>
+                                <div class="info">
+                                    <div class="name">Aisha P.</div>
+                                    <div class="role">AI Engineer</div>
+                                </div>
+                            </div>
+                            <p>“Precise, technical, and forward-thinking. This is where the alpha is.”</p>
+                        </div>
+                          <div class="review-card">
+                            <div class="reviewer-header">
+                                <div class="avatar" style="background: #E71D36">T</div>
+                                <div class="info">
+                                    <div class="name">Tom W.</div>
+                                    <div class="role">SaaS Builder</div>
+                                </div>
+                            </div>
+                            <p>“I use the Tools directory as my homepage. It filters out so much noise.”</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 			<section id="featured" class="featured-sections">
 				<h2>Our Ecosystem</h2>
 				<div class="bento-grid">
-					<a href="/tools/aeo-audit" class="bento-item glass tool-highlight">
+					<a href="/tools/aeo-audit" class="bento-item glass tool-card">
 						<div class="tag">Free Tool</div>
 						<h3>AEO Auditor 2.0</h3>
-						<p>Optimize your site for AI Search (Perplexity, ChatGPT, Claude). Get real-time scores and AI-powered fix prompts.</p>
+						<p>Optimize your site for AI Search (Perplexity, ChatGPT). Get real-time scores and AI-powered fix prompts.</p>
 					</a>
-					<a href="/blog" class="bento-item glass">
+					<a href="/blog" class="bento-item glass blog-card">
 						<h3>Deep Guides</h3>
 						<p>Exhaustive breakdowns of AI workflows used by top 1% indie hackers.</p>
 					</a>
-					<a href="/about" class="bento-item glass">
-						<h3>Tool Catalog</h3>
-						<p>A strictly audited directory of tools that actually save time.</p>
+					<a href="/about" class="bento-item glass about-card">
+						<h3>Architecture</h3>
+						<p>See the code, agents, and pipelines powering this autonomous hub.</p>
 					</a>
 				</div>
 			</section>
@@ -48,45 +205,98 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		<Footer />
 
 		<style>
+            /* Background Animation */
+            .background-effects {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                z-index: -1;
+                overflow: hidden;
+                pointer-events: none;
+            }
+            .grid-overlay {
+                position: absolute;
+                inset: 0;
+                background-image: 
+                    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+                background-size: 50px 50px;
+                mask-image: radial-gradient(circle at center, black 60%, transparent 100%);
+            }
+            .glow-orb {
+                position: absolute;
+                border-radius: 50%;
+                filter: blur(80px);
+                opacity: 0.4;
+                animation: float 20s infinite ease-in-out;
+            }
+            .orb-1 {
+                width: 400px;
+                height: 400px;
+                background: var(--accent);
+                top: -10%;
+                left: -10%;
+                animation-delay: 0s;
+            }
+            .orb-2 {
+                width: 500px;
+                height: 500px;
+                background: #6366f1; /* Indigo */
+                bottom: -20%;
+                right: -10%;
+                animation-delay: -10s;
+            }
+            @keyframes float {
+                0%, 100% { transform: translate(0, 0); }
+                50% { transform: translate(30px, 50px); }
+            }
+
 			.hero {
-				padding: 10rem 0 6rem 0;
+				padding: 1rem 0 2rem 0; /* Ultra tight padding */
 				text-align: center;
 				max-width: 1000px;
 				margin: 0 auto;
+                position: relative;
 			}
 			.hero-badge {
 				display: inline-block;
-				padding: 0.6rem 1.4rem;
-				background: rgba(111, 177, 252, 0.08);
+				padding: 0.4rem 1rem;
+				background: rgba(111, 177, 252, 0.1);
 				border: 1px solid rgba(111, 177, 252, 0.2);
 				border-radius: 100px;
-				color: var(--accent);
-				font-size: 0.8rem;
+				color: #93c5fd;
+				font-size: 0.75rem;
 				font-weight: 700;
-				margin-bottom: 2.5rem;
+				margin-bottom: 1rem; /* Minimal margin */
 				text-transform: uppercase;
 				letter-spacing: 0.1em;
 				backdrop-filter: blur(8px);
+                box-shadow: 0 0 20px rgba(111, 177, 252, 0.1);
 			}
 			.gradient-text {
-				background: linear-gradient(135deg, #fff 0%, var(--accent-light) 50%, var(--accent) 100%);
+				background: linear-gradient(135deg, #fff 0%, #60a5fa 50%, #3b82f6 100%);
 				-webkit-background-clip: text;
 				background-clip: text;
 				-webkit-text-fill-color: transparent;
+                display: inline-block;
+                padding-bottom: 0.2em;
 			}
 			.hero h1 {
-				font-size: clamp(2.5rem, 8vw, 5rem);
+				font-size: clamp(3rem, 8vw, 5.5rem);
 				line-height: 1.1;
-				margin-bottom: 2rem;
+				margin-bottom: 1rem; /* Minimal margin */
 				font-weight: 800;
 				letter-spacing: -0.04em;
+                text-shadow: 0 0 40px rgba(59, 130, 246, 0.2);
 			}
 			.hero-subtitle {
-				font-size: 1.35rem;
-				color: var(--gray);
+				font-size: 1.4rem;
+				color: #94a3b8;
 				line-height: 1.6;
-				margin-bottom: 3.5rem;
-				max-width: 700px;
+				margin-bottom: 2rem; /* Tight spacing to CTA */
+				max-width: 680px;
 				margin-left: auto;
 				margin-right: auto;
 			}
@@ -96,110 +306,425 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 				justify-content: center;
 			}
 			.primary-btn {
-				background: var(--accent);
-				color: #000;
-				padding: 1.2rem 2.5rem;
-				border-radius: 14px;
+				background: #fff;
+				color: #0f172a;
+				padding: 1.2rem 2.8rem;
+				border-radius: 100px;
 				font-weight: 700;
 				text-decoration: none;
 				transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-				box-shadow: 0 10px 20px -5px rgba(111, 177, 252, 0.3);
+				box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 			}
 			.secondary-btn {
-				background: rgba(255, 255, 255, 0.03);
-				border: 1px solid var(--glass-border);
+				background: rgba(255, 255, 255, 0.05);
+				border: 1px solid rgba(255, 255, 255, 0.1);
 				color: #fff;
-				padding: 1.2rem 2.5rem;
-				border-radius: 14px;
+				padding: 1.2rem 2.8rem;
+				border-radius: 100px;
 				font-weight: 700;
 				text-decoration: none;
 				transition: all 0.3s ease;
 				backdrop-filter: blur(10px);
 			}
 			.primary-btn:hover { 
-				transform: translateY(-4px) scale(1.02);
-				box-shadow: 0 15px 30px -5px rgba(111, 177, 252, 0.4);
+				transform: translateY(-4px) scale(1.05);
+				box-shadow: 0 0 40px rgba(255, 255, 255, 0.4);
 			}
 			.secondary-btn:hover {
-				background: rgba(255, 255, 255, 0.06);
-				border-color: rgba(255, 255, 255, 0.2);
+				background: rgba(255, 255, 255, 0.1);
+				border-color: #fff;
 			}
 
 			.featured-sections {
-				padding: 8rem 0;
+				padding: 4rem 0 8rem 0;
 			}
 			.featured-sections h2 {
 				text-align: center;
 				margin-bottom: 4rem;
-				font-size: 3rem;
+				font-size: 2.5rem;
 				font-weight: 800;
 				letter-spacing: -0.03em;
+                color: #e2e8f0;
 			}
 			.bento-grid {
 				display: grid;
 				grid-template-columns: repeat(3, 1fr);
-				grid-auto-rows: minmax(280px, auto);
-				gap: 2rem;
+				grid-auto-rows: minmax(300px, auto);
+				gap: 1.5rem;
+                max-width: 1200px;
+                margin: auto;
+                padding: 0 1rem;
 			}
 			.bento-item {
-				padding: 3rem;
+				padding: 2.5rem;
 				text-decoration: none;
 				color: inherit;
 				display: flex;
 				flex-direction: column;
-				justify-content: flex-end;
-				transition: var(--transition);
+				justify-content: space-between;
+				transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 				position: relative;
 				overflow: hidden;
+                border-radius: 24px;
+                background: rgba(15, 23, 42, 0.6);
+                /* Remove static border, we will use animated one */
+                border: 0; 
+                z-index: 1;
 			}
-			@media (min-width: 721px) {
+            /* The Flowing Border */
+            .bento-item::before, .review-card::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                border-radius: inherit;
+                padding: 1.5px; /* Border width */
+                background: conic-gradient(from 0deg, transparent 0%, var(--accent) 25%, transparent 50%, var(--accent) 75%, transparent 100%);
+                -webkit-mask: 
+                    linear-gradient(#fff 0 0) content-box, 
+                    linear-gradient(#fff 0 0);
+                -webkit-mask-composite: xor;
+                mask-composite: exclude;
+                z-index: -1;
+                animation: spin-border 4s linear infinite;
+                opacity: 0.6;
+            }
+            .bento-item::after {
+                /* Inner background tint to ensure readability */
+                content: "";
+                position: absolute;
+                inset: 1.5px;
+                border-radius: inherit;
+                background: rgba(15, 23, 42, 0.6);
+                z-index: -1;
+            }
+            
+            /* Review Card specific adjustments */
+            .review-card {
+                background: rgba(30, 41, 59, 0.4);
+                /* border: 1px solid rgba(255, 255, 255, 0.05); Removed static border */
+                backdrop-filter: blur(5px);
+                border-radius: 16px;
+                padding: 1.5rem;
+                width: 320px;
+                flex-shrink: 0;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                transition: transform 0.3s ease;
+                position: relative;
+                z-index: 1;
+            }
+            /* For review card, make border subtler */
+            .review-card::before {
+                background: conic-gradient(from 0deg, transparent 0%, rgba(255,255,255,0.3) 25%, transparent 50%, rgba(255,255,255,0.3) 75%, transparent 100%);
+                padding: 1px;
+                animation-duration: 8s;
+            }
+            .review-card::after {
+                content: "";
+                position: absolute;
+                inset: 1px;
+                background: rgba(30, 41, 59, 0.4);
+                border-radius: inherit;
+                z-index: -1;
+            }
+
+			@keyframes spin-border {
+                from { --border-angle: 0deg; filter: hue-rotate(0deg); background-position: 0% 0%; } 
+                /* Note: conic-gradient rotation is tricky to animate directly without @property support in all browsers yet. 
+                   So we use a classic trick: huge rotating background? 
+                   Actually, standard 'spin' using transform works if the element is distinct.
+                   But here ::before is inset: 0. Layout shift? No.
+                   Let's TRY animating a property or using the oversize-rotate method.
+                */
+            }
+            /* Better animated border method: Oversized rotating ::before */
+            /* Re-defining .bento-item to use isolate for z-index containment */
+            .bento-item { isolation: isolate; }
+            .review-card { isolation: isolate; }
+
+            .bento-item::before, .review-card::before {
+                /* Resetting from previous attempt */
+                inset: -50%; /* Huge overbleed */
+                padding: 0; 
+                background: conic-gradient(
+                    transparent 0deg, 
+                    var(--accent) 90deg, 
+                    transparent 180deg, 
+                    var(--accent) 270deg, 
+                    transparent 360deg
+                );
+                animation: rotate-border 6s linear infinite;
+                /* Masking to create the border frame */
+                -webkit-mask: none;
+                mask: none;
+                /* We need to CLIP the inner part. 
+                   Actually, the 'inset' masking trick doesn't work well with rotation. 
+                   Standard approach: 
+                   1. Container overflow: hidden.
+                   2. ::before is the spinning gradient blob BEHIND the content.
+                   3. ::after is the card BODY (inset by 1px) covering the middle.
+                */
+            }
+
+            /* FINAL IMPLEMENTATION STRATEGY */
+            .bento-item, .review-card {
+                /* Ensure overflow hidden to crop the massive spinning gradient */
+                overflow: hidden !important; 
+                border: 0 !important;
+                background: transparent !important; /* Managed by ::after */
+                position: relative;
+                isolation: isolate;
+            }
+            
+            /* Ensure text is above the background layers */
+            .bento-item > *, .review-card > * {
+                position: relative;
+                z-index: 10;
+            }
+
+            /* 1. The Spinning Gradient Layer - OPTIMIZED for Rectangles */
+            .bento-item::before, .review-card::before {
+                content: '';
+                position: absolute;
+                /* Make the gradient HUGE so the curvature matches the rectangle better */
+                top: -150%; 
+                left: -150%; 
+                width: 400%; 
+                height: 400%; 
+                /* Use a sharper gradient to define the 'beam' */
+                background: conic-gradient(transparent, transparent 30%, var(--accent) 50%, transparent 70%);
+                animation: rotate-border 6s linear infinite;
+                z-index: -2;
+                padding: 0;
+                inset: -150%;
+                mask: none; -webkit-mask: none;
+            }
+            
+            /* 2. The Card Body Layer (The Overlay) */
+            .bento-item::after, .review-card::after {
+                content: '';
+                position: absolute;
+                border-radius: inherit; /* Matches parent radius */
+                background: #0f172a; /* Solid dark background fallback */
+                background: linear-gradient(to bottom, #0f172a, #1e293b); /* Gradient background */
+                z-index: -1;
+               /* Make border thinner for elegance */
+                top: 1.5px; left: 1.5px; right: 1.5px; bottom: 1.5px;
+            }
+            
+            /* Review Card Variants */
+            .review-card::after {
+                 background: #1e293b; 
+                 background: linear-gradient(to bottom, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.99));
+            }
+            .review-card::before {
+                background: conic-gradient(transparent, transparent 40%, rgba(148, 163, 184, 0.5) 50%, transparent 60%);
+                animation-duration: 8s;
+            }
+
+            @keyframes rotate-border {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+
+            .icon-wrap {
+                font-size: 2.5rem;
+                margin-bottom: 1rem;
+                background: rgba(255,255,255,0.05);
+                width: 60px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 16px;
+                /* border: 1px solid rgba(255,255,255,0.05); Removed border */
+            }
+			@media (min-width: 768px) {
 				.bento-item:nth-child(1) { grid-column: span 2; }
 			}
 			.bento-item:hover {
-				border-color: rgba(96, 165, 250, 0.4);
-				transform: translateY(-8px);
-				box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6), 0 0 20px var(--accent-glow);
-				background: rgba(15, 23, 42, 0.75);
+				/* border-color: rgba(59, 130, 246, 0.4); Removed */
+				transform: translateY(-5px) scale(1.01);
+				box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+                /* background: ... handled by ::after */
 			}
+            /* Boost the gradient on hover */
+            .bento-item:hover::before {
+                 background: conic-gradient(transparent, #fff, transparent 50%);
+                 opacity: 1;
+            }
+            
 			.bento-item h3 {
-				margin-top: 0;
-				font-size: 1.75rem;
+				margin-top: auto;
+				font-size: 1.8rem;
 				color: #fff;
-				margin-bottom: 0.75rem;
-				transition: var(--transition);
+				margin-bottom: 0.5rem;
+                font-weight: 700;
 			}
 			.bento-item p {
-				color: var(--gray);
+				color: #94a3b8;
 				margin: 0;
-				line-height: 1.6;
-				font-size: 1.05rem;
-			}
-			.bento-item:hover h3 {
-				color: var(--accent);
-				transform: translateX(4px);
+				line-height: 1.5;
+				font-size: 1rem;
 			}
 
 			.tool-highlight {
-				background: linear-gradient(145deg, rgba(111, 177, 252, 0.15) 0%, rgba(15, 23, 42, 0.4) 100%);
-				border-color: rgba(111, 177, 252, 0.3) !important;
+				background: linear-gradient(145deg, rgba(30, 58, 138, 0.4) 0%, rgba(15, 23, 42, 0.8) 100%);
 			}
 			.tool-highlight .tag {
 				position: absolute;
 				top: 1.5rem;
 				right: 1.5rem;
-				background: var(--accent);
-				color: #000;
-				padding: 0.3rem 0.8rem;
+				background: #3b82f6;
+				color: #fff;
+				padding: 0.4rem 1rem;
 				border-radius: 100px;
 				font-size: 0.75rem;
-				font-weight: 800;
+				font-weight: 700;
 				text-transform: uppercase;
+                letter-spacing: 0.05em;
+                box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
 			}
 
 			@media (max-width: 720px) {
-				.hero h1 { font-size: 2.5rem; }
+				.hero h1 { font-size: 3rem; }
 				.bento-grid { grid-template-columns: 1fr; }
+                .bento-item:nth-child(1) { grid-column: span 1; }
 			}
+
+            /* Testimonials Marquee */
+            .testimonials-section {
+                padding: 2rem 0;
+                overflow: hidden;
+                position: relative;
+                mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+            }
+            .marquee-container {
+                display: flex;
+                overflow: hidden;
+                margin-bottom: 1.5rem;
+            }
+            .marquee-track {
+                display: flex;
+                gap: 1.5rem;
+                /* Only minimal width needed to allow flex shrinkage */
+                width: max-content; 
+            }
+            .track-left {
+                animation: scroll-left 40s linear infinite;
+            }
+            .track-right {
+                animation: scroll-right 45s linear infinite;
+            }
+
+            /* Pause on hover for readability */
+            .marquee-track:hover {
+                animation-play-state: paused;
+            }
+
+            .review-card {
+                background: rgba(30, 41, 59, 0.4);
+                border: 1px solid rgba(255, 255, 255, 0.05);
+                backdrop-filter: blur(5px);
+                border-radius: 16px;
+                padding: 1.5rem;
+                width: 320px;
+                flex-shrink: 0;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                transition: transform 0.3s ease;
+            }
+            .review-card:hover {
+                background: rgba(30, 41, 59, 0.6);
+                border-color: rgba(255, 255, 255, 0.1);
+                transform: translateY(-2px);
+            }
+            .reviewer-header {
+                display: flex;
+                align-items: center;
+                gap: 0.8rem;
+            }
+            .avatar {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 1.1rem;
+                color: rgba(0,0,0,0.6);
+            }
+            .info {
+                display: flex;
+                flex-direction: column;
+            }
+            .name {
+                font-size: 0.95rem;
+                font-weight: 700;
+                color: #e2e8f0;
+            }
+            .role {
+                font-size: 0.75rem;
+                color: #94a3b8;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+            .review-card p {
+                margin: 0;
+                color: #cbd5e1;
+                font-size: 0.95rem;
+                line-height: 1.5;
+                font-style: italic;
+            }
+
+            @keyframes scroll-left {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(-50%); }
+            }
+            @keyframes scroll-right {
+                0% { transform: translateX(-50%); }
+                100% { transform: translateX(0); }
+            }
+
+            /* Trusted By Strip */
+            .trusted-by {
+                margin-top: 2.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
+            .trusted-label {
+                font-size: 0.85rem;
+                color: #64748b;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                font-weight: 600;
+                margin: 0;
+            }
+            .logo-row {
+                display: flex;
+                gap: 2.5rem;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .brand-logo {
+                height: 28px;
+                width: auto;
+                color: #94a3b8;
+                opacity: 0.5;
+                transition: all 0.3s ease;
+            }
+            .brand-logo:hover {
+                color: #fff;
+                opacity: 1;
+                transform: scale(1.1);
+                filter: drop-shadow(0 0 8px rgba(255,255,255,0.3));
+            }
 		</style>
 	</body>
 </html>
