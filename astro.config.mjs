@@ -10,5 +10,11 @@ export default defineConfig({
 	site: 'https://ai-coding-flow.com',
 	output: 'server',
 	adapter: vercel(),
-	integrations: [expressiveCode(), mdx(), sitemap()],
+	integrations: [
+		expressiveCode(),
+		mdx(),
+		sitemap({
+			customPages: ['https://ai-coding-flow.com/tools/aeo-audit']
+		})
+	],
 });
