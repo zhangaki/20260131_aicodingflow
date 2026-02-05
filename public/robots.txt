@@ -13,4 +13,4 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-Sitemap: https://super-individual.vercel.app/sitemap-index.xml
+Sitemap: https://ai-coding-flow.com/sitemap-index.xml
