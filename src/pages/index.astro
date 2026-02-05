@@ -129,33 +129,38 @@ const posts = (await getCollection('blog')).sort(
             .bento-item p { color: #94a3b8; margin: 0; line-height: 1.5; font-size: 1rem; }
 
             /* Testimonials Marquee */
-            .testimonials-section {
-                padding: 4rem 0;
+            @keyframes marquee-scroll {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(-50%); }
+            }
+
+            .marquee-wrapper {
+                margin: 4rem 0;
                 overflow: hidden;
                 position: relative;
+                width: 100%;
+                -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
                 mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
             }
-            .marquee-container {
-                display: flex;
-                overflow: hidden;
-                margin-bottom: 1.5rem;
-            }
             .marquee-track {
-                display: flex;
+                display: flex !important;
+                flex-direction: row !important;
                 gap: 1.5rem;
                 width: max-content; 
-                animation: scroll-left 40s linear infinite;
+                animation: marquee-scroll 40s linear infinite;
+                padding: 1rem 0;
             }
             .marquee-track:hover {
                 animation-play-state: paused;
             }
             .review-card {
                 background: rgba(30, 41, 59, 0.4);
-                border: 1px solid rgba(255, 255, 255, 0.05);
-                backdrop-filter: blur(5px);
-                border-radius: 16px;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(10px);
+                border-radius: 20px;
                 padding: 1.5rem;
-                width: 320px;
+                width: 320px !important;
+                min-width: 320px;
                 flex-shrink: 0;
                 display: flex;
                 flex-direction: column;
@@ -165,26 +170,27 @@ const posts = (await getCollection('blog')).sort(
                 display: flex;
                 align-items: center;
                 gap: 0.8rem;
+                width: 100%;
             }
             .avatar {
-                width: 40px;
-                height: 40px;
+                width: 44px;
+                height: 44px;
+                min-width: 44px;
                 border-radius: 50%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-weight: 700;
-                font-size: 1.1rem;
-                color: rgba(0,0,0,0.6);
+                font-weight: 800;
+                color: rgba(255,255,255,0.9);
+                flex-shrink: 0;
             }
-            .name { font-size: 0.95rem; font-weight: 700; color: #e2e8f0; }
-            .role { font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; }
-            .review-card p { margin: 0; color: #cbd5e1; font-size: 0.95rem; line-height: 1.5; font-style: italic; }
-
-            @keyframes scroll-left {
-                0% { transform: translateX(0); }
-                100% { transform: translateX(-50%); }
+            .reviewer-info {
+                display: flex;
+                flex-direction: column;
             }
+            .reviewer-name { font-size: 1rem; font-weight: 700; color: #fff; }
+            .reviewer-role { font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; }
+            .review-text { margin: 0; color: #cbd5e1; font-size: 0.95rem; line-height: 1.6; font-style: italic; }
 
 			/* Latest Insights (Post Grid) */
 			.latest-insights { margin-top: 6rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 4rem; }
@@ -202,7 +208,7 @@ const posts = (await getCollection('blog')).sort(
                 .hero h1 { font-size: 2.8rem; }
                 .bento-grid { grid-template-columns: 1fr; }
                 .bento-item:nth-child(1) { grid-column: span 1; }
-                .review-card { width: 260px; }
+                .review-card { width: 280px !important; min-width: 280px; }
             }
 		</style>
 	</head>
@@ -245,52 +251,50 @@ const posts = (await getCollection('blog')).sort(
             </section>
 
             <!-- Testimonials Marquee -->
-            <section class="testimonials-section">
-                <div class="marquee-container">
-                    <div class="marquee-track">
-                        <div class="review-card">
-                            <div class="reviewer-header">
-                                <div class="avatar" style="background: #FF9F1C">J</div>
-                                <div class="info"><div class="name">James T.</div><div class="role">Solo Founder</div></div>
-                            </div>
-                            <p>“This is the only newsletter I actually open. The 'Digital Twin' guide was mind-blowing.”</p>
+            <section class="marquee-wrapper">
+                <div class="marquee-track">
+                    <div class="review-card">
+                        <div class="reviewer-header">
+                            <div class="avatar" style="background: #FF9F1C">J</div>
+                            <div class="reviewer-info"><div class="reviewer-name">James T.</div><div class="reviewer-role">Solo Founder</div></div>
                         </div>
-                        <div class="review-card">
-                            <div class="reviewer-header">
-                                <div class="avatar" style="background: #2EC4B6">A</div>
-                                <div class="info"><div class="name">Aisha P.</div><div class="role">AI Engineer</div></div>
-                            </div>
-                            <p>“Precise, technical, and forward-thinking. This is where the alpha is.”</p>
+                        <p class="review-text">“This is the only newsletter I actually open. The 'Digital Twin' guide was mind-blowing.”</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="reviewer-header">
+                            <div class="avatar" style="background: #2EC4B6">A</div>
+                            <div class="reviewer-info"><div class="reviewer-name">Aisha P.</div><div class="reviewer-role">AI Engineer</div></div>
                         </div>
-                        <div class="review-card">
-                            <div class="reviewer-header">
-                                <div class="avatar" style="background: #E71D36">T</div>
-                                <div class="info"><div class="name">Tom W.</div><div class="role">SaaS Builder</div></div>
-                            </div>
-                            <p>“I use the Tools directory as my homepage. It filters out so much noise.”</p>
+                        <p class="review-text">“Precise, technical, and forward-thinking. This is where the alpha is.”</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="reviewer-header">
+                            <div class="avatar" style="background: #E71D36">T</div>
+                            <div class="reviewer-info"><div class="reviewer-name">Tom W.</div><div class="reviewer-role">SaaS Builder</div></div>
                         </div>
-                        <!-- REPEAT FOR LOOP -->
-                        <div class="review-card">
-                            <div class="reviewer-header">
-                                <div class="avatar" style="background: #FF9F1C">J</div>
-                                <div class="info"><div class="name">James T.</div><div class="role">Solo Founder</div></div>
-                            </div>
-                            <p>“This is the only newsletter I actually open. The 'Digital Twin' guide was mind-blowing.”</p>
+                        <p class="review-text">“I use the Tools directory as my homepage. It filters out so much noise.”</p>
+                    </div>
+                    <!-- REPEAT FOR LOOP -->
+                    <div class="review-card">
+                        <div class="reviewer-header">
+                            <div class="avatar" style="background: #FF9F1C">J</div>
+                            <div class="reviewer-info"><div class="reviewer-name">James T.</div><div class="reviewer-role">Solo Founder</div></div>
                         </div>
-                        <div class="review-card">
-                            <div class="reviewer-header">
-                                <div class="avatar" style="background: #2EC4B6">A</div>
-                                <div class="info"><div class="name">Aisha P.</div><div class="role">AI Engineer</div></div>
-                            </div>
-                            <p>“Precise, technical, and forward-thinking. This is where the alpha is.”</p>
+                        <p class="review-text">“This is the only newsletter I actually open. The 'Digital Twin' guide was mind-blowing.”</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="reviewer-header">
+                            <div class="avatar" style="background: #2EC4B6">A</div>
+                            <div class="reviewer-info"><div class="reviewer-name">Aisha P.</div><div class="reviewer-role">AI Engineer</div></div>
                         </div>
-                        <div class="review-card">
-                            <div class="reviewer-header">
-                                <div class="avatar" style="background: #E71D36">T</div>
-                                <div class="info"><div class="name">Tom W.</div><div class="role">SaaS Builder</div></div>
-                            </div>
-                            <p>“I use the Tools directory as my homepage. It filters out so much noise.”</p>
+                        <p class="review-text">“Precise, technical, and forward-thinking. This is where the alpha is.”</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="reviewer-header">
+                            <div class="avatar" style="background: #E71D36">T</div>
+                            <div class="reviewer-info"><div class="reviewer-name">Tom W.</div><div class="reviewer-role">SaaS Builder</div></div>
                         </div>
+                        <p class="review-text">“I use the Tools directory as my homepage. It filters out so much noise.”</p>
                     </div>
                 </div>
             </section>
