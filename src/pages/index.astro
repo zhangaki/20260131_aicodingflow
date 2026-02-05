@@ -6,7 +6,11 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getCollection } from 'astro:content';
 
 const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+	(a, b) => {
+		const dateA = a.data.pubDate instanceof Date ? a.data.pubDate : new Date(a.data.pubDate);
+		const dateB = b.data.pubDate instanceof Date ? b.data.pubDate : new Date(b.data.pubDate);
+		return dateB.valueOf() - dateA.valueOf();
+	}
 );
 ---
 

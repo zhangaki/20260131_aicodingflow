@@ -24,11 +24,11 @@ const displayDate = pubDate instanceof Date ? pubDate : new Date(pubDate);
 const wordCount = 1200; 
 const readingTime = Math.ceil(wordCount / 200);
 
-// Get related posts based on tags
+// Get related posts based on tags (only if we're on a post page)
 const allPosts = await getCollection('blog');
-const relatedPosts = allPosts
+const relatedPosts = post ? allPosts
     .filter(p => p.id !== post.id && p.data.tags?.some(tag => post.data.tags?.includes(tag)))
-    .slice(0, 3);
+    .slice(0, 3) : [];
 ---
 
 <html lang="en">
