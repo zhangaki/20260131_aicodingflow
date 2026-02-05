@@ -109,40 +109,136 @@ const posts = (await getCollection('blog')).sort(
             .featured-sections h2 { font-size: 2.5rem; margin-bottom: 3rem; text-align: left; }
             .bento-grid {
                 display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-auto-rows: minmax(280px, auto);
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(2, minmax(320px, auto));
                 gap: 1.5rem;
             }
             .bento-item {
+                position: relative;
                 padding: 2.5rem;
-                border-radius: 32px;
-                border: 1px solid rgba(255,255,255,0.1);
-                background: rgba(15, 23, 42, 0.4);
-                backdrop-filter: blur(15px);
-                transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                border-radius: 40px;
+                border: 1px solid rgba(255,255,255,0.05);
+                background: linear-gradient(135deg, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.6) 100%);
+                backdrop-filter: blur(30px) saturate(180%);
+                transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
+                justify-content: flex-start;
                 text-decoration: none;
                 color: inherit;
+                overflow: hidden;
             }
-            .bento-item:nth-child(1) { grid-column: span 2; }
-            .bento-item:hover {
-                border-color: var(--accent);
-                transform: translateY(-8px);
-                box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            .bento-item::after {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+                opacity: 0.03;
+                pointer-events: none;
             }
-            .bento-item h3 { font-size: 1.8rem; color: #fff; margin: 0 0 0.5rem 0; font-weight: 700; }
-            .bento-item p { color: #94a3b8; margin: 0; line-height: 1.5; font-size: 1rem; }
+            
+            .bento-item:nth-child(1) { 
+                grid-column: span 2; 
+                grid-row: span 2; 
+                justify-content: space-between; 
+                padding: 3rem;
+            }
+            .bento-item:nth-child(2) { 
+                grid-column: span 2; 
+                grid-row: span 1; 
+                flex-direction: row; 
+                align-items: stretch; /* Fill height */
+                padding: 0; /* Remove default padding for internal split */
+            }
+            .bento-item:nth-child(3) { 
+                grid-column: span 2; 
+                grid-row: span 1; 
+                flex-direction: row; 
+                align-items: stretch; /* Fill height */
+                padding: 0;
+            }
+            
+            /* Internal content for small cards */
+            .small-card-content {
+                flex: 1.2;
+                padding: 2.5rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                border-right: 1px solid rgba(255,255,255,0.05);
+            }
+            .small-card-visual {
+                flex: 1;
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgba(0,0,0,0.2);
+            }
+            .small-card-visual img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                opacity: 0.8;
+                transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            }
+            .bento-item:hover .small-card-visual img {
+                transform: scale(1.1) rotate(2deg);
+                opacity: 1;
+            }
+
+            /* Technical Metadata Decoration */
+            .bento-meta {
+                position: absolute;
+                bottom: 2.5rem;
+                right: 2.5rem;
+                font-family: monospace;
+                font-size: 0.7rem;
+                color: rgba(148, 163, 184, 0.4);
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                pointer-events: none;
+            }
+            .bento-meta span { margin-top: 0.3rem; }
+            .bento-badge {
+                position: absolute;
+                top: 2.5rem;
+                right: 2.5rem;
+                font-size: 0.65rem;
+                background: rgba(255,255,255,0.05);
+                border: 1px solid rgba(255,255,255,0.1);
+                color: #94a3b8;
+                padding: 0.2rem 0.6rem;
+                border-radius: 6px;
+                font-weight: 600;
+            }
+
+            .bento-item h3 { font-size: 1.8rem; color: #fff; margin: 0 0 1rem 0; font-weight: 800; letter-spacing: -0.04em; }
+            .bento-item p { color: #94a3b8; margin: 0; line-height: 1.6; font-size: 1.05rem; }
+
+            /* Large Card Image Adjustment */
+            .bento-item:nth-child(1) .scan-container {
+                margin-top: 3rem;
+                width: calc(100% + 1rem);
+                margin-left: -0.5rem;
+                aspect-ratio: 16/9;
+            }
 
             /* Image Scan Effect */
             .scan-container {
                 position: relative;
                 overflow: hidden;
-                border-radius: 12px;
-                margin-top: 1.5rem;
+                border-radius: 24px;
+                margin-top: 2rem;
                 width: 100%;
-                aspect-ratio: 16/9;
+                aspect-ratio: 16/10;
+                background: rgba(0,0,0,0.5);
+                border: 1px solid rgba(255,255,255,0.1);
+                box-shadow: 0 20px 40px rgba(0,0,0,0.3);
             }
             .scan-container img {
                 width: 100%;
@@ -248,13 +344,45 @@ const posts = (await getCollection('blog')).sort(
                 content-visibility: auto;
                 contain-intrinsic-size: 1000px;
             }
-			.post-card { display: flex; flex-direction: column; border-radius: 16px; overflow: hidden; text-decoration: none; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.3s ease; height: 100%; }
-			.post-card:hover { transform: translateY(-8px); }
-			.post-image { height: 200px; background: rgba(0, 0, 0, 0.2); overflow: hidden; }
-			.post-image img { width: 100%; height: 100%; object-fit: cover; transition: opacity 0.3s ease; }
-			.post-content { padding: 1.5rem; flex-grow: 1; }
-			.post-content h3 { margin: 0 0 0.5rem 0; color: #fff; font-size: 1.25rem; line-height: 1.4; }
-			.post-content p { color: #94a3b8; font-size: 0.9rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.6; }
+			.post-card { 
+                position: relative;
+                display: flex; 
+                flex-direction: column; 
+                border-radius: 24px; 
+                overflow: hidden; 
+                text-decoration: none; 
+                background: linear-gradient(135deg, rgba(30, 41, 59, 0.3) 0%, rgba(15, 23, 42, 0.5) 100%);
+                border: 1px solid rgba(255, 255, 255, 0.05); 
+                backdrop-filter: blur(20px);
+                transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1); 
+                height: 100%; 
+            }
+            .post-card::after {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+                opacity: 0.02;
+                pointer-events: none;
+            }
+			.post-card:hover { 
+                transform: translateY(-10px) scale(1.02); 
+                border-color: rgba(255, 255, 255, 0.2);
+                box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6);
+                background: rgba(30, 41, 59, 0.5);
+            }
+			.post-image { height: 220px; background: rgba(0, 0, 0, 0.4); overflow: hidden; position: relative; }
+            .post-image::after {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(to bottom, transparent 60%, rgba(15, 23, 42, 0.8));
+            }
+			.post-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+            .post-card:hover .post-image img { transform: scale(1.1); }
+			.post-content { padding: 1.8rem; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; position: relative; z-index: 1; }
+			.post-content h3 { margin: 0 0 0.8rem 0; color: #fff; font-size: 1.4rem; line-height: 1.4; font-weight: 700; letter-spacing: -0.02em; }
+			.post-content p { color: #94a3b8; font-size: 1rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.6; margin: 0; }
 
             @media (max-width: 720px) {
                 main { padding: 1.5rem 1rem; }
@@ -272,9 +400,17 @@ const posts = (await getCollection('blog')).sort(
                 }
                 .featured-sections { margin: 3rem 0; }
                 .featured-sections h2 { font-size: 1.8rem; margin-bottom: 2rem; }
-                .bento-grid { grid-template-columns: 1fr; gap: 1rem; }
-                .bento-item { padding: 1.5rem; border-radius: 20px; }
-                .bento-item:nth-child(1) { grid-column: span 1; }
+                .bento-grid { 
+                    grid-template-columns: 1fr; 
+                    gap: 1.5rem; 
+                }
+                .bento-item { 
+                    flex-direction: column !important; 
+                    padding: 2rem; 
+                    border-radius: 32px; 
+                }
+                .bento-item:nth-child(1), .bento-item:nth-child(2), .bento-item:nth-child(3) { grid-area: auto; grid-column: span 1; grid-row: span 1; }
+                .bento-item:not(:nth-child(1)) .scan-container { width: 100%; margin-top: 1.5rem; }
                 .bento-item h3 { font-size: 1.4rem; }
                 
                 .marquee-wrapper { margin: 2rem 0; }
@@ -311,55 +447,69 @@ const posts = (await getCollection('blog')).sort(
                 <h2>Our Ecosystem</h2>
                 <div class="bento-grid">
                     <a href="/tools/aeo-audit" class="bento-item">
-                        <div>
+                        <div class="bento-badge">STABLE v2.0</div>
+                        <div class="bento-content">
                             <h3>AEO Auditor 2.0</h3>
-                            <p>Optimize your site for AI Search (Perplexity, ChatGPT). Get real-time scores and AI-powered fix prompts.</p>
+                            <p>Maximize your visibility in AI Search. Real-time scores and precision prompts for Perplexity, SearchGPT & ChatGPT.</p>
                         </div>
                         <div class="scan-container">
                             <img 
                                 src="/assets/aeo-mockup.png" 
                                 alt="AEO Auditor" 
-                                width="400" 
-                                height="225" 
+                                width="600" 
+                                height="375" 
                                 decoding="async"
                                 loading="lazy"
                             />
+                        </div>
+                        <div class="bento-meta">
+                            <span>LATENCY: 140MS</span>
+                            <span>INDEXING: ENABLED</span>
                         </div>
                     </a>
                     <a href="/blog" class="bento-item">
-                        <div>
+                        <div class="small-card-content">
+                            <div class="bento-badge" style="position: relative; top: 0; right: 0; width: fit-content; margin-bottom: 1rem;">DOCS</div>
                             <h3>Deep Guides</h3>
-                            <p>Exhaustive breakdowns of AI workflows used by top 1% indie hackers.</p>
+                            <p>Exhaustive technical deep-dives into agentic workflows.</p>
                         </div>
-                        <div class="scan-container">
+                        <div class="small-card-visual">
                             <img 
                                 src="/assets/deep-guides.png" 
                                 alt="Deep Guides" 
-                                width="400" 
-                                height="225" 
-                                decoding="async"
-                                loading="lazy"
                             />
+                            <div class="grid-overlay" style="opacity: 0.1;"></div>
                         </div>
                     </a>
                     <a href="/about" class="bento-item">
-                        <div>
+                        <div class="small-card-content">
+                            <div class="bento-badge" style="position: relative; top: 0; right: 0; width: fit-content; margin-bottom: 1rem;">REPO</div>
                             <h3>Architecture</h3>
-                            <p>See the code, agents, and pipelines powering this autonomous hub.</p>
+                            <p>The code powering this hub.</p>
                         </div>
-                        <div class="scan-container">
+                        <div class="small-card-visual">
                             <img 
                                 src="/assets/architecture.png" 
                                 alt="Architecture" 
-                                width="400" 
-                                height="225" 
-                                decoding="async"
-                                loading="lazy"
                             />
+                            <div class="grid-overlay" style="opacity: 0.1;"></div>
                         </div>
                     </a>
                 </div>
             </section>
+
+            <script is:inline>
+                // Interactive Bento Mouse Effect
+                document.querySelectorAll('.bento-item').forEach(item => {
+                    item.addEventListener('mousemove', e => {
+                        const rect = item.getBoundingClientRect();
+                        const x = ((e.clientX - rect.left) / rect.width) * 100;
+                        const y = ((e.clientY - rect.top) / rect.height) * 100;
+                        item.style.setProperty('--x', `${x}%`);
+                        item.style.setProperty('--y', `${y}%`);
+                    });
+                });
+            </script>
 
             <!-- Testimonials Marquee -->
             <section class="marquee-wrapper">
