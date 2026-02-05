@@ -19,27 +19,171 @@ const posts = (await getCollection('blog')).sort(
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
-			main { width: 100%; max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
-			.hero { text-align: center; padding: 4rem 0; }
-			.hero h1 { font-size: 4rem; margin-bottom: 1rem; }
-			.latest-insights { margin-top: 4rem; }
+			/* Background Animation */
+            .background-effects {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                z-index: -1;
+                overflow: hidden;
+                pointer-events: none;
+            }
+            .grid-overlay {
+                position: absolute;
+                inset: 0;
+                background-image: 
+                    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+                background-size: 50px 50px;
+                mask-image: radial-gradient(circle at center, black 60%, transparent 100%);
+            }
+            .glow-orb {
+                position: absolute;
+                border-radius: 50%;
+                filter: blur(80px);
+                opacity: 0.4;
+                animation: float 20s infinite ease-in-out;
+            }
+            .orb-1 { width: 400px; height: 400px; background: var(--accent); top: -10%; left: -10%; animation-delay: 0s; }
+            .orb-2 { width: 500px; height: 500px; background: #6366f1; bottom: -20%; right: -10%; animation-delay: -10s; }
+
+            @keyframes float {
+                0%, 100% { transform: translate(0, 0); }
+                50% { transform: translate(30px, 50px); }
+            }
+
+			main { width: 100%; max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; position: relative; }
+			
+            /* Hero Section */
+            .hero {
+                padding: 4rem 0;
+                text-align: center;
+                max-width: 1000px;
+                margin: 0 auto;
+                position: relative;
+            }
+            .hero-badge {
+                display: inline-block;
+                padding: 0.4rem 1rem;
+                background: rgba(111, 177, 252, 0.1);
+                border: 1px solid rgba(111, 177, 252, 0.2);
+                border-radius: 100px;
+                color: #93c5fd;
+                font-size: 0.75rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                margin-bottom: 2rem;
+            }
+            .hero h1 {
+                font-size: 4.5rem;
+                line-height: 1;
+                font-weight: 800;
+                letter-spacing: -0.04em;
+                margin-bottom: 1.5rem;
+                background: linear-gradient(to bottom, #fff 60%, rgba(255,255,255,0.4));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .hero-subtitle {
+                font-size: 1.25rem;
+                color: #94a3b8;
+                line-height: 1.6;
+                margin-bottom: 3rem;
+                max-width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            /* Bento Grid */
+            .featured-sections { margin: 6rem 0; }
+            .featured-sections h2 { font-size: 2.5rem; margin-bottom: 3rem; text-align: left; }
+            .bento-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-auto-rows: minmax(280px, auto);
+                gap: 1.5rem;
+            }
+            .bento-item {
+                padding: 2.5rem;
+                border-radius: 32px;
+                border: 1px solid rgba(255,255,255,0.1);
+                background: rgba(15, 23, 42, 0.4);
+                backdrop-filter: blur(15px);
+                transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                text-decoration: none;
+                color: inherit;
+            }
+            .bento-item:nth-child(1) { grid-column: span 2; }
+            .bento-item:hover {
+                border-color: var(--accent);
+                transform: translateY(-8px);
+                box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            }
+            .bento-item h3 { font-size: 1.8rem; color: #fff; margin: 0 0 0.5rem 0; font-weight: 700; }
+            .bento-item p { color: #94a3b8; margin: 0; line-height: 1.5; font-size: 1rem; }
+
+			/* Latest Insights (Post Grid) */
+			.latest-insights { margin-top: 6rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 4rem; }
+            .latest-insights h2 { font-size: 2.5rem; margin-bottom: 2rem; }
 			.posts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 2rem; margin-top: 2rem; }
 			.post-card { display: flex; flex-direction: column; border-radius: 16px; overflow: hidden; text-decoration: none; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.3s ease; }
 			.post-card:hover { transform: translateY(-8px); }
 			.post-image { height: 200px; }
 			.post-image img { width: 100%; height: 100%; object-fit: cover; }
 			.post-content { padding: 1.5rem; }
-			.post-content h3 { margin: 0 0 0.5rem 0; color: #fff; }
-			.post-content p { color: #94a3b8; font-size: 0.9rem; }
+			.post-content h3 { margin: 0 0 0.5rem 0; color: #fff; font-size: 1.25rem; }
+			.post-content p { color: #94a3b8; font-size: 0.9rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+            @media (max-width: 720px) {
+                .hero h1 { font-size: 2.8rem; }
+                .bento-grid { grid-template-columns: 1fr; }
+                .bento-item:nth-child(1) { grid-column: span 1; }
+            }
 		</style>
 	</head>
 	<body>
 		<Header />
+        <div class="background-effects">
+            <div class="grid-overlay"></div>
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+        </div>
 		<main>
 			<section class="hero">
+                <div class="hero-badge">Autonomous AI Factory v2.0</div>
 				<h1>Maximize Your Potential with AI</h1>
-				<p>{SITE_DESCRIPTION}</p>
+				<p class="hero-subtitle">{SITE_DESCRIPTION}</p>
 			</section>
+
+            <section class="featured-sections">
+                <h2>Our Ecosystem</h2>
+                <div class="bento-grid">
+                    <a href="/tools/aeo-audit" class="bento-item">
+                        <div>
+                            <h3>AEO Auditor 2.0</h3>
+                            <p>Optimize your site for AI Search (Perplexity, ChatGPT). Get real-time scores and AI-powered fix prompts.</p>
+                        </div>
+                    </a>
+                    <a href="/blog" class="bento-item">
+                        <div>
+                            <h3>Deep Guides</h3>
+                            <p>Exhaustive breakdowns of AI workflows used by top 1% indie hackers.</p>
+                        </div>
+                    </a>
+                    <a href="/about" class="bento-item">
+                        <div>
+                            <h3>Architecture</h3>
+                            <p>See the code, agents, and pipelines powering this autonomous hub.</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
 
 			<section class="latest-insights">
 				<h2>Latest Insights</h2>
