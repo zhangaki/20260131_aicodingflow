@@ -5,13 +5,14 @@ description: As LLMs replace senior devs in the Pull Request queue, a new form o
 heroImage: /assets/ai-code-reviewer-bias-2026.jpg
 pubDate: Dec 30 2025
 tags:
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
 title: 'The Invisible Judge: Detecting Bias in AI Code Reviewers'
 ---
+
 
 In the 1980s, the "Ghost in the Machine" was a science fiction trope about consciousness emerging from silicon.
 Today, that "ghost" is less about sentience and more about the technical inertia of training sets. It is a collection of prejudices baked into Large Language Models.
@@ -64,6 +65,3 @@ The goal of AI in DevOps is not to achieve a "Perfect Median." It is to augment 
 If your AI reviewer is forcing you into a corner of boring, "Standard" code, fire it. 
 In 2026, the best teams don't have the "Smartest" AI; they have the **Most Objective** one.
 
----
-
-**Is your AI being a jerk?** Use our [Neutrality Auditor Script](/tools) or read the [Non-Idiomatic Performance Guide](/blog).

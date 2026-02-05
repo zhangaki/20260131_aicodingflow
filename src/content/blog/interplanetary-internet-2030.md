@@ -4,12 +4,13 @@ description: Light is too slow for Mars. We need a new protocol. A guide to Dela
 heroImage: /assets/interplanetary-internet-cover.png
 pubDate: Dec 12 2025
 tags:
-- Infrastructure
 - Dev Tools
 - Future Tech
+- Infrastructure
 - Society & Ethics
 title: 'The Interplanetary Internet: Networking Across the Solar System (2030)'
 ---
+
 
 TCP/IP, the foundation of our modern internet, assumes a "Chatty" connection.
 It expects a server to respond to a request in milliseconds.

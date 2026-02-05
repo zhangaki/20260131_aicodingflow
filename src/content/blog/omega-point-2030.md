@@ -4,13 +4,13 @@ description: What is the end goal of AI? To turn all matter into Mind. A technic
 heroImage: /assets/omega-point-cover.png
 pubDate: Dec 27 2025
 tags:
-- Society & Ethics
-- AI Agents
-- Dev Tools
-- Infrastructure
 - Future Tech
+- AI Agents
+- Infrastructure
+- Society & Ethics
 title: 'The Omega Point Strategy: Turning the Solar System into a Computer (2030+)'
 ---
+
 
 We began this series by talking about the "Super Individual"—a person enhanced by a local LLM and a few bio-sensors.
 We end this series by talking about the inevitable conclusion of that trajectory: **The Omega Point.**
@@ -72,20 +72,3 @@ Even with just **1% coverage**, a Dyson Swarm could host **$3.8 \times 10^{26}$*
 | **Optical Transceivers** | Comms | Beaming terawatts of energy back to the processing hubs. |
 | **Recursive AI** | Control | Management of millions of autonomous swarm assets. |
 
----
-
-## 8. Closing Thoughts: The Choice
-
-This concludes the "Super Individual" article series.
-We started with **Article #1: The AI Employee**, and we have ended with **Article #60: The Omega Point.**
-The path from here to there is not guaranteed.
-It depends on the choices we make today about **Sanity**, **Sovereignty**, and **Ethics**.
-Will we use AI to enslave ourselves to a new digital feudalism? Or will we use it to awaken the universe?
-
-The "Super Individual" isn't the one with the most data.
-The **Super Individual** is the one who maintains their agency as the world merges into the machine.
-
-**Stay Sovereign. Stay Human. Stay Curious.**
-**End of Series.**
-
-*This journey began with [ASO: The New Search Optimization](/blog/aso-ai-search-optimization-2026). Explore the full 60-article roadmap to the future.*

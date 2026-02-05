@@ -8,6 +8,7 @@ tags:
 title: 'AEO Audit: Getting Your Site Ready for Deepseek'
 ---
 
+
 ## Market Pulse: The Deepseek GEO Narrative
 
 The search interest spike in **deepseek** isn't just news; it's a structural change in the **Entity Graph**. We are tracking how Deepseek changes user expectations for real-time answers.
@@ -31,4 +32,3 @@ The rise of DeepSeek highlights the decentralization of intelligence. Optimizing
 **Q: Is deepseek compatible with standard Schema.org?**
 *A: Yes, but it prioritizes nested JSON-LD that defines clear entity relationships over simple flat tags.*
 
----

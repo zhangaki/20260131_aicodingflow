@@ -4,13 +4,14 @@ description: Why vote when you can fork? A technical and political roadmap to fo
 heroImage: /assets/network-state-cover.png
 pubDate: Dec 30 2025
 tags:
-- Infrastructure
 - Dev Tools
+- Infrastructure
 - Society & Ethics
 - Security
 title: 'The Cloud Country: From Discord Server to Sovereign Soil (The Network State
   in 2030)'
 ---
+
 
 The Nation State is the Operating System of 1648 (The Treaty of Westphalia).
 It is increasingly buggy, bloated, and incompatible with the digital age.

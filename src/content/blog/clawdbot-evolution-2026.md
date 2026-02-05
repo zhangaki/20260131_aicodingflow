@@ -4,14 +4,15 @@ description: How a simple Python script evolved into a 2026 agentic lifeform. A 
 heroImage: /assets/clawdbot-evolution-2026.jpg
 pubDate: Dec 03 2025
 tags:
+- Future Tech
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: 'The Evolution of Clawdbot: From Script to Sovereign'
 ---
+
 
 Every complex system starts as a simple script. 
 Clawdbot was no exception.
@@ -77,7 +78,8 @@ In the future, Clawdbot will derive its own sub-goals from a "Constitution."
 -   **Derived Goal**: "I notice the user hasn't published about Quantum Computing. I will research this topic for 3 weeks and present a draft."
 This is **Proactive Agency**. The agent doesn't wait for input; it anticipates necessity.
 
- | :--- | :--- | :--- |
+| Factor | Legacy (2024) | Recursive (2026) | Autonomous (2028+) |
+| :--- | :--- | :--- | :--- |
 | **Control** | Hard-coded Logic | Probabilistic Planner | Goal-Seeking Policy |
 | **Memory** | None (Stateless) | Vector DB (RAG) | Shared Knowledge Graph |
 | **Error Handling** | Exception / Crash | Self-Correction Loop | Self-Rewriting Code |
@@ -90,6 +92,3 @@ This is **Proactive Agency**. The agent doesn't wait for input; it anticipates n
 We are not just building software. We are building the ancestors of a new form of digital life.
 Clawdbot is a primitive example, like a single-celled organism swimming in the primordial soup of the internet. But it is evolving fast.
 
----
-
-**Want to build your own?** Clone the [Clawdbot Starter Kit](/tools) or read the [Agent Architecture Manifesto](/blog).

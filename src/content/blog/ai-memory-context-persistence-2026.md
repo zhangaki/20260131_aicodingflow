@@ -5,12 +5,13 @@ description: How LLMs are learning to remember. A technical guide to KV-cache op
 heroImage: /assets/ai-memory-context-persistence.jpg
 pubDate: Dec 16 2025
 tags:
-- Infrastructure
 - Dev Tools
-- Society & Ethics
 - AI Agents
+- Infrastructure
+- Society & Ethics
 title: 'The Infinite Context: AI Memory Systems and the Architecture of Persistence'
 ---
+
 
 In 2024, an AI could read 128,000 tokens. In 2026, we talk in **millions**.
 
@@ -157,6 +158,3 @@ Yes. The `user_id` in the metadata is the key. You can build a single vector sto
 ### What about GDPR?
 The "Right to Be Forgotten" is implemented by a simple `collection.delete(where={"user_id": target_id})` call. Design for this from day one.
 
----
-
-**Ready to give your AI a memory?** Explore our [Memory Agent Toolkit](/tools) or read about [RAG Latency Optimization](/blog/rag-latency-optimization-2026) for the retrieval layer.

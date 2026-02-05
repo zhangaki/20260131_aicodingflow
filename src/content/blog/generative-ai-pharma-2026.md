@@ -4,11 +4,12 @@ description: How to discover drugs in days, not decades. A technical guide to pr
 heroImage: /assets/generative-ai-pharma.jpg
 pubDate: Jan 14 2026
 tags:
-- Infrastructure
 - Dev Tools
 - Future Tech
+- Infrastructure
 title: 'The Molecular Architect: Generative AI for Pharmaceutical R&D in 2026'
 ---
+
 
 For all of human history, drug discovery has been a lottery. We test 10,000 molecules to find one that works, spending $2 billion and 12 years in the process.
 
@@ -127,6 +128,3 @@ Eventually, yes. AI generates *hypotheses*. You still need to synthesize the mol
 ### Is the data private?
 Genomic data is highly sensitive. We use **Federated Learning** to train models across hospital datasets without the data ever leaving the hospital's server.
 
----
-
-**Ready to engineer life?** Explore our [Generative Bio Toolkit](/tools) or read about [AI Model Fingerprinting](/blog/ai-model-fingerprinting-2026) to protect your molecule designs.

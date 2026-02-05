@@ -5,11 +5,12 @@ heroImage: /assets/hitl-agency-2026.jpg
 pubDate: Dec 02 2025
 tags:
 - Dev Tools
-- Society & Ethics
 - AI Agents
+- Society & Ethics
 - Security
 title: 'The Cyborg Loop: Designing Human-in-the-Loop (HITL) Protocols for 2026'
 ---
+
 
 We have spent the last two years striving for "Full Autonomy." We wanted agents that could do everything without us.
 Now, in 2026, we are realizing that full autonomy is a trap.

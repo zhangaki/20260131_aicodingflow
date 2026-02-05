@@ -5,14 +5,15 @@ description: How to audit automated justice. A technical exploration of detectin
 heroImage: /assets/legal-ai-bias-auditing.jpg
 pubDate: Jan 20 2026
 tags:
+- Future Tech
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: 'Algorithm vs. Equity: The 2026 Framework for Auditing Legal AI Bias'
 ---
+
 
 The scale of justice is no longer made of brass. It is made of code.
 

@@ -4,11 +4,12 @@ heroImage: /assets/red-teaming-llm.png
 pubDate: Dec 27 2025
 tags:
 - Dev Tools
-- Society & Ethics
 - AI Agents
+- Society & Ethics
 - Security
 title: 'Breaking Your Own AI: Red Teaming for Production LLMs in 2026'
 ---
+
 
 The best way to secure your AI is to attack it first.
 

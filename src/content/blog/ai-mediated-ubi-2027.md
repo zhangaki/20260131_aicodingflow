@@ -4,13 +4,14 @@ description: Autonomous intelligence trends and technical deep dives into the 20
 heroImage: /assets/ai-mediated-ubi.jpg
 pubDate: Jan 03 2026
 tags:
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
 title: 'The Generative Mirage: Unpacking the Production Nightmares of AI-Driven'
 ---
+
 
 Forget breathless pronouncements of AI-driven UBI alternatives. As a CTO, I'm less interested in the utopian destination and far more concerned with the potholes that will shred our tires along the way. The dream of "Autonomous Affluence," fueled by generative AI agents, is seductive. But the reality, as always, is far more complex – and fraught with very specific, production-level challenges.
 

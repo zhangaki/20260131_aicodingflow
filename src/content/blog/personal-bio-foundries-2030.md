@@ -4,14 +4,15 @@ description: When you can download Insulin like you download a PDF, the FDA beco
 heroImage: /assets/bio-foundries-cover.png
 pubDate: Dec 22 2025
 tags:
+- Future Tech
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: 'The Printer for Life: Personal Bio-Foundries and the End of Pharma (2030)'
 ---
+
 
 Compute has been decentralized (Bitcoin/GPUs).
 Information has been decentralized (The Internet).

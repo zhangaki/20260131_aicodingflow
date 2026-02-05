@@ -4,13 +4,14 @@ description: In 2026, if your TTFT is over 200ms, you don’t have a product. Th
 heroImage: /assets/ai-latency-optimization.jpg
 pubDate: Jan 18 2026
 tags:
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
 title: 'Sub-100ms or Bust: The CTO’s Guide to AI Inference Latency'
 ---
+
 
 **Accuracy is table stakes. Latency is the differentiator.**
 
@@ -18,7 +19,8 @@ In 2026, user patience has hit a hard ceiling: **100ms**. That is the psychologi
 
 This is the CTO's engineering manifest for raw, unadulterated inference speed.
 
-|:---|:---|:---|
+| Metric | Target | Standard | bottleneck |
+|:---|:---|:---|:---|
 | **TTFT (First Token)** | < 80ms | 400-800ms | Input Prefill / Sequential Decode |
 | **Decode Speed** | > 100 tps | 20-50 tps | Memory Bandwidth (HBM) |
 | **Transport** | < 30ms | 150ms+ | Data Center Locality |

@@ -3,13 +3,14 @@ description: How to prove ownership of your AI and detect when it
 heroImage: /assets/ai-model-fingerprinting.png
 pubDate: Dec 30 2025
 tags:
+- Future Tech
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: The Model
 ---
+
 
 You spent $500,000 training a state-of-the-art model. A competitor just released a suspiciously similar one.
 
@@ -144,6 +145,3 @@ Sophisticated attackers can attempt to "wash" watermarks through fine-tuning or 
 ### Should I fingerprint before or after deployment?
 Before. Generate and securely store your fingerprint the moment training completes, before any public access.
 
----
-
-**Ready to protect your AI?** Explore our [Model Security Toolkit](/tools) or read about [Red Teaming for Production LLMs](/blog/red-teaming-llm-2026) for the next layer of security.

@@ -4,13 +4,14 @@ description: Forget searching your notes. In 2028, your database interacts direc
 heroImage: /assets/exocortex-cover.png
 pubDate: Dec 22 2025
 tags:
-- Society & Ethics
-- AI Agents
-- Dev Tools
-- Infrastructure
 - Future Tech
+- AI Agents
+- Infrastructure
+- Dev Tools
+- Society & Ethics
 title: 'The Exocortex Integration: Building the External Mind in 2028'
 ---
+
 
 The human brain is an efficient biological processor, but it is a terrible hard drive.
 Our **Hippocampus** (the brain's indexer) is lossy, fallible, and prone to rewriting history to fit our current emotional narrative.

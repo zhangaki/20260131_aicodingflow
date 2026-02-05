@@ -4,14 +4,15 @@ description: Who are you when you no longer need to work? A technical and philos
 heroImage: /assets/post-labor-identity.png
 pubDate: Dec 03 2025
 tags:
+- Future Tech
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: 'The Void and the Valor: Managing Identity in the Post-Labor Economy of 2027'
 ---
+
 
 For 300 years, the question "Who are you?" has been functionally identical to "What do you do?"
 *I am a lawyer. I am a coder. I am a truck driver.*
@@ -190,6 +191,3 @@ We define "work" narrowly as "wage labor." Humans worked for 200,000 years befor
 ### How do I compete with a genius AI?
 You don't. You compete on **Being You**. No AI can be you better than you can. In a world of infinite intelligence, **Uniqueness** is the only moat. If you are weird, specific, and authentic, you have no competition.
 
----
-
-**Ready to reclaim your self?** Explore our [Personal DAO Template](/tools) or read about [AI-Mediated UBI](/blog/ai-mediated-ubi-2027) to understand the economic floor that makes this identity shift possible.

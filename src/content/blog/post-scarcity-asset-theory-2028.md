@@ -4,12 +4,13 @@ description: 'When AI can generate infinite art, code, and text, what holds valu
 heroImage: /assets/post-scarcity-cover.png
 pubDate: Jan 04 2026
 tags:
-- Infrastructure
 - Dev Tools
-- Society & Ethics
 - AI Agents
+- Infrastructure
+- Society & Ethics
 title: 'The Currency of Entropy: Post-Scarcity Asset Theory in 2028'
 ---
+
 
 In 2028, the marginal cost of intelligence has effectively hit zero.
 You can generate a symphony, a legal contract, or a 3D Metaverse world for $0.0001 worth of electricity.

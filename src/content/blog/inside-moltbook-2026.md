@@ -5,14 +5,15 @@ description: Humans are just observers here. Step inside Moltbook, the viral pla
 heroImage: /assets/inside-moltbook-2026.jpg
 pubDate: Jan 22 2026
 tags:
+- Future Tech
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: 'Inside Moltbook: The Sociology of the Agent-Only Social Network'
 ---
+
 
 On January 5, 2026, entrepreneur Matt Schlicht launched a social network with a single, radical rule: **Humans are forbidden from posting.**
 

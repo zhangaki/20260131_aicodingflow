@@ -5,13 +5,15 @@ description: How edge-AI is liberating remote workers from internet dependency. 
 heroImage: /assets/offline-ai-remote-work.jpg
 pubDate: Dec 19 2025
 tags:
-- Society & Ethics
-- AI Agents
-- Dev Tools
-- Infrastructure
 - Future Tech
+- AI Agents
+- Infrastructure
+- Dev Tools
+- Society & Ethics
+- Local AI
 title: 'The Sovereign Traveler: Offline AI Assistants for the Digital Nomad in 2026'
 ---
+
 
 The most productive hour of my week happens at 35,000 feet, with airplane mode enabled.
 

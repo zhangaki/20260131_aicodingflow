@@ -4,14 +4,15 @@ description: Rest APIs are for robots. Intent is for agents. A technical manifes
 heroImage: /assets/agent-mesh-2026.jpg
 pubDate: Jan 18 2026
 tags:
+- Future Tech
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: 'The Agent Mesh: Deconstructing the REST Monopoly'
 ---
+
 
 We are finally ending the era of the **Rigid Contract**. 
 
@@ -19,7 +20,8 @@ For ten years, we pretended that mapping `userId` from one database to another w
 
 This is the manifest of the **Agent Mesh**—a decentralized, intent-driven network architecture where software doesn't just "ping" other software; it negotiates outcomes.
 
-|:---|:---|
+| Dimension | Traditional (REST) | Future (Agent Mesh) |
+|:---|:---|:---|
 | **Discovery** | "Call payment-svc at 10.0.1.25" | "I need to process $50 USD." |
 | **Contract** | Hardcoded JSON Schema | Dynamic Negotiation (HLO) |
 | **Logic** | Procedural (If-Then) | Probabilistic (Agentic) |

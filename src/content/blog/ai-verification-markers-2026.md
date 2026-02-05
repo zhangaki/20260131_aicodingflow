@@ -5,14 +5,15 @@ description: In 2026, we no longer trust our eyes. We trust the metadata. Discov
 heroImage: /assets/ai-verification-markers.jpg
 pubDate: Dec 28 2025
 tags:
+- Future Tech
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: 'The Provenance Layer: AI Verification Markers and the Future of Visual Truth'
 ---
+
 
 We are living in the year of the **Visual Ghost**.
 
@@ -117,6 +118,3 @@ Looking toward 2030, this provenance layer is already extending to **Voice** (to
 
 The "Open Web" is slowly being replaced by a **"Verified Web."** It’s more complex, yes, but it might be the only way to stay human in the age of the ghost.
 
----
-
-**Is your content trusted?** Check out our [Provenance Audit Suite](/tools) or read about [Mobile AI Agents](/blog/mobile-os-ai-2026) to see how local devices handle live verification.

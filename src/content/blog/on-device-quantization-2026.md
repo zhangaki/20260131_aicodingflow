@@ -4,14 +4,15 @@ description: How 1.58-bit quantization and bit-linear architectures are bringing
 heroImage: /assets/on-device-quantization-2026.jpg
 pubDate: Jan 13 2026
 tags:
+- Future Tech
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: 'The Math of Compression: Fitting 400B Parameters in Your Pocket'
 ---
+
 
 Intelligence is heavy—or at least, it used to be.
 If you wanted to run a flagship Large Language Model like Llama-3-70B at full precision (FP32) in 2024, you needed a mountain of silicon. Approximately 280GB of VRAM just to load the weights. That’s enough to make even a professional workstation sweat, and it’s a non-starter for the high-end smartphone in your pocket, which likely taps out at 12GB of RAM.

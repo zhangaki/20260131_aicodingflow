@@ -4,11 +4,12 @@ description: Critical analysis of grok 3 ai. Discover how this specific AI trend
 heroImage: /assets/grok-3-ai-cover.png
 pubDate: Dec 10 2025
 tags:
-- Society & Ethics
 - AI Agents
+- Society & Ethics
 - Security
 title: 'AEO Audit: Getting Your Site Ready for Grok 3 Ai'
 ---
+
 
 ## Security & Access Brief: The Grok 3 Ai Protocol
 
@@ -36,4 +37,3 @@ Elon's Grok 3 will have deep X-integration. Real-time data signals and social ve
 **Q: Should I block grok 3 ai's crawler?**
 *A: Only if you want to protect training data. For visibility, we recommend an 'Explicit Allow' strategy with a clean llms.txt entry.*
 
----

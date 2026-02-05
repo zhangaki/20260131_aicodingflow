@@ -4,11 +4,12 @@ description: Critical analysis of lovable ai. Discover how this specific AI tren
 heroImage: /assets/lovable-ai-cover.png
 pubDate: Jan 12 2026
 tags:
-- Infrastructure
 - AI Agents
+- Infrastructure
 - Security
 title: 'The Lovable Ai Protocol: A Guide for Site Owners'
 ---
+
 
 ## Security & Access Brief: The Lovable Ai Protocol
 
@@ -36,4 +37,3 @@ Lovable is changing the barrier to startup creation. SEO for the software-gen er
 **Q: Should I block lovable ai's crawler?**
 *A: Only if you want to protect training data. For visibility, we recommend an 'Explicit Allow' strategy with a clean llms.txt entry.*
 
----

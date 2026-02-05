@@ -4,13 +4,14 @@ description: Silicon is temporary. DNA is forever. A technical guide to archivin
 heroImage: /assets/dna-storage.jpg
 pubDate: Dec 26 2025
 tags:
+- Future Tech
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: 'The Eternal Archive: DNA Data Storage for AI Models in 2027'
 ---
+
 
 In 2027, humanity generates 500 exabytes of data per day.
 The overwhelming majority of this is **Synthetic Data**—AI models training on the output of other AI models, generating infinite variations of video, code, and text.

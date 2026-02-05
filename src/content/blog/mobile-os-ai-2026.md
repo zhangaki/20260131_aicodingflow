@@ -5,14 +5,15 @@ description: In 2026, the home screen is dying. Large Action Models (LAMs) are t
 heroImage: /assets/mobile-os-ai-2026.jpg
 pubDate: Dec 07 2025
 tags:
+- Future Tech
+- AI Agents
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- AI Agents
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: 'The Ghost in the Screen: Why Your Phone OS is Becoming an Agent'
 ---
+
 
 For nearly two decades, the smartphone has been a "Grid of Icons."
 We find an app, we tap it, we navigate its unique UI, we perform a task, and we exit.

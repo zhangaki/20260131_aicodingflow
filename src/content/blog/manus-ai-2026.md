@@ -4,11 +4,12 @@ description: Critical analysis of manus ai. Discover how this specific AI trend 
 heroImage: /assets/manus-ai-cover.png
 pubDate: Jan 12 2026
 tags:
-- Infrastructure
 - AI Agents
+- Infrastructure
 - Security
 title: 'The Manus Ai Protocol: A Guide for Site Owners'
 ---
+
 
 ## Market Pulse: The Manus Ai GEO Narrative
 
@@ -33,4 +34,3 @@ Manus AI's agentic navigation means your site's 'Actionability' score is now a r
 **Q: Should I block manus ai's crawler?**
 *A: Only if you want to protect training data. For visibility, we recommend an 'Explicit Allow' strategy with a clean llms.txt entry.*
 
----

@@ -5,13 +5,14 @@ description: Personalized AI tutors promise 100x learning, but they also threate
 heroImage: /assets/ai-tutoring-2026.jpg
 pubDate: Jan 29 2026
 tags:
+- Future Tech
+- Infrastructure
+- Dev Tools
 - Society & Ethics
 - Security
-- Dev Tools
-- Infrastructure
-- Future Tech
 title: 'AI Tutoring: The Looming Crisis of Hyper-Optimization (and How to Avert It)'
 ---
+
 
 The seductive promise of AI-driven hyper-personalization has reached its zenith in the educational sphere. We are told that adaptive loops, psychometric calibration, and just-in-time context injection will usher in an era of the "100x learner." Yet, I see a shadow lurking beneath this utopian vision: the specter of cognitive monoculture and the erosion of intellectual resilience.
 

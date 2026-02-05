@@ -5,12 +5,13 @@ description: How AI is ending the 7-year diagnostic odyssey for 300 million peop
 heroImage: /assets/rare-disease-ai-diagnosis.jpg
 pubDate: Jan 10 2026
 tags:
-- Infrastructure
-- Dev Tools
 - Future Tech
 - AI Agents
+- Dev Tools
+- Infrastructure
 title: 'The Orphan Signal: AI-Driven Early Diagnosis for Rare Diseases in 2026'
 ---
+
 
 For 300 million people across the globe, the search for a diagnosis is measured not in days, but in **years**. 
 
@@ -142,6 +143,3 @@ For untreatable conditions, the 2026 standard is a "Right to Know" framework. Pa
 ### Can I build this as a "Super Individual"?
 Yes. The GFM models are available on Hugging Face, and the rare disease centroid libraries are published by Orphanet. A skilled Super Individual can build a diagnostic MVP for under $10,000 in compute costs.
 
----
-
-**Ready to join the diagnostic revolution?** Explore our [AI Diagnostic Toolkit](/tools) or learn how [Mobile AI Agents](/blog/mobile-os-ai-2026) are bringing these tools to local clinics.
