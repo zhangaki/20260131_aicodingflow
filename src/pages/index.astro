@@ -192,17 +192,25 @@ const posts = (await getCollection('blog')).sort(
             .reviewer-role { font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; }
             .review-text { margin: 0; color: #cbd5e1; font-size: 0.95rem; line-height: 1.6; font-style: italic; }
 
-			/* Latest Insights (Post Grid) */
+            /* Latest Insights (Post Grid) */
 			.latest-insights { margin-top: 6rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 4rem; }
             .latest-insights h2 { font-size: 2.5rem; margin-bottom: 2rem; }
-			.posts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 2rem; margin-top: 2rem; }
-			.post-card { display: flex; flex-direction: column; border-radius: 16px; overflow: hidden; text-decoration: none; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.3s ease; }
+			.posts-grid { 
+                display: grid; 
+                grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+                gap: 2rem; 
+                margin-top: 2rem;
+                /* Optimize rendering for many items */
+                content-visibility: auto;
+                contain-intrinsic-size: 1000px;
+            }
+			.post-card { display: flex; flex-direction: column; border-radius: 16px; overflow: hidden; text-decoration: none; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.3s ease; height: 100%; }
 			.post-card:hover { transform: translateY(-8px); }
-			.post-image { height: 200px; }
-			.post-image img { width: 100%; height: 100%; object-fit: cover; }
-			.post-content { padding: 1.5rem; }
-			.post-content h3 { margin: 0 0 0.5rem 0; color: #fff; font-size: 1.25rem; }
-			.post-content p { color: #94a3b8; font-size: 0.9rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+			.post-image { height: 200px; background: rgba(0, 0, 0, 0.2); overflow: hidden; }
+			.post-image img { width: 100%; height: 100%; object-fit: cover; transition: opacity 0.3s ease; }
+			.post-content { padding: 1.5rem; flex-grow: 1; }
+			.post-content h3 { margin: 0 0 0.5rem 0; color: #fff; font-size: 1.25rem; line-height: 1.4; }
+			.post-content p { color: #94a3b8; font-size: 0.9rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.6; }
 
             @media (max-width: 720px) {
                 .hero h1 { font-size: 2.8rem; }
@@ -234,6 +242,14 @@ const posts = (await getCollection('blog')).sort(
                             <h3>AEO Auditor 2.0</h3>
                             <p>Optimize your site for AI Search (Perplexity, ChatGPT). Get real-time scores and AI-powered fix prompts.</p>
                         </div>
+                        <img 
+                            src="/assets/aeo-mockup.png" 
+                            alt="AEO Auditor" 
+                            width="200" 
+                            height="120" 
+                            decoding="async"
+                            style="margin-top: 1.5rem; border-radius: 12px; opacity: 0.8;"
+                        />
                     </a>
                     <a href="/blog" class="bento-item">
                         <div>
@@ -306,7 +322,14 @@ const posts = (await getCollection('blog')).sort(
 						posts.map((post) => (
 							<a href={`/blog/${post.id}`} class="post-card">
 								<div class="post-image">
-									<img src={post.data.heroImage} alt="" />
+									<img 
+                                        src={post.data.heroImage} 
+                                        alt="" 
+                                        loading="lazy" 
+                                        decoding="async"
+                                        width="400"
+                                        height="200"
+                                    />
 								</div>
 								<div class="post-content">
 									<h3>{post.data.title}</h3>
