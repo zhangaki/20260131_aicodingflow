@@ -135,6 +135,43 @@ const posts = (await getCollection('blog')).sort(
             .bento-item h3 { font-size: 1.8rem; color: #fff; margin: 0 0 0.5rem 0; font-weight: 700; }
             .bento-item p { color: #94a3b8; margin: 0; line-height: 1.5; font-size: 1rem; }
 
+            /* Image Scan Effect */
+            .scan-container {
+                position: relative;
+                overflow: hidden;
+                border-radius: 12px;
+                margin-top: 1.5rem;
+                width: 100%;
+                aspect-ratio: 16/9;
+            }
+            .scan-container img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+            .scan-container::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 50%;
+                height: 100%;
+                background: linear-gradient(
+                    90deg,
+                    transparent,
+                    rgba(255, 255, 255, 0.2),
+                    transparent
+                );
+                transform: skewX(-20deg);
+                animation: scan-highlight 4s infinite cubic-bezier(0.4, 0, 0.2, 1);
+            }
+            @keyframes scan-highlight {
+                0% { left: -100%; }
+                40% { left: 200%; }
+                100% { left: 200%; }
+            }
+
             /* Testimonials Marquee */
             @keyframes marquee-scroll {
                 0% { transform: translateX(0); }
@@ -278,25 +315,47 @@ const posts = (await getCollection('blog')).sort(
                             <h3>AEO Auditor 2.0</h3>
                             <p>Optimize your site for AI Search (Perplexity, ChatGPT). Get real-time scores and AI-powered fix prompts.</p>
                         </div>
-                        <img 
-                            src="/assets/aeo-mockup.png" 
-                            alt="AEO Auditor" 
-                            width="200" 
-                            height="120" 
-                            decoding="async"
-                            style="margin-top: 1.5rem; border-radius: 12px; opacity: 0.8;"
-                        />
+                        <div class="scan-container">
+                            <img 
+                                src="/assets/aeo-mockup.png" 
+                                alt="AEO Auditor" 
+                                width="400" 
+                                height="225" 
+                                decoding="async"
+                                loading="lazy"
+                            />
+                        </div>
                     </a>
                     <a href="/blog" class="bento-item">
                         <div>
                             <h3>Deep Guides</h3>
                             <p>Exhaustive breakdowns of AI workflows used by top 1% indie hackers.</p>
                         </div>
+                        <div class="scan-container">
+                            <img 
+                                src="/assets/deep-guides.png" 
+                                alt="Deep Guides" 
+                                width="400" 
+                                height="225" 
+                                decoding="async"
+                                loading="lazy"
+                            />
+                        </div>
                     </a>
                     <a href="/about" class="bento-item">
                         <div>
                             <h3>Architecture</h3>
                             <p>See the code, agents, and pipelines powering this autonomous hub.</p>
+                        </div>
+                        <div class="scan-container">
+                            <img 
+                                src="/assets/architecture.png" 
+                                alt="Architecture" 
+                                width="400" 
+                                height="225" 
+                                decoding="async"
+                                loading="lazy"
+                            />
                         </div>
                     </a>
                 </div>
