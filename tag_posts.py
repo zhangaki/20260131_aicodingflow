@@ -10,9 +10,10 @@ TAG_RULES = {
     "AI Agents": ["agent", "agents", "autonomous", "orchestration", "clawdbot", "swarm", "copilot", "cursor", "assistant"],
     "Security": ["security", "red team", "injection", "hack", "exploit", "vulnerability", "compliance", "audit", "bias", "privacy", "risk"],
     "Infrastructure": ["hardware", "gpu", "latency", "quantization", "local llm", "server", "api", "cloud", "compute", "storage", "memory"],
-    "Future Tech": ["bci", "neural", "brain", "space", "mars", "dyson", "quantum", "genetic", "bio", "fusion", "robotics"],
+    "Future Tech": ["bci", "neural", "brain", "space", "mars", "dyson", "quantum", "genetic", "bio", "fusion", "robotics", "llama-4", "llama 4"],
     "Society & Ethics": ["ubi", "labor", "job", "economy", "governance", "law", "legal", "philosophy", "identity", "social", "humanity"],
-    "Dev Tools": ["code", "typescript", "python", "debug", "sitemap", "git", "cli", "terminal", "workflow"]
+    "Dev Tools": ["code", "typescript", "python", "debug", "sitemap", "git", "cli", "terminal", "workflow"],
+    "Local AI": ["offline ai", "local assistant", "local indexing", "personal files", "privacy-first"]
 }
 
 count = 0

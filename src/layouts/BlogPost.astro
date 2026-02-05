@@ -9,6 +9,7 @@ import AffiliateCard from '../components/AffiliateCard.astro';
 import SocialShare from '../components/SocialShare.astro';
 
 const { post, prevPost, nextPost } = Astro.props;
+import { getCollection } from 'astro:content';
 
 // Support both CollectionEntry (from blog post) and direct props (from about page)
 const title = post?.data?.title || Astro.props.title;
@@ -22,6 +23,12 @@ const displayDate = pubDate instanceof Date ? pubDate : new Date(pubDate);
 // Calculate Reading Time (rough estimation)
 const wordCount = 1200; 
 const readingTime = Math.ceil(wordCount / 200);
+
+// Get related posts based on tags
+const allPosts = await getCollection('blog');
+const relatedPosts = allPosts
+    .filter(p => p.id !== post.id && p.data.tags?.some(tag => post.data.tags?.includes(tag)))
+    .slice(0, 3);
 ---
 
 <html lang="en">
@@ -223,6 +230,60 @@ const readingTime = Math.ceil(wordCount / 200);
             .nav-placeholder {
                 flex: 1;
             }
+
+            /* Related Posts */
+            .related-posts {
+                margin-top: 4rem;
+                padding-top: 2rem;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            .related-posts h3 {
+                font-size: 1.5rem;
+                color: #fff;
+                margin-bottom: 2rem;
+            }
+            .related-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 1.5rem;
+            }
+            .related-card {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                text-decoration: none;
+                background: rgba(255,255,255,0.03);
+                border-radius: 16px;
+                overflow: hidden;
+                border: 1px solid rgba(255,255,255,0.05);
+                transition: all 0.3s ease;
+            }
+            .related-card:hover {
+                background: rgba(255,255,255,0.08);
+                transform: translateY(-4px);
+            }
+            .rp-image {
+                height: 140px;
+                overflow: hidden;
+            }
+            .rp-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .rp-content {
+                padding: 1rem;
+            }
+            .rp-content h4 {
+                font-size: 1rem;
+                color: #e2e8f0;
+                margin: 0;
+                line-height: 1.4;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
 		</style>
 	</head>
 
@@ -253,7 +314,37 @@ const readingTime = Math.ceil(wordCount / 200);
 							</div>
 						<h1>{title}</h1>
 					</div>
+
+					<!-- Top AdSense Placeholder -->
+					<div class="adsense-placeholder top-ad" style="min-height: 90px; background: rgba(255,255,255,0.03); border: 1px dashed rgba(255,255,255,0.1); margin: 2rem 0; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
+						<span style="color: #64748b; font-size: 0.8rem; font-family: 'JetBrains Mono', monospace;">AD_SPACE_TOP</span>
+					</div>
+
 					<slot />
+
+					<!-- Bottom AdSense Placeholder -->
+					<div class="adsense-placeholder bottom-ad" style="min-height: 250px; background: rgba(255,255,255,0.03); border: 1px dashed rgba(255,255,255,0.1); margin: 3rem 0; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
+						<span style="color: #64748b; font-size: 0.8rem; font-family: 'JetBrains Mono', monospace;">AD_SPACE_BOTTOM</span>
+					</div>
+
+					{relatedPosts.length > 0 && (
+						<div class="related-posts">
+							<h3>Related Insights</h3>
+							<div class="related-grid">
+								{relatedPosts.map(rp => (
+									<a href={`/blog/${rp.id}/`} class="related-card">
+										<div class="rp-image">
+											<img src={rp.data.heroImage} alt="" />
+										</div>
+										<div class="rp-content">
+											<h4>{rp.data.title}</h4>
+										</div>
+									</a>
+								))}
+							</div>
+						</div>
+					)}
+
 					<SocialShare title={title} url={Astro.url.href} />
 
                     <div class="post-navigation">
