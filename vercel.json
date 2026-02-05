@@ -12,5 +12,12 @@
                 }
             ]
         }
+    ],
+    "redirects": [
+        {
+            "source": "/blog/editor-wars",
+            "destination": "/blog",
+            "permanent": true
+        }
     ]
 }
