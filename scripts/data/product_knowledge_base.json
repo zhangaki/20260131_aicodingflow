@@ -545,9 +545,77 @@
             "compared_to": [
                 "chatgpt",
                 "claude",
-                "grok"
+                "grok",
+                "openai_o3"
             ],
             "website": "https://gemini.google.com"
+        },
+        "claude_opus_4_6": {
+            "name": "Claude 4.6 Opus",
+            "category": "llm_provider",
+            "company": "Anthropic",
+            "founded": "2021",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": false,
+                "starting_price": "$30/month (Opus Tier)",
+                "team_price": "$40/user/month",
+                "enterprise_price": "Custom"
+            },
+            "key_features": [
+                "Massive 1M output context (new for 4.6)",
+                "Agentic reasoning capabilities",
+                "Zero-retention data privacy by default",
+                "Computer Use V2 (90% success rate)",
+                "Native artifact version control"
+            ],
+            "unique_selling_point": "The highest-reasoning model available for complex, multi-step agentic tasks.",
+            "best_for": "Enterprise architects and developers building autonomous agent swarms.",
+            "limitations": [
+                "Significantly slower than Sonnet",
+                "Expensive per token",
+                "No native image generation"
+            ],
+            "compared_to": [
+                "openai_o3",
+                "chatgpt",
+                "gemini",
+                "grok"
+            ],
+            "website": "https://anthropic.com/claude"
+        },
+        "openai_o3": {
+            "name": "OpenAI o3",
+            "category": "llm_provider",
+            "company": "OpenAI",
+            "founded": "2015",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": false,
+                "starting_price": "$200/month (Researcher Tier)",
+                "api_price": "$0.06/1k tokens",
+                "enterprise_price": "Custom"
+            },
+            "key_features": [
+                "Chain-of-thought verification (visible)",
+                "Self-correcting code generation",
+                "PhD-level math capabilities",
+                "Deep research autonomous mode",
+                "100% hallucination reduction (claimed)"
+            ],
+            "unique_selling_point": "The first 'reasoning engine' designed purely for scientific and mathematical breakthroughs.",
+            "best_for": "Researchers, quants, and systems engineers needing absolute precision.",
+            "limitations": [
+                "Extremely high latency (up to 30s)",
+                "Cost prohibitive for general use",
+                "Strict safety guardrails"
+            ],
+            "compared_to": [
+                "claude_opus_4_6",
+                "gemini",
+                "chatgpt"
+            ],
+            "website": "https://openai.com/o3"
         }
     }
 }

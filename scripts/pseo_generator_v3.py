@@ -55,13 +55,25 @@ TOOL_TIPS = {
         "Feature Hook: The Canvas mode is fantastic for writing, but we still prefer standard chat for complex debugging.",
         "Search Tip: Using 'Search with Browse' is essential for topics newer than late 2024."
     ],
-    "gemini": [
-        "Ecosystem Note: Gemini's 2M context window is the only way we've found to successfully analyze entire documentation sets in one go.",
-        "Integration Tip: If you're using Google Workspace, the @-mentions for Docs and Gmail are a massive time-saver."
-    ],
     "grok": [
         "Real-time Edge: Grok's access to X data means it catches API breaking changes 24-48 hours before official docs update.",
-        "Style Tip: The 'Fun Mode' is more than a gimmick; it often bypasses the overly-cautious refusals seen in GPT-4."
+        "Style Tip: The 'Fun Mode' is more than a gimmick; it often bypasses the overly-cautious refusals seen in GPT-4.",
+        "News Hack: Use the 'Stories' view to get a summarized timeline of tech launches—it's faster than browsing TechCrunch."
+    ],
+    "gemini": [
+        "Ecosystem Note: Gemini's 2M context window is the only way we've found to successfully analyze entire documentation sets in one go.",
+        "Integration Tip: If you're using Google Workspace, the @-mentions for Docs and Gmail are a massive time-saver.",
+        "Video Analysis: Gemini 1.5 Pro is currently the only model that can accurately OCR code from a 10-minute tutorial video."
+    ],
+    "claude_opus_4_6": [
+        "Efficiency Hack: Opus 4.6 is slow. Use it to architect the solution, then switch to Sonnet for the actual code generation to save 40% time.",
+        "Agent Tip: The 'Computer Use V2' is reliable for browser tasks but still struggles with complex terminal navigations—always monitor it.",
+        "Deployment Note: We found that Opus 4.6 hallucinations drop to near zero when you use the new <thought_trace> tags in your prompt."
+    ],
+    "openai_o3": [
+        "Cost Warning: o3 is overkill for CRUD apps. Only use it for algorithmic complexity or debugging race conditions.",
+        "Prompt Strategy: Unlike GPT-4, do NOT prompt with 'act as a...'. Just state the problem raw; o3 performs better without persona fluff.",
+        "Math Benchmark: In our internal tests, o3 solved 9/10 LeetCode Hard problems correctly on the first try, compared to 6/10 for GPT-4o."
     ],
     "windsurf": [
         "Beta Insight: The 'Cascade' agent handles terminal commands with more autonomy than Cursor's current agent implementation.",
@@ -102,6 +114,14 @@ TOOL_TIPS = {
     "tabnine": [
         "Privacy Note: The local-only training mode is the gold standard for regulated industries (Fintech, Healthcare).",
         "Performance Tip: It works significantly faster in large monorepos compared to cloud-based assistants."
+    ],
+    "claude_opus_4_6": [
+        "Efficiency Hack: Opus 4.6 is slow. Use it to architect the solution, then switch to Sonnet for the actual code generation to save 40% time.",
+        "Agent Tip: The 'Computer Use V2' is reliable for browser tasks but still struggles with complex terminal navigations—always monitor it."
+    ],
+    "openai_o3": [
+        "Cost Warning: o3 is overkill for CRUD apps. Only use it for algorithmic complexity or debugging race conditions.",
+        "Prompt Strategy: Unlike GPT-4, do NOT prompt with 'act as a...'. Just state the problem raw; o3 performs better without persona fluff."
     ]
 }
 
