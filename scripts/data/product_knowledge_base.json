@@ -1,0 +1,553 @@
+{
+    "version": "3.0",
+    "last_updated": "2026-02-07",
+    "categories": {
+        "coding_assistant": {
+            "name": "AI Coding Assistants",
+            "description": "AI-powered tools for code completion, generation, and development workflow"
+        },
+        "ai_agent_framework": {
+            "name": "AI Agent Frameworks",
+            "description": "Frameworks for building autonomous AI agents and multi-agent systems"
+        },
+        "video_ai": {
+            "name": "AI Video Generation",
+            "description": "AI tools for generating, editing, and transforming video content"
+        },
+        "llm_provider": {
+            "name": "LLM Providers",
+            "description": "Companies providing large language model APIs and services"
+        },
+        "ai_music": {
+            "name": "AI Music Generation",
+            "description": "AI tools for creating music and audio content"
+        }
+    },
+    "tools": {
+        "cursor": {
+            "name": "Cursor",
+            "category": "coding_assistant",
+            "company": "Anysphere",
+            "founded": "2022",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$20/month",
+                "pro_price": "$20/month",
+                "business_price": "$40/user/month"
+            },
+            "key_features": [
+                "AI-first IDE built on VS Code fork",
+                "Multi-file context awareness",
+                "Agent mode for autonomous coding",
+                "Composer for large refactors",
+                "Privacy mode with local processing"
+            ],
+            "unique_selling_point": "The only AI IDE with true multi-file editing and agent capabilities",
+            "best_for": "Developers who want an AI-native IDE experience with deep codebase understanding",
+            "limitations": [
+                "More expensive than Copilot",
+                "Requires switching from existing IDE",
+                "Agent mode can be unpredictable"
+            ],
+            "g2_rating": 4.7,
+            "g2_reviews": 89,
+            "compared_to": [
+                "github_copilot",
+                "windsurf",
+                "trae",
+                "tabnine"
+            ],
+            "website": "https://cursor.sh"
+        },
+        "github_copilot": {
+            "name": "GitHub Copilot",
+            "category": "coding_assistant",
+            "company": "GitHub (Microsoft)",
+            "founded": "2021",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": false,
+                "starting_price": "$10/month",
+                "individual_price": "$10/month",
+                "business_price": "$19/user/month",
+                "enterprise_price": "$39/user/month"
+            },
+            "key_features": [
+                "Real-time code completion",
+                "Works in any IDE (VS Code, JetBrains, Neovim)",
+                "Copilot Chat for Q&A",
+                "GitHub integration",
+                "Enterprise compliance features"
+            ],
+            "unique_selling_point": "Industry standard with seamless GitHub ecosystem integration",
+            "best_for": "Teams already using GitHub who want reliable code completion",
+            "limitations": [
+                "Less context-aware than Cursor",
+                "No multi-file editing",
+                "Privacy concerns for enterprise"
+            ],
+            "g2_rating": 4.5,
+            "g2_reviews": 1247,
+            "compared_to": [
+                "cursor",
+                "windsurf",
+                "trae",
+                "tabnine"
+            ],
+            "website": "https://github.com/features/copilot"
+        },
+        "windsurf": {
+            "name": "Windsurf",
+            "category": "coding_assistant",
+            "company": "Codeium",
+            "founded": "2022",
+            "headquarters": "Mountain View, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$15/month",
+                "pro_price": "$15/month",
+                "enterprise_price": "Custom"
+            },
+            "key_features": [
+                "AI-first IDE with Cascade agent",
+                "Free tier with generous limits",
+                "Multi-model support",
+                "Terminal integration",
+                "Real-time collaboration"
+            ],
+            "unique_selling_point": "Most generous free tier among AI coding assistants",
+            "best_for": "Developers who want powerful AI features without paying",
+            "limitations": [
+                "Newer product, less mature",
+                "Smaller community than Copilot",
+                "Cascade agent still evolving"
+            ],
+            "g2_rating": 4.6,
+            "g2_reviews": 45,
+            "compared_to": [
+                "cursor",
+                "github_copilot",
+                "trae"
+            ],
+            "website": "https://codeium.com/windsurf"
+        },
+        "trae": {
+            "name": "Trae",
+            "category": "coding_assistant",
+            "company": "ByteDance",
+            "founded": "2024",
+            "headquarters": "Beijing, China",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "Free",
+                "pro_price": "TBD"
+            },
+            "key_features": [
+                "Free Claude 3.5 Sonnet access",
+                "Builder mode for full project generation",
+                "VS Code fork like Cursor",
+                "Chinese and English support"
+            ],
+            "unique_selling_point": "Access to premium Claude models for free",
+            "best_for": "Developers who want Cursor-like features without the cost",
+            "limitations": [
+                "ByteDance ownership concerns",
+                "Data privacy questions",
+                "Limited enterprise features"
+            ],
+            "g2_rating": null,
+            "g2_reviews": 0,
+            "compared_to": [
+                "cursor",
+                "windsurf",
+                "github_copilot"
+            ],
+            "website": "https://trae.ai"
+        },
+        "tabnine": {
+            "name": "Tabnine",
+            "category": "coding_assistant",
+            "company": "Tabnine",
+            "founded": "2018",
+            "headquarters": "Tel Aviv, Israel",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$12/month",
+                "pro_price": "$12/month",
+                "enterprise_price": "Custom"
+            },
+            "key_features": [
+                "On-premise deployment option",
+                "Train on your own codebase",
+                "Privacy-first architecture",
+                "Works in 20+ IDEs"
+            ],
+            "unique_selling_point": "Best choice for enterprises with strict privacy requirements",
+            "best_for": "Enterprise teams that cannot send code to external servers",
+            "limitations": [
+                "Less capable AI than Copilot/Cursor",
+                "Slower adoption of new features",
+                "Training on own code requires setup"
+            ],
+            "g2_rating": 4.3,
+            "g2_reviews": 892,
+            "compared_to": [
+                "github_copilot",
+                "cursor"
+            ],
+            "website": "https://tabnine.com"
+        },
+        "langchain": {
+            "name": "LangChain",
+            "category": "ai_agent_framework",
+            "company": "LangChain Inc.",
+            "founded": "2022",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "Open Source",
+                "langsmith_price": "$39/seat/month"
+            },
+            "key_features": [
+                "Modular LLM orchestration",
+                "LangSmith for observability",
+                "LangGraph for stateful agents",
+                "Largest ecosystem of integrations",
+                "Production-ready templates"
+            ],
+            "unique_selling_point": "Industry standard framework with the largest community",
+            "best_for": "Enterprise teams building complex RAG and agent systems",
+            "limitations": [
+                "Steep learning curve",
+                "Abstraction can hide complexity",
+                "Fast-changing API"
+            ],
+            "github_stars": 89000,
+            "compared_to": [
+                "crewai"
+            ],
+            "website": "https://langchain.com"
+        },
+        "crewai": {
+            "name": "CrewAI",
+            "category": "ai_agent_framework",
+            "company": "CrewAI Inc.",
+            "founded": "2023",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "Open Source",
+                "enterprise_price": "Custom"
+            },
+            "key_features": [
+                "Role-based agent design",
+                "Simple 'crew' mental model",
+                "Built for multi-agent collaboration",
+                "Less boilerplate than LangChain"
+            ],
+            "unique_selling_point": "Fastest-growing framework for multi-agent systems",
+            "best_for": "Teams who want to model human workflows with AI agents",
+            "limitations": [
+                "Smaller ecosystem",
+                "Enterprise features still developing",
+                "Less documentation"
+            ],
+            "github_stars": 24000,
+            "compared_to": [
+                "langchain"
+            ],
+            "website": "https://crewai.com"
+        },
+        "sora": {
+            "name": "Sora",
+            "category": "video_ai",
+            "company": "OpenAI",
+            "founded": "2024",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": false,
+                "starting_price": "$20/month (with ChatGPT Plus)",
+                "pro_price": "$200/month (with Pro)"
+            },
+            "key_features": [
+                "Text-to-video generation",
+                "Up to 1080p resolution",
+                "1 minute video length",
+                "Realistic physics simulation",
+                "Storyboard editing"
+            ],
+            "unique_selling_point": "Most realistic AI video generation, directly from OpenAI",
+            "best_for": "Content creators who need high-quality, realistic video clips",
+            "limitations": [
+                "Limited to ChatGPT subscribers",
+                "Watermarked output",
+                "Long generation times",
+                "Strict content policies"
+            ],
+            "compared_to": [
+                "kling",
+                "heygen",
+                "runway"
+            ],
+            "website": "https://openai.com/sora"
+        },
+        "kling": {
+            "name": "Kling AI",
+            "category": "video_ai",
+            "company": "Kuaishou",
+            "founded": "2024",
+            "headquarters": "Beijing, China",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$5.99/month",
+                "pro_price": "$29.99/month"
+            },
+            "key_features": [
+                "Text-to-video up to 1080p",
+                "Image-to-video animation",
+                "Lip-sync capabilities",
+                "More affordable than Sora",
+                "Faster generation"
+            ],
+            "unique_selling_point": "Best value for AI video generation with competitive quality",
+            "best_for": "Creators who need frequent video generation at lower cost",
+            "limitations": [
+                "Quality slightly below Sora",
+                "Less realistic physics",
+                "Limited creative control"
+            ],
+            "compared_to": [
+                "sora",
+                "heygen",
+                "runway"
+            ],
+            "website": "https://klingai.com"
+        },
+        "heygen": {
+            "name": "HeyGen",
+            "category": "video_ai",
+            "company": "HeyGen Inc.",
+            "founded": "2020",
+            "headquarters": "Los Angeles, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$29/month",
+                "business_price": "$89/month"
+            },
+            "key_features": [
+                "AI avatar video creation",
+                "Text-to-video with realistic avatars",
+                "100+ languages support",
+                "Avatar cloning from your image",
+                "API for automation"
+            ],
+            "unique_selling_point": "Best for creating talking-head videos without filming",
+            "best_for": "Marketers and educators who need scalable video content",
+            "limitations": [
+                "Not for cinematic video generation",
+                "Avatar quality varies",
+                "Monthly credit limits"
+            ],
+            "compared_to": [
+                "sora",
+                "kling",
+                "synthesia"
+            ],
+            "website": "https://heygen.com"
+        },
+        "runway": {
+            "name": "Runway",
+            "category": "video_ai",
+            "company": "Runway ML",
+            "founded": "2018",
+            "headquarters": "New York, NY",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$12/month",
+                "pro_price": "$28/month",
+                "unlimited_price": "$76/month"
+            },
+            "key_features": [
+                "Gen-3 Alpha video model",
+                "Video-to-video transformation",
+                "Green screen removal",
+                "Professional editing tools",
+                "API access"
+            ],
+            "unique_selling_point": "Professional video editing suite with AI generation",
+            "best_for": "Video editors who want AI tools integrated into their workflow",
+            "limitations": [
+                "Credit-based system can be expensive",
+                "Learning curve for full suite",
+                "Some features still in beta"
+            ],
+            "compared_to": [
+                "sora",
+                "kling",
+                "heygen"
+            ],
+            "website": "https://runway.ml"
+        },
+        "suno": {
+            "name": "Suno",
+            "category": "ai_music",
+            "company": "Suno Inc.",
+            "founded": "2022",
+            "headquarters": "Cambridge, MA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$10/month",
+                "pro_price": "$30/month"
+            },
+            "key_features": [
+                "Text-to-music generation",
+                "Full song creation with vocals",
+                "Multiple genre support",
+                "Lyric generation",
+                "Instrumental mode"
+            ],
+            "unique_selling_point": "Most capable AI for generating complete songs with vocals",
+            "best_for": "Content creators who need royalty-free music",
+            "limitations": [
+                "Commercial rights require paid plan",
+                "Quality inconsistent across genres",
+                "Limited control over specific elements"
+            ],
+            "compared_to": [
+                "udio"
+            ],
+            "website": "https://suno.com"
+        },
+        "grok": {
+            "name": "Grok",
+            "category": "llm_provider",
+            "company": "xAI",
+            "founded": "2023",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": false,
+                "starting_price": "$8/month (with X Premium)",
+                "pro_price": "$16/month (with X Premium+)"
+            },
+            "key_features": [
+                "Real-time X/Twitter data access",
+                "Fewer content restrictions",
+                "Grok 2 image generation",
+                "Sarcastic personality option",
+                "Integration with X platform"
+            ],
+            "unique_selling_point": "Only AI with real-time social media data from X",
+            "best_for": "Users who want current events and less filtered responses",
+            "limitations": [
+                "Requires X subscription",
+                "Smaller context than GPT-4",
+                "Web access limited to X data"
+            ],
+            "compared_to": [
+                "chatgpt",
+                "claude",
+                "gemini"
+            ],
+            "website": "https://x.ai"
+        },
+        "claude": {
+            "name": "Claude",
+            "category": "llm_provider",
+            "company": "Anthropic",
+            "founded": "2021",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$20/month",
+                "team_price": "$25/user/month",
+                "enterprise_price": "Custom"
+            },
+            "key_features": [
+                "200K context window",
+                "Claude 3.5 Sonnet (best coding)",
+                "Constitutional AI safety",
+                "Artifacts for visual output",
+                "Computer Use capabilities"
+            ],
+            "unique_selling_point": "Best-in-class for coding and long-form analysis",
+            "best_for": "Developers and analysts who need deep, nuanced reasoning",
+            "limitations": [
+                "No real-time web access",
+                "More conservative than GPT-4",
+                "Smaller ecosystem"
+            ],
+            "compared_to": [
+                "chatgpt",
+                "gemini",
+                "grok"
+            ],
+            "website": "https://anthropic.com/claude"
+        },
+        "chatgpt": {
+            "name": "ChatGPT",
+            "category": "llm_provider",
+            "company": "OpenAI",
+            "founded": "2022",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$20/month",
+                "team_price": "$25/user/month",
+                "enterprise_price": "Custom"
+            },
+            "key_features": [
+                "GPT-4o multimodal",
+                "Web browsing",
+                "DALL-E image generation",
+                "Custom GPTs marketplace",
+                "Voice conversation"
+            ],
+            "unique_selling_point": "Most versatile AI assistant with largest feature set",
+            "best_for": "General users who want an all-in-one AI assistant",
+            "limitations": [
+                "Can be slower than Claude for coding",
+                "Higher latency on complex tasks",
+                "GPT-4 can be verbose"
+            ],
+            "compared_to": [
+                "claude",
+                "gemini",
+                "grok"
+            ],
+            "website": "https://chat.openai.com"
+        },
+        "gemini": {
+            "name": "Gemini",
+            "category": "llm_provider",
+            "company": "Google DeepMind",
+            "founded": "2023",
+            "headquarters": "Mountain View, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$19.99/month (Google One AI Premium)",
+                "enterprise_price": "Via Google Cloud"
+            },
+            "key_features": [
+                "1M+ token context window",
+                "Deep Google Workspace integration",
+                "Multimodal (text, image, video)",
+                "Real-time web access",
+                "Code execution"
+            ],
+            "unique_selling_point": "Best integration with Google ecosystem and longest context",
+            "best_for": "Google Workspace users who need AI across Gmail, Docs, and Drive",
+            "limitations": [
+                "Less capable than GPT-4 on some tasks",
+                "Can be overly cautious",
+                "API pricing complex"
+            ],
+            "compared_to": [
+                "chatgpt",
+                "claude",
+                "grok"
+            ],
+            "website": "https://gemini.google.com"
+        }
+    }
+}

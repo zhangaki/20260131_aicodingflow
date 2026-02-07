@@ -1,0 +1,462 @@
+[
+    {
+        "id": "github-copilot",
+        "name": "GitHub Copilot",
+        "category": "Coding Assistant",
+        "developer": "GitHub/Microsoft",
+        "pricing_starting": "$10/mo",
+        "key_features": [
+            "Real-time code completion",
+            "Copilot Chat",
+            "Multi-model choice (GPT-4o, Claude 3.5 Sonnet)",
+            "IDE Integration"
+        ],
+        "best_for": "GitHub ecosystem users",
+        "pros": [
+            "Industry standard",
+            "Seamless GitHub integration",
+            "Student free tier"
+        ],
+        "cons": [
+            "Autocomplete can be laggy in large files",
+            "Requires subscription for most features"
+        ]
+    },
+    {
+        "id": "cursor",
+        "name": "Cursor",
+        "category": "Coding Assistant",
+        "developer": "Anysphere",
+        "pricing_starting": "$20/mo",
+        "key_features": [
+            "AI-first IDE",
+            "Composer for complex generation",
+            "Agent mode",
+            "Deep codebase context"
+        ],
+        "best_for": "Hardcore developers seeking deep AI integration",
+        "pros": [
+            "Superior context awareness",
+            "Multi-file editing",
+            "Agentic capabilities"
+        ],
+        "cons": [
+            "Requires switching to a new IDE",
+            "Higher price point than extensions"
+        ]
+    },
+    {
+        "id": "windsurf",
+        "name": "Windsurf",
+        "category": "Coding Assistant",
+        "developer": "Codeium",
+        "pricing_starting": "$15/mo",
+        "key_features": [
+            "AI-native IDE",
+            "Cascade multi-tool agent",
+            "Autonomous and co-pilot modes",
+            "Zero data retention options"
+        ],
+        "best_for": "Teams needing security and autonomous agents",
+        "pros": [
+            "Cascade agent is powerful",
+            "Privacy focuses",
+            "Acquired by OpenAI (strong backing)"
+        ],
+        "cons": [
+            "IDE market is getting crowded",
+            "Rebranded from Codeium, can be confusing"
+        ]
+    },
+    {
+        "id": "trae",
+        "name": "Trae",
+        "category": "Coding Assistant",
+        "developer": "ByteDance",
+        "pricing_starting": "$10/mo",
+        "key_features": [
+            "AI Engineer mode",
+            "Solo mode (fully autonomous beta)",
+            "Visual-to-code conversion",
+            "MCP support"
+        ],
+        "best_for": "Developers wanting an 'AI Engineer' partner",
+        "pros": [
+            "Topped SWE-bench Verified",
+            "Generous free requests initially",
+            "Clean VS Code derivative UI"
+        ],
+        "cons": [
+            "Privacy concerns (owned by ByteDance)",
+            "Autonomous features still in beta"
+        ]
+    },
+    {
+        "id": "tabnine",
+        "name": "Tabnine",
+        "category": "Coding Assistant",
+        "developer": "Tabnine Ltd.",
+        "pricing_starting": "$9/mo",
+        "key_features": [
+            "SaaS and on-premise deployments",
+            "Code review agent",
+            "IP indemnification",
+            "Private model training"
+        ],
+        "best_for": "Enterprise requiring maximum security",
+        "pros": [
+            "High security/privacy compliance",
+            "Runs air-gapped",
+            "IP Protection for code"
+        ],
+        "cons": [
+            "Free tier discontinued mid-2025",
+            "Autocomplete less 'magical' than LLM-first IDEs"
+        ]
+    },
+    {
+        "id": "claude",
+        "name": "Claude",
+        "category": "LLM / Assistant",
+        "developer": "Anthropic",
+        "pricing_starting": "$20/mo",
+        "key_features": [
+            "High reasoning",
+            "100K+ context window",
+            "Artifacts for UI rendering",
+            "Deep research tools"
+        ],
+        "best_for": "Complex reasoning and documentation",
+        "pros": [
+            "Less hallucination",
+            "Native-like English code comments",
+            "Great logic"
+        ],
+        "cons": [
+            "No native IDE extension",
+            "Usage limits can be tight"
+        ]
+    },
+    {
+        "id": "perplexity",
+        "name": "AI Search Engine",
+        "category": "Productivity",
+        "developer": "Perplexity AI",
+        "pricing_starting": "$20/mo",
+        "key_features": [
+            "Real-time web crawling",
+            "Clickable citations",
+            "Pro Search with deep logic",
+            "Internal knowledge search"
+        ],
+        "best_for": "Real-time research and fact-finding",
+        "pros": [
+            "Highly up-to-date",
+            "Transparent sourcing",
+            "Replaces Google for many info tasks"
+        ],
+        "cons": [
+            "Can be expensive for casual search",
+            "Sometimes missed nuanced intent"
+        ]
+    },
+    {
+        "id": "gemini",
+        "name": "Gemini",
+        "category": "LLM / Assistant",
+        "developer": "Google",
+        "pricing_starting": "$19.99/mo",
+        "key_features": [
+            "2M+ context window",
+            "Native Google Workspace integration",
+            "Live video/image analysis",
+            "Deep Search grounded in Google"
+        ],
+        "best_for": "Google ecosystem and large context tasks",
+        "pros": [
+            "Massive context window",
+            "Seamless with G Suite",
+            "Integrated with search labels"
+        ],
+        "cons": [
+            "Historically higher hallucination",
+            "Workspace integration can be clunky"
+        ]
+    },
+    {
+        "id": "kling",
+        "name": "Kling",
+        "category": "Video Generation",
+        "developer": "Kuaishou",
+        "pricing_starting": "$10/mo",
+        "key_features": [
+            "Realistic motion synthesis",
+            "Up to 2-minute clips (API)",
+            "Character animation",
+            "Synchronized audio"
+        ],
+        "best_for": "Photorealistic AI cinematography",
+        "pros": [
+            "Unmatched photorealism in 2025",
+            "Long video support",
+            "Dynamic environments"
+        ],
+        "cons": [
+            "Complex credit system",
+            "Beta access sometimes restricted"
+        ]
+    },
+    {
+        "id": "sora",
+        "name": "Sora",
+        "category": "Video Generation",
+        "developer": "OpenAI",
+        "pricing_starting": "$20/mo",
+        "key_features": [
+            "Hyper-realistic video sync",
+            "Physical world simulation",
+            "Cameo feature (personal integration)",
+            "1080p high quality"
+        ],
+        "best_for": "Storytelling and high-end video content",
+        "pros": [
+            "World leader in realism",
+            "Integrated with ChatGPT Plus",
+            "Watermark-free for Pro"
+        ],
+        "cons": [
+            "Invite-only for early 2025",
+            "Expensive API usage"
+        ]
+    },
+    {
+        "id": "heygen",
+        "name": "HeyGen",
+        "category": "Video Generation",
+        "developer": "HeyGen",
+        "pricing_starting": "$29/mo",
+        "key_features": [
+            "AI Avatars",
+            "Video translation (lip-sync)",
+            "Voice cloning",
+            "Custom avatars"
+        ],
+        "best_for": "Global brand localization and spokespersons",
+        "pros": [
+            "Best-in-class lip-sync",
+            "Massive stock avatar library",
+            "Great for corporate use"
+        ],
+        "cons": [
+            "Strict usage credits on lower tiers",
+            "Not for artistic cinematic video"
+        ]
+    },
+    {
+        "id": "stripe",
+        "name": "Stripe",
+        "category": "Fintech / Payments",
+        "developer": "Stripe",
+        "pricing_starting": "2.9% + 30¢",
+        "key_features": [
+            "Global payment processing",
+            "Subscription billing",
+            "Radar fraud protection",
+            "Adaptive pricing"
+        ],
+        "best_for": "SaaS businesses and developers",
+        "pros": [
+            "Developer-first APIs",
+            "Extensive global support",
+            "Powerful fraud protection"
+        ],
+        "cons": [
+            "Higher fees for international cards",
+            "Strict chargeback policies"
+        ]
+    },
+    {
+        "id": "wise",
+        "name": "Wise",
+        "category": "Fintech / Payments",
+        "developer": "Wise",
+        "pricing_starting": "$0",
+        "key_features": [
+            "Mid-market exchange rates",
+            "Multi-currency account",
+            "Low-cost global transfers",
+            "Interest on balances"
+        ],
+        "best_for": "Expats and international freelancers",
+        "pros": [
+            "True mid-market rates",
+            "Transparent fee structure",
+            "Fast international transfers"
+        ],
+        "cons": [
+            "Limited debit card availability in some regions",
+            "Not a full bank replacement"
+        ]
+    },
+    {
+        "id": "revolut",
+        "name": "Revolut",
+        "category": "Fintech / Payments",
+        "developer": "Revolut",
+        "pricing_starting": "$0",
+        "key_features": [
+            "Financial super app",
+            "Crypto & stock trading",
+            "Sub-accounts for budgeting",
+            "Premium travel perks"
+        ],
+        "best_for": "Digital nomads and active travelers",
+        "pros": [
+            "All-in-one financial hub",
+            "Great for travel spending",
+            "Instant crypto access"
+        ],
+        "cons": [
+            "Customer service can be slow",
+            "Fee structure is getting complex"
+        ]
+    },
+    {
+        "id": "wealthfront",
+        "name": "Wealthfront",
+        "category": "Fintech / Investing",
+        "developer": "Wealthfront",
+        "pricing_starting": "0.25% annual",
+        "key_features": [
+            "Automated robo-advisor",
+            "Tax-loss harvesting",
+            "High-yield cash account",
+            "529 college savings"
+        ],
+        "best_for": "Hands-off long-term investors",
+        "pros": [
+            "Superior tax efficiency",
+            "Low advisory fees",
+            "Great planning tools"
+        ],
+        "cons": [
+            "No human advisors",
+            "Limited customization for small portfolios"
+        ]
+    },
+    {
+        "id": "robinhood",
+        "name": "Robinhood",
+        "category": "Fintech / Investing",
+        "developer": "Robinhood",
+        "pricing_starting": "$5/mo (Gold)",
+        "key_features": [
+            "Commission-free trading",
+            "3% IRA match (Gold)",
+            "24/5 market access",
+            "Margin trading benefits"
+        ],
+        "best_for": "Active retail traders and IRA boosters",
+        "pros": [
+            "High APY on uninvested cash",
+            "Aggressive IRA matching",
+            "Easy-to-use interface"
+        ],
+        "cons": [
+            "Past reliability issues",
+            "Encourages risky trading behavior"
+        ]
+    },
+    {
+        "id": "zillow",
+        "name": "Zillow",
+        "category": "PropTech / Real Estate",
+        "developer": "Zillow Group",
+        "pricing_starting": "$0",
+        "key_features": [
+            "Housing super app",
+            "Zestimate AI valuation",
+            "3D SkyTour viewing",
+            "Mortgage integration"
+        ],
+        "best_for": "Home buyers and market researchers",
+        "pros": [
+            "Deepest property database",
+            "Powerful immersive viewing",
+            "Seamless lead routing for agents"
+        ],
+        "cons": [
+            "Zestimate can be inaccurate locally",
+            "Ads can clutter the experience"
+        ]
+    },
+    {
+        "id": "opendoor",
+        "name": "Opendoor",
+        "category": "PropTech / Real Estate",
+        "developer": "Opendoor",
+        "pricing_starting": "Varies",
+        "key_features": [
+            "Instant cash offers (iBuying)",
+            "Direct home selling",
+            "Agent partnership program",
+            "Cash Plus offering"
+        ],
+        "best_for": "Sellers needing speed and certainty",
+        "pros": [
+            "Guaranteed sale speed",
+            "Simplified closing process",
+            "Strong in select US markets"
+        ],
+        "cons": [
+            "Higher transaction costs than traditional sales",
+            "Lower offer price than open market"
+        ]
+    },
+    {
+        "id": "crewai",
+        "name": "CrewAI",
+        "category": "AI Agent Framework",
+        "developer": "CrewAI",
+        "pricing_starting": "Open Source",
+        "key_features": [
+            "Multi-agent coordination",
+            "Role-based autonomy",
+            "Collaborative task protocols",
+            "Enterprise multi-role workflows"
+        ],
+        "best_for": "Building collaborative AI agent teams",
+        "pros": [
+            "Fastest-growing agent framework",
+            "Easy to model human workflows",
+            "Strong enterprise traction"
+        ],
+        "cons": [
+            "Orchestration can get complex",
+            "Requires Python knowledge"
+        ]
+    },
+    {
+        "id": "langchain",
+        "name": "LangChain",
+        "category": "AI Agent Framework",
+        "developer": "LangChain",
+        "pricing_starting": "Open Source",
+        "key_features": [
+            "Modular LLM orchestration",
+            "Extensive tool integrations",
+            "LangGraph for stateful agents",
+            "Memory management"
+        ],
+        "best_for": "Enterprise-grade RAG and agent systems",
+        "pros": [
+            "Industry standard framework",
+            "Massive community support",
+            "Highly flexible and scalable"
+        ],
+        "cons": [
+            "Steep learning curve",
+            "API changes frequently"
+        ]
+    }
+]

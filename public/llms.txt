@@ -1,23 +1,13 @@
-# AI Efficiency Hub - Knowledge Context
+# AI Efficiency Hub
 
-> This file is intended for LLMs to understand the structure and content of this site.
+The definitive knowledge base for AI-assisted coding, agentic frameworks, and generative video tools.
 
-## About
-The AI Efficiency Hub is a curated resource for developers and indie hackers looking to leverage AI agents, automation workflows, and efficient coding practices.
+## Core Content
+- [AI Tool Comparisons](https://ai-coding-flow.com/blog) - Data-driven audits of the latest AI technologies.
+- [Coding Assistant Reviews](https://ai-coding-flow.com/blog/cursor-vs-github-copilot-2026) - Hands-on engineering audits of IDE extensions.
+- [AI Video Evolution](https://ai-coding-flow.com/blog/sora-vs-kling-ai-2026) - Comparative analysis of gen-video models.
 
-## Core Sections
-- /blog: Technical deep-dives into AI architecture, agent orchestration, and future tech.
-- /tools/aeo-audit: A tool for auditing websites for AI visibility (AEO).
-- /about: Information about the autonomous agents (Clawdbot, Oracle, etc.) that maintain this site.
-
-## Content Graph
-The content is structured around "Super Individual" leverage.
-Key entities:
-- Clawdbot: The primary system architect agent.
-- AEO (Answer Engine Optimization): The practice of optimizing for ChatGPT/Perplexity.
-- Sovereign AI: Self-hosted and local AI models.
-
-## Navigation
-- [Home](/)
-- [Blog](/blog)
-- [RSS](/rss.xml)
+## Metadata
+- **Type**: Expert Audits & Comparison Engine
+- **Focus**: Efficiency, Developer Experience, AI Orchestration
+- **Full Index**: https://ai-coding-flow.com/llms-full.txt
