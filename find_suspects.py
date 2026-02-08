@@ -3,8 +3,8 @@ import os
 import glob
 import frontmatter
 
-blog_dir = '/Users/mac/code/super-individual/projects/seo-site/src/content/blog'
-assets_dir = '/Users/mac/code/super-individual/projects/seo-site/public'
+blog_dir = '/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog'
+assets_dir = '/Users/mac/code/super-individual/projects/20260131_seo-site/public'
 
 files = glob.glob(os.path.join(blog_dir, '*.md')) + glob.glob(os.path.join(blog_dir, '*.mdx'))
 

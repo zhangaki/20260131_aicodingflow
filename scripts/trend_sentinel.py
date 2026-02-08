@@ -4,7 +4,7 @@ import datetime
 import re
 import random
 
-BLOG_DIR = "/Users/mac/code/super-individual/projects/seo-site/src/content/blog"
+BLOG_DIR = "/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog"
 FALLBACK_IMAGE = "/assets/blog-fallback.jpg"
 
 def slugify(text):

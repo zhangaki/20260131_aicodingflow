@@ -3,8 +3,8 @@ import os
 import re
 import glob
 
-BLOG_DIR = "/Users/mac/code/super-individual/projects/seo-site/src/content/blog"
-ASSETS_DIR = "/Users/mac/code/super-individual/projects/seo-site/public/assets"
+BLOG_DIR = "/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog"
+ASSETS_DIR = "/Users/mac/code/super-individual/projects/20260131_seo-site/public/assets"
 
 def analyze_assets():
     # 1. Scan all blog posts for image usage

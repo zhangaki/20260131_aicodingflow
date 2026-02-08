@@ -9,6 +9,7 @@ tags:
 - Infrastructure
 - Society & Ethics
 title: 'The Omega Point Strategy: Turning the Solar System into a Computer (2030+)'
+noindex: true
 ---
 
 
@@ -72,3 +73,12 @@ Even with just **1% coverage**, a Dyson Swarm could host **$3.8 \times 10^{26}$*
 | **Optical Transceivers** | Comms | Beaming terawatts of energy back to the processing hubs. |
 | **Recursive AI** | Control | Management of millions of autonomous swarm assets. |
 
+---
+
+## Related Reading
+
+- [The Agent Mesh: Deconstructing the REST Monopoly](/blog/agent-mesh-vs-microservices-2026/)
+- [The agents.txt Mirage: Why Your Agent-Readable Sitemap is Failing](/blog/agent-readable-sitemaps-2026/)
+- ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
+- [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
+- [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)

@@ -1,7 +1,7 @@
 
 import os
 
-blog_dir = "/Users/mac/code/super-individual/projects/seo-site/src/content/blog"
+blog_dir = "/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog"
 
 def final_cleanup():
     for filename in os.listdir(blog_dir):

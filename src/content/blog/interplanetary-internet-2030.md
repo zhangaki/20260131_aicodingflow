@@ -9,6 +9,7 @@ tags:
 - Infrastructure
 - Society & Ethics
 title: 'The Interplanetary Internet: Networking Across the Solar System (2030)'
+noindex: true
 ---
 
 
@@ -133,3 +134,13 @@ This simple logic—holding data until the link is solid—is what allows the Vo
 
 
 **Reach for the stars.** Run the [DTN Sim](/tools) to plan your Mars mission, or read the final article [The Omega Point Strategy](/blog/omega-point-2030) to see what happens when we turn the entire solar system into a computer.
+
+---
+
+## Related Reading
+
+- [The Agent Mesh: Deconstructing the REST Monopoly](/blog/agent-mesh-vs-microservices-2026/)
+- [The agents.txt Mirage: Why Your Agent-Readable Sitemap is Failing](/blog/agent-readable-sitemaps-2026/)
+- [The Model](/blog/ai-model-fingerprinting-2026/)
+- [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
+- [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)

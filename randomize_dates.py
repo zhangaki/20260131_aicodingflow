@@ -5,7 +5,7 @@ import frontmatter
 import random
 from datetime import date, timedelta
 
-blog_dir = '/Users/mac/code/super-individual/projects/seo-site/src/content/blog'
+blog_dir = '/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog'
 files = glob.glob(os.path.join(blog_dir, '*.md')) + glob.glob(os.path.join(blog_dir, '*.mdx'))
 
 # Define date range: Dec 1, 2025 to Jan 31, 2026

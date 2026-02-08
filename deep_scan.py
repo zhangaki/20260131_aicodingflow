@@ -3,7 +3,7 @@ import os
 import glob
 import re
 
-blog_dir = '/Users/mac/code/super-individual/projects/seo-site/src/content/blog'
+blog_dir = '/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog'
 files = glob.glob(os.path.join(blog_dir, '*.md')) + glob.glob(os.path.join(blog_dir, '*.mdx'))
 
 def is_fence(line):

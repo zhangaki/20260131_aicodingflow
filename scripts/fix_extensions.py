@@ -3,8 +3,8 @@ import os
 import re
 import subprocess
 
-assets_dir = "/Users/mac/code/super-individual/projects/seo-site/public/assets"
-blog_dir = "/Users/mac/code/super-individual/projects/seo-site/src/content/blog"
+assets_dir = "/Users/mac/code/super-individual/projects/20260131_seo-site/public/assets"
+blog_dir = "/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog"
 
 def fix_extensions():
     renamed_files = {}

@@ -2,7 +2,7 @@
 import os
 import re
 
-BLOG_DIR = "/Users/mac/code/super-individual/projects/seo-site/src/content/blog"
+BLOG_DIR = "/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog"
 
 # Mapping of filenames to their new covers
 COVER_MAP = {

@@ -9,8 +9,8 @@ import datetime
 import random
 
 # Configuration
-DATA_DIR = "/Users/mac/code/super-individual/projects/seo-site/scripts/data"
-OUTPUT_DIR = "/Users/mac/code/super-individual/projects/seo-site/src/content/blog"
+DATA_DIR = "/Users/mac/code/super-individual/projects/20260131_seo-site/scripts/data"
+OUTPUT_DIR = "/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog"
 KNOWLEDGE_BASE_PATH = os.path.join(DATA_DIR, "product_knowledge_base.json")
 FALLBACK_IMAGE = "/assets/blog-fallback.jpg"
 
@@ -123,6 +123,108 @@ TOOL_TIPS = {
         "Cost Warning: o3 is overkill for CRUD apps. Only use it for algorithmic complexity or debugging race conditions.",
         "Prompt Strategy: Unlike GPT-4, do NOT prompt with 'act as a...'. Just state the problem raw; o3 performs better without persona fluff."
     ]
+}
+
+    "claude_code": [
+        "Power Move: Use Claude Code's MCP server support to connect external tools directly into your coding workflow.",
+        "Workflow Tip: Pair Claude Code with git hooks for automated code review before every commit."
+    ],
+    "jasper": [
+        "Brand Tip: Train Jasper's Brand Voice on at least 5 sample documents for consistent output quality.",
+        "SEO Hack: Use the SurferSEO integration to generate articles that are pre-optimized for target keywords."
+    ],
+    "copyai": [
+        "Workflow Note: The Workflows feature is the real value prop—automate entire content pipelines, not just individual pieces.",
+        "Efficiency Tip: Use the Infobase to store brand guidelines so every output matches your tone automatically."
+    ],
+    "writesonic": [
+        "Budget Tip: Writesonic offers GPT-4 quality at roughly half the price of Jasper—ideal for solo creators.",
+        "Feature Note: Chatsonic's real-time web access makes it the best budget alternative to ChatGPT Plus."
+    ],
+    "grammarly_ai": [
+        "Integration Insight: Grammarly works inside Gmail, Slack, and Google Docs simultaneously—no other tool matches this coverage.",
+        "Style Tip: Set up custom style rules for your team to enforce consistent voice across all communications."
+    ],
+    "midjourney": [
+        "Quality Tip: Use --style raw for photorealistic output; the default aesthetic mode adds artistic stylization.",
+        "Workflow Hack: Create a private Discord server dedicated to Midjourney to keep your generations organized."
+    ],
+    "dalle3": [
+        "Text Trick: DALL-E 3 renders text in images far better than any competitor—use it for social media graphics with overlays.",
+        "Integration Note: Generating images through ChatGPT gives you iterative refinement that the API alone doesn't offer."
+    ],
+    "stable_diffusion": [
+        "Cost Saver: Running SD locally on a 12GB GPU gives you unlimited generations at zero marginal cost.",
+        "Customization Tip: LoRA fine-tuning with just 20 images can create a consistent brand character or product style."
+    ],
+    "leonardo_ai": [
+        "Game Dev Tip: Leonardo's fine-tuned game asset models produce more consistent tilesets than generic generators.",
+        "Speed Hack: Use the real-time generation canvas for rapid ideation before committing to a full render."
+    ],
+    "notion_ai": [
+        "Productivity Hack: Use the 'Summarize' action on meeting notes databases to create weekly standup reports automatically.",
+        "Database Tip: AI Q&A on Notion databases is the killer feature—ask natural language questions about your project data."
+    ],
+    "otter_ai": [
+        "Meeting Hack: OtterPilot auto-joins Zoom calls and generates summaries even when you can't attend.",
+        "Search Tip: The cross-meeting search finds that one conversation from three months ago in seconds."
+    ],
+    "fireflies_ai": [
+        "Sales Tip: The CRM integration auto-logs meeting notes to deal records—eliminating manual data entry.",
+        "Analytics Insight: Topic tracking across all meetings reveals what customers actually care about, not what you think they do."
+    ],
+    "perplexity": [
+        "Research Tip: Use Collections to build a knowledge base from multiple searches—it's like a personal research assistant.",
+        "Accuracy Note: Always check the cited sources; Perplexity's strength is citations, but they're not always perfectly interpreted."
+    ],
+    "you_com": [
+        "Multi-Modal Tip: Switch between Chat, Research, and Create modes depending on your task for optimal results.",
+        "Developer Note: The API is significantly cheaper than OpenAI for search-augmented generation use cases."
+    ],
+    "phind": [
+        "Coding Hack: The VS Code extension provides Stack Overflow-quality answers without leaving your editor.",
+        "Context Tip: Point Phind at your repository for answers that understand your specific codebase architecture."
+    ],
+    "replit_ai": [
+        "Prototype Tip: Go from idea to deployed MVP in under an hour using Replit's AI + built-in hosting.",
+        "Collaboration Note: Multiplayer coding makes Replit the best tool for pair programming workshops."
+    ],
+    "v0_dev": [
+        "Frontend Hack: v0 generates shadcn/ui components that look production-ready out of the box.",
+        "Iteration Tip: Describe changes conversationally—v0 handles incremental refinements better than full rewrites."
+    ],
+    "bolt_new": [
+        "Speed Tip: bolt.new excels at full-stack prototypes—specify 'use Supabase for auth' and it handles the entire backend.",
+        "Framework Note: Works best with React/Next.js; other frameworks produce less reliable output."
+    ],
+    "lovable": [
+        "Non-Technical Tip: Lovable is the best option if you can describe what you want but can't code it yourself.",
+        "Backend Note: The Supabase integration handles auth, database, and storage—you get a complete app, not just a frontend."
+    ],
+    "devin": [
+        "Cost Reality: At $500/month, Devin only makes sense for teams with a backlog of well-specified tickets.",
+        "Quality Tip: Write crystal-clear specifications—Devin's autonomous execution amplifies both good and bad instructions."
+    ],
+    "salesforce_einstein": [
+        "ROI Insight: Einstein's predictive lead scoring typically improves win rates by 15-25% for teams with clean CRM data.",
+        "Setup Warning: Garbage in, garbage out—spend time cleaning your Salesforce data before enabling Einstein predictions."
+    ],
+    "hubspot_ai": [
+        "SMB Tip: HubSpot's AI content assistant is the best all-in-one for small teams who can't afford separate tools.",
+        "Email Hack: The send-time optimization feature alone can improve open rates by 10-15%."
+    ],
+    "zendesk_ai": [
+        "Deflection Tip: A well-trained Answer Bot can handle 30-40% of Tier 1 tickets automatically.",
+        "Agent Assist: The real-time suggestion feature reduces average handle time by helping agents find answers faster."
+    ],
+    "synthesia": [
+        "L&D Tip: Synthesia cuts training video production time by 90%—no cameras, studios, or scheduling required.",
+        "Localization Hack: Record once in English, then auto-translate and lip-sync to 140+ languages instantly."
+    ],
+    "udio": [
+        "Genre Tip: Udio's vocal quality in pop and R&B genres currently surpasses Suno's output.",
+        "Creative Hack: Use the remix feature to iterate on a base track—it's faster than generating from scratch each time."
+    ],
 }
 
 DEFAULT_TIPS = [

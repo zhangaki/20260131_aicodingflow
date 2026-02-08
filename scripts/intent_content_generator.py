@@ -10,8 +10,8 @@ import random
 import re
 
 # Configuration
-DATA_DIR = "/Users/mac/code/super-individual/projects/seo-site/scripts/data"
-OUTPUT_DIR = "/Users/mac/code/super-individual/projects/seo-site/src/content/blog"
+DATA_DIR = "/Users/mac/code/super-individual/projects/20260131_seo-site/scripts/data"
+OUTPUT_DIR = "/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog"
 FALLBACK_IMAGE = "/assets/blog-fallback.jpg"
 
 # Intent Keywords Database

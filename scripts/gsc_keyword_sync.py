@@ -1,7 +1,7 @@
 import json
 import os
 
-KEYWORDS_FILE = '/Users/mac/code/super-individual/projects/seo-site/scripts/winning_keywords.json'
+KEYWORDS_FILE = '/Users/mac/code/super-individual/projects/20260131_seo-site/scripts/winning_keywords.json'
 
 def load_keywords():
     if os.path.exists(KEYWORDS_FILE):

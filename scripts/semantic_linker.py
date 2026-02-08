@@ -4,8 +4,8 @@ import json
 import re
 
 # Configuration
-DATA_FILE = "/Users/mac/code/super-individual/projects/seo-site/scripts/data/ai_tools.json"
-CONTENT_DIR = "/Users/mac/code/super-individual/projects/seo-site/src/content/blog"
+DATA_FILE = "/Users/mac/code/super-individual/projects/20260131_seo-site/scripts/data/ai_tools.json"
+CONTENT_DIR = "/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog"
 
 def load_tools():
     with open(DATA_FILE, 'r') as f:

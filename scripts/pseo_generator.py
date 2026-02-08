@@ -6,8 +6,8 @@ import itertools
 from trend_sentinel import slugify
 
 # Configuration
-DATA_FILE = "/Users/mac/code/super-individual/projects/seo-site/scripts/data/ai_tools.json"
-OUTPUT_DIR = "/Users/mac/code/super-individual/projects/seo-site/src/content/blog"
+DATA_FILE = "/Users/mac/code/super-individual/projects/20260131_seo-site/scripts/data/ai_tools.json"
+OUTPUT_DIR = "/Users/mac/code/super-individual/projects/20260131_seo-site/src/content/blog"
 FALLBACK_IMAGE = "/assets/blog-fallback.jpg"
 
 def load_tools():

@@ -1,6 +1,6 @@
 {
-    "version": "3.0",
-    "last_updated": "2026-02-07",
+    "version": "4.0",
+    "last_updated": "2026-02-08",
     "categories": {
         "coding_assistant": {
             "name": "AI Coding Assistants",
@@ -21,6 +21,30 @@
         "ai_music": {
             "name": "AI Music Generation",
             "description": "AI tools for creating music and audio content"
+        },
+        "ai_writing": {
+            "name": "AI Writing Tools",
+            "description": "AI-powered tools for content creation, copywriting, and text generation"
+        },
+        "ai_image": {
+            "name": "AI Image Generation",
+            "description": "AI tools for creating, editing, and enhancing images"
+        },
+        "ai_productivity": {
+            "name": "AI Productivity Tools",
+            "description": "AI-powered tools for meetings, notes, and workflow automation"
+        },
+        "ai_search": {
+            "name": "AI Search Engines",
+            "description": "AI-powered search and research tools"
+        },
+        "ai_development": {
+            "name": "AI Development Platforms",
+            "description": "AI-powered platforms for building web apps and prototypes"
+        },
+        "ai_business": {
+            "name": "AI Business Tools",
+            "description": "Enterprise AI tools for sales, marketing, and customer service"
         }
     },
     "tools": {
@@ -197,6 +221,41 @@
                 "cursor"
             ],
             "website": "https://tabnine.com"
+        },
+        "claude_code": {
+            "name": "Claude Code",
+            "category": "coding_assistant",
+            "company": "Anthropic",
+            "founded": "2024",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": false,
+                "starting_price": "$20/month (with Claude Pro)",
+                "pro_price": "$20/month",
+                "max_price": "$100/month"
+            },
+            "key_features": [
+                "Terminal-based AI coding",
+                "Agentic multi-file editing",
+                "Git integration",
+                "MCP server support",
+                "Context-aware codebase understanding"
+            ],
+            "unique_selling_point": "Most powerful terminal-native AI coding assistant with agentic capabilities",
+            "best_for": "Power users who prefer terminal workflows and need deep codebase reasoning",
+            "limitations": [
+                "Terminal-only interface",
+                "Requires Claude subscription",
+                "Resource intensive"
+            ],
+            "g2_rating": null,
+            "g2_reviews": 0,
+            "compared_to": [
+                "cursor",
+                "github_copilot",
+                "windsurf"
+            ],
+            "website": "https://anthropic.com/claude-code"
         },
         "langchain": {
             "name": "LangChain",
@@ -389,6 +448,40 @@
             ],
             "website": "https://runway.ml"
         },
+        "synthesia": {
+            "name": "Synthesia",
+            "category": "video_ai",
+            "company": "Synthesia",
+            "founded": "2017",
+            "headquarters": "London, UK",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$22/month",
+                "enterprise_price": "Custom"
+            },
+            "key_features": [
+                "AI avatar video creation",
+                "230+ avatars",
+                "140+ languages",
+                "Script-to-video",
+                "Custom avatar creation"
+            ],
+            "unique_selling_point": "Most professional AI avatar platform for corporate training and communications",
+            "best_for": "L&D teams and enterprises creating training videos at scale",
+            "limitations": [
+                "Avatar-only (no general video generation)",
+                "Monthly minute limits",
+                "Custom avatars expensive"
+            ],
+            "g2_rating": 4.7,
+            "g2_reviews": 1560,
+            "compared_to": [
+                "heygen",
+                "sora",
+                "kling"
+            ],
+            "website": "https://synthesia.io"
+        },
         "suno": {
             "name": "Suno",
             "category": "ai_music",
@@ -418,6 +511,38 @@
                 "udio"
             ],
             "website": "https://suno.com"
+        },
+        "udio": {
+            "name": "Udio",
+            "category": "ai_music",
+            "company": "Udio",
+            "founded": "2023",
+            "headquarters": "New York, NY",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$10/month",
+                "pro_price": "$30/month"
+            },
+            "key_features": [
+                "Text-to-music generation",
+                "Vocal cloning",
+                "Instrumental tracks",
+                "Remix capabilities",
+                "Genre versatility"
+            ],
+            "unique_selling_point": "Best for diverse music genres with superior vocal quality",
+            "best_for": "Musicians and creators exploring AI-generated music across genres",
+            "limitations": [
+                "Commercial rights unclear",
+                "Quality inconsistent for niche genres",
+                "Limited editing controls"
+            ],
+            "g2_rating": null,
+            "g2_reviews": 0,
+            "compared_to": [
+                "suno"
+            ],
+            "website": "https://udio.com"
         },
         "grok": {
             "name": "Grok",
@@ -616,6 +741,750 @@
                 "chatgpt"
             ],
             "website": "https://openai.com/o3"
+        },
+        "jasper": {
+            "name": "Jasper AI",
+            "category": "ai_writing",
+            "company": "Jasper",
+            "founded": "2021",
+            "headquarters": "Austin, TX",
+            "pricing": {
+                "free_tier": false,
+                "starting_price": "$39/month",
+                "business_price": "$59/month"
+            },
+            "key_features": [
+                "Long-form content generation",
+                "Brand voice customization",
+                "Template library (50+)",
+                "SEO integration",
+                "Team collaboration"
+            ],
+            "unique_selling_point": "Most comprehensive AI writing platform with brand voice training",
+            "best_for": "Marketing teams needing on-brand content at scale",
+            "limitations": [
+                "Expensive for individuals",
+                "Output quality varies by template",
+                "Requires careful prompt engineering"
+            ],
+            "g2_rating": 4.7,
+            "g2_reviews": 1234,
+            "compared_to": [
+                "copyai",
+                "writesonic",
+                "grammarly_ai"
+            ],
+            "website": "https://jasper.ai"
+        },
+        "copyai": {
+            "name": "Copy.ai",
+            "category": "ai_writing",
+            "company": "Copy.ai",
+            "founded": "2020",
+            "headquarters": "New York, NY",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$49/month",
+                "pro_price": "$49/month"
+            },
+            "key_features": [
+                "Chat-based content creation",
+                "Workflow automation",
+                "100+ templates",
+                "Infobase knowledge management",
+                "API access"
+            ],
+            "unique_selling_point": "Best for automating entire content workflows, not just individual pieces",
+            "best_for": "Solo marketers automating repetitive content tasks",
+            "limitations": [
+                "Workflows complex to set up",
+                "Free tier very limited",
+                "Enterprise features lacking"
+            ],
+            "g2_rating": 4.7,
+            "g2_reviews": 178,
+            "compared_to": [
+                "jasper",
+                "writesonic",
+                "grammarly_ai"
+            ],
+            "website": "https://copy.ai"
+        },
+        "writesonic": {
+            "name": "Writesonic",
+            "category": "ai_writing",
+            "company": "Writesonic",
+            "founded": "2021",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$16/month",
+                "pro_price": "$16/month"
+            },
+            "key_features": [
+                "GPT-4 powered writing",
+                "Chatsonic (web-connected chat)",
+                "Botsonic (custom chatbots)",
+                "SEO article writer",
+                "Brand voice"
+            ],
+            "unique_selling_point": "Cheapest GPT-4 powered writing tool with real-time web data",
+            "best_for": "Budget-conscious content creators who need web-connected AI",
+            "limitations": [
+                "Quality inconsistent across languages",
+                "UI can be overwhelming",
+                "Credit system confusing"
+            ],
+            "g2_rating": 4.7,
+            "g2_reviews": 1890,
+            "compared_to": [
+                "jasper",
+                "copyai",
+                "grammarly_ai"
+            ],
+            "website": "https://writesonic.com"
+        },
+        "grammarly_ai": {
+            "name": "Grammarly AI",
+            "category": "ai_writing",
+            "company": "Grammarly",
+            "founded": "2009",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$12/month",
+                "premium_price": "$12/month",
+                "business_price": "$15/user/month"
+            },
+            "key_features": [
+                "Grammar and spell check",
+                "Tone detection",
+                "AI writing assistant",
+                "Plagiarism detection",
+                "Works in every app"
+            ],
+            "unique_selling_point": "Only AI writing tool that works natively across every application",
+            "best_for": "Professionals who need polished writing in emails, docs, and messages",
+            "limitations": [
+                "AI generation less capable than Jasper",
+                "Not ideal for long-form content",
+                "Premium required for best features"
+            ],
+            "g2_rating": 4.7,
+            "g2_reviews": 8500,
+            "compared_to": [
+                "jasper",
+                "copyai"
+            ],
+            "website": "https://grammarly.com"
+        },
+        "midjourney": {
+            "name": "Midjourney",
+            "category": "ai_image",
+            "company": "Midjourney Inc.",
+            "founded": "2022",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": false,
+                "starting_price": "$10/month",
+                "pro_price": "$30/month",
+                "mega_price": "$60/month"
+            },
+            "key_features": [
+                "Text-to-image generation",
+                "Style consistency",
+                "Upscaling to 4K",
+                "Vary and pan controls",
+                "Discord-based interface"
+            ],
+            "unique_selling_point": "Highest aesthetic quality in AI image generation",
+            "best_for": "Artists and designers who need photorealistic or stylized imagery",
+            "limitations": [
+                "Discord-only interface",
+                "No API access",
+                "Limited editing tools",
+                "No inpainting"
+            ],
+            "g2_rating": 4.4,
+            "g2_reviews": 186,
+            "compared_to": [
+                "dalle3",
+                "stable_diffusion",
+                "leonardo_ai"
+            ],
+            "website": "https://midjourney.com"
+        },
+        "dalle3": {
+            "name": "DALL-E 3",
+            "category": "ai_image",
+            "company": "OpenAI",
+            "founded": "2024",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$20/month (ChatGPT Plus)",
+                "api_price": "$0.04/image"
+            },
+            "key_features": [
+                "Text-to-image with ChatGPT integration",
+                "High text rendering accuracy",
+                "Outpainting and editing",
+                "Safety filters",
+                "API available"
+            ],
+            "unique_selling_point": "Best text rendering in images and tightest ChatGPT integration",
+            "best_for": "Users who want image generation integrated into their ChatGPT workflow",
+            "limitations": [
+                "Less artistic than Midjourney",
+                "Strong content filters",
+                "Limited style control",
+                "Lower resolution than MJ"
+            ],
+            "g2_rating": null,
+            "g2_reviews": 0,
+            "compared_to": [
+                "midjourney",
+                "stable_diffusion",
+                "leonardo_ai"
+            ],
+            "website": "https://openai.com/dall-e-3"
+        },
+        "stable_diffusion": {
+            "name": "Stable Diffusion",
+            "category": "ai_image",
+            "company": "Stability AI",
+            "founded": "2022",
+            "headquarters": "London, UK",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$0 (self-hosted)",
+                "dreamstudio_price": "$10/1000 credits"
+            },
+            "key_features": [
+                "Open source model",
+                "Local installation",
+                "Full customization via LoRA",
+                "Inpainting and outpainting",
+                "ComfyUI workflow"
+            ],
+            "unique_selling_point": "Only fully open-source image generation with unlimited local use",
+            "best_for": "Developers and artists who want full control and customization",
+            "limitations": [
+                "Requires technical setup",
+                "GPU needed for local use",
+                "Base quality below Midjourney",
+                "Prompt engineering steep learning curve"
+            ],
+            "g2_rating": null,
+            "g2_reviews": 0,
+            "compared_to": [
+                "midjourney",
+                "dalle3",
+                "leonardo_ai"
+            ],
+            "website": "https://stability.ai"
+        },
+        "leonardo_ai": {
+            "name": "Leonardo AI",
+            "category": "ai_image",
+            "company": "Leonardo Interactive",
+            "founded": "2022",
+            "headquarters": "Sydney, Australia",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$12/month",
+                "pro_price": "$30/month"
+            },
+            "key_features": [
+                "Web-based interface",
+                "Fine-tuned models for games/design",
+                "Canvas editor",
+                "Motion generation",
+                "Real-time generation"
+            ],
+            "unique_selling_point": "Best for game art and design assets with intuitive web interface",
+            "best_for": "Game developers and designers needing consistent asset generation",
+            "limitations": [
+                "Credit system can be limiting",
+                "Less photorealistic than Midjourney",
+                "Smaller community"
+            ],
+            "g2_rating": 4.6,
+            "g2_reviews": 94,
+            "compared_to": [
+                "midjourney",
+                "dalle3",
+                "stable_diffusion"
+            ],
+            "website": "https://leonardo.ai"
+        },
+        "notion_ai": {
+            "name": "Notion AI",
+            "category": "ai_productivity",
+            "company": "Notion Labs",
+            "founded": "2016",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$10/month",
+                "plus_ai_price": "$10/month"
+            },
+            "key_features": [
+                "AI writing in docs",
+                "Database Q&A",
+                "Meeting summaries",
+                "Task generation from notes",
+                "Connected workspace"
+            ],
+            "unique_selling_point": "AI deeply integrated into the most popular all-in-one workspace",
+            "best_for": "Teams already using Notion who want AI-enhanced productivity",
+            "limitations": [
+                "Requires Notion subscription",
+                "AI quality varies by task",
+                "Not standalone AI tool"
+            ],
+            "g2_rating": 4.7,
+            "g2_reviews": 5600,
+            "compared_to": [
+                "otter_ai",
+                "fireflies_ai"
+            ],
+            "website": "https://notion.so"
+        },
+        "otter_ai": {
+            "name": "Otter.ai",
+            "category": "ai_productivity",
+            "company": "Otter.ai",
+            "founded": "2016",
+            "headquarters": "Mountain View, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$16.99/month",
+                "business_price": "$30/user/month"
+            },
+            "key_features": [
+                "Real-time meeting transcription",
+                "AI meeting summary",
+                "Action items extraction",
+                "Zoom/Teams integration",
+                "OtterPilot auto-join"
+            ],
+            "unique_selling_point": "Best-in-class meeting transcription with automatic action items",
+            "best_for": "Teams with heavy meeting schedules who need automated notes",
+            "limitations": [
+                "Transcription errors in noisy environments",
+                "Non-English support limited",
+                "Free tier restrictive"
+            ],
+            "g2_rating": 4.3,
+            "g2_reviews": 210,
+            "compared_to": [
+                "fireflies_ai",
+                "notion_ai"
+            ],
+            "website": "https://otter.ai"
+        },
+        "fireflies_ai": {
+            "name": "Fireflies.ai",
+            "category": "ai_productivity",
+            "company": "Fireflies.ai",
+            "founded": "2016",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$18/month",
+                "business_price": "$29/month"
+            },
+            "key_features": [
+                "Meeting transcription",
+                "AI-powered search across meetings",
+                "Topic tracking",
+                "CRM integration",
+                "Custom vocabulary"
+            ],
+            "unique_selling_point": "Most powerful meeting search and analytics across all your conversations",
+            "best_for": "Sales teams who need searchable meeting intelligence",
+            "limitations": [
+                "Occasional transcription errors",
+                "Setup required for each platform",
+                "Can feel invasive to participants"
+            ],
+            "g2_rating": 4.5,
+            "g2_reviews": 430,
+            "compared_to": [
+                "otter_ai",
+                "notion_ai"
+            ],
+            "website": "https://fireflies.ai"
+        },
+        "perplexity": {
+            "name": "Perplexity",
+            "category": "ai_search",
+            "company": "Perplexity AI",
+            "founded": "2022",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$20/month",
+                "pro_price": "$20/month"
+            },
+            "key_features": [
+                "AI-powered search with citations",
+                "Multi-model support (GPT-4, Claude)",
+                "File upload analysis",
+                "Collections for research",
+                "API access"
+            ],
+            "unique_selling_point": "The Google killer - search with direct AI answers and real citations",
+            "best_for": "Researchers and professionals who need accurate, cited answers fast",
+            "limitations": [
+                "Pro features behind paywall",
+                "Citation accuracy not always perfect",
+                "Limited creative tasks"
+            ],
+            "g2_rating": 4.6,
+            "g2_reviews": 52,
+            "compared_to": [
+                "you_com",
+                "phind"
+            ],
+            "website": "https://perplexity.ai"
+        },
+        "you_com": {
+            "name": "You.com",
+            "category": "ai_search",
+            "company": "You.com",
+            "founded": "2020",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$15/month",
+                "pro_price": "$15/month"
+            },
+            "key_features": [
+                "AI search with multiple modes",
+                "YouChat (conversational)",
+                "YouWrite",
+                "YouImagine",
+                "Developer-friendly API"
+            ],
+            "unique_selling_point": "Multi-modal AI search that combines chat, code, and image generation",
+            "best_for": "Power users who want search, chat, and creation in one interface",
+            "limitations": [
+                "Smaller index than Google",
+                "Less known brand",
+                "Features spread thin"
+            ],
+            "g2_rating": null,
+            "g2_reviews": 0,
+            "compared_to": [
+                "perplexity",
+                "phind"
+            ],
+            "website": "https://you.com"
+        },
+        "phind": {
+            "name": "Phind",
+            "category": "ai_search",
+            "company": "Phind",
+            "founded": "2022",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$17/month",
+                "pro_price": "$17/month"
+            },
+            "key_features": [
+                "Code-focused AI search",
+                "Pair programming mode",
+                "VS Code extension",
+                "Custom model fine-tuning",
+                "Context from your codebase"
+            ],
+            "unique_selling_point": "AI search engine built specifically for developers",
+            "best_for": "Developers who need technical answers with code examples",
+            "limitations": [
+                "Narrow focus (code only)",
+                "Community smaller than Stack Overflow",
+                "Model quality varies"
+            ],
+            "g2_rating": null,
+            "g2_reviews": 0,
+            "compared_to": [
+                "perplexity",
+                "you_com"
+            ],
+            "website": "https://phind.com"
+        },
+        "replit_ai": {
+            "name": "Replit AI",
+            "category": "ai_development",
+            "company": "Replit",
+            "founded": "2016",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$25/month",
+                "teams_price": "$40/user/month"
+            },
+            "key_features": [
+                "Browser-based IDE with AI",
+                "AI code generation",
+                "Instant deployment",
+                "Multiplayer coding",
+                "Ghostwriter code completion"
+            ],
+            "unique_selling_point": "Only platform where you can build, deploy, and host apps entirely in the browser with AI",
+            "best_for": "Beginners and rapid prototypers who want zero-setup development",
+            "limitations": [
+                "Performance limited for large apps",
+                "Vendor lock-in",
+                "Less powerful than desktop IDEs"
+            ],
+            "g2_rating": 4.4,
+            "g2_reviews": 124,
+            "compared_to": [
+                "v0_dev",
+                "bolt_new",
+                "lovable"
+            ],
+            "website": "https://replit.com"
+        },
+        "v0_dev": {
+            "name": "v0 by Vercel",
+            "category": "ai_development",
+            "company": "Vercel",
+            "founded": "2024",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$20/month",
+                "pro_price": "$20/month"
+            },
+            "key_features": [
+                "AI UI generation from prompts",
+                "React/Next.js code output",
+                "shadcn/ui components",
+                "Iterative refinement",
+                "One-click Vercel deployment"
+            ],
+            "unique_selling_point": "Fastest path from idea to production-ready React UI",
+            "best_for": "Frontend developers who want to rapidly prototype UIs with proper component architecture",
+            "limitations": [
+                "React/Next.js only",
+                "Limited backend generation",
+                "Design quality varies"
+            ],
+            "g2_rating": null,
+            "g2_reviews": 0,
+            "compared_to": [
+                "bolt_new",
+                "lovable",
+                "replit_ai"
+            ],
+            "website": "https://v0.dev"
+        },
+        "bolt_new": {
+            "name": "bolt.new",
+            "category": "ai_development",
+            "company": "StackBlitz",
+            "founded": "2024",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$20/month",
+                "pro_price": "$50/month"
+            },
+            "key_features": [
+                "Full-stack app generation",
+                "In-browser development",
+                "Multiple framework support",
+                "AI debugging",
+                "Instant preview"
+            ],
+            "unique_selling_point": "Generate and run full-stack applications entirely in the browser",
+            "best_for": "Developers who want to quickly prototype full-stack apps without local setup",
+            "limitations": [
+                "Complex apps can be unreliable",
+                "Credit system for AI usage",
+                "Not for production-grade apps"
+            ],
+            "g2_rating": null,
+            "g2_reviews": 0,
+            "compared_to": [
+                "v0_dev",
+                "lovable",
+                "replit_ai"
+            ],
+            "website": "https://bolt.new"
+        },
+        "lovable": {
+            "name": "Lovable",
+            "category": "ai_development",
+            "company": "Lovable",
+            "founded": "2023",
+            "headquarters": "Stockholm, Sweden",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$20/month",
+                "pro_price": "$50/month"
+            },
+            "key_features": [
+                "AI app builder from natural language",
+                "GitHub integration",
+                "Supabase backend",
+                "Real-time preview",
+                "Iterative chat-based development"
+            ],
+            "unique_selling_point": "Most intuitive AI app builder with conversation-driven development",
+            "best_for": "Non-technical founders and designers who want to build web apps",
+            "limitations": [
+                "Limited to web apps",
+                "Can struggle with complex logic",
+                "Supabase dependency"
+            ],
+            "g2_rating": null,
+            "g2_reviews": 0,
+            "compared_to": [
+                "v0_dev",
+                "bolt_new",
+                "replit_ai"
+            ],
+            "website": "https://lovable.dev"
+        },
+        "devin": {
+            "name": "Devin",
+            "category": "ai_development",
+            "company": "Cognition Labs",
+            "founded": "2023",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": false,
+                "starting_price": "$500/month",
+                "enterprise_price": "Custom"
+            },
+            "key_features": [
+                "Autonomous software engineer",
+                "End-to-end task completion",
+                "Own development environment",
+                "GitHub PR creation",
+                "Multi-step reasoning"
+            ],
+            "unique_selling_point": "First fully autonomous AI software engineer that completes tasks independently",
+            "best_for": "Engineering teams wanting to delegate entire development tasks to AI",
+            "limitations": [
+                "Very expensive",
+                "Quality inconsistent",
+                "Requires clear specifications",
+                "Slow for simple tasks"
+            ],
+            "g2_rating": null,
+            "g2_reviews": 0,
+            "compared_to": [
+                "replit_ai",
+                "cursor"
+            ],
+            "website": "https://cognition.ai"
+        },
+        "salesforce_einstein": {
+            "name": "Salesforce Einstein",
+            "category": "ai_business",
+            "company": "Salesforce",
+            "founded": "2016",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": false,
+                "starting_price": "$50/user/month",
+                "enterprise_price": "$300/user/month"
+            },
+            "key_features": [
+                "Predictive lead scoring",
+                "AI opportunity insights",
+                "Einstein Copilot",
+                "Automated data entry",
+                "Custom AI models"
+            ],
+            "unique_selling_point": "Most deeply integrated AI for enterprise CRM with predictive analytics",
+            "best_for": "Enterprise sales teams already on Salesforce who want AI-driven insights",
+            "limitations": [
+                "Extremely expensive",
+                "Requires Salesforce ecosystem",
+                "Complex setup",
+                "Data quality dependent"
+            ],
+            "g2_rating": 4.3,
+            "g2_reviews": 780,
+            "compared_to": [
+                "hubspot_ai",
+                "zendesk_ai"
+            ],
+            "website": "https://salesforce.com/einstein"
+        },
+        "hubspot_ai": {
+            "name": "HubSpot AI",
+            "category": "ai_business",
+            "company": "HubSpot",
+            "founded": "2006",
+            "headquarters": "Cambridge, MA",
+            "pricing": {
+                "free_tier": true,
+                "starting_price": "$20/month",
+                "professional_price": "$800/month"
+            },
+            "key_features": [
+                "AI content assistant",
+                "Predictive lead scoring",
+                "Chatbot builder",
+                "Email optimization",
+                "Campaign assistant"
+            ],
+            "unique_selling_point": "Best AI-powered marketing and CRM platform for SMBs",
+            "best_for": "Growing businesses that need all-in-one marketing, sales, and service with AI",
+            "limitations": [
+                "Expensive at scale",
+                "AI features limited on lower tiers",
+                "Less customizable than Salesforce"
+            ],
+            "g2_rating": 4.4,
+            "g2_reviews": 11200,
+            "compared_to": [
+                "salesforce_einstein",
+                "zendesk_ai"
+            ],
+            "website": "https://hubspot.com"
+        },
+        "zendesk_ai": {
+            "name": "Zendesk AI",
+            "category": "ai_business",
+            "company": "Zendesk",
+            "founded": "2007",
+            "headquarters": "San Francisco, CA",
+            "pricing": {
+                "free_tier": false,
+                "starting_price": "$55/agent/month",
+                "professional_price": "$115/agent/month"
+            },
+            "key_features": [
+                "AI-powered ticket routing",
+                "Answer Bot",
+                "Sentiment analysis",
+                "Agent assist",
+                "Knowledge base suggestions"
+            ],
+            "unique_selling_point": "Industry-leading AI for customer support automation",
+            "best_for": "Customer support teams wanting to reduce ticket volume with AI",
+            "limitations": [
+                "Per-agent pricing adds up fast",
+                "AI requires training period",
+                "Basic plan limited AI features"
+            ],
+            "g2_rating": 4.3,
+            "g2_reviews": 5800,
+            "compared_to": [
+                "salesforce_einstein",
+                "hubspot_ai"
+            ],
+            "website": "https://zendesk.com"
         }
     }
 }
