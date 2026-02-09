@@ -1,7 +1,7 @@
 ---
 title: "Using Midjourney for Creating Professional Graphics: A Practical 2026 Walkthrough"
 description: "Learn how to use Midjourney effectively for creating professional graphics. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 03 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["midjourney", "tutorial", "how-to", "ai-image"]
 ---

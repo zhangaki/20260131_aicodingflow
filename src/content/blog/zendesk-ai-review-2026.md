@@ -1,7 +1,7 @@
 ---
 title: "Zendesk AI in 2026: A Practitioner's Complete Review"
 description: "We used Zendesk AI for 30 days straight. Here's our detailed breakdown of features, real costs, limitations, and whether it deserves your subscription in 2026."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 10 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["zendesk-ai", "review", "ai-business", "enterprise-ai"]
 ---

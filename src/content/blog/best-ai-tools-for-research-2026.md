@@ -1,7 +1,7 @@
 ---
 title: "Top 8 AI Tools for Research in 2026 (Hands-On Rankings)"
 description: "Our team tested 8 AI research tools over 30 days. Here are the real winners, complete with pricing data and performance analysis for 2026."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 05 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["ai-tools", "best-research", "ai-search", "llm"]
 ---

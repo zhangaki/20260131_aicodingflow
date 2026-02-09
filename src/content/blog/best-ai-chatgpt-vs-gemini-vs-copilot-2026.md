@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?"
 description: "Everything you need to know about best ai chatgpt vs gemini vs copilot in 2026. Research-backed insights with hands-on testing."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 04 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags:
   - AI Agents

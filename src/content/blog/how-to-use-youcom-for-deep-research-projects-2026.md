@@ -1,7 +1,7 @@
 ---
 title: "Using You.com for Deep Research Projects: A Practical 2026 Walkthrough"
 description: "Learn how to use You.com effectively for deep research projects. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 19 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["youcom", "tutorial", "how-to", "ai-search"]
 ---

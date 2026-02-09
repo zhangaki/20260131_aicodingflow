@@ -1,8 +1,10 @@
 ---
 title: "v0 by Vercel vs Devin: The 2026 Feature Matrix"
 description: "A side-by-side technical audit of v0 by Vercel and Devin. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 27 2026"
 heroImage: "/assets/blog-fallback.jpg"
+---
+noindex: true
 ---
 
 # Technical Face-Off: v0 by Vercel vs Devin

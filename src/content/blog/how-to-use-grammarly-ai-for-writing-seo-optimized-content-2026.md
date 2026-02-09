@@ -1,7 +1,7 @@
 ---
 title: "How to Use Grammarly AI for Writing SEO-Optimized Content: Complete 2026 Guide"
 description: "A step-by-step tutorial on using Grammarly AI for writing seo-optimized content in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 04 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["grammarly-ai", "tutorial", "how-to", "ai-writing"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "How to Use HubSpot AI for Automating Business Workflows: Complete 2026 Guide"
 description: "A step-by-step tutorial on using HubSpot AI for automating business workflows in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 10 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["hubspot-ai", "tutorial", "how-to", "ai-business"]
 ---

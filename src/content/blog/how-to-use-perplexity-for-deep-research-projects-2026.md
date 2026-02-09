@@ -1,7 +1,7 @@
 ---
 title: "Using Perplexity for Deep Research Projects: A Practical 2026 Walkthrough"
 description: "Learn how to use Perplexity effectively for deep research projects. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 03 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["perplexity", "tutorial", "how-to", "ai-search"]
 ---

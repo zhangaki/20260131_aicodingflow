@@ -1,7 +1,7 @@
 ---
 title: "How to Use Gemini for Analyzing Documents with a Million-Token Context: Complete 2026 Guide"
 description: "A step-by-step tutorial on using Gemini for analyzing documents with a million-token context in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 10 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["gemini", "tutorial", "how-to", "llm"]
 ---

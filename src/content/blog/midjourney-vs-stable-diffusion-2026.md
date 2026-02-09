@@ -1,7 +1,7 @@
 ---
 title: "Which Wins in 2026? Midjourney vs Stable Diffusion Breakdown"
 description: "Choosing between Midjourney and Stable Diffusion should be simple. We answered the 5 most critical questions for 2026."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 14 2025"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

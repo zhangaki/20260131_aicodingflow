@@ -1,7 +1,7 @@
 ---
 title: "Using bolt.new for Boosting Your Productivity: A Practical 2026 Walkthrough"
 description: "Learn how to use bolt.new effectively for boosting your productivity. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Feb 07 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["boltnew", "tutorial", "how-to", "ai-tools"]
 ---

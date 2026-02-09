@@ -1,7 +1,7 @@
 ---
 title: "Stop Guessing: HeyGen vs Synthesia 2026 Competitive Audit"
 description: "Choosing between HeyGen and Synthesia? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 22 2025"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

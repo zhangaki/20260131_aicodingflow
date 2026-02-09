@@ -1,7 +1,7 @@
 ---
 title: "Claude 4.6 Opus Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of Claude 4.6 Opus in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 21 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["claude-46-opus", "review", "llm", "ai-chatbot"]
 ---

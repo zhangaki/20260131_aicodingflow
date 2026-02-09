@@ -1,7 +1,7 @@
 ---
 title: "Stop Guessing: Replit AI vs Lovable 2026 Competitive Audit"
 description: "Choosing between Replit AI and Lovable? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 16 2026"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

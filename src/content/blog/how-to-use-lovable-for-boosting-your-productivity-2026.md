@@ -1,7 +1,7 @@
 ---
 title: "How to Use Lovable for Boosting Your Productivity: Complete 2026 Guide"
 description: "A step-by-step tutorial on using Lovable for boosting your productivity in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 19 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["lovable", "tutorial", "how-to", "ai-tools"]
 ---

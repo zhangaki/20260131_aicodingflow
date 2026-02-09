@@ -1,7 +1,7 @@
 ---
 title: "Best AI Tools for Customer Support 2026: Top 8 Tested & Compared"
 description: "We tested 8 AI tools for customer support head-to-head. See our rankings, pricing breakdown, and honest recommendations for 2026."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 18 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["ai-tools", "best-customer-support", "ai-business", "llm"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Stop Guessing: DALL-E 3 vs Leonardo AI 2026 Competitive Audit"
 description: "Choosing between DALL-E 3 and Leonardo AI? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 11 2025"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

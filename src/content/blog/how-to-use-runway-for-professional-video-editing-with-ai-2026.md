@@ -1,7 +1,7 @@
 ---
 title: "Using Runway for Professional Video Editing with AI: A Practical 2026 Walkthrough"
 description: "Learn how to use Runway effectively for professional video editing with ai. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 16 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["runway", "tutorial", "how-to", "ai-video"]
 ---

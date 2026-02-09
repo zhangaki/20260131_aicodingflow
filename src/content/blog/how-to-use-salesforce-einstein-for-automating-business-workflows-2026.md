@@ -1,7 +1,7 @@
 ---
 title: "Using Salesforce Einstein for Automating Business Workflows: A Practical 2026 Walkthrough"
 description: "Learn how to use Salesforce Einstein effectively for automating business workflows. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 29 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["salesforce-einstein", "tutorial", "how-to", "ai-business"]
 ---

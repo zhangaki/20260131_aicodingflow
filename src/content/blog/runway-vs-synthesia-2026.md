@@ -1,7 +1,7 @@
 ---
 title: "Which Wins in 2026? Runway vs Synthesia Breakdown"
 description: "Choosing between Runway and Synthesia should be simple. We answered the 5 most critical questions for 2026."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 08 2025"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

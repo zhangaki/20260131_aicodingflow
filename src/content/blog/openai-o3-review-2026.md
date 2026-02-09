@@ -1,7 +1,7 @@
 ---
 title: "OpenAI o3 Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of OpenAI o3 in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 20 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["openai-o3", "review", "llm", "ai-chatbot"]
 ---

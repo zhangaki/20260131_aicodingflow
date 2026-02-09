@@ -1,7 +1,7 @@
 ---
 title: "Using GitHub Copilot for Accelerating Your Code Review Workflow: A Practical 2026 Walkthrough"
 description: "Learn how to use GitHub Copilot effectively for accelerating your code review workflow. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 21 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["github-copilot", "tutorial", "how-to", "ai-coding"]
 ---

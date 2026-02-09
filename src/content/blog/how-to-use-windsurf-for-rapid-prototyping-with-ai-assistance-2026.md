@@ -1,7 +1,7 @@
 ---
 title: "How to Use Windsurf for Rapid Prototyping with AI Assistance: Complete 2026 Guide"
 description: "A step-by-step tutorial on using Windsurf for rapid prototyping with ai assistance in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 24 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["windsurf", "tutorial", "how-to", "ai-coding"]
 ---

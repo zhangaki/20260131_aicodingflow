@@ -4,6 +4,8 @@ description: "A side-by-side technical audit of bolt.new and Devin. Pricing, lim
 pubDate: "Feb 08 2026"
 heroImage: "/assets/blog-fallback.jpg"
 ---
+noindex: true
+---
 
 # Technical Face-Off: bolt.new vs Devin
 

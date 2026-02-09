@@ -1,7 +1,7 @@
 ---
 title: "Midjourney in 2026: A Practitioner's Complete Review"
 description: "We used Midjourney for 30 days straight. Here's our detailed breakdown of features, real costs, limitations, and whether it deserves your subscription in 2026."
-pubDate: "Feb 08 2026"
+pubDate: "Feb 03 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["midjourney", "review", "ai-image", "image-generation"]
 ---

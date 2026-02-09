@@ -1,7 +1,7 @@
 ---
 title: "Windsurf Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of Windsurf in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 01 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["windsurf", "review", "ai-coding", "developer-tools"]
 ---

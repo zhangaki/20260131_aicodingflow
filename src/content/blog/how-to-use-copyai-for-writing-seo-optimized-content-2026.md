@@ -1,7 +1,7 @@
 ---
 title: "Using Copy.ai for Writing SEO-Optimized Content: A Practical 2026 Walkthrough"
 description: "Learn how to use Copy.ai effectively for writing seo-optimized content. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 04 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["copyai", "tutorial", "how-to", "ai-writing"]
 ---

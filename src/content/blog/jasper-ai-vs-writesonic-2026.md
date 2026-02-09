@@ -1,8 +1,10 @@
 ---
 title: "Jasper AI vs Writesonic: The 2026 Feature Matrix"
 description: "A side-by-side technical audit of Jasper AI and Writesonic. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Feb 08 2026"
+pubDate: "Feb 07 2026"
 heroImage: "/assets/blog-fallback.jpg"
+---
+noindex: true
 ---
 
 # Technical Face-Off: Jasper AI vs Writesonic

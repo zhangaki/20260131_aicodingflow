@@ -1,7 +1,7 @@
 ---
 title: "Using Devin for Boosting Your Productivity: A Practical 2026 Walkthrough"
 description: "Learn how to use Devin effectively for boosting your productivity. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 30 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["devin", "tutorial", "how-to", "ai-tools"]
 ---

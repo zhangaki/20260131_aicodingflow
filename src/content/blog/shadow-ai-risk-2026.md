@@ -11,6 +11,8 @@ tags:
 - Security
 title: 'The Great Extraction: Corporate Control vs. The Agentic Individual'
 ---
+noindex: true
+---
 
 
 Most people look at "Shadow AI" and see a security leak. I look at it and see a **Sovereignty Crisis**. 

@@ -1,7 +1,7 @@
 ---
 title: "Stop Guessing: LangChain vs CrewAI 2026 Competitive Audit"
 description: "Choosing between LangChain and CrewAI? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 21 2025"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

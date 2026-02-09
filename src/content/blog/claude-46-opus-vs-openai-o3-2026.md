@@ -1,7 +1,7 @@
 ---
 title: "Claude 4.6 Opus vs OpenAI o3 2026: The Data-Backed Truth"
 description: "We compared Claude 4.6 Opus and OpenAI o3 over 30 days of testing. See the raw results, pricing analysis, and our hands-on recommendation for 2026."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 24 2026"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

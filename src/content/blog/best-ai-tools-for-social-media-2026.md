@@ -1,7 +1,7 @@
 ---
 title: "Best AI Tools for Social Media 2026: Top 8 Tested & Compared"
 description: "We tested 8 AI tools for social media head-to-head. See our rankings, pricing breakdown, and honest recommendations for 2026."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 12 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["ai-tools", "best-social-media", "ai-writing", "ai-image", "ai-video"]
 ---

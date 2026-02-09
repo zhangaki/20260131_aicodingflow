@@ -1,7 +1,7 @@
 ---
 title: "Stop Guessing: Cursor vs Windsurf 2026 Competitive Audit"
 description: "Choosing between Cursor and Windsurf? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 16 2025"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

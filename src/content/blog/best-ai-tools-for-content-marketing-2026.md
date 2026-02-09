@@ -1,7 +1,7 @@
 ---
 title: "Best AI Tools for Content Marketing 2026: Top 8 Tested & Compared"
 description: "We tested 8 AI tools for content marketing head-to-head. See our rankings, pricing breakdown, and honest recommendations for 2026."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 29 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["ai-tools", "best-content-marketing", "ai-writing", "ai-image"]
 ---

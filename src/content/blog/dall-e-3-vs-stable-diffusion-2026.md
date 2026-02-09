@@ -1,7 +1,7 @@
 ---
 title: "Stop Guessing: DALL-E 3 vs Stable Diffusion 2026 Competitive Audit"
 description: "Choosing between DALL-E 3 and Stable Diffusion? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 07 2026"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "How to Use Claude 4.6 Opus for Architecting Complex Multi-Step Agent Systems: Complete 2026 Guide"
 description: "A step-by-step tutorial on using Claude 4.6 Opus for architecting complex multi-step agent systems in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 21 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["claude-46-opus", "tutorial", "how-to", "llm"]
 ---

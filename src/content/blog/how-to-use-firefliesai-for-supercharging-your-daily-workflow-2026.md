@@ -1,7 +1,7 @@
 ---
 title: "Using Fireflies.ai for Supercharging Your Daily Workflow: A Practical 2026 Walkthrough"
 description: "Learn how to use Fireflies.ai effectively for supercharging your daily workflow. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 05 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["firefliesai", "tutorial", "how-to", "ai-productivity"]
 ---

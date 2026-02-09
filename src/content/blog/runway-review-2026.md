@@ -1,7 +1,7 @@
 ---
 title: "Runway Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of Runway in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 31 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["runway", "review", "ai-video", "video-generation"]
 ---

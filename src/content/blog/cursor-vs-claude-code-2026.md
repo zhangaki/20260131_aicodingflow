@@ -1,7 +1,7 @@
 ---
 title: "Cursor vs Claude Code: The 2026 Feature Matrix"
 description: "A side-by-side technical audit of Cursor and Claude Code. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 03 2026"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

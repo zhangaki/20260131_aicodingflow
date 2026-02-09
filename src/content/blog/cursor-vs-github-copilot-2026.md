@@ -1,7 +1,7 @@
 ---
 title: "Which Wins in 2026? Cursor vs GitHub Copilot Breakdown"
 description: "Choosing between Cursor and GitHub Copilot should be simple. We answered the 5 most critical questions for 2026."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 06 2025"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

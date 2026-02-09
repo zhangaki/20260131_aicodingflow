@@ -1,7 +1,7 @@
 ---
 title: "Using CrewAI for Orchestrating Multi-Agent Systems: A Practical 2026 Walkthrough"
 description: "Learn how to use CrewAI effectively for orchestrating multi-agent systems. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 29 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["crewai", "tutorial", "how-to", "ai-agents"]
 ---

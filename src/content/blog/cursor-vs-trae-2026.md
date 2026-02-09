@@ -1,7 +1,7 @@
 ---
 title: "Which Wins in 2026? Cursor vs Trae Breakdown"
 description: "Choosing between Cursor and Trae should be simple. We answered the 5 most critical questions for 2026."
-pubDate: "Feb 08 2026"
+pubDate: "Feb 07 2026"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

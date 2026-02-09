@@ -1,8 +1,10 @@
 ---
 title: "HeyGen vs Runway: The 2026 Feature Matrix"
 description: "A side-by-side technical audit of HeyGen and Runway. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 10 2025"
 heroImage: "/assets/blog-fallback.jpg"
+---
+noindex: true
 ---
 
 # Technical Face-Off: HeyGen vs Runway

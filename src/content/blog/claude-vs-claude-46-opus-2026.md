@@ -1,7 +1,7 @@
 ---
 title: "Stop Guessing: Claude vs Claude 4.6 Opus 2026 Competitive Audit"
 description: "Choosing between Claude and Claude 4.6 Opus? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 28 2025"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

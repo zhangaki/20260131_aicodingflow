@@ -1,7 +1,7 @@
 ---
 title: "v0 by Vercel vs bolt.new: The 2026 Feature Matrix"
 description: "A side-by-side technical audit of v0 by Vercel and bolt.new. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Feb 08 2026"
+pubDate: "Feb 05 2026"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

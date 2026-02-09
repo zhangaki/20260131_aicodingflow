@@ -1,7 +1,7 @@
 ---
 title: "Stop Guessing: GitHub Copilot vs Trae 2026 Competitive Audit"
 description: "Choosing between GitHub Copilot and Trae? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 13 2025"
 heroImage: "/assets/blog-fallback.jpg"
 ---
 

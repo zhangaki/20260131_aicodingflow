@@ -1,7 +1,7 @@
 ---
 title: "How to Use OpenAI o3 for Solving Advanced Mathematical Problems: Complete 2026 Guide"
 description: "A step-by-step tutorial on using OpenAI o3 for solving advanced mathematical problems in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 01 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["openai-o3", "tutorial", "how-to", "llm"]
 ---

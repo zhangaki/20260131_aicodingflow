@@ -1,7 +1,7 @@
 ---
 title: "How to Use Suno for Composing Original Music Tracks: Complete 2026 Guide"
 description: "A step-by-step tutorial on using Suno for composing original music tracks in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Feb 08 2026"
+pubDate: "Feb 02 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["suno", "tutorial", "how-to", "ai-music"]
 ---

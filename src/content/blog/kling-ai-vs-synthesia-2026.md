@@ -1,8 +1,10 @@
 ---
 title: "Kling AI vs Synthesia: The 2026 Feature Matrix"
 description: "A side-by-side technical audit of Kling AI and Synthesia. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 07 2026"
 heroImage: "/assets/blog-fallback.jpg"
+---
+noindex: true
 ---
 
 # Technical Face-Off: Kling AI vs Synthesia

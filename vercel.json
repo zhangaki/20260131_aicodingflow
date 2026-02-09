@@ -18,6 +18,12 @@
             "source": "/blog/editor-wars",
             "destination": "/blog",
             "permanent": true
+        },
+        {
+            "source": "/:path(.*)",
+            "has": [{ "type": "host", "value": "www.ai-coding-flow.com" }],
+            "destination": "https://ai-coding-flow.com/:path",
+            "permanent": true
         }
     ]
 }

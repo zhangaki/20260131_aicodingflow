@@ -1,7 +1,7 @@
 ---
 title: "Using Jasper AI for Writing SEO-Optimized Content: A Practical 2026 Walkthrough"
 description: "Learn how to use Jasper AI effectively for writing seo-optimized content. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Dec 28 2025"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["jasper-ai", "tutorial", "how-to", "ai-writing"]
 ---

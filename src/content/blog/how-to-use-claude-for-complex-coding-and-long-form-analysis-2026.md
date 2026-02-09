@@ -1,7 +1,7 @@
 ---
 title: "Using Claude for Complex Coding and Long-Form Analysis: A Practical 2026 Walkthrough"
 description: "Learn how to use Claude effectively for complex coding and long-form analysis. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 08 2026"
+pubDate: "Jan 18 2026"
 heroImage: "/assets/blog-fallback.jpg"
 tags: ["claude", "tutorial", "how-to", "llm"]
 ---
