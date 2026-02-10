@@ -21,9 +21,28 @@ const noindex = post?.data?.noindex || false;
 
 const displayDate = pubDate instanceof Date ? pubDate : new Date(pubDate);
 
-// Calculate Reading Time (rough estimation)
-const wordCount = 1200; 
-const readingTime = Math.ceil(wordCount / 200);
+// Calculate Reading Time from actual content
+const bodyText = post?.body || '';
+const actualWordCount = bodyText.split(/\s+/).filter(Boolean).length;
+const readingTime = Math.max(1, Math.ceil(actualWordCount / 200));
+
+// Extract FAQ items from markdown body for FAQPage schema
+const faqItems: Array<{question: string; answer: string}> = [];
+if (bodyText) {
+	const faqMatch = bodyText.match(/##+ (?:FAQ|Frequently Asked Questions)[^\n]*\n([\s\S]*?)(?=\n## [^#]|$)/i);
+	if (faqMatch) {
+		const faqSection = faqMatch[1];
+		// Match numbered bold questions: "1. **question**" or "**Q1: question**"
+		const qaRegex = /(?:\d+\.\s+)?\*\*(?:Q\d+:\s*)?(.+?)\*\*\s*\n+([\s\S]*?)(?=(?:\d+\.\s+)?\*\*(?:Q\d+:)?|$)/g;
+		let match;
+		while ((match = qaRegex.exec(faqSection)) !== null) {
+			const answer = match[2].trim().replace(/\n+/g, ' ').replace(/\*([^*]+)\*/g, '$1').slice(0, 500);
+			if (answer.length > 20) {
+				faqItems.push({ question: match[1].trim(), answer });
+			}
+		}
+	}
+}
 
 // Get related posts based on tags (only if we're on a post page)
 const allPosts = await getCollection('blog');
@@ -48,6 +67,20 @@ const relatedPosts = post ? allPosts
 				"url": "https://ai-coding-flow.com/about/"
 			}]
 		})} />
+		{faqItems.length >= 2 && (
+			<script type="application/ld+json" set:html={JSON.stringify({
+				"@context": "https://schema.org",
+				"@type": "FAQPage",
+				"mainEntity": faqItems.map(faq => ({
+					"@type": "Question",
+					"name": faq.question,
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": faq.answer
+					}
+				}))
+			})} />
+		)}
 		<style>
 			main {
 				width: 100%;
