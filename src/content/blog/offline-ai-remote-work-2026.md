@@ -174,6 +174,10 @@ Download new model versions when you have Wi-Fi (e.g., at a hotel). Most models 
 
 ---
 
+
+
+> **Related:** [private AI hardware](/blog/private-ai-hardware-2026/)
+
 ## Related Reading
 
 - [The Agent Mesh: Deconstructing the REST Monopoly](/blog/agent-mesh-vs-microservices-2026/)
