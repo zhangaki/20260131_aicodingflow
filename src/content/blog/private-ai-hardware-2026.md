@@ -1,6 +1,7 @@
 ---
-description: Stop renting your intelligence. Learn how to build a private, uncesored,
-  and zero-latency AI cluster for your business using Apple Silicon and H200s.
+description: Build a private local AI server with no cloud dependency. Step-by-step guide
+  to assembling a $10k AI cluster using Apple Silicon and H200s for zero-latency,
+  fully offline AI inference in 2026.
 heroImage: /assets/private-ai-hardware-2026.jpg
 pubDate: Jan 23 2026
 tags:

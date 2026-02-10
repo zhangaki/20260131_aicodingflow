@@ -1,6 +1,7 @@
 ---
-description: Cloud-based AI is a tenant model of intelligence. Discover how to architect
-  a sovereign, local-first knowledge base using Llama-4 and zero-trust synchronization.
+description: How to build a local LLM knowledge base in 2026. Step-by-step guide to
+  architecting a sovereign, offline-first second brain using Llama models and
+  zero-trust synchronization with no cloud required.
 heroImage: /assets/local-llm-knowledge-base-2026.jpg
 pubDate: Jan 21 2026
 tags:
