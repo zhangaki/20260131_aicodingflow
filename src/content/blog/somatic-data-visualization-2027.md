@@ -1,6 +1,5 @@
 ---
-description: Why look at a chart when you can feel the volatility? A technical guide
-  to Haptic Interfaces, Data Sonification, and the Somatic Web.
+description: 'Explore somatic data visualization in 2027: embodied AI, haptic feedback, VR/AR data immersion, and the future of experiential analytics.'
 heroImage: /assets/somatic-data.webp
 noindex: true
 pubDate: Dec 21 2025
@@ -10,7 +9,7 @@ tags:
 - Dev Tools
 - Society & Ethics
 - Security
-title: 'The Felt Internet: Somatic Data Visualization and Visceral Computing in 2027'
+title: 'Somatic Data Visualization 2027: Embodied AI Data Experience'
 ---
 
 The visual cortex is biologically bandwidth-limited. Consciously, you can process about 40-80 bits of visual information per second.

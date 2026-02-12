@@ -1,6 +1,5 @@
 ---
-description: A step-by-step tutorial on using HubSpot AI for automating business workflows
-  in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques.
+description: 'Automate business workflows with HubSpot AI in 2026: email sequences, lead scoring, content generation, and integration setup guide.'
 heroImage: /assets/how-to-use-hubspot-ai-for-automating-business-workflows-2026.webp
 pubDate: Jan 10 2026
 tags:
@@ -8,7 +7,7 @@ tags:
 - tutorial
 - how-to
 - ai-business
-title: 'How to Use HubSpot AI for Automating Business Workflows: Complete 2026 Guide'
+title: 'How to Automate Workflows with HubSpot AI 2026: Complete Tutorial'
 ---
 
 ## How to Use HubSpot AI for Automating Business Workflows: Everything You Need to Know
