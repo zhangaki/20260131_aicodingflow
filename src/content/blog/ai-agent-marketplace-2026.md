@@ -1,7 +1,5 @@
 ---
-description: How to build, price, and sell AI agents in the emerging marketplace ecosystem.
-  A technical guide to discovery, trust ratings, revenue models, and the economics
-  of the agentic economy in 2026.
+description: 'How to build, price, and sell AI agents in the emerging marketplace ecosystem. A technical guide to discovery, trust ratings, revenue models, and the economics of the agentic economy in 2026.'
 heroImage: /assets/ai-agent-marketplace.webp
 pubDate: Jan 04 2026
 tags:
