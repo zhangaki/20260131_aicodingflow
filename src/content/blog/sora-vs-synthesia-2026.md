@@ -114,6 +114,18 @@ Free tier available (very limited), Pro from $22/month, Enterprise: Custom prici
 
     Sora currently has no direct integrations. You would need to use the OpenAI API to build custom integrations. This requires significant development effort and a deep understanding of OpenAI's API. Synthesia offers API and Zapier integrations for easier integration with other tools.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Synthesia"
+  description="Create professional AI videos with avatars in 120+ languages without equipment."
+  link="https://www.synthesia.io/?utm_source=ai-coding-flow"
+  price="From $22/month"
+  tag="Video AI"
+/>
+
 ---
 
 ## Related Reading

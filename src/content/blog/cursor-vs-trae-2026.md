@@ -102,6 +102,18 @@ Trae's future is closely tied to the development of Claude models. Expect to see
 *   **Q: Are Cursor or Trae suitable for beginners?**
     *   A: Trae is generally easier to learn and use for beginners due to its cleaner interface and focus on AI assistance. Cursor's more advanced features and complex IDE can be overwhelming for newcomers. However, both tools offer tutorials and documentation to help users get started.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

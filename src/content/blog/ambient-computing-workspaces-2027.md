@@ -134,6 +134,18 @@ This configuration dictates that the glasses *periodically* (hourly, in this exa
 
 Local-Only Perception is a myth if the device itself is constantly phoning home to Big Brother.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

@@ -93,6 +93,18 @@ Free tier available (basic grammar and spell check), Premium plan starts at $12/
 *   **Q: How secure is my data when using these tools?**
     *   **A:** Both Copy.ai and Grammarly AI have security measures in place to protect your data. However, it's important to review their privacy policies and understand how your data is being used. Be especially cautious when inputting sensitive or confidential information into these platforms. Consider using a separate, dedicated instance for sensitive data if possible.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Jasper AI"
+  description="The leading AI writing assistant for marketers and content creators. 30% off first month."
+  link="https://www.jasper.ai/?utm_source=ai-coding-flow&utm_medium=affiliate"
+  price="From $49/month"
+  tag="30% Commission"
+/>
+
 ---
 
 ## Related Reading

@@ -80,6 +80,18 @@ The AI coding assistant landscape is crowded, but Cursor and Windsurf stand out 
 
 **A:** Windsurf is generally more suitable for beginners due to its seamless VS Code integration and generous free tier. Cursor requires a steeper learning curve due to the need to switch IDEs and learn its AI-driven workflows. However, both tools can be valuable learning resources for developers of all skill levels.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

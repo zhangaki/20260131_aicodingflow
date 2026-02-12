@@ -67,6 +67,18 @@ If you're trying to choose between Grok and ChatGPT, you've likely realized that
 
 Investing time in either Grok or ChatGPT will likely pay dividends, but one definitely has a slight edge in usability.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

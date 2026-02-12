@@ -104,6 +104,18 @@ Keep in mind that GitHub Copilot has Business and Enterprise options with varyin
 *   **Q: Which tool is better for learning a new programming language?**
     *   A: GitHub Copilot is generally better for learning a new language. Its real-time code completion and Copilot Chat can provide helpful suggestions and explanations as you code. Cursor is better suited for working with existing codebases and performing complex refactorings.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

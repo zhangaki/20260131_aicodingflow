@@ -93,6 +93,18 @@ Free tier available (limited). Pro: $12/month per user. Enterprise: Custom prici
 *   **Q: How much computing power is required to train Tabnine on my own codebase?**
     *   **A:** The computing power required depends on the size and complexity of your codebase. For smaller codebases, a standard desktop computer may be sufficient. However, for larger codebases, you may need to use a more powerful server with a dedicated GPU. Tabnine provides guidelines and recommendations for hardware requirements based on your specific needs.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

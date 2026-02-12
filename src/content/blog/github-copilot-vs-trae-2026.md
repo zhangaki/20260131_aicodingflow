@@ -127,6 +127,18 @@ Free tier available with limitations. A Pro tier is mentioned, but pricing detai
 
     Yes, you should absolutely be concerned. ByteDance's ownership and the lack of transparency in Trae's privacy policy raise legitimate concerns about how your code and data are being used. If you're working on sensitive projects or have strict compliance requirements, I would strongly advise against using Trae. Copilot, while not perfect, offers a more transparent and established data privacy policy.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

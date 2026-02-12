@@ -127,6 +127,18 @@ CrewAI is open-source and free to use. Similar to LangChain, you'll need to fact
 
     The choice of LLM depends on your specific requirements. Consider factors such as cost, performance, context window size, and availability of fine-tuning. Experiment with different LLMs to find the best fit for your application. For CrewAI, use the best LLM you can afford for the "Manager" agent, as its reasoning ability is crucial for effective task orchestration.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

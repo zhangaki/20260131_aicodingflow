@@ -153,6 +153,18 @@ The top alternatives to Zendesk AI include Salesforce Einstein, HubSpot AI. Each
 The primary limitations we encountered include: Per-agent pricing adds up fast; AI requires training period; Basic plan limited AI features. None were deal-breakers for our use case, but they may matter depending on your workflow.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

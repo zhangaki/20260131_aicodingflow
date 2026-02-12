@@ -206,6 +206,18 @@ No. Kling AI offers a free tier that includes enough functionality for most crea
 The main alternatives include Sora, HeyGen, Runway. Each has different strengths, so we recommend evaluating based on your specific creating affordable ai video content requirements.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

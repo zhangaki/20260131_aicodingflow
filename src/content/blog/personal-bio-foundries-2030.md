@@ -72,6 +72,18 @@ It proved that once biology becomes data, it flows like water.
 
 **Print responsibly.** Run the [Codon Optimizer](/tools) to design your first plasmid, or read about [The Network State](/blog/network-state-governance-2030) to see where the bio-hackers are fleeing to hide from the FDA.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

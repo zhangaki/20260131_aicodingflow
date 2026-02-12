@@ -67,6 +67,18 @@ The competition between Sora and Runway has never been tighter, with both tools 
 
 Investing time in either Sora or Runway will likely pay dividends, but one definitely has a slight edge in usability.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

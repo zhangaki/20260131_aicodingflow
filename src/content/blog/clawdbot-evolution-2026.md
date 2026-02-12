@@ -167,6 +167,18 @@ We recommend starting with GPT-4 or Claude 3 Opus for their superior reasoning c
 *   **Q: What is the future of agentic systems?**
     *   A: The future of agentic systems is bright. As AI technology continues to advance, agentic systems will become more powerful, reliable, and versatile. They will play an increasingly important role in our lives, automating tasks, solving problems, and creating new opportunities.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

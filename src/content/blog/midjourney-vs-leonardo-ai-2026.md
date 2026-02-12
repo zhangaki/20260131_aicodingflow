@@ -68,6 +68,18 @@ Selecting the right platform between Midjourney and Leonardo AI often comes down
 
 Our testing suggests that while both are capable, Midjourney and Leonardo AI cater to slightly different developer personas.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Canva Pro"
+  description="Design anything with AI-powered templates, magic resize, and brand kit."
+  link="https://www.canva.com/signup?utm_source=ai-coding-flow"
+  price="$12.99/month"
+  tag="$36 Payout"
+/>
+
 ---
 
 ## Related Reading

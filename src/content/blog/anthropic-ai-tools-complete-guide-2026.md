@@ -233,6 +233,18 @@ A: Anthropic prioritizes AI safety and ethics through careful model design, rigo
 
 A: Like all AI models, Claude models have limitations. They may sometimes generate inaccurate or biased responses, and they are not a substitute for human judgment. It's crucial to carefully review and validate the output of Claude models.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

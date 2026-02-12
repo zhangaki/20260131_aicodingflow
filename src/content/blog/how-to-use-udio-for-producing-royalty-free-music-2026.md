@@ -184,6 +184,18 @@ Maximize Udio's impact by integrating it with your broader toolkit. Export forma
 
 When you need to apply Udio to multiple producing royalty-free music tasks, develop a batch processing approach. Standardize your inputs, create templates for common request types, and process similar items in focused sessions. This reduces context-switching overhead and improves consistency across outputs.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

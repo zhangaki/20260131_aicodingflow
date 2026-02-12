@@ -118,6 +118,18 @@ If you're building production AI agents, this update is **mandatory**.
 - [Anthropic releases Opus 4.6 with new 'agent teams' | TechCrunch](https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/)
 - [Claude Opus 4.6 Is Here: Breakdown | Medium](https://medium.com/ai-software-engineer/claude-opus-4-6-is-here-i-just-tested-it-heres-a-breakdown-of-new-changes-cac6972a5287)
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

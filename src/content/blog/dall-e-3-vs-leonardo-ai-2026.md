@@ -101,6 +101,18 @@ A: DALL-E 3's superior text rendering capabilities make it a strong contender fo
 
 A: DALL-E 3's free tier is limited by the number of prompts you can use. Leonardo AI's free tier is limited by the number of daily credits you receive. Both free tiers are suitable for experimentation and casual use, but you'll likely need a paid subscription for serious projects. The image resolution and available features may also be limited on the free tiers.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Canva Pro"
+  description="Design anything with AI-powered templates, magic resize, and brand kit."
+  link="https://www.canva.com/signup?utm_source=ai-coding-flow"
+  price="$12.99/month"
+  tag="$36 Payout"
+/>
+
 ---
 
 ## Related Reading

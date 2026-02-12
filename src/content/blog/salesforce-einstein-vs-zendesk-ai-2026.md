@@ -98,6 +98,18 @@ $55/agent/month (for the Advanced AI add-on, on top of a Zendesk Suite plan)
 
     Yes, both platforms offer integration capabilities, but the ease and complexity of integration vary. Salesforce Einstein can be integrated with other systems through APIs and middleware, but this often requires custom development. Zendesk AI offers a wider range of pre-built integrations with popular business applications, but custom integrations may still be necessary. Consider the existing systems you need to integrate with and evaluate the available integration options for each platform. Look closely at the API documentation and available SDKs.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

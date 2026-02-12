@@ -67,6 +67,18 @@ The competition between v0 by Vercel and Devin has never been tighter, with both
 
 Our testing suggests that while both are capable, v0 by Vercel and Devin cater to slightly different developer personas.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

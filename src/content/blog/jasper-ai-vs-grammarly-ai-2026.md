@@ -97,6 +97,18 @@ Free tier available (limited features). Grammarly Premium costs $12/month (bille
 *   **Pick Grammarly AI if...** you need a reliable and ubiquitous writing assistant that works across all your devices and applications, and you prioritize accuracy and clarity in your writing.
 *   **Pick both if...** you want a comprehensive writing solution that combines the content generation capabilities of Jasper AI with the real-time editing and style checking of Grammarly AI. Use Jasper to create drafts, then use Grammarly to refine and polish the output.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Jasper AI"
+  description="The leading AI writing assistant for marketers and content creators. 30% off first month."
+  link="https://www.jasper.ai/?utm_source=ai-coding-flow&utm_medium=affiliate"
+  price="From $49/month"
+  tag="30% Commission"
+/>
+
 ---
 
 ## Related Reading

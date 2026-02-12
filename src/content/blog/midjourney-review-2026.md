@@ -155,6 +155,18 @@ The top alternatives to Midjourney include DALL-E 3, Stable Diffusion, Leonardo 
 The primary limitations we encountered include: Discord-only interface; No API access; Limited editing tools. None were deal-breakers for our use case, but they may matter depending on your workflow.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

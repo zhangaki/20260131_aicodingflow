@@ -72,6 +72,18 @@ Even with just **1% coverage**, a Dyson Swarm could host **$3.8 \times 10^{26}$*
 | **Optical Transceivers** | Comms | Beaming terawatts of energy back to the processing hubs. |
 | **Recursive AI** | Control | Management of millions of autonomous swarm assets. |
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

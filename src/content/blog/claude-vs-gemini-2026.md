@@ -113,6 +113,18 @@ Gemini shines when integrated into the Google ecosystem and excels at tasks requ
 
     Both Anthropic and Google offer customer support for their LLMs. However, Google's support ecosystem is generally more extensive due to its larger size and broader range of services. You can find a wealth of documentation, tutorials, and community forums for Gemini and Google Cloud Platform (GCP). Anthropic's support is more focused and personalized, but the resources available are somewhat limited compared to Google.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

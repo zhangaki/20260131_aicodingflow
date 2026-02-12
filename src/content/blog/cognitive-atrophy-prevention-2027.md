@@ -77,6 +77,18 @@ Paradoxically, no. The people using AI 24/7 are producing "Average" output at sc
 ### Can I gamify this?
 Yes. Create a "points system" for yourself. 1 hour of Raw Reading = 10 points. 1 hour of Doomscrolling = -10 points. Treat your cognitive health like a massively multiplayer online game where you are the character.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

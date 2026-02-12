@@ -78,6 +78,18 @@ A: Absolutely not. bolt.new is a prototyping tool, not a full-fledged IDE. While
 
 A: Accuracy varies wildly. Simple applications with clear requirements tend to be generated more accurately than complex applications with ambiguous requirements. Be prepared to spend time reviewing and debugging the generated code, especially for larger projects. Sometimes it hallucinates libraries and functions that don't exist, so double-check everything.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

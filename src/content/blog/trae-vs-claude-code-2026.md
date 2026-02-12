@@ -89,6 +89,18 @@ Claude Code uses its MCP (Multi-Context Processing) server to break down large c
 
 Several other AI coding assistants are available, including GitHub Copilot, Amazon CodeWhisperer, and Tabnine. Each has its own strengths and weaknesses, so it's worth exploring different options to find the best fit for your needs. GitHub Copilot is a strong contender, but requires a paid subscription. Amazon CodeWhisperer has a free tier, but its capabilities are more limited. Tabnine offers both free and paid plans, with varying levels of features and performance.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

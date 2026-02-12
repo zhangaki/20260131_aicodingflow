@@ -34,6 +34,18 @@ Generative digital twins and video synthesis. This requires semantic labeling of
 2. **Entity Hardening**: Use JSON-LD to confirm your site's relationship to the concepts digen ai is searching for.
 3. **Audit Now**: Use our [AI Visibility Tool](/tools/aeo-audit) to check if your technical foundation can withstand the data-hungry nature of digen ai.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

@@ -76,6 +76,18 @@ She "remembers" the patient's specific anatomy instantly, though she had never c
 
 **Your mind is your own.** Run the [Vector Search Tool](/tools) to build your local exocortex, or read about [Cognitive Sovereignty](/blog/cognitive-sovereignty-hive-mind-2030) to learn how to defend it from the hive.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

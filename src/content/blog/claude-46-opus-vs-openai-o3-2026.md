@@ -129,6 +129,18 @@ $200/month (Researcher Tier) is the minimum. Token costs are substantial. Expect
 
     There are several free LLMs available, such as Llama 3 and various open-source models. However, these models typically don't match the performance of Opus and o3, especially in complex reasoning tasks. They can be a good option for experimenting and learning about LLMs, but they're not typically suitable for production use cases.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

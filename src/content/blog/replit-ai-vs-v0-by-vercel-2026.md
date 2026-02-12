@@ -111,6 +111,18 @@ A: While v0 is designed to work seamlessly with shadcn/ui, you can potentially a
 
 A: While AI can significantly accelerate development, it's important to maintain a strong understanding of the underlying code and architecture. Blindly accepting AI-generated code can lead to technical debt and maintainability issues. It's crucial to use AI as a tool to augment your skills, not replace them entirely. You should always review and understand the generated code before deploying it to production.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

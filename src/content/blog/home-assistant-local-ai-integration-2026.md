@@ -335,6 +335,18 @@ Local AI requires more technical expertise to set up and maintain. It also requi
 
 Building a local AI-powered smart home with Home Assistant is a rewarding endeavor. It gives you complete control over your data, eliminates subscription fees, and provides a faster, more responsive smart home experience. While the initial setup may require some technical effort, the long-term benefits of privacy and control are well worth the investment. Embrace the future of smart homes and take back control of your data with local AI.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

@@ -92,6 +92,18 @@ Yes, both platforms allow you to export your projects. bolt.new lets you downloa
 
 Both platforms offer documentation and community forums. However, the quality of support can vary. bolt.new's documentation is generally comprehensive, but the community forums can be slow to respond. Lovable's documentation is more focused on non-technical users, and the community forums are generally more active. I've found that both companies are responsive to bug reports and feature requests, but don't expect immediate resolutions.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

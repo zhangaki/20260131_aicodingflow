@@ -94,6 +94,18 @@ Yes, the AI Content Assistant can generate HTML and Javascript snippets, primari
 
 The free tier is a great way to get familiar with the HubSpot platform, but the AI features are severely limited. You won't have access to the AI Content Assistant, predictive lead scoring, or AI-powered ticket routing. The free tier is best suited for small businesses with basic marketing and sales needs. To truly leverage the power of HubSpot AI, you'll need to upgrade to a paid plan.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

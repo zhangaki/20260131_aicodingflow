@@ -200,6 +200,18 @@ If you're a Google Workspace user, Gemini Advanced ($20/mo) is now a no-brainer.
 - [Release notes | Gemini API | Google AI for Developers](https://ai.google.dev/gemini-api/docs/changelog)
 - [Google introduces new Gemini features](https://blog.google/products-and-platforms/platforms/google-tv/ces-2026/)
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Canva Pro"
+  description="Design anything with AI-powered templates, magic resize, and brand kit."
+  link="https://www.canva.com/signup?utm_source=ai-coding-flow"
+  price="$12.99/month"
+  tag="$36 Payout"
+/>
+
 ---
 
 ## Related Reading

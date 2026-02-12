@@ -157,6 +157,18 @@ The top alternatives to bolt.new include v0 by Vercel, Lovable, Replit AI. Each 
 The primary limitations we encountered include: Complex apps can be unreliable; Credit system for AI usage; Not for production-grade apps. None were deal-breakers for our use case, but they may matter depending on your workflow.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

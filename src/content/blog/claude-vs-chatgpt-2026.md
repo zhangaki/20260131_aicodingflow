@@ -99,6 +99,18 @@ To effectively utilize Claude's 200K context window, provide clear instructions 
 
 For developers and analysts, the $20/month subscription for Claude Pro is often worth it, especially if you need to work with large codebases or complex documents. The increased context window and access to the most powerful models (Sonnet and Opus) can significantly improve your productivity. For general users, the $20/month subscription for ChatGPT Plus is also worth it if you need access to GPT-4o and advanced features like web browsing and DALL-E image generation. Consider your specific needs and usage patterns before making a decision. If you only need basic AI assistance, the free tiers might be sufficient.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

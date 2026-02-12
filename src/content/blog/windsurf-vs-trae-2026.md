@@ -118,6 +118,18 @@ Let's address some key questions that developers are likely to have when choosin
 
     Windsurf allows you to use your own API keys for certain AI models, giving you more control over costs and usage. Trae does not currently support using your own API keys. You are limited to using the models and resources provided by ByteDance.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

@@ -206,6 +206,18 @@ No. Runway offers a free tier that includes enough functionality for most profes
 The main alternatives include Sora, Kling AI, HeyGen. Each has different strengths, so we recommend evaluating based on your specific professional video editing with ai requirements.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

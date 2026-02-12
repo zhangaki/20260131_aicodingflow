@@ -144,6 +144,18 @@ However, it is not without trade-offs. The limitations around Extremely high lat
 
 **Bottom line:** If you fall into OpenAI o3's target audience, it is one of the best options available in 2026. Start with the trial period (if available) to evaluate it against your specific workflow before upgrading.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

@@ -142,6 +142,18 @@ However, it is not without trade-offs. The limitations around Occasional transcr
 
 **Bottom line:** If you fall into Fireflies.ai's target audience, it is one of the best options available in 2026. Start with the free tier to evaluate it against your specific workflow before upgrading.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

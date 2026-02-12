@@ -126,6 +126,18 @@ While Copilot can be useful even for junior developers, Claude Code requires a s
 
 Yes, there are potential security risks associated with using any AI coding assistant. These tools can generate code that contains vulnerabilities or exposes sensitive information. It's crucial to carefully review all AI-generated code and ensure that it meets your security standards. Also, be aware of the data collection practices of these tools and configure them appropriately to protect your privacy. Consider using static analysis tools and code review processes to identify and mitigate potential security risks.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

@@ -218,6 +218,18 @@ A: We carefully curate our training data to ensure that it is representative of 
 
 A: Our vision is to create a world where every patient with a rare disease receives an accurate and timely diagnosis. We believe that AI has the potential to dramatically shorten diagnostic timelines, alleviate suffering, and improve outcomes for millions of people. We are committed to working with researchers, clinicians, and patient advocacy groups to make this vision a reality.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

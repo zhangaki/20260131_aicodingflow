@@ -114,6 +114,18 @@ A: The training time depends on the size and complexity of your codebase. It can
 
 A: While the Cascade Agent shows great promise, it is still under active development. Its performance may vary depending on the complexity of the task and the size of the codebase. We recommend testing it thoroughly in a non-production environment before deploying it to production.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

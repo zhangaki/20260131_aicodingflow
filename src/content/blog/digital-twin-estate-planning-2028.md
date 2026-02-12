@@ -140,6 +140,18 @@ contract ThanatosProtocol {
 
 **Ready to plan your exit?** Deploy the [Thanatos Contract](/tools) to the testnet, or read about [The Dyson Sphere of One](/blog/dyson-sphere-of-one-2028) to ensure your Ghost has the energy to run forever.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

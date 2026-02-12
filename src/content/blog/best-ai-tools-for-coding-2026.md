@@ -292,6 +292,18 @@ There is no single "best" tool -- it depends on your specific needs, budget, and
 
 The coding AI landscape is evolving rapidly. Tools that were mediocre six months ago have shipped major updates, and new entrants continue to disrupt pricing expectations. We plan to revisit this guide quarterly to keep our recommendations current.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

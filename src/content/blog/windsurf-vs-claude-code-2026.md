@@ -104,6 +104,18 @@ Windsurf's free tier is surprisingly generous, allowing you to experiment and in
 *   **Q: What are the hardware requirements for running Claude Code effectively?**
     *   **A:** Claude Code can be resource-intensive, especially when working with large codebases. I recommend a machine with at least 16GB of RAM and a multi-core CPU. An SSD is also highly recommended for faster performance. You should also ensure you have a stable internet connection for communicating with the Claude API.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

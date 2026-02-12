@@ -120,6 +120,18 @@ Your moat is not the code—it's the data, the fine-tuning, and the reputation. 
 ### Should I build on OpenAI's store or go independent?
 Start on a major platform for discovery. Once you have a user base, offer a direct option with lower fees to maximize margin.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

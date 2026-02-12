@@ -156,6 +156,18 @@ The top alternatives to Grok include ChatGPT, Claude, Gemini. Each offers differ
 The primary limitations we encountered include: Requires X subscription; Smaller context than GPT-4; Web access limited to X data. None were deal-breakers for our use case, but they may matter depending on your workflow.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

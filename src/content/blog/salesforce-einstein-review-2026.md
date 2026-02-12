@@ -154,6 +154,18 @@ The top alternatives to Salesforce Einstein include HubSpot AI, Zendesk AI. Each
 The primary limitations we encountered include: Extremely expensive; Requires Salesforce ecosystem; Complex setup. None were deal-breakers for our use case, but they may matter depending on your workflow.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

@@ -73,6 +73,18 @@ The screen will become the *least* important interface. We will inhabit data, br
 
 **Ready to feel the data?** Build your own [Sonification Script](/tools) or read about [Ambient Workspaces](/blog/ambient-computing-workspaces-2027) to complete your invisible, visceral office setup.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

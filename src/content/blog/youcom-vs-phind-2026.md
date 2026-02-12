@@ -74,6 +74,18 @@ The hype around AI-powered search and coding assistants is deafening. But which 
 
 **A:** Phind is significantly better for generating documentation. It can automatically generate documentation for your code, including docstrings, API references, and tutorials. You.com can generate basic documentation, but it's not as comprehensive or accurate as Phind. Phind leverages its understanding of code structure and semantics to generate high-quality documentation that is both informative and easy to understand.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

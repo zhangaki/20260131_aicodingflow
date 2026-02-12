@@ -209,6 +209,18 @@ No. Fireflies.ai offers a free tier that includes enough functionality for most 
 The main alternatives include Otter.ai, Notion AI. Each has different strengths, so we recommend evaluating based on your specific supercharging your daily workflow requirements.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

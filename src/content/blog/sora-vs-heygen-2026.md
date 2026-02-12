@@ -105,6 +105,18 @@ It depends on your specific needs and budget. HeyGen's API and scalable video ge
 
 The physics simulations in Sora are remarkably accurate for an AI video generator. Objects interact with each other in a believable way, and the movement of fluids and fabrics is surprisingly realistic. However, it's not perfect. There are still occasional glitches and inconsistencies, but overall, the physics simulations are a major strength of the platform.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

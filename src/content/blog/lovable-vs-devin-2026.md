@@ -114,6 +114,18 @@ A: The term "fully autonomous" is a bit of an overstatement. While Devin can han
 **Q: What programming languages do Lovable and Devin support?**
 A: Lovable primarily focuses on JavaScript (React, specifically) and HTML/CSS, given its web app focus. Devin has a broader range, supporting Python, Java, JavaScript, and other common languages. Devin is designed to adapt to the language required for the specific task. However, both tools are constantly evolving, and their language support may expand over time.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

@@ -155,6 +155,18 @@ The top alternatives to Perplexity include You.com, Phind. Each offers different
 The primary limitations we encountered include: Pro features behind paywall; Citation accuracy not always perfect; Limited creative tasks. None were deal-breakers for our use case, but they may matter depending on your workflow.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

@@ -158,6 +158,18 @@ The top alternatives to Leonardo AI include Midjourney, DALL-E 3, Stable Diffusi
 The primary limitations we encountered include: Credit system can be limiting; Less photorealistic than Midjourney; Smaller community. None were deal-breakers for our use case, but they may matter depending on your workflow.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Canva Pro"
+  description="Design anything with AI-powered templates, magic resize, and brand kit."
+  link="https://www.canva.com/signup?utm_source=ai-coding-flow"
+  price="$12.99/month"
+  tag="$36 Payout"
+/>
+
 ---
 
 ## Related Reading

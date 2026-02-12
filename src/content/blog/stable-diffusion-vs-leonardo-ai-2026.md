@@ -123,6 +123,18 @@ Leonardo AI is a web-based platform that simplifies the image generation process
 
     Yes, Leonardo AI offers an API that allows you to integrate its image generation capabilities into your own applications and workflows. This can be useful for automating tasks or creating custom image generation tools. You'll need to subscribe to a paid plan to access the API.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Canva Pro"
+  description="Design anything with AI-powered templates, magic resize, and brand kit."
+  link="https://www.canva.com/signup?utm_source=ai-coding-flow"
+  price="$12.99/month"
+  tag="$36 Payout"
+/>
+
 ---
 
 ## Related Reading

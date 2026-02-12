@@ -350,6 +350,18 @@ The landscape of local AI assistants has matured significantly. While cloud-base
 
 Ultimately, the best local AI assistant depends on your individual needs, technical expertise, and hardware capabilities. Experiment with different tools and models to find the perfect fit for your use case.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

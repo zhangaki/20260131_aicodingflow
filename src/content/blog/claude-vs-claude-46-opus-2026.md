@@ -117,6 +117,18 @@ Free tier available (limited usage), Pro plan from $20/month, Team plan from $30
 
     While Computer Use V2 is a significant improvement, it still has some limitations. It struggles with deeply nested terminal commands, complex file system interactions, and tasks that require real-time human input. It's also important to note that the simulated computer environment is not a perfect replica of a real-world system, so some tasks may not be possible or may require significant adaptation. Always test your agents thoroughly in a real-world environment before deploying them to production.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

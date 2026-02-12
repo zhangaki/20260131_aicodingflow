@@ -116,6 +116,18 @@ Let's get down to brass tacks and see how these tools perform in common coding s
 *   **Q: Is it worth paying for a Claude Pro subscription just to get access to Claude Code?**
     *   **A:** It depends on your specific needs. If you're a terminal-centric developer who frequently performs complex refactoring tasks, then Claude Code can be a game-changer. However, if you primarily work in a graphical IDE and don't need agentic capabilities, then it may not be worth the cost. Consider trying the free version of Claude (if available) to get a sense of its capabilities before committing to a Pro subscription.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

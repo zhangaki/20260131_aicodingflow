@@ -133,6 +133,18 @@ This simple logic—holding data until the link is solid—is what allows the Vo
 
 **Reach for the stars.** Run the [DTN Sim](/tools) to plan your Mars mission, or read the final article [The Omega Point Strategy](/blog/omega-point-2030) to see what happens when we turn the entire solar system into a computer.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

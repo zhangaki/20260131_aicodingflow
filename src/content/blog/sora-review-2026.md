@@ -155,6 +155,18 @@ The top alternatives to Sora include Kling AI, HeyGen, Runway. Each offers diffe
 The primary limitations we encountered include: Limited to ChatGPT subscribers; Watermarked output; Long generation times. None were deal-breakers for our use case, but they may matter depending on your workflow.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

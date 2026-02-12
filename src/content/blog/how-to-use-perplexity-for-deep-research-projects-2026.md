@@ -208,6 +208,18 @@ No. Perplexity offers a free tier that includes enough functionality for most de
 The main alternatives include You.com, Phind. Each has different strengths, so we recommend evaluating based on your specific deep research projects requirements.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

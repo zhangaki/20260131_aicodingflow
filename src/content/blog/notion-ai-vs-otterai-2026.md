@@ -116,6 +116,18 @@ No, not really. While Notion AI can help with writing, it's not as sophisticated
 
 Yes, Otter.ai allows you to upload pre-recorded audio files for transcription. This can be useful for transcribing podcasts, webinars, or other audio content. However, the quality of the transcription will depend on the audio quality of the file.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Grammarly Premium"
+  description="Advanced grammar checking, tone detection, and writing suggestions powered by AI."
+  link="https://www.grammarly.com?utm_source=ai-coding-flow&utm_medium=affiliate"
+  price="From $12/month"
+  tag="Popular Choice"
+/>
+
 ---
 
 ## Related Reading

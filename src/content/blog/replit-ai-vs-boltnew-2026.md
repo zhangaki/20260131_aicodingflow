@@ -127,6 +127,18 @@ Replit AI supports a wide range of programming languages, including Python, Java
 
 Both platforms employ security measures to protect user data and prevent malicious code execution. However, it's essential to be aware of the potential security risks associated with AI-generated code. Always review and test the generated code thoroughly before deploying it to production. Be mindful of the data you expose to the AI, as it may be used for training purposes.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

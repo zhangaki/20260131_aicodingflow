@@ -118,6 +118,18 @@ Claude 3.5 Sonnet is particularly strong with Python, JavaScript, Go, and TypeSc
 
 Review the privacy policies of both xAI and Anthropic. Both companies claim to have measures in place to protect user data. For sensitive information, consider anonymizing your data before submitting it to the models. Also, be aware of any data retention policies and opt-out if necessary. If absolute privacy is paramount, explore options for fine-tuning open-source models on your own hardware.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

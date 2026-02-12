@@ -1,0 +1,149 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-02-12",
+  "affiliate_programs": {
+    "jasper": {
+      "name": "Jasper AI",
+      "program": "Impact Partnership",
+      "commission": "30%",
+      "cookie_duration": "30 days",
+      "signup_url": "https://www.jasper.ai/partners",
+      "affiliate_link_template": "https://www.jasper.ai/?via=AFFILIATE_ID",
+      "notes": "High commission, popular AI writing tool",
+      "status": "available",
+      "priority": "high"
+    },
+    "grammarly": {
+      "name": "Grammarly",
+      "program": "Impact Partnership",
+      "commission": "$0.20 per free signup, $20 per premium",
+      "cookie_duration": "90 days",
+      "signup_url": "https://www.grammarly.com/affiliates",
+      "affiliate_link_template": "https://www.grammarly.com?aff=AFFILIATE_ID",
+      "notes": "Long cookie duration, established program",
+      "status": "available",
+      "priority": "high"
+    },
+    "copy_ai": {
+      "name": "Copy.ai",
+      "program": "PartnerStack",
+      "commission": "30% recurring",
+      "cookie_duration": "30 days",
+      "signup_url": "https://www.copy.ai/partners",
+      "affiliate_link_template": "https://www.copy.ai/?via=AFFILIATE_ID",
+      "notes": "Recurring commission, good for long-term revenue",
+      "status": "available",
+      "priority": "high"
+    },
+    "notion": {
+      "name": "Notion",
+      "program": "Notion Partner Program",
+      "commission": "$10 per paid user",
+      "cookie_duration": "30 days",
+      "signup_url": "https://www.notion.so/affiliates",
+      "affiliate_link_template": "https://www.notion.so/?r=AFFILIATE_ID",
+      "notes": "Well-known brand, high conversion",
+      "status": "available",
+      "priority": "medium"
+    },
+    "synthesia": {
+      "name": "Synthesia",
+      "program": "Direct Partnership",
+      "commission": "20%",
+      "cookie_duration": "30 days",
+      "signup_url": "https://www.synthesia.io/partners",
+      "affiliate_link_template": "https://www.synthesia.io/?ref=AFFILIATE_ID",
+      "notes": "Video AI tool, growing market",
+      "status": "available",
+      "priority": "medium"
+    },
+    "runway": {
+      "name": "Runway",
+      "program": "Creator Program",
+      "commission": "20%",
+      "cookie_duration": "30 days",
+      "signup_url": "https://runwayml.com/partners",
+      "affiliate_link_template": "https://runwayml.com/?via=AFFILIATE_ID",
+      "notes": "Video generation leader",
+      "status": "available",
+      "priority": "medium"
+    },
+    "midjourney": {
+      "name": "Midjourney",
+      "program": "No official program",
+      "commission": "N/A",
+      "cookie_duration": "N/A",
+      "signup_url": "N/A",
+      "affiliate_link_template": "N/A",
+      "notes": "No affiliate program as of Feb 2026",
+      "status": "unavailable",
+      "priority": "low"
+    },
+    "openai": {
+      "name": "OpenAI (ChatGPT)",
+      "program": "No affiliate program",
+      "commission": "N/A",
+      "cookie_duration": "N/A",
+      "signup_url": "N/A",
+      "affiliate_link_template": "N/A",
+      "notes": "OpenAI does not offer public affiliate program",
+      "status": "unavailable",
+      "priority": "low"
+    },
+    "anthropic": {
+      "name": "Anthropic (Claude)",
+      "program": "No affiliate program",
+      "commission": "N/A",
+      "cookie_duration": "N/A",
+      "signup_url": "N/A",
+      "affiliate_link_template": "N/A",
+      "notes": "Anthropic does not offer public affiliate program",
+      "status": "unavailable",
+      "priority": "low"
+    },
+    "writesonic": {
+      "name": "Writesonic",
+      "program": "Impact Partnership",
+      "commission": "30% lifetime",
+      "cookie_duration": "90 days",
+      "signup_url": "https://writesonic.com/affiliates",
+      "affiliate_link_template": "https://writesonic.com?via=AFFILIATE_ID",
+      "notes": "Lifetime commission, excellent program",
+      "status": "available",
+      "priority": "high"
+    },
+    "descript": {
+      "name": "Descript",
+      "program": "Descript Affiliate Program",
+      "commission": "$10-20 per user",
+      "cookie_duration": "30 days",
+      "signup_url": "https://www.descript.com/affiliates",
+      "affiliate_link_template": "https://www.descript.com/?via=AFFILIATE_ID",
+      "notes": "Audio/video editing tool",
+      "status": "available",
+      "priority": "medium"
+    },
+    "canva": {
+      "name": "Canva",
+      "program": "Canva Affiliate Program",
+      "commission": "$36 per Pro signup",
+      "cookie_duration": "30 days",
+      "signup_url": "https://www.canva.com/affiliates/",
+      "affiliate_link_template": "https://www.canva.com/signup?ref=AFFILIATE_ID",
+      "notes": "High payout, very popular tool",
+      "status": "available",
+      "priority": "high"
+    }
+  },
+  "placeholder_links": {
+    "jasper": "https://www.jasper.ai/?utm_source=ai-coding-flow&utm_medium=affiliate",
+    "grammarly": "https://www.grammarly.com?utm_source=ai-coding-flow&utm_medium=affiliate",
+    "copy_ai": "https://www.copy.ai/?utm_source=ai-coding-flow&utm_medium=affiliate",
+    "writesonic": "https://writesonic.com?utm_source=ai-coding-flow&utm_medium=affiliate",
+    "notion": "https://www.notion.so/?utm_source=ai-coding-flow",
+    "synthesia": "https://www.synthesia.io/?utm_source=ai-coding-flow",
+    "runway": "https://runwayml.com/?utm_source=ai-coding-flow",
+    "canva": "https://www.canva.com/signup?utm_source=ai-coding-flow",
+    "descript": "https://www.descript.com/?utm_source=ai-coding-flow"
+  }
+}

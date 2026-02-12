@@ -67,6 +67,18 @@ If you're trying to choose between HeyGen and Runway, you've likely realized tha
 
 Whether you land on HeyGen or Runway, the key is ensuring the tool integrates seamlessly with your existing stack.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

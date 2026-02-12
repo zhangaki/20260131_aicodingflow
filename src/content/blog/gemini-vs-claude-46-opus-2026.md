@@ -89,6 +89,18 @@ While both claim 1M+ token context windows, their practical impact varies. Gemin
 
 To effectively leverage Claude's agentic capabilities, focus on clear, specific, and well-structured prompts. Break down complex tasks into smaller, manageable steps. Use explicit instructions and examples to guide the model's behavior. For example, instead of saying "Write a program to solve this problem," try "First, analyze the problem and identify the key requirements. Then, design an algorithm to solve the problem. Finally, write the code in Python, including comments to explain each step." Also, use a conversational tone and encourage the model to ask clarifying questions. This helps it understand your goals and intentions more accurately. Finally, be prepared to iterate on your prompts based on the model's responses.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

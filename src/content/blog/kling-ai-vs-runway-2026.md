@@ -105,6 +105,18 @@ updatedDate: Feb 10 2026
 *   **Q: What kind of hardware do I need to run these tools?**
     *   A: Both Kling AI and Runway are primarily web-based applications, so you don't need a powerful computer to run them. However, Runway's video editing tools can be resource-intensive, so a computer with a dedicated graphics card and sufficient RAM is recommended for optimal performance. A fast internet connection is crucial for both platforms.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

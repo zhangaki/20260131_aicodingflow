@@ -271,6 +271,18 @@ Implementing a full generative AI pipeline for pharmaceutical R&D requires a sig
 *   **Programming:** Python, TensorFlow, PyTorch.
 *   **Data Science:** Data analysis, data visualization.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

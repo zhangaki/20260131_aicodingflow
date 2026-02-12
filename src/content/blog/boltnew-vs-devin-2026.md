@@ -66,6 +66,18 @@ The competition between bolt.new and Devin has never been tighter, with both too
 
 Investing time in either bolt.new or Devin will likely pay dividends, but one definitely has a slight edge in usability.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

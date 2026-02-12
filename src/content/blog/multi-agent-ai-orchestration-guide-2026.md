@@ -425,6 +425,18 @@ Sanitize user inputs, use guardrails to restrict the behavior of the agents, and
 
 Building multi-agent systems is a challenging but rewarding endeavor. By following these guidelines, you can increase your chances of success and build powerful AI applications.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

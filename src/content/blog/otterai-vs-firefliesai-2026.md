@@ -88,6 +88,18 @@ A: Both Otter.ai and Fireflies.ai take security and privacy seriously and comply
 
 A: Yes, both Otter.ai and Fireflies.ai offer API access, allowing you to integrate their functionality into your own applications or workflows. However, the API documentation and capabilities vary, so it's important to evaluate which API best suits your needs.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

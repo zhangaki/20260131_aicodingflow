@@ -164,6 +164,18 @@ The Artisan starts slow but compounds exponentially.
 
 **Ready to invest?** Run the [Market Simulation](/tools) to test your theories, or read about [Digital Twin Estate Planning](/blog/digital-twin-estate-planning-2028) to learn how to pass your digital assets to your AI heirs.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

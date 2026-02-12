@@ -138,6 +138,18 @@ A: No, Synthesia is primarily focused on generating new videos from scripts and 
 
 A: Synthesia is generally easier to integrate with existing systems, thanks to its API. Runway's integration capabilities are more limited. However, remember that RunwayML (the original, Python-based version) offers incredible integration possibilities via scripting, for those who have technical resources.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

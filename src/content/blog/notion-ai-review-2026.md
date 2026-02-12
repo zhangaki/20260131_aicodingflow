@@ -156,6 +156,18 @@ The top alternatives to Notion AI include Otter.ai, Fireflies.ai. Each offers di
 The primary limitations we encountered include: Requires Notion subscription; AI quality varies by task; Not standalone AI tool. None were deal-breakers for our use case, but they may matter depending on your workflow.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

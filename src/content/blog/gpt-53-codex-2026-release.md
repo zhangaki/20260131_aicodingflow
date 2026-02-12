@@ -162,6 +162,18 @@ Combined with agent orchestration frameworks like LangGraph or CrewAI, it's a ga
 - [Model Release Notes | OpenAI Help Center](https://help.openai.com/en/articles/9624314-model-release-notes)
 - [Everything you should know about GPT-5 [2026]](https://botpress.com/blog/everything-you-should-know-about-gpt-5)
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

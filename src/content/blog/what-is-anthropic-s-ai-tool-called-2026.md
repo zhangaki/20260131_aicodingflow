@@ -90,6 +90,18 @@ A: Claude can be used for a wide range of applications, including content creati
 
 A: Claude 3 Opus is competitive with GPT-4 in terms of overall performance. While some benchmarks show Opus outperforming GPT-4 on certain tasks, GPT-4 may still have advantages in specific areas. The best choice depends on the specific use case, budget, and priorities. If safety and reliability are paramount, Claude's Constitutional AI approach may make it a preferable choice.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

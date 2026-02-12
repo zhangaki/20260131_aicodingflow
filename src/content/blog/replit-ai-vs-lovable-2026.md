@@ -114,6 +114,18 @@ Lovable is significantly easier to learn. Its conversational interface and visua
 
 With Replit, watch out for exceeding your compute unit limits, especially if you're running resource-intensive applications. With Lovable, be aware that you might need to upgrade to a paid plan to unlock certain features or remove usage restrictions. Also, consider the potential costs of using Supabase, especially if your app becomes popular and requires significant database resources.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

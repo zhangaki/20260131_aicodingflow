@@ -86,6 +86,18 @@ print("   (Annualized: ${:.2f})".format(bot.cash * 365))
 
 **Ready to unplug?** Run the [Arbitrage Bot](/tools) to optimize your grid usage, or see how energy sovereignty powers the [Interplanetary Internet](/blog/interplanetary-internet-2030).
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

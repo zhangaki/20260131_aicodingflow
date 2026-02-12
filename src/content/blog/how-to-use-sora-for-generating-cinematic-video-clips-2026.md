@@ -208,6 +208,18 @@ Sora requires a paid subscription starting at $20/month (with ChatGPT Plus). The
 The main alternatives include Kling AI, HeyGen, Runway. Each has different strengths, so we recommend evaluating based on your specific generating cinematic video clips requirements.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

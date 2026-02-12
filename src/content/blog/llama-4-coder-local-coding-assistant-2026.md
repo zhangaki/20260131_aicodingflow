@@ -329,6 +329,18 @@ Check the Ollama logs for any error messages. Ensure that your system meets the 
 
 Llama 4 Coder provides a powerful and private alternative to cloud-based coding assistants. With careful planning and configuration, it can become an indispensable tool in your development workflow.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

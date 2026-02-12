@@ -272,6 +272,18 @@ Pricing ranges widely -- from completely free tiers to enterprise plans costing 
 Not yet. AI tools for video creation are powerful accelerators, but they work best when paired with human judgment and expertise. Think of them as force multipliers rather than replacements -- they handle the repetitive and time-consuming aspects so you can focus on strategy and quality.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

@@ -143,6 +143,18 @@ Not usually. The $5k+ training cost only pays off above ~100k monthly inferences
 ### How do I handle compliance with multi-cloud?
 Some industries (finance, healthcare) require data residency. Use a cost router that *filters* regions by compliance tags before sorting by price.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

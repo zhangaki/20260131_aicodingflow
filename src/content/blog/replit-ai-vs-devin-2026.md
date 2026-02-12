@@ -127,6 +127,18 @@ A: For simple projects and rapid prototyping, Replit AI can be a viable alternat
 **Q: What kind of tasks is Devin *not* good at?**
 A: Devin struggles with ambiguous or poorly defined tasks, creative problem-solving, and tasks that require deep domain expertise. It's not a good choice for tasks that require nuanced understanding or critical thinking.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

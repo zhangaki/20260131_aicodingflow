@@ -192,6 +192,18 @@ A: Potentially, but not in 2026. Wait for the "Big Update."
 *Antigravity version: Public Preview (Nov 2025 release)*  
 *Cursor version: 2.0*
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

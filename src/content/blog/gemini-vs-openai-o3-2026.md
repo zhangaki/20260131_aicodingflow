@@ -114,6 +114,18 @@ OpenAI o3 is a different beast altogether. It's not designed for general-purpose
 
     Gemini's free tier (Gemini Pro) has usage limits on the number of requests you can make per minute and the size of the prompts you can send. OpenAI o3's free access is very limited and intended primarily for initial evaluation. You'll quickly hit the usage limits and need to upgrade to a paid plan for any serious use. The specific limitations vary depending on the model and the platform, so it's important to check the documentation for the latest information.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

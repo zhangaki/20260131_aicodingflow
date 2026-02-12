@@ -95,6 +95,18 @@ A: The free tiers are more like demos. They allow you to experiment with the pla
 
 A: Both HeyGen and Synthesia take security seriously. They use industry-standard security measures to protect your data, such as encryption and access controls. Synthesia, being more enterprise-focused, tends to emphasize its compliance certifications and data privacy policies more heavily. Always review their respective privacy policies and security documentation before entrusting them with sensitive data.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

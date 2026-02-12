@@ -191,6 +191,18 @@ A: Implement a cache invalidation strategy to ensure that your KV caches are up-
 
 A: No. Some applications, such as those involving complex reasoning or very large documents, may not be able to achieve the <50ms target. However, by applying the techniques described in this guide, you can significantly reduce latency and improve the user experience.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

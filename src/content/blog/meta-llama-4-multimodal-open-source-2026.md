@@ -259,6 +259,18 @@ The open-source AI revolution is here.
 - [Everything we announced at LlamaCon | Meta AI](https://ai.meta.com/blog/llamacon-llama-news/)
 - [Inside Llama 4: How Meta's AI Crushes GPT-4o | Medium](https://machine-learning-made-simple.medium.com/inside-llama-4-how-metas-new-open-source-ai-crushes-gpt-4o-and-gemini-e3265f914599)
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

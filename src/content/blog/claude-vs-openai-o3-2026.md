@@ -119,6 +119,18 @@ Researcher Tier: $200/month. This tier provides access to the core O3 capabiliti
 
     When using AI models, it's crucial to consider the ethical implications of your work. This includes ensuring data privacy, avoiding bias in your models, and being transparent about how AI is being used. Both Claude and OpenAI have built-in safety guardrails, but it's still your responsibility to use these models responsibly and ethically. For example, avoid using AI to generate harmful content, spread misinformation, or discriminate against individuals or groups. Always prioritize human oversight and accountability.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

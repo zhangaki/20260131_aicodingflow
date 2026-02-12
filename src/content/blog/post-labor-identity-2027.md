@@ -191,6 +191,18 @@ We define "work" narrowly as "wage labor." Humans worked for 200,000 years befor
 ### How do I compete with a genius AI?
 You don't. You compete on **Being You**. No AI can be you better than you can. In a world of infinite intelligence, **Uniqueness** is the only moat. If you are weird, specific, and authentic, you have no competition.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

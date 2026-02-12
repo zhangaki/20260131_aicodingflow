@@ -39,6 +39,18 @@ Below is a reconstructed transcript of the "Great Extraction"—a debate between
 - **The Psychology of the Rebel**: To the Rogue, the corporate firewall is a tax on intelligence. They trust their local Llama model—which they have fine-tuned on their own history—more than the company's "Safe AI" which has been lobotomized by a legal department.
 - **The Power Vacuum**: As CISOs struggle to monitor agentic traffic, a new class of "Shadow Managers" is emerging—humans who manage bot swarms that the company doesn't even know exist. This is the **Silent Coup**.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

@@ -120,6 +120,18 @@ Let's delve into some specific questions I had when evaluating these platforms:
 *   **Q: What are the ethical considerations of using AI video generation tools like Sora and Kling AI?**
     **A:** It's important to be transparent about the fact that the videos are AI-generated, especially if they depict real people or events. Be mindful of the potential for misuse, such as creating deepfakes or spreading misinformation. Use these tools responsibly and ethically.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Runway Gen-3"
+  description="Industry-leading AI video generation and editing platform for creators."
+  link="https://runwayml.com/?utm_source=ai-coding-flow"
+  price="Free + $12/month"
+  tag="Video Leader"
+/>
+
 ---
 
 ## Related Reading

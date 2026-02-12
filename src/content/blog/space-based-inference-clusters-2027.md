@@ -74,6 +74,18 @@ Inference time dropped from 14 days (mailing hard drives) to 20 minutes.
 
 **Ready for liftoff?** Run the [Link Budget Script](/tools) to plan your satellite, or review the entire **Phase 3 Collection** to see how Biology (DNA), Physics (Space), and Math (Quantum) converge in 2027.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

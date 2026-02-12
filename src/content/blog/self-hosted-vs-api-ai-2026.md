@@ -145,6 +145,18 @@ This gives you cost efficiency, access to cutting-edge models, and resilience.
 
 **Ready to run your own AI?** Explore our [Self-Hosting Blueprint](/tools) or dive into [AI Compute Cost Arbitrage](/blog/ai-compute-cost-arbitrage-2026) for more optimization strategies.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

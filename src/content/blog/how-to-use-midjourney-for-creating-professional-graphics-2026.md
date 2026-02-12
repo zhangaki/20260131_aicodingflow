@@ -208,6 +208,18 @@ Midjourney requires a paid subscription starting at $10/month. There is no perma
 The main alternatives include DALL-E 3, Stable Diffusion, Leonardo AI. Each has different strengths, so we recommend evaluating based on your specific creating professional graphics requirements.
 
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

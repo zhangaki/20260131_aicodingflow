@@ -100,6 +100,18 @@ Windsurf advertises a strong focus on data privacy and offers options for local 
 **3. Can I use Windsurf with my existing VS Code setup?**
 No, Windsurf is a standalone IDE and does not directly integrate with VS Code. You would need to migrate your project to the Windsurf IDE to take advantage of its AI features. While this might seem like a drawback, the benefits of Windsurf's AI-first design and powerful Cascade agent can outweigh the inconvenience of switching IDEs, especially for complex projects. However, if you are heavily invested in VS Code extensions and customizations, sticking with Copilot might be more practical.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

@@ -101,6 +101,18 @@ You.com emphasizes user privacy and claims not to track your searches or sell yo
 
 It depends on the task. For researching new technologies, debugging code, or understanding complex APIs, Perplexity's accurate citations and file analysis capabilities are invaluable. For general web searches, brainstorming ideas, or generating code snippets, You.com's versatility can be useful. I personally use Perplexity more often for development-related tasks due to its focus on accuracy and verifiable information. However, neither has great IDE support, which is a pain.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

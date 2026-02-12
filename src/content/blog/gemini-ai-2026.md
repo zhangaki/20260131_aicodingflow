@@ -29,6 +29,18 @@ Understanding Gemini AI requires grasping these fundamentals:
 - **Why It Matters**: Direct impact on search and indexing
 - **Current State**: Integrated into Google Search
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

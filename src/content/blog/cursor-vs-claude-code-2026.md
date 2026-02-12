@@ -125,6 +125,18 @@ Let's address some common questions.
 
     Cursor is generally easier to learn for developers who are already familiar with VS Code. The AI features are integrated into the IDE, making them easy to discover and use. Claude Code has a steeper learning curve due to the terminal-based interface and the need to learn new commands. However, developers who are comfortable with the terminal may find Claude Code relatively easy to pick up.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading

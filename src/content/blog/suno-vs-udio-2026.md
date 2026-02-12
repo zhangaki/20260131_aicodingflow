@@ -118,6 +118,18 @@ A: While some musical knowledge is helpful, it's not essential. Both Suno and Ud
 
 A: No, it's unlikely that these tools will replace human musicians entirely. AI music generation is still in its early stages, and the output often lacks the nuance and emotional depth of human-created music. However, these tools can be valuable for songwriting, ideation, and creating background music. They serve as powerful *assistants* to musicians, not replacements.
 
+
+
+## 💎 Recommended Tool
+
+<AffiliateCard
+  title="Descript"
+  description="Edit audio and video by editing text. AI-powered transcription and overdub."
+  link="https://www.descript.com/?utm_source=ai-coding-flow"
+  price="Free + $24/month"
+  tag="Audio/Video"
+/>
+
 ---
 
 ## Related Reading
