@@ -1,7 +1,7 @@
 ---
 description: How a simple Python script evolved into a 2026 agentic lifeform. A technical
   retrospective on the architecture of autonomy.
-heroImage: /assets/clawdbot-evolution-2026.jpg
+heroImage: /assets/clawdbot-evolution-2026.webp
 pubDate: Dec 03 2025
 tags:
 - Future Tech

@@ -1,7 +1,8 @@
 ---
 description: Death is a feature, but your Agent is deprecated. A technical guide to
   passing digital agency, private keys, and personality to your heirs.
-heroImage: /assets/digital-twin-estate-cover.png
+heroImage: /assets/digital-twin-estate-cover.webp
+noindex: true
 pubDate: Jan 18 2026
 tags:
 - Future Tech
@@ -11,9 +12,7 @@ tags:
 - Society & Ethics
 - Security
 title: 'The Thanatos Protocol: Digital Twin Estate Planning and Ghost Agents in 2028'
-noindex: true
 ---
-
 
 For 5,000 years, "Inheritance" meant passing down physical objects: Land, Gold, Cattle, Cash.
 In 2028, your most valuable assets are digital, intangible, and often encrypted with keys that exist only in your mind:

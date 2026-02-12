@@ -1,6 +1,6 @@
 ---
 description: How to find your AI
-heroImage: /assets/red-teaming-llm.png
+heroImage: /assets/red-teaming-llm.webp
 pubDate: Dec 27 2025
 tags:
 - Dev Tools

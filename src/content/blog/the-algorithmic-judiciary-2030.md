@@ -1,7 +1,8 @@
 ---
 description: Human judges are slow, biased, and expensive. In 2030, justice is an
   API call. A comprehensive guide to AI Judges and Decentralized Arbitration.
-heroImage: /assets/algorithmic-judiciary-cover.png
+heroImage: /assets/algorithmic-judiciary-cover.webp
+noindex: true
 pubDate: Dec 10 2025
 tags:
 - Future Tech
@@ -10,9 +11,7 @@ tags:
 - Society & Ethics
 - Security
 title: 'The Algorithmic Judiciary: Justice at the Speed of Code (2030)'
-noindex: true
 ---
-
 
 "Justice delayed is justice denied." — William E. Gladstone.
 In 2026, the average contract dispute in New York takes 2 years to resolve. In India, the backlog extends to 300 years.

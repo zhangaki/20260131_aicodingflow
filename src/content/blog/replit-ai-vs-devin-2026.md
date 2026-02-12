@@ -1,8 +1,9 @@
 ---
-title: "Stop Guessing: Replit AI vs Devin 2026 Competitive Audit"
-description: "Choosing between Replit AI and Devin? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Dec 15 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: Choosing between Replit AI and Devin? We broke down the tech stack and
+  pricing models so you don't have to.
+heroImage: /assets/replit-ai-vs-devin-2026.webp
+pubDate: Dec 15 2025
+title: 'Stop Guessing: Replit AI vs Devin 2026 Competitive Audit'
 updatedDate: Feb 10 2026
 ---
 

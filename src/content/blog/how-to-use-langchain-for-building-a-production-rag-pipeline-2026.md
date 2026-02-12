@@ -1,9 +1,15 @@
 ---
-title: "Using LangChain for Building a Production RAG Pipeline: A Practical 2026 Walkthrough"
-description: "Learn how to use LangChain effectively for building a production rag pipeline. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Jan 20 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["langchain", "tutorial", "how-to", "ai-agents"]
+description: Learn how to use LangChain effectively for building a production rag
+  pipeline. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips,
+  and advanced strategies.
+heroImage: /assets/how-to-use-langchain-for-building-a-production-rag-pipeline-2026.webp
+pubDate: Jan 20 2026
+tags:
+- langchain
+- tutorial
+- how-to
+- ai-agents
+title: 'Using LangChain for Building a Production RAG Pipeline: A Practical 2026 Walkthrough'
 ---
 
 ## A Practitioner's Guide to LangChain for Building a Production RAG Pipeline

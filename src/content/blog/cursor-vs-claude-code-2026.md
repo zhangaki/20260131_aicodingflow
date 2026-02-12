@@ -1,9 +1,10 @@
 ---
-title: "Cursor vs Claude Code: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of Cursor and Claude Code. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Jan 03 2026"
-heroImage: "/assets/blog-fallback.jpg"
-updatedDate: Feb 10 2026
+description: A side-by-side technical audit of Cursor and Claude Code. Pricing, limitations,
+  and the verdict from our hands-on testing.
+heroImage: /assets/cursor-vs-claude-code-2026.webp
+pubDate: Jan 03 2026
+title: 'Cursor vs Claude Code 2026: Which AI Coding Assistant Wins?'
+updatedDate: Feb 12 2026
 ---
 
 # Cursor vs Claude Code: The 2026 Feature Matrix

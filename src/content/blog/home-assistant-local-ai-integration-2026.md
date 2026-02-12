@@ -1,10 +1,17 @@
 ---
-title: "Home Assistant + Local AI: Complete Offline Smart Home Setup (2026)"
-description: "Step-by-step guide to integrating local AI with Home Assistant for a fully offline smart home. No cloud, no subscriptions, complete privacy with Ollama and local LLMs."
-pubDate: "Feb 04 2026"
-heroImage: "/assets/blog-fallback.jpg"
-category: "AI Tools"
-tags: ["home-assistant", "local-ai", "smart-home", "offline", "privacy"]
+category: AI Tools
+description: Step-by-step guide to integrating local AI with Home Assistant for a
+  fully offline smart home. No cloud, no subscriptions, complete privacy with Ollama
+  and local LLMs.
+heroImage: /assets/home-assistant-local-ai-integration-2026.webp
+pubDate: Feb 04 2026
+tags:
+- home-assistant
+- local-ai
+- smart-home
+- offline
+- privacy
+title: 'Home Assistant + Local AI: Complete Offline Smart Home Setup (2026)'
 ---
 
 # Home Assistant + Local AI: Complete Offline Smart Home Setup (2026)

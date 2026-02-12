@@ -1,9 +1,15 @@
 ---
-title: "Using Claude Code for Building a Full-Stack App: A Practical 2026 Walkthrough"
-description: "Learn how to use Claude Code effectively for building a full-stack app. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Jan 29 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["claude-code", "tutorial", "how-to", "ai-coding"]
+description: Learn how to use Claude Code effectively for building a full-stack app.
+  This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced
+  strategies.
+heroImage: /assets/how-to-use-claude-code-for-building-a-full-stack-app-2026.webp
+pubDate: Jan 29 2026
+tags:
+- claude-code
+- tutorial
+- how-to
+- ai-coding
+title: 'Using Claude Code for Building a Full-Stack App: A Practical 2026 Walkthrough'
 ---
 
 ## A Practitioner's Guide to Claude Code for Building a Full-Stack App

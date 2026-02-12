@@ -1,9 +1,14 @@
 ---
-title: "Trae Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Trae in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Dec 26 2025"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["trae", "review", "ai-coding", "developer-tools"]
+description: An in-depth review of Trae in 2026. We cover features, pricing tiers,
+  pros and cons, alternatives, and who should actually use it.
+heroImage: /assets/trae-review-2026.webp
+pubDate: Dec 26 2025
+tags:
+- trae
+- review
+- ai-coding
+- developer-tools
+title: 'Trae Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
 
 ## Trae Review 2026: Is It Worth Your Money?

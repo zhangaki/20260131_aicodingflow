@@ -1,9 +1,15 @@
 ---
-title: "Writesonic in 2026: A Practitioner's Complete Review"
-description: "We used Writesonic for 30 days straight. Here's our detailed breakdown of features, real costs, limitations, and whether it deserves your subscription in 2026."
-pubDate: "Dec 03 2025"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["writesonic", "review", "ai-writing", "content-tools"]
+description: We used Writesonic for 30 days straight. Here's our detailed breakdown
+  of features, real costs, limitations, and whether it deserves your subscription
+  in 2026.
+heroImage: /assets/writesonic-review-2026.webp
+pubDate: Dec 03 2025
+tags:
+- writesonic
+- review
+- ai-writing
+- content-tools
+title: 'Writesonic in 2026: A Practitioner''s Complete Review'
 ---
 
 ## Writesonic: The 2026 Reality Check

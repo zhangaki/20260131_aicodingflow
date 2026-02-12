@@ -1,8 +1,9 @@
 ---
-title: "Jasper AI vs Grammarly AI 2026: The Data-Backed Truth"
-description: "We compared Jasper AI and Grammarly AI over 30 days of testing. See the raw results, pricing analysis, and our hands-on recommendation for 2026."
-pubDate: "Dec 15 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: We compared Jasper AI and Grammarly AI over 30 days of testing. See the
+  raw results, pricing analysis, and our hands-on recommendation for 2026.
+heroImage: /assets/jasper-ai-vs-grammarly-ai-2026.webp
+pubDate: Dec 15 2025
+title: 'Jasper AI vs Grammarly AI 2026: The Data-Backed Truth'
 updatedDate: Feb 10 2026
 ---
 

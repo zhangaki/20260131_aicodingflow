@@ -1,7 +1,8 @@
 ---
 description: In a sea of AI content, reality is the premium tier. A technical guide
   to creating digital spaces where only verified humans can enter, speak, and create.
-heroImage: /assets/right-to-reality.png
+heroImage: /assets/right-to-reality.webp
+noindex: true
 pubDate: Dec 13 2025
 tags:
 - Future Tech
@@ -11,9 +12,7 @@ tags:
 - Society & Ethics
 - Security
 title: 'The Organic Web: Establishing Authenticated Non-Synthetic Zones (NSZ) in 2027'
-noindex: true
 ---
-
 
 By the end of 2026, experts predict that 90% of all content on the internet will be synthetically generated.
 Your emails, your news feeds, your comment sections, and even your "video calls" will be rendered by neural networks in real-time.

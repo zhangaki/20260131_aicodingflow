@@ -1,8 +1,9 @@
 ---
-title: "Stop Guessing: Sora vs Synthesia 2026 Competitive Audit"
-description: "Choosing between Sora and Synthesia? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Dec 17 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: Choosing between Sora and Synthesia? We broke down the tech stack and
+  pricing models so you don't have to.
+heroImage: /assets/sora-vs-synthesia-2026.webp
+pubDate: Dec 17 2025
+title: 'Stop Guessing: Sora vs Synthesia 2026 Competitive Audit'
 updatedDate: Feb 10 2026
 ---
 

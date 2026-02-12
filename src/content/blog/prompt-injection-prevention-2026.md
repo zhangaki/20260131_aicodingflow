@@ -2,7 +2,7 @@
 description: How attackers hijack your AI and how to stop them. A technical guide
   to direct and indirect prompt injection, defense architectures, input sanitization,
   and securing production LLM systems in 2026.
-heroImage: /assets/prompt-injection-prevention.jpg
+heroImage: /assets/prompt-injection-prevention.webp
 pubDate: Jan 15 2026
 tags:
 - Dev Tools

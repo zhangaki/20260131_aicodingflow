@@ -1,7 +1,8 @@
 ---
 description: Q-Day is coming. RSA will fall. A technical guide to the physics of Post-Quantum
   Cryptography and the rise of Quantum Neural Networks.
-heroImage: /assets/qml-encryption.jpg
+heroImage: /assets/qml-encryption.webp
+noindex: true
 pubDate: Dec 24 2025
 tags:
 - Future Tech
@@ -11,9 +12,7 @@ tags:
 - Security
 title: 'The Quantum Shield: Quantum Machine Learning (QML) and Post-Quantum Encryption
   in 2027'
-noindex: true
 ---
-
 
 The foundation of the modern internet is built on a single, fragile mathematical assumption: **Factoring large prime numbers is computationally impossible.**
 Every HTTPS connection, every Bitcoin wallet, every nuclear launch code relies on the fact that while it is easy to multiply two large primes ($P \times Q = N$), it is effectively impossible to reverse the process given only $N$.

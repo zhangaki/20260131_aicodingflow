@@ -1,7 +1,8 @@
 ---
 description: When the machine does the thinking, the brain stops growing. A neurological
   guide to Cognitive Resistance Training and maintaining neuroplasticity in 2027.
-heroImage: /assets/cognitive-atrophy-prevention.jpg
+heroImage: /assets/cognitive-atrophy-prevention.webp
+noindex: true
 pubDate: Jan 27 2026
 tags:
 - Future Tech
@@ -11,9 +12,7 @@ tags:
 - Society & Ethics
 - Security
 title: 'The Mental Gym: Prevention Protocols for Cognitive Atrophy in the AI Era'
-noindex: true
 ---
-
 
 In 2015, we collectively realized that sitting at a desk for 8 hours a day was destroying our bodies. We responded with standing desks, ergonomic chairs, and gym memberships.
 In 2027, we are waking up to a more insidious reality: **AI-Assisted Thinking** is destroying our minds.

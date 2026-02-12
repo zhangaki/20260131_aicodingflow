@@ -1,7 +1,7 @@
 ---
 description: Critical GEO analysis of digen ai. Impact assessment on ChatGPT, Perplexity,
   and the evolving Generative Engine Optimization ecosystem.
-heroImage: /assets/digen-ai-cover.png
+heroImage: /assets/digen-ai-cover.webp
 pubDate: Jan 13 2026
 tags:
 - Dev Tools
@@ -9,6 +9,7 @@ tags:
 - Security
 title: 'GEO Briefing: How Digen Ai is Changing the AI Search Landscape'
 ---
+
 noindex: true
 ---
 

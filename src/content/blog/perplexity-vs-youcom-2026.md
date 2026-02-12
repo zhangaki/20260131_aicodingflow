@@ -1,8 +1,9 @@
 ---
-title: "Stop Guessing: Perplexity vs You.com 2026 Competitive Audit"
-description: "Choosing between Perplexity and You.com? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Dec 01 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: Choosing between Perplexity and You.com? We broke down the tech stack
+  and pricing models so you don't have to.
+heroImage: /assets/perplexity-vs-youcom-2026.webp
+pubDate: Dec 01 2025
+title: 'Stop Guessing: Perplexity vs You.com 2026 Competitive Audit'
 updatedDate: Feb 10 2026
 ---
 

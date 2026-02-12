@@ -1,9 +1,14 @@
 ---
-title: "Grammarly AI Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Grammarly AI in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Jan 05 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["grammarly-ai", "review", "ai-writing", "content-tools"]
+description: An in-depth review of Grammarly AI in 2026. We cover features, pricing
+  tiers, pros and cons, alternatives, and who should actually use it.
+heroImage: /assets/grammarly-ai-review-2026.webp
+pubDate: Jan 05 2026
+tags:
+- grammarly-ai
+- review
+- ai-writing
+- content-tools
+title: 'Grammarly AI Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
 
 ## Grammarly AI Review 2026: Is It Worth Your Money?

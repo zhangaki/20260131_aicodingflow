@@ -1,9 +1,16 @@
 ---
-title: "Using Kling AI for Creating Affordable AI Video Content: A Practical 2026 Walkthrough"
-description: "Learn how to use Kling AI effectively for creating affordable ai video content. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Feb 02 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["kling-ai", "tutorial", "how-to", "ai-video"]
+description: Learn how to use Kling AI effectively for creating affordable ai video
+  content. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips,
+  and advanced strategies.
+heroImage: /assets/how-to-use-kling-ai-for-creating-affordable-ai-video-content-2026.webp
+pubDate: Feb 02 2026
+tags:
+- kling-ai
+- tutorial
+- how-to
+- ai-video
+title: 'Using Kling AI for Creating Affordable AI Video Content: A Practical 2026
+  Walkthrough'
 ---
 
 ## A Practitioner's Guide to Kling AI for Creating Affordable AI Video Content

@@ -1,7 +1,7 @@
 ---
 description: How 1.58-bit quantization and bit-linear architectures are bringing the
   worlds most powerful LLMs to local hardware in 2026.
-heroImage: /assets/on-device-quantization-2026.jpg
+heroImage: /assets/on-device-quantization-2026.webp
 pubDate: Jan 13 2026
 tags:
 - Future Tech

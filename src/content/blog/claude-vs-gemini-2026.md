@@ -1,8 +1,9 @@
 ---
-title: "Stop Guessing: Claude vs Gemini 2026 Competitive Audit"
-description: "Choosing between Claude and Gemini? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Jan 13 2026"
-heroImage: "/assets/blog-fallback.jpg"
+description: Choosing between Claude and Gemini? We broke down the tech stack and
+  pricing models so you don't have to.
+heroImage: /assets/claude-vs-gemini-2026.webp
+pubDate: Jan 13 2026
+title: 'Stop Guessing: Claude vs Gemini 2026 Competitive Audit'
 updatedDate: Feb 10 2026
 ---
 

@@ -1,9 +1,15 @@
 ---
-title: "Replit AI Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Replit AI in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Feb 01 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["replit-ai", "review", "ai-tools", "technology"]
+description: An in-depth review of Replit AI in 2026. We cover features, pricing tiers,
+  pros and cons, alternatives, and who should actually use it.
+heroImage: /assets/replit-ai-review-2026.webp
+pubDate: Feb 01 2026
+tags:
+- replit-ai
+- review
+- ai-tools
+- technology
+title: 'Replit AI Review 2026: Ghostwriter Pricing, Features & Limits'
+updatedDate: Feb 12 2026
 ---
 
 ## Replit AI Review 2026: Is It Worth Your Money?

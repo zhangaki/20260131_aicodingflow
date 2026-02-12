@@ -1,8 +1,9 @@
 ---
-title: "Which Wins in 2026? Grok vs Claude 4.6 Opus Breakdown"
-description: "Choosing between Grok and Claude 4.6 Opus should be simple. We answered the 5 most critical questions for 2026."
-pubDate: "Jan 17 2026"
-heroImage: "/assets/blog-fallback.jpg"
+description: Choosing between Grok and Claude 4.6 Opus should be simple. We answered
+  the 5 most critical questions for 2026.
+heroImage: /assets/grok-vs-claude-46-opus-2026.webp
+pubDate: Jan 17 2026
+title: Which Wins in 2026? Grok vs Claude 4.6 Opus Breakdown
 updatedDate: Feb 10 2026
 ---
 

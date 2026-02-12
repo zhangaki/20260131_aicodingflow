@@ -1,6 +1,6 @@
 ---
 description: How to prove ownership of your AI and detect when it
-heroImage: /assets/ai-model-fingerprinting.png
+heroImage: /assets/ai-model-fingerprinting.webp
 pubDate: Dec 30 2025
 tags:
 - Future Tech

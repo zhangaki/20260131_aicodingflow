@@ -1,8 +1,9 @@
 ---
-title: "Kling AI vs HeyGen 2026: The Data-Backed Truth"
-description: "We compared Kling AI and HeyGen over 30 days of testing. See the raw results, pricing analysis, and our hands-on recommendation for 2026."
-pubDate: "Jan 13 2026"
-heroImage: "/assets/blog-fallback.jpg"
+description: We compared Kling AI and HeyGen over 30 days of testing. See the raw
+  results, pricing analysis, and our hands-on recommendation for 2026.
+heroImage: /assets/kling-ai-vs-heygen-2026.webp
+pubDate: Jan 13 2026
+title: 'Kling AI vs HeyGen 2026: The Data-Backed Truth'
 updatedDate: Feb 10 2026
 ---
 

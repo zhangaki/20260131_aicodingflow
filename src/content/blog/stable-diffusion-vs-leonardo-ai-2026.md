@@ -1,8 +1,9 @@
 ---
-title: "Stable Diffusion vs Leonardo AI: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of Stable Diffusion and Leonardo AI. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Dec 22 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: A side-by-side technical audit of Stable Diffusion and Leonardo AI. Pricing,
+  limitations, and the verdict from our hands-on testing.
+heroImage: /assets/stable-diffusion-vs-leonardo-ai-2026.webp
+pubDate: Dec 22 2025
+title: 'Stable Diffusion vs Leonardo AI: The 2026 Feature Matrix'
 updatedDate: Feb 10 2026
 ---
 

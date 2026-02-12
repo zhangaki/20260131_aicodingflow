@@ -1,9 +1,14 @@
 ---
-title: "How to Use v0 by Vercel for Boosting Your Productivity: Complete 2026 Guide"
-description: "A step-by-step tutorial on using v0 by Vercel for boosting your productivity in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Dec 21 2025"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["v0-by-vercel", "tutorial", "how-to", "ai-tools"]
+description: A step-by-step tutorial on using v0 by Vercel for boosting your productivity
+  in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques.
+heroImage: /assets/how-to-use-v0-by-vercel-for-boosting-your-productivity-2026.webp
+pubDate: Dec 21 2025
+tags:
+- v0-by-vercel
+- tutorial
+- how-to
+- ai-tools
+title: 'How to Use v0 by Vercel for Boosting Your Productivity: Complete 2026 Guide'
 ---
 
 ## How to Use v0 by Vercel for Boosting Your Productivity: Everything You Need to Know

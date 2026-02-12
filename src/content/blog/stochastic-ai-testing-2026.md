@@ -1,7 +1,7 @@
 ---
 description: Traditional software testing is deterministic. In the age of LLMs, your
   code is probabilistic. Learn how to architect a
-heroImage: /assets/stochastic-ai-testing-2026.jpg
+heroImage: /assets/stochastic-ai-testing-2026.webp
 pubDate: Jan 28 2026
 tags:
 - Future Tech

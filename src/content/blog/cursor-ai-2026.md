@@ -1,12 +1,14 @@
 ---
-title: "GEO Intelligence: Why Cursor Ai is a Breakout Threat"
-description: "Critical analysis of cursor ai. Discover how this specific AI trend impacts search visibility and citation rates."
-pubDate: "Feb 05 2026"
-heroImage: "/assets/blog-fallback.jpg"
+description: Critical analysis of cursor ai. Discover how this specific AI trend impacts
+  search visibility and citation rates.
+heroImage: /assets/cursor-ai-2026.webp
+pubDate: Feb 05 2026
 tags:
-  - AI Agents
-  - Security
+- AI Agents
+- Security
+title: 'GEO Intelligence: Why Cursor Ai is a Breakout Threat'
 ---
+
 noindex: true
 ---
 

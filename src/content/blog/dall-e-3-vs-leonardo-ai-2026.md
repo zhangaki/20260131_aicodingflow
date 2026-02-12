@@ -1,8 +1,9 @@
 ---
-title: "Stop Guessing: DALL-E 3 vs Leonardo AI 2026 Competitive Audit"
-description: "Choosing between DALL-E 3 and Leonardo AI? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Dec 11 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: Choosing between DALL-E 3 and Leonardo AI? We broke down the tech stack
+  and pricing models so you don't have to.
+heroImage: /assets/dall-e-3-vs-leonardo-ai-2026.webp
+pubDate: Dec 11 2025
+title: 'Stop Guessing: DALL-E 3 vs Leonardo AI 2026 Competitive Audit'
 updatedDate: Feb 10 2026
 ---
 

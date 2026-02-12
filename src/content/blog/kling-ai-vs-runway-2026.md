@@ -1,8 +1,9 @@
 ---
-title: "Which Wins in 2026? Kling AI vs Runway Breakdown"
-description: "Choosing between Kling AI and Runway should be simple. We answered the 5 most critical questions for 2026."
-pubDate: "Dec 15 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: Choosing between Kling AI and Runway should be simple. We answered the
+  5 most critical questions for 2026.
+heroImage: /assets/kling-ai-vs-runway-2026.webp
+pubDate: Dec 15 2025
+title: Which Wins in 2026? Kling AI vs Runway Breakdown
 updatedDate: Feb 10 2026
 ---
 

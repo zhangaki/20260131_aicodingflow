@@ -1,7 +1,7 @@
 ---
 description: Silicon is temporary. DNA is forever. A technical guide to archiving
   yottabytes of AI training data in biological molecules.
-heroImage: /assets/dna-storage.jpg
+heroImage: /assets/dna-storage.webp
 pubDate: Dec 26 2025
 tags:
 - Future Tech

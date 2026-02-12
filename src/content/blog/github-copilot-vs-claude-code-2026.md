@@ -1,8 +1,9 @@
 ---
-title: "GitHub Copilot vs Claude Code 2026: The Data-Backed Truth"
-description: "We compared GitHub Copilot and Claude Code over 30 days of testing. See the raw results, pricing analysis, and our hands-on recommendation for 2026."
-pubDate: "Dec 11 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: We compared GitHub Copilot and Claude Code over 30 days of testing. See
+  the raw results, pricing analysis, and our hands-on recommendation for 2026.
+heroImage: /assets/github-copilot-vs-claude-code-2026.webp
+pubDate: Dec 11 2025
+title: 'GitHub Copilot vs Claude Code 2026: The Data-Backed Truth'
 updatedDate: Feb 10 2026
 ---
 

@@ -2,7 +2,8 @@
 description: Beyond the hype of brain-computer interfaces lies a graveyard of broken
   promises. A field report on the realities of BCI deployment, from signal drift to
   cognitive overload.
-heroImage: /assets/bci-prompt-engineering.png
+heroImage: /assets/bci-prompt-engineering.webp
+noindex: true
 pubDate: Jan 15 2026
 tags:
 - Future Tech
@@ -12,9 +13,7 @@ tags:
 - Society & Ethics
 - Security
 title: 'BCI Autopsy: The Hidden Failure Modes of Neural Interfaces in Production'
-noindex: true
 ---
-
 
 Just got back from the 2026 NeuroTech Summit in Berlin. The air was thick with promises of seamless thought control and enhanced cognition. The reality, however, is far messier. Walked the demo floor, saw the polished presentations, but then I spent the evening with the engineers who are actually *building* this stuff. Their stories were… sobering.
 

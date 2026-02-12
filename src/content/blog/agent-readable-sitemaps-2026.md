@@ -1,7 +1,7 @@
 ---
 description: A post-mortem on Agentic Site Failures (ASF). Why standardized sitemaps
   and JSON-LD might be creating semantic firehoses that damage your brand.
-heroImage: /assets/agent-readable-sitemaps-2026.jpg
+heroImage: /assets/agent-readable-sitemaps-2026.webp
 pubDate: Dec 23 2025
 tags:
 - Future Tech
@@ -12,7 +12,6 @@ tags:
 - Security
 title: 'The agents.txt Mirage: Why Your Agent-Readable Sitemap is Failing'
 ---
-
 
 Okay, buckle up. This isn't your typical "how-to" guide. This is a post-mortem, a field report from the trenches of the semantic wars. Most people are still debating the *potential* of AI agents. We're here to talk about what happens when that potential collides with reality – and reality bites back.
 

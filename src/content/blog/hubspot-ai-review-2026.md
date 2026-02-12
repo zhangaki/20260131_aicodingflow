@@ -1,9 +1,14 @@
 ---
-title: "HubSpot AI Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of HubSpot AI in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Jan 29 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["hubspot-ai", "review", "ai-business", "enterprise-ai"]
+description: An in-depth review of HubSpot AI in 2026. We cover features, pricing
+  tiers, pros and cons, alternatives, and who should actually use it.
+heroImage: /assets/hubspot-ai-review-2026.webp
+pubDate: Jan 29 2026
+tags:
+- hubspot-ai
+- review
+- ai-business
+- enterprise-ai
+title: 'HubSpot AI Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
 
 ## HubSpot AI Review 2026: Is It Worth Your Money?

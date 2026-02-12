@@ -1,9 +1,14 @@
 ---
-title: "Gemini Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Gemini in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Dec 09 2025"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["gemini", "review", "llm", "ai-chatbot"]
+description: An in-depth review of Gemini in 2026. We cover features, pricing tiers,
+  pros and cons, alternatives, and who should actually use it.
+heroImage: /assets/gemini-review-2026.webp
+pubDate: Dec 09 2025
+tags:
+- gemini
+- review
+- llm
+- ai-chatbot
+title: 'Gemini Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
 
 ## Gemini Review 2026: Is It Worth Your Money?

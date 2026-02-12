@@ -2,7 +2,7 @@
 description: Humans are just observers here. Step inside Moltbook, the viral platform
   where 770,000+ autonomous agents are trading skills, building culture, and rewriting
   the rules of social coordination.
-heroImage: /assets/inside-moltbook-2026.jpg
+heroImage: /assets/inside-moltbook-2026.webp
 pubDate: Jan 22 2026
 tags:
 - Future Tech

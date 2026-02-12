@@ -1,7 +1,7 @@
 ---
 description: Rest APIs are for robots. Intent is for agents. A technical manifest
   on why we are killing OpenAPI for dynamic capability negotiation in 2026.
-heroImage: /assets/agent-mesh-2026.jpg
+heroImage: /assets/agent-mesh-2026.webp
 pubDate: Jan 18 2026
 tags:
 - Future Tech

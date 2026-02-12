@@ -1,9 +1,16 @@
 ---
-title: "Using Cursor for Building a Full-Stack App from Scratch: A Practical 2026 Walkthrough"
-description: "Learn how to use Cursor effectively for building a full-stack app from scratch. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Jan 11 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["cursor", "tutorial", "how-to", "ai-coding"]
+description: Learn how to use Cursor effectively for building a full-stack app from
+  scratch. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips,
+  and advanced strategies.
+heroImage: /assets/how-to-use-cursor-for-building-a-full-stack-app-from-scratch-2026.webp
+pubDate: Jan 11 2026
+tags:
+- cursor
+- tutorial
+- how-to
+- ai-coding
+title: 'Using Cursor for Building a Full-Stack App from Scratch: A Practical 2026
+  Walkthrough'
 ---
 
 ## A Practitioner's Guide to Cursor for Building a Full-Stack App from Scratch

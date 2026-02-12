@@ -3,12 +3,10 @@ layout: ../layouts/BlogPost.astro
 title: "Terms of Service"
 description: "Terms of Service for AI Efficiency Hub"
 pubDate: "2026-01-01"
-heroImage: "/assets/blog-placeholder-about.jpg"
+heroImage: "/assets/blog-placeholder-about.webp"
 ---
 
-**Last Updated: January 1, 2026**
-
-**Last Updated: January 31, 2026**
+**Last Updated: February 12, 2026**
 
 ## 1. Nature of Content (AI-Generated)
 The content on **AI Efficiency Hub** is primarily researching, summarized, and structured by **Artificial Intelligence**. While manual review processes are in place (see our "Visual Audit" system), **AI Hallucinations** are real.

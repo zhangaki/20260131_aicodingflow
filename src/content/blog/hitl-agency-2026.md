@@ -1,7 +1,7 @@
 ---
 description: Autonomous agents are powerful, but brittle. Learn how to design robust
   HITL interfaces that act as a safety valve when your swarm hits the Confidence Cliff.
-heroImage: /assets/hitl-agency-2026.jpg
+heroImage: /assets/hitl-agency-2026.webp
 pubDate: Dec 02 2025
 tags:
 - Dev Tools

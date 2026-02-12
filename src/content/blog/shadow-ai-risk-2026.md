@@ -1,7 +1,7 @@
 ---
 description: A leaked transcript of the internal debate between Corporate Security
   and the rise of the autonomous
-heroImage: /assets/shadow-ai-risk-2026.jpg
+heroImage: /assets/shadow-ai-risk-2026.webp
 pubDate: Jan 03 2026
 tags:
 - Future Tech
@@ -11,6 +11,7 @@ tags:
 - Security
 title: 'The Great Extraction: Corporate Control vs. The Agentic Individual'
 ---
+
 noindex: true
 ---
 

@@ -2,7 +2,7 @@
 description: In 2026, we no longer trust our eyes. We trust the metadata. Discover
   the cryptographic standards and biomorphic watermarking techniques that are rebuilding
   trust in a post-reality world.
-heroImage: /assets/ai-verification-markers.jpg
+heroImage: /assets/ai-verification-markers.webp
 pubDate: Dec 28 2025
 tags:
 - Future Tech
@@ -137,7 +137,7 @@ Implementing C2PA can seem daunting, but it's becoming increasingly accessible. 
 import c2pa
 
 # Load image
-image_path = "my_image.jpg"
+image_path = "my_image.webp"
 image = c2pa.load_image(image_path)
 
 # Create a manifest
@@ -156,7 +156,7 @@ signed_manifest = c2pa.sign_manifest(manifest, private_key_path)
 c2pa.embed_manifest(image, signed_manifest)
 
 # Save the image
-c2pa.save_image(image, "my_image_with_c2pa.jpg")
+c2pa.save_image(image, "my_image_with_c2pa.webp")
 ```
 
 **For AI Model Developers:**

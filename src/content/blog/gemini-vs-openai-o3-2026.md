@@ -1,8 +1,9 @@
 ---
-title: "Gemini vs OpenAI o3: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of Gemini and OpenAI o3. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Dec 30 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: A side-by-side technical audit of Gemini and OpenAI o3. Pricing, limitations,
+  and the verdict from our hands-on testing.
+heroImage: /assets/gemini-vs-openai-o3-2026.webp
+pubDate: Dec 30 2025
+title: 'Gemini vs OpenAI o3: The 2026 Feature Matrix'
 updatedDate: Feb 10 2026
 ---
 

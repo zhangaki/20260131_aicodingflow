@@ -1,8 +1,9 @@
 ---
-title: "Stop Guessing: Notion AI vs Fireflies.ai 2026 Competitive Audit"
-description: "Choosing between Notion AI and Fireflies.ai? We broke down the tech stack and pricing models so you don't have to."
-pubDate: "Feb 03 2026"
-heroImage: "/assets/blog-fallback.jpg"
+description: Choosing between Notion AI and Fireflies.ai? We broke down the tech stack
+  and pricing models so you don't have to.
+heroImage: /assets/notion-ai-vs-firefliesai-2026.webp
+pubDate: Feb 03 2026
+title: 'Stop Guessing: Notion AI vs Fireflies.ai 2026 Competitive Audit'
 updatedDate: Feb 10 2026
 ---
 

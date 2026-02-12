@@ -1,8 +1,9 @@
 ---
-title: "Midjourney vs DALL-E 3 2026: The Data-Backed Truth"
-description: "We compared Midjourney and DALL-E 3 over 30 days of testing. See the raw results, pricing analysis, and our hands-on recommendation for 2026."
-pubDate: "Dec 23 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: We compared Midjourney and DALL-E 3 over 30 days of testing. See the
+  raw results, pricing analysis, and our hands-on recommendation for 2026.
+heroImage: /assets/midjourney-vs-dall-e-3-2026.webp
+pubDate: Dec 23 2025
+title: 'Midjourney vs DALL-E 3 2026: The Data-Backed Truth'
 updatedDate: Feb 10 2026
 ---
 

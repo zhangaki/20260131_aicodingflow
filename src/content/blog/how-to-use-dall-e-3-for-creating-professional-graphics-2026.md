@@ -1,9 +1,14 @@
 ---
-title: "How to Use DALL-E 3 for Creating Professional Graphics: Complete 2026 Guide"
-description: "A step-by-step tutorial on using DALL-E 3 for creating professional graphics in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Dec 08 2025"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["dall-e-3", "tutorial", "how-to", "ai-image"]
+description: A step-by-step tutorial on using DALL-E 3 for creating professional graphics
+  in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques.
+heroImage: /assets/how-to-use-dall-e-3-for-creating-professional-graphics-2026.webp
+pubDate: Dec 08 2025
+tags:
+- dall-e-3
+- tutorial
+- how-to
+- ai-image
+title: 'How to Use DALL-E 3 for Creating Professional Graphics: Complete 2026 Guide'
 ---
 
 ## How to Use DALL-E 3 for Creating Professional Graphics: Everything You Need to Know

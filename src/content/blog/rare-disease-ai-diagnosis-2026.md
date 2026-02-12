@@ -2,7 +2,7 @@
 description: How AI is ending the 7-year diagnostic odyssey for 300 million people
   worldwide. A technical exploration of pre-symptomatic detection, genomic embedding,
   and the ethics of AI in medical frontiers.
-heroImage: /assets/rare-disease-ai-diagnosis.jpg
+heroImage: /assets/rare-disease-ai-diagnosis.webp
 pubDate: Jan 10 2026
 tags:
 - Future Tech

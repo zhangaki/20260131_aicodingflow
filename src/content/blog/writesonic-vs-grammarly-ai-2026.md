@@ -1,9 +1,11 @@
 ---
-title: "Writesonic vs Grammarly AI: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of Writesonic and Grammarly AI. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Dec 30 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: A side-by-side technical audit of Writesonic and Grammarly AI. Pricing,
+  limitations, and the verdict from our hands-on testing.
+heroImage: /assets/blog-fallback.webp
+pubDate: Dec 30 2025
+title: 'Writesonic vs Grammarly AI: The 2026 Feature Matrix'
 ---
+
 noindex: true
 ---
 

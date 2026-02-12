@@ -1,9 +1,16 @@
 ---
-title: "Leonardo AI in 2026: A Practitioner's Complete Review"
-description: "We used Leonardo AI for 30 days straight. Here's our detailed breakdown of features, real costs, limitations, and whether it deserves your subscription in 2026."
-pubDate: "Jan 28 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["leonardo-ai", "review", "ai-image", "image-generation"]
+description: We used Leonardo AI for 30 days straight. Here's our detailed breakdown
+  of features, real costs, limitations, and whether it deserves your subscription
+  in 2026.
+heroImage: /assets/leonardo-ai-review-2026.webp
+pubDate: Jan 28 2026
+tags:
+- leonardo-ai
+- review
+- ai-image
+- image-generation
+title: 'Leonardo AI Review 2026: Image Generation, Pricing & Quality'
+updatedDate: Feb 12 2026
 ---
 
 ## Leonardo AI: The 2026 Reality Check

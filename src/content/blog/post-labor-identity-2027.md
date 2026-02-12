@@ -1,7 +1,8 @@
 ---
 description: Who are you when you no longer need to work? A technical and philosophical
   guide to Identity Staking, Reputation Protocols, and the new metrics of human value.
-heroImage: /assets/post-labor-identity.png
+heroImage: /assets/post-labor-identity.webp
+noindex: true
 pubDate: Dec 03 2025
 tags:
 - Future Tech
@@ -11,9 +12,7 @@ tags:
 - Society & Ethics
 - Security
 title: 'The Void and the Valor: Managing Identity in the Post-Labor Economy of 2027'
-noindex: true
 ---
-
 
 For 300 years, the question "Who are you?" has been functionally identical to "What do you do?"
 *I am a lawyer. I am a coder. I am a truck driver.*

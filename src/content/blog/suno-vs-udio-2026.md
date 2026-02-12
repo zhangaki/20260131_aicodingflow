@@ -1,8 +1,9 @@
 ---
-title: "Which Wins in 2026? Suno vs Udio Breakdown"
-description: "Choosing between Suno and Udio should be simple. We answered the 5 most critical questions for 2026."
-pubDate: "Feb 06 2026"
-heroImage: "/assets/blog-fallback.jpg"
+description: Choosing between Suno and Udio should be simple. We answered the 5 most
+  critical questions for 2026.
+heroImage: /assets/suno-vs-udio-2026.webp
+pubDate: Feb 06 2026
+title: Which Wins in 2026? Suno vs Udio Breakdown
 updatedDate: Feb 10 2026
 ---
 

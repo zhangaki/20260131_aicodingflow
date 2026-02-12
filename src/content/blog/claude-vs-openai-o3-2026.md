@@ -1,8 +1,9 @@
 ---
-title: "Claude vs OpenAI o3 2026: The Data-Backed Truth"
-description: "We compared Claude and OpenAI o3 over 30 days of testing. See the raw results, pricing analysis, and our hands-on recommendation for 2026."
-pubDate: "Dec 14 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: We compared Claude and OpenAI o3 over 30 days of testing. See the raw
+  results, pricing analysis, and our hands-on recommendation for 2026.
+heroImage: /assets/claude-vs-openai-o3-2026.webp
+pubDate: Dec 14 2025
+title: 'Claude vs OpenAI o3 2026: The Data-Backed Truth'
 updatedDate: Feb 10 2026
 ---
 

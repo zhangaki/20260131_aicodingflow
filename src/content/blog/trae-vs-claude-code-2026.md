@@ -1,8 +1,9 @@
 ---
-title: "Trae vs Claude Code: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of Trae and Claude Code. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Jan 09 2026"
-heroImage: "/assets/blog-fallback.jpg"
+description: A side-by-side technical audit of Trae and Claude Code. Pricing, limitations,
+  and the verdict from our hands-on testing.
+heroImage: /assets/trae-vs-claude-code-2026.webp
+pubDate: Jan 09 2026
+title: 'Trae vs Claude Code: The 2026 Feature Matrix'
 updatedDate: Feb 10 2026
 ---
 

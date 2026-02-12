@@ -1,7 +1,8 @@
 ---
 description: Why look at a chart when you can feel the volatility? A technical guide
   to Haptic Interfaces, Data Sonification, and the Somatic Web.
-heroImage: /assets/somatic-data.jpg
+heroImage: /assets/somatic-data.webp
+noindex: true
 pubDate: Dec 21 2025
 tags:
 - Future Tech
@@ -10,9 +11,7 @@ tags:
 - Society & Ethics
 - Security
 title: 'The Felt Internet: Somatic Data Visualization and Visceral Computing in 2027'
-noindex: true
 ---
-
 
 The visual cortex is biologically bandwidth-limited. Consciously, you can process about 40-80 bits of visual information per second.
 However, parallel to your vision, the **Somatosensory System** (touch, heat, proprioception, pain) and the **Auditory System** are processing gigabytes of ambient data.

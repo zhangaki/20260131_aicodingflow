@@ -1,9 +1,14 @@
 ---
-title: "DALL-E 3 Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of DALL-E 3 in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Jan 18 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["dall-e-3", "review", "ai-image", "image-generation"]
+description: An in-depth review of DALL-E 3 in 2026. We cover features, pricing tiers,
+  pros and cons, alternatives, and who should actually use it.
+heroImage: /assets/dall-e-3-review-2026.webp
+pubDate: Jan 18 2026
+tags:
+- dall-e-3
+- review
+- ai-image
+- image-generation
+title: 'DALL-E 3 Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
 
 ## DALL-E 3 Review 2026: Is It Worth Your Money?

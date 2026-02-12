@@ -1,9 +1,16 @@
 ---
-title: "How to Use Synthesia for Creating Professional Marketing Videos: Complete 2026 Guide"
-description: "A step-by-step tutorial on using Synthesia for creating professional marketing videos in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Dec 12 2025"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["synthesia", "tutorial", "how-to", "ai-video"]
+description: A step-by-step tutorial on using Synthesia for creating professional
+  marketing videos in 2026. Covers setup, workflow, pro tips, common mistakes, and
+  advanced techniques.
+heroImage: /assets/how-to-use-synthesia-for-creating-professional-marketing-videos-2026.webp
+pubDate: Dec 12 2025
+tags:
+- synthesia
+- tutorial
+- how-to
+- ai-video
+title: 'How to Use Synthesia for Creating Professional Marketing Videos: Complete
+  2026 Guide'
 ---
 
 ## How to Use Synthesia for Creating Professional Marketing Videos: Everything You Need to Know

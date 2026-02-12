@@ -2,7 +2,7 @@
 description: As LLMs replace senior devs in the Pull Request queue, a new form of
   algorithmic prejudice is emerging. Learn how to audit your AI reviewer for framework
   dogmatism and linguistic bias.
-heroImage: /assets/ai-code-reviewer-bias-2026.jpg
+heroImage: /assets/ai-code-reviewer-bias-2026.webp
 pubDate: Dec 30 2025
 tags:
 - AI Agents
@@ -162,6 +162,10 @@ trainer.save_model("./your_tuned_reviewer")
 5. **Implement Human Oversight:** Establish a process for human review of the AI reviewer's suggestions.
 6. **Monitor Performance:** Track the AI reviewer's performance and make adjustments as needed.
 7. **Iterate and Improve:** Continuously refine your training data and review rules to improve the AI reviewer's accuracy and reduce bias.
+
+
+
+> **Related:** [AI compliance](/blog/ai-compliance-2026/)
 
 ## FAQ
 

@@ -1,9 +1,14 @@
 ---
-title: "How to Use Udio for Producing Royalty-Free Music: Complete 2026 Guide"
-description: "A step-by-step tutorial on using Udio for producing royalty-free music in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques."
-pubDate: "Dec 20 2025"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["udio", "tutorial", "how-to", "ai-music"]
+description: A step-by-step tutorial on using Udio for producing royalty-free music
+  in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced techniques.
+heroImage: /assets/how-to-use-udio-for-producing-royalty-free-music-2026.webp
+pubDate: Dec 20 2025
+tags:
+- udio
+- tutorial
+- how-to
+- ai-music
+title: 'How to Use Udio for Producing Royalty-Free Music: Complete 2026 Guide'
 ---
 
 ## How to Use Udio for Producing Royalty-Free Music: Everything You Need to Know

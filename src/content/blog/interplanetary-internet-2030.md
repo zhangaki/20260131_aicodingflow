@@ -1,7 +1,8 @@
 ---
 description: Light is too slow for Mars. We need a new protocol. A guide to Delay-Tolerant
   Networking (DTN) and the future of deep-space comms.
-heroImage: /assets/interplanetary-internet-cover.png
+heroImage: /assets/interplanetary-internet-cover.webp
+noindex: true
 pubDate: Dec 12 2025
 tags:
 - Dev Tools
@@ -9,9 +10,7 @@ tags:
 - Infrastructure
 - Society & Ethics
 title: 'The Interplanetary Internet: Networking Across the Solar System (2030)'
-noindex: true
 ---
-
 
 TCP/IP, the foundation of our modern internet, assumes a "Chatty" connection.
 It expects a server to respond to a request in milliseconds.

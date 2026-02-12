@@ -2,7 +2,7 @@
 description: How to audit automated justice. A technical exploration of detecting
   algorithmic bias in high-stakes legal systems, featuring counterfactual fairness
   and Influence Functions.
-heroImage: /assets/legal-ai-bias-auditing.jpg
+heroImage: /assets/legal-ai-bias-auditing.webp
 pubDate: Jan 20 2026
 tags:
 - Future Tech

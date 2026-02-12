@@ -1,7 +1,8 @@
 ---
 description: Why build data centers on Earth when space offers free cooling, vacuum
   speed, and unlimited solar power? A trusted guide to the Orbital Cloud.
-heroImage: /assets/space-inference.jpg
+heroImage: /assets/space-inference.webp
+noindex: true
 pubDate: Jan 24 2026
 tags:
 - Future Tech
@@ -11,9 +12,7 @@ tags:
 - Society & Ethics
 - Security
 title: 'High Orbit Intelligence: Space-Based Inference Clusters (SBIC) in 2027'
-noindex: true
 ---
-
 
 Data centers on Earth are thermodynamic nightmares.
 They consume 4% of the planet's total energy, a figure projected to hit 10% by 2030 due to the AI boom. They require millions of gallons of freshwater for evaporative cooling. They are subject to local power grid failures, geopolitical instability, and physical sabotage.

@@ -1,8 +1,9 @@
 ---
-title: "Which Wins in 2026? Windsurf vs Claude Code Breakdown"
-description: "Choosing between Windsurf and Claude Code should be simple. We answered the 5 most critical questions for 2026."
-pubDate: "Dec 29 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: Choosing between Windsurf and Claude Code should be simple. We answered
+  the 5 most critical questions for 2026.
+heroImage: /assets/windsurf-vs-claude-code-2026.webp
+pubDate: Dec 29 2025
+title: Which Wins in 2026? Windsurf vs Claude Code Breakdown
 updatedDate: Feb 10 2026
 ---
 

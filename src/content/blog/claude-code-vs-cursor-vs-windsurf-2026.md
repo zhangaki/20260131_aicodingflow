@@ -1,10 +1,17 @@
 ---
-title: "Claude Code vs Cursor vs Windsurf: We Used All Three for 30 Days"
-description: "After using Claude Code, Cursor, and Windsurf daily for a month, here is our honest comparison on code quality, speed, pricing, and which one we actually kept."
-pubDate: "Feb 03 2026"
-heroImage: "/assets/blog-fallback.jpg"
-category: "AI Coding"
-tags: ["claude-code", "cursor", "windsurf", "ai-coding", "ide"]
+category: AI Coding
+description: After using Claude Code, Cursor, and Windsurf daily for a month, here
+  is our honest comparison on code quality, speed, pricing, and which one we actually
+  kept.
+heroImage: /assets/claude-code-vs-cursor-vs-windsurf-2026.webp
+pubDate: Feb 03 2026
+tags:
+- claude-code
+- cursor
+- windsurf
+- ai-coding
+- ide
+title: 'Claude Code vs Cursor vs Windsurf: We Used All Three for 30 Days'
 ---
 
 # Claude Code vs Cursor vs Windsurf: We Used All Three for 30 Days

@@ -1,9 +1,14 @@
 ---
-title: "Lovable Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Lovable in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Dec 01 2025"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["lovable", "review", "ai-tools", "technology"]
+description: An in-depth review of Lovable in 2026. We cover features, pricing tiers,
+  pros and cons, alternatives, and who should actually use it.
+heroImage: /assets/lovable-review-2026.webp
+pubDate: Dec 01 2025
+tags:
+- lovable
+- review
+- ai-tools
+- technology
+title: 'Lovable Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
 
 ## Lovable Review 2026: Is It Worth Your Money?

@@ -1,10 +1,15 @@
 ---
-title: "7 Best Local AI Assistants That Work Completely Offline in 2026"
-description: "We tested every major local AI assistant for speed, privacy, and real-world usefulness. Here are the 7 that actually work offline without compromising quality."
-pubDate: "Jan 15 2026"
-heroImage: "/assets/blog-fallback.jpg"
-category: "AI Tools"
-tags: ["local-ai", "privacy", "offline", "llm"]
+category: AI Tools
+description: We tested every major local AI assistant for speed, privacy, and real-world
+  usefulness. Here are the 7 that actually work offline without compromising quality.
+heroImage: /assets/best-local-ai-assistants-offline-2026.webp
+pubDate: Jan 15 2026
+tags:
+- local-ai
+- privacy
+- offline
+- llm
+title: 7 Best Local AI Assistants That Work Completely Offline in 2026
 ---
 
 # 7 Best Local AI Assistants That Work Completely Offline in 2026

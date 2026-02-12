@@ -1,9 +1,11 @@
 ---
-title: "Jasper AI vs Writesonic: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of Jasper AI and Writesonic. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Feb 07 2026"
-heroImage: "/assets/blog-fallback.jpg"
+description: A side-by-side technical audit of Jasper AI and Writesonic. Pricing,
+  limitations, and the verdict from our hands-on testing.
+heroImage: /assets/jasper-ai-vs-writesonic-2026.webp
+pubDate: Feb 07 2026
+title: 'Jasper AI vs Writesonic: The 2026 Feature Matrix'
 ---
+
 noindex: true
 ---
 

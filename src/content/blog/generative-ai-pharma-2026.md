@@ -1,7 +1,7 @@
 ---
 description: How to discover drugs in days, not decades. A technical guide to protein
   diffusion models, in-silico clinical trials, and the engineering of generative biology.
-heroImage: /assets/generative-ai-pharma.jpg
+heroImage: /assets/generative-ai-pharma.webp
 pubDate: Jan 14 2026
 tags:
 - Dev Tools

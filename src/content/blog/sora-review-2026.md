@@ -1,9 +1,14 @@
 ---
-title: "Sora in 2026: A Practitioner's Complete Review"
-description: "We used Sora for 30 days straight. Here's our detailed breakdown of features, real costs, limitations, and whether it deserves your subscription in 2026."
-pubDate: "Feb 01 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["sora", "review", "ai-video", "video-generation"]
+description: We used Sora for 30 days straight. Here's our detailed breakdown of features,
+  real costs, limitations, and whether it deserves your subscription in 2026.
+heroImage: /assets/sora-review-2026.webp
+pubDate: Feb 01 2026
+tags:
+- sora
+- review
+- ai-video
+- video-generation
+title: 'Sora in 2026: A Practitioner''s Complete Review'
 ---
 
 ## Sora: The 2026 Reality Check

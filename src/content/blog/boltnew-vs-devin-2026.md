@@ -1,9 +1,11 @@
 ---
-title: "bolt.new vs Devin: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of bolt.new and Devin. Pricing, limitations, and the verdict from our hands-on testing."
-pubDate: "Feb 08 2026"
-heroImage: "/assets/blog-fallback.jpg"
+description: A side-by-side technical audit of bolt.new and Devin. Pricing, limitations,
+  and the verdict from our hands-on testing.
+heroImage: /assets/boltnew-vs-devin-2026.webp
+pubDate: Feb 08 2026
+title: 'bolt.new vs Devin: The 2026 Feature Matrix'
 ---
+
 noindex: true
 ---
 

@@ -1,9 +1,15 @@
 ---
-title: "You.com in 2026: A Practitioner's Complete Review"
-description: "We used You.com for 30 days straight. Here's our detailed breakdown of features, real costs, limitations, and whether it deserves your subscription in 2026."
-pubDate: "Dec 29 2025"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["youcom", "review", "ai-search", "research-tools"]
+description: We used You.com for 30 days straight. Here's our detailed breakdown of
+  features, real costs, limitations, and whether it deserves your subscription in
+  2026.
+heroImage: /assets/youcom-review-2026.webp
+pubDate: Dec 29 2025
+tags:
+- youcom
+- review
+- ai-search
+- research-tools
+title: 'You.com in 2026: A Practitioner''s Complete Review'
 ---
 
 ## You.com: The 2026 Reality Check

@@ -1,11 +1,12 @@
 ---
-title: "AI Chatbots with Persistent Memory: The Future of Conversational AI (2026)"
-description: "Everything you need to know about ai chatbots with persistent memory across sessions 2026 in 2026. Research-backed insights with hands-on testing."
-pubDate: "Dec 15 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: Everything you need to know about ai chatbots with persistent memory
+  across sessions 2026 in 2026. Research-backed insights with hands-on testing.
+heroImage: /assets/ai-chatbots-with-persistent-memory-across-sessions-2026.webp
+pubDate: Dec 15 2025
 tags:
-  - AI Agents
-  - Dev Tools
+- AI Agents
+- Dev Tools
+title: 'AI Chatbots with Persistent Memory: The Future of Conversational AI (2026)'
 ---
 
 AI Chatbots with Persistent Memory: The Future of Conversational AI (2026)

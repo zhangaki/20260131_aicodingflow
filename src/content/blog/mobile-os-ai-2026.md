@@ -2,7 +2,7 @@
 description: In 2026, the home screen is dying. Large Action Models (LAMs) are taking
   direct control of mobile operating systems, turning apps into background utilities.
   Explore the technical shift from pixels to intentions.
-heroImage: /assets/mobile-os-ai-2026.jpg
+heroImage: /assets/mobile-os-ai-2026.webp
 pubDate: Dec 07 2025
 tags:
 - Future Tech

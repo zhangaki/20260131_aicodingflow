@@ -2,7 +2,7 @@
 description: How to scale marketing without losing your identity. A technical guide
   to fine-tuning brand voice, latent-space aesthetics, and multi-agent campaign orchestration
   in 2026.
-heroImage: /assets/brand-consistency-marketing.jpg
+heroImage: /assets/brand-consistency-marketing.webp
 pubDate: Jan 13 2026
 tags:
 - Future Tech
@@ -13,7 +13,6 @@ tags:
 - Security
 title: 'The Digital Soul: Maintaining Brand Consistency in the Age of Infinite AI'
 ---
-
 
 By mid-2026, the volume of marketing content across the web has reached a state of **infinite scale**. 
 

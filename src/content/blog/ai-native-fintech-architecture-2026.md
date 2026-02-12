@@ -1,7 +1,7 @@
 ---
 description: Compliance is no longer a checklist; it is code. A technical guide to
   building AI-native architectures for AML, KYC, and real-time regulatory adherence.
-heroImage: /assets/ai-fintech-compliance.jpg
+heroImage: /assets/ai-fintech-compliance.webp
 pubDate: Dec 03 2025
 tags:
 - Future Tech
@@ -13,7 +13,6 @@ tags:
 title: 'The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance
   in 2026'
 ---
-
 
 In the old world, "compliance" meant a room full of analysts manually reviewing spreadsheets of flagged transactions. In 2026, compliance is an **API call with 50ms latency**.
 

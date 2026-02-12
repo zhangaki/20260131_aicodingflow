@@ -1,8 +1,9 @@
 ---
-title: "You.com vs Phind 2026: The Data-Backed Truth"
-description: "We compared You.com and Phind over 30 days of testing. See the raw results, pricing analysis, and our hands-on recommendation for 2026."
-pubDate: "Dec 01 2025"
-heroImage: "/assets/blog-fallback.jpg"
+description: We compared You.com and Phind over 30 days of testing. See the raw results,
+  pricing analysis, and our hands-on recommendation for 2026.
+heroImage: /assets/youcom-vs-phind-2026.webp
+pubDate: Dec 01 2025
+title: 'You.com vs Phind 2026: The Data-Backed Truth'
 updatedDate: Feb 10 2026
 ---
 

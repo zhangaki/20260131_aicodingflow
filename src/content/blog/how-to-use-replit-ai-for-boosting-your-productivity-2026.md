@@ -1,9 +1,15 @@
 ---
-title: "Using Replit AI for Boosting Your Productivity: A Practical 2026 Walkthrough"
-description: "Learn how to use Replit AI effectively for boosting your productivity. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies."
-pubDate: "Jan 21 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["replit-ai", "tutorial", "how-to", "ai-tools"]
+description: Learn how to use Replit AI effectively for boosting your productivity.
+  This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced
+  strategies.
+heroImage: /assets/how-to-use-replit-ai-for-boosting-your-productivity-2026.webp
+pubDate: Jan 21 2026
+tags:
+- replit-ai
+- tutorial
+- how-to
+- ai-tools
+title: 'Using Replit AI for Boosting Your Productivity: A Practical 2026 Walkthrough'
 ---
 
 ## A Practitioner's Guide to Replit AI for Boosting Your Productivity

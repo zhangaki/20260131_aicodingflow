@@ -2,7 +2,7 @@
 description: How to build, price, and sell AI agents in the emerging marketplace ecosystem.
   A technical guide to discovery, trust ratings, revenue models, and the economics
   of the agentic economy in 2026.
-heroImage: /assets/ai-agent-marketplace.jpg
+heroImage: /assets/ai-agent-marketplace.webp
 pubDate: Jan 04 2026
 tags:
 - AI Agents
@@ -12,7 +12,6 @@ tags:
 - Security
 title: 'The Agent Bazaar: Monetizing AI Agents in the 2026 Marketplace Economy'
 ---
-
 
 In 2026, the App Store model is dead. The **Agent Store** is rising.
 

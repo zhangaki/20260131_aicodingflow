@@ -2,7 +2,7 @@
 description: Forget optimizing for AI search. This is about diagnosing *why* your
   content is being ignored by Perplexity, SearchGPT, and Gemini—and performing the
   digital surgery to fix it.
-heroImage: /assets/aso-ai-search-optimization-2026.jpg
+heroImage: /assets/aso-ai-search-optimization-2026.webp
 pubDate: Jan 09 2026
 tags:
 - Future Tech
@@ -11,7 +11,6 @@ tags:
 - Infrastructure
 title: 'ASO Necromancy: Resurrecting Content from the AI Graveyard'
 ---
-
 
 The so-called "death of SEO" was greatly exaggerated. What *is* dying is the naive belief that you can simply sprinkle keywords and backlinks on a page and expect AI overlords to deem it worthy. We've entered an era where content either resonates with the cold, calculating logic of retrieval-augmented generation (RAG) or fades into the digital ether. This isn't about optimization; it's about **digital resurrection**.
 

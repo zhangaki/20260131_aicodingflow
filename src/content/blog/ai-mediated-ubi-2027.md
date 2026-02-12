@@ -1,7 +1,8 @@
 ---
 description: Autonomous intelligence trends and technical deep dives into the 2026-2030
   landscape.
-heroImage: /assets/ai-mediated-ubi.jpg
+heroImage: /assets/ai-mediated-ubi.webp
+noindex: true
 pubDate: Jan 03 2026
 tags:
 - AI Agents
@@ -10,9 +11,7 @@ tags:
 - Society & Ethics
 - Security
 title: 'The Generative Mirage: Unpacking the Production Nightmares of AI-Driven'
-noindex: true
 ---
-
 
 Forget breathless pronouncements of AI-driven UBI alternatives. As a CTO, I'm less interested in the utopian destination and far more concerned with the potholes that will shred our tires along the way. The dream of "Autonomous Affluence," fueled by generative AI agents, is seductive. But the reality, as always, is far more complex – and fraught with very specific, production-level challenges.
 

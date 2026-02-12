@@ -1,9 +1,14 @@
 ---
-title: "Devin Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Devin in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Jan 16 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["devin", "review", "ai-tools", "technology"]
+description: An in-depth review of Devin in 2026. We cover features, pricing tiers,
+  pros and cons, alternatives, and who should actually use it.
+heroImage: /assets/devin-review-2026.webp
+pubDate: Jan 16 2026
+tags:
+- devin
+- review
+- ai-tools
+- technology
+title: 'Devin Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
 
 ## Devin Review 2026: Is It Worth Your Money?

@@ -1,7 +1,8 @@
 ---
 description: Autonomous intelligence trends and technical deep dives into the 2026-2030
   landscape.
-heroImage: /assets/algorithmic-happiness.jpg
+heroImage: /assets/algorithmic-happiness.webp
+noindex: true
 pubDate: Dec 28 2025
 tags:
 - Future Tech
@@ -10,16 +11,14 @@ tags:
 - Society & Ethics
 - Security
 title: Algorithmic Happiness 2027
-noindex: true
 ---
-
 
 Okay, here's a refactored version of the blog post, aiming for complete uniqueness and adherence to the persona and structural guidelines.
 
 title: 'Algorithmic Asphyxiation: When "Optimized" Feeds Suffocate the Soul'
 description: 'The promise of AI-curated happiness is turning into a dystopia of personalized echo chambers. A report from the front lines of the attention wars, detailing the failure modes and real-world consequences of algorithmic "optimization".'
 pubDate: 'Feb 04 2026'
-heroImage: "/assets/algorithmic-happiness.jpg"
+heroImage: "/assets/algorithmic-happiness.webp"
 
 
 

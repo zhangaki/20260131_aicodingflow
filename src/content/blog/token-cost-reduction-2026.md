@@ -2,7 +2,7 @@
 description: Building agentic systems that use flagship models without burning a fortune.
   Discover the architectural patterns for prompt caching, tiered inference, and batch
   processing in 2026.
-heroImage: /assets/token-cost-optimization.jpg
+heroImage: /assets/token-cost-optimization.webp
 pubDate: Jan 16 2026
 tags:
 - AI Agents

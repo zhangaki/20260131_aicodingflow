@@ -2,7 +2,8 @@
 description: You cannot be sovereign if you plug into the grid. A technical guide
   to powering your personal AI infrastructure with Micro-Nuclear, Perovskite, and
   Iron-Air.
-heroImage: /assets/dyson-sphere-cover.png
+heroImage: /assets/dyson-sphere-cover.webp
+noindex: true
 pubDate: Jan 11 2026
 tags:
 - Future Tech
@@ -11,9 +12,7 @@ tags:
 - Dev Tools
 - Society & Ethics
 title: 'The Dyson Sphere of One: Achieving Energy Sovereignty in the AI Era'
-noindex: true
 ---
-
 
 The "Cloud" is a convenient lie. It is just a computer plugged into a coal plant in Virginia.
 If the grid goes down—whether due to a Carrington Event (Solar Flare), a cyberattack on the SCADA systems, or simple mismanagement (like Texas 2021)—your AI agents die. Your Exocortex goes dark. You are lobotomized.

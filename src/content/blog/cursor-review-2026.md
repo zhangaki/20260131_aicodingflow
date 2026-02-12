@@ -1,9 +1,14 @@
 ---
-title: "Cursor Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Cursor in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Jan 14 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["cursor", "review", "ai-coding", "developer-tools"]
+description: An in-depth review of Cursor in 2026. We cover features, pricing tiers,
+  pros and cons, alternatives, and who should actually use it.
+heroImage: /assets/cursor-review-2026.webp
+pubDate: Jan 14 2026
+tags:
+- cursor
+- review
+- ai-coding
+- developer-tools
+title: 'Cursor Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
 
 ## Cursor Review 2026: Is It Worth Your Money?

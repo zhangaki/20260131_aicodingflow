@@ -1,10 +1,17 @@
 ---
-title: "How to Build a Private AI Knowledge Base (No Cloud, No API Calls)"
-description: "Step-by-step guide to building a fully private RAG system with local LLMs. Search your documents, code, and notes with AI - everything stays on your machine."
-pubDate: "Jan 28 2026"
-heroImage: "/assets/blog-fallback.jpg"
-category: "AI Engineering"
-tags: ["rag", "local-ai", "knowledge-base", "privacy", "embeddings"]
+category: AI Engineering
+description: Step-by-step guide to building a fully private RAG system with local
+  LLMs. Search your documents, code, and notes with AI - everything stays on your
+  machine.
+heroImage: /assets/build-private-ai-knowledge-base-2026.webp
+pubDate: Jan 28 2026
+tags:
+- rag
+- local-ai
+- knowledge-base
+- privacy
+- embeddings
+title: How to Build a Private AI Knowledge Base (No Cloud, No API Calls)
 ---
 
 # How to Build a Private AI Knowledge Base (No Cloud, No API Calls)
@@ -587,6 +594,10 @@ These numbers will vary depending on your hardware, data, and model choices.
 You have now built a functional, private AI knowledge base using RAG.  Remember to experiment with different parameters, models, and techniques to optimize performance and accuracy for your specific use case.
 
 ---
+
+
+
+> **Related:** [local LLM knowledge base](/blog/local-llm-knowledge-base-2026/)
 
 ## Related Reading
 

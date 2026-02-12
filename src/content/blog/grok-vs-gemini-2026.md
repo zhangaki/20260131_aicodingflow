@@ -1,8 +1,9 @@
 ---
-title: "Which Wins in 2026? Grok vs Gemini Breakdown"
-description: "Choosing between Grok and Gemini should be simple. We answered the 5 most critical questions for 2026."
-pubDate: "Jan 15 2026"
-heroImage: "/assets/blog-fallback.jpg"
+description: Choosing between Grok and Gemini should be simple. We answered the 5
+  most critical questions for 2026.
+heroImage: /assets/grok-vs-gemini-2026.webp
+pubDate: Jan 15 2026
+title: Which Wins in 2026? Grok vs Gemini Breakdown
 updatedDate: Feb 10 2026
 ---
 

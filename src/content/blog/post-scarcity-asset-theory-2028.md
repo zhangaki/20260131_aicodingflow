@@ -1,7 +1,8 @@
 ---
 description: 'When AI can generate infinite art, code, and text, what holds value?
   A guide to the new assets: Attention, Trust, and Energy.'
-heroImage: /assets/post-scarcity-cover.png
+heroImage: /assets/post-scarcity-cover.webp
+noindex: true
 pubDate: Jan 04 2026
 tags:
 - Dev Tools
@@ -9,9 +10,7 @@ tags:
 - Infrastructure
 - Society & Ethics
 title: 'The Currency of Entropy: Post-Scarcity Asset Theory in 2028'
-noindex: true
 ---
-
 
 In 2028, the marginal cost of intelligence has effectively hit zero.
 You can generate a symphony, a legal contract, or a 3D Metaverse world for $0.0001 worth of electricity.
@@ -139,8 +138,8 @@ plt.xlabel("Day")
 plt.ylabel("Attention Earned (Minutes)")
 plt.legend()
 plt.grid(True)
-plt.savefig("attention_economy.png")
-print("✅ Simulation complete. Saved 'attention_economy.png'")
+plt.savefig("attention_economy.webp")
+print("✅ Simulation complete. Saved 'attention_economy.webp'")
 
 ```
 

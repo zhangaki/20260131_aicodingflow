@@ -1,8 +1,9 @@
 ---
-title: "Sora vs Kling AI 2026: The Data-Backed Truth"
-description: "We compared Sora and Kling AI over 30 days of testing. See the raw results, pricing analysis, and our hands-on recommendation for 2026."
-pubDate: "Feb 07 2026"
-heroImage: "/assets/blog-fallback.jpg"
+description: We compared Sora and Kling AI over 30 days of testing. See the raw results,
+  pricing analysis, and our hands-on recommendation for 2026.
+heroImage: /assets/sora-vs-kling-ai-2026.webp
+pubDate: Feb 07 2026
+title: 'Sora vs Kling AI 2026: The Data-Backed Truth'
 updatedDate: Feb 10 2026
 ---
 

@@ -1,9 +1,14 @@
 ---
-title: "v0 by Vercel Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of v0 by Vercel in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Jan 26 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["v0-by-vercel", "review", "ai-tools", "technology"]
+description: An in-depth review of v0 by Vercel in 2026. We cover features, pricing
+  tiers, pros and cons, alternatives, and who should actually use it.
+heroImage: /assets/v0-by-vercel-review-2026.webp
+pubDate: Jan 26 2026
+tags:
+- v0-by-vercel
+- review
+- ai-tools
+- technology
+title: 'v0 by Vercel Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
 
 ## v0 by Vercel Review 2026: Is It Worth Your Money?

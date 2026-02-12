@@ -1,9 +1,15 @@
 ---
-title: "Salesforce Einstein in 2026: A Practitioner's Complete Review"
-description: "We used Salesforce Einstein for 30 days straight. Here's our detailed breakdown of features, real costs, limitations, and whether it deserves your subscription in 2026."
-pubDate: "Dec 31 2025"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["salesforce-einstein", "review", "ai-business", "enterprise-ai"]
+description: We used Salesforce Einstein for 30 days straight. Here's our detailed
+  breakdown of features, real costs, limitations, and whether it deserves your subscription
+  in 2026.
+heroImage: /assets/salesforce-einstein-review-2026.webp
+pubDate: Dec 31 2025
+tags:
+- salesforce-einstein
+- review
+- ai-business
+- enterprise-ai
+title: 'Salesforce Einstein in 2026: A Practitioner''s Complete Review'
 ---
 
 ## Salesforce Einstein: The 2026 Reality Check

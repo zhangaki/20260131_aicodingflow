@@ -1,9 +1,14 @@
 ---
-title: "Phind Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Phind in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Jan 11 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["phind", "review", "ai-search", "research-tools"]
+description: An in-depth review of Phind in 2026. We cover features, pricing tiers,
+  pros and cons, alternatives, and who should actually use it.
+heroImage: /assets/phind-review-2026.webp
+pubDate: Jan 11 2026
+tags:
+- phind
+- review
+- ai-search
+- research-tools
+title: 'Phind Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
 
 ## Phind Review 2026: Is It Worth Your Money?

@@ -1,7 +1,8 @@
 ---
 description: Forget searching your notes. In 2028, your database interacts directly
   with your hippocampus. A technical guide to the architecture of the Exocortex.
-heroImage: /assets/exocortex-cover.png
+heroImage: /assets/exocortex-cover.webp
+noindex: true
 pubDate: Dec 22 2025
 tags:
 - Future Tech
@@ -10,9 +11,7 @@ tags:
 - Dev Tools
 - Society & Ethics
 title: 'The Exocortex Integration: Building the External Mind in 2028'
-noindex: true
 ---
-
 
 The human brain is an efficient biological processor, but it is a terrible hard drive.
 Our **Hippocampus** (the brain's indexer) is lossy, fallible, and prone to rewriting history to fit our current emotional narrative.
