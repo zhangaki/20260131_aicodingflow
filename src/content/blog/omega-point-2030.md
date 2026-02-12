@@ -1,17 +1,16 @@
 ---
-description: What is the end goal of AI? To turn all matter into Mind. A technical
-  exploration of Dyson Swarms and Matrioshka Brains.
-heroImage: /assets/omega-point-cover.png
+description: Frank Tipler's Omega Point theory meets AI superintelligence - How to turn the solar system into a Matrioshka Brain computer. Dyson Swarms and universal intelligence explained.
+heroImage: /assets/omega-point-cover.webp
+noindex: true
 pubDate: Dec 27 2025
 tags:
 - Future Tech
 - AI Agents
 - Infrastructure
 - Society & Ethics
-title: 'The Omega Point Strategy: Turning the Solar System into a Computer (2030+)'
-noindex: true
+title: 'Omega Point AI Superintelligence: Frank Tipler''s Solar System Computer (2030+)'
+updatedDate: Feb 12 2026
 ---
-
 
 We began this series by talking about the "Super Individual"—a person enhanced by a local LLM and a few bio-sensors.
 We end this series by talking about the inevitable conclusion of that trajectory: **The Omega Point.**

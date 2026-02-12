@@ -1,8 +1,6 @@
 ---
-description: A practical guide to multi-agent AI orchestration in 2026. Covers LLM agent
-  frameworks like CrewAI and LangGraph, orchestration patterns, research findings, and
-  real-world production challenges.
-heroImage: /assets/multi-agent-orchestration-2026.jpg
+description: Multi-agent AI orchestration research 2026 - Top 5 frameworks compared (AutoGen, CrewAI, LangGraph). Complete guide to building collaborative AI agent systems.
+heroImage: /assets/multi-agent-orchestration-2026.webp
 pubDate: Dec 06 2025
 tags:
 - Future Tech
@@ -11,8 +9,8 @@ tags:
 - Dev Tools
 - Society & Ethics
 - Security
-title: 'Multi-Agent AI Orchestration: Research-Backed Guide for 2026'
-updatedDate: Feb 10 2026
+title: 'Multi-Agent AI Orchestration 2026: Top 5 Frameworks & Research Guide'
+updatedDate: Feb 12 2026
 ---
 
 # Multi-Agent AI Orchestration: Research-Backed Guide for 2026

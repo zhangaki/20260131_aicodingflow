@@ -1,9 +1,14 @@
 ---
-title: "Grok in 2026: A Practitioner's Complete Review"
-description: "We used Grok for 30 days straight. Here's our detailed breakdown of features, real costs, limitations, and whether it deserves your subscription in 2026."
-pubDate: "Jan 28 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["grok", "review", "llm", "ai-chatbot"]
+description: Grok AI review 2026 - Free vs Premium comparison, pricing ($8/month), tier limits, and X subscription requirements. 30-day test reveals which plan is worth it.
+heroImage: /assets/grok-review-2026.webp
+pubDate: Jan 28 2026
+tags:
+- grok
+- review
+- llm
+- ai-chatbot
+title: 'Grok AI Review 2026: Free vs Premium - Is $8/Month Worth It?'
+updatedDate: Feb 12 2026
 ---
 
 ## Grok: The 2026 Reality Check
