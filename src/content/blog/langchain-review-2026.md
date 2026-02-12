@@ -9,7 +9,8 @@ tags:
 - review
 - ai-agents
 - frameworks
-title: 'LangChain in 2026: A Practitioner''s Complete Review'
+title: 'LangChain Review 2026: RAG Pipeline, Features & Documentation'
+updatedDate: Feb 12 2026
 ---
 
 ## LangChain: The 2026 Reality Check

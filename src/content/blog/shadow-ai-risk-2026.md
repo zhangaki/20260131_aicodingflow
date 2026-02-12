@@ -9,7 +9,8 @@ tags:
 - Infrastructure
 - Society & Ethics
 - Security
-title: 'The Great Extraction: Corporate Control vs. The Agentic Individual'
+title: 'Shadow AI Risk 2026: How to Detect & Prevent Unauthorized AI'
+updatedDate: Feb 12 2026
 ---
 
 noindex: true

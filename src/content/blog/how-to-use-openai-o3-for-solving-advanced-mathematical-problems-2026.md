@@ -9,7 +9,8 @@ tags:
 - tutorial
 - how-to
 - llm
-title: 'How to Use OpenAI o3 for Solving Advanced Mathematical Problems: Complete
+title: 'How to Use OpenAI o3 for Math 2026: Advanced Problem Solving'
+updatedDate: Feb 12 2026
   2026 Guide'
 ---
 

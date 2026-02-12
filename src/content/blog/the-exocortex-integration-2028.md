@@ -10,7 +10,8 @@ tags:
 - Infrastructure
 - Dev Tools
 - Society & Ethics
-title: 'The Exocortex Integration: Building the External Mind in 2028'
+title: 'Exocortex Integration 2028: Brain-Computer Interface Guide'
+updatedDate: Feb 12 2026
 ---
 
 The human brain is an efficient biological processor, but it is a terrible hard drive.

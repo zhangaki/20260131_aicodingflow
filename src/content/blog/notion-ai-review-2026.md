@@ -9,7 +9,8 @@ tags:
 - review
 - ai-productivity
 - workflow
-title: 'Notion AI in 2026: A Practitioner''s Complete Review'
+title: 'Notion AI Review 2026: Features, Pricing & Workflow Integration'
+updatedDate: Feb 12 2026
 ---
 
 ## Notion AI: The 2026 Reality Check

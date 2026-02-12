@@ -11,7 +11,8 @@ tags:
 - Dev Tools
 - Society & Ethics
 - Security
-title: 'The Thanatos Protocol: Digital Twin Estate Planning and Ghost Agents in 2028'
+title: 'Digital Twin Estate Planning 2028: AI Legacy Management'
+updatedDate: Feb 12 2026
 ---
 
 For 5,000 years, "Inheritance" meant passing down physical objects: Land, Gold, Cattle, Cash.
