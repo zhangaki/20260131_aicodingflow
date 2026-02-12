@@ -11,7 +11,6 @@ tags:
 - llm
 title: 'How to Build Custom GPTs with ChatGPT 2026: Business Tutorial'
 updatedDate: Feb 12 2026
-  Walkthrough'
 ---
 
 ## A Practitioner's Guide to ChatGPT for Building Custom GPTs for Your Business
