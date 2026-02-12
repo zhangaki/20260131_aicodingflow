@@ -1,6 +1,5 @@
 ---
-description: An in-depth review of Grammarly AI in 2026. We cover features, pricing
-  tiers, pros and cons, alternatives, and who should actually use it.
+description: 'In-depth Grammarly AI review 2026: free tier limits, premium $12/month features, tone detection, plagiarism checker, and is it worth upgrading?'
 heroImage: /assets/grammarly-ai-review-2026.webp
 pubDate: Jan 05 2026
 tags:
@@ -8,7 +7,7 @@ tags:
 - review
 - ai-writing
 - content-tools
-title: 'Grammarly AI Review 2026: Features, Pricing, and Our Honest Verdict'
+title: 'Grammarly AI Review 2026: Free vs Premium ($12/Month) Features'
 ---
 
 ## Grammarly AI Review 2026: Is It Worth Your Money?

@@ -1,7 +1,5 @@
 ---
-description: Learn how to use Runway effectively for professional video editing with
-  ai. This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and
-  advanced strategies.
+description: 'Master Runway Gen-3 for professional video editing in 2026: AI inpainting, motion tracking, green screen removal, and export settings tutorial.'
 heroImage: /assets/how-to-use-runway-for-professional-video-editing-with-ai-2026.webp
 pubDate: Jan 16 2026
 tags:
@@ -9,7 +7,7 @@ tags:
 - tutorial
 - how-to
 - ai-video
-title: 'Using Runway for Professional Video Editing with AI: A Practical 2026 Walkthrough'
+title: 'How to Use Runway Gen-3 for Video Editing 2026: Complete Tutorial'
 ---
 
 ## A Practitioner's Guide to Runway for Professional Video Editing with AI

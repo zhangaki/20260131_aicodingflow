@@ -1,6 +1,5 @@
 ---
-description: Learn how to use Phind effectively for deep research projects. This 2026
-  guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced strategies.
+description: 'Complete Phind tutorial for deep research projects in 2026: code search, technical documentation, citation tracking, and productivity tips.'
 heroImage: /assets/how-to-use-phind-for-deep-research-projects-2026.webp
 pubDate: Jan 24 2026
 tags:
@@ -8,7 +7,7 @@ tags:
 - tutorial
 - how-to
 - ai-search
-title: 'Using Phind for Deep Research Projects: A Practical 2026 Walkthrough'
+title: 'How to Use Phind for Research 2026: Developer Search Tutorial'
 ---
 
 ## A Practitioner's Guide to Phind for Deep Research Projects

@@ -1,7 +1,5 @@
 ---
-description: As LLMs replace senior devs in the Pull Request queue, a new form of
-  algorithmic prejudice is emerging. Learn how to audit your AI reviewer for framework
-  dogmatism and linguistic bias.
+description: 'Identify and prevent AI code reviewer bias in 2026: racial/gender bias in feedback, fairness metrics, and building equitable AI review tools.'
 heroImage: /assets/ai-code-reviewer-bias-2026.webp
 pubDate: Dec 30 2025
 tags:
@@ -10,7 +8,7 @@ tags:
 - Dev Tools
 - Society & Ethics
 - Security
-title: 'The Invisible Judge: Detecting Bias in AI Code Reviewers'
+title: 'AI Code Review Bias 2026: Detecting & Preventing Unfair Feedback'
 updatedDate: Feb 10 2026
 ---
 
