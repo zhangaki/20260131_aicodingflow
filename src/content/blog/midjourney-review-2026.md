@@ -1,7 +1,5 @@
 ---
-description: We used Midjourney for 30 days straight. Here's our detailed breakdown
-  of features, real costs, limitations, and whether it deserves your subscription
-  in 2026.
+description: 'In-depth Midjourney V7 review for 2026: $10/month pricing, free trial details, image quality comparison vs DALL-E 3 and Stable Diffusion XL.'
 heroImage: /assets/midjourney-review-2026.webp
 pubDate: Feb 03 2026
 tags:
@@ -9,7 +7,7 @@ tags:
 - review
 - ai-image
 - image-generation
-title: 'Midjourney in 2026: A Practitioner''s Complete Review'
+title: 'Midjourney V7 Review 2026: Pricing, Free Trial & Image Quality Test'
 ---
 
 ## Midjourney: The 2026 Reality Check

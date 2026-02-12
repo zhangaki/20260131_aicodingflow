@@ -2,6 +2,7 @@
 description: A leaked transcript of the internal debate between Corporate Security
   and the rise of the autonomous
 heroImage: /assets/shadow-ai-risk-2026.webp
+noindex: true
 pubDate: Jan 03 2026
 tags:
 - Future Tech
@@ -11,9 +12,6 @@ tags:
 - Security
 title: 'Shadow AI Risk 2026: How to Detect & Prevent Unauthorized AI'
 updatedDate: Feb 12 2026
----
-
-noindex: true
 ---
 
 

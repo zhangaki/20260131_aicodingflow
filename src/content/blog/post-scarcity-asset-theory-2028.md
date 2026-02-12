@@ -1,6 +1,5 @@
 ---
-description: 'When AI can generate infinite art, code, and text, what holds value?
-  A guide to the new assets: Attention, Trust, and Energy.'
+description: 'Explore how AI automation drives post-scarcity economics by 2028. Analysis of asset theory, labor markets, and wealth distribution in an abundant future.'
 heroImage: /assets/post-scarcity-cover.webp
 noindex: true
 pubDate: Jan 04 2026
@@ -9,7 +8,7 @@ tags:
 - AI Agents
 - Infrastructure
 - Society & Ethics
-title: 'The Currency of Entropy: Post-Scarcity Asset Theory in 2028'
+title: 'Post-Scarcity Economics 2028: AI Impact on Asset Theory & Markets'
 ---
 
 In 2028, the marginal cost of intelligence has effectively hit zero.
