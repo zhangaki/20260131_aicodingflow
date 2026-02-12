@@ -1,6 +1,5 @@
 ---
-description: We used Sora for 30 days straight. Here's our detailed breakdown of features,
-  real costs, limitations, and whether it deserves your subscription in 2026.
+description: 'In-depth OpenAI Sora review 2026: text-to-video features, pricing details, video quality comparison vs Runway and Kling, and access waitlist.'
 heroImage: /assets/sora-review-2026.webp
 pubDate: Feb 01 2026
 tags:
@@ -8,7 +7,7 @@ tags:
 - review
 - ai-video
 - video-generation
-title: 'Sora in 2026: A Practitioner''s Complete Review'
+title: 'OpenAI Sora Review 2026: Features, Pricing & Video Quality Test'
 ---
 
 ## Sora: The 2026 Reality Check

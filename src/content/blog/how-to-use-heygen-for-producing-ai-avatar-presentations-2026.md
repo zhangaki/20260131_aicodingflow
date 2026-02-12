@@ -1,7 +1,5 @@
 ---
-description: Learn how to use HeyGen effectively for producing ai avatar presentations.
-  This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced
-  strategies.
+description: 'Produce AI avatar presentations with HeyGen in 2026: avatar customization, voiceover recording, background selection, and export guide.'
 heroImage: /assets/how-to-use-heygen-for-producing-ai-avatar-presentations-2026.webp
 pubDate: Dec 28 2025
 tags:
@@ -9,7 +7,7 @@ tags:
 - tutorial
 - how-to
 - ai-video
-title: 'Using HeyGen for Producing AI Avatar Presentations: A Practical 2026 Walkthrough'
+title: 'How to Use HeyGen for AI Avatar Videos 2026: Presentation Tutorial'
 ---
 
 ## A Practitioner's Guide to HeyGen for Producing AI Avatar Presentations

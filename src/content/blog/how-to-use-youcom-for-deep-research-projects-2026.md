@@ -1,7 +1,5 @@
 ---
-description: Learn how to use You.com effectively for deep research projects. This
-  2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced
-  strategies.
+description: 'Master You.com AI search for deep research projects in 2026: citation tracking, source verification, knowledge mode, and productivity tips.'
 heroImage: /assets/how-to-use-youcom-for-deep-research-projects-2026.webp
 pubDate: Jan 19 2026
 tags:
@@ -9,7 +7,7 @@ tags:
 - tutorial
 - how-to
 - ai-search
-title: 'Using You.com for Deep Research Projects: A Practical 2026 Walkthrough'
+title: 'How to Use You.com for Research 2026: AI Search Tutorial'
 ---
 
 ## A Practitioner's Guide to You.com for Deep Research Projects

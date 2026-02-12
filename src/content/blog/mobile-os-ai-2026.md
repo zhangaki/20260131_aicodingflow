@@ -1,7 +1,5 @@
 ---
-description: In 2026, the home screen is dying. Large Action Models (LAMs) are taking
-  direct control of mobile operating systems, turning apps into background utilities.
-  Explore the technical shift from pixels to intentions.
+description: 'Explore AI integration in mobile operating systems 2026: iOS 18 Apple Intelligence, Android 15 Gemini, on-device AI, and privacy features.'
 heroImage: /assets/mobile-os-ai-2026.webp
 pubDate: Dec 07 2025
 tags:
@@ -11,7 +9,7 @@ tags:
 - Dev Tools
 - Society & Ethics
 - Security
-title: 'The Ghost in the Screen: Why Your Phone OS is Becoming an Agent'
+title: 'Mobile OS AI Integration 2026: iOS 18 & Android 15 Features'
 updatedDate: Feb 10 2026
 ---
 
