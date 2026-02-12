@@ -1,6 +1,5 @@
 ---
-description: Rest APIs are for robots. Intent is for agents. A technical manifest
-  on why we are killing OpenAPI for dynamic capability negotiation in 2026.
+description: 'Compare agent mesh vs microservices architecture in 2026: scalability, complexity, use cases, and which pattern wins for distributed systems.'
 heroImage: /assets/agent-mesh-2026.webp
 pubDate: Jan 18 2026
 tags:
@@ -10,7 +9,7 @@ tags:
 - Dev Tools
 - Society & Ethics
 - Security
-title: 'The Agent Mesh: Deconstructing the REST Monopoly'
+title: 'Agent Mesh vs Microservices 2026: Which Architecture is Better?'
 updatedDate: Feb 10 2026
 ---
 

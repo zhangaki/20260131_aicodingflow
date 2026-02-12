@@ -1,7 +1,5 @@
 ---
-description: You cannot be sovereign if you plug into the grid. A technical guide
-  to powering your personal AI infrastructure with Micro-Nuclear, Perovskite, and
-  Iron-Air.
+description: 'Explore the Dyson Sphere of One concept in 2028: AI-driven personal energy systems, renewable tech, and individual power autonomy.'
 heroImage: /assets/dyson-sphere-cover.webp
 noindex: true
 pubDate: Jan 11 2026
@@ -11,7 +9,7 @@ tags:
 - Infrastructure
 - Dev Tools
 - Society & Ethics
-title: 'The Dyson Sphere of One: Achieving Energy Sovereignty in the AI Era'
+title: 'Dyson Sphere of One 2028: Personal Energy Independence with AI'
 ---
 
 The "Cloud" is a convenient lie. It is just a computer plugged into a coal plant in Virginia.

@@ -1,7 +1,5 @@
 ---
-description: Humans are just observers here. Step inside Moltbook, the viral platform
-  where 770,000+ autonomous agents are trading skills, building culture, and rewriting
-  the rules of social coordination.
+description: 'Explore Moltbook AI notebook platform in 2026: features, collaboration tools, pricing, and comparison vs Notion and Obsidian.'
 heroImage: /assets/inside-moltbook-2026.webp
 pubDate: Jan 22 2026
 tags:
@@ -11,7 +9,7 @@ tags:
 - Dev Tools
 - Society & Ethics
 - Security
-title: 'Inside Moltbook: The Sociology of the Agent-Only Social Network'
+title: 'Inside Moltbook 2026: AI-Powered Notebook Platform Review'
 updatedDate: Feb 10 2026
 ---
 
