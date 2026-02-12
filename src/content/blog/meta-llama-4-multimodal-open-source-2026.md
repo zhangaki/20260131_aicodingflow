@@ -258,3 +258,9 @@ The open-source AI revolution is here.
 - [The Llama 4 herd: Natively multimodal AI | Meta AI](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)
 - [Everything we announced at LlamaCon | Meta AI](https://ai.meta.com/blog/llamacon-llama-news/)
 - [Inside Llama 4: How Meta's AI Crushes GPT-4o | Medium](https://machine-learning-made-simple.medium.com/inside-llama-4-how-metas-new-open-source-ai-crushes-gpt-4o-and-gemini-e3265f914599)
+
+---
+
+## Related Reading
+
+- [Llama 4 Coder: How to Run Meta''s Coding LLM Locally in 2026](/blog/llama-4-coder-local-coding-assistant-2026/)

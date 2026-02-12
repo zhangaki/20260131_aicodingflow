@@ -161,3 +161,11 @@ Combined with agent orchestration frameworks like LangGraph or CrewAI, it's a ga
 - [Introducing GPT-5.3-Codex | OpenAI](https://openai.com/index/introducing-gpt-5-3-codex/)
 - [Model Release Notes | OpenAI Help Center](https://help.openai.com/en/articles/9624314-model-release-notes)
 - [Everything you should know about GPT-5 [2026]](https://botpress.com/blog/everything-you-should-know-about-gpt-5)
+
+---
+
+## Related Reading
+
+- [Claude 4.6 Opus February 2026 Update: Agent Teams & PowerPoint](/blog/claude-46-opus-february-2026-update/)
+- [Gemini 2.0 Flash Thinking & Deep Research 2026: Complete Guide](/blog/gemini-20-flash-thinking-deep-research-2026/)
+- [Llama 4 Coder: How to Run Meta''s Coding LLM Locally in 2026](/blog/llama-4-coder-local-coding-assistant-2026/)
