@@ -1,8 +1,8 @@
 ---
-description: Build a private local AI server with no cloud dependency. Step-by-step guide
-  to assembling a $10k AI cluster using Apple Silicon and H200s for zero-latency,
+description: Build a private local AI server with no cloud dependency. Step-by-step
+  guide to assembling a $10k AI cluster using Apple Silicon and H200s for zero-latency,
   fully offline AI inference in 2026.
-heroImage: /assets/private-ai-hardware-2026.jpg
+heroImage: /assets/private-ai-hardware-2026.webp
 pubDate: Jan 23 2026
 tags:
 - Future Tech
@@ -11,8 +11,8 @@ tags:
 - Dev Tools
 - Society & Ethics
 - Security
-title: 'The Sovereign Stack: Why SMBs are Building $10k AI Clusters in 2026'
-updatedDate: Feb 10 2026
+title: 'Private AI Hardware 2026: Build a $10k Local AI Server (No Cloud)'
+updatedDate: Feb 12 2026
 ---
 
 # The Sovereign Stack: Why SMBs are Building $10k AI Clusters in 2026

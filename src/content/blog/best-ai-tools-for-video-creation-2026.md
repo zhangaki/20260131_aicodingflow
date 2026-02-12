@@ -1,9 +1,14 @@
 ---
-title: "Top 5 AI Tools for Video Creation in 2026 (Hands-On Rankings)"
-description: "Our team tested 5 AI video creation tools over 30 days. Here are the real winners, complete with pricing data and performance analysis for 2026."
-pubDate: "Feb 03 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["ai-tools", "best-video-creation", "ai-video"]
+description: Our team tested 5 AI video creation tools over 30 days. Here are the
+  real winners, complete with pricing data and performance analysis for 2026.
+heroImage: /assets/best-ai-tools-for-video-creation-2026.webp
+pubDate: Feb 03 2026
+tags:
+- ai-tools
+- best-video-creation
+- ai-video
+title: '5 Best AI Video Creation Tools 2026: Tested & Ranked (Pricing Included)'
+updatedDate: Feb 12 2026
 ---
 
 ## Finding the Right AI Tool for Video Creation: Our 2026 Investigation

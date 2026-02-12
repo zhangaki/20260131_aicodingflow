@@ -1,9 +1,14 @@
 ---
-title: "Claude Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Claude in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Jan 05 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["claude", "review", "llm", "ai-chatbot"]
+description: Claude AI review 2026 - Artifacts feature explained, pricing tiers, Opus 4.6 vs Sonnet comparison. Complete guide to Anthropic's Claude chatbot.
+heroImage: /assets/claude-review-2026.webp
+pubDate: Jan 05 2026
+tags:
+- claude
+- review
+- llm
+- ai-chatbot
+title: 'Claude AI Review 2026: Artifacts Feature, Pricing & Opus 4.6 Guide'
+updatedDate: Feb 12 2026
 ---
 
 ## Claude Review 2026: Is It Worth Your Money?

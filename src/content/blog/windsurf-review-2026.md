@@ -1,9 +1,14 @@
 ---
-title: "Windsurf Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Windsurf in 2026. We cover features, pricing tiers, pros and cons, alternatives, and who should actually use it."
-pubDate: "Jan 01 2026"
-heroImage: "/assets/blog-fallback.jpg"
-tags: ["windsurf", "review", "ai-coding", "developer-tools"]
+description: Windsurf Editor review 2026 - Codeium pricing, free tier limits, features comparison. Is Windsurf by Codeium worth it for developers?
+heroImage: /assets/windsurf-review-2026.webp
+pubDate: Jan 01 2026
+tags:
+- windsurf
+- review
+- ai-coding
+- developer-tools
+title: 'Windsurf Editor 2026: Codeium Pricing, Free Tier Limits & Review'
+updatedDate: Feb 12 2026
 ---
 
 ## Windsurf Review 2026: Is It Worth Your Money?

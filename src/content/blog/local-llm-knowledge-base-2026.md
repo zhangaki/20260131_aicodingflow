@@ -1,16 +1,16 @@
 ---
 description: How to build a local LLM knowledge base in 2026. Step-by-step guide to
-  architecting a sovereign, offline-first second brain using Llama models and
-  zero-trust synchronization with no cloud required.
-heroImage: /assets/local-llm-knowledge-base-2026.jpg
+  architecting a sovereign, offline-first second brain using Llama models and zero-trust
+  synchronization with no cloud required.
+heroImage: /assets/local-llm-knowledge-base-2026.webp
 pubDate: Jan 21 2026
 tags:
 - Future Tech
 - AI Agents
 - Infrastructure
 - Society & Ethics
-title: 'The Data Sanctuary: Why Your Second Brain Must Go Offline in 2026'
-updatedDate: Feb 10 2026
+title: 'Local LLM Knowledge Base 2026: Build Offline Second Brain with Llama'
+updatedDate: Feb 12 2026
 ---
 
 # The Data Sanctuary: Why Your Second Brain Must Go Offline in 2026
