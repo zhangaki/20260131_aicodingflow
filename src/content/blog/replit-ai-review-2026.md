@@ -1,6 +1,6 @@
 ---
-description: An in-depth review of Replit AI in 2026. We cover features, pricing tiers,
-  pros and cons, alternatives, and who should actually use it.
+description: Explore the latest Replit AI features in 2026. Find out how this AI coding
+  platform is transforming software development and if it's right for you. 157 chars
 heroImage: /assets/replit-ai-review-2026.webp
 pubDate: Feb 01 2026
 tags:
@@ -8,8 +8,8 @@ tags:
 - review
 - ai-tools
 - technology
-title: 'Replit AI Review 2026: Ghostwriter Pricing, Features & Limits'
-updatedDate: Feb 12 2026
+title: 'Replit AI 2026: The Future of AI-Powered Coding?'
+updatedDate: Feb 13 2026
 ---
 
 ## Replit AI Review 2026: Is It Worth Your Money?

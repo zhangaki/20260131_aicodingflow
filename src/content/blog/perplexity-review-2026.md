@@ -1,5 +1,5 @@
 ---
-description: Perplexity AI review 2026 - Image generation capabilities, Pro vs Free comparison, pricing, and research features. 30-day test of the AI-powered search engine.
+description: Perplexity AI 2026 review - Pro benefits, deep research mode features, file upload limits, pricing ($20/month), and coding capabilities. Is Perplexity Pro worth it?
 heroImage: /assets/perplexity-review-2026.webp
 pubDate: Feb 08 2026
 tags:
@@ -7,8 +7,10 @@ tags:
 - review
 - ai-search
 - research-tools
-title: 'Perplexity AI Review 2026: Image Generation, Pro Features & Pricing'
-updatedDate: Feb 12 2026
+title: 'Perplexity AI 2026: Pro Benefits, Deep Research & Features Review'
+updatedDate: Feb 13 2026
+---
+updatedDate: Feb 13 2026
 ---
 
 ## Perplexity: The 2026 Reality Check
