@@ -235,6 +235,11 @@ python scripts/monitoring/batch_index_submit.py --limit 200
 - [ ] **Core Web Vitals 优化** — 页面速度调优
 - [ ] **多语言** — 中文版本
 
+## 内容标准与规范
+所有产出的内容（无论是生成还是手动编写）均须符合项目规范：
+- **标准详情**: [Article Review & Quality Standards](file:///Users/mac/code/super-individual/projects/20260131_seo-site/.agent/standards/article-quality.md)
+- **自动化执行**: 运行 `python scripts/pipeline.py` 进行全量审计与优化。
+
 ---
 
 ## 内容生成工作流
