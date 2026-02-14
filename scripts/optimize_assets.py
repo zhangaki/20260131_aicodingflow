@@ -1,8 +1,7 @@
 import os
 import glob
 from PIL import Image
-import frontmatter
-from pathlib import Path
+import re
 
 ASSETS_DIR = "public/assets"
 CONTENT_DIR = "src/content/blog"
@@ -49,22 +48,29 @@ def optimize_image(img_path):
         return None
 
 def update_markdown_links():
-    """Updates all markdown files to point to .webp images."""
+    """Updates all markdown files to point to .webp images using regex."""
     files = glob.glob(os.path.join(CONTENT_DIR, "*.md"))
     count = 0
-    for f in files:
+    hero_pattern = re.compile(r"^(heroImage:\s*[\"']?)(.*?)([\"']?)$", re.MULTILINE)
+    
+    for f_path in files:
         try:
-            post = frontmatter.load(f)
-            hero = post.get('heroImage', '')
-            # Now we only update if it still ends in .jpg or .png
-            if hero and (hero.endswith('.jpg') or hero.endswith('.png')):
-                new_hero = os.path.splitext(hero)[0] + ".webp"
-                post['heroImage'] = new_hero
-                with open(f, 'wb') as out:
-                    frontmatter.dump(post, out)
-                count += 1
+            with open(f_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Find heroImage in frontmatter
+            match = hero_pattern.search(content)
+            if match:
+                prefix, path, suffix = match.groups()
+                if path and (path.endswith('.jpg') or path.endswith('.png')):
+                    new_path = os.path.splitext(path)[0] + ".webp"
+                    new_content = content[:match.start(2)] + new_path + content[match.end(2):]
+                    with open(f_path, 'w', encoding='utf-8') as f_out:
+                        f_out.write(new_content)
+                    count += 1
         except Exception as e:
-            print(f"Error updating markdown {f}: {e}")
+            print(f"Error updating markdown {f_path}: {e}")
+    
     if count > 0:
         print(f"Updated {count} markdown files to WebP.")
 

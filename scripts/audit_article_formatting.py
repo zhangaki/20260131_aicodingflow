@@ -117,6 +117,11 @@ def fix_file(file_path):
     return False
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Audit and fix blog article formatting.")
+    parser.add_argument("--fix", action="store_true", help="Automatically fix issues without prompting.")
+    args = parser.parse_args()
+
     print(f"Auditing blog articles in {BLOG_DIR}...")
     files = list(BLOG_DIR.glob("*.md"))
     faulty_files = 0
@@ -132,7 +137,11 @@ def main():
                 print(f"  - {issue}")
             
             # Auto-fix option
-            if input(f"Attempt to fix {file_path.name}? (y/n): ").lower() == 'y':
+            should_fix = args.fix
+            if not should_fix:
+                should_fix = input(f"Attempt to fix {file_path.name}? (y/n): ").lower() == 'y'
+            
+            if should_fix:
                 if fix_file(file_path):
                     print(f"  ✅ Fixed {file_path.name}")
                 else:

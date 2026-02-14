@@ -6,6 +6,7 @@ Focus on: DeepSeek V4, Windsurf Cascade vs Claude Code, AI Agent Marketplace, Fr
 
 import os
 import sys
+import re
 from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
