@@ -143,6 +143,30 @@ OUTPUT FORMAT RULES:
             )
         )
         body = response.text.strip()
+
+        # Robust Cleanup Logic
+        # 1. Strip markdown code block wrappers
+        markdown_match = re.search(r"```markdown\s*(.*?)\s*```", body, re.DOTALL | re.IGNORECASE)
+        if markdown_match:
+            body = markdown_match.group(1).strip()
+        else:
+            generic_match = re.search(r"```\s*(.*?)\s*```", body, re.DOTALL)
+            if generic_match:
+                body = generic_match.group(1).strip()
+
+        # 2. Strip common AI intro fillers
+        ai_fillers = [
+            r"^Okay, here's a draft.*?\n",
+            r"^Here's a blog article draft.*?\n",
+            r"^I've crafted a data-driven article.*?\n",
+            r"^Sure, here is the article.*?\n",
+            r"^Based on your request.*?:\n",
+            r"^I have enough information to create a solid draft.*?\n",
+        ]
+        for filler in ai_fillers:
+            body = re.sub(filler, "", body, flags=re.IGNORECASE | re.MULTILINE)
+
+        body = body.strip()
     except Exception as e:
         print(f"  ERROR: {e}")
         return False

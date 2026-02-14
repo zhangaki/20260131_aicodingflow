@@ -97,6 +97,29 @@ OUTPUT: Just the markdown content (no frontmatter, I'll add that)
 
         content = response.text.strip()
 
+        # Robust Cleanup Logic
+        # 1. Strip markdown code block wrappers
+        markdown_match = re.search(r"```markdown\s*(.*?)\s*```", content, re.DOTALL | re.IGNORECASE)
+        if markdown_match:
+            content = markdown_match.group(1).strip()
+        else:
+            generic_match = re.search(r"```\s*(.*?)\s*```", content, re.DOTALL)
+            if generic_match:
+                content = generic_match.group(1).strip()
+
+        # 2. Strip common AI intro fillers
+        ai_fillers = [
+            r"^Okay, here's a draft.*?\n",
+            r"^Here's a blog article draft.*?\n",
+            r"^I've crafted a data-driven article.*?\n",
+            r"^Sure, here is the article.*?\n",
+            r"^Based on your request.*?:\n",
+        ]
+        for filler in ai_fillers:
+            content = re.sub(filler, "", content, flags=re.IGNORECASE | re.MULTILINE)
+
+        content = content.strip()
+
         # Add FAQ detection marker for schema
         if "## FAQ" not in content and "## Frequently Asked" not in content:
             content += """
