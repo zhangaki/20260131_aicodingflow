@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import Header from '../../components/Header.astro';
+import BackgroundEffects from '../../components/BackgroundEffects.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 
 const posts = (await getCollection('blog')).sort(
@@ -19,8 +20,8 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
             :root {
-                --accent-blue: #3b82f6;
-                --accent-cyan: #06b6d4;
+                --accent-orange: #E96B46;
+                --accent-yellow: #FF8C64;
                 --bg-card: rgba(30, 41, 59, 0.4);
                 --border-color: rgba(148, 163, 184, 0.1);
             }
@@ -29,7 +30,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                 width: 1200px; 
                 max-width: 100%; 
                 margin: auto; 
-                padding: 2em 1em; 
+                padding: 8rem 1em 2em; 
                 min-height: 100vh;
             }
 
@@ -92,9 +93,9 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
             }
             .search-input:focus {
                 outline: none;
-                border-color: var(--accent-blue);
+                border-color: var(--accent-orange);
                 background: rgba(0, 0, 0, 0.5);
-                box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+                box-shadow: 0 0 0 2px rgba(233, 107, 70, 0.3);
             }
             .search-input::placeholder { color: #64748b; }
             .search-icon {
@@ -137,8 +138,8 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                 color: #fff;
             }
             .tag-chip.active {
-                background: var(--accent-blue);
-                border-color: var(--accent-blue);
+                background: var(--accent-orange);
+                border-color: var(--accent-orange);
                 color: #fff;
             }
 
@@ -195,7 +196,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
 				transform: translateY(-5px);
                 background: rgba(30, 41, 59, 0.6);
                 box-shadow: 0 15px 30px rgba(0,0,0,0.5);
-                border-color: rgba(59, 130, 246, 0.3);
+                border-color: rgba(233, 107, 70, 0.3);
 			}
             
             .img-container {
@@ -229,7 +230,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
 				font-weight: 700;
 				margin-bottom: 1rem;
 			}
-            a.card:hover .title { color: var(--accent-blue); }
+            a.card:hover .title { color: var(--accent-orange); }
 
             .post-tags {
                 margin-top: auto;
@@ -333,6 +334,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
 	</head>
 	<body>
 		<Header />
+        <BackgroundEffects />
 		<main>
             <div class="page-header">
                 <h1 class="page-title">Engineering Insights</h1>
@@ -389,7 +391,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
 					}
                     <div id="no-results">
                         <p>No articles found matching your criteria.</p>
-                        <button id="resetBtn" style="background:transparent; border:1px solid var(--accent-blue); color:var(--accent-blue); padding:0.5rem 1rem; border-radius:6px; cursor:pointer; margin-top:1rem; font-size:0.9rem;">Clear Filters</button>
+                        <button id="resetBtn" style="background:transparent; border:1px solid var(--accent-orange); color:var(--accent-orange); padding:0.5rem 1rem; border-radius:6px; cursor:pointer; margin-top:1rem; font-size:0.9rem;">Clear Filters</button>
                     </div>
 				</ul>
 			</section>

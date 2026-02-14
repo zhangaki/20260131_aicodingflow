@@ -7,17 +7,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@500;700&display=swap');
 
 :root {
-	--accent: #60A5FA;
-	--accent-light: #93C5FD;
-	--accent-dark: #2563EB;
-	--accent-glow: rgba(96, 165, 250, 0.3);
-	--black: #0a0c10;
-	--gray: #94a3b8;
-	--gray-light: #1e293b;
-	--gray-dark: #f1f5f9;
-	--background: #0f172a;
-	--glass: rgba(15, 23, 42, 0.6);
-	--glass-border: rgba(255, 255, 255, 0.1);
+	--accent: #E96B46;
+	--accent-light: #FF8C64;
+	--accent-dark: #B43C1E;
+	--accent-glow: rgba(233, 107, 70, 0.3);
+	--black: #0a0a0a;
+	--gray: #a3a3a3;
+	--gray-light: #262626;
+	--gray-dark: #f5f5f5;
+	--background: #0a0a0a;
+	--glass: rgba(10, 10, 10, 0.6);
+	--glass-border: rgba(255, 255, 255, 0.08);
 	--box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
 	--card-border: 1px solid rgba(255, 255, 255, 0.1);
 	--font-main: 'Inter', system-ui, sans-serif;
@@ -30,11 +30,10 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: #0f172a;
-	background-image:
-		radial-gradient(at 0% 0%, rgba(111, 177, 252, 0.12) 0px, transparent 50%),
-		radial-gradient(at 100% 0%, rgba(0, 82, 212, 0.08) 0px, transparent 50%),
-		radial-gradient(at 50% 100%, rgba(35, 213, 171, 0.04) 0px, transparent 50%);
+	background: #0a0a0a;
+	background-image: radial-gradient(at 0% 0%, rgba(233, 107, 70, 0.12) 0px, transparent 50%),
+		radial-gradient(at 100% 0%, rgba(180, 60, 30, 0.08) 0px, transparent 50%),
+		radial-gradient(at 50% 100%, rgba(233, 107, 70, 0.04) 0px, transparent 50%);
 	background-attachment: fixed;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
@@ -63,8 +62,8 @@ main {
 }
 
 .glass:hover {
-	border-color: rgba(96, 165, 250, 0.3);
-	background: rgba(15, 23, 42, 0.7);
+	border-color: rgba(233, 107, 70, 0.3);
+	background: rgba(10, 10, 10, 0.7);
 }
 
 h1,
@@ -157,7 +156,7 @@ table {
 }
 
 .prose table thead {
-	background: rgba(111, 177, 252, 0.15);
+	background: rgba(233, 107, 70, 0.15);
 }
 
 .prose table th {
@@ -178,7 +177,7 @@ table {
 }
 
 .prose table tbody tr:hover {
-	background: rgba(111, 177, 252, 0.05);
+	background: rgba(233, 107, 70, 0.05);
 	transition: background 0.2s ease;
 }
 
@@ -238,7 +237,7 @@ img:hover {
 }
 
 .prose blockquote {
-	background: rgba(111, 177, 252, 0.1);
+	background: rgba(233, 107, 70, 0.1);
 	border-left: 4px solid var(--accent);
 	margin: 2rem 0;
 	padding: 1.5rem;

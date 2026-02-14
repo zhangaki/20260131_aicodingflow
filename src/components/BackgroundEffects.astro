@@ -1,0 +1,45 @@
+---
+---
+
+<div class="background-effects">
+    <div class="grid-overlay"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+</div>
+
+<style>
+    .background-effects {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+        overflow: hidden;
+        pointer-events: none;
+    }
+    .grid-overlay {
+        position: absolute;
+        inset: 0;
+        background-image: 
+            linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        background-size: 50px 50px;
+        mask-image: radial-gradient(circle at center, black 60%, transparent 100%);
+        -webkit-mask-image: radial-gradient(circle at center, black 60%, transparent 100%);
+    }
+    .glow-orb {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(80px);
+        opacity: 0.4;
+        animation: float 20s infinite ease-in-out;
+    }
+    .orb-1 { width: 400px; height: 400px; background: var(--accent); top: -10%; left: -10%; animation-delay: 0s; }
+    .orb-2 { width: 500px; height: 500px; background: #6366f1; bottom: -20%; right: -10%; animation-delay: -10s; }
+
+    @keyframes float {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(30px, 50px); }
+    }
+</style>

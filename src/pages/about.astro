@@ -7,7 +7,7 @@ import Layout from '../layouts/BlogPost.astro';
 	title="About the Architecture"
 	description="How this AI Efficiency Hub is built and why it exists."
 	pubDate={new Date('January 01 2026')}
-	heroImage="/assets/blog-placeholder-about.webp"
+	heroImage="/assets/post-scarcity-cover.webp"
 >
 	<div class="mission-statement">
 		<p class="lead">
@@ -104,7 +104,9 @@ import Layout from '../layouts/BlogPost.astro';
 		margin: 3rem 0;
 	}
 	.stat-card {
-		background: rgba(255, 255, 255, 0.03);
+		background-color: rgba(255, 255, 255, 0.03);
+		backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(20px);
 		border: 1px solid var(--glass-border);
 		padding: 1.5rem;
 		border-radius: 16px;
@@ -169,7 +171,9 @@ import Layout from '../layouts/BlogPost.astro';
         gap: 1.5rem;
     }
     .agent-card {
-        background: rgba(255,255,255,0.03);
+        background-color: rgba(255,255,255,0.03);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         border: 1px solid var(--glass-border);
         padding: 1.5rem;
         border-radius: 16px;
@@ -221,7 +225,9 @@ import Layout from '../layouts/BlogPost.astro';
         gap: 0.8rem;
     }
     .tech-item {
-        background: rgba(15, 23, 42, 0.6);
+        background-color: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         border: 1px solid rgba(255,255,255,0.1);
         padding: 0.5rem 1rem;
         border-radius: 8px;

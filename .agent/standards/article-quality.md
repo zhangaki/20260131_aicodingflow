@@ -12,22 +12,27 @@ This document defines the quality and technical standards for all articles on ai
 - **No Conversational Filler**: Content must NOT start with AI conversational intros like "Okay, here's a draft..." or "I have crafted...".
 
 ## 2. Content Quality (HCU / E-E-A-T)
-- **First-Person Perspective**: Use "I", "me", "my" to demonstrate personal experience/testing (e.g., "I spent the last two weeks diving deep into...").
+### Word Count Standards
+- **Hard Minimum**: **1,000+ words** for indexable content.
+- **Thin Content Penalty**: Any article **<500 words** must be marked with `noindex: true` (managed by `noindex_thin.py`).
+- **Optimal SEO Range**: **1,500 - 2,500 words** is the target for standard reviews and tutorials.
+- **Pillar Content**: **3,000+ words** for high-authority "Pillar" or "Deep Dive" articles.
+
+### Quality Signals
+- **Expertise Signals (Required)**: Every article must include "First-hand experience" phrases (e.g., "I tested this for 30 days...", "Our engineering team found...").
 - **Specific Data/Benchmarks**: Include specific numbers (pricing, token speed, benchmark scores) rather than generic adjectives.
-- **Structure**:
-  - `H1` (Title): Unique and SEO-optimized.
-  - `H2/H3`: Logical flow, using keywords naturally.
-  - **FAQ Section**: Articles should ideally end with an FAQ section to trigger rich snippets.
-- **Tone**: Professional, helpful, developer-centric, and data-driven.
+- **Data Density**: Every deep-dive post must have a validated table (**Metric | Target | Standard**) to show data density.
+- **AEO/GEO markers**: Include explicit mentions of `llms.txt`, `JSON-LD`, and `crawlers` to attract AI-native traffic.
+- **Native-Level English**: Avoid "Chinglish" and AI-isms. The flow must be natural and professional.
 
 ## 3. SEO & Internal Linking
 - **Internal Links**: Every article should have 3-5 relevant internal links (handled by `internal_link_builder.py`).
-- **Keyword Density**: Natural use of primary and secondary keywords.
-- **No "AI Footprints"**: Remove repetitive phrases typical of LLMs (e.g., "In the rapidly evolving landscape...").
+- **Keyword Density**: Natural use of primary and secondary keywords. Avoid "AI News" keywords; stick to technical architecture terminology.
+- **Pro Tips**: Include tool-specific "Pro Tips" (e.g., Cursor's Composer mode vs standard completion).
 
 ## 4. Resource Optimization
 - **Images**: All images must be optimized WebP format (max width 1280px).
-- **Alt Text**: Image tags should have descriptive alt text (if implemented in the layout).
+- **Alt Text**: Image tags should have descriptive alt text.
 
 ## 5. Automated Audit Process
 The standards above are enforced by:

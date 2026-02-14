@@ -5,6 +5,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import BackgroundEffects from '../components/BackgroundEffects.astro';
 import AffiliateCard from '../components/AffiliateCard.astro';
 import SocialShare from '../components/SocialShare.astro';
 
@@ -111,7 +112,7 @@ const relatedPosts = post ? allPosts
 				padding: 3.5rem;
 				color: var(--gray-dark);
                 /* Restore Glass Effect */
-				background: rgba(15, 23, 42, 0.6); 
+				background: rgba(10, 10, 10, 0.7); 
 				backdrop-filter: blur(40px);
 				-webkit-backdrop-filter: blur(40px);
 				border-radius: 32px;
@@ -259,7 +260,7 @@ const relatedPosts = post ? allPosts
                 line-height: 1.4;
             }
             .nav-link:hover .nav-title {
-                color: var(--accent-blue);
+                color: var(--accent);
             }
             .nav-placeholder {
                 flex: 1;
@@ -323,6 +324,7 @@ const relatedPosts = post ? allPosts
 
 	<body>
 		<Header />
+        <BackgroundEffects />
 		<main>
 			<article>
 				<div class="hero-image">
