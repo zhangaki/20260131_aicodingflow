@@ -338,6 +338,14 @@ def run_audit():
                 file_issues.append(f"Prose trapped in code block (Line {i+1}): {stripped[:60]}...")
                 break  # Report only the first instance per file
 
+        # 6. Check for literal H-tag labels (e.g., **H2: Title** or H3: Title)
+        h_tag_pattern = re.compile(r'^\*{0,2}H([2-6]):\s*(.+?)\*{0,2}$')
+        for i, line in enumerate(lines):
+            stripped = line.strip()
+            if h_tag_pattern.match(stripped):
+                file_issues.append(f"Literal H-tag label (Line {i+1}): {stripped[:60]}")
+                break  # Report only the first instance per file
+
         if file_issues:
             issues_found += 1
             print(f"File: {filepath.name}")
@@ -420,7 +428,9 @@ def run_format():
         modified = False
         in_code_block = False
         
-        # Pass 1: Fix Trapped Text
+        # Pass 1: Fix Trapped Text + H-tag Labels
+        h_tag_pattern = re.compile(r'^(\*{2})H([2-6]):\s*(.+?)\1$')  # **H2: Title**
+        h_tag_bare = re.compile(r'^H([2-6]):\s*(.+)$')  # H2: Title
         i = 0
         while i < len(lines):
             line = lines[i]
@@ -441,6 +451,27 @@ def run_format():
                 i += 1
                 print(f"    Closed code block before prose at line {i}")
                 continue
+            
+            # Fix **H2: Title** → ## Title
+            if not in_code_block:
+                m = h_tag_pattern.match(stripped)
+                if m:
+                    level = int(m.group(2))
+                    title = m.group(3).rstrip('*').strip()
+                    new_lines.append('#' * level + ' ' + title + '\n')
+                    modified = True
+                    i += 1
+                    print(f"    Converted H{level} label at line {i}")
+                    continue
+                m = h_tag_bare.match(stripped)
+                if m:
+                    level = int(m.group(1))
+                    title = m.group(2).strip()
+                    new_lines.append('#' * level + ' ' + title + '\n')
+                    modified = True
+                    i += 1
+                    print(f"    Converted H{level} label at line {i}")
+                    continue
             
             new_lines.append(line)
             i += 1
