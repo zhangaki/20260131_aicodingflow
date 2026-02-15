@@ -39,7 +39,18 @@ python scripts/02_unified_content_workflow.py --topic "OpenAI o3 Release" --mode
 
 # Detailed Guide (Step-by-step, tutorial style)
 python scripts/02_unified_content_workflow.py --topic "How to fine-tune Llama 3" --mode guide
+```bash
+# General Technical Article
+python scripts/02_unified_content_workflow.py --topic "Future of AI Agents" --mode general
+
+# News Brief (Short, punchy, trend-focused)
+python scripts/02_unified_content_workflow.py --topic "OpenAI o3 Release" --mode news
+
+# Detailed Guide (Step-by-step, tutorial style)
+python scripts/02_unified_content_workflow.py --topic "How to fine-tune Llama 3" --mode guide
 ```
+
+**✨ New Feature:** Automatically generates **High-Impact Artistic** hero images (e.g., Surrealism, Pop Art, Cyberpunk, Van Gogh) instead of generic stock photos. No extra flags needed.
 
 ### `03_programmatic_seo_engine.py` (The Bulk Generator)
 **Purpose:** Generating volume content based on structured data (Comparison, Listicle, Review, Tutorial).
