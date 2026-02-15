@@ -330,6 +330,22 @@ const relatedPosts = post ? allPosts
                 overflow: hidden;
             }
 
+            /* Table horizontal scroll */
+            .prose {
+                overflow-x: hidden;
+            }
+            .prose table {
+                display: block;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                max-width: 100%;
+                white-space: nowrap;
+            }
+            .prose table th,
+            .prose table td {
+                white-space: normal;
+                min-width: 120px;
+            }
             /* Ad Unit Styling */
             .ad-unit {
                 background: repeating-linear-gradient(
