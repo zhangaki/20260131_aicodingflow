@@ -384,6 +384,12 @@ const posts = (await getCollection('blog')).sort(
                     flex-direction: column !important; 
                     padding: 1.5rem; 
                     border-radius: 32px; 
+                    /* Mobile Perf: Disable heavy effects */
+                    backdrop-filter: none !important;
+                    -webkit-backdrop-filter: none !important;
+                    box-shadow: none !important;
+                    background: #111 !important;
+                    border: 1px solid rgba(255, 255, 255, 0.15);
                 }
                 .small-card-content {
                     padding: 0.5rem 1.5rem;
@@ -398,6 +404,9 @@ const posts = (await getCollection('blog')).sort(
                     width: 280px !important; 
                     min-width: 280px; 
                     padding: 1.2rem;
+                    /* Mobile Perf */
+                    backdrop-filter: none !important;
+                    background: #111 !important;
                 }
 
                 .latest-insights { margin-top: 3rem; padding-top: 2rem; }
@@ -406,6 +415,32 @@ const posts = (await getCollection('blog')).sort(
                     grid-template-columns: 1fr; 
                     gap: 1.5rem; 
                 }
+                .post-card {
+                    /* Mobile Perf */
+                    backdrop-filter: none !important;
+                    -webkit-backdrop-filter: none !important;
+                    box-shadow: none !important;
+                    background: #111 !important;
+                    border: 1px solid rgba(255, 255, 255, 0.15);
+                    transform: none !important; /* Disable hover float on touch */
+                }
+            }
+            
+            /* View All Button */
+            .view-all-btn {
+                display: inline-block;
+                padding: 0.8rem 2rem;
+                background: rgba(255, 255, 255, 0.1);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                border-radius: 100px;
+                color: #fff;
+                text-decoration: none;
+                font-weight: 600;
+                transition: all 0.3s ease;
+            }
+            .view-all-btn:hover {
+                background: #fff;
+                color: #000;
             }
 		</style>
 	</head>
@@ -679,7 +714,7 @@ const posts = (await getCollection('blog')).sort(
 				<h2 class="proximity-text">Latest Insights</h2>
 				<div class="posts-grid">
 					{
-						posts.map((post) => (
+						posts.slice(0, 6).map((post) => (
 							<a href={`/blog/${post.id}`} class="post-card">
 								<div class="post-image">
 									<img 
@@ -699,6 +734,9 @@ const posts = (await getCollection('blog')).sort(
 						))
 					}
 				</div>
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="/blog" class="view-all-btn">View All Posts</a>
+                </div>
 			</section>
 		</main>
 		<Footer />
