@@ -124,5 +124,41 @@ While 2-bit quantization provides significant efficiency gains, further optimiza
 
 The following code examples illustrate how to load and run the HY-1.8B model with a popular framework, demonstrate quantization/dequantization snippets, and showcase speed and accuracy measurement.
 
-*Note: These examples are simplified...*
+*Note: These examples are simplified and illustrative. Refer to the official Tencent Hunyuan documentation for production-ready implementations.*
+
+```python
+# Loading the HY-1.8B-2Bit model with Hugging Face Transformers
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+model_name = "tencent/HY-1.8B-2Bit"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    device_map="auto",
+    low_cpu_mem_usage=True
+)
+
+# Simple inference
+prompt = "Explain 2-bit quantization in one sentence:"
+inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+outputs = model.generate(**inputs, max_new_tokens=128)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ```
+
+```python
+# Measuring inference speed
+import time
+
+prompt = "What is edge deployment?"
+inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+
+start = time.time()
+outputs = model.generate(**inputs, max_new_tokens=256)
+elapsed = time.time() - start
+
+num_tokens = outputs.shape[1] - inputs["input_ids"].shape[1]
+print(f"Generated {num_tokens} tokens in {elapsed:.2f}s")
+print(f"Speed: {num_tokens / elapsed:.1f} tokens/sec")
+```
+
+These examples demonstrate the simplicity of loading and running the quantized model. The key takeaway is that 2-bit quantization enables deployment on consumer hardware while maintaining competitive accuracy, opening up new possibilities for privacy-preserving, on-device AI applications.
