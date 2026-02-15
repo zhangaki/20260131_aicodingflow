@@ -109,26 +109,24 @@ FAKE_DATA_PATTERNS = [
 ]
 
 STYLES = [
-    # 1. Master Artists & Fine Art
-    "Vincent van Gogh style, thick impasto brushstrokes, swirling starry night sky patterns, vibrant yellow and blue palette, expressive oil painting",
-    "Claude Monet style, impressionist garden atmosphere, soft dappled light, water lilies, pastel colors, dreamy oil painting texture",
-    "Salvador Dali surrealism, melting clocks, dreamlike desert landscape, strange floating objects, hyper-realistic detail, bizarre juxtaposition",
-    "Kim Jung Gi style, intricate black ink sketch, fish-eye perspective, dynamic composition, detailed character crowds, cross-hatching shade",
-    "Edward Hopper style, cinematic solitude, dramatic sunlight and shadows, realistic urban setting, lonely mood, rich colors",
+    # 1. Premium Tech / Abstract 3D (Stripe/Vercel/Linear style)
+    "Abstract 3D glass shapes, soft multi-color gradients, frosted texture, floating elements, clean white background, high-end SaaS aesthetic",
+    "Dark mode tech abstract, glowing gradient lines, fluid mesh shapes, deep purple and blue palette, digital flow, modern background",
+    "Minimalist geometric 3D composition, matte materials, soft studio lighting, pastel colors, clean architectural shapes, organized",
+    "Futuristic data visualization, elegant particle flow, depth of field, subtle bokeh, sophisticated blue and grey tones, professional",
+    "Glassmorphism spheres and cubes, refracting light, vibrant accent colors (teal/violet), clean modern composition, raytracing",
 
-    # 2. Digital Art & Illustration
-    "Studio Ghibli style, lush green landscapes, fluffy clouds, whimsical atmosphere, hand-drawn anime aesthetic, detailed background",
-    "Cyberpunk Edgerunners style, trigger anime aesthetic, neon colors, chromatic aberration, dynamic action lines, bold contrast",
-    "Moebius (Jean Giraud) style, sci-fi comic art, fine line work, flat pastel colors, surreal desert landscapes, intricate details",
-    "Isometric 3D Digital Art, Blender render, cute stylized assets, soft clay shader, pastel lighting, cozy atmosphere",
-    "Digital CG Art, ArtStation trending, Octane render, hyper-detailed, dramatic lighting, volumetric fog, cinematic composition",
-
-    # 3. Conceptual & Abstract
-    "Dreamlike fantasy landscape, ethereal glowing plants, floating islands, bioluminescent colors, magical atmosphere, digital painting",
-    "Realistic Comic Book style, Marvel/DC cover art quality, dynamic posing, dramatic inking, bold coloring, high contrast",
-    "Abstract Alcohol Ink art, fluid flowing colors, gold leaf accents, marble texture, organic shapes, vibrant and elegant",
-    "Double Exposure, silhouette containing a galaxy, starry night, dreamlike blend of nature and space, surrealsim",
-    "Low Poly 3D, geometric facets, vibrant gradient lighting, clean digital art, paper-craft aesthetic"
+    # 2. Professional / Editorial Photography
+    "High-end tech workspace, macbook pro on wooden desk, soft natural window light, plant shadow, shallow depth of field, authentic",
+    "Macro detail of modern electronics, silver metal texture, elegant curves, cool lighting, premium hardware aesthetic, wallpaper quality",
+    "Minimalist architectural detail, glass facade reflection, blue sky, geometric lines, sense of scale and progress, corporate editorial",
+    "Abstract light painting, long exposure, smooth curves of light in dark studio, visualizing speed and connectivity, kinetic energy",
+    
+    # 3. Clean Graphic Design (Swiss/Modern)
+    "Swiss International Style, bold typography layout (no actual text), asymmetrical grid, negative space, strong contrast, red/black/white",
+    "Neo-Grotesque gradient mesh, fluid color transitions, grain texture, vibrant but professional, modern startup branding",
+    "Technical blueprint aesthetic, but modernized, white thin lines on deep navy gradient, subtle glowing nodes, precision engineering",
+    "Abstract topographical map lines, elevation contours, clean vector style, representing data and terrain, tech blue colors"
 ]
 
 class ContentWorkflow:
