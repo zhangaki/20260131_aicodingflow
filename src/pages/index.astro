@@ -71,12 +71,12 @@ const posts = (await getCollection('blog')).sort(
             .bento-grid {
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
-                grid-template-rows: repeat(2, minmax(320px, auto));
+                grid-template-rows: repeat(2, minmax(260px, auto));
                 gap: 1.5rem;
             }
             .bento-item {
                 position: relative;
-                padding: 2.5rem;
+                padding: 2rem;
                 border-radius: 40px;
                 border: 1px solid rgba(255,255,255,0.05);
                 background: linear-gradient(135deg, rgba(23, 23, 23, 0.4) 0%, rgba(10, 10, 10, 0.6) 100%);
@@ -102,7 +102,7 @@ const posts = (await getCollection('blog')).sort(
                 grid-column: span 2; 
                 grid-row: span 2; 
                 justify-content: space-between; 
-                padding: 3rem;
+                padding: 2.5rem;
             }
             .bento-item:nth-child(2) { 
                 grid-column: span 2; 
@@ -122,7 +122,7 @@ const posts = (await getCollection('blog')).sort(
             /* Internal content for small cards */
             .small-card-content {
                 flex: 1.2;
-                padding: 2.5rem;
+                padding: 2rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
