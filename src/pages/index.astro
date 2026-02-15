@@ -67,7 +67,7 @@ const posts = (await getCollection('blog')).sort(
 
             /* Bento Grid */
             .featured-sections { margin: 6rem 0; }
-            .featured-sections h2 { font-size: 2.5rem; margin-bottom: 3rem; text-align: left; }
+            .featured-sections h2 { font-size: 2.5rem; margin-bottom: 3rem; text-align: center; }
             .bento-grid {
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
@@ -295,7 +295,7 @@ const posts = (await getCollection('blog')).sort(
 
             /* Latest Insights (Post Grid) */
 			.latest-insights { margin-top: 6rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 4rem; }
-            .latest-insights h2 { font-size: 2.5rem; margin-bottom: 2rem; }
+            .latest-insights h2 { font-size: 2.5rem; margin-bottom: 2rem; text-align: center; }
 			.posts-grid { 
                 display: grid; 
                 grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
