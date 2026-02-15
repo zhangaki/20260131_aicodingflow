@@ -9,6 +9,7 @@ tags:
 - research-tools
 title: 'Perplexity AI 2026: Pro Benefits, Deep Research & Features Review'
 updatedDate: Feb 13 2026
+noindex: true
 ---
 updatedDate: Feb 13 2026
 ---

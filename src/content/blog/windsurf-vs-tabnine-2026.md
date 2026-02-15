@@ -5,6 +5,7 @@ heroImage: /assets/windsurf-vs-tabnine-2026.webp
 pubDate: Dec 09 2025
 title: 'Stop Guessing: Windsurf vs Tabnine 2026 Competitive Audit'
 updatedDate: Feb 10 2026
+noindex: true
 ---
 
 # Stop Guessing: Windsurf vs Tabnine 2026 Competitive Audit

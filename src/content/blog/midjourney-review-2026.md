@@ -8,6 +8,7 @@ tags:
 - ai-image
 - image-generation
 title: 'Midjourney V7 Review 2026: Pricing, Free Trial & Image Quality Test'
+noindex: true
 ---
 
 ## Midjourney: The 2026 Reality Check

@@ -8,6 +8,7 @@ tags:
 - ai-business
 - enterprise-ai
 title: 'Salesforce Einstein AI Review 2026: CRM Features & Pricing'
+noindex: true
 ---
 
 ## Salesforce Einstein: The 2026 Reality Check

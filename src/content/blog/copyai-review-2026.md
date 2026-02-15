@@ -10,6 +10,7 @@ tags:
 - ai-writing
 - content-tools
 title: 'Copy.ai in 2026: A Practitioner''s Complete Review'
+noindex: true
 ---
 
 ## Copy.ai: The 2026 Reality Check

@@ -5,6 +5,7 @@ heroImage: /assets/grok-vs-claude-2026.webp
 pubDate: Dec 21 2025
 title: 'Grok vs Claude 2026: Which AI is Better for Coding?'
 updatedDate: Feb 12 2026
+noindex: true
 ---
 
 # Grok vs Claude 2026: The Data-Backed Truth

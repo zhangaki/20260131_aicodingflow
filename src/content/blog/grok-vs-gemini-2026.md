@@ -5,6 +5,7 @@ heroImage: /assets/grok-vs-gemini-2026.webp
 pubDate: Jan 15 2026
 title: Which Wins in 2026? Grok vs Gemini Breakdown
 updatedDate: Feb 10 2026
+noindex: true
 ---
 
 # Which Wins in 2026? Grok vs Gemini Breakdown

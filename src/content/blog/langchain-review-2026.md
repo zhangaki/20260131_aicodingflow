@@ -11,6 +11,7 @@ tags:
 - frameworks
 title: 'LangChain Review 2026: RAG Pipeline, Features & Documentation'
 updatedDate: Feb 12 2026
+noindex: true
 ---
 
 ## LangChain: The 2026 Reality Check

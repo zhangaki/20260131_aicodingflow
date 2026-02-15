@@ -5,6 +5,7 @@ heroImage: /assets/claude-46-opus-vs-openai-o3-2026.webp
 pubDate: Jan 24 2026
 title: 'Claude 4.6 Opus vs OpenAI o3 2026: The Data-Backed Truth'
 updatedDate: Feb 10 2026
+noindex: true
 ---
 
 # Claude 4.6 Opus vs OpenAI o3 2026: The Data-Backed Truth

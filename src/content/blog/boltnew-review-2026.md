@@ -10,6 +10,7 @@ tags:
 - ai-tools
 - technology
 title: 'bolt.new in 2026: A Practitioner''s Complete Review'
+noindex: true
 ---
 
 ## bolt.new: The 2026 Reality Check

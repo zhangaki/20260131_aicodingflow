@@ -11,6 +11,7 @@ tags:
 - ai-agents
 title: 'How to Use CrewAI 2026: Multi-Agent Orchestration Tutorial'
 updatedDate: Feb 12 2026
+noindex: true
 ---
 
 ## A Practitioner's Guide to CrewAI for Orchestrating Multi-Agent Systems

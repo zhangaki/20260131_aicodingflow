@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-tools
 title: 'How to Use Replit AI for Productivity 2026: Coding Tutorial'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Replit AI for Boosting Your Productivity

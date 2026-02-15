@@ -9,6 +9,7 @@ tags:
 - developer-tools
 title: 'GitHub Copilot 2026: Free Trial, Individual vs Business Pricing & Features'
 updatedDate: Feb 13 2026
+noindex: true
 ---
 
 ## GitHub Copilot Review 2026: Is It Worth Your Money?

@@ -11,6 +11,7 @@ tags:
 - image-generation
 title: 'Leonardo AI Review 2026: Image Generation, Pricing & Quality'
 updatedDate: Feb 12 2026
+noindex: true
 ---
 
 ## Leonardo AI: The 2026 Reality Check

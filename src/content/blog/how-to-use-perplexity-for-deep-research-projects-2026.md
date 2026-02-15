@@ -10,6 +10,7 @@ tags:
 - how-to
 - ai-search
 title: 'Using Perplexity for Deep Research Projects: A Practical 2026 Walkthrough'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Perplexity for Deep Research Projects

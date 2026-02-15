@@ -8,6 +8,7 @@ tags:
 - ai-search
 - research-tools
 title: 'You.com Review 2026: AI Search Engine Features & Free vs Pro'
+noindex: true
 ---
 
 ## You.com: The 2026 Reality Check

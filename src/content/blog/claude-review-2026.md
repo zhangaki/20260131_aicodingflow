@@ -10,6 +10,7 @@ tags:
 - ai-chatbot
 title: 'Claude AI Review 2026: Features, Pricing & More'
 updatedDate: Feb 14 2026
+noindex: true
 ---
 
 ## Claude Review 2026: Is It Worth Your Money?

@@ -10,6 +10,7 @@ tags:
 - how-to
 - ai-video
 title: 'Using Sora for Generating Cinematic Video Clips: A Practical 2026 Walkthrough'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Sora for Generating Cinematic Video Clips

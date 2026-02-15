@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-search
 title: 'How to Use You.com for Research 2026: AI Search Tutorial'
+noindex: true
 ---
 
 ## A Practitioner's Guide to You.com for Deep Research Projects

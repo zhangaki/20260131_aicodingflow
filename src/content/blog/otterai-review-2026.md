@@ -8,6 +8,7 @@ tags:
 - ai-productivity
 - workflow
 title: 'Otter.ai Review 2026: Free vs Pro ($17/Month) Meeting Transcription'
+noindex: true
 ---
 
 ## Otter.ai: The 2026 Reality Check

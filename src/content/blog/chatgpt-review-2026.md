@@ -10,6 +10,7 @@ tags:
 - ai-chatbot
 title: 'ChatGPT Review 2026: Custom GPTs, Pricing & Features Guide'
 updatedDate: Feb 12 2026
+noindex: true
 ---
 
 ## ChatGPT Review 2026: Is It Worth Your Money?

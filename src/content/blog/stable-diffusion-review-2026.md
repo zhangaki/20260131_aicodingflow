@@ -8,6 +8,7 @@ tags:
 - ai-image
 - image-generation
 title: 'Stable Diffusion XL Review 2026: Free, Open-Source & Self-Hosted'
+noindex: true
 ---
 
 ## Stable Diffusion Review 2026: Is It Worth Your Money?

@@ -5,6 +5,7 @@ heroImage: /assets/grok-vs-openai-o3-2026.webp
 pubDate: Dec 27 2025
 title: 'Grok vs OpenAI o3: The 2026 Feature Matrix'
 updatedDate: Feb 10 2026
+noindex: true
 ---
 
 # Grok vs OpenAI o3: The 2026 Feature Matrix

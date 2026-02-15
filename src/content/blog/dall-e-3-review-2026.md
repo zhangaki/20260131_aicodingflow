@@ -9,6 +9,7 @@ tags:
 - ai-image
 - image-generation
 title: 'DALL-E 3 Review 2026: Features, Pricing, and Our Honest Verdict'
+noindex: true
 ---
 
 ## DALL-E 3 Review 2026: Is It Worth Your Money?

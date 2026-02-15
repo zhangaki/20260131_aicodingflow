@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-agents
 title: 'How to Build a RAG Pipeline with LangChain 2026: Production Guide'
+noindex: true
 ---
 
 ## A Practitioner's Guide to LangChain for Building a Production RAG Pipeline

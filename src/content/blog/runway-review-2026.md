@@ -10,6 +10,7 @@ tags:
 - video-generation
 title: 'Runway Gen-3 Review 2026: Free Tier, Pricing & Video Quality'
 updatedDate: Feb 12 2026
+noindex: true
 ---
 
 ## Runway Review 2026: Is It Worth Your Money?

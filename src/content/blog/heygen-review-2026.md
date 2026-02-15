@@ -9,6 +9,7 @@ tags:
 - ai-video
 - video-generation
 title: 'HeyGen Review 2026: Features, Pricing, and Our Honest Verdict'
+noindex: true
 ---
 
 ## HeyGen Review 2026: Is It Worth Your Money?

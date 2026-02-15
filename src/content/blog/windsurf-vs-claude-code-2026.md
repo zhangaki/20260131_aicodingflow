@@ -4,6 +4,7 @@ heroImage: /assets/windsurf-vs-claude-code-2026.webp
 pubDate: Dec 29 2025
 title: 'Windsurf vs Claude Code 2026: Which AI Editor is Better?'
 updatedDate: Feb 10 2026
+noindex: true
 ---
 
 # Which Wins in 2026? Windsurf vs Claude Code Breakdown

@@ -5,6 +5,7 @@ heroImage: /assets/chatgpt-vs-claude-46-opus-2026.webp
 pubDate: Jan 27 2026
 title: 'ChatGPT vs Claude 4.6 Opus: The 2026 Feature Matrix'
 updatedDate: Feb 10 2026
+noindex: true
 ---
 
 # ChatGPT vs Claude 4.6 Opus: The 2026 Feature Matrix

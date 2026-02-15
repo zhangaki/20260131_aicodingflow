@@ -8,6 +8,7 @@ tags:
 - ai-video
 - video-generation
 title: 'OpenAI Sora Review 2026: Features, Pricing & Video Quality Test'
+noindex: true
 ---
 
 ## Sora: The 2026 Reality Check

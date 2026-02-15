@@ -9,6 +9,7 @@ tags:
 - llm
 - ai-chatbot
 title: 'Gemini Review 2026: Features, Pricing, and Our Honest Verdict'
+noindex: true
 ---
 
 ## Gemini Review 2026: Is It Worth Your Money?

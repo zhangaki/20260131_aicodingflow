@@ -9,6 +9,7 @@ tags:
 - ai-music
 - music-generation
 title: 'Udio Review 2026: Features, Pricing, and Our Honest Verdict'
+noindex: true
 ---
 
 ## Udio Review 2026: Is It Worth Your Money?

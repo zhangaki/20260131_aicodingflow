@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-coding
 title: 'How to Use Trae to Build Projects for Free 2026: Zero-Budget Guide'
+noindex: true
 ---
 
 ## How to Use Trae for Building Projects on a Zero Budget: Everything You Need to Know

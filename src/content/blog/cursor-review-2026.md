@@ -9,6 +9,7 @@ tags:
 - ai-coding
 - developer-tools
 title: 'Cursor Review 2026: Features, Pricing, and Our Honest Verdict'
+noindex: true
 ---
 
 ## Cursor Review 2026: Is It Worth Your Money?

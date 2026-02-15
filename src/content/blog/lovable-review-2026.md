@@ -10,6 +10,7 @@ tags:
 - technology
 title: 'Lovable AI Review 2026: Features, Pricing & vs Bolt Comparison'
 updatedDate: Feb 12 2026
+noindex: true
 ---
 
 ## Lovable Review 2026: Is It Worth Your Money?

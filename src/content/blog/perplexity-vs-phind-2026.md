@@ -5,6 +5,7 @@ heroImage: /assets/perplexity-vs-phind-2026.webp
 pubDate: Feb 06 2026
 title: 'Stop Guessing: Perplexity vs Phind 2026 Competitive Audit'
 updatedDate: Feb 10 2026
+noindex: true
 ---
 
 # Stop Guessing: Perplexity vs Phind 2026 Competitive Audit

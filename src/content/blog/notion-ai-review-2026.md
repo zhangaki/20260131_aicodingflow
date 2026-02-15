@@ -10,6 +10,7 @@ tags:
 - workflow
 title: 'Notion AI: Is It Worth It in 2026?'
 updatedDate: Feb 14 2026
+noindex: true
 ---
 
 ## Notion AI: The 2026 Reality Check

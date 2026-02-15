@@ -10,6 +10,7 @@ tags:
 - how-to
 - ai-image
 title: 'Using Midjourney for Creating Professional Graphics: A Practical 2026 Walkthrough'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Midjourney for Creating Professional Graphics

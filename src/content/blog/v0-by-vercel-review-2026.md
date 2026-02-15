@@ -10,6 +10,7 @@ tags:
 - technology
 title: 'v0 by Vercel Review 2026: AI Code Generation, Pricing & Features'
 updatedDate: Feb 12 2026
+noindex: true
 ---
 
 ## v0 by Vercel Review 2026: Is It Worth Your Money?

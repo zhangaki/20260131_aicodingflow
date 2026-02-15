@@ -9,6 +9,7 @@ tags:
 - ai-coding
 - developer-tools
 title: 'Claude Code Review 2026: Features, Pricing, and Our Honest Verdict'
+noindex: true
 ---
 
 ## Claude Code Review 2026: Is It Worth Your Money?

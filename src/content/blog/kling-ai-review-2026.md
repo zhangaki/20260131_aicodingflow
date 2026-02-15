@@ -8,6 +8,7 @@ tags:
 - ai-video
 - video-generation
 title: 'Kling AI Review 2026: Video Generation Features, Pricing & Quality'
+noindex: true
 ---
 
 ## Kling AI Review 2026: Is It Worth Your Money?

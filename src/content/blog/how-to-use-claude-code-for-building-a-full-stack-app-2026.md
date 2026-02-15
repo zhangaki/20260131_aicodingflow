@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-coding
 title: 'How to Build a Full-Stack App with Claude Code 2026: Complete Tutorial'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Claude Code for Building a Full-Stack App

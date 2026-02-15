@@ -4,6 +4,7 @@ heroImage: /assets/grok-vs-claude-46-opus-2026.webp
 pubDate: Jan 17 2026
 title: 'Grok vs Claude 4.6 Opus 2026: Which AI is Better for Coding?'
 updatedDate: Feb 10 2026
+noindex: true
 ---
 
 # Which Wins in 2026? Grok vs Claude 4.6 Opus Breakdown

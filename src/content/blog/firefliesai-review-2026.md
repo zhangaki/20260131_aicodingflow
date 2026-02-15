@@ -9,6 +9,7 @@ tags:
 - ai-productivity
 - workflow
 title: 'Fireflies.ai Review 2026: Features, Pricing, and Our Honest Verdict'
+noindex: true
 ---
 
 ## Fireflies.ai Review 2026: Is It Worth Your Money?

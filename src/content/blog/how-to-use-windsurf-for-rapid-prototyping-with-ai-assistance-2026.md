@@ -11,6 +11,7 @@ tags:
 - ai-coding
 title: 'How to Use Windsurf for Rapid Prototyping with AI Assistance: Complete 2026
   Guide'
+noindex: true
 ---
 
 ## How to Use Windsurf for Rapid Prototyping with AI Assistance: Everything You Need to Know

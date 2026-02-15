@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-business
 title: 'How to Automate with Salesforce Einstein 2026: Workflow Guide'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Salesforce Einstein for Automating Business Workflows

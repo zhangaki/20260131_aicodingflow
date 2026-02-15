@@ -10,6 +10,7 @@ tags:
 - how-to
 - ai-coding
 title: 'Using Tabnine for Secure Enterprise Code Completion: A Practical 2026 Walkthrough'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Tabnine for Secure Enterprise Code Completion

@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-video
 title: 'How to Use HeyGen for AI Avatar Videos 2026: Presentation Tutorial'
+noindex: true
 ---
 
 ## A Practitioner's Guide to HeyGen for Producing AI Avatar Presentations

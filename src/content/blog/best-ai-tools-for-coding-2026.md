@@ -7,6 +7,7 @@ tags:
 - best-coding
 - ai-coding
 title: '15 Best AI Coding Tools 2026: GitHub Copilot, Cursor & More'
+noindex: true
 ---
 
 ## The Best AI Tools for Coding in 2026

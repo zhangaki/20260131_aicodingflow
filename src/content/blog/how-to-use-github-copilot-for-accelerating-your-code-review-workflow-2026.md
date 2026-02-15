@@ -11,6 +11,7 @@ tags:
 - ai-coding
 title: 'Using GitHub Copilot for Accelerating Your Code Review Workflow: A Practical
   2026 Walkthrough'
+noindex: true
 ---
 
 ## A Practitioner's Guide to GitHub Copilot for Accelerating Your Code Review Workflow

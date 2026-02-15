@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-video
 title: 'How to Use Synthesia for Marketing Videos 2026: Pro Tutorial'
+noindex: true
 ---
 
 ## How to Use Synthesia for Creating Professional Marketing Videos: Everything You Need to Know

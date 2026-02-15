@@ -10,6 +10,7 @@ tags:
 - how-to
 - llm
 title: 'Using Grok for Real-Time Social Media Analysis: A Practical 2026 Walkthrough'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Grok for Real-Time Social Media Analysis

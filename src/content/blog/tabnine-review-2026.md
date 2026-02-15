@@ -8,6 +8,7 @@ tags:
 - ai-coding
 - developer-tools
 title: 'Tabnine Review 2026: AI Code Completion vs GitHub Copilot & Codeium'
+noindex: true
 ---
 
 ## Tabnine Review 2026: Is It Worth Your Money?

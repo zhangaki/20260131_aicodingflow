@@ -9,6 +9,7 @@ tags:
 - ai-agents
 - frameworks
 title: 'CrewAI Review 2026: Features, Pricing, and Our Honest Verdict'
+noindex: true
 ---
 
 ## CrewAI Review 2026: Is It Worth Your Money?

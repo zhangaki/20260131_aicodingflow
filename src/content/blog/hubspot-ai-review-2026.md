@@ -8,6 +8,7 @@ tags:
 - ai-business
 - enterprise-ai
 title: 'HubSpot AI Review 2026: Marketing Automation Features & Pricing'
+noindex: true
 ---
 
 ## HubSpot AI Review 2026: Is It Worth Your Money?

@@ -8,6 +8,7 @@ tags:
 - ai-writing
 - content-tools
 title: 'Jasper AI Review 2026: Features, Pricing & Is It Worth $49/Month?'
+noindex: true
 ---
 
 ## Jasper AI Review 2026: Is It Worth Your Money?

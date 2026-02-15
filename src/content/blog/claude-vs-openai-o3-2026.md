@@ -5,6 +5,7 @@ heroImage: /assets/claude-vs-openai-o3-2026.webp
 pubDate: Dec 14 2025
 title: 'Claude vs OpenAI o3 2026: The Data-Backed Truth'
 updatedDate: Feb 10 2026
+noindex: true
 ---
 
 # Claude vs OpenAI o3 2026: The Data-Backed Truth

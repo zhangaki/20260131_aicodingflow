@@ -8,6 +8,7 @@ tags:
 - ai-writing
 - content-tools
 title: 'Grammarly AI Review 2026: Free vs Premium ($12/Month) Features'
+noindex: true
 ---
 
 ## Grammarly AI Review 2026: Is It Worth Your Money?

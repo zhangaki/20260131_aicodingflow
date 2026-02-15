@@ -9,6 +9,7 @@ tags:
 - ai-chatbot
 title: 'OpenAI o3 Model 2026: o3 vs o3-Pro Pricing, Features & Benchmarks'
 updatedDate: Feb 13 2026
+noindex: true
 ---
 
 ## OpenAI o3 Review 2026: Is It Worth Your Money?

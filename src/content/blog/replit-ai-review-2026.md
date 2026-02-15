@@ -10,6 +10,7 @@ tags:
 - technology
 title: 'Replit AI 2026: The Future of AI-Powered Coding?'
 updatedDate: Feb 13 2026
+noindex: true
 ---
 
 ## Replit AI Review 2026: Is It Worth Your Money?

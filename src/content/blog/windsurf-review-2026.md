@@ -9,6 +9,7 @@ tags:
 - developer-tools
 title: 'Windsurf 2026: Codeium Pricing, Free Tier Limits & Cascade Mode'
 updatedDate: Feb 13 2026
+noindex: true
 ---
 
 ## Windsurf Review 2026: Is It Worth Your Money?

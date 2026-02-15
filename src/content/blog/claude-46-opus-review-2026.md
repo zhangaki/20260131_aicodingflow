@@ -9,6 +9,7 @@ tags:
 - llm
 - ai-chatbot
 title: 'Claude 4.6 Opus Review 2026: Features, Pricing, and Our Honest Verdict'
+noindex: true
 ---
 
 ## Claude 4.6 Opus Review 2026: Is It Worth Your Money?

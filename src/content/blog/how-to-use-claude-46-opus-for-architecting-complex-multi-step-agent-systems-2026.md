@@ -8,6 +8,7 @@ tags:
 - how-to
 - llm
 title: 'How to Build Multi-Agent Systems with Claude 4.6 Opus 2026: Guide'
+noindex: true
 ---
 
 ## How to Use Claude 4.6 Opus for Architecting Complex Multi-Step Agent Systems: Everything You Need to Know

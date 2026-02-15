@@ -8,6 +8,7 @@ tags:
 - ai-coding
 - developer-tools
 title: 'Trae Review 2026: Free AI Coding Assistant Features & Pricing'
+noindex: true
 ---
 
 ## Trae Review 2026: Is It Worth Your Money?

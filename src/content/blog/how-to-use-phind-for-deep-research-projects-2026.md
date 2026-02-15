@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-search
 title: 'How to Use Phind for Research 2026: Developer Search Tutorial'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Phind for Deep Research Projects

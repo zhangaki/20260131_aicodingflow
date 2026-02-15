@@ -11,6 +11,7 @@ tags:
 - video-generation
 title: 'Synthesia AI Review 2026: Video Avatar Pricing & Features'
 updatedDate: Feb 12 2026
+noindex: true
 ---
 
 ## Synthesia: The 2026 Reality Check

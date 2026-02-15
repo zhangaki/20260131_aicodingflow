@@ -8,6 +8,7 @@ tags:
 - how-to
 - llm
 title: 'How to Use Gemini 2.0 for 1M Token Documents 2026: Analysis Guide'
+noindex: true
 ---
 
 ## How to Use Gemini for Analyzing Documents with a Million-Token Context: Everything You Need to Know

@@ -5,6 +5,7 @@ heroImage: /assets/replit-ai-vs-lovable-2026.webp
 pubDate: Jan 16 2026
 title: 'Stop Guessing: Replit AI vs Lovable 2026 Competitive Audit'
 updatedDate: Feb 10 2026
+noindex: true
 ---
 
 # Stop Guessing: Replit AI vs Lovable 2026 Competitive Audit

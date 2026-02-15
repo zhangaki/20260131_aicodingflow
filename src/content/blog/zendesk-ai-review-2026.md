@@ -8,6 +8,7 @@ tags:
 - ai-business
 - enterprise-ai
 title: 'Zendesk AI Review 2026: Customer Support Automation & Pricing'
+noindex: true
 ---
 
 ## Zendesk AI: The 2026 Reality Check

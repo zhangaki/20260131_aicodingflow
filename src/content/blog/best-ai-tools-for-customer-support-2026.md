@@ -8,6 +8,7 @@ tags:
 - ai-business
 - llm
 title: '15 Best AI Customer Support Tools 2026: Chatbots & Automation'
+noindex: true
 ---
 
 ## The Best AI Tools for Customer Support in 2026

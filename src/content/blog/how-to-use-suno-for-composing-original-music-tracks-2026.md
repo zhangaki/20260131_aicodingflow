@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-music
 title: 'How to Use Suno AI for Music in 2026: Complete Tutorial + Free Tier'
+noindex: true
 ---
 
 ## How to Use Suno for Composing Original Music Tracks: Everything You Need to Know

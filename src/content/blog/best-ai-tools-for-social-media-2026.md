@@ -10,6 +10,7 @@ tags:
 - ai-image
 - ai-video
 title: 'Best AI Tools for Social Media 2026: Top 8 Tested & Compared'
+noindex: true
 ---
 
 ## The Best AI Tools for Social Media in 2026

@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-video
 title: 'How to Use Kling AI for Affordable Video 2026: Budget Tutorial'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Kling AI for Creating Affordable AI Video Content

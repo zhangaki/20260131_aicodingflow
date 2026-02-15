@@ -4,6 +4,7 @@ heroImage: /assets/jasper-ai-vs-grammarly-ai-2026.webp
 pubDate: Dec 15 2025
 title: 'Jasper AI vs Grammarly AI 2026: Which Writing Tool is Better?'
 updatedDate: Feb 10 2026
+noindex: true
 ---
 
 # Jasper AI vs Grammarly AI 2026: The Data-Backed Truth

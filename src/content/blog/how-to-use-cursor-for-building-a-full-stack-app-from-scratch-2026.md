@@ -8,6 +8,7 @@ tags:
 - how-to
 - ai-coding
 title: 'Build a Full-Stack App with Cursor AI 2026: Complete Walkthrough'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Cursor for Building a Full-Stack App from Scratch

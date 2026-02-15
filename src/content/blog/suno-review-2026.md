@@ -9,6 +9,7 @@ tags:
 - music-generation
 title: 'Suno AI Review 2026: Song Length, Pricing & Music Generation Guide'
 updatedDate: Feb 12 2026
+noindex: true
 ---
 
 ## Suno Review 2026: Is It Worth Your Money?

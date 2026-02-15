@@ -11,6 +11,7 @@ tags:
 - ai-productivity
 title: 'Using Fireflies.ai for Supercharging Your Daily Workflow: A Practical 2026
   Walkthrough'
+noindex: true
 ---
 
 ## A Practitioner's Guide to Fireflies.ai for Supercharging Your Daily Workflow
