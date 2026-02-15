@@ -21,7 +21,8 @@ const posts = (await getCollection('blog')).sort(
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-        <link rel="preload" as="image" href="/assets/aeo-mockup.webp?v=2" fetchpriority="high" />
+        <link rel="preload" as="image" href="/assets/aeo-mockup.webp?v=2" fetchpriority="high" media="(min-width: 721px)" />
+        <link rel="preload" as="image" href="/assets/aeo-mockup-mobile.webp" fetchpriority="high" media="(max-width: 720px)" />
 		<style>
 
 			main { width: 100%; max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; position: relative; }
@@ -436,7 +437,9 @@ const posts = (await getCollection('blog')).sort(
                         </div>
                         <div class="scan-container">
                             <img 
-                                src="/assets/aeo-mockup.webp?v=2" 
+                                src="/assets/aeo-mockup.webp?v=2"
+                                srcset="/assets/aeo-mockup-mobile.webp 600w, /assets/aeo-mockup.webp?v=2 1200w"
+                                sizes="(max-width: 720px) 100vw, 600px" 
                                 alt="AEO Auditor" 
                                 width="600" 
                                 height="375" 

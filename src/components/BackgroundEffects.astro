@@ -42,4 +42,12 @@
         0%, 100% { transform: translate(0, 0); }
         50% { transform: translate(30px, 50px); }
     }
+
+    @media (max-width: 720px) {
+        .glow-orb {
+            filter: blur(40px); /* Reduce blur radius for performance */
+            opacity: 0.2;
+            animation: none; /* Disable animation on mobile */
+        }
+    }
 </style>
