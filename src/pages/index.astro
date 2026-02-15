@@ -21,6 +21,7 @@ const posts = (await getCollection('blog')).sort(
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+        <link rel="preload" as="image" href="/assets/aeo-mockup.webp?v=2" fetchpriority="high" />
 		<style>
 
 			main { width: 100%; max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; position: relative; }
