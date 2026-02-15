@@ -367,8 +367,11 @@ const posts = (await getCollection('blog')).sort(
                 }
                 .bento-item { 
                     flex-direction: column !important; 
-                    padding: 2rem; 
+                    padding: 1.5rem; 
                     border-radius: 32px; 
+                }
+                .small-card-content {
+                    padding: 1.5rem;
                 }
                 .bento-item:nth-child(1), .bento-item:nth-child(2), .bento-item:nth-child(3) { grid-area: auto; grid-column: span 1; grid-row: span 1; }
                 .bento-item:not(:nth-child(1)) .scan-container { width: 100%; margin-top: 1.5rem; }
