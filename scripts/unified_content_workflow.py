@@ -109,19 +109,26 @@ FAKE_DATA_PATTERNS = [
 ]
 
 STYLES = [
-    # Tech / Future (Brand Aligned)
-    "Futuristic, high-tech, abstract, 3D render, minimalist, dark mode aesthetic, neon accents (orange/blue)",
-    "Swiss Design style, bold typography elements, grid layout, clean negative space, geometric abstraction, dark theme",
-    "Technical blueprint schematics, white lines on deep blue background, detailed engineering diagram, glowing nodes",
-    "Cyberpunk city architecture, neon lights, rain-slicked streets, high contrast, futuristic atmosphere",
-    "Glassmorphism, translucent frosted glass shapes, soft lighting, vibrant gradient background, modern UI aesthetic",
-    
-    # Artistic / Abstract (For Variety)
-    "Risograph print style, grainy texture, misaligned layers, limited color palette (neon pink and blue), dark background",
-    "Abstract data visualization, flowing particles, network nodes, big data representation, ethereal lighting",
-    "Synthwave retro-futuristic landscape, grid lines, sun on horizon, magenta and cyan color palette",
-    "Isometric 3D illustration, digital assets, stylized floating elements, clean rendering, soft shadows",
-    "Matisse-inspired paper cutouts, organic shapes, bold flat colors, but adapted for dark mode contrast"
+    # 1. Master Artists & Fine Art
+    "Vincent van Gogh style, thick impasto brushstrokes, swirling starry night sky patterns, vibrant yellow and blue palette, expressive oil painting",
+    "Claude Monet style, impressionist garden atmosphere, soft dappled light, water lilies, pastel colors, dreamy oil painting texture",
+    "Salvador Dali surrealism, melting clocks, dreamlike desert landscape, strange floating objects, hyper-realistic detail, bizarre juxtaposition",
+    "Kim Jung Gi style, intricate black ink sketch, fish-eye perspective, dynamic composition, detailed character crowds, cross-hatching shade",
+    "Edward Hopper style, cinematic solitude, dramatic sunlight and shadows, realistic urban setting, lonely mood, rich colors",
+
+    # 2. Digital Art & Illustration
+    "Studio Ghibli style, lush green landscapes, fluffy clouds, whimsical atmosphere, hand-drawn anime aesthetic, detailed background",
+    "Cyberpunk Edgerunners style, trigger anime aesthetic, neon colors, chromatic aberration, dynamic action lines, bold contrast",
+    "Moebius (Jean Giraud) style, sci-fi comic art, fine line work, flat pastel colors, surreal desert landscapes, intricate details",
+    "Isometric 3D Digital Art, Blender render, cute stylized assets, soft clay shader, pastel lighting, cozy atmosphere",
+    "Digital CG Art, ArtStation trending, Octane render, hyper-detailed, dramatic lighting, volumetric fog, cinematic composition",
+
+    # 3. Conceptual & Abstract
+    "Dreamlike fantasy landscape, ethereal glowing plants, floating islands, bioluminescent colors, magical atmosphere, digital painting",
+    "Realistic Comic Book style, Marvel/DC cover art quality, dynamic posing, dramatic inking, bold coloring, high contrast",
+    "Abstract Alcohol Ink art, fluid flowing colors, gold leaf accents, marble texture, organic shapes, vibrant and elegant",
+    "Double Exposure, silhouette containing a galaxy, starry night, dreamlike blend of nature and space, surrealsim",
+    "Low Poly 3D, geometric facets, vibrant gradient lighting, clean digital art, paper-craft aesthetic"
 ]
 
 class ContentWorkflow:
@@ -862,11 +869,18 @@ class ContentWorkflow:
         self.console.info(f"Selected Style: {style[:50]}...")
 
         # 1. Design Prompt
+        # 1. Design Prompt
         design_prompt = f"""
-        Create a prompt for an AI image generator (Imagen 3) for this article: "{self.state['title']}".
-        Style: "{style}".
-        No text in the image.
-        Output ONLY the prompt string.
+        Act as an expert AI Art Director. Create a detailed prompt for an AI image generator (Imagen 3) for this article: "{self.state['title']}".
+        
+        Selected Art Style: "{style}"
+
+        Instructions:
+        1. Analyze the title and pick a concrete, visual metaphor or subject (e.g., objects, landscapes, abstract forms) that represents the topic.
+        2. Describe the lighting, color palette, and composition based on the selected style.
+        3. Ensure the scene is visually striking and suitable for a blog hero image (16:9 aspect ratio).
+        4. CRITICAL: DO NOT include any text, letters, or words in the image.
+        5. Output ONLY the prompt string to be sent to the image generator.
         """
         prompt_resp = client.models.generate_content(model=MODEL_TEXT, contents=design_prompt)
         image_prompt = prompt_resp.text.strip()
