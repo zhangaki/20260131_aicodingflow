@@ -191,6 +191,12 @@ const relatedPosts = post ? allPosts
                 margin-left: auto;
 			}
 			@media (max-width: 720px) {
+                main {
+                    padding: 0 !important;
+                    margin: 0 !important;
+                    width: 100% !important;
+                    max-width: 100% !important;
+                }
                 .hero-image {
                     height: 40vh;
                 }
@@ -199,23 +205,25 @@ const relatedPosts = post ? allPosts
                 }
                 .article-layout {
                     margin-top: -5vh;
-                    padding: 0 0 2rem; /* Removed side padding */
+                    padding: 0 0 2rem !important; /* Force 0 side padding */
                     gap: 0;
-                    width: 100%;
+                    width: 100% !important;
+                    max-width: 100% !important;
                 }
                 .prose {
-                    border-radius: 20px 20px 0 0;
+                    border-radius: 0; 
                     border: none;
                     border-top: 1px solid rgba(255,255,255,0.08);
-					padding: 2rem 1rem; /* Minimal safe padding */
+					padding: 2rem 1.2rem;
                     width: 100% !important;
+                    margin-top: 0; 
                 }
 			}
 
             /* Post Navigation */
             .post-navigation {
-                margin-top: 2rem;
-                padding-top: 3rem;
+                margin-top: 0rem;
+                padding-top: 1rem;
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 gap: 2rem;
@@ -387,7 +395,7 @@ const relatedPosts = post ? allPosts
                 padding: 4rem 0;
                 display: flex;
                 flex-direction: column;
-                gap: 4rem;
+                gap: 1rem;
             }
 
             @media (max-width: 1200px) {
