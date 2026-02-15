@@ -3,10 +3,9 @@ title: "Grok vs ChatGPT: The 2026 Feature Matrix"
 description: "A side-by-side technical audit of Grok and ChatGPT. Pricing, limitations,"
 pubDate: "Jan 16 2026"
 heroImage: "/assets/grok-vs-chatgpt-2026.webp"
----
-
 noindex: true
 ---
+
 
 # Technical Face-Off: Grok vs ChatGPT
 

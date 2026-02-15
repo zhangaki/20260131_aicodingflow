@@ -346,6 +346,21 @@ def run_audit():
                 file_issues.append(f"Literal H-tag label (Line {i+1}): {stripped[:60]}")
                 break  # Report only the first instance per file
 
+        # 7. Check for frontmatter leaks (YAML fields rendered as body text)
+        _fm_keys = ['noindex', 'draft', 'tags', 'category', 'author', 'layout', 'slug', 'canonical']
+        if lines and lines[0].strip() == '---':
+            fm_end = -1
+            for i in range(1, len(lines)):
+                if lines[i].strip() == '---':
+                    fm_end = i
+                    break
+            if fm_end >= 0:
+                for i in range(fm_end + 1, min(fm_end + 10, len(lines))):
+                    stripped = lines[i].strip()
+                    for key in _fm_keys:
+                        if stripped.startswith(f'{key}:'):
+                            file_issues.append(f"Frontmatter leak (Line {i+1}): {stripped}")
+
         if file_issues:
             issues_found += 1
             print(f"File: {filepath.name}")
@@ -428,6 +443,45 @@ def run_format():
         modified = False
         in_code_block = False
         
+        # Pass 0: Fix frontmatter leaks (e.g., noindex: true after closing ---)
+        _fm_keys = ['noindex', 'draft', 'tags', 'category', 'author', 'layout', 'slug', 'canonical']
+        if lines and lines[0].strip() == '---':
+            fm_end = -1
+            for idx in range(1, len(lines)):
+                if lines[idx].strip() == '---':
+                    fm_end = idx
+                    break
+            if fm_end >= 0:
+                leaked = []
+                remove_indices = set()
+                for idx in range(fm_end + 1, min(fm_end + 10, len(lines))):
+                    stripped = lines[idx].strip()
+                    if not stripped:
+                        continue
+                    if stripped == '---':
+                        remove_indices.add(idx)  # Remove the extra ---
+                        continue
+                    is_leak = False
+                    for key in _fm_keys:
+                        if stripped.startswith(f'{key}:'):
+                            is_leak = True
+                            break
+                    if is_leak:
+                        leaked.append(stripped)
+                        remove_indices.add(idx)
+                    else:
+                        break  # Stop at first non-YAML, non-blank line
+                
+                if leaked:
+                    # Insert leaked fields into frontmatter (before closing ---)
+                    new_fm = lines[:fm_end]
+                    for field in leaked:
+                        new_fm.append(field + '\n')
+                    new_fm.append('---\n')
+                    rest = [lines[j] for j in range(fm_end + 1, len(lines)) if j not in remove_indices]
+                    lines = new_fm + rest
+                    modified = True
+                    print(f"    Merged {len(leaked)} leaked frontmatter field(s) back into frontmatter")
         # Pass 1: Fix Trapped Text + H-tag Labels
         h_tag_pattern = re.compile(r'^(\*{2})H([2-6]):\s*(.+?)\1$')  # **H2: Title**
         h_tag_bare = re.compile(r'^H([2-6]):\s*(.+)$')  # H2: Title

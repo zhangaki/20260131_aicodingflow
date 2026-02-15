@@ -3,10 +3,9 @@ title: "GEO Briefing: How Digen Ai is Changing the AI Search Landscape"
 description: "Critical GEO analysis of digen ai. Impact assessment on ChatGPT, Perplexity,"
 pubDate: "Jan 13 2026"
 heroImage: "/assets/digen-ai-cover.webp"
----
-
 noindex: true
 ---
+
 
 
 ## Intelligence Alert: Digen Ai Rising

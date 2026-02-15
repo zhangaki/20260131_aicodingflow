@@ -3,10 +3,9 @@ title: "Sora vs Runway: The 2026 Feature Matrix"
 description: "A side-by-side technical audit of Sora and Runway. Pricing, limitations,"
 pubDate: "Dec 17 2025"
 heroImage: "/assets/sora-vs-runway-2026.webp"
----
-
 noindex: true
 ---
+
 
 # Technical Face-Off: Sora vs Runway
 
