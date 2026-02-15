@@ -143,11 +143,11 @@ spec:
         ports:
         - containerPort: 8080
 
+```
+
 ## 4. Getting Started: Building Your Sovereign Stack
 
 Ready to break free from the cloud and build your own AI infrastructure? Here's a step-by-step guide:
-
-```
 
 1.  **Define Your Use Case:** What problem are you trying to solve with AI? What models do you need to run? What are your latency and throughput requirements?
 2.  **Choose Your Hardware:** Based on your use case, select the appropriate hardware. If you're focused on inference, Apple Silicon might be the best choice. If you need to fine-tune models, NVIDIA is the way to go. For voice applications, consider Groq.

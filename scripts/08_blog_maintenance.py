@@ -325,6 +325,19 @@ def run_audit():
                     if not prev or '|' not in prev:
                         file_issues.append(f"Table delimiter without header row (Line {i+1})")
 
+        # 5. Check for prose trapped inside code blocks
+        in_fence = False
+        fence_start = -1
+        for i, line in enumerate(lines):
+            stripped = line.strip()
+            if stripped.startswith('```'):
+                in_fence = not in_fence
+                if in_fence:
+                    fence_start = i + 1
+            elif in_fence and _is_prose_line(stripped, line):
+                file_issues.append(f"Prose trapped in code block (Line {i+1}): {stripped[:60]}...")
+                break  # Report only the first instance per file
+
         if file_issues:
             issues_found += 1
             print(f"File: {filepath.name}")
@@ -335,6 +348,60 @@ def run_audit():
         print("Audit passed: No structural issues found.")
     else:
         print(f"Audit failed: Issues found in {issues_found} files.")
+
+
+def _is_prose_line(stripped, raw_line):
+    """Detect if a line inside a code block is actually prose content."""
+    if not stripped or len(stripped) < 40:
+        return False
+    
+    # Must not be indented (code is typically indented)
+    is_indented = raw_line.startswith('    ') or raw_line.startswith('\t')
+    if is_indented:
+        return False
+    
+    # Strong prose indicators
+    prose_signals = 0
+    
+    # Markdown headings inside code blocks are almost always errors
+    if stripped.startswith('## ') or stripped.startswith('### '):
+        return True
+    
+    # Contains markdown formatting (bold, italic, backtick-quoted terms in prose)
+    if '**' in stripped and not stripped.startswith('//'):
+        prose_signals += 2
+    if '`' in stripped and not stripped.startswith('//') and not stripped.startswith('#'):
+        # Backticks used to quote terms in prose (e.g., the `filterProducts` function)
+        backtick_pairs = stripped.count('`') // 2
+        if backtick_pairs >= 1 and any(stripped.startswith(p) for p in [
+            'In ', 'The ', 'This ', 'These ', 'For ', 'With ', 'After ',
+            'I\'ve ', 'Early ', 'Consider', 'Note ', 'It ', 'By ',
+            'We ', 'You ', 'When ', 'If ', 'As ', 'Google', 'WebMCP',
+            'Here ', 'However', 'Although', 'Because', 'Since '
+        ]):
+            prose_signals += 2
+    
+    # Starts with common prose sentence patterns
+    if any(stripped.startswith(p) for p in [
+        'In this example', 'The implications', 'This is ', 'This function',
+        'I\'ve been', 'Early preview', 'Consider a', 'For instance',
+        'The following', 'Note that', 'Keep in mind', 'It is ',
+        'This site is', 'This approach', 'The core idea',
+    ]):
+        prose_signals += 2
+    
+    # Long line (> 100 chars) without indentation, containing sentence-like punctuation
+    if len(stripped) > 100:
+        period_count = stripped.count('.')
+        comma_count = stripped.count(',')
+        if period_count >= 1 or comma_count >= 2:
+            prose_signals += 1
+    
+    # Line ending with a period (very common in prose, rare in code)
+    if stripped.endswith('.') and not stripped.startswith('//') and not stripped.startswith('#'):
+        prose_signals += 1
+    
+    return prose_signals >= 3
 
 # ---------------------------------------------------------------------------
 # 6. FORMAT LOGIC (Auto-Fix Structures)
@@ -365,32 +432,15 @@ def run_format():
                 i += 1
                 continue
                 
-            if in_code_block:
-                # Heuristic for trapped prose
-                is_blank = not stripped
-                is_indented = line.startswith('    ') or line.startswith('\t')
-                strong_start = "**" in stripped or stripped.startswith(("The ", "This ", "Note ", "It ", "By "))
-                
-                # Check previous line in new_lines
-                prev_blank = len(new_lines) > 0 and not new_lines[-1].strip()
-                
-                if prev_blank and not is_indented and strong_start:
-                    # Prose detected inside code block
-                    # Close the block here
-                    new_lines.append("```\n\n") 
-                    new_lines.append(line)
-                    in_code_block = False
-                    modified = True
-                    i += 1
-                    
-                    # We closed the block. The NEXT fence in the file will now act as an OPENER.
-                    # This might invert the rest of the file. 
-                    # To be safe, we should probably toggle state or insert an opener later?
-                    # The safest "auto-fix" for trapped text is very context dependent.
-                    # For now, we'll just log it in Audit, but if we MUST fix it:
-                    # A robust fix requires re-parsing the whole file matching fences.
-                    # Let's stick to the Table Fixes for "format" which are safer.
-                    continue
+            if in_code_block and _is_prose_line(stripped, line):
+                # Prose detected inside code block — close the block here
+                new_lines.append("```\n\n")
+                new_lines.append(line)
+                in_code_block = False
+                modified = True
+                i += 1
+                print(f"    Closed code block before prose at line {i}")
+                continue
             
             new_lines.append(line)
             i += 1

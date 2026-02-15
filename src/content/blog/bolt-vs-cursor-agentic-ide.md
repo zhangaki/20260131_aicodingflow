@@ -80,9 +80,9 @@ router.get('/', (req, res) => {
 
 module.exports = router;
 
-### 4.2 Scenario 2: Refactoring Legacy Code (Java)
-
 ```
+
+### 4.2 Scenario 2: Refactoring Legacy Code (Java)
 
 **Task:** Refactor a complex piece of legacy Java code by extracting a method to improve code structure and readability.
 

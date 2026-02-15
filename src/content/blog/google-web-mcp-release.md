@@ -47,6 +47,8 @@ navigator.modelContext.exposeTool("filterProducts", filterProducts, {
     description: "Filters products by price range."
 });
 
+```
+
 In this example, the `filterProducts` function takes two parameters: `minPrice` and `maxPrice`. The function then filters the product list based on the specified price range. With the Imperative API, WebMCP can call the `filterProducts` function directly, passing in the desired `minPrice` and `maxPrice` values. This allows the AI agent to interact with the website's dynamic filtering functionality in a seamless and reliable way.
 
 I've been experimenting with the Imperative API in a test environment, and I've found it particularly useful for interacting with websites that heavily rely on JavaScript for their functionality. In my experience, the API is relatively straightforward to use, and it provides a powerful way to control complex web interactions.
@@ -56,8 +58,6 @@ Early preview benchmarks of WebMCP show approximately a 67% reduction in computa
 WebMCP is a W3C Community Group standard that enables browsers to expose structured tools to AI agents through the `navigator.modelContext` API. It was developed jointly by Google and Microsoft engineers and is being incubated through the W3C's Web Machine Learning community group.
 
 ## The So What
-
-```
 
 The implications of WebMCP are far-reaching, potentially affecting developers, businesses, and the web development industry.
 

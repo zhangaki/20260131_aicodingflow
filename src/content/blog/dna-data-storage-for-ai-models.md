@@ -100,9 +100,9 @@ encoded[2] = 0
 decoded = rs.decode(encoded)
 print(f"Decoded message: {decoded[0]}") # Output: bytearray(b'\x01\x02\x03\x04\x05\x06\x07\x08\t\n')
 
-### Addressing and Indexing: Finding Needles in Haystacks
-
 ```
+
+### Addressing and Indexing: Finding Needles in Haystacks
 
 Once the data is encoded and synthesized, it needs to be organized and easily retrievable. We achieve this through **addressing and indexing**.
 

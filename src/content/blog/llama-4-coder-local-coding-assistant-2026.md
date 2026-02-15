@@ -247,6 +247,8 @@ To maximize Llama 4 Coder's performance for coding tasks, consider the following
     ```bash
     ollama run llama4-coder:70b-q4 -p "You are a helpful coding assistant..."
 
+```
+
 ### Llama 4 Coder vs Competitors: A Comparison Table
 
 Here's a comparison of Llama 4 Coder against other leading open-source coding LLMs as of 2026:
@@ -264,6 +266,8 @@ Here's a comparison of Llama 4 Coder against other leading open-source coding LL
 ```
 
 This table highlights the key differences between these models, allowing you to choose the best option for your specific needs.
+
+```
 
 ### When to Use Local Llama vs Cloud APIs
 

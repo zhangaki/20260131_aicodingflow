@@ -179,11 +179,15 @@ student_tokenizer.save_pretrained("./student_model")
 
 In 2026, the goal is to use the giant models as "Teachers" and deploy the "Students" as the actual workers in your agentic mesh.
 
+```
+
 ### Step 3: Prefix Tuning & Fixed Contexts
 
 ```
 
 By structuring your agent's memory into "Fixed Buckets" (e.g., a "Profile Bucket," a "Task Bucket," and a "History Bucket"), you can optimize the cache hits. The more stable your context, the more efficiently prompt caching works.
+
+```
 
 *   **Prefix Tuning**: Instead of fine-tuning the entire model, prefix tuning involves training a small "prefix" of tokens that are prepended to the input. This allows you to adapt the model to specific tasks or domains with minimal computational cost.
 

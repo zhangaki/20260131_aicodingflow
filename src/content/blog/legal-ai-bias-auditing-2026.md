@@ -76,9 +76,9 @@ print(estimate)
 
 We run counterfactual audits on a representative sample of cases every week, with a budget of $50,000 per model per year for compute resources and human review. Any model failing the counterfactual audit is immediately quarantined and undergoes further investigation.
 
-### Layer 3: Distributional Parity Shields (Inference-Time Guardrails)
-
 ```
+
+### Layer 3: Distributional Parity Shields (Inference-Time Guardrails)
 
 Instead of auditing *after* the fact, 2026 legal systems use **Inference-Time Guardrails** to prevent biased decisions in real-time. This is crucial because even a model that passes offline audits can exhibit bias in specific, unforeseen scenarios.
 

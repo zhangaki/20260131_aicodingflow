@@ -132,11 +132,15 @@ def refine_content(content, score, dna_guidelines):
 
 
 
+```
+
 ## 7. The Verdict: Scaling is a Responsibility
 
 ```
 
 By the end of 2026, the question "How much can you generate?" will be replaced by **"How much of yourself can you keep?"**
+
+```
 
 The "Super Individual" who wins isn't the one with the fastest GPU, but the one with the most defined **Digital Soul**. By implementing mathematical governance over your AI workers, you turn a potential tool for dilution into a **Force Multiplier for Truth**.
 

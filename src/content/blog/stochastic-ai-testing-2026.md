@@ -169,6 +169,8 @@ Calling external LLMs for every commit is often prohibitively expensive and slow
     response = mock_llm_call("What is the capital of France?")
     assert "Paris" in response
 
+```
+
 ### Step 4: Continuous Monitoring and Retraining
 
 Probabilistic QA is not a one-time effort. LLMs are constantly evolving, and the performance of your application may drift over time. It's crucial to continuously monitor the performance of your LLM-powered features and retrain your models as needed.
@@ -180,6 +182,8 @@ Probabilistic QA is not a one-time effort. LLMs are constantly evolving, and the
     *   Average similarity score
     *   LLM-as-a-Judge scores
     *   User feedback (e.g., sentiment analysis of customer reviews)
+```
+
 *   **Retraining Triggers:** Define triggers for retraining your models based on these metrics. For example, if the test pass rate drops below a certain threshold, or if user feedback becomes increasingly negative, it's time to retrain.
 *   **Active Learning:** Use active learning techniques to identify the most informative examples for retraining. This can help to improve the efficiency of the retraining process.
 

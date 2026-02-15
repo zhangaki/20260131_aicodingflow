@@ -129,6 +129,8 @@ export async function verifyHumanToken(proofString: string): Promise<boolean> {
 | Tool | Category | Role |
 |------|----------|------|
 | **World ID** | Identity | The standard for "Proof of Personhood" (Sybil Resistance). |
+```
+
 | **Content Authenticity Initiative (CAI)** | Media | Open-source tools to cryptographically sign images at capture. |
 | **Human or Not?** | Training | A daily Turing test game to train your own bot-detection intuition. |
 | **Anon Aadhaar** | ZK-Proof | Using government ID (India's Aadhaar) to verify age/humanity without revealing identity. |
@@ -169,4 +171,3 @@ Yes. It discriminates against silicon intelligence. As AI agents gain complexity
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
 
-```

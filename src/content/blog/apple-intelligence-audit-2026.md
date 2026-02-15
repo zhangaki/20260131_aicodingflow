@@ -165,13 +165,13 @@ attack_payload:
     vulnerability_id: CVE-2026-XXXX
 
 
+```
+
 ### The Illusion of Control: Is the User Truly Sovereign?
 
 Apple Intelligence presents a compelling vision of privacy and security. But it's crucial to recognize the limitations of this approach. We're still relying on a single company to control the hardware, the software, and the data flow.
 
 True sovereignty requires more than just a Secure Enclave. It requires:
-
-```
 
 *   **Open Attestation:** The ability to verify the integrity of the hardware and software, independently of Apple.
 *   **Model Agnosticism:** The freedom to run *any* model you choose within the Secure Enclave, not just Apple's signed models.

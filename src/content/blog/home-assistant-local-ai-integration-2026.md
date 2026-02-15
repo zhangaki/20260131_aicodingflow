@@ -258,11 +258,15 @@ Local AI enables powerful and context-aware automations.
         data:
           text: "The current temperature is {{ states('sensor.temperature') }} degrees. What is the weather forecast?"
 
+```
+
 ### Step-by-Step Tutorial: From Bare Metal to "Hey Jarvis, what's the weather?"
 
 ```
 
 This tutorial assumes you're starting with a fresh installation of Home Assistant OS on a Raspberry Pi 5 or a mini PC.
+
+```
 
 1.  **Install Home Assistant OS:** Follow the official Home Assistant documentation to flash the Home Assistant OS image to your chosen hardware.
 2.  **Configure Home Assistant:** Set up your Home Assistant instance, including network settings, user accounts, and basic integrations (e.g., Zigbee, Z-Wave).
