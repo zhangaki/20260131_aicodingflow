@@ -1,4 +1,5 @@
 ---
+export const prerender = true;
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
@@ -53,9 +54,7 @@ const posts = (await getCollection('blog')).sort(
                 font-weight: 400; /* Initial weight */
                 letter-spacing: -0.04em;
                 margin-bottom: 1.5rem;
-                background: linear-gradient(to bottom, #fff 60%, rgba(255,255,255,0.4));
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+                color: #ffffff;
                 /* Support for variable weight */
                 font-variation-settings: 'wght' 400;
             }
@@ -437,12 +436,12 @@ const posts = (await getCollection('blog')).sort(
                         </div>
                         <div class="scan-container">
                             <img 
-                                src="/assets/aeo-mockup.webp" 
+                                src="/assets/aeo-mockup.webp?v=2" 
                                 alt="AEO Auditor" 
                                 width="600" 
                                 height="375" 
                                 decoding="async"
-                                loading="lazy"
+                                loading="eager"
                             />
                         </div>
                         <div class="bento-meta">
@@ -458,7 +457,7 @@ const posts = (await getCollection('blog')).sort(
                         </div>
                         <div class="small-card-visual">
                             <img 
-                                src="/assets/deep-guides.webp" 
+                                src="/assets/deep-guides.webp?v=2" 
                                 alt="Deep Guides" 
                             />
                             <div class="grid-overlay" style="opacity: 0.1;"></div>
@@ -472,7 +471,7 @@ const posts = (await getCollection('blog')).sort(
                         </div>
                         <div class="small-card-visual">
                             <img 
-                                src="/assets/architecture.webp" 
+                                src="/assets/architecture.webp?v=2" 
                                 alt="Architecture" 
                             />
                             <div class="grid-overlay" style="opacity: 0.1;"></div>
@@ -482,136 +481,146 @@ const posts = (await getCollection('blog')).sort(
             </section>
 
             <script is:inline>
-                // Interactive Bento Mouse Effect
-                // Interactive Bento Mouse Effect - Optimized with RAF
-                document.querySelectorAll('.bento-item').forEach(item => {
-                    let isHovered = false;
-                    
-                    item.addEventListener('mouseenter', () => isHovered = true);
-                    item.addEventListener('mouseleave', () => isHovered = false);
-
-                    item.addEventListener('mousemove', e => {
-                        if (!isHovered) return;
+                // Defer heavy interactions until after load
+                window.addEventListener('load', () => {
+                    // Interactive Bento Mouse Effect
+                    // Interactive Bento Mouse Effect - Optimized with RAF
+                    document.querySelectorAll('.bento-item').forEach(item => {
+                        let isHovered = false;
                         
-                        requestAnimationFrame(() => {
-                            const rect = item.getBoundingClientRect();
-                            const x = ((e.clientX - rect.left) / rect.width) * 100;
-                            const y = ((e.clientY - rect.top) / rect.height) * 100;
-                            item.style.setProperty('--x', `${x}%`);
-                            item.style.setProperty('--y', `${y}%`);
+                        item.addEventListener('mouseenter', () => isHovered = true);
+                        item.addEventListener('mouseleave', () => isHovered = false);
+
+                        item.addEventListener('mousemove', e => {
+                            if (!isHovered) return;
+                            
+                            requestAnimationFrame(() => {
+                                const rect = item.getBoundingClientRect();
+                                const x = ((e.clientX - rect.left) / rect.width) * 100;
+                                const y = ((e.clientY - rect.top) / rect.height) * 100;
+                                item.style.setProperty('--x', `${x}%`);
+                                item.style.setProperty('--y', `${y}%`);
+                            });
                         });
                     });
                 });
 
                 // Variable Proximity Effect - Optimized Global Implementation
-                const initProximityEffect = () => {
-                    const elements = document.querySelectorAll('.proximity-text');
-                    const allLetters = [];
+                // Logic deferred to window load to prioritize initial render
+                window.addEventListener('load', () => {
+                    const initProximityEffect = () => {
+                        const elements = document.querySelectorAll('.proximity-text');
+                        const allLetters = [];
 
-                    elements.forEach(element => {
-                        const text = element.textContent;
-                        element.textContent = '';
-                        
-                        [...text].forEach(char => {
-                            const span = document.createElement('span');
-                            span.textContent = char === ' ' ? '\u00A0' : char;
-                            span.style.display = 'inline-block';
-                            span.style.transition = 'font-variation-settings 0.1s ease-out';
-                            span.style.willChange = 'font-variation-settings';
-                            element.appendChild(span);
-                            allLetters.push({ span });
-                        });
-                    });
-
-                    return allLetters;
-                };
-
-                const lettersData = initProximityEffect();
-                let mouseX = -1000;
-                let mouseY = -1000;
-                const radius = 300; 
-
-                // Cache positions relative to the DOCUMENT to avoid scroll thrashing
-                const updatePositions = () => {
-                   const scrollY = window.scrollY;
-                   const scrollX = window.scrollX;
-
-                   lettersData.forEach(item => {
-                        const rect = item.span.getBoundingClientRect();
-                        // Store absolute document position
-                        item.centerX = rect.left + scrollX + rect.width / 2;
-                        item.centerY = rect.top + scrollY + rect.height / 2;
-                   });
-                };
-
-                // Initial calculation
-                setTimeout(updatePositions, 100);
-                window.addEventListener('resize', () => setTimeout(updatePositions, 100));
-
-                const updateMouse = (e) => {
-                    mouseX = e.clientX;
-                    mouseY = e.clientY;
-                };
-                const updateTouch = (e) => {
-                    if (e.touches && e.touches[0]) {
-                        mouseX = e.touches[0].clientX;
-                        mouseY = e.touches[0].clientY;
-                    }
-                };
-
-                window.addEventListener('mousemove', updateMouse);
-                // We no longer need the scroll listener because we cache document-relative positions
-                // and subtract scrollY in the animation loop.
-                window.addEventListener('touchmove', updateTouch);
-
-                let lastMouseX = -1;
-                let lastMouseY = -1;
-                let lastScrollY = -1;
-
-                function animateProximity() {
-                    const scrollY = window.scrollY;
-                    const scrollX = window.scrollX;
-
-                    // Idle Check: If mouse and scroll haven't changed, skip calculation
-                    if (mouseX === lastMouseX && mouseY === lastMouseY && scrollY === lastScrollY) {
-                        requestAnimationFrame(animateProximity);
-                        return;
-                    }
-
-                    // Update tracking variables
-                    lastMouseX = mouseX;
-                    lastMouseY = mouseY;
-                    lastScrollY = scrollY;
-
-                    // Optimization: only animate if mouse is valid
-                    if (mouseX > 0 && mouseY > 0) {
-                        lettersData.forEach(item => {
-                            if (!item.centerX) return; // Not ready
-
-                            // Calculate viewport-relative position for distance check
-                            // item.centerX/Y are now DOCUMENT-relative coordinates
-                            const viewportX = item.centerX - scrollX;
-                            const viewportY = item.centerY - scrollY;
-
-                            // Simple culling: skip if far offscreen (optional but good for perf)
-                            if (viewportY < -100 || viewportY > window.innerHeight + 100) return;
-
-                            const distance = Math.sqrt(Math.pow(mouseX - viewportX, 2) + Math.pow(mouseY - viewportY, 2));
+                        elements.forEach(element => {
+                            const text = element.textContent;
+                            element.textContent = '';
                             
-                            if (distance < radius) {
-                                const power = 1 - (distance / radius);
-                                const wght = 400 + (power * 500); 
-                                item.span.style.fontVariationSettings = `'wght' ${wght}`;
-                            } else {
-                                if (item.span.style.fontVariationSettings !== "'wght' 400") {
-                                    item.span.style.fontVariationSettings = `'wght' 400`;
-                                }
-                            }
+                            [...text].forEach(char => {
+                                const span = document.createElement('span');
+                                span.textContent = char === ' ' ? '\u00A0' : char;
+                                span.style.display = 'inline-block';
+                                span.style.transition = 'font-variation-settings 0.1s ease-out';
+                                span.style.willChange = 'font-variation-settings';
+                                element.appendChild(span);
+                                allLetters.push({ span });
+                            });
                         });
+
+                        return allLetters;
+                    };
+
+                    const lettersData = initProximityEffect();
+                    let mouseX = -1000;
+                    let mouseY = -1000;
+                    const radius = 300; 
+
+                    // Cache positions relative to the DOCUMENT to avoid scroll thrashing
+                    const updatePositions = () => {
+                       const scrollY = window.scrollY;
+                       const scrollX = window.scrollX;
+
+                       lettersData.forEach(item => {
+                            const rect = item.span.getBoundingClientRect();
+                            // Store absolute document position
+                            item.centerX = rect.left + scrollX + rect.width / 2;
+                            item.centerY = rect.top + scrollY + rect.height / 2;
+                       });
+                    };
+
+                    // Initial calculation
+                    setTimeout(updatePositions, 100);
+                    window.addEventListener('resize', () => setTimeout(updatePositions, 100));
+
+                    const updateMouse = (e) => {
+                        mouseX = e.clientX;
+                        mouseY = e.clientY;
+                    };
+                    const updateTouch = (e) => {
+                        if (e.touches && e.touches[0]) {
+                            mouseX = e.touches[0].clientX;
+                            mouseY = e.touches[0].clientY;
+                        }
+                    };
+
+                    window.addEventListener('mousemove', updateMouse);
+                    // We no longer need the scroll listener because we cache document-relative positions
+                    // and subtract scrollY in the animation loop.
+                    window.addEventListener('touchmove', updateTouch);
+
+                    let lastMouseX = -1;
+                    let lastMouseY = -1;
+                    let lastScrollY = -1;
+
+                    function animateProximity() {
+                        const scrollY = window.scrollY;
+                        const scrollX = window.scrollX;
+
+                        // Idle Check: If mouse and scroll haven't changed, skip calculation
+                        if (mouseX === lastMouseX && mouseY === lastMouseY && scrollY === lastScrollY) {
+                            requestAnimationFrame(animateProximity);
+                            return;
+                        }
+
+                        // Update tracking variables
+                        lastMouseX = mouseX;
+                        lastMouseY = mouseY;
+                        lastScrollY = scrollY;
+
+                        // Optimization: only animate if mouse is valid
+                        if (mouseX > 0 && mouseY > 0) {
+                            lettersData.forEach(item => {
+                                if (!item.centerX) return; // Not ready
+
+                                // Calculate viewport-relative position for distance check
+                                // item.centerX/Y are now DOCUMENT-relative coordinates
+                                const viewportX = item.centerX - scrollX;
+                                // item.centerY is already absolute, viewportY is relative
+                                const viewportY = item.centerY - scrollY;
+
+                                // Simple culling: skip if far offscreen (optional but good for perf)
+                                if (viewportY < -100 || viewportY > window.innerHeight + 100) return;
+
+                                const distance = Math.sqrt(Math.pow(mouseX - viewportX, 2) + Math.pow(mouseY - viewportY, 2));
+                                
+                                if (distance < radius) {
+                                    const power = 1 - (distance / radius);
+                                    const wght = 400 + (power * 500); 
+                                    item.span.style.fontVariationSettings = `'wght' ${wght}`;
+                                } else {
+                                    if (item.span.style.fontVariationSettings !== "'wght' 400") {
+                                        item.span.style.fontVariationSettings = `'wght' 400`;
+                                    }
+                                }
+                            });
+                        }
+                        requestAnimationFrame(animateProximity);
                     }
                     requestAnimationFrame(animateProximity);
-                }
-                requestAnimationFrame(animateProximity);
+                });
+                
+                // Keep the original animateProximity call commented out or removed since it's now inside the event listener
+                // requestAnimationFrame(animateProximity);
             </script>
 
             <!-- Testimonials Marquee -->
