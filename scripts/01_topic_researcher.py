@@ -155,7 +155,7 @@ class TopicResearcher:
             print(f"{i}. {idea['title']}")
             print(f"   Reasoning: {idea['reasoning']}")
             print(f"   Command:")
-            print(f"   👉 python scripts/unified_content_workflow.py --topic \"{idea['topic_query']}\" --mode {idea['mode']}")
+            print(f"   👉 python scripts/02_unified_content_workflow.py --topic \"{idea['topic_query']}\" --mode {idea['mode']}")
             print("-" * 60)
 
 def main():
