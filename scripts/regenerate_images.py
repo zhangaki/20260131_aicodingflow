@@ -30,26 +30,27 @@ MODEL_IMAGE = "imagen-4.0-fast-generate-001"
 
 # Import Styles from workflow script (to ensure consistency)
 # We can't easily import because of the main guard, so I'll copy the FINAL list here.
-# This ensures we use the EXACT styles the user approved (Premium SaaS/Tech).
+# This ensures we use the EXACT styles the user approved.
 STYLES = [
-    # 1. Premium Tech / Abstract 3D (Stripe/Vercel/Linear style)
-    "Abstract 3D glass shapes, soft multi-color gradients, frosted texture, floating elements, clean white background, high-end SaaS aesthetic",
-    "Dark mode tech abstract, glowing gradient lines, fluid mesh shapes, deep purple and blue palette, digital flow, modern background",
-    "Minimalist geometric 3D composition, matte materials, soft studio lighting, pastel colors, clean architectural shapes, organized",
-    "Futuristic data visualization, elegant particle flow, depth of field, subtle bokeh, sophisticated blue and grey tones, professional",
-    "Glassmorphism spheres and cubes, refracting light, vibrant accent colors (teal/violet), clean modern composition, raytracing",
+    # 1. High-Impact Digital Art & Surrealism
+    "Surrealist digital art, dreamlike composition, floating geometric shapes in nature, ethereal lighting, Octane render, cinematic 8k",
+    "Double exposure artistic collage, silhouette of a human head filled with galaxy stars and circuit board lines, emotional and dramatic",
+    "Bioluminescent fantasy landscape, glowing organic forms, deep purple and teal palette, Avatar-like atmosphere, magical realism",
+    "Futuristic abstract sculpture, liquid metal and glass, raytracing, vibrant iridescent colors, high-end 3D art, ArtStation trending",
+    "Moebius style sci-fi illustration, intricate line work, flat pastel colors, surreal desert landscape, sense of scale and wonder",
 
-    # 2. Professional / Editorial Photography
-    "High-end tech workspace, macbook pro on wooden desk, soft natural window light, plant shadow, shallow depth of field, authentic",
-    "Macro detail of modern electronics, silver metal texture, elegant curves, cool lighting, premium hardware aesthetic, wallpaper quality",
-    "Minimalist architectural detail, glass facade reflection, blue sky, geometric lines, sense of scale and progress, corporate editorial",
-    "Abstract light painting, long exposure, smooth curves of light in dark studio, visualizing speed and connectivity, kinetic energy",
-    
-    # 3. Clean Graphic Design (Swiss/Modern)
-    "Swiss International Style, bold typography layout (no actual text), asymmetrical grid, negative space, strong contrast, red/black/white",
-    "Neo-Grotesque gradient mesh, fluid color transitions, grain texture, vibrant but professional, modern startup branding",
-    "Technical blueprint aesthetic, but modernized, white thin lines on deep navy gradient, subtle glowing nodes, precision engineering",
-    "Abstract topographical map lines, elevation contours, clean vector style, representing data and terrain, tech blue colors"
+    # 2. Expressive Fine Art (Texture & Color)
+    "Vincent van Gogh inspired, thick impasto brushstrokes, swirling energy patterns, vibrant contrasting colors (blue/gold), expressive oil painting",
+    "Abstract Alcohol Ink art, fluid flowing dyes, gold leaf veins, marble texture, organic chaos, rich saturated colors, elegant",
+    "Washedui watercolor painting, wet-on-wet technique, soft bleeding colors, white negative space, artistic and emotive, minimalist composition",
+    "Pop Art explosion, bold black outlines, halftone dots, bright primary colors, comic book dynamic action, Roy Lichtenstein style",
+    "Kim Jung Gi style, incredibly detailed black ink sketching, fish-eye perspective, dynamic crowd/machinery, masterful composition",
+
+    # 3. Conceptual & Graphic
+    "Neo-Constructivism, bold geometric shapes, red black and cream color palette, industrial design, revolutionary poster art style",
+    "Paper cut light box art, layers of paper creating depth, backlit with warm light, silhouette landscapes, cozy yet striking",
+    "Glitch art portrait, digital distortion, datamoshing, RGB shift, cyberpunk aesthetic (but artistic), raw and edgy",
+    "Low poly isometric world, but high-detail lighting, vibrant gradients, stylized digital illustration, charming and clean"
 ]
 
 TARGETS = [
