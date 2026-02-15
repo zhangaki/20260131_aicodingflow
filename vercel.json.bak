@@ -4,23 +4,6 @@
     "framework": "astro",
     "headers": [
         {
-            "source": "/(.*)",
-            "headers": [
-                {
-                    "key": "X-Frame-Options",
-                    "value": "DENY"
-                },
-                {
-                    "key": "X-Content-Type-Options",
-                    "value": "nosniff"
-                },
-                {
-                    "key": "Strict-Transport-Security",
-                    "value": "max-age=63072000; includeSubDomains; preload"
-                }
-            ]
-        },
-        {
             "source": "/assets/(.*)",
             "headers": [
                 {
@@ -38,12 +21,7 @@
         },
         {
             "source": "/:path(.*)",
-            "has": [
-                {
-                    "type": "host",
-                    "value": "www.ai-coding-flow.com"
-                }
-            ],
+            "has": [{ "type": "host", "value": "www.ai-coding-flow.com" }],
             "destination": "https://ai-coding-flow.com/:path",
             "permanent": true
         }
