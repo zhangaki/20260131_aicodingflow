@@ -332,7 +332,13 @@ const relatedPosts = post ? allPosts
 
             /* Ad Unit Styling */
             .ad-unit {
-                background: rgba(255, 255, 255, 0.03);
+                background: repeating-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, 0.02),
+                    rgba(255, 255, 255, 0.02) 10px,
+                    rgba(255, 255, 255, 0.05) 10px,
+                    rgba(255, 255, 255, 0.05) 20px
+                );
                 border: 1px dashed rgba(255, 255, 255, 0.1);
                 border-radius: 12px;
                 overflow: hidden;
