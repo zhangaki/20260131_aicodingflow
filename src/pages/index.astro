@@ -415,7 +415,7 @@ const posts = (await getCollection('blog')).sort(
 			<section class="hero">
                 <div style="height: 200px; position: relative; margin-bottom: 2rem; margin-top: 1.5rem;">
                     <CircularText 
-                        client:load 
+                        client:idle
                         text="AUTONOMOUS AI FACTORY v2.0  " 
                         onHover="speedUp" 
                         spinDuration={20} 
