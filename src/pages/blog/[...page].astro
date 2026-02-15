@@ -6,12 +6,16 @@ import Header from '../../components/Header.astro';
 import BackgroundEffects from '../../components/BackgroundEffects.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+export async function getStaticPaths({ paginate }) {
+	const posts = (await getCollection('blog')).sort(
+		(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+	);
+	return paginate(posts, { pageSize: 12 });
+}
 
-// Get all unique tags form posts, flatten hierarchy, remove duplicates
-const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort();
+const { page } = Astro.props;
+const allPosts = await getCollection('blog');
+const allTags = [...new Set(allPosts.flatMap(post => post.data.tags || []))].sort();
 ---
 
 <!doctype html>
@@ -129,10 +133,11 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                 color: #94a3b8;
                 font-size: 0.85rem;
                 font-weight: 500;
-                cursor: pointer;
+                text-decoration: none; /* Link style reset */
                 white-space: nowrap;
                 transition: all 0.2s;
                 user-select: none;
+                display: inline-block;
             }
             .tag-chip:hover {
                 background: rgba(255, 255, 255, 0.1);
@@ -255,6 +260,39 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                 color: #fff;
             }
 
+            /* Pagination */
+            .pagination {
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+                margin-top: 4rem;
+                padding-top: 2rem;
+                border-top: 1px solid var(--border-color);
+            }
+            .pagination a {
+                padding: 0.8rem 1.5rem;
+                border: 1px solid var(--border-color);
+                border-radius: 12px;
+                color: #fff;
+                text-decoration: none;
+                background: rgba(255,255,255,0.05);
+                backdrop-filter: blur(10px);
+                transition: all 0.2s;
+                font-weight: 600;
+            }
+            .pagination a:hover {
+                background: var(--accent-orange);
+                border-color: var(--accent-orange);
+                transform: translateY(-2px);
+            }
+            .pagination span {
+                padding: 0.8rem 1.5rem;
+                color: #64748b;
+                font-family: 'JetBrains Mono', monospace;
+                display: flex;
+                align-items: center;
+            }
+
             /* States */
             #no-results {
                 display: none;
@@ -293,7 +331,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
 
                 /* Revert to Contained Card style for safety */
                 .controls-sticky-wrapper {
-                    box-sizing: border-box !important; /* THE MISSING LINK */
+                    box-sizing: border-box !important; 
                     flex-direction: column;
                     align-items: stretch;
                     top: 1rem; 
@@ -305,7 +343,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                     gap: 1rem;
                     padding: 1rem;
                     max-width: 100%;
-                    overflow: hidden; /* Force cut-off */
+                    overflow: hidden; 
                 }
                 
                 .search-wrapper { 
@@ -319,13 +357,13 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                 }
                 
                 .tags-scroll-container {
-                    display: block !important; /* Disable flex behavior to prevent expansion */
+                    display: block !important; 
                     width: 100% !important; 
                     max-width: 100% !important;
                     overflow-x: auto !important;
                     white-space: nowrap !important;
                     flex: none !important;
-                    padding-bottom: 5px; /* Space for scrollbar */
+                    padding-bottom: 5px; 
                     padding-right: 1rem;
                     -webkit-overflow-scrolling: touch;
                 }
@@ -351,14 +389,14 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
             <div class="controls-sticky-wrapper">
                 <div class="search-wrapper">
                     <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
-                    <input type="text" id="searchInput" class="search-input" placeholder="Search topics..." autocomplete="off" />
+                    <input type="text" id="searchInput" class="search-input" placeholder="Filter visible posts..." autocomplete="off" />
                 </div>
                 
                 <div class="tags-scroll-container" id="tagsContainer">
-                    <span style="color: #64748b; font-size: 0.85rem; font-weight: 600; padding: 0.5rem 0.5rem 0.5rem 0; white-space: nowrap;">Categories:</span>
-                    <button class="tag-chip active" data-tag="all">All Posts</button>
+                    <span style="color: #64748b; font-size: 0.85rem; font-weight: 600; padding: 0.5rem 0.5rem 0.5rem 0; white-space: nowrap;">Topics:</span>
+                    <a href="/blog" class={`tag-chip ${!Astro.url.searchParams.get('tag') ? 'active' : ''}`}>All</a>
                     {allTags.map(tag => (
-                        <button class="tag-chip" data-tag={tag}>{tag}</button>
+                        <span class="tag-chip">{tag}</span>
                     ))}
                 </div>
             </div>
@@ -366,7 +404,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
 			<section>
 				<ul id="postsGrid">
 					{
-						posts.map((post) => (
+						page.data.map((post) => (
 							<li class="post-item" 
                                 data-title={post.data.title.toLowerCase()} 
                                 data-tags={(post.data.tags || []).join(',')}
@@ -398,40 +436,39 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
 						))
 					}
                     <div id="no-results">
-                        <p>No articles found matching your criteria.</p>
-                        <button id="resetBtn" style="background:transparent; border:1px solid var(--accent-orange); color:var(--accent-orange); padding:0.5rem 1rem; border-radius:6px; cursor:pointer; margin-top:1rem; font-size:0.9rem;">Clear Filters</button>
+                        <p>No articles found on this page.</p>
+                        <button id="resetBtn" style="background:transparent; border:1px solid var(--accent-orange); color:var(--accent-orange); padding:0.5rem 1rem; border-radius:6px; cursor:pointer; margin-top:1rem; font-size:0.9rem;">Clear Filter</button>
                     </div>
 				</ul>
+
+                <div class="pagination">
+                    {page.url.prev ? <a href={page.url.prev}>← Previous</a> : null}
+                    <span>Page {page.currentPage} of {page.lastPage}</span>
+                    {page.url.next ? <a href={page.url.next}>Next →</a> : null}
+                </div>
 			</section>
 		</main>
 		<Footer />
 
         <script>
-            // Client-side filtering logic
+            // Client-side filtering logic (Only determines visibility on CURRENT page)
             const searchInput = document.getElementById('searchInput');
-            const tagsContainer = document.getElementById('tagsContainer');
             const statusMsg = document.getElementById('no-results');
             const resetBtn = document.getElementById('resetBtn');
             const items = document.querySelectorAll('.post-item');
 
-            let currentTag = 'all';
             let currentSearch = '';
 
             window.filterPosts = function() {
                 let visibleCount = 0;
-                // normalize search input
                 const term = currentSearch.trim();
 
                 items.forEach(item => {
                     const title = item.getAttribute('data-title');
-                    const tagsAttr = item.getAttribute('data-tags');
-                    // Handle edge case where tags might be empty
-                    const tags = tagsAttr ? tagsAttr.split(',') : [];
                     
                     const matchesSearch = !term || title.includes(term);
-                    const matchesTag = currentTag === 'all' || tags.includes(currentTag);
 
-                    if (matchesSearch && matchesTag) {
+                    if (matchesSearch) {
                         item.classList.remove('hidden');
                         visibleCount++;
                     } else {
@@ -448,30 +485,10 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                 window.filterPosts();
             });
 
-            // Tag Click Event
-            tagsContainer.addEventListener('click', (e) => {
-                const btn = e.target.closest('.tag-chip');
-                if (btn) {
-                    // Update visual state
-                    document.querySelectorAll('.tag-chip').forEach(b => b.classList.remove('active'));
-                    btn.classList.add('active');
-                    
-                    // Center the clicked button in the scroll view
-                    btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
-
-                    // Update logic
-                    currentTag = btn.getAttribute('data-tag');
-                    window.filterPosts();
-                }
-            });
-
             // Reset Button
             resetBtn.addEventListener('click', () => {
                 currentSearch = '';
-                currentTag = 'all';
                 searchInput.value = '';
-                document.querySelectorAll('.tag-chip').forEach(b => b.classList.remove('active'));
-                document.querySelector('.tag-chip[data-tag="all"]').classList.add('active');
                 window.filterPosts();
             });
         </script>
