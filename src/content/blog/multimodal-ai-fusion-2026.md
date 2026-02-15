@@ -299,7 +299,6 @@ image_url = "URL_TO_PRODUCT_IMAGE"
 text_prompt = "Describe this product and extract its name, price, and features."
 structured_data = multimodal_pipeline(image_url, text_prompt)
 print(structured_data)
-```
 
 ## Model Comparison
 
@@ -316,6 +315,8 @@ print(structured_data)
 ## Limitations
 
 Despite the advancements in multimodal AI, several limitations remain:
+
+```
 
 *   **Hallucination in Visual Grounding:** Models may sometimes generate incorrect or nonsensical information when grounding text in visual content. This is particularly problematic when dealing with complex scenes or ambiguous objects.
 *   **Spatial Reasoning Gaps:** Models often struggle with spatial reasoning tasks, such as understanding the relative positions of objects in an image or video.
@@ -376,3 +377,4 @@ Multimodal AI fusion represents a significant leap forward in artificial intelli
 - [The Model](/blog/ai-model-fingerprinting-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

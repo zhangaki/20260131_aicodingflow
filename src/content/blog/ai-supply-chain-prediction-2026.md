@@ -144,10 +144,11 @@ sample = pd.DataFrame([{
 }])
 print(f"Predicted Wait: {model.predict(sample)[0]:.1f} hours")
 
-```
 
 ### Step 2: From Forest to Graph
 While Random Forest works for isolated ports, it misses the *network effect*. If Port A is congested, ships divert to Port B, congesting it too.
+
+```
 
 To capture this, you would upgrade the model to use **PyTorch Geometric (as shown in Layer 2)**, where the `edge_index` represents shipping lanes. Congestion at node `i` would propagate messages to neighbor `j`, increasing the predicted traffic at `j`.
 
@@ -199,3 +200,4 @@ No. SMBs are using "Supply Chain as a Service" (SCaaS) APIs that wrap these GNN 
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

@@ -173,11 +173,12 @@ results = collection.query(
 )
 
 print(results)
-```
 
 ### Step 6: RAG Implementation
 
 Implement Retrieval-Augmented Generation (RAG) to combine the LLM with your PKB. RAG involves retrieving relevant information from your vector database and feeding it to the LLM as context. This allows the LLM to generate more accurate and informative responses.
+
+```
 
 **Simplified RAG Workflow:**
 
@@ -258,3 +259,4 @@ By running a local LLM, you can control the data it is trained on and the way it
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

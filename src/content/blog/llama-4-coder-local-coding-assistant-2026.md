@@ -246,7 +246,6 @@ To maximize Llama 4 Coder's performance for coding tasks, consider the following
 
     ```bash
     ollama run llama4-coder:70b-q4 -p "You are a helpful coding assistant..."
-    ```
 
 ### Llama 4 Coder vs Competitors: A Comparison Table
 
@@ -261,6 +260,8 @@ Here's a comparison of Llama 4 Coder against other leading open-source coding LL
 | Training Data       | Code & NL     | Code Only         | Code & NL      | Code & NL        |
 | Strengths           | Large model size, balanced performance | Code-focused training | Long context, strong performance | Accessible smaller models |
 | Weaknesses          | High resource requirements for 405B | Smaller model size | Can be resource intensive | Shorter context window |
+
+```
 
 This table highlights the key differences between these models, allowing you to choose the best option for your specific needs.
 
@@ -339,3 +340,4 @@ Llama 4 Coder provides a powerful and private alternative to cloud-based coding 
 - [7 Best Local AI Assistants That Work Completely Offline in 2026](/blog/best-local-ai-assistants-offline-2026/)
 - [How to Build a Private AI Knowledge Base (No Cloud, No API Calls)](/blog/build-private-ai-knowledge-base-2026/)
 - [Home Assistant + Local AI: Complete Offline Smart Home Setup (2026)](/blog/home-assistant-local-ai-integration-2026/)
+

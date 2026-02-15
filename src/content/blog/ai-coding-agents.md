@@ -377,11 +377,12 @@ resource "aws_instance" "example" {
   # Security group
   vpc_security_group_ids = ["sg-0e9e59a98f8664584"]
 }
-```
 
 ### Conclusion: Deployment
 
 GitHub Copilot X and the custom GPT-4 agent were the most effective in automating deployment tasks. They generated functional Dockerfiles, IaC code, and CI/CD pipeline configurations. Amazon CodeWhisperer was the least useful in this area. AI has the potential to significantly reduce the complexity of software deployment, but human oversight is still essential to ensure that the generated configurations are secure and efficient.
+
+```
 
 **V. Comparison Table**
 
@@ -426,3 +427,4 @@ For senior developers and CTOs, the key is to experiment with these tools, ident
 Ultimately, AI coding agents are a powerful tool, but they are not a replacement for human expertise. They should be used strategically to augment and enhance the skills of software developers.
 
 *Disclaimer:* The field of AI coding agents is rapidly evolving. This comparison reflects the capabilities of these tools as of late 2024. Performance and features are subject to change with ongoing development and model updates.
+

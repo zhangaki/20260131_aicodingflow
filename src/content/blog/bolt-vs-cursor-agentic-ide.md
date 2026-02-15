@@ -79,9 +79,10 @@ router.get('/', (req, res) => {
 });
 
 module.exports = router;
-```
 
 ### 4.2 Scenario 2: Refactoring Legacy Code (Java)
+
+```
 
 **Task:** Refactor a complex piece of legacy Java code by extracting a method to improve code structure and readability.
 
@@ -191,3 +192,4 @@ In tests, Cursor's Composer model completes tasks in an average of 62 seconds, w
 - [Cursor vs Claude Code 2026: Which AI Coding Assistant Wins?](/blog/cursor-vs-claude-code-2026/)
 - [Build a Full-Stack App with Cursor AI 2026: Complete Walkthrough](/blog/how-to-use-cursor-for-building-a-full-stack-app-from-scratch-2026/)
 - [Cursor AI Editor 2026: Features, Pricing & Is It Worth $20/Month?](/blog/cursor-ai-2026/)
+

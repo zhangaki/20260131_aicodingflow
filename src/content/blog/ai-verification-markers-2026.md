@@ -147,6 +147,7 @@ c2pa.embed_manifest(image, signed_manifest)
 
 # Save the image
 c2pa.save_image(image, "my_image_with_c2pa.webp")
+
 ```
 
 **For AI Model Developers:**
@@ -208,3 +209,4 @@ c2pa.save_image(image, "my_image_with_c2pa.webp")
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

@@ -160,6 +160,7 @@ context = f"Relevant memories: {retrieved_memories}\n\n" if retrieved_memories e
 
 response = conversation.predict(input= context + user_input)
 print(response)
+
 ```
 
 This code provides a basic framework for building a persistent memory system. You can further customize it by adding more sophisticated memory management techniques, such as summarization, entity extraction, and relevance scoring.
@@ -264,3 +265,4 @@ The era of amnesiac chatbots is over. By understanding the technical mechanisms 
 - [The Agent Bazaar: Monetizing AI Agents in the 2026 Marketplace Economy](/blog/ai-agent-marketplace-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

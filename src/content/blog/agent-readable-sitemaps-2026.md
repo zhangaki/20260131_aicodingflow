@@ -206,6 +206,7 @@ target_website = "https://www.example.com" # Replace with your domain
 for agent in suspicious_agents:
     analyze_agent_behavior(agent, target_website)
 
+
 ```
 
 **Disclaimer:** This script is a starting point. It requires significant customization and server-side logging to be truly effective.
@@ -240,3 +241,4 @@ The game has changed. Stop playing by the old rules.
 - ['The Digital Butterfly: Predicting Supply Chain Disruption with Graph Neural](/blog/ai-supply-chain-prediction-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

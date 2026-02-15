@@ -269,9 +269,10 @@ def process_data(data: list[dict]) -> list[dict]:
     Returns:
         A list of processed dictionaries.
     """
-```
 
 Both models generated reasonable docstrings. DeepSeek V3's docstring is slightly more detailed and informative.
+
+```
 
 **H2: Comparison Table**
 
@@ -314,3 +315,4 @@ The LLM field is rapidly evolving. Future research will improve capabilities and
 ## Related Reading
 
 - [DeepSeek R1: New LLM Outperforms Llama 3 - Benchmarks & API Details](/blog/deepseek-r1-release/)
+

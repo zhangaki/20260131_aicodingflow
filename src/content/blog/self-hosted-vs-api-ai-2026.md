@@ -111,6 +111,7 @@ def calculate_tco(
 # Example: 5 million requests/month
 calculate_tco(monthly_requests=5_000_000)
 
+
 ```
 
 **Sample Output**:
@@ -159,3 +160,4 @@ This gives you cost efficiency, access to cutting-edge models, and resilience.
 - [The Agent Bazaar: Monetizing AI Agents in the 2026 Marketplace Economy](/blog/ai-agent-marketplace-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

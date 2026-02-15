@@ -73,11 +73,12 @@ estimate = model.estimate_effect(identified_estimand,
         target_units = "atc") # Average Treatment Effect on the Control Group
 
 print(estimate)
-```
 
 We run counterfactual audits on a representative sample of cases every week, with a budget of $50,000 per model per year for compute resources and human review. Any model failing the counterfactual audit is immediately quarantined and undergoes further investigation.
 
 ### Layer 3: Distributional Parity Shields (Inference-Time Guardrails)
+
+```
 
 Instead of auditing *after* the fact, 2026 legal systems use **Inference-Time Guardrails** to prevent biased decisions in real-time. This is crucial because even a model that passes offline audits can exhibit bias in specific, unforeseen scenarios.
 
@@ -177,3 +178,4 @@ A: Deploying a biased AI system can have serious legal consequences, including l
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

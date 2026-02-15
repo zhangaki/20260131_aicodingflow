@@ -257,9 +257,10 @@ Local AI enables powerful and context-aware automations.
       - service: conversation.process
         data:
           text: "The current temperature is {{ states('sensor.temperature') }} degrees. What is the weather forecast?"
-    ```
 
 ### Step-by-Step Tutorial: From Bare Metal to "Hey Jarvis, what's the weather?"
+
+```
 
 This tutorial assumes you're starting with a fresh installation of Home Assistant OS on a Raspberry Pi 5 or a mini PC.
 
@@ -345,3 +346,4 @@ Building a local AI-powered smart home with Home Assistant is a rewarding endeav
 - [7 Best Local AI Assistants That Work Completely Offline in 2026](/blog/best-local-ai-assistants-offline-2026/)
 - [How to Build a Private AI Knowledge Base (No Cloud, No API Calls)](/blog/build-private-ai-knowledge-base-2026/)
 - [Llama 4 Coder: How to Run Meta's Coding LLM Locally in 2026](/blog/llama-4-coder-local-coding-assistant-2026/)
+

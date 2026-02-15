@@ -606,6 +606,7 @@ llm = TokenTrackingOpenAI(temperature=0, openai_api_key=openai_api_key)
 issue = llm("What is the capital of France?")
 print(f"Response: {issue}")
 print(f"Token Usage: {llm.get_token_count()}")
+
 ```
 
 **Important:** This is a simplified example. A real-world implementation would need to:
@@ -759,3 +760,4 @@ Remember that ChatGPT starts at $20/month, and also offers a free tier.  However
 - [ChatGPT Review 2026: Custom GPTs, Pricing & Features Guide](/blog/chatgpt-review-2026/)
 - [How to Build Custom GPTs with ChatGPT 2026: Business Tutorial](/blog/how-to-use-chatgpt-for-building-custom-gpts-for-your-business-2026/)
 - [Claude 4.6 Opus February 2026 Update: Agent Teams & PowerPoint](/blog/claude-46-opus-february-2026-update/)
+

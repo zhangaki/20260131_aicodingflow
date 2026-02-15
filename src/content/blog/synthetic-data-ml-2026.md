@@ -140,6 +140,7 @@ y_pred_real_on_real = model_real.predict(X_test_real)
 accuracy_real_on_real = accuracy_score(y_test_real, y_pred_real_on_real)
 
 print(f"Accuracy (Real Data Trained, Real Data Tested): {accuracy_real_on_real}")
+
 ```
 
 **Note:** Replace `'real_data.csv'` and `'target_variable'` with your actual file name and target variable column name. Install the `ctgan` library using `pip install ctgan`. You will also need `pandas` and `scikit-learn`.
@@ -209,3 +210,4 @@ Synthetic data is no longer a niche technology; it is a fundamental enabler of A
 - [The Model](/blog/ai-model-fingerprinting-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

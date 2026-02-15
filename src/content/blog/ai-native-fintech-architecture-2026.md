@@ -125,6 +125,7 @@ def enforce_policy(transaction_context, active_policies):
     
     return {"allowed": True, "audit_trail": "CLEAN"}
 
+
 ```
 
 This "Decoupled Policy" architecture means your engineers don't hardcode rules. The Legal Team (assisted by AI) "commits" new policies to a repository, which automatically updates the enforcement engine.
@@ -183,3 +184,4 @@ Building the models from scratch? Yes. Using the API economy? No. The cost of *n
 - ['The Digital Butterfly: Predicting Supply Chain Disruption with Graph Neural](/blog/ai-supply-chain-prediction-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

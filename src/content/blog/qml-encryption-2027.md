@@ -114,6 +114,7 @@ else:
 print(f"Circuit Depth: {circuit.depth()} gates")
 print("Note: In a noise-free simulation, accuracy is 100%. With noise, it drops to ~85%.")
 
+
 ```
 
 **The Logic Explained**:
@@ -167,3 +168,4 @@ This is the standard for 2027. **Do not replace; Augment.**
 - [The Model](/blog/ai-model-fingerprinting-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

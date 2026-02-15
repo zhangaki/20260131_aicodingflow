@@ -30,11 +30,12 @@ project = claude.agent_team(
     agents=[research_agent, coder_agent, writer_agent],
     task="Build a web scraper and document it"
 )
-```
 
 ## Improved Coding Capabilities
 
 Claude 4.6 Opus significantly improved its software engineering skills:
+
+```
 
 - ✅ **Better planning** — More careful task decomposition
 - ✅ **Longer agentic tasks** — Sustains focus for 10+ step workflows
@@ -134,3 +135,4 @@ If you're building production AI agents, this update is **mandatory**.
 - [Claude AI Review 2026: Artifacts Feature, Pricing & Opus 4.6 Guide](/blog/claude-review-2026/)
 - [Using Claude for Complex Coding and Long-Form Analysis: A Practical 2026 Walkthrough](/blog/how-to-use-claude-for-complex-coding-and-long-form-analysis-2026/)
 - [Claude 4.6 Opus Review 2026: Features, Pricing, and Our Honest Verdict](/blog/claude-46-opus-review-2026/)
+

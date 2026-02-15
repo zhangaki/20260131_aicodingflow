@@ -288,7 +288,8 @@ Leveraging knowledge graphs for improved reasoning and decision-making.
                 print(f"Error connecting to Neo4j: {e}")
 
         driver.close()
-        ```
+
+```
 
 **IV. Key Trends & Technologies Shaping the Future of AI Agents**
 
@@ -405,3 +406,4 @@ The future of AI agents is being shaped by advancements in hybrid architectures,
 - [7 Best AI Chatbots with Persistent Memory 2026: Context Across Sessions](/blog/ai-chatbots-with-persistent-memory-across-sessions-2026/)
 - [ChatGPT vs Gemini vs Copilot 2026: Best AI Chatbot Comparison](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
 - [Cursor vs GitHub Copilot 2026: Best AI Coding Assistant 2026](/blog/cursor-vs-copilot-2026/)
+

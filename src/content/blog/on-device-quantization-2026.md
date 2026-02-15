@@ -135,9 +135,6 @@ input_ids = tokenizer(prompt, return_tensors="pt").to("cuda")
 
 output = quantized_model.generate(**input_ids, max_new_tokens=50)
 print(tokenizer.decode(output[0], skip_special_tokens=True))
-```
-
-```
 
 This code snippet demonstrates how to quantize a Llama-3-70B model using `autoawq` and then load the quantized model for inference.
 
@@ -179,3 +176,4 @@ This code snippet demonstrates how to quantize a Llama-3-70B model using `autoaw
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

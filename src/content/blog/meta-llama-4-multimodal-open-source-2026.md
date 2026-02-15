@@ -227,9 +227,10 @@ response = requests.post("http://localhost:8000/generate", json={
 })
 
 print(response.json()["text"])
-```
 
 ## Licensing
+
+```
 
 Llama 4 is released under the **Llama 4 Community License**:
 - ✅ Free for research and commercial use
@@ -271,3 +272,4 @@ The open-source AI revolution is here.
 ## Related Reading
 
 - [Llama 4 Coder: How to Run Meta''s Coding LLM Locally in 2026](/blog/llama-4-coder-local-coding-assistant-2026/)
+

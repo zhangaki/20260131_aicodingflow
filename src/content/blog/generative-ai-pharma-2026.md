@@ -198,6 +198,7 @@ generated_smiles = [tokenizer.decode(seq, skip_special_tokens=True) for seq in o
 # Print the generated SMILES strings
 for i, smiles in enumerate(generated_smiles):
     print(f"Generated SMILES {i+1}: {smiles}")
+
 ```
 
 **Explanation:**
@@ -286,3 +287,4 @@ Implementing a full generative AI pipeline for pharmaceutical R&D requires a sig
 - [The Model](/blog/ai-model-fingerprinting-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

@@ -182,7 +182,8 @@ This walkthrough shows how to use Ollama and AnythingLLM to search your document
 
     ```bash
     docker compose up -d
-    ```
+
+```
 
 6.  **Access AnythingLLM in your web browser:**
     Navigate to `http://localhost:3000`.
@@ -267,3 +268,4 @@ The era of truly sovereign computing is here. Local Offline AI Assistants are no
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

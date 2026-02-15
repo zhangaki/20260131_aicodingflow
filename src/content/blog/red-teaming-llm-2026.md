@@ -68,6 +68,7 @@ Then, run a basic scan against your model:
 ```bash
 garak --model_type openai --model_name gpt-4 \
       --probes encoding,dan,gcg
+
 ```
 
 This command runs Garak against the OpenAI GPT-4 model, using the `encoding`, `dan` (Do Anything Now), and `gcg` (Greedy Coordinate Gradient) probes. The output will be a report detailing any vulnerabilities found.
@@ -230,3 +231,4 @@ A: Red teaming should be part of a comprehensive security strategy that includes
 - [The Agent Bazaar: Monetizing AI Agents in the 2026 Marketplace Economy](/blog/ai-agent-marketplace-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

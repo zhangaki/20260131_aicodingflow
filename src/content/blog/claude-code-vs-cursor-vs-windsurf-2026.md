@@ -144,6 +144,7 @@ def fibonacci(n: int) -> int:
   for _ in range(n):
     a, b = b, a + b
   return a
+
 ```
 
 **2. Quicksort (Python):**
@@ -345,3 +346,4 @@ After extensive use, **Windsurf (formerly Codeium) emerges as our top pick.** Wh
 - [Best AI Tools for Coding 2026: Top 6 Tested & Compared](/blog/best-ai-tools-for-coding-2026/)
 - [Claude Code Review 2026: Features, Pricing, and Our Honest Verdict](/blog/claude-code-review-2026/)
 - [Cursor Review 2026: Features, Pricing, and Our Honest Verdict](/blog/cursor-review-2026/)
+

@@ -141,13 +141,14 @@ def filter_output(response: str) -> str:
     if not check_content_policy(response):
         return "[CONTENT FILTERED]"
     return response
-```
 
 ## Monitoring and Alerting: The Vigilant Eye
 
 Effective monitoring and alerting are crucial for detecting and responding to prompt injection attacks in real-time. You can't fix what you can't see.
 
 ### Essential Monitoring Practices
+
+```
 
 1.  **Prompt Logging:** Log all input prompts and corresponding LLM outputs (with PII redacted) for forensic analysis. This data is invaluable for understanding attack patterns and improving your defenses. In 2026, most organizations are using specialized prompt logging platforms that offer features like automated PII redaction, anomaly detection, and prompt engineering analytics. These platforms typically cost between \$500-\$5000 per month, depending on the volume of prompts logged and the features used.
 
@@ -248,3 +249,4 @@ A: This depends on your organization's resources and expertise. Building your ow
 - [The Agent Bazaar: Monetizing AI Agents in the 2026 Marketplace Economy](/blog/ai-agent-marketplace-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

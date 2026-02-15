@@ -131,6 +131,7 @@ if response.status_code == 200:
     print(f"Image URL: {image_url}")
 else:
     print(f"Error: {response.status_code} - {response.text}")
+
 ```
 
 This code sends a JSON payload to the Ideogram 2.0 API with a text prompt, desired style, and resolution. The API returns a JSON response containing the URL of the generated image.
@@ -152,3 +153,4 @@ For projects requiring high-fidelity text rendering, such as generating marketin
 ### Future Directions and Emerging Trends
 
 The field of text-to-image generation is rapidly evolving. Future advancements are likely to focus on improving realism, semantic understanding, and control. Expect to see models that can generate images and videos with even greater fidelity and coherence, and that offer developers more precise control over the creative process.
+

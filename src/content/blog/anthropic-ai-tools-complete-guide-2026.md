@@ -127,13 +127,14 @@ message = client.messages.create(
 )
 
 print(message.content[0].text)
-```
 
 Replace "YOUR\_ANTHROPIC\_API\_KEY" with your actual API key.
 
 ### Enterprise Features
 
 Anthropic offers several enterprise-focused solutions designed to meet the needs of larger organizations.
+
+```
 
 **Claude for Business:**
 
@@ -244,3 +245,4 @@ A: Like all AI models, Claude models have limitations. They may sometimes genera
 - [bolt.new in 2026: A Practitioner's Complete Review](/blog/boltnew-review-2026/)
 - [Claude Review 2026: Features, Pricing, and Our Honest Verdict](/blog/claude-review-2026/)
 - [Using bolt.new for Boosting Your Productivity: A Practical 2026 Walkthrough](/blog/how-to-use-boltnew-for-boosting-your-productivity-2026/)
+

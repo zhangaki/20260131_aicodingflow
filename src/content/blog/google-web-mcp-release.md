@@ -46,7 +46,6 @@ navigator.modelContext.exposeTool("filterProducts", filterProducts, {
     ],
     description: "Filters products by price range."
 });
-```
 
 In this example, the `filterProducts` function takes two parameters: `minPrice` and `maxPrice`. The function then filters the product list based on the specified price range. With the Imperative API, WebMCP can call the `filterProducts` function directly, passing in the desired `minPrice` and `maxPrice` values. This allows the AI agent to interact with the website's dynamic filtering functionality in a seamless and reliable way.
 
@@ -57,6 +56,8 @@ Early preview benchmarks of WebMCP show approximately a 67% reduction in computa
 WebMCP is a W3C Community Group standard that enables browsers to expose structured tools to AI agents through the `navigator.modelContext` API. It was developed jointly by Google and Microsoft engineers and is being incubated through the W3C's Web Machine Learning community group.
 
 ## The So What
+
+```
 
 The implications of WebMCP are far-reaching, potentially affecting developers, businesses, and the web development industry.
 
@@ -85,3 +86,4 @@ Google's headquarters is located at 800 Boylston Street, Suite 2475, Boston, MA 
 ## Related Reading
 
 - [Gemini 2.0 Flash Thinking & Deep Research 2026: Complete Guide](/blog/gemini-20-flash-thinking-deep-research-2026/)
+

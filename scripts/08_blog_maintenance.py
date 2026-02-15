@@ -278,6 +278,7 @@ def run_audit():
             lines = f.readlines()
             
         file_issues = []
+        content = ''.join(lines)
         
         # 1. Check for mismatched code fences
         fence_count = 0
@@ -287,8 +288,33 @@ def run_audit():
         
         if fence_count % 2 != 0:
             file_issues.append(f"Odd number of code fences ({fence_count})")
+        
+        # 2. Check for empty or whitespace-only code blocks
+        in_fence = False
+        fence_start = -1
+        fence_content = []
+        for i, line in enumerate(lines):
+            stripped = line.strip()
+            if stripped.startswith('```'):
+                if not in_fence:
+                    in_fence = True
+                    fence_start = i + 1
+                    fence_content = []
+                else:
+                    # Closing fence — check if content is empty
+                    block_text = ''.join(fence_content).strip()
+                    if not block_text:
+                        file_issues.append(f"Empty code block (Line {fence_start})")
+                    in_fence = False
+                    fence_content = []
+            elif in_fence:
+                fence_content.append(line)
+        
+        # 3. Check for unclosed trailing code block (fence opened but never closed)
+        if in_fence:
+            file_issues.append(f"Unclosed code block at end of file (opened Line {fence_start})")
             
-        # 2. Check for missing table headers
+        # 4. Check for missing table headers
         for i, line in enumerate(lines):
             # Detects | --- | --- | roughly
             if '|' in line and set(line.strip().replace('|', '').replace(' ', '')) == {'-'}:
@@ -369,28 +395,57 @@ def run_format():
             new_lines.append(line)
             i += 1
 
-        # Pass 2: Fix Tables (on the result of Pass 1)
-        # We can do this in a separate loop or restart. Let's restart with new_lines as input.
+        # Pass 2: Remove empty code blocks and close unclosed trailing blocks
         pass2_lines = []
-        for j, line in enumerate(new_lines):
+        j = 0
+        while j < len(new_lines):
+            line = new_lines[j]
+            stripped = line.strip()
+            
+            # Detect empty code blocks: ``` immediately followed by ```
+            if stripped.startswith('```'):
+                # Look ahead for closing fence
+                k = j + 1
+                while k < len(new_lines) and not new_lines[k].strip():
+                    k += 1  # skip blank lines
+                if k < len(new_lines) and new_lines[k].strip().startswith('```'):
+                    # Empty code block — skip both fences and blanks between
+                    j = k + 1
+                    modified = True
+                    print(f"    Removed empty code block at line {j}")
+                    continue
+            
+            pass2_lines.append(line)
+            j += 1
+        
+        # Check if fences are balanced; if odd, append closing fence
+        fence_count = sum(1 for l in pass2_lines if l.strip().startswith('```'))
+        if fence_count % 2 != 0:
+            pass2_lines.append("\n```\n")
+            modified = True
+            print(f"    Closed unclosed trailing code block (total fences was {fence_count})")
+
+        # Pass 3: Fix Tables
+        pass3_lines = []
+        for j, line in enumerate(pass2_lines):
             if '|' in line and set(line.strip().replace('|', '').replace(' ', '')) == {'-'}:
                 # It's a delimiter
-                if pass2_lines and (not pass2_lines[-1].strip() or '|' not in pass2_lines[-1]):
+                if pass3_lines and (not pass3_lines[-1].strip() or '|' not in pass3_lines[-1]):
                     # Missing header
                     cols = line.count('|') - 1
                     if cols < 1: cols = 2
                     header = "| **Metric** | " + " | ".join(["**Value**"] * (cols-1)) + " |\n"
-                    pass2_lines.append(header)
-                    pass2_lines.append(line)
+                    pass3_lines.append(header)
+                    pass3_lines.append(line)
                     modified = True
                 else:
-                    pass2_lines.append(line)
+                    pass3_lines.append(line)
             else:
-                pass2_lines.append(line)
+                pass3_lines.append(line)
                 
         if modified:
             with open(filepath, 'w', encoding='utf-8') as f:
-                f.writelines(pass2_lines)
+                f.writelines(pass3_lines)
             print(f"  Formatted: {filepath.name}")
             count += 1
             

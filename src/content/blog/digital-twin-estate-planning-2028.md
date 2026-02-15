@@ -107,9 +107,6 @@ contract ThanatosProtocol {
     // 3. Fallback to receive funds (The "Vault")
     receive() external payable {}
 }
-```
-
-```
 
 **The Logic**:
 1.  **Fund**: You send 10 BTC (wrapped) or ETH to this contract address. It is now the "Vault."
@@ -155,3 +152,4 @@ contract ThanatosProtocol {
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

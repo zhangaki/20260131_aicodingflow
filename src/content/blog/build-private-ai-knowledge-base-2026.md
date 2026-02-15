@@ -531,11 +531,12 @@ Save this as `web.py`.  Also, create a directory named `static` and a file named
 
 ```bash
 python web.py
-```
 
 Open your browser and navigate to `http://localhost:8000`. You should see a simple web interface where you can enter queries.
 
 ### 8. Advanced: Hybrid Search, Metadata Filtering, Incremental Updates
+
+```
 
 *   **Hybrid Search:** Combine vector search with keyword-based search (e.g., using BM25) for improved recall. Langchain provides tools for this.
 *   **Metadata Filtering:** Add metadata to your documents (e.g., author, date, topic) and use it to filter search results. ChromaDB supports metadata filtering.
@@ -604,3 +605,4 @@ You have now built a functional, private AI knowledge base using RAG.  Remember 
   price="Free + $24/month"
   tag="Audio/Video"
 />
+

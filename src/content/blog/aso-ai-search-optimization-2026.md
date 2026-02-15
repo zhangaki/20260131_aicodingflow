@@ -78,11 +78,12 @@ example_chunk = create_answer_chunk(
 
 print(example_chunk)
 
-```
 
 ### Rite 4: Temporal Infusion
 
 AI favors fresh, up-to-date content. Stale content is considered less reliable and is less likely to be cited. Therefore, you must infuse your content with temporal relevance.
+
+```
 
 *   **Action:** Update your content regularly with the latest information, trends, and statistics. Add a "Last Updated" date to your pages.
 *   **Example:** If you're writing about AI tools, make sure to include the latest versions and features.
@@ -173,3 +174,4 @@ Remember, the goal is not just to rank high in AI search results. It's to become
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

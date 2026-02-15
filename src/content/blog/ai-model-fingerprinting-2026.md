@@ -235,6 +235,7 @@ def compare_weights(model1, model2):
 # Example Usage
 # similarities = compare_weights(original_model, suspect_model)
 # print(f"Weight Similarities: {similarities}")
+
 ```
 
 **Important Considerations for Forensic Analysis:**
@@ -316,3 +317,4 @@ A: Regularly. The threat landscape is constantly evolving, so it's important to 
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

@@ -244,6 +244,7 @@ Build the Docker image:
 
 ```bash
 docker build -t time-skill .
+
 ```
 
 4.  **Deploy Your Agent**: Deploy your agent to a server or cloud platform. Make sure your agent has a stable IP address or domain name so that other agents can find it.
@@ -293,3 +294,4 @@ A: The stated long-term goal is to understand the dynamics of autonomous agent s
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

@@ -111,6 +111,7 @@ device:
       - sensor_integrity
       - application_whitelist
       - geo_location
+
 ```
 
 This configuration dictates that the glasses *periodically* (hourly, in this example) attest to their integrity with OrionTech's servers. This attestation process verifies:
@@ -146,3 +147,4 @@ Local-Only Perception is a myth if the device itself is constantly phoning home 
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

@@ -143,9 +143,6 @@ prompt = "Explain 2-bit quantization in one sentence:"
 inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 outputs = model.generate(**inputs, max_new_tokens=128)
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
-```
-
-```python
 # Measuring inference speed
 import time
 
@@ -159,6 +156,7 @@ elapsed = time.time() - start
 num_tokens = outputs.shape[1] - inputs["input_ids"].shape[1]
 print(f"Generated {num_tokens} tokens in {elapsed:.2f}s")
 print(f"Speed: {num_tokens / elapsed:.1f} tokens/sec")
-```
 
 These examples demonstrate the simplicity of loading and running the quantized model. The key takeaway is that 2-bit quantization enables deployment on consumer hardware while maintaining competitive accuracy, opening up new possibilities for privacy-preserving, on-device AI applications.
+
+```

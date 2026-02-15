@@ -134,6 +134,7 @@ if response.status_code == 200:
     print(response.json()["choices"][0]["text"])
 else:
     print(f"Error: {response.status_code} - {response.text}")
+
 ```
 
 This simple example demonstrates how to generate code using the DeepSeek R1 API. The API also offers robust error handling and documentation.
@@ -169,3 +170,4 @@ Before fully embracing DeepSeek R1, CTOs and senior developers must consider sev
 - [15 Best AI Tools for Data Analysis 2026: Free & Paid Comparison](/blog/best-ai-tools-for-data-analysis-2026/)
 - [7 Best Local AI Assistants That Work Completely Offline in 2026](/blog/best-local-ai-assistants-offline-2026/)
 - [ChatGPT Review 2026: Custom GPTs, Pricing & Features Guide](/blog/chatgpt-review-2026/)
+

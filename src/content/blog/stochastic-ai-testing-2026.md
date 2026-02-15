@@ -168,11 +168,12 @@ Calling external LLMs for every commit is often prohibitively expensive and slow
     # Replace the actual LLM call with the mock function in your tests
     response = mock_llm_call("What is the capital of France?")
     assert "Paris" in response
-    ```
 
 ### Step 4: Continuous Monitoring and Retraining
 
 Probabilistic QA is not a one-time effort. LLMs are constantly evolving, and the performance of your application may drift over time. It's crucial to continuously monitor the performance of your LLM-powered features and retrain your models as needed.
+
+```
 
 *   **Monitoring Metrics:** Track metrics like:
     *   Test pass/fail rate
@@ -246,3 +247,4 @@ A: The frequency of retraining depends on the rate of data drift and the sensiti
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

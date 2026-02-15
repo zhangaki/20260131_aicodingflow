@@ -106,6 +106,7 @@ class KVCacheService:
     def retrieve_kv_cache(self, document_id, chunk_ids):
         kv_caches = [self.vram_cache.get(f"{document_id}_{i}") for i in chunk_ids]
         return concatenate_kv_caches(kv_caches)
+
 ```
 
 This is a simplified example, but it illustrates the core concept. In practice, you'll need to handle details such as cache invalidation, concurrency, and error handling.
@@ -202,3 +203,4 @@ A: No. Some applications, such as those involving complex reasoning or very larg
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

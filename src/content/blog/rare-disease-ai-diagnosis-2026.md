@@ -159,9 +159,10 @@ THRESHOLD = 0.85  # Adjust this threshold based on validation data
 for disease, score in similarity_scores.items():
     if score > THRESHOLD:
         print(f"ALERT: High similarity score for {disease} ({score:.4f})")
-```
 
 ## Performance Metrics and Costs
+
+```
 
 *   **Accuracy:** The goal is to achieve >95% sensitivity (true positive rate) for treatable rare diseases while maintaining a high specificity (true negative rate) to minimize false positives.
 *   **Diagnostic Delay Reduction:** Aim for a median diagnostic delay reduction of at least 5 years.
@@ -231,3 +232,4 @@ A: Our vision is to create a world where every patient with a rare disease recei
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

@@ -48,6 +48,7 @@ class ClawdbotAgent:
         new_action = self.reflector.generate_new_action(error, context)
         # Update the plan
         self.planner.update_plan(new_action)
+
 ```
 
 This example shows the core loop of the agent. The `reflect_and_adapt` function is crucial. It leverages the vector memory to learn from past mistakes and adapt its strategy. Without it, Clawdbot would be stuck repeating the same errors.
@@ -180,3 +181,4 @@ We recommend starting with GPT-4 or Claude 3 Opus for their superior reasoning c
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

@@ -176,11 +176,12 @@ trainer.train()
 # Save the trained student model
 student_model.save_pretrained("./student_model")
 student_tokenizer.save_pretrained("./student_model")
-```
 
 In 2026, the goal is to use the giant models as "Teachers" and deploy the "Students" as the actual workers in your agentic mesh.
 
 ### Step 3: Prefix Tuning & Fixed Contexts
+
+```
 
 By structuring your agent's memory into "Fixed Buckets" (e.g., a "Profile Bucket," a "Task Bucket," and a "History Bucket"), you can optimize the cache hits. The more stable your context, the more efficiently prompt caching works.
 
@@ -268,3 +269,4 @@ A: The frequency of retraining depends on the rate of change in your data and th
 - [The Agent Bazaar: Monetizing AI Agents in the 2026 Marketplace Economy](/blog/ai-agent-marketplace-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

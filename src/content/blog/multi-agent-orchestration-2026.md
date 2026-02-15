@@ -188,11 +188,12 @@ def log_agent_interaction(agent_name, input_text, output_text):
 
 # Example usage within an agent:
 # log_agent_interaction("Researcher", "What is multi-agent orchestration?", research_report)
-```
 
 ## Research Findings (2025-2026)
 
 Recent research has focused on improving agent coordination and robustness. Key findings include:
+
+```
 
 *   **"Reinforcement Learning for Multi-Agent Communication" (NeurIPS 2025):** Explores using reinforcement learning to train agents to communicate more effectively, leading to improved collaboration and performance.
 *   **"Robust Multi-Agent Orchestration with Uncertainty Quantification" (ICML 2026):** Introduces a framework for quantifying uncertainty in agent predictions and using this information to make more robust orchestration decisions.
@@ -235,3 +236,4 @@ Multi-Agent Orchestration is rapidly becoming the dominant paradigm for building
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+

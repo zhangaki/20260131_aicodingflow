@@ -113,7 +113,6 @@ Gemini: *saves preference*
 Session 2 (next week):
 You: "Show me a React tutorial"
 Gemini: *automatically suggests TypeScript-based tutorial*
-```
 
 ## Google TV Integration
 
@@ -121,6 +120,8 @@ Gemini is coming to Google TV with voice control:
 - "The screen is too dim" → Auto-adjusts brightness
 - "I can't hear the dialogue" → Boosts center channel audio
 - "Show me photos from last summer" → Displays photo slideshow with AI enhancements
+
+```
 
 This makes TV interfaces finally voice-first.
 
@@ -216,3 +217,4 @@ If you're a Google Workspace user, Gemini Advanced ($20/mo) is now a no-brainer.
 - [Gemini Review 2026: Features, Pricing, and Our Honest Verdict](/blog/gemini-review-2026/)
 - [How to Use Gemini 2.0 for 1M Token Documents 2026: Analysis Guide](/blog/how-to-use-gemini-for-analyzing-documents-with-a-million-token-context-2026/)
 - [ChatGPT vs Gemini vs Copilot 2026: Best AI Chatbot Comparison](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
+
