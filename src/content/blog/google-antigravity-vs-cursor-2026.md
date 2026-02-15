@@ -1,12 +1,8 @@
 ---
-description: Google
-heroImage: /assets/google-antigravity-review-2026.webp
-pubDate: Jan 01 2026
-tags:
-- Dev Tools
-- AI Agents
-- Infrastructure
-title: 'Google Antigravity vs Cursor: I Tested Both for 14 Days. One is Free.'
+title: "Google Antigravity vs Cursor: I Tested Both for 14 Days. One is Free."
+description: "Google"
+pubDate: "Jan 01 2026"
+heroImage: "/assets/google-antigravity-review-2026.webp"
 ---
 
 **February 2026**: Google just dropped **Antigravity IDE** in public preview. It's **completely free**, promises autonomous AI agents, and claims to replace $20/month tools like Cursor.
@@ -136,6 +132,7 @@ If you're evaluating tools for your digital empire, these deep dives provide cri
 
 *Optimized for US/UK SaaS and Fintech standards.*
 
+| **Metric** | **Value** |
 ---|
 | **Free** | Full access (public preview) | 2,000 completions/month |
 | **Pro** | N/A (free) | $20/month |

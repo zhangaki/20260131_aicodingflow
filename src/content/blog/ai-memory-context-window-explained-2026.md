@@ -1,17 +1,8 @@
 ---
-category: AI Engineering
-description: 'From 4K to 10M tokens: how AI context windows actually work, why bigger
-  isn''t always better, and practical strategies for managing memory in AI applications.'
-heroImage: /assets/ai-memory-context-window-explained-2026.webp
-pubDate: Feb 01 2026
-tags:
-- context-window
-- ai-memory
-- llm
-- rag
-- engineering
-title: 'AI Memory and Context Windows Explained: What Every Developer Needs to Know
-  in 2026'
+title: "AI Memory and Context Windows Explained: What Every Developer Needs to Know"
+description: "From 4K to 10M tokens: how AI context windows actually work, why bigger"
+pubDate: "Feb 01 2026"
+heroImage: "/assets/ai-memory-context-window-explained-2026.webp"
 ---
 
 # AI Memory and Context Windows Explained: What Every Developer Needs to Know in 2026

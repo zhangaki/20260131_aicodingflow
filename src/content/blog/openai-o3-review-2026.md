@@ -1,15 +1,8 @@
 ---
-description: OpenAI o3 model 2026 - o3 vs o3-Pro pricing comparison, free tier limits, features, reasoning capabilities, and math benchmarks tested in February 2026.
-heroImage: /assets/openai-o3-review-2026.webp
-pubDate: Dec 20 2025
-tags:
-- openai-o3
-- review
-- llm
-- ai-chatbot
-title: 'OpenAI o3 Model 2026: o3 vs o3-Pro Pricing, Features & Benchmarks'
-updatedDate: Feb 13 2026
-noindex: true
+title: "OpenAI o3 Model 2026: o3 vs o3-Pro Pricing, Features & Benchmarks"
+description: "OpenAI o3 model 2026 - o3 vs o3-Pro pricing comparison, free tier limits, features, reasoning capabilities, and math benchmarks tested in February 2026."
+pubDate: "Dec 20 2025"
+heroImage: "/assets/openai-o3-review-2026.webp"
 ---
 
 ## OpenAI o3 Review 2026: Is It Worth Your Money?

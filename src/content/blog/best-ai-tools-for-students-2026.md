@@ -1,15 +1,8 @@
 ---
-description: Our team tested 8 AI students tools over 30 days. Here are the real winners,
-  complete with pricing data and performance analysis for 2026.
-heroImage: /assets/best-ai-tools-for-students-2026.webp
-pubDate: Dec 30 2025
-tags:
-- ai-tools
-- best-students
-- llm
-- ai-writing
-title: Top 8 AI Tools for Students in 2026 (Hands-On Rankings)
-noindex: true
+title: "Top 8 AI Tools for Students in 2026 (Hands-On Rankings)"
+description: "Our team tested 8 AI students tools over 30 days. Here are the real winners,"
+pubDate: "Dec 30 2025"
+heroImage: "/assets/best-ai-tools-for-students-2026.webp"
 ---
 
 ## Finding the Right AI Tool for Students: Our 2026 Investigation

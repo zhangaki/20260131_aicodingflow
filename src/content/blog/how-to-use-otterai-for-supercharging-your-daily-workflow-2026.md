@@ -1,16 +1,8 @@
 ---
-description: Learn how to use Otter.ai effectively for supercharging your daily workflow.
-  This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced
-  strategies.
-heroImage: /assets/how-to-use-otterai-for-supercharging-your-daily-workflow-2026.webp
-pubDate: Feb 07 2026
-tags:
-- otterai
-- tutorial
-- how-to
-- ai-productivity
-title: 'Using Otter.ai for Supercharging Your Daily Workflow: A Practical 2026 Walkthrough'
-noindex: true
+title: "Using Otter.ai for Supercharging Your Daily Workflow: A Practical 2026 Walkthrough"
+description: "Learn how to use Otter.ai effectively for supercharging your daily workflow."
+pubDate: "Feb 07 2026"
+heroImage: "/assets/how-to-use-otterai-for-supercharging-your-daily-workflow-2026.webp"
 ---
 
 ## A Practitioner's Guide to Otter.ai for Supercharging Your Daily Workflow

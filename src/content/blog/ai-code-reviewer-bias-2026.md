@@ -1,15 +1,8 @@
 ---
-description: 'Identify and prevent AI code reviewer bias in 2026: racial/gender bias in feedback, fairness metrics, and building equitable AI review tools.'
-heroImage: /assets/ai-code-reviewer-bias-2026.webp
-pubDate: Dec 30 2025
-tags:
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'AI Code Review Bias 2026: Detecting & Preventing Unfair Feedback'
-updatedDate: Feb 10 2026
+title: "AI Code Review Bias 2026: Detecting & Preventing Unfair Feedback"
+description: "Identify and prevent AI code reviewer bias in 2026: racial/gender bias in feedback, fairness metrics, and building equitable AI review tools."
+pubDate: "Dec 30 2025"
+heroImage: "/assets/ai-code-reviewer-bias-2026.webp"
 ---
 
 # The Invisible Judge: Detecting Bias in AI Code Reviewers

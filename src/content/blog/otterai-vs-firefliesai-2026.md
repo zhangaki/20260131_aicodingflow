@@ -1,10 +1,8 @@
 ---
-description: Choosing between Otter.ai and Fireflies.ai? We broke down the tech stack
-  and pricing models so you don't have to.
-heroImage: /assets/otterai-vs-firefliesai-2026.webp
-pubDate: Dec 21 2025
-title: 'Stop Guessing: Otter.ai vs Fireflies.ai 2026 Competitive Audit'
-updatedDate: Feb 10 2026
+title: "Stop Guessing: Otter.ai vs Fireflies.ai 2026 Competitive Audit"
+description: "Choosing between Otter.ai and Fireflies.ai? We broke down the tech stack"
+pubDate: "Dec 21 2025"
+heroImage: "/assets/otterai-vs-firefliesai-2026.webp"
 ---
 
 # Stop Guessing: Otter.ai vs Fireflies.ai 2026 Competitive Audit

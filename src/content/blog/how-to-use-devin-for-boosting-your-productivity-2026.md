@@ -1,14 +1,8 @@
 ---
-description: 'Master Devin AI for productivity in 2026: autonomous coding, task automation, integration workflow, and tips to build projects faster.'
-heroImage: /assets/how-to-use-devin-for-boosting-your-productivity-2026.webp
-pubDate: Dec 30 2025
-tags:
-- devin
-- tutorial
-- how-to
-- ai-tools
-title: 'How to Use Devin AI for 10x Productivity 2026: Complete Guide'
-noindex: true
+title: "How to Use Devin AI for 10x Productivity 2026: Complete Guide"
+description: "Master Devin AI for productivity in 2026: autonomous coding, task automation, integration workflow, and tips to build projects faster."
+pubDate: "Dec 30 2025"
+heroImage: "/assets/how-to-use-devin-for-boosting-your-productivity-2026.webp"
 ---
 
 ## A Practitioner's Guide to Devin for Boosting Your Productivity

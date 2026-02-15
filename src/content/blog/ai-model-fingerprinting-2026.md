@@ -1,15 +1,8 @@
 ---
-description: How to prove ownership of your AI and detect when it
-heroImage: /assets/ai-model-fingerprinting.webp
-pubDate: Dec 30 2025
-tags:
-- Future Tech
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: The Model
-updatedDate: Feb 10 2026
+title: "The Model"
+description: "How to prove ownership of your AI and detect when it"
+pubDate: "Dec 30 2025"
+heroImage: "/assets/ai-model-fingerprinting.webp"
 ---
 
 # The Model

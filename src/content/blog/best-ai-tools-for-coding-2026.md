@@ -1,13 +1,8 @@
 ---
-description: 'Top 15 AI coding tools in 2026: GitHub Copilot, Cursor, Claude Code, pricing comparison, features, and which AI assistant wins for developers.'
-heroImage: /assets/best-ai-tools-for-coding-2026.webp
-pubDate: Jan 01 2026
-tags:
-- ai-tools
-- best-coding
-- ai-coding
-title: '15 Best AI Coding Tools 2026: GitHub Copilot, Cursor & More'
-noindex: true
+title: "15 Best AI Coding Tools 2026: GitHub Copilot, Cursor & More"
+description: "Top 15 AI coding tools in 2026: GitHub Copilot, Cursor, Claude Code, pricing comparison, features, and which AI assistant wins for developers."
+pubDate: "Jan 01 2026"
+heroImage: "/assets/best-ai-tools-for-coding-2026.webp"
 ---
 
 ## The Best AI Tools for Coding in 2026

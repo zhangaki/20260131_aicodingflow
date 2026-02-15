@@ -1,13 +1,8 @@
 ---
-description: 'Top 15 AI writing tools in 2026: Jasper, Copy.ai, ChatGPT, pricing comparison, features breakdown, and which tool wins for bloggers and marketers.'
-heroImage: /assets/best-ai-tools-for-writing-2026.webp
-pubDate: Dec 04 2025
-tags:
-- ai-tools
-- best-writing
-- ai-writing
-title: '15 Best AI Writing Tools 2026: Free & Paid for Content Creation'
-noindex: true
+title: "15 Best AI Writing Tools 2026: Free & Paid for Content Creation"
+description: "Top 15 AI writing tools in 2026: Jasper, Copy.ai, ChatGPT, pricing comparison, features breakdown, and which tool wins for bloggers and marketers."
+pubDate: "Dec 04 2025"
+heroImage: "/assets/best-ai-tools-for-writing-2026.webp"
 ---
 
 ## The Best AI Tools for Writing in 2026

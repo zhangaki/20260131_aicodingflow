@@ -1,10 +1,8 @@
 ---
-description: We compared Windsurf and Trae over 30 days of testing. See the raw results,
-  pricing analysis, and our hands-on recommendation for 2026.
-heroImage: /assets/windsurf-vs-trae-2026.webp
-pubDate: Jan 13 2026
-title: 'Windsurf vs Trae 2026: The Data-Backed Truth'
-updatedDate: Feb 10 2026
+title: "Windsurf vs Trae 2026: The Data-Backed Truth"
+description: "We compared Windsurf and Trae over 30 days of testing. See the raw results,"
+pubDate: "Jan 13 2026"
+heroImage: "/assets/windsurf-vs-trae-2026.webp"
 ---
 
 # Windsurf vs Trae 2026: The Data-Backed Truth

@@ -1,17 +1,8 @@
 ---
-description: How 1.58-bit quantization and bit-linear architectures are bringing the
-  worlds most powerful LLMs to local hardware in 2026.
-heroImage: /assets/on-device-quantization-2026.webp
-pubDate: Jan 13 2026
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'The Math of Compression: Fitting 400B Parameters in Your Pocket'
-updatedDate: Feb 10 2026
+title: "The Math of Compression: Fitting 400B Parameters in Your Pocket"
+description: "How 1.58-bit quantization and bit-linear architectures are bringing the"
+pubDate: "Jan 13 2026"
+heroImage: "/assets/on-device-quantization-2026.webp"
 ---
 
 # The Math of Compression: Fitting 400B Parameters in Your Pocket
@@ -140,8 +131,12 @@ tokenizer = AutoTokenizer.from_pretrained(quant_path)
 prompt = "The capital of France is"
 input_ids = tokenizer(prompt, return_tensors="pt").to("cuda")
 
+```
+
 output = quantized_model.generate(**input_ids, max_new_tokens=50)
 print(tokenizer.decode(output[0], skip_special_tokens=True))
+```
+
 ```
 
 This code snippet demonstrates how to quantize a Llama-3-70B model using `autoawq` and then load the quantized model for inference.

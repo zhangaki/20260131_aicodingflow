@@ -1,15 +1,8 @@
 ---
-description: An in-depth review of Udio in 2026. We cover features, pricing tiers,
-  pros and cons, alternatives, and who should actually use it.
-heroImage: /assets/udio-review-2026.webp
-pubDate: Jan 17 2026
-tags:
-- udio
-- review
-- ai-music
-- music-generation
-title: 'Udio Review 2026: Features, Pricing, and Our Honest Verdict'
-noindex: true
+title: "Udio Review 2026: Features, Pricing, and Our Honest Verdict"
+description: "An in-depth review of Udio in 2026. We cover features, pricing tiers,"
+pubDate: "Jan 17 2026"
+heroImage: "/assets/udio-review-2026.webp"
 ---
 
 ## Udio Review 2026: Is It Worth Your Money?

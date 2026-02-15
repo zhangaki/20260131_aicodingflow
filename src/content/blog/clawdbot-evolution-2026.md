@@ -1,16 +1,8 @@
 ---
-description: 'Track Clawdbot''s evolution in 2026: Discord AI bot architecture, Claude API integration, and best practices for building conversational agents.'
-heroImage: /assets/clawdbot-evolution-2026.webp
-pubDate: Dec 03 2025
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'Clawdbot Evolution 2026: Discord AI Bot Development Guide'
-updatedDate: Feb 10 2026
+title: "Clawdbot Evolution 2026: Discord AI Bot Development Guide"
+description: "Track Clawdbot"
+pubDate: "Dec 03 2025"
+heroImage: "/assets/clawdbot-evolution-2026.webp"
 ---
 
 # The Evolution of Clawdbot: From Script to Sovereign

@@ -1,15 +1,8 @@
 ---
-description: 'Explore somatic data visualization in 2027: embodied AI, haptic feedback, VR/AR data immersion, and the future of experiential analytics.'
-heroImage: /assets/somatic-data.webp
-noindex: true
-pubDate: Dec 21 2025
-tags:
-- Future Tech
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'Somatic Data Visualization 2027: Embodied AI Data Experience'
+title: "Somatic Data Visualization 2027: Embodied AI Data Experience"
+description: "Explore somatic data visualization in 2027: embodied AI, haptic feedback, VR/AR data immersion, and the future of experiential analytics."
+pubDate: "Dec 21 2025"
+heroImage: "/assets/somatic-data.webp"
 ---
 
 The visual cortex is biologically bandwidth-limited. Consciously, you can process about 40-80 bits of visual information per second.

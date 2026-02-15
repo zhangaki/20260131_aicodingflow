@@ -1,18 +1,8 @@
 ---
-description: Death is a feature, but your Agent is deprecated. A technical guide to
-  passing digital agency, private keys, and personality to your heirs.
-heroImage: /assets/digital-twin-estate-cover.webp
-noindex: true
-pubDate: Jan 18 2026
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'Digital Twin Estate Planning 2028: AI Legacy Management'
-updatedDate: Feb 12 2026
+title: "Digital Twin Estate Planning 2028: AI Legacy Management"
+description: "Death is a feature, but your Agent is deprecated. A technical guide to"
+pubDate: "Jan 18 2026"
+heroImage: "/assets/digital-twin-estate-cover.webp"
 ---
 
 For 5,000 years, "Inheritance" meant passing down physical objects: Land, Gold, Cattle, Cash.
@@ -66,6 +56,8 @@ It uses a "Heartbeat" pattern.
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+```
+
 /**
  * @title ThanatosProtocol
  * @dev A Dead Man's Switch for digital inheritance.
@@ -115,6 +107,8 @@ contract ThanatosProtocol {
     // 3. Fallback to receive funds (The "Vault")
     receive() external payable {}
 }
+```
+
 ```
 
 **The Logic**:

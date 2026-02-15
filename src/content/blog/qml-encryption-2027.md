@@ -1,15 +1,8 @@
 ---
-description: 'Understand quantum machine learning encryption in 2027: post-quantum cryptography, QML security threats, and preparing for quantum computing attacks.'
-heroImage: /assets/qml-encryption.webp
-noindex: true
-pubDate: Dec 24 2025
-tags:
-- Future Tech
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'Quantum-Resistant Encryption 2027: QML Security & Post-Quantum Crypto'
+title: "Quantum-Resistant Encryption 2027: QML Security & Post-Quantum Crypto"
+description: "Understand quantum machine learning encryption in 2027: post-quantum cryptography, QML security threats, and preparing for quantum computing attacks."
+pubDate: "Dec 24 2025"
+heroImage: "/assets/qml-encryption.webp"
 ---
 
 The foundation of the modern internet is built on a single, fragile mathematical assumption: **Factoring large prime numbers is computationally impossible.**

@@ -1,10 +1,8 @@
 ---
-description: Choosing between Gemini and Claude 4.6 Opus? We broke down the tech stack
-  and pricing models so you don't have to.
-heroImage: /assets/gemini-vs-claude-46-opus-2026.webp
-pubDate: Dec 06 2025
-title: 'Stop Guessing: Gemini vs Claude 4.6 Opus 2026 Competitive Audit'
-updatedDate: Feb 10 2026
+title: "Stop Guessing: Gemini vs Claude 4.6 Opus 2026 Competitive Audit"
+description: "Choosing between Gemini and Claude 4.6 Opus? We broke down the tech stack"
+pubDate: "Dec 06 2025"
+heroImage: "/assets/gemini-vs-claude-46-opus-2026.webp"
 ---
 
 # Stop Guessing: Gemini vs Claude 4.6 Opus 2026 Competitive Audit

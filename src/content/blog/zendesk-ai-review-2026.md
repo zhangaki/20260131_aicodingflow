@@ -1,14 +1,8 @@
 ---
-description: 'In-depth Zendesk AI review 2026: chatbot features, ticket automation, pricing plans, and comparison vs Intercom and Freshdesk.'
-heroImage: /assets/zendesk-ai-review-2026.webp
-pubDate: Dec 10 2025
-tags:
-- zendesk-ai
-- review
-- ai-business
-- enterprise-ai
-title: 'Zendesk AI Review 2026: Customer Support Automation & Pricing'
-noindex: true
+title: "Zendesk AI Review 2026: Customer Support Automation & Pricing"
+description: "In-depth Zendesk AI review 2026: chatbot features, ticket automation, pricing plans, and comparison vs Intercom and Freshdesk."
+pubDate: "Dec 10 2025"
+heroImage: "/assets/zendesk-ai-review-2026.webp"
 ---
 
 ## Zendesk AI: The 2026 Reality Check

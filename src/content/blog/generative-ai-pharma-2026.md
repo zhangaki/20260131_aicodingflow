@@ -1,14 +1,8 @@
 ---
-description: How to discover drugs in days, not decades. A technical guide to protein
-  diffusion models, in-silico clinical trials, and the engineering of generative biology.
-heroImage: /assets/generative-ai-pharma.webp
-pubDate: Jan 14 2026
-tags:
-- Dev Tools
-- Future Tech
-- Infrastructure
-title: 'The Molecular Architect: Generative AI for Pharmaceutical R&D in 2026'
-updatedDate: Feb 10 2026
+title: "The Molecular Architect: Generative AI for Pharmaceutical R&D in 2026"
+description: "How to discover drugs in days, not decades. A technical guide to protein"
+pubDate: "Jan 14 2026"
+heroImage: "/assets/generative-ai-pharma.webp"
 ---
 
 # The Molecular Architect: Generative AI for Pharmaceutical R&D in 2026

@@ -1,9 +1,8 @@
 ---
-description: A side-by-side technical audit of Grok and ChatGPT. Pricing, limitations,
-  and the verdict from our hands-on testing.
-heroImage: /assets/grok-vs-chatgpt-2026.webp
-pubDate: Jan 16 2026
-title: 'Grok vs ChatGPT: The 2026 Feature Matrix'
+title: "Grok vs ChatGPT: The 2026 Feature Matrix"
+description: "A side-by-side technical audit of Grok and ChatGPT. Pricing, limitations,"
+pubDate: "Jan 16 2026"
+heroImage: "/assets/grok-vs-chatgpt-2026.webp"
 ---
 
 noindex: true

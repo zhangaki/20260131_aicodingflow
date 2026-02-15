@@ -1,18 +1,8 @@
 ---
-category: AI Tools
-description: Everything you need to know about Anthropic's AI tools in 2026. Covers
-  Claude models, Claude Code CLI, API pricing, tool use, enterprise features, and
-  how to get started.
-heroImage: /assets/anthropic-ai-tools-complete-guide-2026.webp
-pubDate: Feb 05 2026
-tags:
-- anthropic
-- claude
-- ai-tools
-- api
-- enterprise
-title: 'Anthropic AI Tools: Complete Guide to Claude, API, and Enterprise Features
-  (2026)'
+title: "Anthropic AI Tools: Complete Guide to Claude, API, and Enterprise Features"
+description: "Everything you need to know about Anthropic"
+pubDate: "Feb 05 2026"
+heroImage: "/assets/anthropic-ai-tools-complete-guide-2026.webp"
 ---
 
 # Anthropic AI Tools: Complete Guide to Claude, API, and Enterprise Features (2026)

@@ -1,9 +1,8 @@
 ---
-description: 'Head-to-head comparison: Replit AI vs Bolt.new in 2026. Pricing, instant deployment, features, and which AI coding platform wins.'
-heroImage: /assets/replit-ai-vs-boltnew-2026.webp
-pubDate: Dec 03 2025
-title: 'Replit AI vs Bolt.new 2026: Which AI Coding Platform is Better?'
-updatedDate: Feb 10 2026
+title: "Replit AI vs Bolt.new 2026: Which AI Coding Platform is Better?"
+description: "Head-to-head comparison: Replit AI vs Bolt.new in 2026. Pricing, instant deployment, features, and which AI coding platform wins."
+pubDate: "Dec 03 2025"
+heroImage: "/assets/replit-ai-vs-boltnew-2026.webp"
 ---
 
 # Replit AI vs bolt.new 2026: The Data-Backed Truth

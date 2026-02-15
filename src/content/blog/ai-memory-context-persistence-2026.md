@@ -1,14 +1,8 @@
 ---
-description: AI chatbots with persistent memory across sessions 2026 - Top 8 tools compared (ChatGPT, Claude, Mem0). How RAG systems and memory architectures actually work.
-heroImage: /assets/ai-memory-context-persistence.webp
-pubDate: Dec 16 2025
-tags:
-- Dev Tools
-- AI Agents
-- Infrastructure
-- Society & Ethics
-title: '8 AI Chatbots with Persistent Memory Across Sessions 2026 (Complete Guide)'
-updatedDate: Feb 12 2026
+title: "8 AI Chatbots with Persistent Memory Across Sessions 2026 (Complete Guide)"
+description: "AI chatbots with persistent memory across sessions 2026 - Top 8 tools compared (ChatGPT, Claude, Mem0). How RAG systems and memory architectures actually work."
+pubDate: "Dec 16 2025"
+heroImage: "/assets/ai-memory-context-persistence.webp"
 ---
 
 # AI Chatbots with Persistent Memory Across Sessions: What Works in 2026

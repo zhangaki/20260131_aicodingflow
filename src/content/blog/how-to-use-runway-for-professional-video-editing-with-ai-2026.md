@@ -1,14 +1,8 @@
 ---
-description: 'Master Runway Gen-3 for professional video editing in 2026: AI inpainting, motion tracking, green screen removal, and export settings tutorial.'
-heroImage: /assets/how-to-use-runway-for-professional-video-editing-with-ai-2026.webp
-pubDate: Jan 16 2026
-tags:
-- runway
-- tutorial
-- how-to
-- ai-video
-title: 'How to Use Runway Gen-3 for Video Editing 2026: Complete Tutorial'
-noindex: true
+title: "How to Use Runway Gen-3 for Video Editing 2026: Complete Tutorial"
+description: "Master Runway Gen-3 for professional video editing in 2026: AI inpainting, motion tracking, green screen removal, and export settings tutorial."
+pubDate: "Jan 16 2026"
+heroImage: "/assets/how-to-use-runway-for-professional-video-editing-with-ai-2026.webp"
 ---
 
 ## A Practitioner's Guide to Runway for Professional Video Editing with AI

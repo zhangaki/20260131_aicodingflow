@@ -1,14 +1,8 @@
 ---
-description: 'Understand interplanetary internet by 2030: laser communication, Mars connectivity, latency challenges, and the future of space networks.'
-heroImage: /assets/interplanetary-internet-cover.webp
-noindex: true
-pubDate: Dec 12 2025
-tags:
-- Dev Tools
-- Future Tech
-- Infrastructure
-- Society & Ethics
-title: 'Interplanetary Internet 2030: Space Communication Infrastructure'
+title: "Interplanetary Internet 2030: Space Communication Infrastructure"
+description: "Understand interplanetary internet by 2030: laser communication, Mars connectivity, latency challenges, and the future of space networks."
+pubDate: "Dec 12 2025"
+heroImage: "/assets/interplanetary-internet-cover.webp"
 ---
 
 TCP/IP, the foundation of our modern internet, assumes a "Chatty" connection.

@@ -1,18 +1,8 @@
 ---
-description: How to audit automated justice. A technical exploration of detecting
-  algorithmic bias in high-stakes legal systems, featuring counterfactual fairness
-  and Influence Functions.
-heroImage: /assets/legal-ai-bias-auditing.webp
-pubDate: Jan 20 2026
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'Algorithm vs. Equity: The 2026 Framework for Auditing Legal AI Bias'
-updatedDate: Feb 10 2026
+title: "Algorithm vs. Equity: The 2026 Framework for Auditing Legal AI Bias"
+description: "How to audit automated justice. A technical exploration of detecting"
+pubDate: "Jan 20 2026"
+heroImage: "/assets/legal-ai-bias-auditing.webp"
 ---
 
 # Algorithm vs. Equity: The 2026 Framework for Auditing Legal AI Bias

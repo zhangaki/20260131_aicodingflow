@@ -1,9 +1,8 @@
 ---
-description: 'Head-to-head comparison: Suno vs Udio in 2026. Audio quality, pricing ($10/month vs free tier), features, and which AI music tool wins.'
-heroImage: /assets/suno-vs-udio-2026.webp
-pubDate: Feb 06 2026
-title: 'Suno vs Udio 2026: Which AI Music Generator is Better?'
-updatedDate: Feb 10 2026
+title: "Suno vs Udio 2026: Which AI Music Generator is Better?"
+description: "Head-to-head comparison: Suno vs Udio in 2026. Audio quality, pricing ($10/month vs free tier), features, and which AI music tool wins."
+pubDate: "Feb 06 2026"
+heroImage: "/assets/suno-vs-udio-2026.webp"
 ---
 
 # Which Wins in 2026? Suno vs Udio Breakdown

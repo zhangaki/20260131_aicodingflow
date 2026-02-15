@@ -1,11 +1,8 @@
 ---
-description: Choosing between Perplexity and Phind? We broke down the tech stack and
-  pricing models so you don't have to.
-heroImage: /assets/perplexity-vs-phind-2026.webp
-pubDate: Feb 06 2026
-title: 'Stop Guessing: Perplexity vs Phind 2026 Competitive Audit'
-updatedDate: Feb 10 2026
-noindex: true
+title: "Stop Guessing: Perplexity vs Phind 2026 Competitive Audit"
+description: "Choosing between Perplexity and Phind? We broke down the tech stack and"
+pubDate: "Feb 06 2026"
+heroImage: "/assets/perplexity-vs-phind-2026.webp"
 ---
 
 # Stop Guessing: Perplexity vs Phind 2026 Competitive Audit

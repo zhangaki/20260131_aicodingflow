@@ -1,18 +1,8 @@
 ---
-description: In 2026, we no longer trust our eyes. We trust the metadata. Discover
-  the cryptographic standards and biomorphic watermarking techniques that are rebuilding
-  trust in a post-reality world.
-heroImage: /assets/ai-verification-markers.webp
-pubDate: Dec 28 2025
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'The Provenance Layer: AI Verification Markers and the Future of Visual Truth'
-updatedDate: Feb 10 2026
+title: "The Provenance Layer: AI Verification Markers and the Future of Visual Truth"
+description: "In 2026, we no longer trust our eyes. We trust the metadata. Discover"
+pubDate: "Dec 28 2025"
+heroImage: "/assets/ai-verification-markers.webp"
 ---
 
 # The Provenance Layer: AI Verification Markers and the Future of Visual Truth

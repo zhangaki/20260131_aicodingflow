@@ -1,18 +1,8 @@
 ---
-description: In 2024, a 2-second answer was a miracle. In 2026, it is a churn risk.
-  Learn how to architect sub-50ms vector search, speculative decoding pipelines, and
-  edge-cached intelligence.
-heroImage: /assets/rag-latency-optimization-2026.webp
-pubDate: Dec 07 2025
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'The <50ms Standard: Optimizing RAG Latency for 2026'
-updatedDate: Feb 10 2026
+title: "The <50ms Standard: Optimizing RAG Latency for 2026"
+description: "In 2024, a 2-second answer was a miracle. In 2026, it is a churn risk."
+pubDate: "Dec 07 2025"
+heroImage: "/assets/rag-latency-optimization-2026.webp"
 ---
 
 # The <50ms Standard: Optimizing RAG Latency for 2026

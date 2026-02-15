@@ -3,12 +3,6 @@ title: "Ideogram 2.0 vs. Luma Dream Machine 1.5: A Quality Deep Dive"
 description: "Ideogram 2.0 vs. Luma Dream Machine 1.5: Detailed quality comparison for developers. Discover which model excels in visual fidelity and creative output."
 pubDate: "Feb 15 2026"
 heroImage: "/assets/ideogram-2-vs-luma-dream-machine-1-5-quality.webp"
-tags:
-- Ideogram 2.0
-- Luma Dream Machine 1.5
-- text-to-image
-- image generation
-- AI art
 ---
 
 # Ideogram 2.0 vs. Luma Dream Machine 1.5: A Quality Deep Dive

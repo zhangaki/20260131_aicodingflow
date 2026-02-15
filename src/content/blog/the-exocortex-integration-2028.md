@@ -1,17 +1,8 @@
 ---
-description: Forget searching your notes. In 2028, your database interacts directly
-  with your hippocampus. A technical guide to the architecture of the Exocortex.
-heroImage: /assets/exocortex-cover.webp
-noindex: true
-pubDate: Dec 22 2025
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-title: 'Exocortex Integration 2028: Brain-Computer Interface Guide'
-updatedDate: Feb 12 2026
+title: "Exocortex Integration 2028: Brain-Computer Interface Guide"
+description: "Forget searching your notes. In 2028, your database interacts directly"
+pubDate: "Dec 22 2025"
+heroImage: "/assets/exocortex-cover.webp"
 ---
 
 The human brain is an efficient biological processor, but it is a terrible hard drive.

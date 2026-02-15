@@ -1,14 +1,8 @@
 ---
-description: 'Architect complex multi-step agent systems with Claude 4.6 Opus in 2026: orchestration patterns, tool use, context management, and examples.'
-heroImage: /assets/how-to-use-claude-46-opus-for-architecting-complex-multi-step-agent-systems-2026.webp
-pubDate: Dec 21 2025
-tags:
-- claude-46-opus
-- tutorial
-- how-to
-- llm
-title: 'How to Build Multi-Agent Systems with Claude 4.6 Opus 2026: Guide'
-noindex: true
+title: "How to Build Multi-Agent Systems with Claude 4.6 Opus 2026: Guide"
+description: "Architect complex multi-step agent systems with Claude 4.6 Opus in 2026: orchestration patterns, tool use, context management, and examples."
+pubDate: "Dec 21 2025"
+heroImage: "/assets/how-to-use-claude-46-opus-for-architecting-complex-multi-step-agent-systems-2026.webp"
 ---
 
 ## How to Use Claude 4.6 Opus for Architecting Complex Multi-Step Agent Systems: Everything You Need to Know

@@ -1,11 +1,8 @@
 ---
-description: A side-by-side technical audit of ChatGPT and Claude 4.6 Opus. Pricing,
-  limitations, and the verdict from our hands-on testing.
-heroImage: /assets/chatgpt-vs-claude-46-opus-2026.webp
-pubDate: Jan 27 2026
-title: 'ChatGPT vs Claude 4.6 Opus: The 2026 Feature Matrix'
-updatedDate: Feb 10 2026
-noindex: true
+title: "ChatGPT vs Claude 4.6 Opus: The 2026 Feature Matrix"
+description: "A side-by-side technical audit of ChatGPT and Claude 4.6 Opus. Pricing,"
+pubDate: "Jan 27 2026"
+heroImage: "/assets/chatgpt-vs-claude-46-opus-2026.webp"
 ---
 
 # ChatGPT vs Claude 4.6 Opus: The 2026 Feature Matrix

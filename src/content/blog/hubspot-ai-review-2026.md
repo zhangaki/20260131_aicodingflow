@@ -1,14 +1,8 @@
 ---
-description: 'In-depth HubSpot AI review 2026: content assistant, email automation, ChatSpot features, pricing plans, and is it worth upgrading?'
-heroImage: /assets/hubspot-ai-review-2026.webp
-pubDate: Jan 29 2026
-tags:
-- hubspot-ai
-- review
-- ai-business
-- enterprise-ai
-title: 'HubSpot AI Review 2026: Marketing Automation Features & Pricing'
-noindex: true
+title: "HubSpot AI Review 2026: Marketing Automation Features & Pricing"
+description: "In-depth HubSpot AI review 2026: content assistant, email automation, ChatSpot features, pricing plans, and is it worth upgrading?"
+pubDate: "Jan 29 2026"
+heroImage: "/assets/hubspot-ai-review-2026.webp"
 ---
 
 ## HubSpot AI Review 2026: Is It Worth Your Money?

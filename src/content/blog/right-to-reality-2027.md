@@ -1,16 +1,8 @@
 ---
-description: 'Explore the Right to Reality movement in 2027: new laws against AI manipulation, deepfake regulations, and protecting truth in the synthetic media era.'
-heroImage: /assets/right-to-reality.webp
-noindex: true
-pubDate: Dec 13 2025
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'Right to Reality 2027: Fighting AI Manipulation & Deepfake Laws'
+title: "Right to Reality 2027: Fighting AI Manipulation & Deepfake Laws"
+description: "Explore the Right to Reality movement in 2027: new laws against AI manipulation, deepfake regulations, and protecting truth in the synthetic media era."
+pubDate: "Dec 13 2025"
+heroImage: "/assets/right-to-reality.webp"
 ---
 
 By the end of 2026, experts predict that 90% of all content on the internet will be synthetically generated.

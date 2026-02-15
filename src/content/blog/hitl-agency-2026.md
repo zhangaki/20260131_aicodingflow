@@ -1,15 +1,8 @@
 ---
-description: Autonomous agents are powerful, but brittle. Learn how to design robust
-  HITL interfaces that act as a safety valve when your swarm hits the Confidence Cliff.
-heroImage: /assets/hitl-agency-2026.webp
-pubDate: Dec 02 2025
-tags:
-- Dev Tools
-- AI Agents
-- Society & Ethics
-- Security
-title: 'The Cyborg Loop: Designing Human-in-the-Loop (HITL) Protocols for 2026'
-updatedDate: Feb 10 2026
+title: "The Cyborg Loop: Designing Human-in-the-Loop (HITL) Protocols for 2026"
+description: "Autonomous agents are powerful, but brittle. Learn how to design robust"
+pubDate: "Dec 02 2025"
+heroImage: "/assets/hitl-agency-2026.webp"
 ---
 
 # The Cyborg Loop: Designing Human-in-the-Loop (HITL) Protocols for 2026

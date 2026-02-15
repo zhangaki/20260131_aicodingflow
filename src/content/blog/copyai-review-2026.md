@@ -1,16 +1,8 @@
 ---
-description: We used Copy.ai for 30 days straight. Here's our detailed breakdown of
-  features, real costs, limitations, and whether it deserves your subscription in
-  2026.
-heroImage: /assets/copyai-review-2026.webp
-pubDate: Dec 12 2025
-tags:
-- copyai
-- review
-- ai-writing
-- content-tools
-title: 'Copy.ai in 2026: A Practitioner''s Complete Review'
-noindex: true
+title: "Copy.ai in 2026: A Practitioner"
+description: "We used Copy.ai for 30 days straight. Here"
+pubDate: "Dec 12 2025"
+heroImage: "/assets/copyai-review-2026.webp"
 ---
 
 ## Copy.ai: The 2026 Reality Check

@@ -1,9 +1,8 @@
 ---
-description: 'Compare Midjourney V7 vs DALL-E 3 in 2026: image quality, pricing ($10/month vs free tier), features, and which AI art tool wins.'
-heroImage: /assets/midjourney-vs-dall-e-3-2026.webp
-pubDate: Dec 23 2025
-title: 'Midjourney vs DALL-E 3 2026: Which AI Image Generator is Better?'
-updatedDate: Feb 10 2026
+title: "Midjourney vs DALL-E 3 2026: Which AI Image Generator is Better?"
+description: "Compare Midjourney V7 vs DALL-E 3 in 2026: image quality, pricing ($10/month vs free tier), features, and which AI art tool wins."
+pubDate: "Dec 23 2025"
+heroImage: "/assets/midjourney-vs-dall-e-3-2026.webp"
 ---
 
 # Midjourney vs DALL-E 3 2026: The Data-Backed Truth

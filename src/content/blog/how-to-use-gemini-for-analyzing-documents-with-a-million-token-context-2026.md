@@ -1,14 +1,8 @@
 ---
-description: 'Master Gemini 2.0''s million-token context for document analysis in 2026: upload PDFs, extract insights, summarize research, and API usage tutorial.'
-heroImage: /assets/how-to-use-gemini-for-analyzing-documents-with-a-million-token-context-2026.webp
-pubDate: Jan 10 2026
-tags:
-- gemini
-- tutorial
-- how-to
-- llm
-title: 'How to Use Gemini 2.0 for 1M Token Documents 2026: Analysis Guide'
-noindex: true
+title: "How to Use Gemini 2.0 for 1M Token Documents 2026: Analysis Guide"
+description: "Master Gemini 2.0"
+pubDate: "Jan 10 2026"
+heroImage: "/assets/how-to-use-gemini-for-analyzing-documents-with-a-million-token-context-2026.webp"
 ---
 
 ## How to Use Gemini for Analyzing Documents with a Million-Token Context: Everything You Need to Know

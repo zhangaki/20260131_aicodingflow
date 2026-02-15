@@ -1,16 +1,8 @@
 ---
-description: Silicon is temporary. DNA is forever. A technical guide to archiving
-  yottabytes of AI training data in biological molecules.
-heroImage: /assets/dna-storage.webp
-pubDate: Dec 26 2025
-tags:
-- Future Tech
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'The Eternal Archive: DNA Data Storage for AI Models in 2027'
-updatedDate: Feb 10 2026
+title: "The Eternal Archive: DNA Data Storage for AI Models in 2027"
+description: "Silicon is temporary. DNA is forever. A technical guide to archiving"
+pubDate: "Dec 26 2025"
+heroImage: "/assets/dna-storage.webp"
 ---
 
 # The Eternal Archive: DNA Data Storage for AI Models in 2027

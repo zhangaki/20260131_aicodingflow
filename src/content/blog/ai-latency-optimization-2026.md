@@ -1,15 +1,8 @@
 ---
-description: In 2026, if your TTFT is over 200ms, you don’t have a product. This is
-  a cold-blooded technical stack for achieving sub-100ms inference performance.
-heroImage: /assets/ai-latency-optimization.webp
-pubDate: Jan 18 2026
-tags:
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'Sub-100ms or Bust: The CTO’s Guide to AI Inference Latency'
+title: "Sub-100ms or Bust: The CTO’s Guide to AI Inference Latency"
+description: "In 2026, if your TTFT is over 200ms, you don’t have a product. This is"
+pubDate: "Jan 18 2026"
+heroImage: "/assets/ai-latency-optimization.webp"
 ---
 
 noindex: true

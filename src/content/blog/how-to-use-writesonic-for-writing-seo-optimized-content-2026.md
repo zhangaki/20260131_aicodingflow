@@ -1,16 +1,8 @@
 ---
-description: A step-by-step tutorial on using Writesonic for writing seo-optimized
-  content in 2026. Covers setup, workflow, pro tips, common mistakes, and advanced
-  techniques.
-heroImage: /assets/how-to-use-writesonic-for-writing-seo-optimized-content-2026.webp
-pubDate: Dec 09 2025
-tags:
-- writesonic
-- tutorial
-- how-to
-- ai-writing
-title: 'How to Use Writesonic for Writing SEO-Optimized Content: Complete 2026 Guide'
-noindex: true
+title: "How to Use Writesonic for Writing SEO-Optimized Content: Complete 2026 Guide"
+description: "A step-by-step tutorial on using Writesonic for writing seo-optimized"
+pubDate: "Dec 09 2025"
+heroImage: "/assets/how-to-use-writesonic-for-writing-seo-optimized-content-2026.webp"
 ---
 
 ## How to Use Writesonic for Writing SEO-Optimized Content: Everything You Need to Know

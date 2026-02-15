@@ -1,17 +1,8 @@
 ---
-description: Building agentic systems that use flagship models without burning a fortune.
-  Discover the architectural patterns for prompt caching, tiered inference, and batch
-  processing in 2026.
-heroImage: /assets/token-cost-optimization.webp
-pubDate: Jan 16 2026
-tags:
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'The Precision Economy: Optimizing Token Costs for GPT-5 and Claude-4'
-updatedDate: Feb 10 2026
+title: "The Precision Economy: Optimizing Token Costs for GPT-5 and Claude-4"
+description: "Building agentic systems that use flagship models without burning a fortune."
+pubDate: "Jan 16 2026"
+heroImage: "/assets/token-cost-optimization.webp"
 ---
 
 # The Precision Economy: Optimizing Token Costs for GPT-5 and Claude-4

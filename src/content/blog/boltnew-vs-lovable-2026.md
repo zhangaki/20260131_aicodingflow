@@ -1,10 +1,8 @@
 ---
-description: We compared bolt.new and Lovable over 30 days of testing. See the raw
-  results, pricing analysis, and our hands-on recommendation for 2026.
-heroImage: /assets/boltnew-vs-lovable-2026.webp
-pubDate: Jan 23 2026
-title: 'bolt.new vs Lovable 2026: The Data-Backed Truth'
-updatedDate: Feb 10 2026
+title: "bolt.new vs Lovable 2026: The Data-Backed Truth"
+description: "We compared bolt.new and Lovable over 30 days of testing. See the raw"
+pubDate: "Jan 23 2026"
+heroImage: "/assets/boltnew-vs-lovable-2026.webp"
 ---
 
 # bolt.new vs Lovable 2026: The Data-Backed Truth

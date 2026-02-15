@@ -1,12 +1,8 @@
 ---
-description: Everything you need to know about best free ai tools for marketing content
-  creation in 2026. Research-backed insights with hands-on testing.
-heroImage: /assets/best-free-ai-tools-for-marketing-content-creation-2026.webp
-pubDate: Feb 14 2026
-tags:
-- AI Agents
-- Dev Tools
-title: Top Free AI Tools for Marketing Content 2026
+title: "Top Free AI Tools for Marketing Content 2026"
+description: "Everything you need to know about best free ai tools for marketing content"
+pubDate: "Feb 14 2026"
+heroImage: "/assets/best-free-ai-tools-for-marketing-content-creation-2026.webp"
 ---
 
 ## Top Free AI Tools for Marketing Content 2026

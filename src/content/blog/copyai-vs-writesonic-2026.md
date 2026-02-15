@@ -1,10 +1,8 @@
 ---
-description: Choosing between Copy.ai and Writesonic should be simple. We answered
-  the 5 most critical questions for 2026.
-heroImage: /assets/copyai-vs-writesonic-2026.webp
-pubDate: Dec 13 2025
-title: Which Wins in 2026? Copy.ai vs Writesonic Breakdown
-updatedDate: Feb 10 2026
+title: "Which Wins in 2026? Copy.ai vs Writesonic Breakdown"
+description: "Choosing between Copy.ai and Writesonic should be simple. We answered"
+pubDate: "Dec 13 2025"
+heroImage: "/assets/copyai-vs-writesonic-2026.webp"
 ---
 
 # Which Wins in 2026? Copy.ai vs Writesonic Breakdown

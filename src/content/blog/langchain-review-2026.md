@@ -1,17 +1,8 @@
 ---
-description: We used LangChain for 30 days straight. Here's our detailed breakdown
-  of features, real costs, limitations, and whether it deserves your subscription
-  in 2026.
-heroImage: /assets/langchain-review-2026.webp
-pubDate: Jan 25 2026
-tags:
-- langchain
-- review
-- ai-agents
-- frameworks
-title: 'LangChain Review 2026: RAG Pipeline, Features & Documentation'
-updatedDate: Feb 12 2026
-noindex: true
+title: "LangChain Review 2026: RAG Pipeline, Features & Documentation"
+description: "We used LangChain for 30 days straight. Here"
+pubDate: "Jan 25 2026"
+heroImage: "/assets/langchain-review-2026.webp"
 ---
 
 ## LangChain: The 2026 Reality Check

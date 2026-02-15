@@ -1,18 +1,8 @@
 ---
-description: How to see the storm before it hits. A technical guide to using Graph
-  Neural Networks, satellite data, and digital twins to predict global supply chain
-  disruptions with 90% accuracy.
-heroImage: /assets/ai-supply-chain-prediction.webp
-pubDate: Jan 22 2026
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'The Digital Butterfly: Predicting Supply Chain Disruption with Graph Neural
-  Networks in 2026'
+title: "The Digital Butterfly: Predicting Supply Chain Disruption with Graph Neural"
+description: "How to see the storm before it hits. A technical guide to using Graph"
+pubDate: "Jan 22 2026"
+heroImage: "/assets/ai-supply-chain-prediction.webp"
 ---
 
 In 2021, a single ship stuck in the Suez Canal froze $10 billion of trade per day. In 2026, such disruptions are no longer surprises—they are **calculated probabilities**.

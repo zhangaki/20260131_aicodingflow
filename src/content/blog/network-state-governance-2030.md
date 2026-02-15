@@ -1,16 +1,8 @@
 ---
-description: Why vote when you can fork? A technical and political roadmap to founding
-  a Network State, minting Citizenship, and buying territory.
-heroImage: /assets/network-state-cover.webp
-noindex: true
-pubDate: Dec 30 2025
-tags:
-- Dev Tools
-- Infrastructure
-- Society & Ethics
-- Security
-title: 'The Cloud Country: From Discord Server to Sovereign Soil (The Network State
-  in 2030)'
+title: "The Cloud Country: From Discord Server to Sovereign Soil (The Network State"
+description: "Why vote when you can fork? A technical and political roadmap to founding"
+pubDate: "Dec 30 2025"
+heroImage: "/assets/network-state-cover.webp"
 ---
 
 The Nation State is the Operating System of 1648 (The Treaty of Westphalia).

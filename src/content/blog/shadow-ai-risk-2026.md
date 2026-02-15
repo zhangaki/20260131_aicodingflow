@@ -1,19 +1,9 @@
 ---
-description: A leaked transcript of the internal debate between Corporate Security
-  and the rise of the autonomous
-heroImage: /assets/shadow-ai-risk-2026.webp
-noindex: true
-pubDate: Jan 03 2026
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Society & Ethics
-- Security
-title: 'Shadow AI Risk 2026: How to Detect & Prevent Unauthorized AI'
-updatedDate: Feb 12 2026
+title: "Shadow AI Risk 2026: How to Detect & Prevent Unauthorized AI"
+description: "A leaked transcript of the internal debate between Corporate Security"
+pubDate: "Jan 03 2026"
+heroImage: "/assets/shadow-ai-risk-2026.webp"
 ---
-
 
 Most people look at "Shadow AI" and see a security leak. I look at it and see a **Sovereignty Crisis**. 
 

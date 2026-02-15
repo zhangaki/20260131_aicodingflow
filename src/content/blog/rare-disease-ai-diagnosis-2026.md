@@ -1,16 +1,8 @@
 ---
-description: How AI is ending the 7-year diagnostic odyssey for 300 million people
-  worldwide. A technical exploration of pre-symptomatic detection, genomic embedding,
-  and the ethics of AI in medical frontiers.
-heroImage: /assets/rare-disease-ai-diagnosis.webp
-pubDate: Jan 10 2026
-tags:
-- Future Tech
-- AI Agents
-- Dev Tools
-- Infrastructure
-title: 'AI Rare Disease Diagnosis 2026: Machine Learning in Healthcare'
-updatedDate: Feb 12 2026
+title: "AI Rare Disease Diagnosis 2026: Machine Learning in Healthcare"
+description: "How AI is ending the 7-year diagnostic odyssey for 300 million people"
+pubDate: "Jan 10 2026"
+heroImage: "/assets/rare-disease-ai-diagnosis.webp"
 ---
 
 # The Orphan Signal: AI-Driven Early Diagnosis for Rare Diseases in 2026

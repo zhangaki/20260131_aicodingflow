@@ -1,16 +1,8 @@
 ---
-description: 'Compare agent mesh vs microservices architecture in 2026: scalability, complexity, use cases, and which pattern wins for distributed systems.'
-heroImage: /assets/agent-mesh-2026.webp
-pubDate: Jan 18 2026
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'Agent Mesh vs Microservices 2026: Which Architecture is Better?'
-updatedDate: Feb 10 2026
+title: "Agent Mesh vs Microservices 2026: Which Architecture is Better?"
+description: "Compare agent mesh vs microservices architecture in 2026: scalability, complexity, use cases, and which pattern wins for distributed systems."
+pubDate: "Jan 18 2026"
+heroImage: "/assets/agent-mesh-2026.webp"
 ---
 
 # The Agent Mesh: Deconstructing the REST Monopoly

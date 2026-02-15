@@ -1,17 +1,8 @@
 ---
-category: AI Coding
-description: Complete guide to running Llama 4 Coder as a local coding assistant.
-  Setup with Ollama, VS Code integration, benchmarks vs GPT-4o and Claude, and optimization
-  tips.
-heroImage: /assets/llama-4-coder-local-coding-assistant-2026.webp
-pubDate: Feb 03 2026
-tags:
-- llama
-- local-ai
-- coding
-- meta
-- open-source
-title: 'Llama 4 Coder: How to Run Meta''s Coding LLM Locally in 2026'
+title: "Llama 4 Coder: How to Run Meta"
+description: "Complete guide to running Llama 4 Coder as a local coding assistant."
+pubDate: "Feb 03 2026"
+heroImage: "/assets/llama-4-coder-local-coding-assistant-2026.webp"
 ---
 
 # Llama 4 Coder: How to Run Meta's Coding LLM Locally in 2026

@@ -1,15 +1,8 @@
 ---
-description: Synthetic data generation for AI/ML training 2026 - Complete guide to GANs, diffusion models, and validation metrics. When synthetic data beats real datasets for machine learning.
-heroImage: /assets/synthetic-data-ml.webp
-pubDate: Dec 29 2025
-tags:
-- Future Tech
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'Synthetic Data for ML Training 2026: GANs, Diffusion Models & Quality Guide'
-updatedDate: Feb 12 2026
+title: "Synthetic Data for ML Training 2026: GANs, Diffusion Models & Quality Guide"
+description: "Synthetic data generation for AI/ML training 2026 - Complete guide to GANs, diffusion models, and validation metrics. When synthetic data beats real datasets for machine learning."
+pubDate: "Dec 29 2025"
+heroImage: "/assets/synthetic-data-ml.webp"
 ---
 
 # The Phantom Dataset: Synthetic Data as the New Training Gold in 2026

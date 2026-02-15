@@ -1,15 +1,8 @@
 ---
-description: Suno AI review 2026 - Maximum song length limits, pricing tiers, music generation quality, and features. Complete guide to AI music creation.
-heroImage: /assets/suno-review-2026.webp
-pubDate: Jan 03 2026
-tags:
-- suno
-- review
-- ai-music
-- music-generation
-title: 'Suno AI Review 2026: Song Length, Pricing & Music Generation Guide'
-updatedDate: Feb 12 2026
-noindex: true
+title: "Suno AI Review 2026: Song Length, Pricing & Music Generation Guide"
+description: "Suno AI review 2026 - Maximum song length limits, pricing tiers, music generation quality, and features. Complete guide to AI music creation."
+pubDate: "Jan 03 2026"
+heroImage: "/assets/suno-review-2026.webp"
 ---
 
 ## Suno Review 2026: Is It Worth Your Money?

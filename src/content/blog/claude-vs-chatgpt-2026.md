@@ -1,10 +1,8 @@
 ---
-description: 'Compare Claude 4.6 Opus vs ChatGPT in 2026: code quality, reasoning, pricing, context windows, and which AI assistant wins for developers.'
-heroImage: /assets/claude-vs-chatgpt-2026.webp
-pubDate: Dec 20 2025
-title: 'Claude 4.6 vs ChatGPT 2026: Which AI is Better for Coding?'
-updatedDate: Feb 10 2026
-noindex: true
+title: "Claude 4.6 vs ChatGPT 2026: Which AI is Better for Coding?"
+description: "Compare Claude 4.6 Opus vs ChatGPT in 2026: code quality, reasoning, pricing, context windows, and which AI assistant wins for developers."
+pubDate: "Dec 20 2025"
+heroImage: "/assets/claude-vs-chatgpt-2026.webp"
 ---
 
 # Claude vs ChatGPT 2026: The Data-Backed Truth

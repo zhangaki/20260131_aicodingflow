@@ -1,11 +1,8 @@
 ---
-description: Critical analysis of gemini ai. Discover how this specific AI trend impacts
-  search visibility and citation rates.
-heroImage: /assets/gemini-ai-cover.webp
-pubDate: Dec 29 2025
-tags:
-- Security
-title: Does Gemini Ai Kill Traditional SEO? A Deep Dive
+title: "Does Gemini Ai Kill Traditional SEO? A Deep Dive"
+description: "Critical analysis of gemini ai. Discover how this specific AI trend impacts"
+pubDate: "Dec 29 2025"
+heroImage: "/assets/gemini-ai-cover.webp"
 ---
 
 noindex: true

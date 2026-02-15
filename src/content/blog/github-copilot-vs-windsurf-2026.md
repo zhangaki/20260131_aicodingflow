@@ -1,10 +1,8 @@
 ---
-description: We compared GitHub Copilot and Windsurf over 30 days of testing. See
-  the raw results, pricing analysis, and our hands-on recommendation for 2026.
-heroImage: /assets/github-copilot-vs-windsurf-2026.webp
-pubDate: Jan 18 2026
-title: 'GitHub Copilot vs Windsurf 2026: Features, Pricing Comparison'
-updatedDate: Feb 12 2026
+title: "GitHub Copilot vs Windsurf 2026: Features, Pricing Comparison"
+description: "We compared GitHub Copilot and Windsurf over 30 days of testing. See"
+pubDate: "Jan 18 2026"
+heroImage: "/assets/github-copilot-vs-windsurf-2026.webp"
 ---
 
 # GitHub Copilot vs Windsurf 2026: The Data-Backed Truth

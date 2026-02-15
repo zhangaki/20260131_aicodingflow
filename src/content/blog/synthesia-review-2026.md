@@ -1,17 +1,8 @@
 ---
-description: We used Synthesia for 30 days straight. Here's our detailed breakdown
-  of features, real costs, limitations, and whether it deserves your subscription
-  in 2026.
-heroImage: /assets/synthesia-review-2026.webp
-pubDate: Jan 24 2026
-tags:
-- synthesia
-- review
-- ai-video
-- video-generation
-title: 'Synthesia AI Review 2026: Video Avatar Pricing & Features'
-updatedDate: Feb 12 2026
-noindex: true
+title: "Synthesia AI Review 2026: Video Avatar Pricing & Features"
+description: "We used Synthesia for 30 days straight. Here"
+pubDate: "Jan 24 2026"
+heroImage: "/assets/synthesia-review-2026.webp"
 ---
 
 ## Synthesia: The 2026 Reality Check

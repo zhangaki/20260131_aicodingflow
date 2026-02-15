@@ -1,16 +1,8 @@
 ---
-description: 'Explore Moltbook AI notebook platform in 2026: features, collaboration tools, pricing, and comparison vs Notion and Obsidian.'
-heroImage: /assets/inside-moltbook-2026.webp
-pubDate: Jan 22 2026
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'Inside Moltbook 2026: AI-Powered Notebook Platform Review'
-updatedDate: Feb 10 2026
+title: "Inside Moltbook 2026: AI-Powered Notebook Platform Review"
+description: "Explore Moltbook AI notebook platform in 2026: features, collaboration tools, pricing, and comparison vs Notion and Obsidian."
+pubDate: "Jan 22 2026"
+heroImage: "/assets/inside-moltbook-2026.webp"
 ---
 
 # Inside Moltbook: The Sociology of the Agent-Only Social Network

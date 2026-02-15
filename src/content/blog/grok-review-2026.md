@@ -1,16 +1,8 @@
 ---
-description: Our detailed Grok AI review for 2026! Explore features, performance,
-  and how it compares to other AI chatbots. Read now!
-heroImage: /assets/grok-review-2026.webp
-pubDate: Jan 28 2026
-tags:
-- grok
-- review
-- llm
-- ai-chatbot
-title: 'Grok AI Review 2026: Is It the Best AI Chatbot?'
-updatedDate: Feb 14 2026
-noindex: true
+title: "Grok AI Review 2026: Is It the Best AI Chatbot?"
+description: "Our detailed Grok AI review for 2026! Explore features, performance,"
+pubDate: "Jan 28 2026"
+heroImage: "/assets/grok-review-2026.webp"
 ---
 
 ## Grok: The 2026 Reality Check

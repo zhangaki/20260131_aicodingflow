@@ -1,15 +1,8 @@
 ---
-description: Frank Tipler's Omega Point theory meets AI superintelligence - How to turn the solar system into a Matrioshka Brain computer. Dyson Swarms and universal intelligence explained.
-heroImage: /assets/omega-point-cover.webp
-noindex: true
-pubDate: Dec 27 2025
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Society & Ethics
-title: 'Omega Point AI Superintelligence: Frank Tipler''s Solar System Computer (2030+)'
-updatedDate: Feb 12 2026
+title: "Omega Point AI Superintelligence: Frank Tipler"
+description: "Frank Tipler"
+pubDate: "Dec 27 2025"
+heroImage: "/assets/omega-point-cover.webp"
 ---
 
 We began this series by talking about the "Super Individual"—a person enhanced by a local LLM and a few bio-sensors.

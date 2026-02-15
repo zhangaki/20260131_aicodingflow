@@ -1,10 +1,8 @@
 ---
-description: Choosing between Cursor and Windsurf? We broke down the tech stack and
-  pricing models so you don't have to.
-heroImage: /assets/cursor-vs-windsurf-2026.webp
-pubDate: Dec 16 2025
-title: 'Stop Guessing: Cursor vs Windsurf 2026 Competitive Audit'
-updatedDate: Feb 10 2026
+title: "Stop Guessing: Cursor vs Windsurf 2026 Competitive Audit"
+description: "Choosing between Cursor and Windsurf? We broke down the tech stack and"
+pubDate: "Dec 16 2025"
+heroImage: "/assets/cursor-vs-windsurf-2026.webp"
 ---
 
 # Stop Guessing: Cursor vs Windsurf 2026 Competitive Audit

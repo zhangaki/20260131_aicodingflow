@@ -1,16 +1,8 @@
 ---
-description: Human judges are slow, biased, and expensive. In 2030, justice is an
-  API call. A comprehensive guide to AI Judges and Decentralized Arbitration.
-heroImage: /assets/algorithmic-judiciary-cover.webp
-noindex: true
-pubDate: Dec 10 2025
-tags:
-- Future Tech
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'The Algorithmic Judiciary: Justice at the Speed of Code (2030)'
+title: "The Algorithmic Judiciary: Justice at the Speed of Code (2030)"
+description: "Human judges are slow, biased, and expensive. In 2030, justice is an"
+pubDate: "Dec 10 2025"
+heroImage: "/assets/algorithmic-judiciary-cover.webp"
 ---
 
 "Justice delayed is justice denied." — William E. Gladstone.

@@ -1,15 +1,8 @@
 ---
-description: 'Explore the Dyson Sphere of One concept in 2028: AI-driven personal energy systems, renewable tech, and individual power autonomy.'
-heroImage: /assets/dyson-sphere-cover.webp
-noindex: true
-pubDate: Jan 11 2026
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-title: 'Dyson Sphere of One 2028: Personal Energy Independence with AI'
+title: "Dyson Sphere of One 2028: Personal Energy Independence with AI"
+description: "Explore the Dyson Sphere of One concept in 2028: AI-driven personal energy systems, renewable tech, and individual power autonomy."
+pubDate: "Jan 11 2026"
+heroImage: "/assets/dyson-sphere-cover.webp"
 ---
 
 The "Cloud" is a convenient lie. It is just a computer plugged into a coal plant in Virginia.

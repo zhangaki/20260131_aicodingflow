@@ -1,10 +1,8 @@
 ---
-description: 'Head-to-head: ChatGPT vs Google Gemini 2.0 in 2026. Features, pricing, multimodal capabilities, and which AI assistant to choose.'
-heroImage: /assets/chatgpt-vs-gemini-2026.webp
-pubDate: Jan 05 2026
-title: 'ChatGPT vs Gemini 2.0 2026: Which AI Chatbot is Better?'
-updatedDate: Feb 10 2026
-noindex: true
+title: "ChatGPT vs Gemini 2.0 2026: Which AI Chatbot is Better?"
+description: "Head-to-head: ChatGPT vs Google Gemini 2.0 in 2026. Features, pricing, multimodal capabilities, and which AI assistant to choose."
+pubDate: "Jan 05 2026"
+heroImage: "/assets/chatgpt-vs-gemini-2026.webp"
 ---
 
 # Which Wins in 2026? ChatGPT vs Gemini Breakdown

@@ -1,11 +1,8 @@
 ---
-description: Choosing between Replit AI and Lovable? We broke down the tech stack
-  and pricing models so you don't have to.
-heroImage: /assets/replit-ai-vs-lovable-2026.webp
-pubDate: Jan 16 2026
-title: 'Stop Guessing: Replit AI vs Lovable 2026 Competitive Audit'
-updatedDate: Feb 10 2026
-noindex: true
+title: "Stop Guessing: Replit AI vs Lovable 2026 Competitive Audit"
+description: "Choosing between Replit AI and Lovable? We broke down the tech stack"
+pubDate: "Jan 16 2026"
+heroImage: "/assets/replit-ai-vs-lovable-2026.webp"
 ---
 
 # Stop Guessing: Replit AI vs Lovable 2026 Competitive Audit

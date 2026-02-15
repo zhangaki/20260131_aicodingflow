@@ -1,16 +1,8 @@
 ---
-description: Multi-agent AI orchestration research 2026 - Top 5 frameworks compared (AutoGen, CrewAI, LangGraph). Complete guide to building collaborative AI agent systems.
-heroImage: /assets/multi-agent-orchestration-2026.webp
-pubDate: Dec 06 2025
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'Multi-Agent AI Orchestration 2026: Top 5 Frameworks & Research Guide'
-updatedDate: Feb 12 2026
+title: "Multi-Agent AI Orchestration 2026: Top 5 Frameworks & Research Guide"
+description: "Multi-agent AI orchestration research 2026 - Top 5 frameworks compared (AutoGen, CrewAI, LangGraph). Complete guide to building collaborative AI agent systems."
+pubDate: "Dec 06 2025"
+heroImage: "/assets/multi-agent-orchestration-2026.webp"
 ---
 
 # Multi-Agent AI Orchestration: Research-Backed Guide for 2026

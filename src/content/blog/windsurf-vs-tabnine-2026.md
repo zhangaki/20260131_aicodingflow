@@ -1,11 +1,8 @@
 ---
-description: Choosing between Windsurf and Tabnine? We broke down the tech stack and
-  pricing models so you don't have to.
-heroImage: /assets/windsurf-vs-tabnine-2026.webp
-pubDate: Dec 09 2025
-title: 'Stop Guessing: Windsurf vs Tabnine 2026 Competitive Audit'
-updatedDate: Feb 10 2026
-noindex: true
+title: "Stop Guessing: Windsurf vs Tabnine 2026 Competitive Audit"
+description: "Choosing between Windsurf and Tabnine? We broke down the tech stack and"
+pubDate: "Dec 09 2025"
+heroImage: "/assets/windsurf-vs-tabnine-2026.webp"
 ---
 
 # Stop Guessing: Windsurf vs Tabnine 2026 Competitive Audit

@@ -1,10 +1,8 @@
 ---
-description: We compared Cursor and Tabnine over 30 days of testing. See the raw results,
-  pricing analysis, and our hands-on recommendation for 2026.
-heroImage: /assets/cursor-vs-tabnine-2026.webp
-pubDate: Jan 28 2026
-title: 'Cursor vs Tabnine 2026: The Data-Backed Truth'
-updatedDate: Feb 10 2026
+title: "Cursor vs Tabnine 2026: The Data-Backed Truth"
+description: "We compared Cursor and Tabnine over 30 days of testing. See the raw results,"
+pubDate: "Jan 28 2026"
+heroImage: "/assets/cursor-vs-tabnine-2026.webp"
 ---
 
 # Cursor vs Tabnine 2026: The Data-Backed Truth

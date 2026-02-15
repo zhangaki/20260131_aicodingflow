@@ -1,14 +1,8 @@
 ---
-description: 'Comprehensive Salesforce Einstein AI review 2026: predictive analytics, lead scoring, automation features, pricing, and ROI for businesses.'
-heroImage: /assets/salesforce-einstein-review-2026.webp
-pubDate: Dec 31 2025
-tags:
-- salesforce-einstein
-- review
-- ai-business
-- enterprise-ai
-title: 'Salesforce Einstein AI Review 2026: CRM Features & Pricing'
-noindex: true
+title: "Salesforce Einstein AI Review 2026: CRM Features & Pricing"
+description: "Comprehensive Salesforce Einstein AI review 2026: predictive analytics, lead scoring, automation features, pricing, and ROI for businesses."
+pubDate: "Dec 31 2025"
+heroImage: "/assets/salesforce-einstein-review-2026.webp"
 ---
 
 ## Salesforce Einstein: The 2026 Reality Check

@@ -1,10 +1,8 @@
 ---
-description: 'Compare GitHub Copilot vs Claude Code in 2026: $10/month vs free, code quality, context awareness, and which AI coding tool to choose.'
-heroImage: /assets/github-copilot-vs-claude-code-2026.webp
-pubDate: Dec 11 2025
-title: 'GitHub Copilot vs Claude Code 2026: Best AI Coding Assistant?'
-updatedDate: Feb 10 2026
-noindex: true
+title: "GitHub Copilot vs Claude Code 2026: Best AI Coding Assistant?"
+description: "Compare GitHub Copilot vs Claude Code in 2026: $10/month vs free, code quality, context awareness, and which AI coding tool to choose."
+pubDate: "Dec 11 2025"
+heroImage: "/assets/github-copilot-vs-claude-code-2026.webp"
 ---
 
 # GitHub Copilot vs Claude Code 2026: The Data-Backed Truth

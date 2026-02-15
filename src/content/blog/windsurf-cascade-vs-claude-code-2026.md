@@ -1,13 +1,8 @@
 ---
-description: Windsurf Cascade mode vs Claude Code comparison - pricing ($15 vs $20), AI agent capabilities, VS Code integration, and real coding performance test.
-heroImage: /assets/windsurf-cascade-vs-claude-code-2026.webp
-pubDate: Feb 14 2026
-tags:
-- windsurf
-- claude
-- windsurf
 title: "Windsurf Cascade vs Claude Code: Which Agentic IDE Wins 2026?"
-updatedDate: Feb 14 2026
+description: "Windsurf Cascade mode vs Claude Code comparison - pricing ($15 vs $20), AI agent capabilities, VS Code integration, and real coding performance test."
+pubDate: "Feb 14 2026"
+heroImage: "/assets/windsurf-cascade-vs-claude-code-2026.webp"
 ---
 
 ## Windsurf Cascade vs. Claude Code: Which Agentic IDE Reigns Supreme in 2026?

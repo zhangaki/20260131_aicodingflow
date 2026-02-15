@@ -1,15 +1,8 @@
 ---
-description: An in-depth review of HeyGen in 2026. We cover features, pricing tiers,
-  pros and cons, alternatives, and who should actually use it.
-heroImage: /assets/heygen-review-2026.webp
-pubDate: Jan 04 2026
-tags:
-- heygen
-- review
-- ai-video
-- video-generation
-title: 'HeyGen Review 2026: Features, Pricing, and Our Honest Verdict'
-noindex: true
+title: "HeyGen Review 2026: Features, Pricing, and Our Honest Verdict"
+description: "An in-depth review of HeyGen in 2026. We cover features, pricing tiers,"
+pubDate: "Jan 04 2026"
+heroImage: "/assets/heygen-review-2026.webp"
 ---
 
 ## HeyGen Review 2026: Is It Worth Your Money?

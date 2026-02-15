@@ -1,15 +1,8 @@
 ---
-category: AI Coding
-description: 'The definitive 3-way comparison: Claude Code vs Cursor vs Windsurf in 2026. Pricing, features, performance benchmarks, and which AI editor to choose.'
-heroImage: /assets/claude-code-vs-cursor-vs-windsurf-2026.webp
-pubDate: Feb 03 2026
-tags:
-- claude-code
-- cursor
-- windsurf
-- ai-coding
-- ide
-title: 'Claude Code vs Cursor vs Windsurf 2026: Ultimate AI Editor Comparison'
+title: "Claude Code vs Cursor vs Windsurf 2026: Ultimate AI Editor Comparison"
+description: "The definitive 3-way comparison: Claude Code vs Cursor vs Windsurf in 2026. Pricing, features, performance benchmarks, and which AI editor to choose."
+pubDate: "Feb 03 2026"
+heroImage: "/assets/claude-code-vs-cursor-vs-windsurf-2026.webp"
 ---
 
 # Claude Code vs Cursor vs Windsurf: We Used All Three for 30 Days

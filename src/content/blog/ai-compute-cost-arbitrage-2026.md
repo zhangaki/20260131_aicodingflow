@@ -1,15 +1,8 @@
 ---
-description: How to cut your AI infrastructure costs by 70%. A technical guide to
-  spot instance bidding, multi-cloud routing, model distillation economics, and the
-  financial engineering of AI compute in 2026.
-heroImage: /assets/ai-compute-cost-arbitrage.webp
-pubDate: Jan 19 2026
-tags:
-- Dev Tools
-- Infrastructure
-- Society & Ethics
-- Security
-title: 'The Arbitrage Engine: AI Compute Cost Optimization Strategies in 2026'
+title: "The Arbitrage Engine: AI Compute Cost Optimization Strategies in 2026"
+description: "How to cut your AI infrastructure costs by 70%. A technical guide to"
+pubDate: "Jan 19 2026"
+heroImage: "/assets/ai-compute-cost-arbitrage.webp"
 ---
 
 In 2026, the cost of AI compute is no longer just an engineering concern—it is a **strategic weapon**.

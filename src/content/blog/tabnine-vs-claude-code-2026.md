@@ -1,10 +1,8 @@
 ---
-description: Choosing between Tabnine and Claude Code should be simple. We answered
-  the 5 most critical questions for 2026.
-heroImage: /assets/tabnine-vs-claude-code-2026.webp
-pubDate: Feb 08 2026
-title: Which Wins in 2026? Tabnine vs Claude Code Breakdown
-updatedDate: Feb 10 2026
+title: "Which Wins in 2026? Tabnine vs Claude Code Breakdown"
+description: "Choosing between Tabnine and Claude Code should be simple. We answered"
+pubDate: "Feb 08 2026"
+heroImage: "/assets/tabnine-vs-claude-code-2026.webp"
 ---
 
 # Which Wins in 2026? Tabnine vs Claude Code Breakdown

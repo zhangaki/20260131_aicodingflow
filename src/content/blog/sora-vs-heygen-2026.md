@@ -1,10 +1,8 @@
 ---
-description: We compared Sora and HeyGen over 30 days of testing. See the raw results,
-  pricing analysis, and our hands-on recommendation for 2026.
-heroImage: /assets/sora-vs-heygen-2026.webp
-pubDate: Dec 09 2025
-title: 'Sora vs HeyGen 2026: The Data-Backed Truth'
-updatedDate: Feb 10 2026
+title: "Sora vs HeyGen 2026: The Data-Backed Truth"
+description: "We compared Sora and HeyGen over 30 days of testing. See the raw results,"
+pubDate: "Dec 09 2025"
+heroImage: "/assets/sora-vs-heygen-2026.webp"
 ---
 
 # Sora vs HeyGen 2026: The Data-Backed Truth

@@ -1,17 +1,8 @@
 ---
-description: Why build data centers on Earth when space offers free cooling, vacuum
-  speed, and unlimited solar power? A trusted guide to the Orbital Cloud.
-heroImage: /assets/space-inference.webp
-noindex: true
-pubDate: Jan 24 2026
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'High Orbit Intelligence: Space-Based Inference Clusters (SBIC) in 2027'
+title: "High Orbit Intelligence: Space-Based Inference Clusters (SBIC) in 2027"
+description: "Why build data centers on Earth when space offers free cooling, vacuum"
+pubDate: "Jan 24 2026"
+heroImage: "/assets/space-inference.webp"
 ---
 
 Data centers on Earth are thermodynamic nightmares.

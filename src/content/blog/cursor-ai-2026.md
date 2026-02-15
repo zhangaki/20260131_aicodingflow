@@ -1,12 +1,8 @@
 ---
-description: 'Complete Cursor AI guide for 2026: $20/month pricing breakdown, Composer mode, Ctrl+K features, and honest verdict on whether it''s worth upgrading.'
-heroImage: /assets/cursor-ai-2026.webp
-noindex: true
-pubDate: Feb 05 2026
-tags:
-- AI Agents
-- Security
-title: 'Cursor AI Editor 2026: Features, Pricing & Is It Worth $20/Month?'
+title: "Cursor AI Editor 2026: Features, Pricing & Is It Worth $20/Month?"
+description: "Complete Cursor AI guide for 2026: $20/month pricing breakdown, Composer mode, Ctrl+K features, and honest verdict on whether it"
+pubDate: "Feb 05 2026"
+heroImage: "/assets/cursor-ai-2026.webp"
 ---
 
 If you're evaluating tools for your digital empire, these deep dives provide critical context:

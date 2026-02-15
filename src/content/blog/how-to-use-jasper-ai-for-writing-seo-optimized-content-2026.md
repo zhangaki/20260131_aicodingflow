@@ -1,16 +1,8 @@
 ---
-description: Learn how to use Jasper AI effectively for writing seo-optimized content.
-  This 2026 guide covers prerequisites, a hands-on walkthrough, expert tips, and advanced
-  strategies.
-heroImage: /assets/how-to-use-jasper-ai-for-writing-seo-optimized-content-2026.webp
-pubDate: Dec 28 2025
-tags:
-- jasper-ai
-- tutorial
-- how-to
-- ai-writing
-title: 'Using Jasper AI for Writing SEO-Optimized Content: A Practical 2026 Walkthrough'
-noindex: true
+title: "Using Jasper AI for Writing SEO-Optimized Content: A Practical 2026 Walkthrough"
+description: "Learn how to use Jasper AI effectively for writing seo-optimized content."
+pubDate: "Dec 28 2025"
+heroImage: "/assets/how-to-use-jasper-ai-for-writing-seo-optimized-content-2026.webp"
 ---
 
 ## A Practitioner's Guide to Jasper AI for Writing SEO-Optimized Content

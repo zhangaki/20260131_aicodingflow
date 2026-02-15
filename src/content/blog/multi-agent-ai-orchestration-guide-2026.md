@@ -1,15 +1,8 @@
 ---
-category: AI Engineering
-description: A practical engineering guide to building multi-agent AI systems. Covers
-  frameworks (CrewAI, LangGraph, AutoGen), architecture patterns, and production pitfalls.
-heroImage: /assets/multi-agent-ai-orchestration-guide-2026.webp
-pubDate: Jan 22 2026
-tags:
-- multi-agent
-- orchestration
-- langchain
-- crewai
-title: 'Multi-Agent AI Orchestration in 2026: From Concept to Production'
+title: "Multi-Agent AI Orchestration in 2026: From Concept to Production"
+description: "A practical engineering guide to building multi-agent AI systems. Covers"
+pubDate: "Jan 22 2026"
+heroImage: "/assets/multi-agent-ai-orchestration-guide-2026.webp"
 ---
 
 # Multi-Agent AI Orchestration in 2026: From Concept to Production

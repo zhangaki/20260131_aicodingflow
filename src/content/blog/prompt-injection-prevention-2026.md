@@ -1,16 +1,8 @@
 ---
-description: How attackers hijack your AI and how to stop them. A technical guide
-  to direct and indirect prompt injection, defense architectures, input sanitization,
-  and securing production LLM systems in 2026.
-heroImage: /assets/prompt-injection-prevention.webp
-pubDate: Jan 15 2026
-tags:
-- Dev Tools
-- AI Agents
-- Infrastructure
-- Security
-title: 'The Invisible Threat: Prompt Injection Attack Prevention in 2026'
-updatedDate: Feb 10 2026
+title: "The Invisible Threat: Prompt Injection Attack Prevention in 2026"
+description: "How attackers hijack your AI and how to stop them. A technical guide"
+pubDate: "Jan 15 2026"
+heroImage: "/assets/prompt-injection-prevention.webp"
 ---
 
 # The Invisible Threat: Prompt Injection Attack Prevention in 2026

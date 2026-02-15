@@ -1,13 +1,8 @@
 ---
-description: 'Meta Llama 4 open-source multimodal AI review 2026: 10M token context, 200+ languages, Maverick vs Scout models, and how it crushes GPT-4o.'
-heroImage: /assets/meta-llama-4-multimodal-open-source-2026.webp
-pubDate: Feb 12 2026
-tags:
-- llama
-- meta
-- open-source
-- multimodal
-title: 'Meta Llama 4 Multimodal Release 2026: 10M Context & Open-Source'
+title: "Meta Llama 4 Multimodal Release 2026: 10M Context & Open-Source"
+description: "Meta Llama 4 open-source multimodal AI review 2026: 10M token context, 200+ languages, Maverick vs Scout models, and how it crushes GPT-4o."
+pubDate: "Feb 12 2026"
+heroImage: "/assets/meta-llama-4-multimodal-open-source-2026.webp"
 ---
 
 # Meta Llama 4: The Open-Source Multimodal Giant with 10M Context

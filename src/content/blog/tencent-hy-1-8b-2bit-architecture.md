@@ -1,14 +1,8 @@
 ---
 title: "Tencent HY-1.8B: 2-Bit Quantization Architecture Deep Dive for Developers"
-description: "Explore Tencent's HY-1.8B architecture with 2-bit quantization. Dive into its impact on memory, speed, and edge deployment for efficient AI development."
+description: "Explore Tencent"
 pubDate: "Feb 15 2026"
 heroImage: "/assets/tencent-hy-1-8b-2bit-architecture.webp"
-tags:
-- Tencent HY-1.8B
-- 2-bit quantization
-- model compression
-- edge deployment
-- inference optimization
 ---
 
 ## Tencent HY-1.8B: 2-Bit Quantization Architecture Deep Dive for Developers

@@ -1,17 +1,8 @@
 ---
-description: When you can download Insulin like you download a PDF, the FDA becomes
-  obsolete. A technical guide to the Home Bio-Reactor Revolution.
-heroImage: /assets/bio-foundries-cover.webp
-noindex: true
-pubDate: Dec 22 2025
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'The Printer for Life: Personal Bio-Foundries and the End of Pharma (2030)'
+title: "The Printer for Life: Personal Bio-Foundries and the End of Pharma (2030)"
+description: "When you can download Insulin like you download a PDF, the FDA becomes"
+pubDate: "Dec 22 2025"
+heroImage: "/assets/bio-foundries-cover.webp"
 ---
 
 Compute has been decentralized (Bitcoin/GPUs).

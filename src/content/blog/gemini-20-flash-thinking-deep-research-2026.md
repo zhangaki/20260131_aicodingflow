@@ -1,13 +1,8 @@
 ---
-description: 'Google Gemini 2.0 Flash Thinking and Deep Research update 2026: multi-app integration, personalization, file uploads, and interactive Canvas reports.'
-heroImage: /assets/gemini-20-flash-thinking-deep-research-2026.webp
-pubDate: Feb 12 2026
-tags:
-- gemini
-- google
-- ai-search
-- update
-title: 'Gemini 2.0 Flash Thinking & Deep Research 2026: Complete Guide'
+title: "Gemini 2.0 Flash Thinking & Deep Research 2026: Complete Guide"
+description: "Google Gemini 2.0 Flash Thinking and Deep Research update 2026: multi-app integration, personalization, file uploads, and interactive Canvas reports."
+pubDate: "Feb 12 2026"
+heroImage: "/assets/gemini-20-flash-thinking-deep-research-2026.webp"
 ---
 
 # Gemini 2.0 Flash Thinking & Deep Research: Google's 2026 Power Move

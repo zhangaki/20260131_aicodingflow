@@ -1,18 +1,8 @@
 ---
-description: Operational architecture for the hyper-individual. How to replace the
-  C-Suite with Python, conduct governance via API, and architect a $1B valuation with
-  zero full-time employees.
-heroImage: /assets/one-person-unicorn.webp
-noindex: true
-pubDate: Dec 29 2025
-tags:
-- Future Tech
-- AI Agents
-- Infrastructure
-- Dev Tools
-- Society & Ethics
-- Security
-title: 'The One-Person Unicorn: Systems Engineering for the Billion-Dollar Individual'
+title: "The One-Person Unicorn: Systems Engineering for the Billion-Dollar Individual"
+description: "Operational architecture for the hyper-individual. How to replace the"
+pubDate: "Dec 29 2025"
+heroImage: "/assets/one-person-unicorn.webp"
 ---
 
 In 2020, the concept of a "one-person billion-dollar company" was a provocative thought experiment. In 2027, it is an **engineering specification**.

@@ -1,9 +1,8 @@
 ---
-description: A side-by-side technical audit of Midjourney and Leonardo AI. Pricing,
-  limitations, and the verdict from our hands-on testing.
-heroImage: /assets/midjourney-vs-leonardo-ai-2026.webp
-pubDate: Feb 03 2026
-title: 'Midjourney vs Leonardo AI: The 2026 Feature Matrix'
+title: "Midjourney vs Leonardo AI: The 2026 Feature Matrix"
+description: "A side-by-side technical audit of Midjourney and Leonardo AI. Pricing,"
+pubDate: "Feb 03 2026"
+heroImage: "/assets/midjourney-vs-leonardo-ai-2026.webp"
 ---
 
 noindex: true

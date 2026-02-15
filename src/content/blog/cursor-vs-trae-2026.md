@@ -1,9 +1,8 @@
 ---
-description: 'Head-to-head comparison: Cursor vs Trae in 2026. Pricing, features, code quality, and which AI coding assistant wins for your workflow.'
-heroImage: /assets/cursor-vs-trae-2026.webp
-pubDate: Feb 07 2026
-title: 'Cursor vs Trae 2026: Which AI Coding Tool is Better for Developers?'
-updatedDate: Feb 10 2026
+title: "Cursor vs Trae 2026: Which AI Coding Tool is Better for Developers?"
+description: "Head-to-head comparison: Cursor vs Trae in 2026. Pricing, features, code quality, and which AI coding assistant wins for your workflow."
+pubDate: "Feb 07 2026"
+heroImage: "/assets/cursor-vs-trae-2026.webp"
 ---
 
 # Which Wins in 2026? Cursor vs Trae Breakdown

@@ -1,14 +1,8 @@
 ---
-description: 'Create professional marketing videos with Synthesia in 2026: avatar selection, script writing, voiceover editing, and export settings guide.'
-heroImage: /assets/how-to-use-synthesia-for-creating-professional-marketing-videos-2026.webp
-pubDate: Dec 12 2025
-tags:
-- synthesia
-- tutorial
-- how-to
-- ai-video
-title: 'How to Use Synthesia for Marketing Videos 2026: Pro Tutorial'
-noindex: true
+title: "How to Use Synthesia for Marketing Videos 2026: Pro Tutorial"
+description: "Create professional marketing videos with Synthesia in 2026: avatar selection, script writing, voiceover editing, and export settings guide."
+pubDate: "Dec 12 2025"
+heroImage: "/assets/how-to-use-synthesia-for-creating-professional-marketing-videos-2026.webp"
 ---
 
 ## How to Use Synthesia for Creating Professional Marketing Videos: Everything You Need to Know
