@@ -4,7 +4,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import BackgroundEffects from '../components/BackgroundEffects.astro';
-import CircularText from '../components/react/CircularText.jsx';
+import CircularText from '../components/CircularText.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getCollection } from 'astro:content';
 
@@ -415,7 +415,6 @@ const posts = (await getCollection('blog')).sort(
 			<section class="hero">
                 <div style="height: 200px; position: relative; margin-bottom: 2rem; margin-top: 1.5rem;">
                     <CircularText 
-                        client:idle
                         text="AUTONOMOUS AI FACTORY v2.0  " 
                         onHover="speedUp" 
                         spinDuration={20} 
