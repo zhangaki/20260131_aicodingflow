@@ -8,7 +8,21 @@ This directory contains the **Core Engine** for the `seo-site` project. These sc
 
 ---
 
-## 🚀 1. Core Content Generation
+## 🚀 1. Strategy & Planning
+
+### `topic_researcher.py` (The Editor-in-Chief)
+**Purpose:** Automates the "What should I write about?" phase. Searches for trends, checks for duplicates, and suggests high-potential topics.
+**Capabilities:** Google Trends Search -> Deduplication -> Ideation -> Command Generation.
+**Usage:**
+```bash
+# Find 5 trending topics in the default niche (AI/Coding)
+python scripts/topic_researcher.py
+
+# Find topics for a specific niche
+python scripts/topic_researcher.py --niche "Python Web Frameworks" --count 3
+```
+
+## ✍️ 2. Core Content Generation
 
 ### `unified_content_workflow.py` (The Flagship)
 **Purpose:** The main entry point for generating high-quality, single blog posts.
