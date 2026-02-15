@@ -199,14 +199,16 @@ const relatedPosts = post ? allPosts
                 }
                 .article-layout {
                     margin-top: -5vh;
-                    padding: 0 0.5rem 2rem;
+                    padding: 0 0 2rem; /* Removed side padding */
                     gap: 0;
+                    width: 100%;
                 }
                 .prose {
                     border-radius: 20px 20px 0 0;
                     border: none;
                     border-top: 1px solid rgba(255,255,255,0.08);
-					padding: 2rem 1rem;
+					padding: 2rem 1rem; /* Minimal safe padding */
+                    width: 100% !important;
                 }
 			}
 
