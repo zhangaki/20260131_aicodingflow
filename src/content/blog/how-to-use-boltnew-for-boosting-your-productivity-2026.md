@@ -3,6 +3,7 @@ title: "How to Use Bolt.new for 10x Productivity 2026: Complete Tutorial"
 description: "Master Bolt.new in 2026: instant full-stack apps, AI code generation, deployment workflow, and productivity tips to build projects faster."
 pubDate: "Feb 07 2026"
 heroImage: "/assets/how-to-use-boltnew-for-boosting-your-productivity-2026.webp"
+tags: ["Guides", "IDE"]
 ---
 
 ## A Practitioner's Guide to bolt.new for Boosting Your Productivity

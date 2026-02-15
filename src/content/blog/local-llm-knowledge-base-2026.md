@@ -3,6 +3,7 @@ title: "Local LLM Knowledge Base 2026: Build Offline Second Brain with Llama"
 description: "How to build a local LLM knowledge base in 2026. Step-by-step guide to"
 pubDate: "Jan 21 2026"
 heroImage: "/assets/local-llm-knowledge-base-2026.webp"
+tags: ["Analysis"]
 ---
 
 # The Data Sanctuary: Why Your Second Brain Must Go Offline in 2026

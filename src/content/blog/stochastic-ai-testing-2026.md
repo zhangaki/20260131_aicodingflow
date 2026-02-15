@@ -3,6 +3,7 @@ title: "Stochastic AI Testing 2026: How to Test Non-Deterministic Models"
 description: "Learn stochastic AI testing strategies for 2026: handle non-deterministic LLMs, flaky tests, and probabilistic outputs. Practical guide for AI QA engineers."
 pubDate: "Jan 28 2026"
 heroImage: "/assets/stochastic-ai-testing-2026.webp"
+tags: ["Analysis"]
 ---
 
 # Testing the Untestable: Unit Testing for Stochastic AI Outputs in 2026

@@ -3,6 +3,7 @@ title: "Grok vs OpenAI o3: The 2026 Feature Matrix"
 description: "A side-by-side technical audit of Grok and OpenAI o3. Pricing, limitations,"
 pubDate: "Dec 27 2025"
 heroImage: "/assets/grok-vs-openai-o3-2026.webp"
+tags: ["AI Tools"]
 ---
 
 # Grok vs OpenAI o3: The 2026 Feature Matrix

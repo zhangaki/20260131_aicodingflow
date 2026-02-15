@@ -3,6 +3,7 @@ title: "Digital Twin Estate Planning 2028: AI Legacy Management"
 description: "Death is a feature, but your Agent is deprecated. A technical guide to"
 pubDate: "Jan 18 2026"
 heroImage: "/assets/digital-twin-estate-cover.webp"
+tags: ["Analysis"]
 ---
 
 For 5,000 years, "Inheritance" meant passing down physical objects: Land, Gold, Cattle, Cash.

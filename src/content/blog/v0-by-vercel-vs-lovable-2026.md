@@ -3,6 +3,7 @@ title: "Which Wins in 2026? v0 by Vercel vs Lovable Breakdown"
 description: "Choosing between v0 by Vercel and Lovable should be simple. We answered"
 pubDate: "Dec 16 2025"
 heroImage: "/assets/v0-by-vercel-vs-lovable-2026.webp"
+tags: ["Analysis"]
 ---
 
 # Which Wins in 2026? v0 by Vercel vs Lovable Breakdown

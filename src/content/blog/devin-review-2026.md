@@ -3,6 +3,7 @@ title: "Devin Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of Devin in 2026. We cover features, pricing tiers,"
 pubDate: "Jan 16 2026"
 heroImage: "/assets/devin-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Devin Review 2026: Is It Worth Your Money?

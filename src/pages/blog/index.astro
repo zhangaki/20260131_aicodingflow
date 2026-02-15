@@ -113,11 +113,12 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                 display: flex;
                 gap: 0.5rem;
                 overflow-x: auto;
-                padding-bottom: 0px;
+                padding: 0 1rem 0 0;
                 scrollbar-width: none; /* Firefox */
                 -ms-overflow-style: none;  /* IE */
-                mask-image: linear-gradient(to right, black 90%, transparent 100%);
+                mask-image: linear-gradient(to right, black 95%, transparent 100%);
             }
+            
             .tags-scroll-container::-webkit-scrollbar { display: none; }
 
             .tag-chip {
@@ -242,10 +243,16 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                 font-size: 0.7rem;
                 padding: 0.2rem 0.6rem;
                 border-radius: 6px;
-                background: rgba(0, 0, 0, 0.2);
-                color: #94a3b8;
-                border: 1px solid rgba(255,255,255,0.05);
-                font-family: system-ui, sans-serif;
+                background: rgba(233, 107, 70, 0.1);
+                color: var(--accent-orange);
+                border: 1px solid rgba(233, 107, 70, 0.3);
+                font-family: var(--font-main);
+                font-weight: 600;
+                transition: all 0.2s;
+            }
+            a.card:hover .mini-tag {
+                background: var(--accent-orange);
+                color: #fff;
             }
 
             /* States */
@@ -348,6 +355,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                 </div>
                 
                 <div class="tags-scroll-container" id="tagsContainer">
+                    <span style="color: #64748b; font-size: 0.85rem; font-weight: 600; padding: 0.5rem 0.5rem 0.5rem 0; white-space: nowrap;">Categories:</span>
                     <button class="tag-chip active" data-tag="all">All Posts</button>
                     {allTags.map(tag => (
                         <button class="tag-chip" data-tag={tag}>{tag}</button>

@@ -3,6 +3,7 @@ title: "Cursor vs Claude Code 2026: Which AI Coding Assistant Wins?"
 description: "A side-by-side technical audit of Cursor and Claude Code. Pricing, limitations,"
 pubDate: "Jan 03 2026"
 heroImage: "/assets/cursor-vs-claude-code-2026.webp"
+tags: ["AI Tools", "IDE"]
 ---
 
 # Cursor vs Claude Code: The 2026 Feature Matrix

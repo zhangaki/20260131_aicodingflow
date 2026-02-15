@@ -3,6 +3,7 @@ title: "The Invisible Threat: Prompt Injection Attack Prevention in 2026"
 description: "How attackers hijack your AI and how to stop them. A technical guide"
 pubDate: "Jan 15 2026"
 heroImage: "/assets/prompt-injection-prevention.webp"
+tags: ["Analysis"]
 ---
 
 # The Invisible Threat: Prompt Injection Attack Prevention in 2026

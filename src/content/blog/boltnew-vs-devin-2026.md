@@ -4,6 +4,7 @@ description: "Head-to-head: Bolt.new vs Devin AI in 2026. Pricing, autonomous co
 pubDate: "Feb 08 2026"
 heroImage: "/assets/boltnew-vs-devin-2026.webp"
 noindex: true
+tags: ["IDE"]
 ---
 
 

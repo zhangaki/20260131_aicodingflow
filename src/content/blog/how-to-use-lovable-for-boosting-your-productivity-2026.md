@@ -3,6 +3,7 @@ title: "How to Use Lovable for Boosting Your Productivity: Complete 2026 Guide"
 description: "A step-by-step tutorial on using Lovable for boosting your productivity"
 pubDate: "Dec 19 2025"
 heroImage: "/assets/how-to-use-lovable-for-boosting-your-productivity-2026.webp"
+tags: ["Guides"]
 ---
 
 ## How to Use Lovable for Boosting Your Productivity: Everything You Need to Know

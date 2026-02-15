@@ -3,6 +3,7 @@ title: "How to Use DALL-E 3 for Graphics 2026: Professional Design Tutorial"
 description: "Complete DALL-E 3 tutorial for professional graphics in 2026: prompt engineering, resolution settings, style transfer, and export tips."
 pubDate: "Dec 08 2025"
 heroImage: "/assets/how-to-use-dall-e-3-for-creating-professional-graphics-2026.webp"
+tags: ["Guides"]
 ---
 
 ## How to Use DALL-E 3 for Creating Professional Graphics: Everything You Need to Know

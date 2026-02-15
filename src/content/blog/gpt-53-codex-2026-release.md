@@ -3,6 +3,7 @@ title: "GPT-5.3-Codex Release 2026: 25% Faster Agentic Coding Model"
 description: "OpenAI GPT-5.3-Codex review 2026: 25% faster performance, enhanced cybersecurity, long-horizon coding, and step-change from code generation to autonomous agent."
 pubDate: "Feb 12 2026"
 heroImage: "/assets/gpt-53-codex-2026-release.webp"
+tags: ["Analysis"]
 ---
 
 # GPT-5.3-Codex: OpenAI's Most Advanced Agentic Coding Model

@@ -3,6 +3,7 @@ title: "Jasper AI Review 2026: Features, Pricing & Is It Worth $49/Month?"
 description: "Comprehensive Jasper AI review 2026: content generation features, $49/month pricing breakdown, SEO tools, and honest verdict on value."
 pubDate: "Jan 02 2026"
 heroImage: "/assets/jasper-ai-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Jasper AI Review 2026: Is It Worth Your Money?

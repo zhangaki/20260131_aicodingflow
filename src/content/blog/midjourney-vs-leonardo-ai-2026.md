@@ -4,6 +4,7 @@ description: "A side-by-side technical audit of Midjourney and Leonardo AI. Pric
 pubDate: "Feb 03 2026"
 heroImage: "/assets/midjourney-vs-leonardo-ai-2026.webp"
 noindex: true
+tags: ["Analysis"]
 ---
 
 

@@ -3,6 +3,7 @@ title: "The Digital Butterfly: Predicting Supply Chain Disruption with Graph Neu
 description: "How to see the storm before it hits. A technical guide to using Graph"
 pubDate: "Jan 22 2026"
 heroImage: "/assets/ai-supply-chain-prediction.webp"
+tags: ["Analysis"]
 ---
 
 In 2021, a single ship stuck in the Suez Canal froze $10 billion of trade per day. In 2026, such disruptions are no longer surprises—they are **calculated probabilities**.

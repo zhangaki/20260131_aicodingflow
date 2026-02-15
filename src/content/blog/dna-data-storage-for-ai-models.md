@@ -3,6 +3,7 @@ title: "The Eternal Archive: DNA Data Storage for AI Models in 2027"
 description: "Silicon is temporary. DNA is forever. A technical guide to archiving"
 pubDate: "Dec 26 2025"
 heroImage: "/assets/dna-storage.webp"
+tags: ["Engineering"]
 ---
 
 # The Eternal Archive: DNA Data Storage for AI Models in 2027

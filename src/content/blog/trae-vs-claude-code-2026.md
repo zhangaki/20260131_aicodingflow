@@ -3,6 +3,7 @@ title: "Trae vs Claude Code 2026: AI Coding Assistant Showdown"
 description: "Compare Trae and Claude Code in 2026: features, pricing, code quality, and which AI coding assistant is best for developers and teams."
 pubDate: "Jan 09 2026"
 heroImage: "/assets/trae-vs-claude-code-2026.webp"
+tags: ["AI Tools"]
 ---
 
 # Trae vs Claude Code: The 2026 Feature Matrix

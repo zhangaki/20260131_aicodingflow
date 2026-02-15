@@ -3,6 +3,7 @@ title: "Writesonic in 2026: A Practitioner"
 description: "We used Writesonic for 30 days straight. Here"
 pubDate: "Dec 03 2025"
 heroImage: "/assets/writesonic-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Writesonic: The 2026 Reality Check

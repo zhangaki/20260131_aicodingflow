@@ -3,6 +3,7 @@ title: "Phind Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of Phind in 2026. We cover features, pricing tiers,"
 pubDate: "Jan 11 2026"
 heroImage: "/assets/phind-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Phind Review 2026: Is It Worth Your Money?

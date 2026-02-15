@@ -3,6 +3,7 @@ title: "The Arbitrage Engine: AI Compute Cost Optimization Strategies in 2026"
 description: "How to cut your AI infrastructure costs by 70%. A technical guide to"
 pubDate: "Jan 19 2026"
 heroImage: "/assets/ai-compute-cost-arbitrage.webp"
+tags: ["Engineering"]
 ---
 
 In 2026, the cost of AI compute is no longer just an engineering concern—it is a **strategic weapon**.

@@ -3,6 +3,7 @@ title: "Using Sora for Generating Cinematic Video Clips: A Practical 2026 Walkth
 description: "Learn how to use Sora effectively for generating cinematic video clips."
 pubDate: "Dec 18 2025"
 heroImage: "/assets/how-to-use-sora-for-generating-cinematic-video-clips-2026.webp"
+tags: ["Guides"]
 ---
 
 ## A Practitioner's Guide to Sora for Generating Cinematic Video Clips

@@ -3,6 +3,7 @@ title: "Claude 4.6 Opus February 2026 Update: Agent Teams & PowerPoint"
 description: "Complete breakdown of Claude 4.6 Opus February 2026 update: agent teams, improved coding, PowerPoint integration, 200K context, and adaptive thinking features."
 pubDate: "Feb 12 2026"
 heroImage: "/assets/claude-46-opus-february-2026-update.webp"
+tags: ["AI Tools"]
 ---
 
 # Claude 4.6 Opus February 2026 Update: What's New

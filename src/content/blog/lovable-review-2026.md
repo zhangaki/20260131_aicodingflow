@@ -3,6 +3,7 @@ title: "Lovable AI Review 2026: Features, Pricing & vs Bolt Comparison"
 description: "An in-depth review of Lovable in 2026. We cover features, pricing tiers,"
 pubDate: "Dec 01 2025"
 heroImage: "/assets/lovable-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Lovable Review 2026: Is It Worth Your Money?

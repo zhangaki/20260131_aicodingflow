@@ -3,6 +3,7 @@ title: "Synthesia AI Review 2026: Video Avatar Pricing & Features"
 description: "We used Synthesia for 30 days straight. Here"
 pubDate: "Jan 24 2026"
 heroImage: "/assets/synthesia-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Synthesia: The 2026 Reality Check

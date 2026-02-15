@@ -3,6 +3,7 @@ title: "Windsurf 2026: Codeium Pricing, Free Tier Limits & Cascade Mode"
 description: "Windsurf Codeium pricing 2026, free tier limits vs paid plans ($15/month), Cascade mode features, and comparison with Claude Code. Is Windsurf worth it?"
 pubDate: "Jan 01 2026"
 heroImage: "/assets/windsurf-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Windsurf Review 2026: Is It Worth Your Money?

@@ -3,6 +3,7 @@ title: "Udio Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of Udio in 2026. We cover features, pricing tiers,"
 pubDate: "Jan 17 2026"
 heroImage: "/assets/udio-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Udio Review 2026: Is It Worth Your Money?

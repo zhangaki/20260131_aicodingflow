@@ -3,6 +3,7 @@ title: "Windsurf vs Trae 2026: The Data-Backed Truth"
 description: "We compared Windsurf and Trae over 30 days of testing. See the raw results,"
 pubDate: "Jan 13 2026"
 heroImage: "/assets/windsurf-vs-trae-2026.webp"
+tags: ["Analysis"]
 ---
 
 # Windsurf vs Trae 2026: The Data-Backed Truth

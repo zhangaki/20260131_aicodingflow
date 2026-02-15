@@ -3,6 +3,7 @@ title: "The Molecular Architect: Generative AI for Pharmaceutical R&D in 2026"
 description: "How to discover drugs in days, not decades. A technical guide to protein"
 pubDate: "Jan 14 2026"
 heroImage: "/assets/generative-ai-pharma.webp"
+tags: ["Analysis"]
 ---
 
 # The Molecular Architect: Generative AI for Pharmaceutical R&D in 2026

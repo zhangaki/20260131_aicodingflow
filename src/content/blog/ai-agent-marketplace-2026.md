@@ -3,6 +3,7 @@ title: "AI Agent Marketplace 2026: How to Monetize Your Agents"
 description: "AI agent marketplace economy in 2026 - how to build, list, and monetize AI agents on platforms like Replit Agent Hub, Cursor Agent Store, and others."
 pubDate: "Feb 14 2026"
 heroImage: "/assets/ai-agent-marketplace-2026.webp"
+tags: ["Agents", "Business"]
 ---
 
 ## AI Agent Marketplace 2026: How to Monetize Your Agents

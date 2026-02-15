@@ -3,6 +3,7 @@ title: "Trae vs Tabnine 2026: The Data-Backed Truth"
 description: "We compared Trae and Tabnine over 30 days of testing. See the raw results,"
 pubDate: "Jan 21 2026"
 heroImage: "/assets/trae-vs-tabnine-2026.webp"
+tags: ["Analysis"]
 ---
 
 # Trae vs Tabnine 2026: The Data-Backed Truth

@@ -3,6 +3,7 @@ title: "The Digital Soul: Maintaining Brand Consistency in the Age of Infinite A
 description: "How to scale marketing without losing your identity. A technical guide"
 pubDate: "Jan 13 2026"
 heroImage: "/assets/brand-consistency-marketing.webp"
+tags: ["Analysis"]
 ---
 
 By mid-2026, the volume of marketing content across the web has reached a state of **infinite scale**. 

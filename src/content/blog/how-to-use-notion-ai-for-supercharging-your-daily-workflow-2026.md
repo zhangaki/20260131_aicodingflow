@@ -3,6 +3,7 @@ title: "How to Use Notion AI for Supercharging Your Daily Workflow: Complete 202
 description: "A step-by-step tutorial on using Notion AI for supercharging your daily"
 pubDate: "Dec 18 2025"
 heroImage: "/assets/how-to-use-notion-ai-for-supercharging-your-daily-workflow-2026.webp"
+tags: ["Guides"]
 ---
 
 ## How to Use Notion AI for Supercharging Your Daily Workflow: Everything You Need to Know

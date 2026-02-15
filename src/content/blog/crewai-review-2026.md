@@ -3,6 +3,7 @@ title: "CrewAI Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of CrewAI in 2026. We cover features, pricing tiers,"
 pubDate: "Jan 15 2026"
 heroImage: "/assets/crewai-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## CrewAI Review 2026: Is It Worth Your Money?

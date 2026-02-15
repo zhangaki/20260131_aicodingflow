@@ -3,6 +3,7 @@ title: "Runway Gen-3 Review 2026: Free Tier, Pricing & Video Quality"
 description: "An in-depth review of Runway in 2026. We cover features, pricing tiers,"
 pubDate: "Dec 31 2025"
 heroImage: "/assets/runway-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Runway Review 2026: Is It Worth Your Money?

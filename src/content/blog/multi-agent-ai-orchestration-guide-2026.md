@@ -3,6 +3,7 @@ title: "Multi-Agent AI Orchestration in 2026: From Concept to Production"
 description: "A practical engineering guide to building multi-agent AI systems. Covers"
 pubDate: "Jan 22 2026"
 heroImage: "/assets/multi-agent-ai-orchestration-guide-2026.webp"
+tags: ["Agents"]
 ---
 
 # Multi-Agent AI Orchestration in 2026: From Concept to Production

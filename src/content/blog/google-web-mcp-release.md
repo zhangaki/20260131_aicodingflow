@@ -3,6 +3,7 @@ title: "Google Launches WebMCP: Revolutionizing Web Performance?"
 description: "Google"
 pubDate: "Feb 15 2026"
 heroImage: "/assets/google-web-mcp-release.webp"
+tags: ["Analysis"]
 ---
 
 # Google Launches WebMCP: A New Approach to Web Performance

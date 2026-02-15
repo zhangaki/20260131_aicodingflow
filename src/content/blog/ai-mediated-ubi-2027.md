@@ -3,6 +3,7 @@ title: "AI-Mediated UBI 2027: Universal Basic Income & Automation Economics"
 description: "Analyze AI-mediated universal basic income in 2027: how automation drives UBI, pilot programs, economic models, and the future of work."
 pubDate: "Jan 03 2026"
 heroImage: "/assets/ai-mediated-ubi.webp"
+tags: ["Analysis"]
 ---
 
 Forget breathless pronouncements of AI-driven UBI alternatives. As a CTO, I'm less interested in the utopian destination and far more concerned with the potholes that will shred our tires along the way. The dream of "Autonomous Affluence," fueled by generative AI agents, is seductive. But the reality, as always, is far more complex – and fraught with very specific, production-level challenges.

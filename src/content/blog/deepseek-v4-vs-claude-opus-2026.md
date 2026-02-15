@@ -3,6 +3,7 @@ title: "DeepSeek V4 vs Claude Opus 4.6: 2026 Coding Benchmark Test"
 description: "DeepSeek V4 vs Claude Opus 4.6 coding comparison - 90% HumanEval test, pricing, speed, and real-world performance. Which wins in 2026?"
 pubDate: "Feb 14 2026"
 heroImage: "/assets/deepseek-v4-vs-claude-opus-2026.webp"
+tags: ["AI Tools"]
 ---
 
 ## DeepSeek V4 vs Claude Opus 4.6: 2026 Coding Benchmark Throwdown

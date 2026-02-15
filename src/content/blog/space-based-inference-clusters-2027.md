@@ -3,6 +3,7 @@ title: "High Orbit Intelligence: Space-Based Inference Clusters (SBIC) in 2027"
 description: "Why build data centers on Earth when space offers free cooling, vacuum"
 pubDate: "Jan 24 2026"
 heroImage: "/assets/space-inference.webp"
+tags: ["Analysis"]
 ---
 
 Data centers on Earth are thermodynamic nightmares.

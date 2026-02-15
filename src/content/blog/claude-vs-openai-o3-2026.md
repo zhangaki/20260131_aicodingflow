@@ -3,6 +3,7 @@ title: "Claude vs OpenAI o3 2026: The Data-Backed Truth"
 description: "We compared Claude and OpenAI o3 over 30 days of testing. See the raw"
 pubDate: "Dec 14 2025"
 heroImage: "/assets/claude-vs-openai-o3-2026.webp"
+tags: ["AI Tools"]
 ---
 
 # Claude vs OpenAI o3 2026: The Data-Backed Truth

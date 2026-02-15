@@ -3,6 +3,7 @@ title: "DeepSeek V3 vs. Llama 3: Which LLM Reigns Supreme?"
 description: "DeepSeek V3 and Llama 3 go head-to-head! Compare cost, speed & coding performance to choose the best LLM for your development needs. See the benchmark results now."
 pubDate: "Feb 14 2026"
 heroImage: "/assets/deepseek-v3-vs-llama-3-3.webp"
+tags: ["Analysis"]
 ---
 
 ## DeepSeek V3 vs. Llama 3: A Developer's Benchmark

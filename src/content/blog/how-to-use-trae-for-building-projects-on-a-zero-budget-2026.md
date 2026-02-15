@@ -3,6 +3,7 @@ title: "How to Use Trae to Build Projects for Free 2026: Zero-Budget Guide"
 description: "Build full projects with Trae AI on zero budget in 2026: free tier limits, resource optimization, deployment strategies, and cost-saving tips."
 pubDate: "Dec 15 2025"
 heroImage: "/assets/how-to-use-trae-for-building-projects-on-a-zero-budget-2026.webp"
+tags: ["Guides"]
 ---
 
 ## How to Use Trae for Building Projects on a Zero Budget: Everything You Need to Know

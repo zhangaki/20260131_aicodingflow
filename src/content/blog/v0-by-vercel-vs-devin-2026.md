@@ -4,6 +4,7 @@ description: "A side-by-side technical audit of v0 by Vercel and Devin. Pricing,
 pubDate: "Jan 27 2026"
 heroImage: "/assets/v0-by-vercel-vs-devin-2026.webp"
 noindex: true
+tags: ["Analysis"]
 ---
 
 

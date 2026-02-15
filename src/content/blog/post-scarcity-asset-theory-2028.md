@@ -3,6 +3,7 @@ title: "Post-Scarcity Economics 2028: AI Impact on Asset Theory & Markets"
 description: "Explore how AI automation drives post-scarcity economics by 2028. Analysis of asset theory, labor markets, and wealth distribution in an abundant future."
 pubDate: "Jan 04 2026"
 heroImage: "/assets/post-scarcity-cover.webp"
+tags: ["Analysis"]
 ---
 
 In 2028, the marginal cost of intelligence has effectively hit zero.

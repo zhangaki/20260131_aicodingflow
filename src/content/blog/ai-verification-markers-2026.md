@@ -3,6 +3,7 @@ title: "The Provenance Layer: AI Verification Markers and the Future of Visual T
 description: "In 2026, we no longer trust our eyes. We trust the metadata. Discover"
 pubDate: "Dec 28 2025"
 heroImage: "/assets/ai-verification-markers.webp"
+tags: ["Analysis"]
 ---
 
 # The Provenance Layer: AI Verification Markers and the Future of Visual Truth

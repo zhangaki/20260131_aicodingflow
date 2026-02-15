@@ -3,6 +3,7 @@ title: "7 Best Offline AI Assistants for Personal Files & Documents 2026 (No Int
 description: "Best local offline AI assistants for accessing personal files, documents, and projects in 2026. No internet required - search and analyze your data privately with these 7 top-rated tools."
 pubDate: "Dec 19 2025"
 heroImage: "/assets/offline-ai-remote-work.webp"
+tags: ["Analysis"]
 ---
 
 # Best Local Offline AI Assistants for Personal Files and Documents (2026)

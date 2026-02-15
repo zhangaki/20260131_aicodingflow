@@ -3,6 +3,7 @@ title: "Bolt vs Cursor: A Deep Dive into Agentic IDEs for Developers"
 description: "Bolt vs Cursor: A technical comparison of agentic IDEs. Discover which AI-powered IDE enhances developer productivity with intelligent code generation and debugging."
 pubDate: "Feb 15 2026"
 heroImage: "/assets/bolt-vs-cursor-agentic-ide.webp"
+tags: ["Agents", "IDE"]
 ---
 
 # Bolt vs Cursor: Choosing the Right Agentic IDE for Your Needs

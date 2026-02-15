@@ -3,6 +3,7 @@ title: "Exocortex Integration 2028: Brain-Computer Interface Guide"
 description: "Forget searching your notes. In 2028, your database interacts directly"
 pubDate: "Dec 22 2025"
 heroImage: "/assets/exocortex-cover.webp"
+tags: ["Analysis"]
 ---
 
 The human brain is an efficient biological processor, but it is a terrible hard drive.

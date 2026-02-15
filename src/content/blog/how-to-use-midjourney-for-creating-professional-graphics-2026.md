@@ -3,6 +3,7 @@ title: "Using Midjourney for Creating Professional Graphics: A Practical 2026 Wa
 description: "Learn how to use Midjourney effectively for creating professional graphics."
 pubDate: "Jan 03 2026"
 heroImage: "/assets/how-to-use-midjourney-for-creating-professional-graphics-2026.webp"
+tags: ["Guides"]
 ---
 
 ## A Practitioner's Guide to Midjourney for Creating Professional Graphics

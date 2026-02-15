@@ -3,6 +3,7 @@ title: "Using Claude for Complex Coding and Long-Form Analysis: A Practical 2026
 description: "Learn how to use Claude effectively for complex coding and long-form"
 pubDate: "Jan 18 2026"
 heroImage: "/assets/how-to-use-claude-for-complex-coding-and-long-form-analysis-2026.webp"
+tags: ["AI Tools", "Guides"]
 ---
 
 ## A Practitioner's Guide to Claude for Complex Coding and Long-Form Analysis

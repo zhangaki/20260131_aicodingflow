@@ -3,6 +3,7 @@ title: "ChatGPT Review 2026: Custom GPTs, Pricing & Features Guide"
 description: "An in-depth review of ChatGPT in 2026. We cover features, pricing tiers,"
 pubDate: "Dec 29 2025"
 heroImage: "/assets/chatgpt-review-2026.webp"
+tags: ["AI Tools", "Reviews"]
 ---
 
 ## ChatGPT Review 2026: Is It Worth Your Money?

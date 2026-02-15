@@ -3,6 +3,7 @@ title: "AI Rare Disease Diagnosis 2026: Machine Learning in Healthcare"
 description: "How AI is ending the 7-year diagnostic odyssey for 300 million people"
 pubDate: "Jan 10 2026"
 heroImage: "/assets/rare-disease-ai-diagnosis.webp"
+tags: ["Analysis"]
 ---
 
 # The Orphan Signal: AI-Driven Early Diagnosis for Rare Diseases in 2026

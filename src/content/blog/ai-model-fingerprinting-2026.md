@@ -3,6 +3,7 @@ title: "The Model"
 description: "How to prove ownership of your AI and detect when it"
 pubDate: "Dec 30 2025"
 heroImage: "/assets/ai-model-fingerprinting.webp"
+tags: ["Analysis"]
 ---
 
 # The Model

@@ -3,6 +3,7 @@ title: "Midjourney V7 Review 2026: Pricing, Free Trial & Image Quality Test"
 description: "In-depth Midjourney V7 review for 2026: $10/month pricing, free trial details, image quality comparison vs DALL-E 3 and Stable Diffusion XL."
 pubDate: "Feb 03 2026"
 heroImage: "/assets/midjourney-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Midjourney: The 2026 Reality Check

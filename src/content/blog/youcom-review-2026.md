@@ -3,6 +3,7 @@ title: "You.com Review 2026: AI Search Engine Features & Free vs Pro"
 description: "Comprehensive You.com AI search engine review 2026: free tier features, Pro plan benefits, accuracy vs Google, and is it worth using?"
 pubDate: "Dec 29 2025"
 heroImage: "/assets/youcom-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## You.com: The 2026 Reality Check

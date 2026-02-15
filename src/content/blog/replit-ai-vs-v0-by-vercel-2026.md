@@ -3,6 +3,7 @@ title: "Replit AI vs v0 by Vercel 2026: The Data-Backed Truth"
 description: "We compared Replit AI and v0 by Vercel over 30 days of testing. See the"
 pubDate: "Jan 09 2026"
 heroImage: "/assets/replit-ai-vs-v0-by-vercel-2026.webp"
+tags: ["Analysis"]
 ---
 
 # Replit AI vs v0 by Vercel 2026: The Data-Backed Truth

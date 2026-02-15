@@ -3,6 +3,7 @@ title: "AI-Native Fintech Architecture 2026: Building Compliant Systems"
 description: "Design AI-native fintech architecture in 2026: regulatory compliance, fraud detection, real-time processing, and infrastructure best practices."
 pubDate: "Dec 03 2025"
 heroImage: "/assets/ai-fintech-compliance.webp"
+tags: ["Business", "Engineering"]
 ---
 
 In the old world, "compliance" meant a room full of analysts manually reviewing spreadsheets of flagged transactions. In 2026, compliance is an **API call with 50ms latency**.

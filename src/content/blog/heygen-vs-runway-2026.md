@@ -4,6 +4,7 @@ description: "A side-by-side technical audit of HeyGen and Runway. Pricing, limi
 pubDate: "Dec 10 2025"
 heroImage: "/assets/heygen-vs-runway-2026.webp"
 noindex: true
+tags: ["Analysis"]
 ---
 
 

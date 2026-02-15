@@ -3,6 +3,7 @@ title: "Jasper AI vs Copy.ai 2026: The Data-Backed Truth"
 description: "We compared Jasper AI and Copy.ai over 30 days of testing. See the raw"
 pubDate: "Dec 02 2025"
 heroImage: "/assets/jasper-ai-vs-copyai-2026.webp"
+tags: ["Analysis"]
 ---
 
 # Jasper AI vs Copy.ai 2026: The Data-Backed Truth

@@ -3,6 +3,7 @@ title: "Build vs. Buy: The 2026 Economics of Self-Hosted AI vs. API Providers"
 description: "Should you run your own LLM or pay per token? A comprehensive cost analysis"
 pubDate: "Dec 09 2025"
 heroImage: "/assets/self-hosted-vs-api-ai.webp"
+tags: ["Analysis"]
 ---
 
 The question haunts every AI builder in 2026: **Should I pay OpenAI $0.03 per 1K tokens, or run my own model?**

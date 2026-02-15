@@ -24,7 +24,9 @@ import sys
 import re
 import json
 import time
+import math
 import argparse
+from collections import Counter
 from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
@@ -788,7 +790,59 @@ class ContentWorkflow:
             hcu_score = 100 - (template_hits * 5) - (fake_hits * 3)
             hcu_score = max(0, min(100, hcu_score))
 
+        # 7. Diversity Check (Similarity Auditor)
+        self.console.info("Running Diversity Audit...")
+        sim_score, twin = self._check_diversity(content)
+        if sim_score > 0.4:
+            issues.append(f"DIVERSITY_REJECT: {sim_score:.2%} similarity with {twin}")
+            hcu_score -= int(sim_score * 50)  # Heavy penalty for low diversity
+
         return hcu_score, issues
+
+    def _get_tokens(self, text):
+        """Tokenize and filter text for similarity analysis."""
+        words = re.findall(r'\w+', text.lower())
+        stopwords = {'the', 'a', 'an', 'in', 'on', 'at', 'with', 'for', 'to', 'is', 'are', 'was', 'were', 'and', 'of', 'how', 'what', 'why'}
+        return [w for w in words if len(w) > 2 and w not in stopwords]
+
+    def _calculate_similarity(self, vec1, vec2):
+        """Calculate cosine similarity between two Counter vectors."""
+        intersection = set(vec1.keys()) & set(vec2.keys())
+        numerator = sum([vec1[x] * vec2[x] for x in intersection])
+        sum1 = sum([vec1[x]**2 for x in vec1.keys()])
+        sum2 = sum([vec2[x]**2 for x in vec2.keys()])
+        denominator = math.sqrt(sum1) * math.sqrt(sum2)
+        return float(numerator) / denominator if denominator else 0.0
+
+    def _check_diversity(self, content):
+        """Compare current content with existing blog posts."""
+        if not BLOG_DIR.exists():
+            return 0.0, None
+
+        # Clean current content (remove frontmatter)
+        body = re.sub(r'^---.*?---', '', content, flags=re.DOTALL)
+        current_vec = Counter(self._get_tokens(body))
+        
+        max_sim = 0.0
+        twin = None
+
+        for f in BLOG_DIR.glob("*.md"):
+            if f.stem == self.state['slug']:
+                continue
+            
+            try:
+                exist_content = f.read_text(encoding='utf-8')
+                exist_body = re.sub(r'^---.*?---', '', exist_content, flags=re.DOTALL)
+                exist_vec = Counter(self._get_tokens(exist_body))
+                
+                sim = self._calculate_similarity(current_vec, exist_vec)
+                if sim > max_sim:
+                    max_sim = sim
+                    twin = f.name
+            except Exception:
+                continue
+        
+        return max_sim, twin
 
     def step_quality_gate(self):
         """Quality gate: blocks articles below threshold. Returns True if passed."""
@@ -823,28 +877,47 @@ class ContentWorkflow:
         issues_text = "\n".join(f"- {i}" for i in issues)
         research_json = json.dumps(self.state['research_data']['verified_facts'], indent=2, ensure_ascii=False)
 
-        prompt = f"""
-        This article FAILED quality review. Fix ALL the issues listed below.
+        if any("DIVERSITY_REJECT" in i for i in issues):
+            prompt = f"""
+            This article failed the DIVERSITY AUDIT. It is too similar to existing content.
+            
+            REACTION PLAN:
+            - Change the PERSPECTIVE entirely. (e.g. if you were an expert, be a skeptical tester).
+            - Add 3 completely new sections that focus on UNCOMMON use cases.
+            - Inject more personal "I tried this and it failed" stories.
+            - Ensure the vocabulary and sentence structures are fresh.
+            
+            ISSUES TO FIX:
+            {issues_text}
+            
+            {research_json}
+            
+            ARTICLE TO REWRITE:
+            {content[:12000]}
+            """
+        else:
+            prompt = f"""
+            This article FAILED quality review. Fix ALL the issues listed below.
 
-        ISSUES FOUND:
-        {issues_text}
+            ISSUES FOUND:
+            {issues_text}
 
-        VERIFIED DATA (keep using these real facts — do NOT remove them):
-        {research_json}
+            VERIFIED DATA (keep using these real facts — do NOT remove them):
+            {research_json}
 
-        RULES:
-        - Remove ALL template/cliche phrases (e.g. "has carved out a strong position", "game-changer", "paradigm shift")
-        - Remove ALL fabricated statistics that are NOT in the VERIFIED DATA above
-        - KEEP all prices, ratings, and features from VERIFIED DATA — these are real
-        - Add first-hand experience language: "I tested", "in my experience", "after using X for 3 months"
-        - Add specific examples of how the tools work in practice
-        - Keep the article's core structure and information
-        - IMPORTANT: maintain at least 1500 words — do NOT shorten the article
-        - Output ONLY the corrected markdown body
+            RULES:
+            - Remove ALL template/cliche phrases (e.g. "has carved out a strong position", "game-changer", "paradigm shift")
+            - Remove ALL fabricated statistics that are NOT in the VERIFIED DATA above
+            - KEEP all prices, ratings, and features from VERIFIED DATA — these are real
+            - Add first-hand experience language: "I tested", "in my experience", "after using X for 3 months"
+            - Add specific examples of how the tools work in practice
+            - Keep the article's core structure and information
+            - IMPORTANT: maintain at least 1500 words — do NOT shorten the article
+            - Output ONLY the corrected markdown body
 
-        ARTICLE TO FIX:
-        {content[:12000]}
-        """
+            ARTICLE TO FIX:
+            {content[:12000]}
+            """
 
         response = client.models.generate_content(
             model=MODEL_TEXT,

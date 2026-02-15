@@ -3,6 +3,7 @@ title: "How to Use Gemini 2.0 for 1M Token Documents 2026: Analysis Guide"
 description: "Master Gemini 2.0"
 pubDate: "Jan 10 2026"
 heroImage: "/assets/how-to-use-gemini-for-analyzing-documents-with-a-million-token-context-2026.webp"
+tags: ["AI Tools", "Guides"]
 ---
 
 ## How to Use Gemini for Analyzing Documents with a Million-Token Context: Everything You Need to Know

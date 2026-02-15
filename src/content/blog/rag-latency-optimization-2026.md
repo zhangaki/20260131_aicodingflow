@@ -3,6 +3,7 @@ title: "The <50ms Standard: Optimizing RAG Latency for 2026"
 description: "In 2024, a 2-second answer was a miracle. In 2026, it is a churn risk."
 pubDate: "Dec 07 2025"
 heroImage: "/assets/rag-latency-optimization-2026.webp"
+tags: ["Engineering", "Performance"]
 ---
 
 # The <50ms Standard: Optimizing RAG Latency for 2026

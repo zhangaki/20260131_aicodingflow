@@ -3,6 +3,7 @@ title: "How to Use Replit AI for Productivity 2026: Coding Tutorial"
 description: "Boost productivity with Replit AI in 2026: AI code generation, instant deployment, collaboration features, and workflow optimization tips."
 pubDate: "Jan 21 2026"
 heroImage: "/assets/how-to-use-replit-ai-for-boosting-your-productivity-2026.webp"
+tags: ["Guides"]
 ---
 
 ## A Practitioner's Guide to Replit AI for Boosting Your Productivity

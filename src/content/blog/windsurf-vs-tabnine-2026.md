@@ -3,6 +3,7 @@ title: "Stop Guessing: Windsurf vs Tabnine 2026 Competitive Audit"
 description: "Choosing between Windsurf and Tabnine? We broke down the tech stack and"
 pubDate: "Dec 09 2025"
 heroImage: "/assets/windsurf-vs-tabnine-2026.webp"
+tags: ["Analysis"]
 ---
 
 # Stop Guessing: Windsurf vs Tabnine 2026 Competitive Audit

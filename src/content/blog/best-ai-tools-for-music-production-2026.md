@@ -3,6 +3,7 @@ title: "6 Best AI Music Production Tools 2026: Tested & Compared"
 description: "We tested 2 AI tools for music production head-to-head. See our rankings,"
 pubDate: "Jan 24 2026"
 heroImage: "/assets/best-ai-tools-for-music-production-2026.webp"
+tags: ["AI Tools", "Guides"]
 ---
 
 ## The Best AI Tools for Music Production in 2026

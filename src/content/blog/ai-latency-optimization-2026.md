@@ -4,6 +4,7 @@ description: "In 2026, if your TTFT is over 200ms, you don’t have a product. T
 pubDate: "Jan 18 2026"
 heroImage: "/assets/ai-latency-optimization.webp"
 noindex: true
+tags: ["Performance"]
 ---
 
 

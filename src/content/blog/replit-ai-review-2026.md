@@ -3,6 +3,7 @@ title: "Replit AI 2026: The Future of AI-Powered Coding?"
 description: "Explore the latest Replit AI features in 2026. Find out how this AI coding"
 pubDate: "Feb 01 2026"
 heroImage: "/assets/replit-ai-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Replit AI Review 2026: Is It Worth Your Money?

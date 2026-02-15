@@ -3,6 +3,7 @@ title: "Fireflies.ai Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of Fireflies.ai in 2026. We cover features, pricing"
 pubDate: "Dec 25 2025"
 heroImage: "/assets/firefliesai-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Fireflies.ai Review 2026: Is It Worth Your Money?

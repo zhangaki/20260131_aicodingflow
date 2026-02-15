@@ -3,6 +3,7 @@ title: "OpenAI o3 Model 2026: o3 vs o3-Pro Pricing, Features & Benchmarks"
 description: "OpenAI o3 model 2026 - o3 vs o3-Pro pricing comparison, free tier limits, features, reasoning capabilities, and math benchmarks tested in February 2026."
 pubDate: "Dec 20 2025"
 heroImage: "/assets/openai-o3-review-2026.webp"
+tags: ["AI Tools", "Reviews"]
 ---
 
 ## OpenAI o3 Review 2026: Is It Worth Your Money?

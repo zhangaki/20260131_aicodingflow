@@ -3,6 +3,7 @@ title: "bolt.new in 2026: A Practitioner"
 description: "We used bolt.new for 30 days straight. Here"
 pubDate: "Dec 26 2025"
 heroImage: "/assets/boltnew-review-2026.webp"
+tags: ["IDE", "Reviews"]
 ---
 
 ## bolt.new: The 2026 Reality Check

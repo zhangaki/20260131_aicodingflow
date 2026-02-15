@@ -3,6 +3,7 @@ title: "The Cyborg Loop: Designing Human-in-the-Loop (HITL) Protocols for 2026"
 description: "Autonomous agents are powerful, but brittle. Learn how to design robust"
 pubDate: "Dec 02 2025"
 heroImage: "/assets/hitl-agency-2026.webp"
+tags: ["Analysis"]
 ---
 
 # The Cyborg Loop: Designing Human-in-the-Loop (HITL) Protocols for 2026

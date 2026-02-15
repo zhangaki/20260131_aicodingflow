@@ -3,6 +3,7 @@ title: "Using Fireflies.ai for Supercharging Your Daily Workflow: A Practical 20
 description: "Learn how to use Fireflies.ai effectively for supercharging your daily"
 pubDate: "Dec 05 2025"
 heroImage: "/assets/how-to-use-firefliesai-for-supercharging-your-daily-workflow-2026.webp"
+tags: ["Guides"]
 ---
 
 ## A Practitioner's Guide to Fireflies.ai for Supercharging Your Daily Workflow

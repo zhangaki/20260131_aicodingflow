@@ -4,6 +4,7 @@ description: "Critical GEO analysis of digen ai. Impact assessment on ChatGPT, P
 pubDate: "Jan 13 2026"
 heroImage: "/assets/digen-ai-cover.webp"
 noindex: true
+tags: ["Analysis"]
 ---
 
 

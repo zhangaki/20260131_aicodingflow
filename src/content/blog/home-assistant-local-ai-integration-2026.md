@@ -3,6 +3,7 @@ title: "Home Assistant + Local AI: Complete Offline Smart Home Setup (2026)"
 description: "Step-by-step guide to integrating local AI with Home Assistant for a"
 pubDate: "Feb 04 2026"
 heroImage: "/assets/home-assistant-local-ai-integration-2026.webp"
+tags: ["Analysis"]
 ---
 
 # Home Assistant + Local AI: Complete Offline Smart Home Setup (2026)

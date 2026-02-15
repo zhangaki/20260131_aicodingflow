@@ -3,6 +3,7 @@ title: "The Firewall of Self: Cognitive Sovereignty in the Hive Mind (2030)"
 description: "In 2030, AI persuasion is indistinguishable from your own thoughts. A"
 pubDate: "Jan 07 2026"
 heroImage: "/assets/cognitive-sovereignty-cover.webp"
+tags: ["Analysis"]
 ---
 
 The battleground of the 21st century is not land, oil, or data.

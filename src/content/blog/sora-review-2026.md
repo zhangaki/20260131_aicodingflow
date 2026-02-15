@@ -3,6 +3,7 @@ title: "OpenAI Sora Review 2026: Features, Pricing & Video Quality Test"
 description: "In-depth OpenAI Sora review 2026: text-to-video features, pricing details, video quality comparison vs Runway and Kling, and access waitlist."
 pubDate: "Feb 01 2026"
 heroImage: "/assets/sora-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Sora: The 2026 Reality Check

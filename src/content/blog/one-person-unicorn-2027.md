@@ -3,6 +3,7 @@ title: "The One-Person Unicorn: Systems Engineering for the Billion-Dollar Indiv
 description: "Operational architecture for the hyper-individual. How to replace the"
 pubDate: "Dec 29 2025"
 heroImage: "/assets/one-person-unicorn.webp"
+tags: ["Analysis"]
 ---
 
 In 2020, the concept of a "one-person billion-dollar company" was a provocative thought experiment. In 2027, it is an **engineering specification**.

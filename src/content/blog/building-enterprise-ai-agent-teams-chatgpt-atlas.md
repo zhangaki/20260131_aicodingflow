@@ -3,6 +3,7 @@ title: "How to Build Enterprise AI Agent Teams with ChatGPT Atlas"
 description: "Learn how to build and deploy effective AI agent teams for your enterprise using ChatGPT Atlas. Automate complex workflows, improve efficiency, and unlock the power of AI in your organization."
 pubDate: "Feb 15 2026"
 heroImage: "/assets/building-enterprise-ai-agent-teams-chatgpt-atlas.webp"
+tags: ["AI Tools", "Agents"]
 ---
 
 # Building Enterprise AI Agent Teams with ChatGPT and Atlas: A Practical Guide

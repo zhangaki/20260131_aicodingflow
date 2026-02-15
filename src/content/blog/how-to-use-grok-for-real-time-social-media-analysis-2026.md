@@ -3,6 +3,7 @@ title: "Using Grok for Real-Time Social Media Analysis: A Practical 2026 Walkthr
 description: "Learn how to use Grok effectively for real-time social media analysis."
 pubDate: "Dec 09 2025"
 heroImage: "/assets/how-to-use-grok-for-real-time-social-media-analysis-2026.webp"
+tags: ["Guides"]
 ---
 
 ## A Practitioner's Guide to Grok for Real-Time Social Media Analysis

@@ -3,6 +3,7 @@ title: "How to Build Custom GPTs with ChatGPT 2026: Business Tutorial"
 description: "Learn how to use ChatGPT effectively for building custom gpts for your"
 pubDate: "Jan 01 2026"
 heroImage: "/assets/how-to-use-chatgpt-for-building-custom-gpts-for-your-business-2026.webp"
+tags: ["AI Tools", "Guides"]
 ---
 
 ## A Practitioner's Guide to ChatGPT for Building Custom GPTs for Your Business

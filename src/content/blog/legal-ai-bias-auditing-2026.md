@@ -3,6 +3,7 @@ title: "Algorithm vs. Equity: The 2026 Framework for Auditing Legal AI Bias"
 description: "How to audit automated justice. A technical exploration of detecting"
 pubDate: "Jan 20 2026"
 heroImage: "/assets/legal-ai-bias-auditing.webp"
+tags: ["Cybersecurity"]
 ---
 
 # Algorithm vs. Equity: The 2026 Framework for Auditing Legal AI Bias

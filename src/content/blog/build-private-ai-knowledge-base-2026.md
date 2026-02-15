@@ -3,6 +3,7 @@ title: "How to Build a Private AI Knowledge Base (No Cloud, No API Calls)"
 description: "Step-by-step guide to building a fully private RAG system with local"
 pubDate: "Jan 28 2026"
 heroImage: "/assets/build-private-ai-knowledge-base-2026.webp"
+tags: ["Analysis"]
 ---
 
 # How to Build a Private AI Knowledge Base (No Cloud, No API Calls)

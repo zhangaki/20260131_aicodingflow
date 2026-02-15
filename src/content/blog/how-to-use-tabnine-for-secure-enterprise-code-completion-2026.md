@@ -3,6 +3,7 @@ title: "Using Tabnine for Secure Enterprise Code Completion: A Practical 2026 Wa
 description: "Learn how to use Tabnine effectively for secure enterprise code completion."
 pubDate: "Dec 07 2025"
 heroImage: "/assets/how-to-use-tabnine-for-secure-enterprise-code-completion-2026.webp"
+tags: ["Guides"]
 ---
 
 ## A Practitioner's Guide to Tabnine for Secure Enterprise Code Completion

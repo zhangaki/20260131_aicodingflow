@@ -3,6 +3,7 @@ title: "Private AI Hardware 2026: Build a $10k Local AI Server (No Cloud)"
 description: "Build a private local AI server with no cloud dependency. Step-by-step"
 pubDate: "Jan 23 2026"
 heroImage: "/assets/private-ai-hardware-2026.webp"
+tags: ["Analysis"]
 ---
 
 # The Sovereign Stack: Why SMBs are Building $10k AI Clusters in 2026

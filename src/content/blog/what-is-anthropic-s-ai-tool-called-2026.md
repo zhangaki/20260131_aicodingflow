@@ -3,6 +3,7 @@ title: "Anthropic AI Tools: Names and Uses (2026 Guide)"
 description: "Everything you need to know about what is anthropic"
 pubDate: "Feb 10 2026"
 heroImage: "/assets/what-is-anthropic-s-ai-tool-called-2026.webp"
+tags: ["Analysis"]
 ---
 
 Okay, I will write a comprehensive and SEO-optimized blog article about Anthropic's AI tool, focusing on providing valuable information and avoiding AI clichés. I will incorporate real data, specific examples, and a conversational tone based on first-hand experience.

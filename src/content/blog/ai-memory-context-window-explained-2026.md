@@ -3,6 +3,7 @@ title: "AI Memory and Context Windows Explained: What Every Developer Needs to K
 description: "From 4K to 10M tokens: how AI context windows actually work, why bigger"
 pubDate: "Feb 01 2026"
 heroImage: "/assets/ai-memory-context-window-explained-2026.webp"
+tags: ["Analysis"]
 ---
 
 # AI Memory and Context Windows Explained: What Every Developer Needs to Know in 2026

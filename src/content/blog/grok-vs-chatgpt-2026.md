@@ -4,6 +4,7 @@ description: "A side-by-side technical audit of Grok and ChatGPT. Pricing, limit
 pubDate: "Jan 16 2026"
 heroImage: "/assets/grok-vs-chatgpt-2026.webp"
 noindex: true
+tags: ["AI Tools"]
 ---
 
 

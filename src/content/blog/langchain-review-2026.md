@@ -3,6 +3,7 @@ title: "LangChain Review 2026: RAG Pipeline, Features & Documentation"
 description: "We used LangChain for 30 days straight. Here"
 pubDate: "Jan 25 2026"
 heroImage: "/assets/langchain-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## LangChain: The 2026 Reality Check

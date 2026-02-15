@@ -3,6 +3,7 @@ title: "Gemini Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of Gemini in 2026. We cover features, pricing tiers,"
 pubDate: "Dec 09 2025"
 heroImage: "/assets/gemini-review-2026.webp"
+tags: ["AI Tools", "Reviews"]
 ---
 
 ## Gemini Review 2026: Is It Worth Your Money?

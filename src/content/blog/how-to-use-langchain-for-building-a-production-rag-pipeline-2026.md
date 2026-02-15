@@ -3,6 +3,7 @@ title: "How to Build a RAG Pipeline with LangChain 2026: Production Guide"
 description: "Step-by-step guide to building a production RAG pipeline with LangChain in 2026: vector stores, embeddings, retrieval, and deployment best practices."
 pubDate: "Jan 20 2026"
 heroImage: "/assets/how-to-use-langchain-for-building-a-production-rag-pipeline-2026.webp"
+tags: ["Engineering", "Guides"]
 ---
 
 ## A Practitioner's Guide to LangChain for Building a Production RAG Pipeline

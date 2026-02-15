@@ -3,6 +3,7 @@ title: "Using Perplexity for Deep Research Projects: A Practical 2026 Walkthroug
 description: "Learn how to use Perplexity effectively for deep research projects. This"
 pubDate: "Jan 03 2026"
 heroImage: "/assets/how-to-use-perplexity-for-deep-research-projects-2026.webp"
+tags: ["Guides"]
 ---
 
 ## A Practitioner's Guide to Perplexity for Deep Research Projects

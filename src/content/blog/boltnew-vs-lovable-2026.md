@@ -3,6 +3,7 @@ title: "bolt.new vs Lovable 2026: The Data-Backed Truth"
 description: "We compared bolt.new and Lovable over 30 days of testing. See the raw"
 pubDate: "Jan 23 2026"
 heroImage: "/assets/boltnew-vs-lovable-2026.webp"
+tags: ["IDE"]
 ---
 
 # bolt.new vs Lovable 2026: The Data-Backed Truth

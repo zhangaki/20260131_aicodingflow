@@ -3,6 +3,7 @@ title: "Cursor Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of Cursor in 2026. We cover features, pricing tiers,"
 pubDate: "Jan 14 2026"
 heroImage: "/assets/cursor-review-2026.webp"
+tags: ["IDE", "Reviews"]
 ---
 
 ## Cursor Review 2026: Is It Worth Your Money?

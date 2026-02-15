@@ -3,6 +3,7 @@ title: "Stable Diffusion XL Review 2026: Free, Open-Source & Self-Hosted"
 description: "Comprehensive Stable Diffusion XL review 2026: 100% free, open-source image generation, self-hosting guide, and comparison vs Midjourney."
 pubDate: "Jan 30 2026"
 heroImage: "/assets/stable-diffusion-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Stable Diffusion Review 2026: Is It Worth Your Money?

@@ -3,6 +3,7 @@ title: "The Precision Economy: Optimizing Token Costs for GPT-5 and Claude-4"
 description: "Building agentic systems that use flagship models without burning a fortune."
 pubDate: "Jan 16 2026"
 heroImage: "/assets/token-cost-optimization.webp"
+tags: ["Analysis"]
 ---
 
 # The Precision Economy: Optimizing Token Costs for GPT-5 and Claude-4

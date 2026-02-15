@@ -3,6 +3,7 @@ title: "How to Use HeyGen for AI Avatar Videos 2026: Presentation Tutorial"
 description: "Produce AI avatar presentations with HeyGen in 2026: avatar customization, voiceover recording, background selection, and export guide."
 pubDate: "Dec 28 2025"
 heroImage: "/assets/how-to-use-heygen-for-producing-ai-avatar-presentations-2026.webp"
+tags: ["Guides"]
 ---
 
 ## A Practitioner's Guide to HeyGen for Producing AI Avatar Presentations

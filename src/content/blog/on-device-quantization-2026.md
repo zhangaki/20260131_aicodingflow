@@ -3,6 +3,7 @@ title: "The Math of Compression: Fitting 400B Parameters in Your Pocket"
 description: "How 1.58-bit quantization and bit-linear architectures are bringing the"
 pubDate: "Jan 13 2026"
 heroImage: "/assets/on-device-quantization-2026.webp"
+tags: ["Analysis"]
 ---
 
 # The Math of Compression: Fitting 400B Parameters in Your Pocket

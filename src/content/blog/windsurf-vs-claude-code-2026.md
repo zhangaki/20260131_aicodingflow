@@ -3,6 +3,7 @@ title: "Windsurf vs Claude Code 2026: Which AI Editor is Better?"
 description: "Head-to-head comparison: Windsurf Editor vs Claude Code in 2026. Performance benchmarks, pricing, and which AI coding assistant wins for your workflow."
 pubDate: "Dec 29 2025"
 heroImage: "/assets/windsurf-vs-claude-code-2026.webp"
+tags: ["AI Tools"]
 ---
 
 # Which Wins in 2026? Windsurf vs Claude Code Breakdown

@@ -4,6 +4,7 @@ description: "A side-by-side technical audit of Kling AI and Synthesia. Pricing,
 pubDate: "Jan 07 2026"
 heroImage: "/assets/kling-ai-vs-synthesia-2026.webp"
 noindex: true
+tags: ["Analysis"]
 ---
 
 

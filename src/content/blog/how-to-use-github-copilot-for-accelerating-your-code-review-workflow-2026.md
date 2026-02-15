@@ -3,6 +3,7 @@ title: "Using GitHub Copilot for Accelerating Your Code Review Workflow: A Pract
 description: "Learn how to use GitHub Copilot effectively for accelerating your code"
 pubDate: "Jan 21 2026"
 heroImage: "/assets/how-to-use-github-copilot-for-accelerating-your-code-review-workflow-2026.webp"
+tags: ["Guides", "Reviews"]
 ---
 
 ## A Practitioner's Guide to GitHub Copilot for Accelerating Your Code Review Workflow

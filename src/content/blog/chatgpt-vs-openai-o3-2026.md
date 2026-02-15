@@ -3,6 +3,7 @@ title: "ChatGPT vs OpenAI o3 2026: The Data-Backed Truth"
 description: "We compared ChatGPT and OpenAI o3 over 30 days of testing. See the raw"
 pubDate: "Dec 01 2025"
 heroImage: "/assets/chatgpt-vs-openai-o3-2026.webp"
+tags: ["AI Tools"]
 ---
 
 # ChatGPT vs OpenAI o3 2026: The Data-Backed Truth

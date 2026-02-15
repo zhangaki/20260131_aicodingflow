@@ -3,6 +3,7 @@ title: "How to Use Suno AI for Music in 2026: Complete Tutorial + Free Tier"
 description: "Step-by-step guide to composing original music with Suno AI in 2026. Free tier limits, prompt engineering tips, and exporting high-quality audio files."
 pubDate: "Feb 02 2026"
 heroImage: "/assets/how-to-use-suno-for-composing-original-music-tracks-2026.webp"
+tags: ["Guides"]
 ---
 
 ## How to Use Suno for Composing Original Music Tracks: Everything You Need to Know

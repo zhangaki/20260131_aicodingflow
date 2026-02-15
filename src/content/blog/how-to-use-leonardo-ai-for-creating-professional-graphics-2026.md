@@ -3,6 +3,7 @@ title: "Using Leonardo AI for Creating Professional Graphics: A Practical 2026 W
 description: "Learn how to use Leonardo AI effectively for creating professional graphics."
 pubDate: "Jan 28 2026"
 heroImage: "/assets/how-to-use-leonardo-ai-for-creating-professional-graphics-2026.webp"
+tags: ["Guides"]
 ---
 
 ## A Practitioner's Guide to Leonardo AI for Creating Professional Graphics

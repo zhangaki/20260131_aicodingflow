@@ -61,13 +61,31 @@ import HeaderLink from './HeaderLink.astro';
 	}
 	.logo a {
 		font-family: var(--font-display);
-		font-weight: 900;
-		font-size: 1.5rem;
+		font-weight: 950;
+		font-size: 1.6rem;
 		text-decoration: none;
-		color: #fff;
-		letter-spacing: -0.02em;
+		letter-spacing: -0.04em;
 		line-height: 1;
 		display: block;
+		
+		/* Color Gradient */
+		background: linear-gradient(
+			to right,
+			#E96B46 0%,
+			#A855F7 33%,
+			#EC4899 66%,
+			#FF8C64 100%
+		);
+		background-size: 200% auto;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: shine 5s linear infinite;
+	}
+
+	@keyframes shine {
+		to {
+			background-position: 200% center;
+		}
 	}
 	.internal-links {
 		display: flex;

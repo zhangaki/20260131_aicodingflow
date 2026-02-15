@@ -3,6 +3,7 @@ title: "v0 by Vercel Review 2026: AI Code Generation, Pricing & Features"
 description: "An in-depth review of v0 by Vercel in 2026. We cover features, pricing"
 pubDate: "Jan 26 2026"
 heroImage: "/assets/v0-by-vercel-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## v0 by Vercel Review 2026: Is It Worth Your Money?

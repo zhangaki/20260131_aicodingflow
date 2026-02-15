@@ -3,6 +3,7 @@ title: "Perplexity vs You.com 2026: Which AI Search Engine is Better?"
 description: "Compare Perplexity AI vs You.com in 2026: search accuracy, citation quality, pricing ($20/month vs free), and which AI search wins."
 pubDate: "Dec 01 2025"
 heroImage: "/assets/perplexity-vs-youcom-2026.webp"
+tags: ["Analysis"]
 ---
 
 # Stop Guessing: Perplexity vs You.com 2026 Competitive Audit

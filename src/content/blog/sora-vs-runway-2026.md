@@ -4,6 +4,7 @@ description: "A side-by-side technical audit of Sora and Runway. Pricing, limita
 pubDate: "Dec 17 2025"
 heroImage: "/assets/sora-vs-runway-2026.webp"
 noindex: true
+tags: ["Analysis"]
 ---
 
 

@@ -3,6 +3,7 @@ title: "Mobile OS AI Integration 2026: iOS 18 & Android 15 Features"
 description: "Explore AI integration in mobile operating systems 2026: iOS 18 Apple Intelligence, Android 15 Gemini, on-device AI, and privacy features."
 pubDate: "Dec 07 2025"
 heroImage: "/assets/mobile-os-ai-2026.webp"
+tags: ["Analysis"]
 ---
 
 # The Ghost in the Screen: Why Your Phone OS is Becoming an Agent

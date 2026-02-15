@@ -3,6 +3,7 @@ title: "GitHub Copilot 2026: Free Trial, Individual vs Business Pricing & Featur
 description: "GitHub Copilot 2026 free trial details, Individual vs Business vs Enterprise pricing, CLI features, and latest February 2026 updates. Is Copilot worth it?"
 pubDate: "Jan 07 2026"
 heroImage: "/assets/github-copilot-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## GitHub Copilot Review 2026: Is It Worth Your Money?

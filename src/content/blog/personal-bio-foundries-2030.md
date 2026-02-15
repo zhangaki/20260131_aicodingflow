@@ -3,6 +3,7 @@ title: "The Printer for Life: Personal Bio-Foundries and the End of Pharma (2030
 description: "When you can download Insulin like you download a PDF, the FDA becomes"
 pubDate: "Dec 22 2025"
 heroImage: "/assets/bio-foundries-cover.webp"
+tags: ["Analysis"]
 ---
 
 Compute has been decentralized (Bitcoin/GPUs).

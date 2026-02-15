@@ -3,6 +3,7 @@ title: "Breaking Your Own AI: Red Teaming for Production LLMs in 2026"
 description: "How to find your AI"
 pubDate: "Dec 27 2025"
 heroImage: "/assets/red-teaming-llm.webp"
+tags: ["Analysis"]
 ---
 
 # Breaking Your Own AI: Red Teaming for Production LLMs in 2026

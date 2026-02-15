@@ -3,6 +3,7 @@ title: "The Cloud Country: From Discord Server to Sovereign Soil (The Network St
 description: "Why vote when you can fork? A technical and political roadmap to founding"
 pubDate: "Dec 30 2025"
 heroImage: "/assets/network-state-cover.webp"
+tags: ["Analysis"]
 ---
 
 The Nation State is the Operating System of 1648 (The Treaty of Westphalia).

@@ -3,6 +3,7 @@ title: "How to Use Kling AI for Affordable Video 2026: Budget Tutorial"
 description: "Create affordable AI video content with Kling AI in 2026: free tier limits, pricing, quality settings, and cost-effective production tips."
 pubDate: "Feb 02 2026"
 heroImage: "/assets/how-to-use-kling-ai-for-creating-affordable-ai-video-content-2026.webp"
+tags: ["Guides"]
 ---
 
 ## A Practitioner's Guide to Kling AI for Creating Affordable AI Video Content

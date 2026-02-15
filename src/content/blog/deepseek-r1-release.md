@@ -3,6 +3,7 @@ title: "DeepSeek R1: New LLM Outperforms Llama 3 - Benchmarks & API Details"
 description: "DeepSeek R1 is here! Explore benchmarks, API access, and developer insights on this new large language model that rivals Llama 3. Get the details now."
 pubDate: "Feb 15 2026"
 heroImage: "/assets/deepseek-r1-release.webp"
+tags: ["Analysis"]
 ---
 
 ## DeepSeek R1: New LLM Challenges Llama 3's Enterprise Dominance - Benchmarks & API Details

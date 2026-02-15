@@ -3,6 +3,7 @@ title: "Claude Code Review 2026: Features, Pricing, and Our Honest Verdict"
 description: "An in-depth review of Claude Code in 2026. We cover features, pricing"
 pubDate: "Jan 13 2026"
 heroImage: "/assets/claude-code-review-2026.webp"
+tags: ["AI Tools", "Reviews"]
 ---
 
 ## Claude Code Review 2026: Is It Worth Your Money?

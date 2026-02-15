@@ -3,6 +3,7 @@ title: "How to Use Stable Diffusion for Creating Professional Graphics: Complete
 description: "A step-by-step tutorial on using Stable Diffusion for creating professional"
 pubDate: "Feb 04 2026"
 heroImage: "/assets/how-to-use-stable-diffusion-for-creating-professional-graphics-2026.webp"
+tags: ["Guides"]
 ---
 
 ## How to Use Stable Diffusion for Creating Professional Graphics: Everything You Need to Know

@@ -3,6 +3,7 @@ title: "GitHub Copilot vs Tabnine 2026: The Data-Backed Truth"
 description: "We compared GitHub Copilot and Tabnine over 30 days of testing. See the"
 pubDate: "Dec 30 2025"
 heroImage: "/assets/github-copilot-vs-tabnine-2026.webp"
+tags: ["Analysis"]
 ---
 
 # GitHub Copilot vs Tabnine 2026: The Data-Backed Truth

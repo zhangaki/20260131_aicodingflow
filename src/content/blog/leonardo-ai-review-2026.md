@@ -3,6 +3,7 @@ title: "Leonardo AI Review 2026: Image Generation, Pricing & Quality"
 description: "We used Leonardo AI for 30 days straight. Here"
 pubDate: "Jan 28 2026"
 heroImage: "/assets/leonardo-ai-review-2026.webp"
+tags: ["Reviews"]
 ---
 
 ## Leonardo AI: The 2026 Reality Check

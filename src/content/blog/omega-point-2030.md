@@ -3,6 +3,7 @@ title: "Omega Point AI Superintelligence: Frank Tipler"
 description: "Frank Tipler"
 pubDate: "Dec 27 2025"
 heroImage: "/assets/omega-point-cover.webp"
+tags: ["Analysis"]
 ---
 
 We began this series by talking about the "Super Individual"—a person enhanced by a local LLM and a few bio-sensors.

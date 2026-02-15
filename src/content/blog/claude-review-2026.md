@@ -3,6 +3,7 @@ title: "Claude AI Review 2026: Features, Pricing & More"
 description: "Our expert review of Claude AI for 2026. Learn about its features, coding"
 pubDate: "Jan 05 2026"
 heroImage: "/assets/claude-review-2026.webp"
+tags: ["AI Tools", "Reviews"]
 ---
 
 ## Claude Review 2026: Is It Worth Your Money?

@@ -3,6 +3,7 @@ title: "Clawdbot Evolution 2026: Discord AI Bot Development Guide"
 description: "Track Clawdbot"
 pubDate: "Dec 03 2025"
 heroImage: "/assets/clawdbot-evolution-2026.webp"
+tags: ["Analysis"]
 ---
 
 # The Evolution of Clawdbot: From Script to Sovereign

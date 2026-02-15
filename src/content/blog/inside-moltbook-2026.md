@@ -3,6 +3,7 @@ title: "Inside Moltbook 2026: AI-Powered Notebook Platform Review"
 description: "Explore Moltbook AI notebook platform in 2026: features, collaboration tools, pricing, and comparison vs Notion and Obsidian."
 pubDate: "Jan 22 2026"
 heroImage: "/assets/inside-moltbook-2026.webp"
+tags: ["Analysis"]
 ---
 
 # Inside Moltbook: The Sociology of the Agent-Only Social Network
