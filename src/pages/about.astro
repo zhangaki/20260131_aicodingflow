@@ -1,259 +1,448 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.webp';
-import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import BackgroundEffects from '../components/BackgroundEffects.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+const totalArticles = posts.length;
 ---
 
-<Layout
-	title="About the Architecture"
-	description="How this AI Efficiency Hub is built and why it exists."
-	pubDate={new Date('January 01 2026')}
-	heroImage="/assets/post-scarcity-cover.webp"
->
-	<div class="mission-statement">
-		<p class="lead">
-			Content is no longer limited by human speed. Quality is no longer limited by human fatigue. 
-			<strong>This entire website is a testament to that fact.</strong>
-		</p>
-	</div>
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead 
+			title="About — AI Efficiency Hub" 
+			description="AI Efficiency Hub helps developers and small teams leverage AI tools, coding agents, and automation to maximize productivity. Learn what we cover and how we can help." 
+		/>
+		<style>
+			/* Override global main */
+			main {
+				width: 100% !important;
+				max-width: 860px !important;
+				margin: 0 auto !important;
+				padding: 2rem 1.5rem !important;
+				position: relative;
+			}
 
-	<h3>The "Super Individual" Philosophy</h3>
-	<p>
-		We believe that in the age of AI, a single developer can wield the output of a 10-person agency. 
-		The <strong>AI Efficiency Hub</strong> is built to prove this concept. It is not just a blog; it is an 
-		<em>autonomous asset</em> managed by AI Agents, curated by human vision.
-	</p>
+			/* Hero */
+			.about-hero {
+				padding: 4rem 0 2rem;
+				text-align: center;
+			}
+			.about-hero h1 {
+				font-size: 3.2rem;
+				font-weight: 800;
+				letter-spacing: -0.04em;
+				line-height: 1.1;
+				margin-bottom: 1.5rem;
+				/* Override global h1 gradient */
+				background: linear-gradient(to bottom, #fff 60%, rgba(255,255,255,0.4)) !important;
+				-webkit-background-clip: text !important;
+				-webkit-text-fill-color: transparent !important;
+			}
+			.about-hero .tagline {
+				font-size: 1.15rem;
+				color: #a3a3a3;
+				line-height: 1.7;
+				max-width: 620px;
+				margin: 0 auto;
+			}
 
-    <div class="agent-workforce">
-        <h3>Meet the Workforce</h3>
-        <p class="section-desc">The specialized agents running this operation 24/7.</p>
-        
-        <div class="agent-grid">
-            <div class="agent-card">
-                <h4>Clawdbot</h4>
-                <div class="agent-role">System Architect</div>
-                <p>Manages deployment pipelines, error logging, and self-healing infrastructure.</p>
-            </div>
-            <div class="agent-card">
-                <h4>Oracle</h4>
-                <div class="agent-role">Trend Analyst</div>
-                <p>Scans 500+ RSS feeds daily to identify rising AI tools and patterns.</p>
-            </div>
-            <div class="agent-card">
-                <h4>DaVinci</h4>
-                <div class="agent-role">Visual Director</div>
-                <p>Generates cover art, optimizes SVGs, and maintains design consistency.</p>
-            </div>
-            <div class="agent-card">
-                <h4>Justitia</h4>
-                <div class="agent-role">Auditor</div>
-                <p>Verifies factuality, checks for bias, and ensures SEO compliance.</p>
-            </div>
-        </div>
-    </div>
+			/* Section shared */
+			.about-section {
+				margin: 3.5rem 0;
+			}
+			.about-section h2 {
+				font-size: 1.7rem;
+				font-weight: 700;
+				letter-spacing: -0.02em;
+				margin-bottom: 1rem;
+				color: #fff;
+			}
+			.about-section p {
+				color: #b0b0b0;
+				line-height: 1.8;
+				font-size: 1.05rem;
+			}
+			.about-section p + p {
+				margin-top: 0.8rem;
+			}
+			.accent-text {
+				color: var(--accent);
+				font-weight: 600;
+			}
 
-	<div class="stats-grid">
-		<div class="stat-card">
-			<div class="stat-number">100%</div>
-			<div class="stat-label">AI-Assisted Operations</div>
-		</div>
-		<div class="stat-card">
-			<div class="stat-number">24/7</div>
-			<div class="stat-label">Content Optimization</div>
-		</div>
-		<div class="stat-card">
-			<div class="stat-number">0ms</div>
-			<div class="stat-label">Human Bottlenecks</div>
-		</div>
-	</div>
+			/* Stats strip */
+			.stats-strip {
+				display: grid !important;
+				grid-template-columns: repeat(3, 1fr) !important;
+				gap: 1.2rem;
+				margin: 2.5rem 0;
+			}
+			/* Glowing Card Base */
+			.stat-card, .topic-card, .author-card {
+				position: relative;
+				overflow: hidden;
+				z-index: 1;
+				background: rgba(255, 255, 255, 0.03) !important;
+				border: 1px solid rgba(255, 255, 255, 0.08) !important;
+				padding: 1.8rem 1.2rem;
+				transition: all 0.3s ease;
+			}
 
-    <div class="tech-stack-section">
-        <h3>Built With</h3>
-        <div class="tech-grid">
-             <div class="tech-item">Astro 5.0</div>
-             <div class="tech-item">Tailwind (Custom)</div>
-             <div class="tech-item">Python 3.12</div>
-             <div class="tech-item">Vercel Edge</div>
-             <div class="tech-item">OpenAI GPT-4o</div>
-             <div class="tech-item">Anthropic Claude 3.5</div>
-        </div>
-    </div>
+			/* Border Beam Effect */
+			.stat-card::before, .topic-card::before, .author-card::before {
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 300%;
+				height: 300%;
+				background: conic-gradient(
+					from 0deg,
+					transparent 0%,
+					transparent 70%,
+					var(--accent) 80%,
+					transparent 100%
+				);
+				transform: translate(-50%, -50%) rotate(0deg);
+				animation: rotate-beam 4s linear infinite;
+				opacity: 0;
+				transition: opacity 0.4s;
+				z-index: -1;
+				pointer-events: none;
+			}
 
-	<div class="cta-box">
-		<h4>Ready to scale your own output?</h4>
-		<p>Explore our library of guides and start building your own agent workforce.</p>
-		<a href="/blog" class="btn">Browse the Library</a>
-	</div>
-</Layout>
+			.stat-card:hover::before, .topic-card:hover::before, .author-card:hover::before {
+				opacity: 1;
+			}
 
-<style>
-	.mission-statement {
-		font-size: 1.25rem;
-		line-height: 1.6;
-		margin-bottom: 3rem;
-		border-left: 4px solid var(--accent);
-		padding-left: 1.5rem;
-		color: #fff;
-	}
-	.lead strong {
-		color: var(--accent);
-	}
-	.stats-grid {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 1.5rem;
-		margin: 3rem 0;
-	}
-	.stat-card {
-		background-color: rgba(255, 255, 255, 0.03);
-		backdrop-filter: blur(20px);
-		-webkit-backdrop-filter: blur(20px);
-		border: 1px solid var(--glass-border);
-		padding: 1.5rem;
-		border-radius: 16px;
-		text-align: center;
-	}
-	.stat-number {
-		font-size: 2.5rem;
-		font-weight: 700;
-		background: linear-gradient(to right, #6FB1FC, #ACE0F9);
-		-webkit-background-clip: text;
-		background-clip: text;
-		-webkit-text-fill-color: transparent;
-		margin-bottom: 0.5rem;
-	}
-	.stat-label {
-		font-size: 0.9rem;
-		color: var(--gray);
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
-	}
-	.cta-box {
-		margin-top: 4rem;
-		background: linear-gradient(135deg, rgba(35, 213, 171, 0.1), rgba(0, 0, 0, 0));
-		border: 1px solid rgba(35, 213, 171, 0.2);
-		padding: 2.5rem;
-		border-radius: 24px;
-		text-align: center;
-	}
-	.cta-box h4 {
-		margin-top: 0;
-		font-size: 1.8rem;
-	}
-	.btn {
-		display: inline-block;
-		margin-top: 1.5rem;
-		background: var(--accent);
-		color: #000;
-		padding: 0.8rem 2rem;
-		border-radius: 100px;
-		text-decoration: none;
-		font-weight: 700;
-		transition: transform 0.2s;
-	}
-	.btn:hover {
-		transform: scale(1.05);
-	}
-	/* ... existing styles ... */
-    
-    .section-desc {
-        color: var(--gray);
-        margin-bottom: 2rem;
-        font-size: 1.1rem;
-    }
+			/* Inner mask to keep border thin */
+			.stat-card::after, .topic-card::after, .author-card::after {
+				content: '';
+				position: absolute;
+				inset: 1.5px;
+				background: #0a0a0a;
+				background: rgba(10, 10, 10, 0.92);
+				backdrop-filter: blur(20px);
+				border-radius: inherit;
+				z-index: -1;
+			}
 
-    /* Agent Grid */
-    .agent-workforce {
-        margin: 4rem 0;
-    }
-    .agent-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 1.5rem;
-    }
-    .agent-card {
-        background-color: rgba(255,255,255,0.03);
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
-        border: 1px solid var(--glass-border);
-        padding: 1.5rem;
-        border-radius: 16px;
-        transition: transform 0.3s ease;
-    }
-    .agent-card:hover {
-        transform: translateY(-5px);
-        background: rgba(255,255,255,0.06);
-        border-color: rgba(255,255,255,0.2);
-    }
-    .agent-avatar {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-        background: rgba(255,255,255,0.05);
-        width: 60px;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-    }
-    .agent-card h4 {
-        margin: 0;
-        color: #fff;
-        font-size: 1.2rem;
-    }
-    .agent-role {
-        color: var(--accent);
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        font-weight: 700;
-        margin-bottom: 0.8rem;
-        letter-spacing: 0.05em;
-    }
-    .agent-card p {
-        font-size: 0.9rem;
-        line-height: 1.5;
-        margin: 0;
-        color: var(--gray);
-    }
+			.stat-card:hover, .topic-card:hover, .author-card:hover {
+				transform: translateY(-5px);
+				border-color: rgba(233, 107, 70, 0.3) !important;
+				box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
+			}
 
-    /* Tech Stack */
-    .tech-stack-section {
-        margin: 4rem 0;
-    }
-    .tech-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.8rem;
-    }
-    .tech-item {
-        background-color: rgba(255, 255, 255, 0.03);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border: 1px solid rgba(255,255,255,0.1);
-        padding: 0.5rem 1rem;
-        border-radius: 8px;
-        font-size: 0.9rem;
-        color: #e2e8f0;
-        font-family: monospace;
-    }
+			@keyframes rotate-beam {
+				from { transform: translate(-50%, -50%) rotate(0deg); }
+				to { transform: translate(-50%, -50%) rotate(360deg); }
+			}
 
-	@media (max-width: 600px) {
-		.stats-grid { 
-            grid-template-columns: 1fr; 
-            gap: 1rem;
-        }
-        .agent-grid { 
-            grid-template-columns: 1fr; 
-        }
-        .mission-statement {
-            font-size: 1.1rem;
-            padding-left: 1rem;
-            margin-bottom: 2rem;
-        }
-        .cta-box {
-            padding: 1.5rem;
-        }
-        .cta-box h4 {
-            font-size: 1.5rem;
-        }
-	}
-</style>
+			.stat-number {
+				font-size: 2.5rem;
+				font-weight: 800;
+				background: linear-gradient(135deg, #6FB1FC, #ACE0F9);
+				-webkit-background-clip: text;
+				background-clip: text;
+				-webkit-text-fill-color: transparent;
+				margin-bottom: 0.3rem;
+				line-height: 1.2;
+				position: relative;
+				z-index: 2;
+			}
+			.stat-label {
+				font-size: 0.8rem;
+				color: #71717a;
+				text-transform: uppercase;
+				letter-spacing: 0.06em;
+				font-weight: 600;
+				position: relative;
+				z-index: 2;
+			}
+
+			/* Topic Grid Specifics */
+			.topic-grid {
+				display: grid !important;
+				grid-template-columns: repeat(2, 1fr) !important;
+				gap: 1.2rem;
+				margin-top: 1.5rem;
+			}
+			.topic-card {
+				display: flex !important;
+				align-items: flex-start;
+				gap: 1rem;
+				padding: 1.5rem;
+				text-decoration: none !important;
+				color: inherit !important;
+			}
+			.topic-icon {
+				flex-shrink: 0;
+				width: 44px;
+				height: 44px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border-radius: 12px;
+				position: relative;
+			}
+			.topic-icon svg {
+				width: 26px;
+				height: 26px;
+			}
+			/* Glow behind icon */
+			.topic-card:nth-child(1) .topic-icon { background: rgba(111, 177, 252, 0.12); box-shadow: 0 0 20px rgba(111, 177, 252, 0.08); }
+			.topic-card:nth-child(2) .topic-icon { background: rgba(172, 127, 244, 0.12); box-shadow: 0 0 20px rgba(172, 127, 244, 0.08); }
+			.topic-card:nth-child(3) .topic-icon { background: rgba(35, 213, 171, 0.12); box-shadow: 0 0 20px rgba(35, 213, 171, 0.08); }
+			.topic-card:nth-child(4) .topic-icon { background: rgba(244, 169, 96, 0.12); box-shadow: 0 0 20px rgba(244, 169, 96, 0.08); }
+			.topic-info h3 {
+				font-size: 1rem;
+				font-weight: 700;
+				color: #fff;
+				margin: 0 0 0.3rem 0;
+			}
+			.topic-info p {
+				font-size: 0.88rem;
+				color: #71717a;
+				margin: 0;
+				line-height: 1.5;
+			}
+
+			/* Author Specifics */
+			.author-card {
+				display: flex;
+				align-items: center;
+				gap: 1.5rem;
+				padding: 2.5rem 2rem;
+				border-radius: 24px;
+				margin-top: 1.5rem;
+			}
+			.author-avatar {
+				width: 68px;
+				height: 68px;
+				border-radius: 50%;
+				background: linear-gradient(135deg, #6FB1FC, #23d5ab);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 1.6rem;
+				font-weight: 800;
+				color: #000;
+				flex-shrink: 0;
+			}
+			.author-meta h3 {
+				margin: 0 0 0.4rem 0;
+				font-size: 1.15rem;
+				color: #fff;
+			}
+			.author-meta p {
+				margin: 0;
+				font-size: 0.95rem;
+				color: #a3a3a3;
+				line-height: 1.6;
+			}
+			.author-link {
+				color: var(--accent) !important;
+				text-decoration: none !important;
+				font-weight: 600;
+			}
+			.author-link:hover {
+				text-decoration: underline !important;
+			}
+
+			/* CTA */
+			.cta-box {
+				margin-top: 4rem;
+				text-align: center;
+				padding: 3rem 2rem;
+				background: linear-gradient(135deg, rgba(35, 213, 171, 0.08), rgba(111, 177, 252, 0.06));
+				border: 1px solid rgba(35, 213, 171, 0.15);
+				border-radius: 24px;
+			}
+			.cta-box h2 {
+				margin: 0 0 0.8rem 0;
+				font-size: 1.8rem;
+				color: #fff;
+			}
+			.cta-box p {
+				color: #a3a3a3;
+				margin-bottom: 1.5rem;
+				font-size: 1.05rem;
+			}
+			.btn {
+				display: inline-block;
+				background: var(--accent);
+				color: #000 !important;
+				padding: 0.85rem 2.2rem;
+				border-radius: 100px;
+				text-decoration: none !important;
+				font-weight: 700;
+				font-size: 1rem;
+				transition: transform 0.2s, box-shadow 0.2s;
+			}
+			.btn:hover {
+				transform: scale(1.05);
+				box-shadow: 0 8px 30px rgba(233, 107, 70, 0.3);
+				color: #000 !important;
+			}
+
+			/* Divider */
+			.about-divider {
+				border: none;
+				border-top: 1px solid rgba(255,255,255,0.06);
+				margin: 3.5rem 0;
+				opacity: 1;
+			}
+
+			/* Mobile */
+			@media (max-width: 640px) {
+				main { padding: 1.5rem 0.75rem !important; }
+				.about-hero { padding: 2.5rem 0 1.5rem; }
+				.about-hero h1 { font-size: 2.2rem; }
+				.about-hero .tagline { font-size: 1rem; }
+				.stats-strip { grid-template-columns: 1fr !important; gap: 0.8rem; }
+				.stat-card { padding: 1.2rem 1rem; }
+				.stat-number { font-size: 2rem; }
+				.topic-grid { grid-template-columns: 1fr !important; }
+				.author-card { flex-direction: column; text-align: center; }
+				.cta-box { padding: 2rem 1.5rem; }
+				.cta-box h2 { font-size: 1.5rem; }
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<BackgroundEffects />
+		<main>
+			<section class="about-hero">
+				<h1>About AI Efficiency Hub</h1>
+				<p class="tagline">
+					We help developers and small teams cut through the AI noise. 
+					Practical reviews, honest comparisons, and real-world guides — 
+					so you can pick the right tools and actually ship faster.
+				</p>
+			</section>
+
+			<div class="stats-strip">
+				<div class="stat-card">
+					<div class="stat-number">{totalArticles}+</div>
+					<div class="stat-label">In-Depth Articles</div>
+				</div>
+				<div class="stat-card">
+					<div class="stat-number">Free</div>
+					<div class="stat-label">Always, No Paywall</div>
+				</div>
+				<div class="stat-card">
+					<div class="stat-number">Weekly</div>
+					<div class="stat-label">New Content</div>
+				</div>
+			</div>
+
+			<section class="about-section">
+				<h2>Our Mission</h2>
+				<p>
+					The AI landscape moves fast — new models, new tools, new hype cycles every week. 
+					Most "AI blogs" are either too shallow, too academic, or just straight-up 
+					affiliate link farms. We wanted something different.
+				</p>
+				<p>
+					<span class="accent-text">AI Efficiency Hub</span> exists to be the resource we wished we 
+					had when we started. Every article is written with one question in mind: 
+					<em>"Would this actually help someone make a better decision today?"</em>
+				</p>
+				<p>
+					We test tools ourselves, compare them side-by-side with real workflows, and 
+					don't hide behind vague recommendations. If a tool isn't worth your time, we'll 
+					say so.
+				</p>
+			</section>
+
+			<hr class="about-divider" />
+
+			<section class="about-section">
+				<h2>What You'll Find Here</h2>
+				<p>Our content covers these key areas:</p>
+				<div class="topic-grid">
+					<a href="/blog" class="topic-card">
+						<div class="topic-icon">
+							<svg viewBox="0 0 24 24" fill="none">
+								<defs><linearGradient id="g1" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#6FB1FC"/><stop offset="1" stop-color="#3B82F6"/></linearGradient></defs>
+								<circle cx="11" cy="11" r="6" stroke="url(#g1)" stroke-width="2"/><path d="M16 16l4.5 4.5" stroke="url(#g1)" stroke-width="2" stroke-linecap="round"/><path d="M9 11h4M11 9v4" stroke="url(#g1)" stroke-width="1.5" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<div class="topic-info">
+							<h3>AI Tool Reviews</h3>
+							<p>Honest, hands-on reviews and head-to-head comparisons of the latest AI tools.</p>
+						</div>
+					</a>
+					<a href="/blog" class="topic-card">
+						<div class="topic-icon">
+							<svg viewBox="0 0 24 24" fill="none">
+								<defs><linearGradient id="g2" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#AC7FF4"/><stop offset="1" stop-color="#7C3AED"/></linearGradient></defs>
+								<rect x="3" y="4" width="18" height="16" rx="3" stroke="url(#g2)" stroke-width="1.5"/><path d="M7 12l2.5 2.5L14 10" stroke="url(#g2)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 8h3" stroke="url(#g2)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+							</svg>
+						</div>
+						<div class="topic-info">
+							<h3>AI-Powered Coding</h3>
+							<p>Guides on coding agents, agentic IDEs, and workflows that actually boost productivity.</p>
+						</div>
+					</a>
+					<a href="/blog" class="topic-card">
+						<div class="topic-icon">
+							<svg viewBox="0 0 24 24" fill="none">
+								<defs><linearGradient id="g3" x1="0" y1="24" x2="24" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#23D5AB"/><stop offset="1" stop-color="#14B8A6"/></linearGradient></defs>
+								<path d="M4 20L8 14l4 3 4-7 4-4" stroke="url(#g3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="6" r="2" fill="url(#g3)" opacity="0.6"/><path d="M4 20h16" stroke="url(#g3)" stroke-width="1.2" opacity="0.3"/>
+							</svg>
+						</div>
+						<div class="topic-info">
+							<h3>AI for Business</h3>
+							<p>Automation strategies, marketing with AI, SEO optimization, and scaling as a small team.</p>
+						</div>
+					</a>
+					<a href="/blog" class="topic-card">
+						<div class="topic-icon">
+							<svg viewBox="0 0 24 24" fill="none">
+								<defs><linearGradient id="g4" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#F4A960"/><stop offset="1" stop-color="#E96B46"/></linearGradient></defs>
+								<circle cx="12" cy="12" r="9" stroke="url(#g4)" stroke-width="1.5"/><path d="M12 3v4M12 17v4M3 12h4M17 12h4" stroke="url(#g4)" stroke-width="1.2" stroke-linecap="round" opacity="0.4"/><path d="M12 12l3-5" stroke="url(#g4)" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="1.5" fill="url(#g4)"/>
+							</svg>
+						</div>
+						<div class="topic-info">
+							<h3>Trends & Deep Dives</h3>
+							<p>Forward-looking analysis on where AI is heading and what it means for builders.</p>
+						</div>
+					</a>
+				</div>
+			</section>
+
+			<hr class="about-divider" />
+
+			<section class="about-section">
+				<h2>Who's Behind This</h2>
+				<div class="author-card">
+					<div class="author-avatar">AZ</div>
+					<div class="author-meta">
+						<h3>Alex Zhang</h3>
+						<p>
+							Developer, AI practitioner, and firm believer that a small team with the right AI tools 
+							can outperform a large one without them. Building AI Efficiency Hub as the 
+							go-to practical resource for the AI-first generation of builders.
+						</p>
+						<p style="margin-top: 0.8rem;">
+							<a href="/contact" class="author-link">Get in touch →</a>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="cta-box">
+				<h2>Ready to level up?</h2>
+				<p>Browse our library and find the guides that matter to you.</p>
+				<a href="/blog" class="btn">Explore All Articles</a>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
