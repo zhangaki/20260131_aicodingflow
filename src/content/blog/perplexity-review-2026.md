@@ -1,7 +1,7 @@
 ---
-title: 'Perplexity AI Review 2026: Is Pro Worth It?'
-description: 'Perplexity AI 2026: Honest review of features, pricing, and use cases.  Find
-  out if Perplexity Pro is right for you.'
+title: 'Perplexity AI Review 2026: Is It Worth the Hype?'
+description: 'Perplexity AI in 2026: A comprehensive review. Explore features, pricing,
+  and real-world use cases to see if it''s right for you.'
 pubDate: Feb 08 2026
 heroImage: /assets/perplexity-review-2026.webp
 tags:
