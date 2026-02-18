@@ -1,7 +1,7 @@
 ---
-title: 'Perplexity AI Review 2026: Is Pro Worth It?'
-description: Is Perplexity AI Pro worth the cost in 2026? Find out in our in-depth
-  review of features, pricing, and real-world use cases.
+title: 'Perplexity AI Review 2026: Is it better than Google?'
+description: 'Perplexity AI in 2026: A deep dive review. Is it the best AI search
+  assistant? See use cases, pricing, and the latest updates.'
 pubDate: Feb 08 2026
 heroImage: /assets/perplexity-review-2026.webp
 tags:
