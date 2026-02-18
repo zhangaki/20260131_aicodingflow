@@ -1,9 +1,12 @@
 ---
-title: "Best AI Video Creation Tools in 2026"
-description: "Discover the top AI video creation tools for 2026! Create stunning videos"
-pubDate: "Feb 03 2026"
-heroImage: "/assets/best-ai-tools-for-video-creation-2026.webp"
-tags: ["AI Tools", "Guides"]
+title: Best AI Video Creation Tools in 2026...
+description: Discover the top AI video creation tools for 2026! Create stunning videos
+pubDate: Feb 03 2026
+heroImage: /assets/best-ai-tools-for-video-creation-2026.webp
+tags:
+- AI Tools
+- Guides
+updatedDate: '2026-02-16'
 ---
 
 ## Finding the Right AI Tool for Video Creation: Our 2026 Investigation

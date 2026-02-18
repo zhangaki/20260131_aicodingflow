@@ -1,9 +1,12 @@
 ---
-title: "Notion AI: Is It Worth It in 2026?"
-description: "Notion AI Review 2026: Explore the latest features and updates. See"
-pubDate: "Jan 08 2026"
-heroImage: "/assets/notion-ai-review-2026.webp"
-tags: ["Reviews"]
+title: 'Notion AI 2026: Features, Pricing & Use Cases'
+description: 'Notion AI 2026 review: See how Notion''s AI features can boost your
+  productivity. Explore use cases, pricing, and alternatives now.'
+pubDate: Jan 08 2026
+heroImage: /assets/notion-ai-review-2026.webp
+tags:
+- Reviews
+updatedDate: Feb 18 2026
 ---
 
 ## Notion AI: The 2026 Reality Check
