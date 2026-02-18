@@ -1,9 +1,12 @@
 ---
-title: "Perplexity AI 2026: Pro Benefits, Deep Research & Features Review"
-description: "Perplexity AI 2026 review - Pro benefits, deep research mode features, file upload limits, pricing ($20/month), and coding capabilities. Is Perplexity Pro worth it?"
-pubDate: "Feb 08 2026"
-heroImage: "/assets/perplexity-review-2026.webp"
-tags: ["Reviews"]
+title: 'Perplexity AI Review 2026: Is Pro Worth It?'
+description: 'Perplexity AI in 2026: Pro features, pricing, and a complete review.
+  See if this AI search engine is worth the upgrade.'
+pubDate: Feb 08 2026
+heroImage: /assets/perplexity-review-2026.webp
+tags:
+- Reviews
+updatedDate: Feb 18 2026
 ---
 
 updatedDate: Feb 13 2026
