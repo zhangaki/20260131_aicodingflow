@@ -1,7 +1,6 @@
 ---
-title: 'Notion AI 2026: Features, Pricing & Use Cases'
-description: 'Notion AI 2026 review: See how Notion''s AI features can boost your
-  productivity. Explore use cases, pricing, and alternatives now.'
+title: "Notion AI Updates 2026: New Features, Pricing & February Changes"
+description: "Notion AI updates 2026 with February feature changes, pricing tiers, and practical use cases for docs and workflows."
 pubDate: Jan 08 2026
 heroImage: /assets/notion-ai-review-2026.webp
 tags:

@@ -1,7 +1,6 @@
 ---
-title: 'ChatGPT Review 2026: Is It Still Worth It?'
-description: 'ChatGPT in 2026: Explore the latest features, pricing, and limitations.
-  Find out if ChatGPT is still the best AI chatbot for you.'
+title: "ChatGPT Pro Plan Features 2026: Pricing, Limits & Worth It?"
+description: "ChatGPT Pro plan features in 2026, with pricing, usage limits, and side-by-side notes on when Pro actually pays off."
 pubDate: Dec 29 2025
 heroImage: /assets/chatgpt-review-2026.webp
 tags:

@@ -1,6 +1,6 @@
 ---
-title: "LangChain Review 2026: RAG Pipeline, Features & Documentation"
-description: "We used LangChain for 30 days straight. Here"
+title: "LangChain User Reviews 2026: Adoption Experience, Pricing & Updates"
+description: "LangChain user reviews and adoption experience in 2026, with LangSmith pricing, upgrade notes, and real implementation tradeoffs."
 pubDate: "Jan 25 2026"
 heroImage: "/assets/langchain-review-2026.webp"
 tags: ["Reviews"]

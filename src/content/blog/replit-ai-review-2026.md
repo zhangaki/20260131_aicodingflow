@@ -1,6 +1,6 @@
 ---
-title: "Replit AI 2026: The Future of AI-Powered Coding?"
-description: "Explore the latest Replit AI features in 2026. Find out how this AI coding"
+title: "Replit AI Features 2026: Agent Capabilities, Ghostwriter Pricing"
+description: "Replit AI features in 2026: agent workflow, Ghostwriter pricing, limits, and best-fit use cases for coding teams."
 pubDate: "Feb 01 2026"
 heroImage: "/assets/replit-ai-review-2026.webp"
 tags: ["Reviews"]

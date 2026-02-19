@@ -1,7 +1,6 @@
 ---
-title: 'Runway ML 2026: Is It the Best AI Video Tool?'
-description: Runway ML review for 2026. Explore the best AI video creation features,
-  pricing, and alternatives. Generate stunning videos now!
+title: "Runway ML Free Tier 2026: Limits, Pricing & Gen-3 Features"
+description: "Runway ML free tier in 2026 explained: usage limits, paid plans, Gen-3 feature set, and where upgrades are worth it."
 pubDate: Dec 31 2025
 heroImage: /assets/runway-review-2026.webp
 tags:

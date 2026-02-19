@@ -1,6 +1,6 @@
 ---
-title: 'Claude AI Review 2026: Features, Pricing...'
-description: Our expert review of Claude AI for 2026. Learn about its features, coding
+title: "Claude AI Features 2026: Pricing, Capabilities & Sonnet Options"
+description: "Claude AI features in 2026, including pricing, model capabilities, and which Sonnet tier is best for coding workloads."
 pubDate: Jan 05 2026
 heroImage: /assets/claude-review-2026.webp
 tags:

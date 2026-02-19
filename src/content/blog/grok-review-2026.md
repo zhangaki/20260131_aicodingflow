@@ -1,6 +1,6 @@
 ---
-title: 'Grok AI Review 2026: Is It the Best AI C...'
-description: Our detailed Grok AI review for 2026! Explore features, performance,
+title: "Grok AI Features 2026: Capabilities, Free Tier Limits & Pricing"
+description: "Grok AI features in 2026, including capabilities, free-tier limits, pricing, and practical performance tradeoffs."
 pubDate: Jan 28 2026
 heroImage: /assets/grok-review-2026.webp
 tags:

@@ -1,7 +1,6 @@
 ---
-title: 'GitHub Copilot Review 2026: Is It Worth the Price?'
-description: Our in-depth GitHub Copilot review for 2026. See if this AI coding assistant's
-  features and pricing are worth the investment.
+title: "GitHub Copilot Enterprise Features 2026: Pricing, Plans & Limits"
+description: "GitHub Copilot enterprise features in 2026: pricing plans, seat limits, security controls, and real team benchmarks."
 pubDate: Jan 07 2026
 heroImage: /assets/github-copilot-review-2026.webp
 tags:
