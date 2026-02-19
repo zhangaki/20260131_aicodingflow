@@ -2,7 +2,7 @@
 title: "ChatGPT Pro Plan Benefits: Is it Worth Upgrading in 2026?"
 description: "Everything you need to know about chatgpt pro plan benefits in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 18 2026"
-heroImage: "/assets/blog-fallback.webp"
+heroImage: "/assets/chatgpt-pro-plan-benefits-2026.webp"
 tags:
   - AI Agents
   - Dev Tools

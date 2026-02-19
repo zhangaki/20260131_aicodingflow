@@ -2,7 +2,7 @@
 title: "ChatGPT Pro Plan Limits in 2026: What You Need to Know"
 description: "Everything you need to know about chatgpt pro plan limits in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 19 2026"
-heroImage: "/assets/blog-fallback.webp"
+heroImage: "/assets/chatgpt-pro-plan-limits-2026.webp"
 tags:
   - AI Agents
   - Dev Tools

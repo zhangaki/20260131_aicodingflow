@@ -2,7 +2,7 @@
 title: "AI Video Making Tools for YouTube: Top Picks"
 description: "Everything you need to know about ai video making tools for youtube in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 18 2026"
-heroImage: "/assets/blog-fallback.webp"
+heroImage: "/assets/ai-video-making-tools-for-youtube-2026.webp"
 tags:
   - AI Agents
   - Dev Tools

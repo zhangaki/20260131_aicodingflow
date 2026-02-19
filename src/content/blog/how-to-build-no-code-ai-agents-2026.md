@@ -2,7 +2,7 @@
 title: "How to Build AI Agents Without Coding (2026)"
 description: "Everything you need to know about how to build no code ai agents in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 19 2026"
-heroImage: "/assets/blog-fallback.webp"
+heroImage: "/assets/how-to-build-no-code-ai-agents-2026.webp"
 tags:
   - AI Agents
   - Dev Tools

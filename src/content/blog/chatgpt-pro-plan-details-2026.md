@@ -2,7 +2,7 @@
 title: "ChatGPT Pro Plan 2026: Features & Benefits Explored"
 description: "Everything you need to know about chatgpt pro plan details in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 18 2026"
-heroImage: "/assets/blog-fallback.webp"
+heroImage: "/assets/chatgpt-pro-plan-details-2026.webp"
 tags:
   - AI Agents
   - Dev Tools

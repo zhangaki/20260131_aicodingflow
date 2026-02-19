@@ -2,7 +2,7 @@
 title: "How to Access and Use OpenAI's O3 Model (2026)"
 description: "Everything you need to know about how to access openai o3 model in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 18 2026"
-heroImage: "/assets/blog-fallback.webp"
+heroImage: "/assets/how-to-access-openai-o3-model-2026.webp"
 tags:
   - AI Agents
   - Dev Tools

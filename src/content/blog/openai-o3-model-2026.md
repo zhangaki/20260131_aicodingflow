@@ -2,7 +2,7 @@
 title: "OpenAI O3 Model: Features, Performance, and Use Cases"
 description: "Everything you need to know about openai o3 model 2026 in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 18 2026"
-heroImage: "/assets/blog-fallback.webp"
+heroImage: "/assets/openai-o3-model-2026.webp"
 tags:
   - AI Agents
   - Dev Tools

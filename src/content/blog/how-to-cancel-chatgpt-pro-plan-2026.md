@@ -2,7 +2,7 @@
 title: "How to Cancel Your ChatGPT Pro Plan in 2026 (Step-by-Step)"
 description: "Everything you need to know about how to cancel chatgpt pro plan in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 18 2026"
-heroImage: "/assets/blog-fallback.webp"
+heroImage: "/assets/how-to-cancel-chatgpt-pro-plan-2026.webp"
 tags:
   - AI Agents
   - Dev Tools

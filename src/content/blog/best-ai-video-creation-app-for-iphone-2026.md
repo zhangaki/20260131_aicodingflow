@@ -2,7 +2,7 @@
 title: "Top AI Video Creation Apps for iPhone in 2026"
 description: "Everything you need to know about best ai video creation app for iphone in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 18 2026"
-heroImage: "/assets/blog-fallback.webp"
+heroImage: "/assets/best-ai-video-creation-app-for-iphone-2026.webp"
 tags:
   - AI Agents
   - Dev Tools
