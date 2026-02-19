@@ -1,22 +1,30 @@
 ---
 interface Props {
 	id?: string;
-	slot?: string;
 }
 
-const { id = "default-ad", slot } = Astro.props;
+const { id = "default-ad" } = Astro.props;
 ---
 
 <div class="ad-container" data-ad-id={id}>
 	<div class="ad-label">ADVERTISEMENT</div>
 	<div class="ad-box">
-		<!-- Google AdSense Code Placeholder -->
-		<ins class="adsbygoogle"
-			style="display:block"
-			data-ad-client="ca-pub-2874421792108730"
-			data-ad-slot={slot}
-			data-ad-format="auto"
-			data-full-width-responsive="true"></ins>
+		<div class="ad-script-host">
+			<script is:inline data-astro-rerun>
+				var atOptions = {
+					'key': '3f7b1742a905334425933a7cc4046900',
+					'format': 'iframe',
+					'height': 250,
+					'width': 300,
+					'params': {}
+				};
+			</script>
+			<script
+				is:inline
+				data-astro-rerun
+				src="https://www.highperformanceformat.com/3f7b1742a905334425933a7cc4046900/invoke.js"
+			></script>
+		</div>
 		<div class="placeholder-text">Ad Placement for {id}</div>
 	</div>
 </div>
@@ -43,6 +51,17 @@ const { id = "default-ad", slot } = Astro.props;
 		align-items: center;
 		justify-content: center;
 		position: relative;
+	}
+	.ad-script-host {
+		max-width: 100%;
+		overflow-x: auto;
+		overflow-y: hidden;
+		-webkit-overflow-scrolling: touch;
+	}
+	.ad-script-host :global(iframe) {
+		display: block;
+		margin: 0 auto;
+		border: 0;
 	}
 	.placeholder-text {
 		color: var(--gray);

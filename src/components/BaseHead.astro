@@ -27,33 +27,6 @@ const { title, description, image = '/assets/blog-fallback.webp', noindex = fals
   gtag('config', 'G-DBF2K42BPC');
 </script>
 
-<!-- Google AdSense -->
-<!-- Google AdSense - Deferred Loading -->
-<script is:inline>
-    // Defer AdSense until user interaction or after a significant delay
-    const loadAdSense = () => {
-        if (window.adsLoaded) return;
-        window.adsLoaded = true;
-        
-        const script = document.createElement('script');
-        script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2874421792108730";
-        script.crossOrigin = "anonymous";
-        script.async = true;
-        document.head.appendChild(script);
-        
-        // Remove listeners
-        window.removeEventListener('scroll', loadAdSense);
-        window.removeEventListener('mousemove', loadAdSense);
-        window.removeEventListener('touchstart', loadAdSense);
-    };
-
-    // Load on interaction or after 4 seconds
-    window.addEventListener('scroll', loadAdSense, { passive: true });
-    window.addEventListener('mousemove', loadAdSense, { passive: true });
-    window.addEventListener('touchstart', loadAdSense, { passive: true });
-    setTimeout(loadAdSense, 4000);
-</script>
-
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />

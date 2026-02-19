@@ -382,9 +382,31 @@ const relatedPosts = post ? allPosts
                 justify-content: center;
                 backdrop-filter: blur(10px);
                 width: 100%;
+                padding: 0.75rem;
             }
-            .adsbygoogle {
-                background: transparent !important;
+            .ad-unit-top {
+                min-height: 90px;
+            }
+            .ad-unit-bottom {
+                min-height: 250px;
+            }
+            .ad-banner-shell {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                overflow-x: auto;
+                overflow-y: hidden;
+                -webkit-overflow-scrolling: touch;
+            }
+            .ad-banner-shell :global(iframe) {
+                display: block;
+                margin: 0 auto;
+                border: 0;
+            }
+            @media (max-width: 720px) {
+                .ad-unit-top {
+                    min-height: 250px;
+                }
             }
 
             /* Article Footer Styling */
@@ -546,14 +568,9 @@ const relatedPosts = post ? allPosts
 							<h1 id={headings[0]?.slug || "article-top"}>{title}</h1>
 						</div>
 
-						<!-- Top AdSense -->
-						<div class="ad-unit" style="margin: 2rem 0; text-align: center; min-height: 90px;">
-							<ins class="adsbygoogle"
-								style="display:block"
-								data-ad-client="ca-pub-2874421792108730"
-								data-ad-slot="auto"
-								data-ad-format="horizontal"
-								data-full-width-responsive="true"></ins>
+						<!-- Top Banner -->
+						<div class="ad-unit ad-unit-top" style="margin: 2rem 0; text-align: center;">
+							<div id="ad-banner-top" class="ad-banner-shell"></div>
 						</div>
 
 						<slot />
@@ -578,14 +595,9 @@ const relatedPosts = post ? allPosts
 				</div>
 
 					<div class="article-footer">
-						<!-- Bottom AdSense -->
-						<div class="ad-unit" style="margin: 0; text-align: center; min-height: 250px;">
-							<ins class="adsbygoogle"
-								style="display:block"
-								data-ad-client="ca-pub-2874421792108730"
-								data-ad-slot="auto"
-								data-ad-format="auto"
-								data-full-width-responsive="true"></ins>
+						<!-- Bottom Banner 300x250 -->
+						<div class="ad-unit ad-unit-bottom" style="margin: 0; text-align: center;">
+							<div id="ad-banner-bottom" class="ad-banner-shell"></div>
 						</div>
 
 						{relatedPosts.length > 0 && (
@@ -631,11 +643,54 @@ const relatedPosts = post ? allPosts
 			</article>
 		</main>
 		<Footer />
-		<script is:inline>
-			// Initialize AdSense ad units
-			document.querySelectorAll('.adsbygoogle').forEach(() => {
-				try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
-			});
+		<script is:inline data-astro-rerun>
+			(() => {
+				const topHost = document.getElementById('ad-banner-top');
+				const bottomHost = document.getElementById('ad-banner-bottom');
+				if (!topHost && !bottomHost) return;
+
+				const desktopTop = {
+					key: '44e49d590e5c6e4aa754a929556665ec',
+					format: 'iframe',
+					height: 90,
+					width: 728,
+					params: {}
+				};
+				const mobileTop = {
+					key: '3f7b1742a905334425933a7cc4046900',
+					format: 'iframe',
+					height: 250,
+					width: 300,
+					params: {}
+				};
+				const bottom = {
+					key: '3f7b1742a905334425933a7cc4046900',
+					format: 'iframe',
+					height: 250,
+					width: 300,
+					params: {}
+				};
+
+				const injectBanner = (host, config, done) => {
+					if (!host) {
+						done?.();
+						return;
+					}
+
+					host.innerHTML = '';
+					window.atOptions = config;
+
+					const script = document.createElement('script');
+					script.src = `https://www.highperformanceformat.com/${config.key}/invoke.js`;
+					script.async = false;
+					script.onload = () => done?.();
+					script.onerror = () => done?.();
+					host.appendChild(script);
+				};
+
+				const topConfig = window.matchMedia('(max-width: 720px)').matches ? mobileTop : desktopTop;
+				injectBanner(topHost, topConfig, () => injectBanner(bottomHost, bottom));
+			})();
 		</script>
 		<script>
 			document.addEventListener('astro:page-load', () => {
