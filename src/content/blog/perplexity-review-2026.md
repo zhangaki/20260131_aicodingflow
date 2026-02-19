@@ -6,6 +6,7 @@ heroImage: /assets/perplexity-review-2026.webp
 tags:
 - Reviews
 updatedDate: Feb 18 2026
+noindex: true
 ---
 
 ## Perplexity: The 2026 Reality Check

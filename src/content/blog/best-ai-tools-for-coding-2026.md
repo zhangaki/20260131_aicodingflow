@@ -4,6 +4,7 @@ description: "Top 15 AI coding tools in 2026: GitHub Copilot, Cursor, Claude Cod
 pubDate: "Jan 01 2026"
 heroImage: "/assets/best-ai-tools-for-coding-2026.webp"
 tags: ["AI Tools", "Guides"]
+noindex: true
 ---
 
 ## The Best AI Tools for Coding in 2026

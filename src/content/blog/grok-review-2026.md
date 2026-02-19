@@ -6,6 +6,7 @@ heroImage: /assets/grok-review-2026.webp
 tags:
 - Reviews
 updatedDate: '2026-02-16'
+noindex: true
 ---
 
 ## Grok: The 2026 Reality Check

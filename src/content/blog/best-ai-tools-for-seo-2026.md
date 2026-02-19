@@ -4,6 +4,7 @@ description: "Our team tested 7 AI seo tools over 30 days. Here are the real win
 pubDate: "Dec 04 2025"
 heroImage: "/assets/best-ai-tools-for-seo-2026.webp"
 tags: ["AI Tools", "Guides", "Marketing"]
+noindex: true
 ---
 
 ## Finding the Right AI Tool for SEO: Our 2026 Investigation

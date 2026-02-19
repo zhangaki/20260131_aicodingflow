@@ -4,6 +4,7 @@ description: "An in-depth review of Claude 4.6 Opus in 2026. We cover features, 
 pubDate: "Dec 21 2025"
 heroImage: "/assets/claude-46-opus-review-2026.webp"
 tags: ["AI Tools", "Reviews"]
+noindex: true
 ---
 
 ## Claude 4.6 Opus Review 2026: Is It Worth Your Money?

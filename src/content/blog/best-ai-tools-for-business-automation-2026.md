@@ -4,6 +4,7 @@ description: "Top 20 AI business automation tools in 2026: Zapier, Make, workflo
 pubDate: "Jan 05 2026"
 heroImage: "/assets/best-ai-tools-for-business-automation-2026.webp"
 tags: ["AI Tools", "Guides"]
+noindex: true
 ---
 
 ## Finding the Right AI Tool for Business Automation: Our 2026 Investigation

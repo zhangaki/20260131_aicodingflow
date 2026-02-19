@@ -4,6 +4,7 @@ description: "We used Copy.ai for 30 days straight. Here"
 pubDate: "Dec 12 2025"
 heroImage: "/assets/copyai-review-2026.webp"
 tags: ["Reviews"]
+noindex: true
 ---
 
 ## Copy.ai: The 2026 Reality Check

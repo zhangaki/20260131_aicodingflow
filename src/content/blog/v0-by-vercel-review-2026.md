@@ -4,6 +4,7 @@ description: "An in-depth review of v0 by Vercel in 2026. We cover features, pri
 pubDate: "Jan 26 2026"
 heroImage: "/assets/v0-by-vercel-review-2026.webp"
 tags: ["Reviews"]
+noindex: true
 ---
 
 ## v0 by Vercel Review 2026: Is It Worth Your Money?

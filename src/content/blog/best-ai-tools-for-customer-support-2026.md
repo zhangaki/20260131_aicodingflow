@@ -4,6 +4,7 @@ description: "Top 15 AI customer support tools in 2026: Zendesk AI, Intercom, ch
 pubDate: "Dec 18 2025"
 heroImage: "/assets/best-ai-tools-for-customer-support-2026.webp"
 tags: ["AI Tools", "Guides"]
+noindex: true
 ---
 
 ## The Best AI Tools for Customer Support in 2026

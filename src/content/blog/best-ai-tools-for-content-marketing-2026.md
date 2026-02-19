@@ -4,6 +4,7 @@ description: "Top 20 AI content marketing tools in 2026: Jasper, Surfer SEO, Cha
 pubDate: "Dec 29 2025"
 heroImage: "/assets/best-ai-tools-for-content-marketing-2026.webp"
 tags: ["AI Tools", "Guides"]
+noindex: true
 ---
 
 ## The Best AI Tools for Content Marketing in 2026

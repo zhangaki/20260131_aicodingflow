@@ -4,6 +4,7 @@ description: "In-depth Grammarly AI review 2026: free tier limits, premium $12/m
 pubDate: "Jan 05 2026"
 heroImage: "/assets/grammarly-ai-review-2026.webp"
 tags: ["Reviews"]
+noindex: true
 ---
 
 ## Grammarly AI Review 2026: Is It Worth Your Money?

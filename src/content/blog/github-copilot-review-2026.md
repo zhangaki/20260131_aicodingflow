@@ -6,6 +6,7 @@ heroImage: /assets/github-copilot-review-2026.webp
 tags:
 - Reviews
 updatedDate: Feb 18 2026
+noindex: true
 ---
 
 ## GitHub Copilot Review 2026: Is It Worth Your Money?
