@@ -16,6 +16,15 @@ interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const { title, description, image = '/assets/blog-fallback.webp', noindex = false } = Astro.props;
+const siteURL = Astro.site ? new URL('/', Astro.site).toString() : `${canonicalURL.origin}/`;
+const logoURL = new URL('/logo.png', Astro.site ?? canonicalURL).toString();
+const organizationSchema = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'Organization',
+	name: SITE_TITLE,
+	url: siteURL,
+	logo: logoURL,
+});
 ---
 
 <!-- Google Analytics 4 -->
@@ -31,17 +40,21 @@ const { title, description, image = '/assets/blog-fallback.webp', noindex = fals
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name='impact-site-verification' value='359c8214-112a-49d7-99ba-0c006a92cd0f'>
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="icon" href="/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 <link
 	rel="alternate"
 	type="application/rss+xml"
 	title={SITE_TITLE}
 	href={new URL('rss.xml', Astro.site)}
-	href={new URL('rss.xml', Astro.site)}
 />
 <meta name="generator" content={Astro.generator} />
+<meta name="theme-color" content="#f68b2e" />
+<script type="application/ld+json" is:inline>{organizationSchema}</script>
 <ClientRouter />
 
 <!-- Canonical URL -->
