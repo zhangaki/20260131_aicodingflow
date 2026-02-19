@@ -176,3 +176,11 @@ I don’t think “code-to-Figma” is automatically transformative. I think it 
 If Figma + Anthropic are building this with an opinionated set of supported patterns—and they’re honest about the constraints—it could remove a real tax in early product iteration.
 
 If they’re selling it as “paste any UI code and get a clean design file,” I’ve seen that movie. It ends with a layer panel full of regret.
+
+---
+
+## Related Reading
+
+- [Figma & Anthropic Launch 'Code to Canvas' AI Design Tool!](/blog/figma-anthropic-code-to-canvas/)
+- [Anthropic Drops Claude Sonnet 4.6 Amid AI Model Frenzy](/blog/anthropic-claude-sonnet-4-6-release/)
+- [Anthropic Sonnet 4.6 Rivals Flagship AI at 1/5 the Price!](/blog/anthropic-sonnet-4-6-performance/)

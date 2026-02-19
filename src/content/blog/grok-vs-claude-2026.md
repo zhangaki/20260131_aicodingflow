@@ -1,9 +1,12 @@
 ---
-title: "Grok vs Claude AI Comparison 2026: Coding Performance & Differences"
-description: "Grok vs Claude AI comparison for 2026: coding performance, key differences, pricing, and best model by workflow."
-pubDate: "Dec 21 2025"
-heroImage: "/assets/grok-vs-claude-2026.webp"
-tags: ["AI Tools"]
+title: 'Grok vs Claude 2026: Which AI Is Better?'
+description: 'Compare Grok vs Claude in 2026: strengths, reasoning, coding help, pricing,
+  and best use cases. See which AI fits your workflow and budget.'
+pubDate: Dec 21 2025
+heroImage: /assets/grok-vs-claude-2026.webp
+tags:
+- AI Tools
+updatedDate: Feb 20 2026
 ---
 
 # Grok vs Claude 2026: The Data-Backed Truth

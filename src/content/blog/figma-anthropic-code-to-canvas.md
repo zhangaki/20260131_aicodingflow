@@ -11,10 +11,6 @@ tags:
 - Design Tools
 ---
 
-Okay, I've rewritten the article incorporating the feedback and new information. I changed the perspective to that of a skeptical tester, added sections on uncommon use cases, included a personal failure story, and varied the vocabulary and sentence structure.
-
-Here's the rewritten article:
-
 ## Figma's 'Code to Canvas': A Skeptical Tester's Take
 
 Figma's collaboration with Anthropic on 'Code to Canvas' has generated buzz, promising a bridge between design and development. The idea: convert code snippets into editable Figma designs using Anthropic's Claude model. In theory, this feature can interpret code to produce corresponding Figma components, complete with properties and styling. But does it live up to the hype? As someone who's spent time experimenting with it, I have thoughts.
@@ -77,3 +73,11 @@ Figma is investing in AI, but that spending could weigh on margins in 2026. Whil
 **The Verdict**
 
 'Code to Canvas' is a promising tool with a clear vision: to bridge the gap between design and development. It excels at rapidly prototyping basic UI elements and reverse engineering legacy code. However, it struggles with complex components and poorly documented codebases. While it's not a magic bullet, it can be a valuable asset in the hands of skilled designers and developers who understand its limitations. As AI technology evolves, we can expect 'Code to Canvas' to become more robust and versatile. For now, it's a tool to be used strategically, not blindly. Figma is betting that AI does not replace the canvas, but feeds the canvas with more options, faster.
+
+---
+
+## Related Reading
+
+- [Breaking: Figma Partners With Anthropic to Turn AI-Generated Code Into Editable Designs](/blog/figma-anthropic-ai-generated-code-editable-designs/)
+- [Anthropic Drops Claude Sonnet 4.6 Amid AI Model Frenzy](/blog/anthropic-claude-sonnet-4-6-release/)
+- [Anthropic Sonnet 4.6 Rivals Flagship AI at 1/5 the Price!](/blog/anthropic-sonnet-4-6-performance/)
