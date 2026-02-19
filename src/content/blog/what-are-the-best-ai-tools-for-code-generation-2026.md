@@ -2,7 +2,7 @@
 title: "Top AI Code Generation Tools in 2026"
 description: "Everything you need to know about what are the best ai tools for code generation in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 18 2026"
-heroImage: "/assets/blog-fallback.jpg"
+heroImage: "/assets/blog-fallback.webp"
 tags:
   - AI Agents
   - Dev Tools

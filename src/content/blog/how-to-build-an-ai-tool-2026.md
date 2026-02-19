@@ -2,7 +2,7 @@
 title: "How to Build Your Own AI Tool: A Step-by-Step Guide"
 description: "Everything you need to know about how to build an ai tool in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 18 2026"
-heroImage: "/assets/blog-fallback.jpg"
+heroImage: "/assets/blog-fallback.webp"
 tags:
   - AI Agents
   - Dev Tools

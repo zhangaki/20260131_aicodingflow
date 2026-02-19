@@ -2,7 +2,7 @@
 title: "Claude vs. ChatGPT for Coding 2026: Which AI is Better?"
 description: "Everything you need to know about what is better claude or chatgpt for coding in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 19 2026"
-heroImage: "/assets/blog-fallback.jpg"
+heroImage: "/assets/blog-fallback.webp"
 tags:
   - AI Agents
   - Dev Tools

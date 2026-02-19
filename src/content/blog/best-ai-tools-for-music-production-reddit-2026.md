@@ -2,7 +2,7 @@
 title: "Best AI Music Production Tools: Reddit's Top Picks 2026"
 description: "Everything you need to know about best ai tools for music production reddit in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 18 2026"
-heroImage: "/assets/blog-fallback.jpg"
+heroImage: "/assets/blog-fallback.webp"
 tags:
   - AI Agents
   - Dev Tools

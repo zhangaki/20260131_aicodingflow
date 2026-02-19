@@ -2,7 +2,7 @@
 title: "Top AI Music Video Makers: Tools for Creative Visuals"
 description: "Everything you need to know about best ai tools for making music videos in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 19 2026"
-heroImage: "/assets/blog-fallback.jpg"
+heroImage: "/assets/blog-fallback.webp"
 tags:
   - AI Agents
   - Dev Tools

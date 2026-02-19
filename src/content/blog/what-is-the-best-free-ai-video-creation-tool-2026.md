@@ -2,7 +2,7 @@
 title: "Best Free AI Video Creation Tools in 2026 (Tested)"
 description: "Everything you need to know about what is the best free ai video creation tool in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 18 2026"
-heroImage: "/assets/blog-fallback.jpg"
+heroImage: "/assets/blog-fallback.webp"
 tags:
   - AI Agents
   - Dev Tools

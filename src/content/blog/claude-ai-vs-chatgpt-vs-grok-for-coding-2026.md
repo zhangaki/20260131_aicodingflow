@@ -2,7 +2,7 @@
 title: "Claude vs ChatGPT vs Grok for Coding in 2026"
 description: "Everything you need to know about claude ai vs chatgpt vs grok for coding in 2026. Research-backed insights with hands-on testing."
 pubDate: "Feb 19 2026"
-heroImage: "/assets/blog-fallback.jpg"
+heroImage: "/assets/blog-fallback.webp"
 tags:
   - AI Agents
   - Dev Tools
