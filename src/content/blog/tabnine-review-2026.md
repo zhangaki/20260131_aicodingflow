@@ -1,9 +1,12 @@
 ---
-title: "Tabnine Review 2026: AI Code Completion vs GitHub Copilot & Codeium"
-description: "Tabnine AI code assistant review 2026: Compare free vs Pro ($12/month), privacy features, and performance against GitHub Copilot and Codeium."
-pubDate: "Dec 28 2025"
-heroImage: "/assets/tabnine-review-2026.webp"
-tags: ["Reviews"]
+title: 'Tabnine Pricing 2026: Plans, Costs, What You Get'
+description: 'Tabnine pricing 2026 breakdown: plan tiers, key features, team options,
+  and when it beats Copilot. Compare costs and choose the right plan.'
+pubDate: Dec 28 2025
+heroImage: /assets/tabnine-review-2026.webp
+tags:
+- Reviews
+updatedDate: Feb 20 2026
 ---
 
 ## Tabnine Review 2026: Is It Worth Your Money?
