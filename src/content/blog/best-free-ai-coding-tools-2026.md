@@ -33,6 +33,10 @@ After a week of testing, Codeium emerged as my favorite free AI coding tool. The
 
 Here's a simple example in Python:
 
+
+
+> **Related:** [AI code review bias (and how to reduce it)](/blog/ai-code-reviewer-bias-2026/)
+
 ## FAQ
 
 ### Q: What's the main difference between these tools?
