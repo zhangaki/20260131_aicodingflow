@@ -146,7 +146,7 @@ This is the standard for 2027. **Do not replace; Augment.**
 
 
 
-**Ready to entangle?** Run the [Qiskit Simulation](/tools) or read about how [DNA Storage](/blog/dna-data-storage-for-ai-models) aims to archive the data we are trying so hard to protect.
+**Ready to entangle?** Run the [Qiskit Simulation](/tools) or read about how [DNA Storage](/blog/dna-data-storage-for-ai-models/) aims to archive the data we are trying so hard to protect.
 
 
 

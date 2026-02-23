@@ -127,9 +127,9 @@ I asked Antigravity: *"Fix the authentication bug in `auth.js`"*
 ### Related Comparisons & Resources
 If you're evaluating tools for your digital empire, these deep dives provide critical context:
 
-- [Cursor vs GitHub Copilot 2026 Full Analysis](file:///blog/cursor-vs-github-copilot-2026)
-- [Cursor vs Windsurf 2026 Full Analysis](file:///blog/cursor-vs-windsurf-2026)
-- [Cursor vs Tabnine 2026 Full Analysis](file:///blog/cursor-vs-tabnine-2026)
+- [Cursor vs GitHub Copilot 2026 Full Analysis](/blog/cursor-vs-github-copilot-2026/)
+- [Cursor vs Windsurf 2026 Full Analysis](/blog/cursor-vs-windsurf-2026/)
+- [Cursor vs Tabnine 2026 Full Analysis](/blog/cursor-vs-tabnine-2026/)
 
 *Optimized for US/UK SaaS and Fintech standards.*
 

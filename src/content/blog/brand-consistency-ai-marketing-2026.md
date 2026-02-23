@@ -149,7 +149,7 @@ Scaling without consistency is just expensive entropy. Scaling with consistency 
 
 
 
-**Ready to secure your identity?** Download our [Brand Audit Toolkit](/tools) or read about [AI Verification Markers](/blog/ai-verification-markers-2026) to see how to sign your consistent content.
+**Ready to secure your identity?** Download our [Brand Audit Toolkit](/tools) or read about [AI Verification Markers](/blog/ai-verification-markers-2026/) to see how to sign your consistent content.
 
 
 

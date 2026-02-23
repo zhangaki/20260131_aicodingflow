@@ -65,7 +65,7 @@ The screen will become the *least* important interface. We will inhabit data, br
 
 
 
-**Ready to feel the data?** Build your own [Sonification Script](/tools) or read about [Ambient Workspaces](/blog/ambient-computing-workspaces-2027) to complete your invisible, visceral office setup.
+**Ready to feel the data?** Build your own [Sonification Script](/tools) or read about [Ambient Workspaces](/blog/ambient-computing-workspaces-2027/) to complete your invisible, visceral office setup.
 
 
 

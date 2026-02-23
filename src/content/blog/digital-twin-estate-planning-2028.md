@@ -130,7 +130,7 @@ contract ThanatosProtocol {
 
 
 
-**Ready to plan your exit?** Deploy the [Thanatos Contract](/tools) to the testnet, or read about [The Dyson Sphere of One](/blog/dyson-sphere-of-one-2028) to ensure your Ghost has the energy to run forever.
+**Ready to plan your exit?** Deploy the [Thanatos Contract](/tools) to the testnet, or read about [The Dyson Sphere of One](/blog/dyson-sphere-of-one-2028/) to ensure your Ghost has the energy to run forever.
 
 
 

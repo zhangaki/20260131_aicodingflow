@@ -158,7 +158,7 @@ The Artisan starts slow but compounds exponentially.
 
 
 
-**Ready to invest?** Run the [Market Simulation](/tools) to test your theories, or read about [Digital Twin Estate Planning](/blog/digital-twin-estate-planning-2028) to learn how to pass your digital assets to your AI heirs.
+**Ready to invest?** Run the [Market Simulation](/tools) to test your theories, or read about [Digital Twin Estate Planning](/blog/digital-twin-estate-planning-2028/) to learn how to pass your digital assets to your AI heirs.
 
 
 

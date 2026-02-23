@@ -9,7 +9,7 @@ tags: ["Analysis"]
 The future of the planet isn't being decided in a glass-walled boardroom in Geneva; it's being decided in the top six inches of topsoil in places like the Palouse or the rolling hills of Iowa.
 In 2026, we're seeing a collision of worlds that shouldn't fit together. The digital-first universe of **Agentic AI** is grafting itself onto the ancient, biological reality of **Regenerative Agriculture**. 
 We call it **Silicon Soil**.
-It’s an aesthetic of contradiction: a 1980s CRT monitor glow against a backdrop of organic wheat at dusk, processing real-time microbial respiration while the farmer checks a dashboard from a [Private AI Server](/blog/private-ai-hardware-2026). This isn't just about "Smart Farming"—that's a 2010s buzzword. This is about **Biological Alignment**.
+It’s an aesthetic of contradiction: a 1980s CRT monitor glow against a backdrop of organic wheat at dusk, processing real-time microbial respiration while the farmer checks a dashboard from a [Private AI Server](/blog/private-ai-hardware-2026/). This isn't just about "Smart Farming"—that's a 2010s buzzword. This is about **Biological Alignment**.
 
 
 
@@ -22,7 +22,7 @@ Instead of a single expensive weather station, 2026 farms use thousands of $1.00
 -   **Technical Detail**: The sensors don't send raw data to the cloud (too expensive/latency-heavy). Instead, they use a **Weighted Consensus** algorithm. Each node processes local data at the edge and only sends an "Alert" or a "Summary" when a significant change (e.g., a sudden drop in microbial respiration) is detected.
 
 ### Layer B: The Carbon Arbitrage Agent (The Logic)
-This is where the magic happens. A central agent, likely running on a [Private AI Server](/blog/private-ai-hardware-2026), orchestrates the farm's strategy.
+This is where the magic happens. A central agent, likely running on a [Private AI Server](/blog/private-ai-hardware-2026/), orchestrates the farm's strategy.
 -   **Optimization Target**: Instead of just "Yield," the agent optimizes for **Net Carbon Sequestration**.
 -   **Decision Making**: The agent decides, based on real-time soil health, exactly which cover crop to plant next. It calculates the ROI of planting clover vs. rye, factoring in the current market price of "Verified Carbon Credits." 
 

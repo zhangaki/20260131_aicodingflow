@@ -37,7 +37,7 @@ This is the CTO's engineering manifest for raw, unadulterated inference speed.
 2.  **Move to the Edge** (Regional H100 clusters).
 3.  **Speculate by default**.
 
-**Next Steps**: Audit your [Inference Toolkit](/tools) or see how this affects your [Token Costs](/blog/token-cost-reduction-2026).
+**Next Steps**: Audit your [Inference Toolkit](/tools) or see how this affects your [Token Costs](/blog/token-cost-reduction-2026/).
 
 
 

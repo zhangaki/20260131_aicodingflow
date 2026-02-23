@@ -127,7 +127,7 @@ This simple logic—holding data until the link is solid—is what allows the Vo
 
 
 
-**Reach for the stars.** Run the [DTN Sim](/tools) to plan your Mars mission, or read the final article [The Omega Point Strategy](/blog/omega-point-2030) to see what happens when we turn the entire solar system into a computer.
+**Reach for the stars.** Run the [DTN Sim](/tools) to plan your Mars mission, or read the final article [The Omega Point Strategy](/blog/omega-point-2030/) to see what happens when we turn the entire solar system into a computer.
 
 
 

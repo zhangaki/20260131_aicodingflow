@@ -11,7 +11,7 @@ tags: ["AI Tools"]
 ### Related Comparisons & Resources
 If you're evaluating tools for your digital empire, these deep dives provide critical context:
 
-- [Gemini vs Claude 2026 Full Analysis](file:///blog/claude-vs-gemini-2026)
+- [Gemini vs Claude 2026 Full Analysis](/blog/claude-vs-gemini-2026/)
 
 *Optimized for US/UK SaaS and Fintech standards.*
 

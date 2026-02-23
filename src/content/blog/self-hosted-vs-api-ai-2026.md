@@ -138,7 +138,7 @@ This gives you cost efficiency, access to cutting-edge models, and resilience.
 
 
 
-**Ready to run your own AI?** Explore our [Self-Hosting Blueprint](/tools) or dive into [AI Compute Cost Arbitrage](/blog/ai-compute-cost-arbitrage-2026) for more optimization strategies.
+**Ready to run your own AI?** Explore our [Self-Hosting Blueprint](/tools) or dive into [AI Compute Cost Arbitrage](/blog/ai-compute-cost-arbitrage-2026/) for more optimization strategies.
 
 
 

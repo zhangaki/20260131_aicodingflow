@@ -126,7 +126,7 @@ droid.startActivity(intent=intent)
 
 For an AI OS to feel truly "real" and intuitive, it must be fast. Human perception of lag begins at around 100ms. Currently, a cloud-based action (Request -> Cloud Processing -> UI Interpretation -> Action) takes approximately 2-3 seconds. That's an eternity in user experience terms.
 
-The current "Latency War" is being fought in **Neural Processing Units (NPUs)**. By processing the UI frame locally using a "Compressed" Vision Model (see [Quantization Math](/blog/on-device-quantization-2026) for details on model compression techniques like quantization and pruning), we can potentially hit the 200ms mark. This is the difference between an "Assistant" that feels clunky and unresponsive and an "Extension of Self" that seamlessly integrates into the user's workflow.
+The current "Latency War" is being fought in **Neural Processing Units (NPUs)**. By processing the UI frame locally using a "Compressed" Vision Model (see [Quantization Math](/blog/on-device-quantization-2026/) for details on model compression techniques like quantization and pruning), we can potentially hit the 200ms mark. This is the difference between an "Assistant" that feels clunky and unresponsive and an "Extension of Self" that seamlessly integrates into the user's workflow.
 
 Apple's Neural Engine (ANE) and Google's Tensor Processing Unit (TPU) are prime examples of NPUs designed to accelerate AI tasks on mobile devices. These chips allow for significantly faster and more energy-efficient processing of machine learning models, enabling the deployment of LAMs directly on the phone.
 

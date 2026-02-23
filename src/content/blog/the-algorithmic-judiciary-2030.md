@@ -66,7 +66,7 @@ This proved that **Human Consensus is the Layer 1** that secures the rigid logic
 
 
 
-**Order in the court.** Run the [Legal RAG Script](/tools) to analyze your own contracts, or read about [Personal Bio-Foundries](/blog/personal-bio-foundries-2030) to see how regulation fails when you can print drugs at home.
+**Order in the court.** Run the [Legal RAG Script](/tools) to analyze your own contracts, or read about [Personal Bio-Foundries](/blog/personal-bio-foundries-2030/) to see how regulation fails when you can print drugs at home.
 
 
 

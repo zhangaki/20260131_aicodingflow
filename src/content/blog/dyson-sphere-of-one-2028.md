@@ -78,7 +78,7 @@ print("   (Annualized: ${:.2f})".format(bot.cash * 365))
 
 
 
-**Ready to unplug?** Run the [Arbitrage Bot](/tools) to optimize your grid usage, or see how energy sovereignty powers the [Interplanetary Internet](/blog/interplanetary-internet-2030).
+**Ready to unplug?** Run the [Arbitrage Bot](/tools) to optimize your grid usage, or see how energy sovereignty powers the [Interplanetary Internet](/blog/interplanetary-internet-2030/).
 
 
 

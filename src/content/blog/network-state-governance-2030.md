@@ -136,7 +136,7 @@ Combine this with a **Gnosis Safe** for treasury management and **Snapshot** for
 
 
 
-**Fork the system.** Deploy your [Citizenship Contract](/tools) to the testnet, or see the final evolution of governance in [The Omega Point Strategy](/blog/omega-point-2030).
+**Fork the system.** Deploy your [Citizenship Contract](/tools) to the testnet, or see the final evolution of governance in [The Omega Point Strategy](/blog/omega-point-2030/).
 
 
 

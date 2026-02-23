@@ -62,7 +62,7 @@ It proved that once biology becomes data, it flows like water.
 
 
 
-**Print responsibly.** Run the [Codon Optimizer](/tools) to design your first plasmid, or read about [The Network State](/blog/network-state-governance-2030) to see where the bio-hackers are fleeing to hide from the FDA.
+**Print responsibly.** Run the [Codon Optimizer](/tools) to design your first plasmid, or read about [The Network State](/blog/network-state-governance-2030/) to see where the bio-hackers are fleeing to hide from the FDA.
 
 
 

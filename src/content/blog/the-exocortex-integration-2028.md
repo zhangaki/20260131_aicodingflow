@@ -66,7 +66,7 @@ She "remembers" the patient's specific anatomy instantly, though she had never c
 
 
 
-**Your mind is your own.** Run the [Vector Search Tool](/tools) to build your local exocortex, or read about [Cognitive Sovereignty](/blog/cognitive-sovereignty-hive-mind-2030) to learn how to defend it from the hive.
+**Your mind is your own.** Run the [Vector Search Tool](/tools) to build your local exocortex, or read about [Cognitive Sovereignty](/blog/cognitive-sovereignty-hive-mind-2030/) to learn how to defend it from the hive.
 
 
 
