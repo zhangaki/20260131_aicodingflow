@@ -106,6 +106,10 @@ This depends on your needs and whether you already subscribe to X Premium. If yo
 *   **Pick Claude if...** you need a powerful and versatile AI for coding, writing, and analysis. Its large context window and strong reasoning capabilities make it ideal for complex tasks.
 *   **Pick both if...** you need the strengths of both models. Use Grok for real-time insights and Claude for in-depth analysis and content creation.
 
+
+
+> **Related:** [context windows (and why they matter)](/blog/ai-memory-context-window-explained-2026/)
+
 ## FAQ
 
 **1. Can I use Grok or Claude locally without an internet connection?**

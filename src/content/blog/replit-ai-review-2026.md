@@ -1,9 +1,12 @@
 ---
-title: "Replit AI Features 2026: Agent Capabilities, Ghostwriter Pricing"
-description: "Replit AI features in 2026: agent workflow, Ghostwriter pricing, limits, and best-fit use cases for coding teams."
-pubDate: "Feb 01 2026"
-heroImage: "/assets/replit-ai-review-2026.webp"
-tags: ["Reviews"]
+title: 'Replit AI Features 2026: Agent, App Builder, Pricing'
+description: Explore Replit AI features 2026, including the agent workflow, app builder,
+  and pricing. See what it’s best for and where it falls short.
+pubDate: Feb 01 2026
+heroImage: /assets/replit-ai-review-2026.webp
+tags:
+- Reviews
+updatedDate: Feb 23 2026
 ---
 
 ## Replit AI Review 2026: Is It Worth Your Money?
