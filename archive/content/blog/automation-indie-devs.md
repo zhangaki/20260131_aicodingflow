@@ -1,0 +1,1 @@
+This is the content of Automation for Independent Developers.

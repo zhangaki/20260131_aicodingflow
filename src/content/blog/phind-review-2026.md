@@ -1,11 +1,13 @@
 ---
-title: "Phind Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Phind in 2026. We cover features, pricing tiers,"
-pubDate: "Jan 11 2026"
-heroImage: "/assets/phind-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:22:06.359159'
+am_last_deterministic_review_by: worker-49
+description: An in-depth review of Phind in 2026. We cover features, pricing tiers,
+heroImage: /assets/phind-review-2026.webp
+pubDate: Jan 11 2026
+tags:
+- Reviews
+title: 'Phind Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
-
 ## Phind Review 2026: Is It Worth Your Money?
 
 During our 'Head-to-Head' engineering audit last month, we found that Phind handles large-scale tasks with surprising stability.

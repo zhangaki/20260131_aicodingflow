@@ -1,11 +1,13 @@
 ---
-title: "Shadow AI Risk 2026: How to Detect & Prevent Unauthorized AI"
-description: "A leaked transcript of the internal debate between Corporate Security"
-pubDate: "Jan 03 2026"
-heroImage: "/assets/shadow-ai-risk-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:52.576244'
+am_last_deterministic_review_by: worker-06
+description: A leaked transcript of the internal debate between Corporate Security
+heroImage: /assets/shadow-ai-risk-2026.webp
+pubDate: Jan 03 2026
+tags:
+- Analysis
+title: 'Shadow AI Risk 2026: How to Detect & Prevent Unauthorized AI'
 ---
-
 Most people look at "Shadow AI" and see a security leak. I look at it and see a **Sovereignty Crisis**. 
 
 The corporate world is currently engaged in a cold war with its most productive employees. In 2026, the weapon of choice isn't a thumb drive; it's a locally-hosted swarm of agents that don't answer to the CISO. 

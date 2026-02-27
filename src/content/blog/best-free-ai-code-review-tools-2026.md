@@ -1,13 +1,15 @@
 ---
-title: "Best Free AI Code Review Tools in 2026 (Lint, PRs, Security)"
-description: "Everything you need to know about best free ai code review tools in 2026. Research-backed insights with hands-on testing."
-pubDate: "Feb 23 2026"
-heroImage: "/assets/blog-fallback.webp"
+am_last_deterministic_review_at: '2026-02-25T16:31:15.671930'
+am_last_deterministic_review_by: worker-39
+description: Everything you need to know about best free ai code review tools in 2026.
+  Research-backed insights with hands-on testing.
+heroImage: /assets/blog-fallback.webp
+pubDate: Feb 23 2026
 tags:
-  - AI Agents
-  - Dev Tools
+- AI Agents
+- Dev Tools
+title: Best Free AI Code Review Tools in 2026 (Lint, PRs, Security)
 ---
-
 You want “best free ai code review tools,” but “free” means different things in practice: truly open-source and self-hostable, free tiers with usage caps, or free add-ons that need an existing CI stack. I tested the tools below on real pull requests (TypeScript + Python), including lint issues, flaky tests, and a couple of intentionally vulnerable snippets (dependency + insecure deserialization) to see what they catch, how noisy they are, and whether the “AI” part actually helps.
 
 ## What “Free” Really Means for AI Code Review (and How I Tested)

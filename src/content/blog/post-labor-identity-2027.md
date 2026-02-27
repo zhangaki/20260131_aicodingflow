@@ -1,11 +1,15 @@
 ---
-title: "The Void and the Valor: Managing Identity in the Post-Labor Economy of 2027"
-description: "Who are you when you no longer need to work? A technical and philosophical guide to building identity infrastructure—on-chain reputation, proof of humanity, and the psychology of meaning—in a world where AI handles the doing."
-pubDate: "Dec 03 2025"
-heroImage: "/assets/post-labor-identity.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:27.320396'
+am_last_deterministic_review_by: worker-44
+description: Who are you when you no longer need to work? A technical and philosophical
+  guide to building identity infrastructure—on-chain reputation, proof of humanity,
+  and the psychology of meaning—in a world where AI handles the doing.
+heroImage: /assets/post-labor-identity.webp
+pubDate: Dec 03 2025
+tags:
+- Analysis
+title: 'The Void and the Valor: Managing Identity in the Post-Labor Economy of 2027'
 ---
-
 For 300 years, the question "Who are you?" has been functionally identical to "What do you do?"
 *I am a lawyer. I am a coder. I am a truck driver.*
 

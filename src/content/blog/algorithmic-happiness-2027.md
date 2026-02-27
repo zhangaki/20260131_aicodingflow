@@ -1,11 +1,13 @@
 ---
-title: "Algorithmic Happiness 2027"
-description: "Autonomous intelligence trends and technical deep dives into the 2026-2030"
-pubDate: "Dec 28 2025"
-heroImage: "/assets/algorithmic-happiness.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:26:41.906635'
+am_last_deterministic_review_by: worker-32
+description: Autonomous intelligence trends and technical deep dives into the 2026-2030
+heroImage: /assets/algorithmic-happiness.webp
+pubDate: Dec 28 2025
+tags:
+- Analysis
+title: Algorithmic Happiness 2027
 ---
-
 title: 'Algorithmic Asphyxiation: When "Optimized" Feeds Suffocate the Soul'
 description: 'The promise of AI-curated happiness is turning into a dystopia of personalized echo chambers. A report from the front lines of the attention wars, detailing the failure modes and real-world consequences of algorithmic "optimization".'
 pubDate: 'Feb 04 2026'

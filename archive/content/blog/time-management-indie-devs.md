@@ -1,0 +1,1 @@
+This is a placeholder for the Time Management article. For a comprehensive list of tools to help you manage your development workflow, see our recommendations for [Essential Tools for Indie Developers in 2024](essential-tools-indie-devs).

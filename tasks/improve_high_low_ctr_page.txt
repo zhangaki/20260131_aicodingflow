@@ -1,0 +1,6 @@
+1. Get page impression and CTR data.
+2. Identify a high-impression/low-CTR page.
+3. Analyze the page and search intent.
+4. Improve title, description, and intro.
+5. Record changes and expected impact.
+6. Schedule follow-up check.

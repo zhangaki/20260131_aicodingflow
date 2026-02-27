@@ -1,11 +1,13 @@
 ---
-title: "Using Sora for Generating Cinematic Video Clips: A Practical 2026 Walkthrough"
-description: "Learn how to use Sora effectively for generating cinematic video clips."
-pubDate: "Dec 18 2025"
-heroImage: "/assets/how-to-use-sora-for-generating-cinematic-video-clips-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:27:56.125922'
+am_last_deterministic_review_by: worker-36
+description: Learn how to use Sora effectively for generating cinematic video clips.
+heroImage: /assets/how-to-use-sora-for-generating-cinematic-video-clips-2026.webp
+pubDate: Dec 18 2025
+tags:
+- Guides
+title: 'Using Sora for Generating Cinematic Video Clips: A Practical 2026 Walkthrough'
 ---
-
 ## A Practitioner's Guide to Sora for Generating Cinematic Video Clips
 
 After using Sora in our internal production environment for three weeks, our team noticed a significant shift in workflow velocity.

@@ -1,0 +1,3 @@
+Added contextual links to improve crawl and conversion paths. 
+Source files: best-ai-writing-tools.md, ai-tools-for-writers-updated.md, ai-content-creation-checklist.md, ai-tools-guide-updated9_fixed.md, ai-tools-productivity.md. 
+Target files: keyword-research.astro, ai-tools-guide-seo-optimization.md, ai-tools-for-developers.md, automate-workflow-guide-updated.md, ai-powered-productivity-tips-updated.md.

@@ -1,11 +1,14 @@
 ---
-title: "Midjourney V7 Review 2026: Pricing, Free Trial & Image Quality Test"
-description: "In-depth Midjourney V7 review for 2026: $10/month pricing, free trial details, image quality comparison vs DALL-E 3 and Stable Diffusion XL."
-pubDate: "Feb 03 2026"
-heroImage: "/assets/midjourney-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:23:14.441459'
+am_last_deterministic_review_by: worker-44
+description: 'In-depth Midjourney V7 review for 2026: $10/month pricing, free trial
+  details, image quality comparison vs DALL-E 3 and Stable Diffusion XL.'
+heroImage: /assets/midjourney-review-2026.webp
+pubDate: Feb 03 2026
+tags:
+- Reviews
+title: 'Midjourney V7 Review 2026: Pricing, Free Trial & Image Quality Test'
 ---
-
 ## Midjourney: The 2026 Reality Check
 
 We switched our core workflow over to Midjourney for a recent client project to see if it lived up to the noise. Here's what we found.

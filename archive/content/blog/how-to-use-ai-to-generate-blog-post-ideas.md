@@ -1,0 +1,1 @@
+Make sure to perform <a href="/seo-keyword-research">SEO keyword research</a> before using AI to generate blog post ideas.Discover how to target specific audiences by learning about [long-tail keyword research](long-tail-keyword-research.md).

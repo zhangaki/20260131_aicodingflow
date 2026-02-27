@@ -1,11 +1,14 @@
 ---
-title: "How to Automate with Salesforce Einstein 2026: Workflow Guide"
-description: "Automate business workflows with Salesforce Einstein AI in 2026: predictive analytics, lead automation, integration setup, and best practices."
-pubDate: "Dec 29 2025"
-heroImage: "/assets/how-to-use-salesforce-einstein-for-automating-business-workflows-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:27:49.304426'
+am_last_deterministic_review_by: worker-31
+description: 'Automate business workflows with Salesforce Einstein AI in 2026: predictive
+  analytics, lead automation, integration setup, and best practices.'
+heroImage: /assets/how-to-use-salesforce-einstein-for-automating-business-workflows-2026.webp
+pubDate: Dec 29 2025
+tags:
+- Guides
+title: 'How to Automate with Salesforce Einstein 2026: Workflow Guide'
 ---
-
 ## A Practitioner's Guide to Salesforce Einstein for Automating Business Workflows
 
 We first discovered Salesforce Einstein during a hackathon, and it's been a mainstay in our stack ever since.

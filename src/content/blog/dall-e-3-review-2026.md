@@ -1,11 +1,13 @@
 ---
-title: "DALL-E 3 Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of DALL-E 3 in 2026. We cover features, pricing tiers,"
-pubDate: "Jan 18 2026"
-heroImage: "/assets/dall-e-3-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:16:27.950006'
+am_last_deterministic_review_by: worker-44
+description: An in-depth review of DALL-E 3 in 2026. We cover features, pricing tiers,
+heroImage: /assets/dall-e-3-review-2026.webp
+pubDate: Jan 18 2026
+tags:
+- Reviews
+title: 'DALL-E 3 Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
-
 ## DALL-E 3 Review 2026: Is It Worth Your Money?
 
 Our team ran DALL-E 3 alongside three competitors for a month-long stress test. The results were not what we expected.

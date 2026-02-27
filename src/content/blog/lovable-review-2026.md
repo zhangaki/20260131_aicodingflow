@@ -1,11 +1,13 @@
 ---
-title: "Lovable AI Review 2026: Features, Pricing & vs Bolt Comparison"
-description: "An in-depth review of Lovable in 2026. We cover features, pricing tiers,"
-pubDate: "Dec 01 2025"
-heroImage: "/assets/lovable-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:23:17.093776'
+am_last_deterministic_review_by: worker-16
+description: An in-depth review of Lovable in 2026. We cover features, pricing tiers,
+heroImage: /assets/lovable-review-2026.webp
+pubDate: Dec 01 2025
+tags:
+- Reviews
+title: 'Lovable AI Review 2026: Features, Pricing & vs Bolt Comparison'
 ---
-
 ## Lovable Review 2026: Is It Worth Your Money?
 
 I've been recommending Lovable to clients in regulated industries, and the feedback has been overwhelmingly positive.

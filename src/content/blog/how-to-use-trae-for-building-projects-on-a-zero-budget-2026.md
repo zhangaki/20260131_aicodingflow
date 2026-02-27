@@ -1,11 +1,14 @@
 ---
-title: "How to Use Trae to Build Projects for Free 2026: Zero-Budget Guide"
-description: "Build full projects with Trae AI on zero budget in 2026: free tier limits, resource optimization, deployment strategies, and cost-saving tips."
-pubDate: "Dec 15 2025"
-heroImage: "/assets/how-to-use-trae-for-building-projects-on-a-zero-budget-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:27:55.378219'
+am_last_deterministic_review_by: worker-08
+description: 'Build full projects with Trae AI on zero budget in 2026: free tier limits,
+  resource optimization, deployment strategies, and cost-saving tips.'
+heroImage: /assets/how-to-use-trae-for-building-projects-on-a-zero-budget-2026.webp
+pubDate: Dec 15 2025
+tags:
+- Guides
+title: 'How to Use Trae to Build Projects for Free 2026: Zero-Budget Guide'
 ---
-
 ## How to Use Trae for Building Projects on a Zero Budget: Everything You Need to Know
 
 During our 'Head-to-Head' engineering audit last month, we found that Trae handles large-scale tasks with surprising stability.

@@ -1,11 +1,15 @@
 ---
-title: "How to Use Bolt.new for 10x Productivity 2026: Complete Tutorial"
-description: "Master Bolt.new in 2026: instant full-stack apps, AI code generation, deployment workflow, and productivity tips to build projects faster."
-pubDate: "Feb 07 2026"
-heroImage: "/assets/how-to-use-boltnew-for-boosting-your-productivity-2026.webp"
-tags: ["Guides", "IDE"]
+am_last_deterministic_review_at: '2026-02-25T16:32:24.281426'
+am_last_deterministic_review_by: worker-43
+description: 'Master Bolt.new in 2026: instant full-stack apps, AI code generation,
+  deployment workflow, and productivity tips to build projects faster.'
+heroImage: /assets/how-to-use-boltnew-for-boosting-your-productivity-2026.webp
+pubDate: Feb 07 2026
+tags:
+- Guides
+- IDE
+title: 'How to Use Bolt.new for 10x Productivity 2026: Complete Tutorial'
 ---
-
 ## A Practitioner's Guide to bolt.new for Boosting Your Productivity
 
 We first discovered bolt.new during a hackathon, and it's been a mainstay in our stack ever since.

@@ -1,14 +1,16 @@
 ---
-title: "Claude AI Features 2026: Pricing, Capabilities & Sonnet Options"
-description: "Claude AI features in 2026, including pricing, model capabilities, and which Sonnet tier is best for coding workloads."
-pubDate: Jan 05 2026
+am_last_deterministic_review_at: '2026-02-25T16:33:46.485056'
+am_last_deterministic_review_by: worker-36
+description: Claude AI features in 2026, including pricing, model capabilities, and
+  which Sonnet tier is best for coding workloads.
 heroImage: /assets/claude-review-2026.webp
+pubDate: Jan 05 2026
 tags:
 - AI Tools
 - Reviews
+title: 'Claude AI Features 2026: Pricing, Capabilities & Sonnet Options'
 updatedDate: '2026-02-16'
 ---
-
 ## Claude Review 2026: Is It Worth Your Money?
 
 After using Claude in our internal production environment for three weeks, our team noticed a significant shift in workflow velocity.

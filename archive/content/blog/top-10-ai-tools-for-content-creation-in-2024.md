@@ -1,0 +1,1 @@
+To understand where the content creation industry is heading, read our article on [the future of AI in content creation](the-future-of-content-creation.md).

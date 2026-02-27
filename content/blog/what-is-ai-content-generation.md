@@ -1,0 +1,1 @@
+This is a placeholder for the "What is AI Content Generation?" page. It explains the concept of AI content generation, its benefits, and limitations. You might also be interested in [Best AI Writing Tools for Bloggers](best-ai-writing-tools.md).

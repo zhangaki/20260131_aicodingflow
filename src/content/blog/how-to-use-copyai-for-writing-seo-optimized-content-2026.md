@@ -1,11 +1,14 @@
 ---
-title: "Using Copy.ai for Writing SEO-Optimized Content: A Practical 2026 Walkthrough"
-description: "Learn how to use Copy.ai effectively for writing seo-optimized content."
-pubDate: "Jan 04 2026"
-heroImage: "/assets/how-to-use-copyai-for-writing-seo-optimized-content-2026.webp"
-tags: ["Guides", "Marketing"]
+am_last_deterministic_review_at: '2026-02-25T16:28:53.276180'
+am_last_deterministic_review_by: worker-01
+description: Learn how to use Copy.ai effectively for writing seo-optimized content.
+heroImage: /assets/how-to-use-copyai-for-writing-seo-optimized-content-2026.webp
+pubDate: Jan 04 2026
+tags:
+- Guides
+- Marketing
+title: 'Using Copy.ai for Writing SEO-Optimized Content: A Practical 2026 Walkthrough'
 ---
-
 ## A Practitioner's Guide to Copy.ai for Writing SEO-Optimized Content
 
 I've been testing Copy.ai on several side projects lately, and the real-world performance is impressive compared to the marketing hype.

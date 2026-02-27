@@ -1,11 +1,13 @@
 ---
-title: "CrewAI Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of CrewAI in 2026. We cover features, pricing tiers,"
-pubDate: "Jan 15 2026"
-heroImage: "/assets/crewai-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:33:26.932224'
+am_last_deterministic_review_by: worker-40
+description: An in-depth review of CrewAI in 2026. We cover features, pricing tiers,
+heroImage: /assets/crewai-review-2026.webp
+pubDate: Jan 15 2026
+tags:
+- Reviews
+title: 'CrewAI Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
-
 ## CrewAI Review 2026: Is It Worth Your Money?
 
 After using CrewAI in our internal production environment for three weeks, our team noticed a significant shift in workflow velocity.

@@ -1,11 +1,13 @@
 ---
-title: "Sora vs HeyGen 2026: The Data-Backed Truth"
-description: "We compared Sora and HeyGen over 30 days of testing. See the raw results,"
-pubDate: "Dec 09 2025"
-heroImage: "/assets/sora-vs-heygen-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:50.712202'
+am_last_deterministic_review_by: worker-22
+description: We compared Sora and HeyGen over 30 days of testing. See the raw results,
+heroImage: /assets/sora-vs-heygen-2026.webp
+pubDate: Dec 09 2025
+tags:
+- Analysis
+title: 'Sora vs HeyGen 2026: The Data-Backed Truth'
 ---
-
 # Sora vs HeyGen 2026: The Data-Backed Truth
 
 | Feature | Sora | HeyGen |

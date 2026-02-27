@@ -1,0 +1,260 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import BackgroundEffects from '../../components/BackgroundEffects.astro';
+
+const title = 'HubSpot vs Pipedrive: Which CRM Is Better For Small Teams?';
+const description =
+  'Practical HubSpot vs Pipedrive comparison for SMB teams: setup speed, pipeline control, marketing depth, and a fast decision framework.';
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      main {
+        width: 100% !important;
+        max-width: 940px !important;
+        margin: 0 auto !important;
+        padding: 7.2rem 1.4rem 3rem !important;
+      }
+      .hero {
+        border-radius: 24px;
+        padding: 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: linear-gradient(135deg, rgba(233, 107, 70, 0.18), rgba(111, 177, 252, 0.08));
+      }
+      .hero h1 {
+        margin: 0 0 0.8rem 0;
+        font-size: 2.5rem;
+        line-height: 1.08;
+        letter-spacing: -0.04em;
+      }
+      .hero p {
+        margin: 0;
+        color: #d4d4d8;
+        line-height: 1.8;
+      }
+      .note {
+        margin-top: 0.75rem;
+        font-size: 0.86rem;
+        color: #a1a1aa;
+      }
+      .affiliate-disclosure {
+        margin: 0.55rem 0 0 0;
+        color: #a1a1aa;
+        font-size: 0.82rem;
+        line-height: 1.55;
+      }
+
+      .section {
+        margin-top: 1.3rem;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.02);
+        padding: 1.2rem;
+      }
+      h2 {
+        margin: 0 0 0.65rem 0;
+        font-size: 1.4rem;
+      }
+      p,
+      li {
+        color: #d4d4d8;
+      }
+      ul {
+        margin: 0.7rem 0 0 1rem;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 0.4rem;
+      }
+      th,
+      td {
+        padding: 0.75rem;
+        text-align: left;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        font-size: 0.9rem;
+      }
+      th {
+        color: #e2e8f0;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.75rem;
+      }
+      td {
+        color: #cbd5e1;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+      .winner {
+        border: 1px solid rgba(35, 213, 171, 0.25);
+        background: rgba(35, 213, 171, 0.06);
+      }
+      .links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.8rem;
+      }
+      .links a {
+        text-decoration: none;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 12px;
+        padding: 0.75rem 0.85rem;
+        color: #f1f5f9;
+        font-size: 0.92rem;
+      }
+      .links a:hover {
+        border-color: rgba(233, 107, 70, 0.42);
+      }
+
+      @media (max-width: 760px) {
+        main {
+          padding: 6.1rem 1rem 2rem !important;
+        }
+        .hero {
+          padding: 1.25rem;
+        }
+        .hero h1 {
+          font-size: 1.85rem;
+        }
+        .grid,
+        .links {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <BackgroundEffects />
+    <main>
+      <section class="hero">
+        <h1>HubSpot vs Pipedrive: Which CRM Is Better?</h1>
+        <p>
+          If your team is mostly sales-driven and wants speed, Pipedrive is usually the faster path. If you need
+          marketing automation, service workflows, and CRM in one stack, HubSpot is usually the stronger long-term choice.
+        </p>
+        <div class="note">Tip: validate with a current trial period and track pipeline velocity + lead-to-close conversion.</div>
+      </section>
+
+      <section class="section">
+        <h2>Quick Comparison</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Decision Factor</th>
+              <th>HubSpot CRM</th>
+              <th>Pipedrive</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Setup speed</td>
+              <td>Moderate, broader setup surface</td>
+              <td>Fast, focused on pipeline-first rollout</td>
+            </tr>
+            <tr>
+              <td>Sales pipeline clarity</td>
+              <td>Good, but broader suite can add complexity</td>
+              <td>Excellent for straightforward deal tracking</td>
+            </tr>
+            <tr>
+              <td>Marketing automation depth</td>
+              <td>Strong native option across lifecycle stages</td>
+              <td>Limited compared with HubSpot's marketing stack</td>
+            </tr>
+            <tr>
+              <td>Cross-team expansion</td>
+              <td>High potential as sales, service, and marketing scale</td>
+              <td>Best when CRM scope stays sales-centric</td>
+            </tr>
+            <tr>
+              <td>Best fit</td>
+              <td>SMBs building one GTM operating system</td>
+              <td>Sales teams prioritizing simple execution</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="grid">
+        <article class="section winner">
+          <h2>Choose HubSpot If You Need:</h2>
+          <ul>
+            <li>One platform for marketing, sales, and service handoffs.</li>
+            <li>Lifecycle automation beyond pipeline management.</li>
+            <li>A CRM that can scale with a broader growth team.</li>
+          </ul>
+          <p><a href="https://www.hubspot.com/products/crm" target="_blank" rel="nofollow sponsored noopener">Check HubSpot CRM</a></p>
+        </article>
+        <article class="section">
+          <h2>Choose Pipedrive If You Need:</h2>
+          <ul>
+            <li>A lean CRM your sales team can adopt in days, not weeks.</li>
+            <li>Clear visual deal stages with minimal overhead.</li>
+            <li>Lower-cost validation before committing to a full GTM suite.</li>
+          </ul>
+          <p><a href="https://www.pipedrive.com/" target="_blank" rel="nofollow sponsored noopener">Check Pipedrive</a></p>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>30-Day Selection Framework</h2>
+        <p class="affiliate-disclosure">Disclosure: Some links below are sponsored or affiliate links. We may earn a commission at no extra cost to you.</p>
+        <ul>
+          <li>Week 1: import a real lead list and recreate your actual pipeline stages.</li>
+          <li>Week 2: run 10 live deals, then compare stage progression speed per rep.</li>
+          <li>Week 3: test reporting quality for weekly forecast and conversion review.</li>
+          <li>Week 4: score admin load (new user setup, workflow edits, data hygiene).</li>
+        </ul>
+        <p>
+          Final tie-breaker: pick the platform where your team logs activity consistently without extra management pressure.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Next Read</h2>
+        <div class="links">
+          <a href="/crm/">CRM hub and fit tool</a>
+          <a href="/crm/hubspot-vs-monday/">HubSpot vs Monday CRM</a>
+          <a href="/crm/best-crm-for-small-business/">Best CRM for small business</a>
+        </div>
+      </section>
+    </main>
+    <Footer />
+    <script is:inline>
+      function trackEvent(eventName, params = {}) {
+        if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+          window.gtag('event', eventName, params);
+        }
+      }
+
+      function resolveVendor(href) {
+        if (href.includes('hubspot.com')) {
+          return 'hubspot';
+        }
+        if (href.includes('pipedrive.com')) {
+          return 'pipedrive';
+        }
+        return 'other';
+      }
+
+      document.querySelectorAll('a[rel~="sponsored"]').forEach((link) => {
+        link.addEventListener('click', () => {
+          const href = link.getAttribute('href') || '';
+          trackEvent('crm_affiliate_link_click', {
+            location: 'crm_hubspot_vs_pipedrive',
+            vendor: resolveVendor(href),
+            link_text: (link.textContent || '').trim() || 'unknown',
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

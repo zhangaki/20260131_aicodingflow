@@ -1,11 +1,13 @@
 ---
-title: "v0 by Vercel vs bolt.new: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of v0 by Vercel and bolt.new. Pricing,"
-pubDate: "Feb 05 2026"
-heroImage: "/assets/v0-by-vercel-vs-boltnew-2026.webp"
-tags: ["IDE"]
+am_last_deterministic_review_at: '2026-02-25T16:22:57.818250'
+am_last_deterministic_review_by: worker-33
+description: A side-by-side technical audit of v0 by Vercel and bolt.new. Pricing,
+heroImage: /assets/v0-by-vercel-vs-boltnew-2026.webp
+pubDate: Feb 05 2026
+tags:
+- IDE
+title: 'v0 by Vercel vs bolt.new: The 2026 Feature Matrix'
 ---
-
 # v0 by Vercel vs bolt.new: The 2026 Feature Matrix
 
 Here's the expanded article, adhering to your requirements:

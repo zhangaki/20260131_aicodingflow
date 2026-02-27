@@ -1,11 +1,13 @@
 ---
-title: "The Cloud Country: From Discord Server to Sovereign Soil (The Network State"
-description: "Why vote when you can fork? A technical and political roadmap to founding"
-pubDate: "Dec 30 2025"
-heroImage: "/assets/network-state-cover.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:23:17.645643'
+am_last_deterministic_review_by: worker-15
+description: Why vote when you can fork? A technical and political roadmap to founding
+heroImage: /assets/network-state-cover.webp
+pubDate: Dec 30 2025
+tags:
+- Analysis
+title: 'The Cloud Country: From Discord Server to Sovereign Soil (The Network State'
 ---
-
 The Nation State is the Operating System of 1648 (The Treaty of Westphalia).
 It is increasingly buggy, bloated, and incompatible with the digital age.
 It bundles services—Security, Healthcare, Education, Law—into a "Take it or Leave it" subscription called Citizenship.
@@ -159,4 +161,3 @@ Combine this with a **Gnosis Safe** for treasury management and **Snapshot** for
 - [The Agent Bazaar: Monetizing AI Agents in the 2026 Marketplace Economy](/blog/ai-agent-marketplace-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

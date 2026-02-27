@@ -1,11 +1,14 @@
 ---
-title: "How to Use Phind for Research 2026: Developer Search Tutorial"
-description: "Complete Phind tutorial for deep research projects in 2026: code search, technical documentation, citation tracking, and productivity tips."
-pubDate: "Jan 24 2026"
-heroImage: "/assets/how-to-use-phind-for-deep-research-projects-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:29:12.430557'
+am_last_deterministic_review_by: worker-12
+description: 'Complete Phind tutorial for deep research projects in 2026: code search,
+  technical documentation, citation tracking, and productivity tips.'
+heroImage: /assets/how-to-use-phind-for-deep-research-projects-2026.webp
+pubDate: Jan 24 2026
+tags:
+- Guides
+title: 'How to Use Phind for Research 2026: Developer Search Tutorial'
 ---
-
 ## A Practitioner's Guide to Phind for Deep Research Projects
 
 If you're coming from a traditional setup, the learning curve for Phind is real, but our actual usage data shows it's worth it for heavy users.

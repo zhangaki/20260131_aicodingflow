@@ -1,0 +1,2 @@
+Looking for ways to boost your productivity? To automate other aspects of your work, see our guide to the [top AI productivity tools](/ai-productivity-tools.md)Want to learn how AI can specifically help with managing your time? Read our article on [Time Management with AI](/blog/time-management-ai).
+You can further enhance your productivity by [automating repetitive tasks with AI](/blog/automate-tasks-with-ai).

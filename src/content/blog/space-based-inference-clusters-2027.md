@@ -1,11 +1,13 @@
 ---
-title: "High Orbit Intelligence: Space-Based Inference Clusters (SBIC) in 2027"
-description: "Why build data centers on Earth when space offers free cooling, vacuum"
-pubDate: "Jan 24 2026"
-heroImage: "/assets/space-inference.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:32.394665'
+am_last_deterministic_review_by: worker-45
+description: Why build data centers on Earth when space offers free cooling, vacuum
+heroImage: /assets/space-inference.webp
+pubDate: Jan 24 2026
+tags:
+- Analysis
+title: 'High Orbit Intelligence: Space-Based Inference Clusters (SBIC) in 2027'
 ---
-
 Data centers on Earth are thermodynamic nightmares.
 They consume 4% of the planet's total energy, a figure projected to hit 10% by 2030 due to the AI boom. They require millions of gallons of freshwater for evaporative cooling. They are subject to local power grid failures, geopolitical instability, and physical sabotage.
 The solution to the AI energy crisis is not in the ground. It is 500 kilometers straight up.

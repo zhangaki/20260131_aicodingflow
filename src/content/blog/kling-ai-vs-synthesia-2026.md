@@ -1,13 +1,14 @@
 ---
-title: "Kling AI vs Synthesia: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of Kling AI and Synthesia. Pricing, limitations,"
-pubDate: "Jan 07 2026"
-heroImage: "/assets/kling-ai-vs-synthesia-2026.webp"
+am_last_deterministic_review_at: '2026-02-25T16:23:03.198058'
+am_last_deterministic_review_by: worker-42
+description: A side-by-side technical audit of Kling AI and Synthesia. Pricing, limitations,
+heroImage: /assets/kling-ai-vs-synthesia-2026.webp
 noindex: true
-tags: ["Analysis"]
+pubDate: Jan 07 2026
+tags:
+- Analysis
+title: 'Kling AI vs Synthesia: The 2026 Feature Matrix'
 ---
-
-
 # Technical Face-Off: Kling AI vs Synthesia
 
 I've been testing Kling AI on several side projects lately, and the real-world performance is impressive compared to the marketing hype.

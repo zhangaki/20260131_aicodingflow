@@ -1,12 +1,15 @@
 ---
-title: "Best AI Tools for Social Media 2026: Top 8 Tested & Compared"
-description: "We tested 8 AI tools for social media head-to-head. See our rankings,"
-pubDate: "Dec 12 2025"
-heroImage: "/assets/best-ai-tools-for-social-media-2026.webp"
-tags: ["AI Tools", "Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:16:57.674285'
+am_last_deterministic_review_by: worker-17
+description: We tested 8 AI tools for social media head-to-head. See our rankings,
+heroImage: /assets/best-ai-tools-for-social-media-2026.webp
 noindex: true
+pubDate: Dec 12 2025
+tags:
+- AI Tools
+- Guides
+title: 'Best AI Tools for Social Media 2026: Top 8 Tested & Compared'
 ---
-
 ## The Best AI Tools for Social Media in 2026
 
 I've been recommending Copy.ai to clients in regulated industries, and the feedback has been overwhelmingly positive.

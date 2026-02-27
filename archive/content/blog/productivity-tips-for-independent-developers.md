@@ -1,0 +1,1 @@
+For more in-depth strategies on building a sustainable business as an independent developer, check out [Building a Profitable Online Business as an Independent Developer](building-a-profitable-online-business-as-an-independent-developer).

@@ -1,11 +1,14 @@
 ---
-title: "Gemini 2.0 Flash Thinking & Deep Research 2026: Complete Guide"
-description: "Google Gemini 2.0 Flash Thinking and Deep Research update 2026: multi-app integration, personalization, file uploads, and interactive Canvas reports."
-pubDate: "Feb 12 2026"
-heroImage: "/assets/gemini-20-flash-thinking-deep-research-2026.webp"
-tags: ["AI Tools"]
+am_last_deterministic_review_at: '2026-02-25T16:22:04.068869'
+am_last_deterministic_review_by: worker-10
+description: 'Google Gemini 2.0 Flash Thinking and Deep Research update 2026: multi-app
+  integration, personalization, file uploads, and interactive Canvas reports.'
+heroImage: /assets/gemini-20-flash-thinking-deep-research-2026.webp
+pubDate: Feb 12 2026
+tags:
+- AI Tools
+title: 'Gemini 2.0 Flash Thinking & Deep Research 2026: Complete Guide'
 ---
-
 # Gemini 2.0 Flash Thinking & Deep Research: Google's 2026 Power Move
 
 Google rolled out major Gemini 2.0 updates in early 2026, focusing on **Deep Research** and **Flash Thinking** — two features that make Gemini competitive with Claude and GPT-5.
@@ -218,4 +221,3 @@ If you're a Google Workspace user, Gemini Advanced ($20/mo) is now a no-brainer.
 - [Gemini Review 2026: Features, Pricing, and Our Honest Verdict](/blog/gemini-review-2026/)
 - [How to Use Gemini 2.0 for 1M Token Documents 2026: Analysis Guide](/blog/how-to-use-gemini-for-analyzing-documents-with-a-million-token-context-2026/)
 - [ChatGPT vs Gemini vs Copilot 2026: Best AI Chatbot Comparison](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

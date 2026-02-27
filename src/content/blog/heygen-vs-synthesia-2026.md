@@ -1,11 +1,13 @@
 ---
-title: "Stop Guessing: HeyGen vs Synthesia 2026 Competitive Audit"
-description: "Choosing between HeyGen and Synthesia? We broke down the tech stack and"
-pubDate: "Dec 22 2025"
-heroImage: "/assets/heygen-vs-synthesia-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:32:06.521480'
+am_last_deterministic_review_by: worker-39
+description: Choosing between HeyGen and Synthesia? We broke down the tech stack and
+heroImage: /assets/heygen-vs-synthesia-2026.webp
+pubDate: Dec 22 2025
+tags:
+- Analysis
+title: 'Stop Guessing: HeyGen vs Synthesia 2026 Competitive Audit'
 ---
-
 # Stop Guessing: HeyGen vs Synthesia 2026 Competitive Audit
 
 | Feature | HeyGen | Synthesia |

@@ -1,13 +1,15 @@
 ---
-title: "Kling AI Image-to-Video Prompt Guide (2026): Templates + Examples"
-description: "Everything you need to know about kling ai image to video prompt guide in 2026. Research-backed insights with hands-on testing."
-pubDate: "Feb 23 2026"
-heroImage: "/assets/blog-fallback.webp"
+am_last_deterministic_review_at: '2026-02-25T16:23:22.467743'
+am_last_deterministic_review_by: worker-34
+description: Everything you need to know about kling ai image to video prompt guide
+  in 2026. Research-backed insights with hands-on testing.
+heroImage: /assets/blog-fallback.webp
+pubDate: Feb 23 2026
 tags:
-  - AI Agents
-  - Dev Tools
+- AI Agents
+- Dev Tools
+title: 'Kling AI Image-to-Video Prompt Guide (2026): Templates + Examples'
 ---
-
 Kling’s image-to-video mode rewards prompts that read like a production brief: what’s in the shot, how it moves, how the camera behaves, and what to avoid. When I tested Kling against similar “image → motion” tools, the difference wasn’t the model’s raw quality as much as prompt discipline. Vague prompts produced the usual warping and identity drift; structured prompts consistently improved stability and kept the motion believable.
 
 A few quick context points from my own benchmarking notes (late 2025 builds, rechecked Jan 2026):

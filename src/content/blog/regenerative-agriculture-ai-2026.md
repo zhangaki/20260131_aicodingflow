@@ -1,11 +1,15 @@
 ---
-title: "AI Regenerative Agriculture 2026: Silicon Soil Technology Guide"
-description: "AI-powered regenerative agriculture 2026 - How edge-AI sensor meshes and carbon-arbitrage agents optimize soil health. Complete guide to Silicon Soil technology."
-pubDate: "Jan 15 2026"
-heroImage: "/assets/regenerative-agriculture.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:33.583549'
+am_last_deterministic_review_by: worker-29
+description: AI-powered regenerative agriculture 2026 - How edge-AI sensor meshes
+  and carbon-arbitrage agents optimize soil health. Complete guide to Silicon Soil
+  technology.
+heroImage: /assets/regenerative-agriculture.webp
+pubDate: Jan 15 2026
+tags:
+- Analysis
+title: 'AI Regenerative Agriculture 2026: Silicon Soil Technology Guide'
 ---
-
 The future of the planet isn't being decided in a glass-walled boardroom in Geneva; it's being decided in the top six inches of topsoil in places like the Palouse or the rolling hills of Iowa.
 In 2026, we're seeing a collision of worlds that shouldn't fit together. The digital-first universe of **Agentic AI** is grafting itself onto the ancient, biological reality of **Regenerative Agriculture**. 
 We call it **Silicon Soil**.

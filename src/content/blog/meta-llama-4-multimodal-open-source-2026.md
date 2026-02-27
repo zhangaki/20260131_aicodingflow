@@ -1,14 +1,15 @@
 ---
-title: 'Meta Llama 4 (2026): Models, Features, How to Use'
+am_last_deterministic_review_at: '2026-02-25T16:23:27.121161'
+am_last_deterministic_review_by: worker-43
 description: 'Meta Llama 4 in 2026: model versions, multimodal features, licensing,
   and how to run it for dev workflows. Get the details in one guide.'
-pubDate: Feb 12 2026
 heroImage: /assets/meta-llama-4-multimodal-open-source-2026.webp
+pubDate: Feb 12 2026
 tags:
 - Analysis
+title: 'Meta Llama 4 (2026): Models, Features, How to Use'
 updatedDate: Feb 20 2026
 ---
-
 # Meta Llama 4: The Open-Source Multimodal Giant with 10M Context
 
 Meta just dropped Llama 4, and it's a **game-changer for open-source AI**. With industry-leading 10 million token context, multimodal capabilities, and 200+ language support — all fully open-source.
@@ -280,4 +281,3 @@ The open-source AI revolution is here.
 ## Related Reading
 
 - [Llama 4 Coder: How to Run Meta''s Coding LLM Locally in 2026](/blog/llama-4-coder-local-coding-assistant-2026/)
-

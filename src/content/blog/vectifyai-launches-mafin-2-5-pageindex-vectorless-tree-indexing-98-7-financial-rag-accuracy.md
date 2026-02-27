@@ -1,16 +1,19 @@
 ---
-title: "VectifyAI Unveils Mafin 2.5 and PageIndex, Claiming 98.7% Financial RAG Accuracy with Open-Source Vectorless Tree Indexing"
-description: "VectifyAI debuts Mafin 2.5 and PageIndex, touting 98.7% financial RAG accuracy via open-source vectorless tree indexing."
-pubDate: "Feb 23 2026"
-heroImage: "/assets/vectifyai-launches-mafin-2-5-pageindex-vectorless-tree-indexing-98-7-financial-rag-accuracy.webp"
+am_last_deterministic_review_at: '2026-02-25T16:22:56.101162'
+am_last_deterministic_review_by: worker-32
+description: VectifyAI debuts Mafin 2.5 and PageIndex, touting 98.7% financial RAG
+  accuracy via open-source vectorless tree indexing.
+heroImage: /assets/vectifyai-launches-mafin-2-5-pageindex-vectorless-tree-indexing-98-7-financial-rag-accuracy.webp
+pubDate: Feb 23 2026
 tags:
 - Financial RAG
 - vectorless indexing
 - tree-based retrieval
 - open-source AI
 - LLM accuracy
+title: VectifyAI Unveils Mafin 2.5 and PageIndex, Claiming 98.7% Financial RAG Accuracy
+  with Open-Source Vectorless Tree Indexing
 ---
-
 ## The What
 
 VectifyAI released an updated `Mafin` alongside `PageIndex`, an open-source index that organizes financial documents into a section/page tree and returns citations with page-level provenance. The stated goal is narrower than “better answers”: reduce wrong-page (and wrong-definition) retrieval in finance-heavy RAG workflows by leaning on document structure and repeatable routing, not embedding similarity as the default.

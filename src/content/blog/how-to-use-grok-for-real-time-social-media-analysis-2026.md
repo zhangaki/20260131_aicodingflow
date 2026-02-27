@@ -1,11 +1,13 @@
 ---
-title: "Using Grok for Real-Time Social Media Analysis: A Practical 2026 Walkthrough"
-description: "Learn how to use Grok effectively for real-time social media analysis."
-pubDate: "Dec 09 2025"
-heroImage: "/assets/how-to-use-grok-for-real-time-social-media-analysis-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:25:47.770294'
+am_last_deterministic_review_by: worker-40
+description: Learn how to use Grok effectively for real-time social media analysis.
+heroImage: /assets/how-to-use-grok-for-real-time-social-media-analysis-2026.webp
+pubDate: Dec 09 2025
+tags:
+- Guides
+title: 'Using Grok for Real-Time Social Media Analysis: A Practical 2026 Walkthrough'
 ---
-
 ## A Practitioner's Guide to Grok for Real-Time Social Media Analysis
 
 After using Grok in our internal production environment for three weeks, our team noticed a significant shift in workflow velocity.

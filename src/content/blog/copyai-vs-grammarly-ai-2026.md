@@ -1,11 +1,13 @@
 ---
-title: "Copy.ai vs Grammarly AI 2026: The Data-Backed Truth"
-description: "We compared Copy.ai and Grammarly AI over 30 days of testing. See the"
-pubDate: "Jan 18 2026"
-heroImage: "/assets/copyai-vs-grammarly-ai-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:33:22.110623'
+am_last_deterministic_review_by: worker-05
+description: We compared Copy.ai and Grammarly AI over 30 days of testing. See the
+heroImage: /assets/copyai-vs-grammarly-ai-2026.webp
+pubDate: Jan 18 2026
+tags:
+- Analysis
+title: 'Copy.ai vs Grammarly AI 2026: The Data-Backed Truth'
 ---
-
 # Copy.ai vs Grammarly AI 2026: The Data-Backed Truth
 
 ## Copy.ai vs. Grammarly AI: A Developer's Deep Dive (2026)

@@ -1,0 +1,1 @@
+GitHub Copilot is an AI-powered code completion tool, one of many [AI tools available for developers](/ai-tools-for-developers.md) that can help them write code faster and more efficiently. For a detailed look at [AI-assisted code generation](/blog/ai-assisted-code-generation.md), see our guide.

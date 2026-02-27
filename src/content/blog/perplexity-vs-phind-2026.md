@@ -1,11 +1,13 @@
 ---
-title: "Stop Guessing: Perplexity vs Phind 2026 Competitive Audit"
-description: "Choosing between Perplexity and Phind? We broke down the tech stack and"
-pubDate: "Feb 06 2026"
-heroImage: "/assets/perplexity-vs-phind-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:15.479653'
+am_last_deterministic_review_by: worker-20
+description: Choosing between Perplexity and Phind? We broke down the tech stack and
+heroImage: /assets/perplexity-vs-phind-2026.webp
+pubDate: Feb 06 2026
+tags:
+- Analysis
+title: 'Stop Guessing: Perplexity vs Phind 2026 Competitive Audit'
 ---
-
 # Stop Guessing: Perplexity vs Phind 2026 Competitive Audit
 
 ## Are You Choosing the Right AI Search Engines Tool?

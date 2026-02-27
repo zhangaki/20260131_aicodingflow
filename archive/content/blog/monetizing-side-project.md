@@ -1,0 +1,1 @@
+This is a placeholder for the Monetizing Side Project article.For example, see this [case study](simple-saas-case-study.md) on how one indie hacker built a simple SaaS tool to $1000/month.

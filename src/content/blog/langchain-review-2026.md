@@ -1,11 +1,14 @@
 ---
-title: "LangChain User Reviews 2026: Adoption Experience, Pricing & Updates"
-description: "LangChain user reviews and adoption experience in 2026, with LangSmith pricing, upgrade notes, and real implementation tradeoffs."
-pubDate: "Jan 25 2026"
-heroImage: "/assets/langchain-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:23:27.562282'
+am_last_deterministic_review_by: worker-39
+description: LangChain user reviews and adoption experience in 2026, with LangSmith
+  pricing, upgrade notes, and real implementation tradeoffs.
+heroImage: /assets/langchain-review-2026.webp
+pubDate: Jan 25 2026
+tags:
+- Reviews
+title: 'LangChain User Reviews 2026: Adoption Experience, Pricing & Updates'
 ---
-
 ## LangChain: The 2026 Reality Check
 
 Our team ran LangChain alongside three competitors for a month-long stress test. The results were not what we expected.

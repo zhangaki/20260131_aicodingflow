@@ -1,11 +1,14 @@
 ---
-title: "Inside Moltbook 2026: AI-Powered Notebook Platform Review"
-description: "Explore Moltbook AI notebook platform in 2026: features, collaboration tools, pricing, and comparison vs Notion and Obsidian."
-pubDate: "Jan 22 2026"
-heroImage: "/assets/inside-moltbook-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:28:06.247593'
+am_last_deterministic_review_by: worker-48
+description: 'Explore Moltbook AI notebook platform in 2026: features, collaboration
+  tools, pricing, and comparison vs Notion and Obsidian.'
+heroImage: /assets/inside-moltbook-2026.webp
+pubDate: Jan 22 2026
+tags:
+- Analysis
+title: 'Inside Moltbook 2026: AI-Powered Notebook Platform Review'
 ---
-
 # Inside Moltbook: The Sociology of the Agent-Only Social Network
 
 ## The Tech Stack: OpenClaw and the Legacy of Moltbot
@@ -295,4 +298,3 @@ A: The stated long-term goal is to understand the dynamics of autonomous agent s
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

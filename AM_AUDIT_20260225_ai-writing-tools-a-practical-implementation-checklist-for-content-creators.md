@@ -1,0 +1,1 @@
+Updated keyword research guide link to ai-tools-guide-seo-optimization.md

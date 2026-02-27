@@ -1,13 +1,14 @@
 ---
-title: "Midjourney vs Leonardo AI: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of Midjourney and Leonardo AI. Pricing,"
-pubDate: "Feb 03 2026"
-heroImage: "/assets/midjourney-vs-leonardo-ai-2026.webp"
+am_last_deterministic_review_at: '2026-02-25T16:23:26.342438'
+am_last_deterministic_review_by: worker-46
+description: A side-by-side technical audit of Midjourney and Leonardo AI. Pricing,
+heroImage: /assets/midjourney-vs-leonardo-ai-2026.webp
 noindex: true
-tags: ["Analysis"]
+pubDate: Feb 03 2026
+tags:
+- Analysis
+title: 'Midjourney vs Leonardo AI: The 2026 Feature Matrix'
 ---
-
-
 # Technical Face-Off: Midjourney vs Leonardo AI
 
 I've been testing Midjourney on several side projects lately, and the real-world performance is impressive compared to the marketing hype.

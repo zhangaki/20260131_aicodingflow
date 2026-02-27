@@ -1,0 +1,1 @@
+Reduce reliance on screenshots, add variety to the 'Pass/Fail' criteria, and expand on the 'why' behind each hack in the '5 Proven Productivity Hacks for Independent Developers (2026)' article.

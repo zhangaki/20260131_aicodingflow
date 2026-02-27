@@ -1,11 +1,14 @@
 ---
-title: "How to Use You.com for Research 2026: AI Search Tutorial"
-description: "Master You.com AI search for deep research projects in 2026: citation tracking, source verification, knowledge mode, and productivity tips."
-pubDate: "Jan 19 2026"
-heroImage: "/assets/how-to-use-youcom-for-deep-research-projects-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:27:56.302849'
+am_last_deterministic_review_by: worker-13
+description: 'Master You.com AI search for deep research projects in 2026: citation
+  tracking, source verification, knowledge mode, and productivity tips.'
+heroImage: /assets/how-to-use-youcom-for-deep-research-projects-2026.webp
+pubDate: Jan 19 2026
+tags:
+- Guides
+title: 'How to Use You.com for Research 2026: AI Search Tutorial'
 ---
-
 ## A Practitioner's Guide to You.com for Deep Research Projects
 
 We first discovered You.com during a hackathon, and it's been a mainstay in our stack ever since.

@@ -1,11 +1,13 @@
 ---
-title: "Local LLM Knowledge Base 2026: Build Offline Second Brain with Llama"
-description: "How to build a local LLM knowledge base in 2026. Step-by-step guide to"
-pubDate: "Jan 21 2026"
-heroImage: "/assets/local-llm-knowledge-base-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:23:12.762128'
+am_last_deterministic_review_by: worker-36
+description: How to build a local LLM knowledge base in 2026. Step-by-step guide to
+heroImage: /assets/local-llm-knowledge-base-2026.webp
+pubDate: Jan 21 2026
+tags:
+- Analysis
+title: 'Local LLM Knowledge Base 2026: Build Offline Second Brain with Llama'
 ---
-
 # The Data Sanctuary: Why Your Second Brain Must Go Offline in 2026
 
 ## The Data Sanctuary: Why Your Second Brain Must Go Offline in 2026
@@ -260,4 +262,3 @@ By running a local LLM, you can control the data it is trained on and the way it
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

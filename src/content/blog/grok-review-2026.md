@@ -1,14 +1,16 @@
 ---
-title: "Grok AI Features 2026: Capabilities, Free Tier Limits & Pricing"
-description: "Grok AI features in 2026, including capabilities, free-tier limits, pricing, and practical performance tradeoffs."
-pubDate: Jan 28 2026
+am_last_deterministic_review_at: '2026-02-25T16:32:06.798149'
+am_last_deterministic_review_by: worker-12
+description: Grok AI features in 2026, including capabilities, free-tier limits, pricing,
+  and practical performance tradeoffs.
 heroImage: /assets/grok-review-2026.webp
+noindex: true
+pubDate: Jan 28 2026
 tags:
 - Reviews
+title: 'Grok AI Features 2026: Capabilities, Free Tier Limits & Pricing'
 updatedDate: '2026-02-16'
-noindex: true
 ---
-
 ## Grok: The 2026 Reality Check
 
 I've been recommending Grok to clients in regulated industries, and the feedback has been overwhelmingly positive.

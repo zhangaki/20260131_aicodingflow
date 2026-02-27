@@ -1,14 +1,15 @@
 ---
-title: How to Use Kling AI Image-to-Video (2026 Guide)
+am_last_deterministic_review_at: '2026-02-25T16:28:54.166003'
+am_last_deterministic_review_by: worker-31
 description: 'Learn how to use Kling AI image to video in 2026: settings, prompts,
   motion control, pricing, and common fixes for flicker and artifacts.'
-pubDate: Feb 02 2026
 heroImage: /assets/how-to-use-kling-ai-for-creating-affordable-ai-video-content-2026.webp
+pubDate: Feb 02 2026
 tags:
 - Guides
+title: How to Use Kling AI Image-to-Video (2026 Guide)
 updatedDate: Feb 24 2026
 ---
-
 ## A Practitioner's Guide to Kling AI for Creating Affordable AI Video Content
 
 I've been recommending Kling AI to clients in regulated industries, and the feedback has been overwhelmingly positive.

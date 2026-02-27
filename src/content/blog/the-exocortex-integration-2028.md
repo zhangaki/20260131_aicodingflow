@@ -1,11 +1,13 @@
 ---
-title: "Exocortex Integration 2028: Brain-Computer Interface Guide"
-description: "Forget searching your notes. In 2028, your database interacts directly"
-pubDate: "Dec 22 2025"
-heroImage: "/assets/exocortex-cover.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:29.177990'
+am_last_deterministic_review_by: worker-47
+description: Forget searching your notes. In 2028, your database interacts directly
+heroImage: /assets/exocortex-cover.webp
+pubDate: Dec 22 2025
+tags:
+- Analysis
+title: 'Exocortex Integration 2028: Brain-Computer Interface Guide'
 ---
-
 The human brain is an efficient biological processor, but it is a terrible hard drive.
 Our **Hippocampus** (the brain's indexer) is lossy, fallible, and prone to rewriting history to fit our current emotional narrative.
 For 100,000 years, this was fine.

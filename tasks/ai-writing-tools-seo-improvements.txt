@@ -1,0 +1,14 @@
+
+URL: /blog/ai-writing-tools
+Baseline CTR: 1.5%
+
+Old Title: AI Writing Tools: A Comprehensive Guide
+Old Description: Explore the world of AI writing tools and discover how they can help you create content faster and easier.
+Old First 120 words: AI writing tools are revolutionizing the way we create content. These tools use artificial intelligence to generate text, automate writing tasks, and improve the quality of your writing. In this guide, we'll explore the best AI writing tools available, discuss their features and benefits, and show you how to use them to enhance your content creation process. Whether you're a blogger, marketer, or business owner, AI writing tools can help you save time and improve your writing.
+
+New Title: 10 Best AI Writing Tools for Indie Devs & Marketers (2024)
+New Description: Stop struggling with writer's block! Discover the top 10 AI writing tools that will help indie developers and marketers create compelling content and boost productivity in 2024.
+New First 120 Words: Writer's block got you down? As an indie dev or marketer, you know how important content is, but creating it can be a real drag. That's where AI writing tools come in. They can help you generate blog posts, social media updates, and marketing copy in minutes. In this guide, we'll reveal the 10 best AI writing tools for indie devs and marketers in 2024, highlighting their unique features and benefits. Get ready to say goodbye to writer's block and hello to effortless content creation!
+
+Expected Impact: Increase CTR to 2% or higher
+Follow-Up Check Window: 4 weeks

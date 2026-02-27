@@ -1,14 +1,16 @@
 ---
-title: "Perplexity Pro Features 2026: Pricing, Models & Desktop App Review"
-description: "Perplexity Pro features in 2026: pricing, model access, desktop app pros and cons, and who should upgrade."
-pubDate: Feb 08 2026
+am_last_deterministic_review_at: '2026-02-25T16:22:34.860447'
+am_last_deterministic_review_by: worker-46
+description: 'Perplexity Pro features in 2026: pricing, model access, desktop app
+  pros and cons, and who should upgrade.'
 heroImage: /assets/perplexity-review-2026.webp
+noindex: true
+pubDate: Feb 08 2026
 tags:
 - Reviews
+title: 'Perplexity Pro Features 2026: Pricing, Models & Desktop App Review'
 updatedDate: Feb 18 2026
-noindex: true
 ---
-
 ## Perplexity: The 2026 Reality Check
 
 We switched our core workflow over to Perplexity for a recent client project to see if it lived up to the noise. Here's what we found.

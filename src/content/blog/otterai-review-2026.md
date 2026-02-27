@@ -1,11 +1,14 @@
 ---
-title: "Otter.ai Review 2026: Free vs Pro ($17/Month) Meeting Transcription"
-description: "In-depth Otter.ai review 2026: free tier limits, Pro $17/month features, transcription accuracy, and is it better than Fireflies.ai?"
-pubDate: "Jan 17 2026"
-heroImage: "/assets/otterai-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:22:07.189826'
+am_last_deterministic_review_by: worker-11
+description: 'In-depth Otter.ai review 2026: free tier limits, Pro $17/month features,
+  transcription accuracy, and is it better than Fireflies.ai?'
+heroImage: /assets/otterai-review-2026.webp
+pubDate: Jan 17 2026
+tags:
+- Reviews
+title: 'Otter.ai Review 2026: Free vs Pro ($17/Month) Meeting Transcription'
 ---
-
 ## Otter.ai: The 2026 Reality Check
 
 I've been recommending Otter.ai to clients in regulated industries, and the feedback has been overwhelmingly positive.

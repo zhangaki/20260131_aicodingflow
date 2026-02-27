@@ -1,16 +1,18 @@
 ---
-title: "Figma & Anthropic Launch 'Code to Canvas' AI Design Tool!"
-description: "Figma partners with Anthropic to unveil 'Code to Canvas'! This new AI-powered feature dramatically speeds up design workflows. Transform code into designs instantly!"
-pubDate: "Feb 19 2026"
-heroImage: "/assets/figma-anthropic-code-to-canvas.webp"
+am_last_deterministic_review_at: '2026-02-25T16:22:10.490498'
+am_last_deterministic_review_by: worker-46
+description: Figma partners with Anthropic to unveil 'Code to Canvas'! This new AI-powered
+  feature dramatically speeds up design workflows. Transform code into designs instantly!
+heroImage: /assets/figma-anthropic-code-to-canvas.webp
+pubDate: Feb 19 2026
 tags:
 - Figma
 - Anthropic
 - Code to Canvas
 - AI Design
 - Design Tools
+title: Figma & Anthropic Launch 'Code to Canvas' AI Design Tool!
 ---
-
 ## Figma's 'Code to Canvas': A Skeptical Tester's Take
 
 Figma's collaboration with Anthropic on 'Code to Canvas' has generated buzz, promising a bridge between design and development. The idea: convert code snippets into editable Figma designs using Anthropic's Claude model. In theory, this feature can interpret code to produce corresponding Figma components, complete with properties and styling. But does it live up to the hype? As someone who's spent time experimenting with it, I have thoughts.

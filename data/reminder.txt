@@ -1,0 +1,1 @@
+Create a task to record the baseline CTR for the page /blog/ai-tools-guide-updated7_fixed and save it to a file named baseline_ctr.txt in the projects/20260131_aicodingflow/data directory. Do this tomorrow.

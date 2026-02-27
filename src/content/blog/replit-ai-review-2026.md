@@ -1,14 +1,15 @@
 ---
-title: 'Replit AI Features 2026: Agent, App Builder, Pricing'
+am_last_deterministic_review_at: '2026-02-25T16:22:49.994707'
+am_last_deterministic_review_by: worker-01
 description: Explore Replit AI features 2026, including the agent workflow, app builder,
   and pricing. See what it’s best for and where it falls short.
-pubDate: Feb 01 2026
 heroImage: /assets/replit-ai-review-2026.webp
+pubDate: Feb 01 2026
 tags:
 - Reviews
+title: 'Replit AI Features 2026: Agent, App Builder, Pricing'
 updatedDate: Feb 23 2026
 ---
-
 ## Replit AI Review 2026: Is It Worth Your Money?
 
 If you're coming from a traditional setup, the learning curve for Replit AI is real, but our actual usage data shows it's worth it for heavy users.

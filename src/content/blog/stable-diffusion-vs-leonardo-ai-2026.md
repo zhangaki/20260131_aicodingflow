@@ -1,11 +1,14 @@
 ---
-title: "Stable Diffusion vs Leonardo AI 2026: Which Image Generator Wins?"
-description: "Compare Stable Diffusion XL vs Leonardo AI in 2026: free open-source vs paid platform, image quality, features, and which to choose."
-pubDate: "Dec 22 2025"
-heroImage: "/assets/stable-diffusion-vs-leonardo-ai-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:37.245640'
+am_last_deterministic_review_by: worker-48
+description: 'Compare Stable Diffusion XL vs Leonardo AI in 2026: free open-source
+  vs paid platform, image quality, features, and which to choose.'
+heroImage: /assets/stable-diffusion-vs-leonardo-ai-2026.webp
+pubDate: Dec 22 2025
+tags:
+- Analysis
+title: 'Stable Diffusion vs Leonardo AI 2026: Which Image Generator Wins?'
 ---
-
 # Stable Diffusion vs Leonardo AI: The 2026 Feature Matrix
 
 | Feature             | Stable Diffusion                                   | Leonardo AI                                        |

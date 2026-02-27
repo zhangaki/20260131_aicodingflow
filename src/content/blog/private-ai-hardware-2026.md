@@ -1,11 +1,13 @@
 ---
-title: "Private AI Hardware 2026: Build a $10k Local AI Server (No Cloud)"
-description: "Build a private local AI server with no cloud dependency. Step-by-step"
-pubDate: "Jan 23 2026"
-heroImage: "/assets/private-ai-hardware-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:18:07.031079'
+am_last_deterministic_review_by: worker-01
+description: Build a private local AI server with no cloud dependency. Step-by-step
+heroImage: /assets/private-ai-hardware-2026.webp
+pubDate: Jan 23 2026
+tags:
+- Analysis
+title: 'Private AI Hardware 2026: Build a $10k Local AI Server (No Cloud)'
 ---
-
 # The Sovereign Stack: Why SMBs are Building $10k AI Clusters in 2026
 
 ## Hardware Wars 2026: The Contenders
@@ -200,4 +202,3 @@ Ready to break free from the cloud and build your own AI infrastructure? Here's 
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

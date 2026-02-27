@@ -1,14 +1,16 @@
 ---
-title: "GitHub Copilot Enterprise Features 2026: Pricing, Plans & Limits"
-description: "GitHub Copilot enterprise features in 2026: pricing plans, seat limits, security controls, and real team benchmarks."
-pubDate: Jan 07 2026
+am_last_deterministic_review_at: '2026-02-25T16:16:56.422966'
+am_last_deterministic_review_by: worker-32
+description: 'GitHub Copilot enterprise features in 2026: pricing plans, seat limits,
+  security controls, and real team benchmarks.'
 heroImage: /assets/github-copilot-review-2026.webp
+noindex: true
+pubDate: Jan 07 2026
 tags:
 - Reviews
+title: 'GitHub Copilot Enterprise Features 2026: Pricing, Plans & Limits'
 updatedDate: Feb 18 2026
-noindex: true
 ---
-
 ## GitHub Copilot Review 2026: Is It Worth Your Money?
 
 I've been testing GitHub Copilot on several side projects lately, and the real-world performance is impressive compared to the marketing hype.

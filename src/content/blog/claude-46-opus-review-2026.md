@@ -1,12 +1,15 @@
 ---
-title: "Claude 4.6 Opus Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Claude 4.6 Opus in 2026. We cover features, pricing"
-pubDate: "Dec 21 2025"
-heroImage: "/assets/claude-46-opus-review-2026.webp"
-tags: ["AI Tools", "Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:22:37.279502'
+am_last_deterministic_review_by: worker-04
+description: An in-depth review of Claude 4.6 Opus in 2026. We cover features, pricing
+heroImage: /assets/claude-46-opus-review-2026.webp
 noindex: true
+pubDate: Dec 21 2025
+tags:
+- AI Tools
+- Reviews
+title: 'Claude 4.6 Opus Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
-
 ## Claude 4.6 Opus Review 2026: Is It Worth Your Money?
 
 Our team ran Claude 4.6 Opus alongside three competitors for a month-long stress test. The results were not what we expected.

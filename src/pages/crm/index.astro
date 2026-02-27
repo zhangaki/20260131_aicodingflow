@@ -1,0 +1,703 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import BackgroundEffects from '../../components/BackgroundEffects.astro';
+
+const title = 'CRM Comparison Hub: HubSpot vs Pipedrive vs Monday CRM';
+const description =
+  'Use a 60-second CRM fit tool and practical comparison guides for HubSpot, Pipedrive, and Monday CRM. Built for small teams validating CRM decisions fast.';
+
+const guides = [
+  {
+    href: '/crm/hubspot-vs-pipedrive/',
+    title: 'HubSpot vs Pipedrive',
+    description: 'Best for sales-focused teams that need a clear winner on pipeline vs all-in-one growth.',
+  },
+  {
+    href: '/crm/hubspot-vs-monday/',
+    title: 'HubSpot vs Monday CRM',
+    description: 'Best for teams balancing CRM needs with project and operations workflows.',
+  },
+  {
+    href: '/crm/best-crm-for-small-business/',
+    title: 'Best CRM For Small Business',
+    description: 'A shortlist and rollout plan for teams that want to pick one CRM and execute quickly.',
+  },
+];
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: 'CRM Comparison Hub',
+        itemListElement: guides.map((guide, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          url: `https://ai-coding-flow.com${guide.href}`,
+          name: guide.title,
+        })),
+      })}
+    />
+    <style>
+      main {
+        width: 100% !important;
+        max-width: 1120px !important;
+        margin: 0 auto !important;
+        padding: 7.25rem 1.5rem 3rem !important;
+      }
+
+      .hero {
+        padding: 2.5rem;
+        border-radius: 28px;
+        background: linear-gradient(135deg, rgba(233, 107, 70, 0.18), rgba(35, 213, 171, 0.08));
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 1.5rem;
+      }
+      .eyebrow {
+        display: inline-block;
+        font-size: 0.76rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #f5d8cf;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      .hero h1 {
+        margin: 0 0 0.85rem 0;
+        font-size: 3rem;
+        letter-spacing: -0.04em;
+        line-height: 1.05;
+      }
+      .hero p {
+        margin: 0 0 1.3rem 0;
+        color: #d4d4d8;
+        font-size: 1.08rem;
+        line-height: 1.8;
+        max-width: 780px;
+      }
+      .hero-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.85rem;
+      }
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 999px;
+        padding: 0.75rem 1.2rem;
+        font-weight: 700;
+        font-size: 0.95rem;
+      }
+      .btn-primary {
+        background: var(--accent);
+        color: #111;
+      }
+      .btn-secondary {
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: #f4f4f5;
+      }
+
+      .tool-card {
+        margin-top: 1.3rem;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 24px;
+        padding: 1.4rem;
+        background: rgba(6, 6, 6, 0.72);
+      }
+      .tool-card h2 {
+        margin: 0 0 0.4rem 0;
+        font-size: 1.45rem;
+      }
+      .tool-card p {
+        margin: 0;
+        color: #a1a1aa;
+        font-size: 0.95rem;
+      }
+      .tool-layout {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+      .inputs {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.9rem;
+      }
+      label {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        font-size: 0.88rem;
+        color: #e4e4e7;
+        font-weight: 600;
+      }
+      select {
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        padding: 0.7rem 0.8rem;
+        background: rgba(14, 14, 16, 0.9);
+        color: #f5f5f5;
+        font-size: 0.95rem;
+      }
+      button#runCompare {
+        margin-top: 0.2rem;
+        border: none;
+        border-radius: 12px;
+        padding: 0.8rem 1rem;
+        background: linear-gradient(135deg, var(--accent), #f5a56f);
+        color: #141414;
+        font-size: 0.95rem;
+        font-weight: 800;
+        cursor: pointer;
+      }
+      button#runCompare:hover {
+        filter: brightness(1.04);
+      }
+
+      .result {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 14px;
+        padding: 1rem;
+      }
+      .result .kicker {
+        font-size: 0.78rem;
+        color: #a1a1aa;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 0.4rem;
+      }
+      .result h3 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: #fff;
+      }
+      .result .subline {
+        margin-top: 0.35rem;
+        color: #f1f5f9;
+        font-weight: 600;
+        font-size: 0.94rem;
+      }
+      .result ul {
+        margin: 0.8rem 0 0.8rem 1.05rem;
+        color: #cbd5e1;
+      }
+      .result a {
+        display: inline-block;
+        margin-top: 0.4rem;
+        color: var(--accent);
+        font-weight: 700;
+      }
+      .affiliate-disclosure {
+        margin: 0.5rem 0 0 0;
+        color: #a1a1aa;
+        font-size: 0.8rem;
+        line-height: 1.5;
+      }
+      .nojs-note {
+        margin: 0.75rem 0 0 0;
+        color: #a1a1aa;
+        font-size: 0.83rem;
+        line-height: 1.5;
+      }
+
+      .score-table {
+        margin-top: 1rem;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      .score-table table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .score-table th,
+      .score-table td {
+        padding: 0.7rem 0.75rem;
+        text-align: left;
+        font-size: 0.86rem;
+      }
+      .score-table th {
+        background: rgba(255, 255, 255, 0.03);
+        color: #e2e8f0;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+      .score-table td {
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        color: #cbd5e1;
+      }
+      .meter {
+        height: 7px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.08);
+        overflow: hidden;
+      }
+      .meter span {
+        display: block;
+        height: 100%;
+        background: linear-gradient(90deg, #23d5ab, #6fb1fc);
+      }
+
+      .guides {
+        margin-top: 1.8rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+      }
+      .guide {
+        text-decoration: none;
+        color: inherit;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 18px;
+        padding: 1.1rem;
+        background: rgba(255, 255, 255, 0.02);
+        transition: transform 0.22s ease, border-color 0.22s ease;
+      }
+      .guide:hover {
+        transform: translateY(-3px);
+        border-color: rgba(233, 107, 70, 0.36);
+      }
+      .guide h3 {
+        margin: 0 0 0.35rem 0;
+        font-size: 1.12rem;
+      }
+      .guide p {
+        margin: 0;
+        color: #a1a1aa;
+        font-size: 0.92rem;
+        line-height: 1.6;
+      }
+
+      .ops-checklist {
+        margin-top: 1.5rem;
+        padding: 1.2rem;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .ops-checklist h2 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1.2rem;
+      }
+      .ops-checklist ul {
+        margin: 0.7rem 0 0 1.1rem;
+        color: #d4d4d8;
+      }
+
+      @media (max-width: 960px) {
+        .tool-layout {
+          grid-template-columns: 1fr;
+        }
+        .guides {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (max-width: 720px) {
+        main {
+          padding: 6.2rem 1rem 2rem !important;
+        }
+        .hero {
+          padding: 1.4rem;
+        }
+        .hero h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <BackgroundEffects />
+    <main>
+      <section class="hero">
+        <span class="eyebrow">CRM Subdirectory Experiment</span>
+        <h1>Compare HubSpot, Pipedrive, and Monday CRM With A Clear Buying Path</h1>
+        <p>
+          This hub is built for one goal: help small teams choose the right CRM faster, then validate real search demand
+          in the <code>/crm/</code> directory. Start with the fit tool, then read the detailed comparison pages.
+        </p>
+        <div class="hero-links">
+          <a class="btn btn-primary" href="#crm-fit-tool">Start 60s Fit Tool</a>
+          <a class="btn btn-secondary" href="/crm/best-crm-for-small-business/">See Best CRM Shortlist</a>
+        </div>
+      </section>
+
+      <section class="tool-card" id="crm-fit-tool">
+        <h2>CRM Fit Tool</h2>
+        <p>Pick your team context and get a practical recommendation with transparent scoring.</p>
+        <div class="tool-layout">
+          <div class="inputs">
+            <label>
+              Team size
+              <select id="teamSize">
+                <option value="small">1-5 people</option>
+                <option value="growth">6-20 people</option>
+                <option value="scaled">21-80 people</option>
+                <option value="large">80+ people</option>
+              </select>
+            </label>
+            <label>
+              Budget per user per month
+              <select id="budget">
+                <option value="low">Under $30</option>
+                <option value="mid">$30-$80</option>
+                <option value="high">$80+</option>
+              </select>
+            </label>
+            <label>
+              Primary outcome
+              <select id="focus">
+                <option value="pipeline">Simple sales pipeline</option>
+                <option value="marketing">All-in-one marketing + CRM</option>
+                <option value="project">Project management + CRM in one place</option>
+              </select>
+            </label>
+            <label>
+              Preferred setup style
+              <select id="setup">
+                <option value="fast">Fast onboarding with defaults</option>
+                <option value="custom">Flexible workflow customization</option>
+              </select>
+            </label>
+            <label>
+              Support preference
+              <select id="support">
+                <option value="guided">Want guided onboarding</option>
+                <option value="selfserve">Prefer self-serve docs and speed</option>
+              </select>
+            </label>
+            <button id="runCompare" type="button">Generate Recommendation</button>
+          </div>
+
+          <div>
+            <div class="result" id="result" aria-live="polite">
+              <div class="kicker" id="winnerKicker">Best fit for your input</div>
+              <h3 id="winnerName">HubSpot CRM</h3>
+              <div class="subline" id="winnerSubline">Balanced choice for teams that want all-in-one growth workflows.</div>
+              <ul id="winnerReasons"></ul>
+              <a id="winnerLink" href="https://www.hubspot.com/products/crm" target="_blank" rel="nofollow sponsored noopener">Visit recommended CRM</a>
+              <p class="affiliate-disclosure">Disclosure: Some links are sponsored or affiliate links. We may earn a commission at no extra cost to you.</p>
+            </div>
+
+            <div class="score-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Vendor</th>
+                    <th>Score</th>
+                    <th>Fit Meter</th>
+                  </tr>
+                </thead>
+                <tbody id="scoreRows">
+                  <tr>
+                    <td>HubSpot CRM</td>
+                    <td>-</td>
+                    <td>Run tool</td>
+                  </tr>
+                  <tr>
+                    <td>Pipedrive</td>
+                    <td>-</td>
+                    <td>Run tool</td>
+                  </tr>
+                  <tr>
+                    <td>Monday CRM</td>
+                    <td>-</td>
+                    <td>Run tool</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <noscript>
+              <p class="nojs-note">JavaScript is disabled, so interactive scoring is unavailable. Use the comparison guides below for manual selection.</p>
+            </noscript>
+          </div>
+        </div>
+      </section>
+
+      <section class="guides">
+        {guides.map((guide) => (
+          <a class="guide" href={guide.href}>
+            <h3>{guide.title}</h3>
+            <p>{guide.description}</p>
+          </a>
+        ))}
+      </section>
+
+      <section class="ops-checklist">
+        <h2>4-6 Week Validation Checklist</h2>
+        <ul>
+          <li>Track <code>/crm/</code> performance in Google Search Console using a directory filter.</li>
+          <li>Monitor impressions and query growth for comparison intents before expanding to a standalone domain.</li>
+          <li>Prioritize content updates on pages that get impressions but low click-through rate.</li>
+        </ul>
+      </section>
+    </main>
+    <Footer />
+
+    <script is:inline>
+      const vendorMeta = {
+        hubspot: {
+          name: 'HubSpot CRM',
+          pitch: 'Strong all-in-one CRM with marketing, sales, and service in one platform.',
+          url: 'https://www.hubspot.com/products/crm',
+        },
+        pipedrive: {
+          name: 'Pipedrive',
+          pitch: 'Fast, sales-first pipeline CRM with low setup friction for small teams.',
+          url: 'https://www.pipedrive.com/',
+        },
+        monday: {
+          name: 'Monday CRM',
+          pitch: 'Flexible CRM that connects sales workflows with project and operations boards.',
+          url: 'https://monday.com/crm',
+        },
+      };
+
+      function trackEvent(eventName, params = {}) {
+        if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+          window.gtag('event', eventName, params);
+        }
+      }
+
+      function initState() {
+        return {
+          scores: { hubspot: 0, pipedrive: 0, monday: 0 },
+          reasons: { hubspot: [], pipedrive: [], monday: [] },
+        };
+      }
+
+      function award(state, vendor, points, reason) {
+        state.scores[vendor] += points;
+        state.reasons[vendor].push(reason);
+      }
+
+      function awardGroup(state, rules) {
+        rules.forEach((rule) => award(state, rule.vendor, rule.points, rule.reason));
+      }
+
+      function getSorted(state) {
+        return Object.keys(state.scores)
+          .map((key) => ({ key, score: state.scores[key], reasons: state.reasons[key] }))
+          .sort((a, b) => {
+            if (b.score !== a.score) {
+              return b.score - a.score;
+            }
+            return vendorMeta[a.key].name.localeCompare(vendorMeta[b.key].name);
+          });
+      }
+
+      function formatVendorList(names) {
+        if (names.length === 1) {
+          return names[0];
+        }
+        if (names.length === 2) {
+          return `${names[0]} and ${names[1]}`;
+        }
+        return `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
+      }
+
+      function render(result) {
+        const winner = result[0];
+        const winnerMeta = vendorMeta[winner.key];
+        const winnerKicker = document.getElementById('winnerKicker');
+        const winnerName = document.getElementById('winnerName');
+        const winnerSubline = document.getElementById('winnerSubline');
+        const winnerReasons = document.getElementById('winnerReasons');
+        const winnerLink = document.getElementById('winnerLink');
+        const scoreRows = document.getElementById('scoreRows');
+        const topScore = winner.score;
+        const topMatches = result.filter((row) => row.score === topScore);
+        const topVendorKeys = topMatches.map((row) => row.key);
+        winnerLink.dataset.recommendationType = topMatches.length > 1 ? 'tie' : 'single';
+        winnerLink.dataset.recommendedVendors = topVendorKeys.join(',');
+        winnerLink.dataset.topScore = String(topScore);
+
+        if (topMatches.length > 1) {
+          winnerKicker.textContent = 'Top matches for your input';
+          winnerName.textContent = `Tie: ${formatVendorList(topMatches.map((row) => vendorMeta[row.key].name))}`;
+          winnerSubline.textContent = `These options scored equally at ${topScore} points. Use your non-negotiable workflow needs to break the tie.`;
+          winnerLink.href = '/crm/best-crm-for-small-business/';
+          winnerLink.textContent = 'Use tie-break framework';
+          winnerLink.removeAttribute('target');
+          winnerLink.removeAttribute('rel');
+          winnerReasons.innerHTML = topMatches
+            .map((row) => {
+              const vendor = vendorMeta[row.key];
+              const leadReason = row.reasons[0] || 'Strong fit for your current inputs.';
+              return `<li>${vendor.name}: ${leadReason}</li>`;
+            })
+            .join('');
+        } else {
+          winnerKicker.textContent = 'Best fit for your input';
+          winnerName.textContent = winnerMeta.name;
+          winnerSubline.textContent = winnerMeta.pitch;
+          winnerLink.href = winnerMeta.url;
+          winnerLink.textContent = 'Visit recommended CRM';
+          winnerLink.setAttribute('target', '_blank');
+          winnerLink.setAttribute('rel', 'nofollow sponsored noopener');
+          winnerReasons.innerHTML = winner.reasons
+            .slice(0, 3)
+            .map((reason) => `<li>${reason}</li>`)
+            .join('');
+        }
+
+        const maxScore = Math.max(1, result[0].score);
+        scoreRows.innerHTML = result
+          .map((row) => {
+            const vendor = vendorMeta[row.key];
+            const width = Math.max(8, Math.round((row.score / maxScore) * 100));
+            return `
+              <tr>
+                <td>${vendor.name}</td>
+                <td>${row.score}</td>
+                <td>
+                  <div class="meter"><span style="width:${width}%"></span></div>
+                </td>
+              </tr>
+            `;
+          })
+          .join('');
+      }
+
+      function runCompare(isUserAction = false) {
+        const state = initState();
+        const teamSize = document.getElementById('teamSize').value;
+        const budget = document.getElementById('budget').value;
+        const focus = document.getElementById('focus').value;
+        const setup = document.getElementById('setup').value;
+        const support = document.getElementById('support').value;
+
+        if (teamSize === 'small') {
+          awardGroup(state, [
+            { vendor: 'pipedrive', points: 3, reason: 'Strong fit for small teams that need a lightweight sales pipeline.' },
+            { vendor: 'hubspot', points: 2, reason: 'Easy onboarding path even for lean teams.' },
+            { vendor: 'monday', points: 1, reason: 'Useful if your small team already manages projects in Monday.' },
+          ]);
+        } else if (teamSize === 'growth') {
+          awardGroup(state, [
+            { vendor: 'hubspot', points: 2, reason: 'Good support for growing teams adding marketing and service flows.' },
+            { vendor: 'pipedrive', points: 2, reason: 'Pipeline visibility remains strong during early growth.' },
+            { vendor: 'monday', points: 2, reason: 'Balanced option when sales and execution teams share one workspace.' },
+          ]);
+        } else if (teamSize === 'scaled') {
+          awardGroup(state, [
+            { vendor: 'hubspot', points: 3, reason: 'More complete suite as team handoffs increase.' },
+            { vendor: 'monday', points: 3, reason: 'Flexible workflows support cross-functional scaling.' },
+            { vendor: 'pipedrive', points: 1, reason: 'Still viable if your process is mostly pipeline-centric.' },
+          ]);
+        } else {
+          awardGroup(state, [
+            { vendor: 'hubspot', points: 3, reason: 'Mature ecosystem and broad feature depth at larger org size.' },
+            { vendor: 'monday', points: 2, reason: 'Custom workflow control can be valuable in complex teams.' },
+            { vendor: 'pipedrive', points: 1, reason: 'Works best if you intentionally keep CRM scope narrow.' },
+          ]);
+        }
+
+        if (budget === 'low') {
+          awardGroup(state, [
+            { vendor: 'pipedrive', points: 3, reason: 'Better budget fit for teams trying to stay under $30/user.' },
+            { vendor: 'monday', points: 2, reason: 'Often manageable for SMB budgets with controlled seat count.' },
+          ]);
+        } else if (budget === 'mid') {
+          awardGroup(state, [
+            { vendor: 'hubspot', points: 2, reason: 'Can fit mid-budget teams that need bundled capabilities.' },
+            { vendor: 'pipedrive', points: 2, reason: 'Still cost-efficient at moderate scale.' },
+            { vendor: 'monday', points: 2, reason: 'Balanced pricing for mixed sales and operations use cases.' },
+          ]);
+        } else {
+          awardGroup(state, [
+            { vendor: 'hubspot', points: 3, reason: 'Higher budget allows deeper automation and hub expansion.' },
+            { vendor: 'monday', points: 2, reason: 'Budget headroom unlocks advanced workflow customization.' },
+            { vendor: 'pipedrive', points: 1, reason: 'Great for focused sales motion even when budget is not tight.' },
+          ]);
+        }
+
+        if (focus === 'marketing') {
+          awardGroup(state, [
+            { vendor: 'hubspot', points: 4, reason: 'Best match when marketing automation is a core requirement.' },
+            { vendor: 'monday', points: 1, reason: 'Useful for campaign coordination but less native in marketing depth.' },
+          ]);
+        } else if (focus === 'pipeline') {
+          awardGroup(state, [
+            { vendor: 'pipedrive', points: 4, reason: 'Pipeline-first design aligns with pure sales execution needs.' },
+            { vendor: 'hubspot', points: 1, reason: 'Can work, but broader suite may be more than needed.' },
+            { vendor: 'monday', points: 1, reason: 'Viable if you want custom process structure around pipeline.' },
+          ]);
+        } else {
+          awardGroup(state, [
+            { vendor: 'monday', points: 4, reason: 'Strong fit when CRM and project delivery need one operating layer.' },
+            { vendor: 'hubspot', points: 1, reason: 'Good alternative if you prioritize marketing/sales automation depth.' },
+            { vendor: 'pipedrive', points: 1, reason: 'Best if you still want to keep CRM process highly sales-focused.' },
+          ]);
+        }
+
+        if (setup === 'fast') {
+          awardGroup(state, [
+            { vendor: 'pipedrive', points: 2, reason: 'Fastest path to live pipeline with minimal configuration.' },
+            { vendor: 'hubspot', points: 1, reason: 'Starter setup is usually straightforward for SMB teams.' },
+          ]);
+        } else {
+          awardGroup(state, [
+            { vendor: 'monday', points: 3, reason: 'High customization potential for complex workflows.' },
+            { vendor: 'hubspot', points: 2, reason: 'Custom objects and automation options support deeper process design.' },
+            { vendor: 'pipedrive', points: 1, reason: 'Customizable, but intentionally simpler than heavy workflow systems.' },
+          ]);
+        }
+
+        if (support === 'guided') {
+          awardGroup(state, [
+            { vendor: 'hubspot', points: 2, reason: 'Broad onboarding resources and ecosystem support.' },
+            { vendor: 'monday', points: 1, reason: 'Helpful templates and onboarding flows for new admins.' },
+            { vendor: 'pipedrive', points: 1, reason: 'Simple UI reduces support overhead for basic use cases.' },
+          ]);
+        } else {
+          awardGroup(state, [
+            { vendor: 'pipedrive', points: 2, reason: 'Self-serve setup with low operational complexity.' },
+            { vendor: 'monday', points: 1, reason: 'Fast iteration if your team likes building its own workflow logic.' },
+            { vendor: 'hubspot', points: 1, reason: 'Self-serve capable when scope is well defined up front.' },
+          ]);
+        }
+
+        const sorted = getSorted(state);
+        const topScore = sorted[0].score;
+        const topMatches = sorted.filter((row) => row.score === topScore);
+        render(sorted);
+
+        if (isUserAction) {
+          trackEvent('crm_fit_tool_run', {
+            location: 'crm_hub_fit_tool',
+            team_size: teamSize,
+            budget_tier: budget,
+            focus_area: focus,
+            setup_preference: setup,
+            support_preference: support,
+            tie_detected: topMatches.length > 1 ? 'yes' : 'no',
+            top_vendor_count: topMatches.length,
+            top_vendors: topMatches.map((row) => row.key).join(','),
+            top_score: topScore,
+          });
+        }
+      }
+
+      document.getElementById('runCompare').addEventListener('click', () => runCompare(true));
+      document.getElementById('winnerLink').addEventListener('click', () => {
+        const winnerLink = document.getElementById('winnerLink');
+        trackEvent('crm_recommendation_click', {
+          location: 'crm_hub_fit_tool',
+          recommendation_type: winnerLink.dataset.recommendationType || 'unknown',
+          recommended_vendors: winnerLink.dataset.recommendedVendors || 'unknown',
+          top_score: Number(winnerLink.dataset.topScore || 0),
+        });
+      });
+      runCompare(false);
+    </script>
+  </body>
+</html>

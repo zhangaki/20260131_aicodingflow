@@ -1,11 +1,13 @@
 ---
-title: "Cursor vs Tabnine 2026: The Data-Backed Truth"
-description: "We compared Cursor and Tabnine over 30 days of testing. See the raw results,"
-pubDate: "Jan 28 2026"
-heroImage: "/assets/cursor-vs-tabnine-2026.webp"
-tags: ["IDE"]
+am_last_deterministic_review_at: '2026-02-25T16:33:33.122965'
+am_last_deterministic_review_by: worker-44
+description: We compared Cursor and Tabnine over 30 days of testing. See the raw results,
+heroImage: /assets/cursor-vs-tabnine-2026.webp
+pubDate: Jan 28 2026
+tags:
+- IDE
+title: 'Cursor vs Tabnine 2026: The Data-Backed Truth'
 ---
-
 # Cursor vs Tabnine 2026: The Data-Backed Truth
 
 ## The 2026 Reality Check: Cursor or Tabnine?

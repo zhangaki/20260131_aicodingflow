@@ -1,11 +1,13 @@
 ---
-title: "Using Midjourney for Creating Professional Graphics: A Practical 2026 Walkthrough"
-description: "Learn how to use Midjourney effectively for creating professional graphics."
-pubDate: "Jan 03 2026"
-heroImage: "/assets/how-to-use-midjourney-for-creating-professional-graphics-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:28:57.647929'
+am_last_deterministic_review_by: worker-40
+description: Learn how to use Midjourney effectively for creating professional graphics.
+heroImage: /assets/how-to-use-midjourney-for-creating-professional-graphics-2026.webp
+pubDate: Jan 03 2026
+tags:
+- Guides
+title: 'Using Midjourney for Creating Professional Graphics: A Practical 2026 Walkthrough'
 ---
-
 ## A Practitioner's Guide to Midjourney for Creating Professional Graphics
 
 We switched our core workflow over to Midjourney for a recent client project to see if it lived up to the noise. Here's what we found.

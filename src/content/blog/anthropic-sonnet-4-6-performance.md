@@ -1,16 +1,18 @@
 ---
-title: "Anthropic Sonnet 4.6 Rivals Flagship AI at 1/5 the Price!"
-description: "Anthropic's Sonnet 4.6 matches top-tier AI performance at a fraction of the cost. Game-changing for businesses ready to leverage AI power!"
-pubDate: "Feb 19 2026"
-heroImage: "/assets/anthropic-sonnet-4-6-performance.webp"
+am_last_deterministic_review_at: '2026-02-25T16:25:30.446094'
+am_last_deterministic_review_by: worker-03
+description: Anthropic's Sonnet 4.6 matches top-tier AI performance at a fraction
+  of the cost. Game-changing for businesses ready to leverage AI power!
+heroImage: /assets/anthropic-sonnet-4-6-performance.webp
+pubDate: Feb 19 2026
 tags:
 - Anthropic
 - Sonnet 4.6
 - AI
 - Price-Performance
 - Enterprise Adoption
+title: Anthropic Sonnet 4.6 Rivals Flagship AI at 1/5 the Price!
 ---
-
 ## Anthropic Sonnet 4.6: Not Just Cheaper, But Clever? A Skeptic's Take
 
 **Angle: Forget the hype. Does Sonnet 4.6 *really* deliver on its price-performance promise? I put it through some unusual paces to find out.**

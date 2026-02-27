@@ -1,0 +1,1 @@
+If you're looking for a more detailed comparison, check out our article on [Zapier vs. IFTTT](zapier-vs-ifttt.md).Read about how automation will impact [the future of content creation](the-future-of-content-creation.md).

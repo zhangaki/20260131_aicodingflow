@@ -1,11 +1,14 @@
 ---
-title: "Using Claude for Complex Coding and Long-Form Analysis: A Practical 2026 Walkthrough"
-description: "Learn how to use Claude effectively for complex coding and long-form"
-pubDate: "Jan 18 2026"
-heroImage: "/assets/how-to-use-claude-for-complex-coding-and-long-form-analysis-2026.webp"
-tags: ["AI Tools", "Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:37:50.232796'
+am_last_deterministic_review_by: worker-37
+description: Learn how to use Claude effectively for complex coding and long-form
+heroImage: /assets/how-to-use-claude-for-complex-coding-and-long-form-analysis-2026.webp
+pubDate: Jan 18 2026
+tags:
+- AI Tools
+- Guides
+title: 'Using Claude for Complex Coding and Long-Form Analysis: A Practical 2026 Walkthrough'
 ---
-
 ## A Practitioner's Guide to Claude for Complex Coding and Long-Form Analysis
 
 If you're coming from a traditional setup, the learning curve for Claude is real, but our actual usage data shows it's worth it for heavy users.

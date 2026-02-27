@@ -1,11 +1,13 @@
 ---
-title: "The Provenance Layer: AI Verification Markers and the Future of Visual Truth"
-description: "In 2026, we no longer trust our eyes. We trust the metadata. Discover"
-pubDate: "Dec 28 2025"
-heroImage: "/assets/ai-verification-markers.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:26:42.081162'
+am_last_deterministic_review_by: worker-10
+description: In 2026, we no longer trust our eyes. We trust the metadata. Discover
+heroImage: /assets/ai-verification-markers.webp
+pubDate: Dec 28 2025
+tags:
+- Analysis
+title: 'The Provenance Layer: AI Verification Markers and the Future of Visual Truth'
 ---
-
 # The Provenance Layer: AI Verification Markers and the Future of Visual Truth
 
 ## The Mechanism: C2PA and the Cryptographic Chain
@@ -210,4 +212,3 @@ c2pa.save_image(image, "my_image_with_c2pa.webp")
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

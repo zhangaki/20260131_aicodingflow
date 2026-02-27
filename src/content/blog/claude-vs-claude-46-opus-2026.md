@@ -1,11 +1,13 @@
 ---
-title: "Stop Guessing: Claude vs Claude 4.6 Opus 2026 Competitive Audit"
-description: "Choosing between Claude and Claude 4.6 Opus? We broke down the tech stack"
-pubDate: "Dec 28 2025"
-heroImage: "/assets/claude-vs-claude-46-opus-2026.webp"
-tags: ["AI Tools"]
+am_last_deterministic_review_at: '2026-02-25T16:33:43.107639'
+am_last_deterministic_review_by: worker-50
+description: Choosing between Claude and Claude 4.6 Opus? We broke down the tech stack
+heroImage: /assets/claude-vs-claude-46-opus-2026.webp
+pubDate: Dec 28 2025
+tags:
+- AI Tools
+title: 'Stop Guessing: Claude vs Claude 4.6 Opus 2026 Competitive Audit'
 ---
-
 # Stop Guessing: Claude vs Claude 4.6 Opus 2026 Competitive Audit
 
 | Feature            | Claude                                   | Claude 4.6 Opus                             |

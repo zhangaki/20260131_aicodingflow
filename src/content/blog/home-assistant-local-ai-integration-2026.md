@@ -1,11 +1,13 @@
 ---
-title: "Home Assistant + Local AI: Complete Offline Smart Home Setup (2026)"
-description: "Step-by-step guide to integrating local AI with Home Assistant for a"
-pubDate: "Feb 04 2026"
-heroImage: "/assets/home-assistant-local-ai-integration-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:33:31.467833'
+am_last_deterministic_review_by: worker-21
+description: Step-by-step guide to integrating local AI with Home Assistant for a
+heroImage: /assets/home-assistant-local-ai-integration-2026.webp
+pubDate: Feb 04 2026
+tags:
+- Analysis
+title: 'Home Assistant + Local AI: Complete Offline Smart Home Setup (2026)'
 ---
-
 # Home Assistant + Local AI: Complete Offline Smart Home Setup (2026)
 
 ## Welcome to Your Private Smart Home: Local AI with Home Assistant in 2026
@@ -351,4 +353,3 @@ Building a local AI-powered smart home with Home Assistant is a rewarding endeav
 - [7 Best Local AI Assistants That Work Completely Offline in 2026](/blog/best-local-ai-assistants-offline-2026/)
 - [How to Build a Private AI Knowledge Base (No Cloud, No API Calls)](/blog/build-private-ai-knowledge-base-2026/)
 - [Llama 4 Coder: How to Run Meta's Coding LLM Locally in 2026](/blog/llama-4-coder-local-coding-assistant-2026/)
-

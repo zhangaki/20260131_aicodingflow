@@ -1,11 +1,14 @@
 ---
-title: "Midjourney vs Stable Diffusion 2026: Which AI Art Tool Wins?"
-description: "Midjourney V7 vs Stable Diffusion XL in 2026: $10/month vs free, image quality, ease of use, and which AI art generator to choose."
-pubDate: "Dec 14 2025"
-heroImage: "/assets/midjourney-vs-stable-diffusion-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:23:04.739651'
+am_last_deterministic_review_by: worker-20
+description: 'Midjourney V7 vs Stable Diffusion XL in 2026: $10/month vs free, image
+  quality, ease of use, and which AI art generator to choose.'
+heroImage: /assets/midjourney-vs-stable-diffusion-2026.webp
+pubDate: Dec 14 2025
+tags:
+- Analysis
+title: 'Midjourney vs Stable Diffusion 2026: Which AI Art Tool Wins?'
 ---
-
 # Which Wins in 2026? Midjourney vs Stable Diffusion Breakdown
 
 | Feature               | Midjourney                                  | Stable Diffusion                                    |

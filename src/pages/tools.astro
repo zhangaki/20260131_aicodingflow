@@ -1,0 +1,94 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const title = "Free AI & Business Tools | Calculators, Templates & Planners";
+const description = "Free online tools for freelancers, ecommerce sellers, marketers and more. Calculators, checklists, templates and planners — no signup required.";
+
+const tools = [
+  { name: "Freelancer Rate Calculator", url: "https://freelancer-rate-calc.vercel.app", desc: "Set your hourly rate from income goal, costs and tax" },
+  { name: "Ecommerce Profit Calculator", url: "https://ecom-profit-calc.vercel.app", desc: "Calculate net profit after fees, shipping and COGS" },
+  { name: "Marketplace Fee Calculator", url: "https://marketplace-fee-calc.vercel.app", desc: "Compare fees across Amazon, Etsy, eBay and more" },
+  { name: "Dim Weight Calculator", url: "https://dim-weight-calc.vercel.app", desc: "Calculate dimensional weight for FedEx, UPS, USPS" },
+  { name: "Trip Split Calculator", url: "https://trip-split-calc.vercel.app", desc: "Split travel expenses fairly among a group" },
+  { name: "Churn Cost Calculator", url: "https://churn-cost-calc.vercel.app", desc: "Calculate revenue lost to customer churn" },
+  { name: "Bundle Pricing Calculator", url: "https://bundle-pricing-calc.vercel.app", desc: "Optimize bundle pricing for maximum revenue" },
+  { name: "Subscription Revenue Planner", url: "https://subscription-revenue-planner.vercel.app", desc: "Forecast MRR, ARR and growth scenarios" },
+  { name: "Appliance Cost Calculator", url: "https://appliance-cost-calc.vercel.app", desc: "Estimate annual electricity cost for appliances" },
+  { name: "Remodel Budget Calculator", url: "https://remodel-budget-calc.vercel.app", desc: "Plan home renovation budgets by room and scope" },
+  { name: "Hobby Cost Calculator", url: "https://hobby-cost-calc.vercel.app", desc: "Track and plan costs for any hobby" },
+  { name: "Inventory Reorder Calculator", url: "https://inventory-reorder-calc.vercel.app", desc: "Calculate reorder points and safety stock levels" },
+  { name: "Material Coverage Calculator", url: "https://material-coverage-calc.vercel.app", desc: "Calculate paint, flooring or tile coverage" },
+  { name: "Ad Creative Testing Planner", url: "https://ad-creative-testing-planner.vercel.app", desc: "Plan A/B tests for ad creatives" },
+  { name: "Affiliate Program Comparison", url: "https://affiliate-program-compare.vercel.app", desc: "Compare affiliate programs by commission and terms" },
+  { name: "CRM Tool Comparison", url: "/crm/", desc: "Compare HubSpot, Pipedrive and Monday CRM for your team" },
+  { name: "Email Stack Comparison", url: "https://email-stack-compare.vercel.app", desc: "Compare email marketing tools by features and price" },
+  { name: "Helpdesk Comparison", url: "https://helpdesk-compare.vercel.app", desc: "Compare customer support platforms" },
+  { name: "Tool Compatibility Guide", url: "https://tool-compatibility-guide.vercel.app", desc: "Check integrations between popular SaaS tools" },
+  { name: "SaaS Onboarding Kit", url: "https://saas-onboarding-kit.vercel.app", desc: "Templates for SaaS customer onboarding flows" },
+  { name: "SOP Template Kit", url: "https://sop-template-kit.vercel.app", desc: "Standard operating procedure templates by department" },
+  { name: "Client Handover Kit", url: "https://client-handover-kit.vercel.app", desc: "Templates for handing off client projects" },
+  { name: "Invoice Follow-up Kit", url: "https://invoice-followup-kit.vercel.app", desc: "Email templates for chasing unpaid invoices" },
+  { name: "Quote Template Hub", url: "https://quote-template-hub.vercel.app", desc: "Professional quote and proposal templates" },
+  { name: "Proposal Scope Builder", url: "https://proposal-scope-builder.vercel.app", desc: "Build scopes of work for client proposals" },
+  { name: "Retainer Contract Templates", url: "https://retainer-contract-templates.vercel.app", desc: "Contract templates for retainer-based services" },
+  { name: "Return Policy Kit", url: "https://return-policy-kit.vercel.app", desc: "Return policy templates for ecommerce stores" },
+  { name: "Report Template Hub", url: "https://report-template-hub.vercel.app", desc: "Business and marketing report templates" },
+  { name: "Product Copy Templates", url: "https://product-copy-templates.vercel.app", desc: "Copywriting templates for product listings" },
+  { name: "UGC Brief Templates", url: "https://ugc-brief-templates.vercel.app", desc: "Creative briefs for UGC and influencer campaigns" },
+  { name: "Pricing Page Templates", url: "https://pricing-page-templates.vercel.app", desc: "SaaS and service pricing page templates" },
+  { name: "Cold Email Sequence Lab", url: "https://cold-email-sequence-lab.vercel.app", desc: "Build and test cold email sequences" },
+  { name: "Work Email Templates", url: "https://work-email-templates.vercel.app", desc: "Professional email templates for any situation" },
+  { name: "Support Macro Lab", url: "https://support-macro-lab.vercel.app", desc: "Build customer support macros and canned replies" },
+  { name: "Review Phrase Kit", url: "https://review-phrase-kit.vercel.app", desc: "Templates for responding to customer reviews" },
+  { name: "Resume Bullet Kit", url: "https://resume-bullet-kit.vercel.app", desc: "Action-oriented resume bullet point templates" },
+  { name: "Interview Scorecard Kit", url: "https://interview-scorecard-kit.vercel.app", desc: "Structured scorecards for candidate interviews" },
+  { name: "Course Launch Checklist", url: "https://course-launch-checklist.vercel.app", desc: "Step-by-step checklist for launching online courses" },
+  { name: "Product Shoot Checklist", url: "https://product-shoot-checklist.vercel.app", desc: "Pre-shoot and on-set checklists for product photography" },
+  { name: "Moving Checklist Builder", url: "https://moving-checklist-builder.vercel.app", desc: "Customizable moving checklists by timeline" },
+  { name: "Pet Routine Planner", url: "https://pet-routine-planner-alpha.vercel.app", desc: "Daily and weekly care routines for pets" },
+  { name: "Filter Change Planner", url: "https://filter-change-planner.vercel.app", desc: "Track and schedule home filter replacements" },
+  { name: "Zone Garden Planner", url: "https://zone-garden-planner.vercel.app", desc: "Plan your garden by USDA hardiness zone" },
+  { name: "Plan 30-60-90", url: "https://plan-30-60-90.vercel.app", desc: "Build 30-60-90 day onboarding or sales plans" },
+  { name: "Meeting OKR Kit", url: "https://meeting-okr-kit.vercel.app", desc: "OKR templates for team and 1:1 meetings" },
+  { name: "Automation Recipe Hub", url: "https://automation-recipe-hub.vercel.app", desc: "No-code automation workflow templates" },
+  { name: "Newsletter Growth Toolkit", url: "https://newsletter-growth-toolkit.vercel.app", desc: "Templates and frameworks for growing a newsletter" },
+  { name: "Webinar Funnel Templates", url: "https://webinar-funnel-templates.vercel.app", desc: "Email and landing page templates for webinar funnels" },
+  { name: "Podcast Workflow Templates", url: "https://podcast-workflow-templates.vercel.app", desc: "Production checklists and show notes templates" },
+  { name: "Community Ops Templates", url: "https://community-ops-templates.vercel.app", desc: "Templates for managing online communities" },
+];
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section style="max-width:900px;margin:0 auto;padding:2rem 1rem;">
+        <h1>Free Business Tools</h1>
+        <p style="color:#666;margin-bottom:2rem;">
+          Free calculators, templates and planners for freelancers, ecommerce sellers,
+          marketers and business owners. No signup required.
+        </p>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;">
+          {tools.map(tool => (
+            <a
+              href={tool.url}
+              target="_blank"
+              rel="noopener"
+              style="display:block;padding:1rem;border:1px solid #e5e7eb;border-radius:8px;text-decoration:none;color:inherit;transition:border-color 0.2s;"
+            >
+              <div style="font-weight:600;margin-bottom:0.25rem;">{tool.name}</div>
+              <div style="font-size:0.875rem;color:#6b7280;">{tool.desc}</div>
+            </a>
+          ))}
+        </div>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

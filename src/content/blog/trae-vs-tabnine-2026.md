@@ -1,11 +1,13 @@
 ---
-title: "Trae vs Tabnine 2026: The Data-Backed Truth"
-description: "We compared Trae and Tabnine over 30 days of testing. See the raw results,"
-pubDate: "Jan 21 2026"
-heroImage: "/assets/trae-vs-tabnine-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:56.709154'
+am_last_deterministic_review_by: worker-21
+description: We compared Trae and Tabnine over 30 days of testing. See the raw results,
+heroImage: /assets/trae-vs-tabnine-2026.webp
+pubDate: Jan 21 2026
+tags:
+- Analysis
+title: 'Trae vs Tabnine 2026: The Data-Backed Truth'
 ---
-
 # Trae vs Tabnine 2026: The Data-Backed Truth
 
 ## Trae vs. Tabnine: A Head-to-Head Code Completion Showdown (2026 Edition)

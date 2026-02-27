@@ -1,11 +1,14 @@
 ---
-title: "Kling AI Review 2026: Video Generation Features, Pricing & Quality"
-description: "Comprehensive Kling AI video generator review 2026: free tier, paid plans, video quality vs Sora and Runway, and use cases for creators."
-pubDate: "Jan 04 2026"
-heroImage: "/assets/kling-ai-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:23:04.978947'
+am_last_deterministic_review_by: worker-39
+description: 'Comprehensive Kling AI video generator review 2026: free tier, paid
+  plans, video quality vs Sora and Runway, and use cases for creators.'
+heroImage: /assets/kling-ai-review-2026.webp
+pubDate: Jan 04 2026
+tags:
+- Reviews
+title: 'Kling AI Review 2026: Video Generation Features, Pricing & Quality'
 ---
-
 ## Kling AI Review 2026: Is It Worth Your Money?
 
 We switched our core workflow over to Kling AI for a recent client project to see if it lived up to the noise. Here's what we found.

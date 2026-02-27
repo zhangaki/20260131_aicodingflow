@@ -1,13 +1,14 @@
 ---
-title: "Sora vs Runway: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of Sora and Runway. Pricing, limitations,"
-pubDate: "Dec 17 2025"
-heroImage: "/assets/sora-vs-runway-2026.webp"
+am_last_deterministic_review_at: '2026-02-25T16:22:37.603158'
+am_last_deterministic_review_by: worker-24
+description: A side-by-side technical audit of Sora and Runway. Pricing, limitations,
+heroImage: /assets/sora-vs-runway-2026.webp
 noindex: true
-tags: ["Analysis"]
+pubDate: Dec 17 2025
+tags:
+- Analysis
+title: 'Sora vs Runway: The 2026 Feature Matrix'
 ---
-
-
 # Technical Face-Off: Sora vs Runway
 
 I've been testing Sora on several side projects lately, and the real-world performance is impressive compared to the marketing hype.

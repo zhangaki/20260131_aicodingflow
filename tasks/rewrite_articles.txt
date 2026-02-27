@@ -1,0 +1,5 @@
+- Rewrite '10 AI Tools for Content Creation' to include specific examples, comparisons, user reviews, and pricing information. Also, rewrite the intro to be more engaging. Remove AI fluff. Focus on providing actionable advice to the reader.
+- Rewrite '10 AI Tools for Writing Blog Posts' with original content or a summary of the linked article.
+- Rewrite '5-indie-dev-tools.md' with original content or a summary of the linked article.
+- Complete '5 Productivity Hacks for Independent Developers' with more explanation and rewritten intro/outro.
+- Rewrite 'a-guide-to-automating-your-social-media-marketing.md' with original content or a summary of the linked article.

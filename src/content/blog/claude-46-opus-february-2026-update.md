@@ -1,11 +1,14 @@
 ---
-title: "Claude 4.6 Opus February 2026 Update: Agent Teams & PowerPoint"
-description: "Complete breakdown of Claude 4.6 Opus February 2026 update: agent teams, improved coding, PowerPoint integration, 200K context, and adaptive thinking features."
-pubDate: "Feb 12 2026"
-heroImage: "/assets/claude-46-opus-february-2026-update.webp"
-tags: ["AI Tools"]
+am_last_deterministic_review_at: '2026-02-25T16:17:19.189570'
+am_last_deterministic_review_by: worker-35
+description: 'Complete breakdown of Claude 4.6 Opus February 2026 update: agent teams,
+  improved coding, PowerPoint integration, 200K context, and adaptive thinking features.'
+heroImage: /assets/claude-46-opus-february-2026-update.webp
+pubDate: Feb 12 2026
+tags:
+- AI Tools
+title: 'Claude 4.6 Opus February 2026 Update: Agent Teams & PowerPoint'
 ---
-
 # Claude 4.6 Opus February 2026 Update: What's New
 
 On February 5, 2026, Anthropic released Claude 4.6 Opus with groundbreaking new features that fundamentally change how we work with AI agents.
@@ -136,4 +139,3 @@ If you're building production AI agents, this update is **mandatory**.
 - [Claude AI Review 2026: Artifacts Feature, Pricing & Opus 4.6 Guide](/blog/claude-review-2026/)
 - [Using Claude for Complex Coding and Long-Form Analysis: A Practical 2026 Walkthrough](/blog/how-to-use-claude-for-complex-coding-and-long-form-analysis-2026/)
 - [Claude 4.6 Opus Review 2026: Features, Pricing, and Our Honest Verdict](/blog/claude-46-opus-review-2026/)
-

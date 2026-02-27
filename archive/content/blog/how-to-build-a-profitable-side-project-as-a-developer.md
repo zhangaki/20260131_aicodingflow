@@ -1,0 +1,6 @@
+
+... (article content) ...
+
+Ready to turn your coding skills into a revenue stream?  Our [Monetizing Your Skills: A Developer's Handbook](monetizing-your-skills) offers practical advice.
+
+... (article content) ...

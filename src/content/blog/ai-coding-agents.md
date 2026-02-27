@@ -1,11 +1,15 @@
 ---
-title: "AI Coding Agents: Revolutionizing Software Development"
-description: "Explore the power of AI coding agents! Learn how they automate software development tasks, boost efficiency, and improve code quality. Hands-on comparisons included."
-pubDate: "Feb 14 2026"
-heroImage: "/assets/ai-coding-agents.webp"
-tags: ["Agents"]
+am_last_deterministic_review_at: '2026-02-25T16:24:43.542708'
+am_last_deterministic_review_by: worker-17
+description: Explore the power of AI coding agents! Learn how they automate software
+  development tasks, boost efficiency, and improve code quality. Hands-on comparisons
+  included.
+heroImage: /assets/ai-coding-agents.webp
+pubDate: Feb 14 2026
+tags:
+- Agents
+title: 'AI Coding Agents: Revolutionizing Software Development'
 ---
-
 ## AI Coding Agents: Accelerating Software Development Cycles
 
 **Target Audience:** Senior Developers & CTOs

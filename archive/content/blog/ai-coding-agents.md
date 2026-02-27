@@ -1,0 +1,4 @@
+AI coding agents can significantly improve developer productivity.  To learn more about how AI is changing the code generation landscape, see our guide on [AI-assisted Code Generation](/blog/ai-assisted-code-generation.md). For more productivity tips for independent developers, see our guide on [productivity tips for independent developers](/blog/5-productivity-tips-for-independent-developers.md).
+
+Discover various AI agents available in the [AI Agent Marketplace](ai-agent-marketplace.md), designed to assist with coding and other tasks.
+Compare different AI coding assistants in our comprehensive [comparison guide](/blog/ai-coding-assistant-comparison.md).

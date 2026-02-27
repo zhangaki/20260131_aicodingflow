@@ -1,0 +1,3 @@
+... (Existing content) ...
+
+To automate some marketing tasks, you might find it useful to [automate your social media](automate-social-media.md). Also, consider these [time-saving automation hacks](time-saving-automation-hacks.md) to improve your productivity.

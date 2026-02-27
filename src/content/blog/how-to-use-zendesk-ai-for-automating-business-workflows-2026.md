@@ -1,11 +1,13 @@
 ---
-title: "How to Use Zendesk AI for Automating Business Workflows: Complete 2026 Guide"
-description: "A step-by-step tutorial on using Zendesk AI for automating business workflows"
-pubDate: "Jan 18 2026"
-heroImage: "/assets/how-to-use-zendesk-ai-for-automating-business-workflows-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:28:24.391562'
+am_last_deterministic_review_by: worker-02
+description: A step-by-step tutorial on using Zendesk AI for automating business workflows
+heroImage: /assets/how-to-use-zendesk-ai-for-automating-business-workflows-2026.webp
+pubDate: Jan 18 2026
+tags:
+- Guides
+title: 'How to Use Zendesk AI for Automating Business Workflows: Complete 2026 Guide'
 ---
-
 ## How to Use Zendesk AI for Automating Business Workflows: Everything You Need to Know
 
 We switched our core workflow over to Zendesk AI for a recent client project to see if it lived up to the noise. Here's what we found.

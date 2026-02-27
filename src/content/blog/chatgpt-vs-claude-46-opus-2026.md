@@ -1,11 +1,13 @@
 ---
-title: "ChatGPT vs Claude 4.6 Opus: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of ChatGPT and Claude 4.6 Opus. Pricing,"
-pubDate: "Jan 27 2026"
-heroImage: "/assets/chatgpt-vs-claude-46-opus-2026.webp"
-tags: ["AI Tools"]
+am_last_deterministic_review_at: '2026-02-25T16:31:33.131684'
+am_last_deterministic_review_by: worker-09
+description: A side-by-side technical audit of ChatGPT and Claude 4.6 Opus. Pricing,
+heroImage: /assets/chatgpt-vs-claude-46-opus-2026.webp
+pubDate: Jan 27 2026
+tags:
+- AI Tools
+title: 'ChatGPT vs Claude 4.6 Opus: The 2026 Feature Matrix'
 ---
-
 # ChatGPT vs Claude 4.6 Opus: The 2026 Feature Matrix
 
 | Feature                  | ChatGPT (GPT-4o)                                     | Claude 4.6 Opus                                     |

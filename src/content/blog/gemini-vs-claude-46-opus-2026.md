@@ -1,11 +1,13 @@
 ---
-title: "Stop Guessing: Gemini vs Claude 4.6 Opus 2026 Competitive Audit"
-description: "Choosing between Gemini and Claude 4.6 Opus? We broke down the tech stack"
-pubDate: "Dec 06 2025"
-heroImage: "/assets/gemini-vs-claude-46-opus-2026.webp"
-tags: ["AI Tools"]
+am_last_deterministic_review_at: '2026-02-25T16:17:18.012468'
+am_last_deterministic_review_by: worker-45
+description: Choosing between Gemini and Claude 4.6 Opus? We broke down the tech stack
+heroImage: /assets/gemini-vs-claude-46-opus-2026.webp
+pubDate: Dec 06 2025
+tags:
+- AI Tools
+title: 'Stop Guessing: Gemini vs Claude 4.6 Opus 2026 Competitive Audit'
 ---
-
 # Stop Guessing: Gemini vs Claude 4.6 Opus 2026 Competitive Audit
 
 ## Gemini vs. Claude 4.6 Opus: A Developer's Deep Dive (2026)

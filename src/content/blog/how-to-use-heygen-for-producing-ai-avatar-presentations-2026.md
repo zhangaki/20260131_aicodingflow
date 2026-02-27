@@ -1,11 +1,14 @@
 ---
-title: "How to Use HeyGen for AI Avatar Videos 2026: Presentation Tutorial"
-description: "Produce AI avatar presentations with HeyGen in 2026: avatar customization, voiceover recording, background selection, and export guide."
-pubDate: "Dec 28 2025"
-heroImage: "/assets/how-to-use-heygen-for-producing-ai-avatar-presentations-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:28:57.947451'
+am_last_deterministic_review_by: worker-36
+description: 'Produce AI avatar presentations with HeyGen in 2026: avatar customization,
+  voiceover recording, background selection, and export guide.'
+heroImage: /assets/how-to-use-heygen-for-producing-ai-avatar-presentations-2026.webp
+pubDate: Dec 28 2025
+tags:
+- Guides
+title: 'How to Use HeyGen for AI Avatar Videos 2026: Presentation Tutorial'
 ---
-
 ## A Practitioner's Guide to HeyGen for Producing AI Avatar Presentations
 
 If you're coming from a traditional setup, the learning curve for HeyGen is real, but our actual usage data shows it's worth it for heavy users.

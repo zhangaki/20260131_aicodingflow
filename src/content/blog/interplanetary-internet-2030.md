@@ -1,11 +1,14 @@
 ---
-title: "Interplanetary Internet 2030: Space Communication Infrastructure"
-description: "Understand interplanetary internet by 2030: laser communication, Mars connectivity, latency challenges, and the future of space networks."
-pubDate: "Dec 12 2025"
-heroImage: "/assets/interplanetary-internet-cover.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:24:54.384906'
+am_last_deterministic_review_by: worker-05
+description: 'Understand interplanetary internet by 2030: laser communication, Mars
+  connectivity, latency challenges, and the future of space networks.'
+heroImage: /assets/interplanetary-internet-cover.webp
+pubDate: Dec 12 2025
+tags:
+- Analysis
+title: 'Interplanetary Internet 2030: Space Communication Infrastructure'
 ---
-
 TCP/IP, the foundation of our modern internet, assumes a "Chatty" connection.
 It expects a server to respond to a request in milliseconds.
 If the response takes longer than a few seconds, it "Times Out."
@@ -150,4 +153,3 @@ This simple logic—holding data until the link is solid—is what allows the Vo
 - [The Model](/blog/ai-model-fingerprinting-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

@@ -1,11 +1,13 @@
 ---
-title: "The One-Person Unicorn: Systems Engineering for the Billion-Dollar Individual"
-description: "Operational architecture for the hyper-individual. How to replace the"
-pubDate: "Dec 29 2025"
-heroImage: "/assets/one-person-unicorn.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:06.237697'
+am_last_deterministic_review_by: worker-23
+description: Operational architecture for the hyper-individual. How to replace the
+heroImage: /assets/one-person-unicorn.webp
+pubDate: Dec 29 2025
+tags:
+- Analysis
+title: 'The One-Person Unicorn: Systems Engineering for the Billion-Dollar Individual'
 ---
-
 In 2020, the concept of a "one-person billion-dollar company" was a provocative thought experiment. In 2027, it is an **engineering specification**.
 
 The barriers to scale have not just lowered; they have evaporated. Code is abundant. Marketing is automated. Operations are algorithmic. The only scarce resource remaining is **Executive Intent**—the ability to define a vector and maintain it against entropy.
@@ -163,4 +165,3 @@ Yes, it is practically a liquid asset. There is no culture to integrate, no seve
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

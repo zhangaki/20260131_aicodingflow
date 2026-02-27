@@ -1,11 +1,15 @@
 ---
-title: "How to Build a Full-Stack App with Claude Code 2026: Complete Tutorial"
-description: "Step-by-step tutorial: build a full-stack app using Claude Code in 2026. Frontend, backend, database integration, deployment, and best practices guide."
-pubDate: "Jan 29 2026"
-heroImage: "/assets/how-to-use-claude-code-for-building-a-full-stack-app-2026.webp"
-tags: ["AI Tools", "Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:32:28.595517'
+am_last_deterministic_review_by: worker-06
+description: 'Step-by-step tutorial: build a full-stack app using Claude Code in 2026.
+  Frontend, backend, database integration, deployment, and best practices guide.'
+heroImage: /assets/how-to-use-claude-code-for-building-a-full-stack-app-2026.webp
+pubDate: Jan 29 2026
+tags:
+- AI Tools
+- Guides
+title: 'How to Build a Full-Stack App with Claude Code 2026: Complete Tutorial'
 ---
-
 ## A Practitioner's Guide to Claude Code for Building a Full-Stack App
 
 Our team ran Claude Code alongside three competitors for a month-long stress test. The results were not what we expected.

@@ -1,11 +1,13 @@
 ---
-title: "The Algorithmic Judiciary: Justice at the Speed of Code (2030)"
-description: "Human judges are slow, biased, and expensive. In 2030, justice is an"
-pubDate: "Dec 10 2025"
-heroImage: "/assets/algorithmic-judiciary-cover.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:57.157599'
+am_last_deterministic_review_by: worker-05
+description: Human judges are slow, biased, and expensive. In 2030, justice is an
+heroImage: /assets/algorithmic-judiciary-cover.webp
+pubDate: Dec 10 2025
+tags:
+- Analysis
+title: 'The Algorithmic Judiciary: Justice at the Speed of Code (2030)'
 ---
-
 "Justice delayed is justice denied." — William E. Gladstone.
 In 2026, the average contract dispute in New York takes 2 years to resolve. In India, the backlog extends to 300 years.
 In 2030, in the **Virtual Jurisdiction of the Super Individual**, it takes 2 seconds.

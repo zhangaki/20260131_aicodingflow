@@ -1,12 +1,14 @@
 ---
-title: "Copy.ai in 2026: A Practitioner"
-description: "We used Copy.ai for 30 days straight. Here"
-pubDate: "Dec 12 2025"
-heroImage: "/assets/copyai-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:17:51.580816'
+am_last_deterministic_review_by: worker-42
+description: We used Copy.ai for 30 days straight. Here
+heroImage: /assets/copyai-review-2026.webp
 noindex: true
+pubDate: Dec 12 2025
+tags:
+- Reviews
+title: 'Copy.ai in 2026: A Practitioner'
 ---
-
 ## Copy.ai: The 2026 Reality Check
 
 If you're coming from a traditional setup, the learning curve for Copy.ai is real, but our actual usage data shows it's worth it for heavy users.

@@ -1,11 +1,13 @@
 ---
-title: "The Model"
-description: "How to prove ownership of your AI and detect when it"
-pubDate: "Dec 30 2025"
-heroImage: "/assets/ai-model-fingerprinting.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:24:44.045092'
+am_last_deterministic_review_by: worker-48
+description: How to prove ownership of your AI and detect when it
+heroImage: /assets/ai-model-fingerprinting.webp
+pubDate: Dec 30 2025
+tags:
+- Analysis
+title: The Model
 ---
-
 # The Model
 
 ## The 2026 Protection Stack
@@ -318,4 +320,3 @@ A: Regularly. The threat landscape is constantly evolving, so it's important to 
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

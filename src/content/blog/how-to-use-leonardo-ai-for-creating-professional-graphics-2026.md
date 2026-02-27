@@ -1,11 +1,13 @@
 ---
-title: "Using Leonardo AI for Creating Professional Graphics: A Practical 2026 Walkthrough"
-description: "Learn how to use Leonardo AI effectively for creating professional graphics."
-pubDate: "Jan 28 2026"
-heroImage: "/assets/how-to-use-leonardo-ai-for-creating-professional-graphics-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:28:57.647875'
+am_last_deterministic_review_by: worker-26
+description: Learn how to use Leonardo AI effectively for creating professional graphics.
+heroImage: /assets/how-to-use-leonardo-ai-for-creating-professional-graphics-2026.webp
+pubDate: Jan 28 2026
+tags:
+- Guides
+title: 'Using Leonardo AI for Creating Professional Graphics: A Practical 2026 Walkthrough'
 ---
-
 ## A Practitioner's Guide to Leonardo AI for Creating Professional Graphics
 
 Our team ran Leonardo AI alongside three competitors for a month-long stress test. The results were not what we expected.

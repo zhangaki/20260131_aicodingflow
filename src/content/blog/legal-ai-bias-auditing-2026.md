@@ -1,11 +1,13 @@
 ---
-title: "Algorithm vs. Equity: The 2026 Framework for Auditing Legal AI Bias"
-description: "How to audit automated justice. A technical exploration of detecting"
-pubDate: "Jan 20 2026"
-heroImage: "/assets/legal-ai-bias-auditing.webp"
-tags: ["Cybersecurity"]
+am_last_deterministic_review_at: '2026-02-25T16:23:15.312275'
+am_last_deterministic_review_by: worker-37
+description: How to audit automated justice. A technical exploration of detecting
+heroImage: /assets/legal-ai-bias-auditing.webp
+pubDate: Jan 20 2026
+tags:
+- Cybersecurity
+title: 'Algorithm vs. Equity: The 2026 Framework for Auditing Legal AI Bias'
 ---
-
 # Algorithm vs. Equity: The 2026 Framework for Auditing Legal AI Bias
 
 ## The 2026 Auditing Stack: Technical Mechanisms
@@ -179,4 +181,3 @@ A: Deploying a biased AI system can have serious legal consequences, including l
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

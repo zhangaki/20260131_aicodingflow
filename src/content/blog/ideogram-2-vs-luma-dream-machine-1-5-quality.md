@@ -1,11 +1,14 @@
 ---
-title: "Ideogram 2.0 vs. Luma Dream Machine 1.5: A Quality Deep Dive"
-description: "Ideogram 2.0 vs. Luma Dream Machine 1.5: Detailed quality comparison for developers. Discover which model excels in visual fidelity and creative output."
-pubDate: "Feb 15 2026"
-heroImage: "/assets/ideogram-2-vs-luma-dream-machine-1-5-quality.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:28:22.889444'
+am_last_deterministic_review_by: worker-42
+description: 'Ideogram 2.0 vs. Luma Dream Machine 1.5: Detailed quality comparison
+  for developers. Discover which model excels in visual fidelity and creative output.'
+heroImage: /assets/ideogram-2-vs-luma-dream-machine-1-5-quality.webp
+pubDate: Feb 15 2026
+tags:
+- Analysis
+title: 'Ideogram 2.0 vs. Luma Dream Machine 1.5: A Quality Deep Dive'
 ---
-
 # Ideogram 2.0 vs. Luma Dream Machine 1.5: A Quality Deep Dive
 
 The rise of text-to-image models is accelerating UI prototyping, with internal tests showing a potential 30% reduction in asset creation time. Among the growing field of options, Ideogram 2.0 and Luma Dream Machine 1.5 stand out due to Ideogram 2.0's superior text rendering capabilities and Luma Dream Machine 1.5's realistic video motion. This article provides a detailed comparison to help senior developers and CTOs select the tool that best fits their needs. We focus on visual fidelity, aesthetic quality, consistency, and control, providing the detail needed for informed decisions.

@@ -1,11 +1,13 @@
 ---
-title: "Stop Guessing: LangChain vs CrewAI 2026 Competitive Audit"
-description: "Choosing between LangChain and CrewAI? We broke down the tech stack and"
-pubDate: "Dec 21 2025"
-heroImage: "/assets/langchain-vs-crewai-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:23:14.217535'
+am_last_deterministic_review_by: worker-03
+description: Choosing between LangChain and CrewAI? We broke down the tech stack and
+heroImage: /assets/langchain-vs-crewai-2026.webp
+pubDate: Dec 21 2025
+tags:
+- Analysis
+title: 'Stop Guessing: LangChain vs CrewAI 2026 Competitive Audit'
 ---
-
 # Stop Guessing: LangChain vs CrewAI 2026 Competitive Audit
 
 ## Are You Choosing the Right AI Agent Framework Tool?

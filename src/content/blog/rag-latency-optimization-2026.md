@@ -1,11 +1,14 @@
 ---
-title: "The <50ms Standard: Optimizing RAG Latency for 2026"
-description: "In 2024, a 2-second answer was a miracle. In 2026, it is a churn risk."
-pubDate: "Dec 07 2025"
-heroImage: "/assets/rag-latency-optimization-2026.webp"
-tags: ["Engineering", "Performance"]
+am_last_deterministic_review_at: '2026-02-25T16:16:36.398253'
+am_last_deterministic_review_by: worker-33
+description: In 2024, a 2-second answer was a miracle. In 2026, it is a churn risk.
+heroImage: /assets/rag-latency-optimization-2026.webp
+pubDate: Dec 07 2025
+tags:
+- Engineering
+- Performance
+title: 'The <50ms Standard: Optimizing RAG Latency for 2026'
 ---
-
 # The <50ms Standard: Optimizing RAG Latency for 2026
 
 ## The <50ms Standard: Optimizing RAG Latency for 2026
@@ -204,4 +207,3 @@ A: No. Some applications, such as those involving complex reasoning or very larg
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

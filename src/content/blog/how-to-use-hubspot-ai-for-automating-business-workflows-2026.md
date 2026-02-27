@@ -1,11 +1,14 @@
 ---
-title: "How to Automate Workflows with HubSpot AI 2026: Complete Tutorial"
-description: "Automate business workflows with HubSpot AI in 2026: email sequences, lead scoring, content generation, and integration setup guide."
-pubDate: "Jan 10 2026"
-heroImage: "/assets/how-to-use-hubspot-ai-for-automating-business-workflows-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:28:56.257125'
+am_last_deterministic_review_by: worker-21
+description: 'Automate business workflows with HubSpot AI in 2026: email sequences,
+  lead scoring, content generation, and integration setup guide.'
+heroImage: /assets/how-to-use-hubspot-ai-for-automating-business-workflows-2026.webp
+pubDate: Jan 10 2026
+tags:
+- Guides
+title: 'How to Automate Workflows with HubSpot AI 2026: Complete Tutorial'
 ---
-
 ## How to Use HubSpot AI for Automating Business Workflows: Everything You Need to Know
 
 We first discovered HubSpot AI during a hackathon, and it's been a mainstay in our stack ever since.

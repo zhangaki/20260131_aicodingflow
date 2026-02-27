@@ -1,0 +1,16 @@
+Audit Results:
+
+Scores:
+* Utility: 7/10
+* Specificity: 6/10
+* Factuality: 8/10
+
+Rewrite Actions:
+1. Add Concrete Examples
+2. Compare and Contrast
+3. Verify Feature Accuracy
+4. Expand on SEO Section
+5. Add a Conclusion
+6. Check for AI-generated phrases
+
+Follow-up Task: Rewrite the '10 AI Tools for Content Creation' article based on the audit feedback. Add concrete examples, compare and contrast tools, verify feature accuracy, expand on the SEO section, and add a conclusion. Remove any generic AI-sounding phrases.

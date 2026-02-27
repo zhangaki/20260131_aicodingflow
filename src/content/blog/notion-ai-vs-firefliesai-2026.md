@@ -1,11 +1,13 @@
 ---
-title: "Stop Guessing: Notion AI vs Fireflies.ai 2026 Competitive Audit"
-description: "Choosing between Notion AI and Fireflies.ai? We broke down the tech stack"
-pubDate: "Feb 03 2026"
-heroImage: "/assets/notion-ai-vs-firefliesai-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:33.598269'
+am_last_deterministic_review_by: worker-43
+description: Choosing between Notion AI and Fireflies.ai? We broke down the tech stack
+heroImage: /assets/notion-ai-vs-firefliesai-2026.webp
+pubDate: Feb 03 2026
+tags:
+- Analysis
+title: 'Stop Guessing: Notion AI vs Fireflies.ai 2026 Competitive Audit'
 ---
-
 # Stop Guessing: Notion AI vs Fireflies.ai 2026 Competitive Audit
 
 ## Notion AI vs. Fireflies.ai: A Developer's Deep Dive

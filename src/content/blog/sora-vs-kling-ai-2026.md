@@ -1,11 +1,14 @@
 ---
-title: "Sora vs Kling AI 2026: Which AI Video Generator is Better?"
-description: "Compare OpenAI Sora vs Kling AI in 2026: video quality, pricing, speed, features, and which AI video tool wins for creators."
-pubDate: "Feb 07 2026"
-heroImage: "/assets/sora-vs-kling-ai-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:29.528116'
+am_last_deterministic_review_by: worker-23
+description: 'Compare OpenAI Sora vs Kling AI in 2026: video quality, pricing, speed,
+  features, and which AI video tool wins for creators.'
+heroImage: /assets/sora-vs-kling-ai-2026.webp
+pubDate: Feb 07 2026
+tags:
+- Analysis
+title: 'Sora vs Kling AI 2026: Which AI Video Generator is Better?'
 ---
-
 # Sora vs Kling AI 2026: The Data-Backed Truth
 
 Here's the expanded Sora vs. Kling AI comparison article:

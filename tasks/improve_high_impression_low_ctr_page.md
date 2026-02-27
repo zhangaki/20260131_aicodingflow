@@ -1,0 +1,1 @@
+Also read the [AI Writing Tools Guide](./updated_ai_writing_tools_guide.md).

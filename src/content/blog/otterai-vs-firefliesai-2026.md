@@ -1,11 +1,13 @@
 ---
-title: "Stop Guessing: Otter.ai vs Fireflies.ai 2026 Competitive Audit"
-description: "Choosing between Otter.ai and Fireflies.ai? We broke down the tech stack"
-pubDate: "Dec 21 2025"
-heroImage: "/assets/otterai-vs-firefliesai-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:21:59.990635'
+am_last_deterministic_review_by: worker-36
+description: Choosing between Otter.ai and Fireflies.ai? We broke down the tech stack
+heroImage: /assets/otterai-vs-firefliesai-2026.webp
+pubDate: Dec 21 2025
+tags:
+- Analysis
+title: 'Stop Guessing: Otter.ai vs Fireflies.ai 2026 Competitive Audit'
 ---
-
 # Stop Guessing: Otter.ai vs Fireflies.ai 2026 Competitive Audit
 
 ## Otter.ai vs. Fireflies.ai: A Developer's Deep Dive

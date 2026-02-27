@@ -1,11 +1,13 @@
 ---
-title: "Omega Point AI Superintelligence: Frank Tipler"
-description: "Frank Tipler"
-pubDate: "Dec 27 2025"
-heroImage: "/assets/omega-point-cover.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:17:03.415350'
+am_last_deterministic_review_by: worker-09
+description: Frank Tipler
+heroImage: /assets/omega-point-cover.webp
+pubDate: Dec 27 2025
+tags:
+- Analysis
+title: 'Omega Point AI Superintelligence: Frank Tipler'
 ---
-
 We began this series by talking about the "Super Individual"—a person enhanced by a local LLM and a few bio-sensors.
 We end this series by talking about the inevitable conclusion of that trajectory: **The Omega Point.**
 Proposed by Pierre Teilhard de Chardin and later popularized by Frank Tipler, the Omega Point is the state where intelligence permeates the entire universe.

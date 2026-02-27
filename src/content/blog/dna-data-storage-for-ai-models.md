@@ -1,11 +1,13 @@
 ---
-title: "The Eternal Archive: DNA Data Storage for AI Models in 2027"
-description: "Silicon is temporary. DNA is forever. A technical guide to archiving"
-pubDate: "Dec 26 2025"
-heroImage: "/assets/dna-storage.webp"
-tags: ["Engineering"]
+am_last_deterministic_review_at: '2026-02-25T16:22:08.206434'
+am_last_deterministic_review_by: worker-34
+description: Silicon is temporary. DNA is forever. A technical guide to archiving
+heroImage: /assets/dna-storage.webp
+pubDate: Dec 26 2025
+tags:
+- Engineering
+title: 'The Eternal Archive: DNA Data Storage for AI Models in 2027'
 ---
-
 # The Eternal Archive: DNA Data Storage for AI Models in 2027
 
 ## The Encoding Stack: Binary to Base-4
@@ -210,4 +212,3 @@ A: The Reed-Solomon error correction codes are designed to handle a significant 
 - [The Model](/blog/ai-model-fingerprinting-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

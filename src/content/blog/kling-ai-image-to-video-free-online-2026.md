@@ -1,13 +1,15 @@
 ---
-title: "Kling AI Image to Video Free Online (2026): How to Use It"
-description: "Everything you need to know about kling ai image to video free online in 2026. Research-backed insights with hands-on testing."
-pubDate: "Feb 23 2026"
-heroImage: "/assets/blog-fallback.webp"
+am_last_deterministic_review_at: '2026-02-25T16:23:03.039603'
+am_last_deterministic_review_by: worker-28
+description: Everything you need to know about kling ai image to video free online
+  in 2026. Research-backed insights with hands-on testing.
+heroImage: /assets/blog-fallback.webp
+pubDate: Feb 23 2026
 tags:
-  - AI Agents
-  - Dev Tools
+- AI Agents
+- Dev Tools
+title: 'Kling AI Image to Video Free Online (2026): How to Use It'
 ---
-
 If you’re searching for “kling ai image to video free online,” you’re probably trying to answer two practical questions:
 
 1) Can Kling turn a still image into a short video without installing anything?

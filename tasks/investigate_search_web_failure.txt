@@ -1,0 +1,1 @@
+Investigate the failure of the `search_web` tool. Determine the cause of the error and implement a solution to restore functionality.

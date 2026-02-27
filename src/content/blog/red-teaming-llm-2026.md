@@ -1,11 +1,13 @@
 ---
-title: "Breaking Your Own AI: Red Teaming for Production LLMs in 2026"
-description: "How to find your AI"
-pubDate: "Dec 27 2025"
-heroImage: "/assets/red-teaming-llm.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:31.579310'
+am_last_deterministic_review_by: worker-32
+description: How to find your AI
+heroImage: /assets/red-teaming-llm.webp
+pubDate: Dec 27 2025
+tags:
+- Analysis
+title: 'Breaking Your Own AI: Red Teaming for Production LLMs in 2026'
 ---
-
 # Breaking Your Own AI: Red Teaming for Production LLMs in 2026
 
 ## Breaking Your Own AI: Red Teaming for Production LLMs in 2026
@@ -232,4 +234,3 @@ A: Red teaming should be part of a comprehensive security strategy that includes
 - [The Agent Bazaar: Monetizing AI Agents in the 2026 Marketplace Economy](/blog/ai-agent-marketplace-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

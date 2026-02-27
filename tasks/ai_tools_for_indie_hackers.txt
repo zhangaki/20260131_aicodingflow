@@ -1,0 +1,23 @@
+Task Title: Create SEO-optimized article: "The Ultimate Guide to AI Tools for Indie Hackers in 2024"
+
+Task Body:
+
+Create a comprehensive and SEO-optimized article targeting indie hackers, focusing on AI tools that can help them build, launch, and grow their projects. The article should include the following sections:
+
+*   Introduction: Define "indie hacker" and explain the benefits of using AI tools.
+*   AI tools for idea generation and validation: Recommend tools and explain how they can be used.
+*   AI tools for building your product:
+    *   No-code AI tools: Recommend tools and explain how they can be used.
+    *   AI code generation tools: Recommend tools and explain how they can be used.
+*   AI tools for marketing and sales:
+    *   AI copywriting tools: Recommend tools and explain how they can be used.
+    *   AI social media management tools: Recommend tools and explain how they can be used.
+*   AI tools for customer support: Recommend tools and explain how they can be used.
+*   Case studies: Include real-world examples of how indie hackers are using AI tools to succeed.
+*   Conclusion: Summarize the key benefits of using AI tools for indie hacking and provide a call to action.
+
+SEO Keywords: AI tools, indie hackers, no-code, automation, productivity, marketing, sales, customer support
+
+Target Audience: Independent developers, indie hackers, entrepreneurs
+
+Goal: Drive traffic to the website and generate leads.

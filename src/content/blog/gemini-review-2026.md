@@ -1,11 +1,14 @@
 ---
-title: "Gemini Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Gemini in 2026. We cover features, pricing tiers,"
-pubDate: "Dec 09 2025"
-heroImage: "/assets/gemini-review-2026.webp"
-tags: ["AI Tools", "Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:24:37.643847'
+am_last_deterministic_review_by: worker-49
+description: An in-depth review of Gemini in 2026. We cover features, pricing tiers,
+heroImage: /assets/gemini-review-2026.webp
+pubDate: Dec 09 2025
+tags:
+- AI Tools
+- Reviews
+title: 'Gemini Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
-
 ## Gemini Review 2026: Is It Worth Your Money?
 
 During our 'Head-to-Head' engineering audit last month, we found that Gemini handles large-scale tasks with surprising stability.

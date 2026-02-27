@@ -1,11 +1,13 @@
 ---
-title: "Multi-Agent AI Orchestration in 2026: From Concept to Production"
-description: "A practical engineering guide to building multi-agent AI systems. Covers"
-pubDate: "Jan 22 2026"
-heroImage: "/assets/multi-agent-ai-orchestration-guide-2026.webp"
-tags: ["Agents"]
+am_last_deterministic_review_at: '2026-02-25T16:23:19.146784'
+am_last_deterministic_review_by: worker-45
+description: A practical engineering guide to building multi-agent AI systems. Covers
+heroImage: /assets/multi-agent-ai-orchestration-guide-2026.webp
+pubDate: Jan 22 2026
+tags:
+- Agents
+title: 'Multi-Agent AI Orchestration in 2026: From Concept to Production'
 ---
-
 # Multi-Agent AI Orchestration in 2026: From Concept to Production
 
 ## What Multi-Agent Orchestration Actually Means
@@ -440,4 +442,3 @@ Building multi-agent systems is a challenging but rewarding endeavor. By followi
 - [Using CrewAI for Orchestrating Multi-Agent Systems: A Practical 2026 Walkthrough](/blog/how-to-use-crewai-for-orchestrating-multi-agent-systems-2026/)
 - [Using LangChain for Building a Production RAG Pipeline: A Practical 2026 Walkthrough](/blog/how-to-use-langchain-for-building-a-production-rag-pipeline-2026/)
 - [LangChain in 2026: A Practitioner's Complete Review](/blog/langchain-review-2026/)
-

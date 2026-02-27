@@ -1,11 +1,14 @@
 ---
-title: "Cognitive Atrophy Prevention 2027: Fighting AI Dependency & Mental Decline"
-description: "Prevent cognitive atrophy from AI over-reliance in 2027: brain training strategies, critical thinking exercises, and maintaining human intelligence."
-pubDate: "Jan 27 2026"
-heroImage: "/assets/cognitive-atrophy-prevention.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:18:35.496604'
+am_last_deterministic_review_by: worker-12
+description: 'Prevent cognitive atrophy from AI over-reliance in 2027: brain training
+  strategies, critical thinking exercises, and maintaining human intelligence.'
+heroImage: /assets/cognitive-atrophy-prevention.webp
+pubDate: Jan 27 2026
+tags:
+- Analysis
+title: 'Cognitive Atrophy Prevention 2027: Fighting AI Dependency & Mental Decline'
 ---
-
 In 2015, we collectively realized that sitting at a desk for 8 hours a day was destroying our bodies. We responded with standing desks, ergonomic chairs, and gym memberships.
 In 2027, we are waking up to a more insidious reality: **AI-Assisted Thinking** is destroying our minds.
 

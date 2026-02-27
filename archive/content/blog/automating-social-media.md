@@ -1,0 +1,2 @@
+This is filler content for 'The Ultimate Guide to Automating Your Social Media' page. Maximize your reach by posting at the optimal times. See our analysis of <a href='/best-time-to-post-social-media'>the best time to post on social media</a>.[Buffer vs. Hootsuite](buffer-vs-hootsuite.md): Compare Buffer and Hootsuite to determine the best social media automation tool for your needs.
+[Zapier Tutorial](zapier-tutorial.md): Learn how to integrate your social media with other apps using Zapier.

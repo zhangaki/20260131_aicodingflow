@@ -1,11 +1,14 @@
 ---
-title: "Claude Code Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Claude Code in 2026. We cover features, pricing"
-pubDate: "Jan 13 2026"
-heroImage: "/assets/claude-code-review-2026.webp"
-tags: ["AI Tools", "Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:34:04.887734'
+am_last_deterministic_review_by: worker-22
+description: An in-depth review of Claude Code in 2026. We cover features, pricing
+heroImage: /assets/claude-code-review-2026.webp
+pubDate: Jan 13 2026
+tags:
+- AI Tools
+- Reviews
+title: 'Claude Code Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
-
 ## Claude Code Review 2026: Is It Worth Your Money?
 
 We switched our core workflow over to Claude Code for a recent client project to see if it lived up to the noise. Here's what we found.

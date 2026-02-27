@@ -1,0 +1,20 @@
+Task Title: Write SEO Article: AI Tools for Writing Blog Posts
+
+Task Body:
+
+* Goal: Create a comprehensive and SEO-optimized article on "AI tools for writing blog posts" that ranks well in search results and provides value to readers.
+* Keywords: "AI tools for writing blog posts," "AI writing assistant," "blog content creation," "AI content optimization"
+* Outline: (Use Outline 2 from above)
+* Content Requirements:
+    * Must be original content (not plagiarized from other sources).
+    * Must be well-written and engaging.
+    * Must include specific examples and use cases.
+    * Must include pros and cons for each tool.
+    * Must be fact-checked and accurate.
+    * Must be SEO-optimized (headings, keywords, meta description).
+* SEO Considerations:
+    * Target a keyword difficulty (KD) of < 20.
+    * Aim for a search volume of > 100/month.
+    * Include relevant internal links to other articles on the site.
+    * Write a compelling meta description.
+* Image Requirements: Generate a relevant hero image using `generate_image`. Prompt: "A futuristic image of AI writing a blog post, with glowing lines of code and a creative spark."

@@ -1,11 +1,13 @@
 ---
-title: "HeyGen Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of HeyGen in 2026. We cover features, pricing tiers,"
-pubDate: "Jan 04 2026"
-heroImage: "/assets/heygen-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:32:08.426238'
+am_last_deterministic_review_by: worker-45
+description: An in-depth review of HeyGen in 2026. We cover features, pricing tiers,
+heroImage: /assets/heygen-review-2026.webp
+pubDate: Jan 04 2026
+tags:
+- Reviews
+title: 'HeyGen Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
-
 ## HeyGen Review 2026: Is It Worth Your Money?
 
 We switched our core workflow over to HeyGen for a recent client project to see if it lived up to the noise. Here's what we found.

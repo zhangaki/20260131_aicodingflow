@@ -1,11 +1,13 @@
 ---
-title: "The Molecular Architect: Generative AI for Pharmaceutical R&D in 2026"
-description: "How to discover drugs in days, not decades. A technical guide to protein"
-pubDate: "Jan 14 2026"
-heroImage: "/assets/generative-ai-pharma.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:10.402064'
+am_last_deterministic_review_by: worker-43
+description: How to discover drugs in days, not decades. A technical guide to protein
+heroImage: /assets/generative-ai-pharma.webp
+pubDate: Jan 14 2026
+tags:
+- Analysis
+title: 'The Molecular Architect: Generative AI for Pharmaceutical R&D in 2026'
 ---
-
 # The Molecular Architect: Generative AI for Pharmaceutical R&D in 2026
 
 ## The Tech Stack: 3 Layers of Generative Bio
@@ -288,4 +290,3 @@ Implementing a full generative AI pipeline for pharmaceutical R&D requires a sig
 - [The Model](/blog/ai-model-fingerprinting-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

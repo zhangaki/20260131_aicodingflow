@@ -1,11 +1,13 @@
 ---
-title: "Using Otter.ai for Supercharging Your Daily Workflow: A Practical 2026 Walkthrough"
-description: "Learn how to use Otter.ai effectively for supercharging your daily workflow."
-pubDate: "Feb 07 2026"
-heroImage: "/assets/how-to-use-otterai-for-supercharging-your-daily-workflow-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:28:56.974918'
+am_last_deterministic_review_by: worker-10
+description: Learn how to use Otter.ai effectively for supercharging your daily workflow.
+heroImage: /assets/how-to-use-otterai-for-supercharging-your-daily-workflow-2026.webp
+pubDate: Feb 07 2026
+tags:
+- Guides
+title: 'Using Otter.ai for Supercharging Your Daily Workflow: A Practical 2026 Walkthrough'
 ---
-
 ## A Practitioner's Guide to Otter.ai for Supercharging Your Daily Workflow
 
 I've been recommending Otter.ai to clients in regulated industries, and the feedback has been overwhelmingly positive.

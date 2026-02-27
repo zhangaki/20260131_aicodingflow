@@ -1,11 +1,13 @@
 ---
-title: "The Printer for Life: Personal Bio-Foundries and the End of Pharma (2030)"
-description: "When you can download Insulin like you download a PDF, the FDA becomes"
-pubDate: "Dec 22 2025"
-heroImage: "/assets/bio-foundries-cover.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:02.633429'
+am_last_deterministic_review_by: worker-44
+description: When you can download Insulin like you download a PDF, the FDA becomes
+heroImage: /assets/bio-foundries-cover.webp
+pubDate: Dec 22 2025
+tags:
+- Analysis
+title: 'The Printer for Life: Personal Bio-Foundries and the End of Pharma (2030)'
 ---
-
 Compute has been decentralized (Bitcoin/GPUs).
 Information has been decentralized (The Internet).
 Energy has been decentralized (Solar).

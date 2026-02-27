@@ -1,11 +1,13 @@
 ---
-title: "Fireflies.ai Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Fireflies.ai in 2026. We cover features, pricing"
-pubDate: "Dec 25 2025"
-heroImage: "/assets/firefliesai-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:22:25.198381'
+am_last_deterministic_review_by: worker-03
+description: An in-depth review of Fireflies.ai in 2026. We cover features, pricing
+heroImage: /assets/firefliesai-review-2026.webp
+pubDate: Dec 25 2025
+tags:
+- Reviews
+title: 'Fireflies.ai Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
-
 ## Fireflies.ai Review 2026: Is It Worth Your Money?
 
 I've been recommending Fireflies.ai to clients in regulated industries, and the feedback has been overwhelmingly positive.

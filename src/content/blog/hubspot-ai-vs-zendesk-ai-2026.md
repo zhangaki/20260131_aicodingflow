@@ -1,11 +1,13 @@
 ---
-title: "HubSpot AI vs Zendesk AI 2026: The Data-Backed Truth"
-description: "We compared HubSpot AI and Zendesk AI over 30 days of testing. See the"
-pubDate: "Feb 06 2026"
-heroImage: "/assets/hubspot-ai-vs-zendesk-ai-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:27:54.104150'
+am_last_deterministic_review_by: worker-21
+description: We compared HubSpot AI and Zendesk AI over 30 days of testing. See the
+heroImage: /assets/hubspot-ai-vs-zendesk-ai-2026.webp
+pubDate: Feb 06 2026
+tags:
+- Analysis
+title: 'HubSpot AI vs Zendesk AI 2026: The Data-Backed Truth'
 ---
-
 # HubSpot AI vs Zendesk AI 2026: The Data-Backed Truth
 
 ## HubSpot AI vs. Zendesk AI: A Developer's Deep Dive (2026)

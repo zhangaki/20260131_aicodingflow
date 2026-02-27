@@ -1,11 +1,13 @@
 ---
-title: "Devin Review 2026: Features, Pricing, and Our Honest Verdict"
-description: "An in-depth review of Devin in 2026. We cover features, pricing tiers,"
-pubDate: "Jan 16 2026"
-heroImage: "/assets/devin-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:18:36.377084'
+am_last_deterministic_review_by: worker-39
+description: An in-depth review of Devin in 2026. We cover features, pricing tiers,
+heroImage: /assets/devin-review-2026.webp
+pubDate: Jan 16 2026
+tags:
+- Reviews
+title: 'Devin Review 2026: Features, Pricing, and Our Honest Verdict'
 ---
-
 ## Devin Review 2026: Is It Worth Your Money?
 
 I've been recommending Devin to clients in regulated industries, and the feedback has been overwhelmingly positive.

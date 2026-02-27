@@ -1,0 +1,1 @@
+This is a placeholder for the "The Future of Automation in Marketing" page.  You might also be interested in [How to Automate Your Social Media with AI](automate-social-media-ai.md).

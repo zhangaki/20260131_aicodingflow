@@ -1,11 +1,13 @@
 ---
-title: "Using Perplexity for Deep Research Projects: A Practical 2026 Walkthrough"
-description: "Learn how to use Perplexity effectively for deep research projects. This"
-pubDate: "Jan 03 2026"
-heroImage: "/assets/how-to-use-perplexity-for-deep-research-projects-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:32:26.284982'
+am_last_deterministic_review_by: worker-35
+description: Learn how to use Perplexity effectively for deep research projects. This
+heroImage: /assets/how-to-use-perplexity-for-deep-research-projects-2026.webp
+pubDate: Jan 03 2026
+tags:
+- Guides
+title: 'Using Perplexity for Deep Research Projects: A Practical 2026 Walkthrough'
 ---
-
 ## A Practitioner's Guide to Perplexity for Deep Research Projects
 
 During our 'Head-to-Head' engineering audit last month, we found that Perplexity handles large-scale tasks with surprising stability.

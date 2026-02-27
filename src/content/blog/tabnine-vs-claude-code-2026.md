@@ -1,11 +1,13 @@
 ---
-title: "Which Wins in 2026? Tabnine vs Claude Code Breakdown"
-description: "Choosing between Tabnine and Claude Code should be simple. We answered"
-pubDate: "Feb 08 2026"
-heroImage: "/assets/tabnine-vs-claude-code-2026.webp"
-tags: ["AI Tools"]
+am_last_deterministic_review_at: '2026-02-25T16:22:50.410486'
+am_last_deterministic_review_by: worker-03
+description: Choosing between Tabnine and Claude Code should be simple. We answered
+heroImage: /assets/tabnine-vs-claude-code-2026.webp
+pubDate: Feb 08 2026
+tags:
+- AI Tools
+title: Which Wins in 2026? Tabnine vs Claude Code Breakdown
 ---
-
 # Which Wins in 2026? Tabnine vs Claude Code Breakdown
 
 | Feature | Tabnine | Claude Code |

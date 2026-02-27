@@ -1,17 +1,20 @@
 ---
-title: "Dyson Sphere of One 2028: Personal Energy Independence with AI"
-description: "Explore the Dyson Sphere of One concept in 2028: AI-driven personal energy systems, renewable tech, and individual power autonomy."
-pubDate: "Jan 11 2026"
-heroImage: "/assets/dyson-sphere-cover.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:12.128119'
+am_last_deterministic_review_by: worker-19
+description: 'Explore the Dyson Sphere of One concept in 2028: AI-driven personal
+  energy systems, renewable tech, and individual power autonomy.'
+heroImage: /assets/dyson-sphere-cover.webp
+pubDate: Jan 11 2026
+tags:
+- Analysis
+title: 'Dyson Sphere of One 2028: Personal Energy Independence with AI'
 ---
+If your AI workflow runs at home (agents, local models, automations), the grid is a single point of failure.
+One 12–72 hour outage turns “personal compute” into expensive idle hardware.
 
-The "Cloud" is a convenient lie. It is just a computer plugged into a coal plant in Virginia.
-If the grid goes down—whether due to a Carrington Event (Solar Flare), a cyberattack on the SCADA systems, or simple mismanagement (like Texas 2021)—your AI agents die. Your Exocortex goes dark. You are lobotomized.
-The **Super Individual** of 2028 cannot rely on centralized, fragile infrastructure. To be truly autonomous, you must become your own utility company.
-You must build a **Dyson Sphere of One**.
+This guide’s promise: by 2028 you can build **personal energy independence for AI**—enough on‑site generation + multi‑day storage to keep your stack running through storms, heat waves, and local grid failures.
 
-This article explores the physics and economics of **Personal Energy Sovereignty** in 2028. We are moving beyond simple "Roof Solar" to **Micro-Nuclear**, **Iron-Air Batteries**, and **Waste Heat Cogeneration**.
+Next step: size a simple home‑utility stack (generation → storage → heat recovery), then pressure‑test it against 2028 options that change the math: **iron‑air batteries** (100‑hour storage), **perovskite solar** (higher yield per surface), **micro‑modular reactors** (the endgame), and **waste‑heat cogeneration**.
 
 
 

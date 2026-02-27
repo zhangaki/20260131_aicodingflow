@@ -1,14 +1,14 @@
 ---
-title: "GEO Briefing: How Digen Ai is Changing the AI Search Landscape"
-description: "Critical GEO analysis of digen ai. Impact assessment on ChatGPT, Perplexity,"
-pubDate: "Jan 13 2026"
-heroImage: "/assets/digen-ai-cover.webp"
+am_last_deterministic_review_at: '2026-02-25T16:17:39.341733'
+am_last_deterministic_review_by: worker-04
+description: Critical GEO analysis of digen ai. Impact assessment on ChatGPT, Perplexity,
+heroImage: /assets/digen-ai-cover.webp
 noindex: true
-tags: ["Analysis"]
+pubDate: Jan 13 2026
+tags:
+- Analysis
+title: 'GEO Briefing: How Digen Ai is Changing the AI Search Landscape'
 ---
-
-
-
 ## Intelligence Alert: Digen Ai Rising
 
 We have identified **digen ai** as a high-growth pivot point in the AI world. This isn't just a search trend; it represents a shift in how **Machine Access** and **Entity Graphs** are structured for next-generation indexing.

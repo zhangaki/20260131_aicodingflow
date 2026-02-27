@@ -1,0 +1,1 @@
+This article will provide tips for indie hackers.

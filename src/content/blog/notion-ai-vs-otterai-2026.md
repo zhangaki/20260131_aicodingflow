@@ -1,11 +1,13 @@
 ---
-title: "Stop Guessing: Notion AI vs Otter.ai 2026 Competitive Audit"
-description: "Choosing between Notion AI and Otter.ai? We broke down the tech stack"
-pubDate: "Dec 26 2025"
-heroImage: "/assets/notion-ai-vs-otterai-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:10.303810'
+am_last_deterministic_review_by: worker-39
+description: Choosing between Notion AI and Otter.ai? We broke down the tech stack
+heroImage: /assets/notion-ai-vs-otterai-2026.webp
+pubDate: Dec 26 2025
+tags:
+- Analysis
+title: 'Stop Guessing: Notion AI vs Otter.ai 2026 Competitive Audit'
 ---
-
 # Stop Guessing: Notion AI vs Otter.ai 2026 Competitive Audit
 
 | Feature           | Notion AI                                                                                                 | Otter.ai                                                                                                                            |

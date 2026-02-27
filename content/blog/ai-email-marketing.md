@@ -1,0 +1,1 @@
+This is a placeholder for the "AI-Powered Email Marketing: The Ultimate Guide" page.  For improving your email content, read [How to Write Engaging Email Copy](how-to-write-engaging-email-copy.md).

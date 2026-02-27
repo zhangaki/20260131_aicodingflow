@@ -1,0 +1,42 @@
+
+Source Page: "10 AI Tools for Indie Game Developers"
+  Link 1:
+    Anchor Text: Increase your productivity with AI tools
+    Target Page: "Increase your productivity with AI tools"
+    Context: "Indie game development can be time-consuming. To combat this, you can increase your productivity with AI tools"
+  Link 2:
+    Anchor Text: AI Powered SEO
+    Target Page: "AI Powered SEO: How to Rank Higher on Google"
+    Context: "Making a successful game requires marketing, which can be enhanced with AI Powered SEO"
+
+Source Page: "Automating Your Social Media as a Solo Founder"
+  Link 1:
+    Anchor Text: Automate Your Email Marketing with AI
+    Target Page: "How to Automate Your Email Marketing with AI"
+    Context: "As a solo founder, your time is precious. In addition to social media, you can Automate Your Email Marketing with AI"
+  Link 2:
+    Anchor Text: Time Management Strategies
+    Target Page: "Time Management Strategies for Independent Creators"
+    Context: "Effectively automating social media requires good Time Management Strategies"
+
+Source Page: "The Ultimate Guide to Building a Profitable SaaS Product"
+  Link 1:
+    Anchor Text: Monetizing Your Passion
+    Target Page: "Monetizing Your Passion: A Guide to Indie Hacking"
+    Context: "Building a SaaS product is a good way of Monetizing Your Passion"
+
+Source Page: "5 Productivity Hacks for Busy Indie Hackers"
+  Link 1:
+    Anchor Text: Time Management Strategies
+    Target Page: "Time Management Strategies for Independent Creators"
+    Context: "Indie hackers need to be productive, so Time Management Strategies are vital"
+  Link 2:
+    Anchor Text: Increase your productivity with AI tools
+    Target Page: "Increase your productivity with AI tools"
+    Context: "Indie hackers need all the help they can get to Increase your productivity with AI tools"
+
+Source Page: "Choosing the Right AI Writing Assistant for Your Blog"
+  Link 1:
+    Anchor Text: AI Powered SEO
+    Target Page: "AI Powered SEO: How to Rank Higher on Google"
+    Context: "To ensure your blog gets seen, you can use AI Powered SEO"

@@ -1,0 +1,1 @@
+This is a placeholder for the MVP article. Once you have a working MVP, the next step is to start generating revenue. Learn how to monetize your project in our guide on [Monetizing Your Side Project: A Step-by-Step Guide](monetizing-side-project).

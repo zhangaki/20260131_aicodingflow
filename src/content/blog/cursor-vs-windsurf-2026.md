@@ -1,11 +1,13 @@
 ---
-title: "Stop Guessing: Cursor vs Windsurf 2026 Competitive Audit"
-description: "Choosing between Cursor and Windsurf? We broke down the tech stack and"
-pubDate: "Dec 16 2025"
-heroImage: "/assets/cursor-vs-windsurf-2026.webp"
-tags: ["IDE"]
+am_last_deterministic_review_at: '2026-02-25T16:18:22.063915'
+am_last_deterministic_review_by: worker-31
+description: Choosing between Cursor and Windsurf? We broke down the tech stack and
+heroImage: /assets/cursor-vs-windsurf-2026.webp
+pubDate: Dec 16 2025
+tags:
+- IDE
+title: 'Stop Guessing: Cursor vs Windsurf 2026 Competitive Audit'
 ---
-
 # Stop Guessing: Cursor vs Windsurf 2026 Competitive Audit
 
 ## Cursor vs. Windsurf: A Deep Dive for 2026 Developers

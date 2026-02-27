@@ -1,11 +1,14 @@
 ---
-title: "How to Use Udio for Royalty-Free Music 2026: Complete Tutorial"
-description: "Create royalty-free music with Udio AI in 2026: composition tutorial, licensing guide, commercial use rights, and export settings for creators."
-pubDate: "Dec 20 2025"
-heroImage: "/assets/how-to-use-udio-for-producing-royalty-free-music-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:25:53.824699'
+am_last_deterministic_review_by: worker-48
+description: 'Create royalty-free music with Udio AI in 2026: composition tutorial,
+  licensing guide, commercial use rights, and export settings for creators.'
+heroImage: /assets/how-to-use-udio-for-producing-royalty-free-music-2026.webp
+pubDate: Dec 20 2025
+tags:
+- Guides
+title: 'How to Use Udio for Royalty-Free Music 2026: Complete Tutorial'
 ---
-
 ## How to Use Udio for Producing Royalty-Free Music: Everything You Need to Know
 
 I've been recommending Udio to clients in regulated industries, and the feedback has been overwhelmingly positive.

@@ -1,11 +1,14 @@
 ---
-title: "Gemini 2.0 vs OpenAI o3 2026: Which AI Model is Better?"
-description: "Compare Google Gemini 2.0 vs OpenAI o3 in 2026: reasoning capability, pricing, multimodal features, and which AI model wins for developers."
-pubDate: "Dec 30 2025"
-heroImage: "/assets/gemini-vs-openai-o3-2026.webp"
-tags: ["AI Tools"]
+am_last_deterministic_review_at: '2026-02-25T16:22:39.452847'
+am_last_deterministic_review_by: worker-42
+description: 'Compare Google Gemini 2.0 vs OpenAI o3 in 2026: reasoning capability,
+  pricing, multimodal features, and which AI model wins for developers.'
+heroImage: /assets/gemini-vs-openai-o3-2026.webp
+pubDate: Dec 30 2025
+tags:
+- AI Tools
+title: 'Gemini 2.0 vs OpenAI o3 2026: Which AI Model is Better?'
 ---
-
 # Gemini vs OpenAI o3: The 2026 Feature Matrix
 
 | Feature             | Gemini                                                                     | OpenAI o3                                                                       |

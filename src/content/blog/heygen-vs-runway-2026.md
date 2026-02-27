@@ -1,13 +1,14 @@
 ---
-title: "HeyGen vs Runway: The 2026 Feature Matrix"
-description: "A side-by-side technical audit of HeyGen and Runway. Pricing, limitations,"
-pubDate: "Dec 10 2025"
-heroImage: "/assets/heygen-vs-runway-2026.webp"
+am_last_deterministic_review_at: '2026-02-25T16:25:46.934558'
+am_last_deterministic_review_by: worker-36
+description: A side-by-side technical audit of HeyGen and Runway. Pricing, limitations,
+heroImage: /assets/heygen-vs-runway-2026.webp
 noindex: true
-tags: ["Analysis"]
+pubDate: Dec 10 2025
+tags:
+- Analysis
+title: 'HeyGen vs Runway: The 2026 Feature Matrix'
 ---
-
-
 # Technical Face-Off: HeyGen vs Runway
 
 After using HeyGen in our internal production environment for three weeks, our team noticed a significant shift in workflow velocity.

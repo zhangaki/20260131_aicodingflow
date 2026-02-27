@@ -1,11 +1,13 @@
 ---
-title: "Stop Guessing: Windsurf vs Tabnine 2026 Competitive Audit"
-description: "Choosing between Windsurf and Tabnine? We broke down the tech stack and"
-pubDate: "Dec 09 2025"
-heroImage: "/assets/windsurf-vs-tabnine-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:59.770955'
+am_last_deterministic_review_by: worker-25
+description: Choosing between Windsurf and Tabnine? We broke down the tech stack and
+heroImage: /assets/windsurf-vs-tabnine-2026.webp
+pubDate: Dec 09 2025
+tags:
+- Analysis
+title: 'Stop Guessing: Windsurf vs Tabnine 2026 Competitive Audit'
 ---
-
 # Stop Guessing: Windsurf vs Tabnine 2026 Competitive Audit
 
 ## Are You Choosing the Right AI Coding Assistants Tool?

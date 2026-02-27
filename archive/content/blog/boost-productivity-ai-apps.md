@@ -1,0 +1,3 @@
+... (Existing content) ...
+
+You can also combine AI apps with other [time-saving automation hacks](time-saving-automation-hacks.md) for maximum productivity. If you're a developer, read about how to [build a profitable SaaS](build-profitable-saas.md).

@@ -1,11 +1,13 @@
 ---
-title: "The Digital Butterfly: Predicting Supply Chain Disruption with Graph Neural"
-description: "How to see the storm before it hits. A technical guide to using Graph"
-pubDate: "Jan 22 2026"
-heroImage: "/assets/ai-supply-chain-prediction.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:26:05.145976'
+am_last_deterministic_review_by: worker-43
+description: How to see the storm before it hits. A technical guide to using Graph
+heroImage: /assets/ai-supply-chain-prediction.webp
+pubDate: Jan 22 2026
+tags:
+- Analysis
+title: 'The Digital Butterfly: Predicting Supply Chain Disruption with Graph Neural'
 ---
-
 In 2021, a single ship stuck in the Suez Canal froze $10 billion of trade per day. In 2026, such disruptions are no longer surprises—they are **calculated probabilities**.
 
 We have entered the age of **Predictive Supply Chain Intelligence**, where Graph Neural Networks (GNNs) scan the globe for the "digital butterfly effect"—the small, seemingly disconnected event that triggers a global shortage three weeks later. For the "Super Individual" building in the logistics tech space, this is the frontier. It's not just about tracking where a container *is*; it's about knowing where it *won't be*.
@@ -201,4 +203,3 @@ No. SMBs are using "Supply Chain as a Service" (SCaaS) APIs that wrap these GNN 
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

@@ -1,11 +1,15 @@
 ---
-title: "Multi-Agent AI Orchestration 2026: Top 5 Frameworks & Research Guide"
-description: "Multi-agent AI orchestration research 2026 - Top 5 frameworks compared (AutoGen, CrewAI, LangGraph). Complete guide to building collaborative AI agent systems."
-pubDate: "Dec 06 2025"
-heroImage: "/assets/multi-agent-orchestration-2026.webp"
-tags: ["Agents"]
+am_last_deterministic_review_at: '2026-02-25T16:23:09.815929'
+am_last_deterministic_review_by: worker-50
+description: Multi-agent AI orchestration research 2026 - Top 5 frameworks compared
+  (AutoGen, CrewAI, LangGraph). Complete guide to building collaborative AI agent
+  systems.
+heroImage: /assets/multi-agent-orchestration-2026.webp
+pubDate: Dec 06 2025
+tags:
+- Agents
+title: 'Multi-Agent AI Orchestration 2026: Top 5 Frameworks & Research Guide'
 ---
-
 # Multi-Agent AI Orchestration: Research-Backed Guide for 2026
 
 ## Multi-Agent Orchestration: From Solo Oracle to Intelligent Swarm (2026)
@@ -237,4 +241,3 @@ Multi-Agent Orchestration is rapidly becoming the dominant paradigm for building
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

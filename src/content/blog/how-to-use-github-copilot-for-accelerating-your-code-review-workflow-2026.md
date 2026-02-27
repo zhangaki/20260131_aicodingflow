@@ -1,11 +1,14 @@
 ---
-title: "Using GitHub Copilot for Accelerating Your Code Review Workflow: A Practical"
-description: "Learn how to use GitHub Copilot effectively for accelerating your code"
-pubDate: "Jan 21 2026"
-heroImage: "/assets/how-to-use-github-copilot-for-accelerating-your-code-review-workflow-2026.webp"
-tags: ["Guides", "Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:28:53.980576'
+am_last_deterministic_review_by: worker-08
+description: Learn how to use GitHub Copilot effectively for accelerating your code
+heroImage: /assets/how-to-use-github-copilot-for-accelerating-your-code-review-workflow-2026.webp
+pubDate: Jan 21 2026
+tags:
+- Guides
+- Reviews
+title: 'Using GitHub Copilot for Accelerating Your Code Review Workflow: A Practical'
 ---
-
 ## A Practitioner's Guide to GitHub Copilot for Accelerating Your Code Review Workflow
 
 I've been testing GitHub Copilot on several side projects lately, and the real-world performance is impressive compared to the marketing hype.

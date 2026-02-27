@@ -1,11 +1,14 @@
 ---
-title: "AI Code Review Bias 2026: Detecting & Preventing Unfair Feedback"
-description: "Identify and prevent AI code reviewer bias in 2026: racial/gender bias in feedback, fairness metrics, and building equitable AI review tools."
-pubDate: "Dec 30 2025"
-heroImage: "/assets/ai-code-reviewer-bias-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:25:45.242890'
+am_last_deterministic_review_by: worker-16
+description: 'Identify and prevent AI code reviewer bias in 2026: racial/gender bias
+  in feedback, fairness metrics, and building equitable AI review tools.'
+heroImage: /assets/ai-code-reviewer-bias-2026.webp
+pubDate: Dec 30 2025
+tags:
+- Reviews
+title: 'AI Code Review Bias 2026: Detecting & Preventing Unfair Feedback'
 ---
-
 # The Invisible Judge: Detecting Bias in AI Code Reviewers
 
 ## The Invisible Judge: Detecting Bias in AI Code Reviewers
@@ -194,4 +197,3 @@ trainer.save_model("./your_tuned_reviewer")
 - [The Agent Bazaar: Monetizing AI Agents in the 2026 Marketplace Economy](/blog/ai-agent-marketplace-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

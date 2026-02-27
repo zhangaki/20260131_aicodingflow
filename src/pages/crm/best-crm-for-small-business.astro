@@ -1,0 +1,258 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import BackgroundEffects from '../../components/BackgroundEffects.astro';
+
+const title = 'Best CRM For Small Business: HubSpot vs Pipedrive vs Monday';
+const description =
+  'A practical shortlist of the best CRM options for small business teams, with decision rules and a 30-day rollout plan.';
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      main {
+        width: 100% !important;
+        max-width: 940px !important;
+        margin: 0 auto !important;
+        padding: 7.2rem 1.4rem 3rem !important;
+      }
+      .hero {
+        border-radius: 24px;
+        padding: 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: linear-gradient(135deg, rgba(35, 213, 171, 0.16), rgba(233, 107, 70, 0.1));
+      }
+      .hero h1 {
+        margin: 0 0 0.8rem 0;
+        font-size: 2.5rem;
+        line-height: 1.08;
+        letter-spacing: -0.04em;
+      }
+      .hero p {
+        margin: 0;
+        color: #d4d4d8;
+        line-height: 1.8;
+      }
+
+      .section {
+        margin-top: 1.25rem;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.02);
+        padding: 1.2rem;
+      }
+      h2 {
+        margin: 0 0 0.65rem 0;
+        font-size: 1.35rem;
+      }
+      p,
+      li {
+        color: #d4d4d8;
+      }
+      .affiliate-disclosure {
+        margin: 0.55rem 0 0 0;
+        color: #a1a1aa;
+        font-size: 0.82rem;
+        line-height: 1.55;
+      }
+      ul {
+        margin: 0.7rem 0 0 1rem;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 0.72rem;
+        text-align: left;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        font-size: 0.9rem;
+      }
+      th {
+        color: #e2e8f0;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.75rem;
+      }
+      td {
+        color: #cbd5e1;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.9rem;
+      }
+      .card {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 14px;
+        padding: 0.95rem;
+        background: rgba(255, 255, 255, 0.02);
+      }
+      .card h3 {
+        margin: 0 0 0.45rem 0;
+        font-size: 1.05rem;
+      }
+      .card p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: #cbd5e1;
+      }
+      .links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.8rem;
+      }
+      .links a {
+        text-decoration: none;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 12px;
+        padding: 0.75rem 0.85rem;
+        color: #f1f5f9;
+        font-size: 0.92rem;
+      }
+      .links a:hover {
+        border-color: rgba(35, 213, 171, 0.42);
+      }
+
+      @media (max-width: 760px) {
+        main {
+          padding: 6.1rem 1rem 2rem !important;
+        }
+        .hero {
+          padding: 1.25rem;
+        }
+        .hero h1 {
+          font-size: 1.85rem;
+        }
+        .cards,
+        .links {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <BackgroundEffects />
+    <main>
+      <section class="hero">
+        <h1>Best CRM For Small Business</h1>
+        <p>
+          Most small teams do not fail because they picked a "bad CRM". They fail because they picked a CRM that does
+          not match their operating model. Use this shortlist to pick the right first system, then execute consistently.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Shortlist: 3 Strong Options</h2>
+        <p class="affiliate-disclosure">Disclosure: Some links in this shortlist are sponsored or affiliate links. We may earn a commission at no extra cost to you.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>CRM</th>
+              <th>Best For</th>
+              <th>Tradeoff</th>
+              <th>Official Site</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HubSpot CRM</td>
+              <td>Teams combining marketing, sales, and service in one stack</td>
+              <td>Can become heavy if your workflow is only basic pipeline management</td>
+              <td><a href="https://www.hubspot.com/products/crm" target="_blank" rel="nofollow sponsored noopener">HubSpot</a></td>
+            </tr>
+            <tr>
+              <td>Pipedrive</td>
+              <td>Sales teams that want fast setup and clear pipeline execution</td>
+              <td>Less native depth for broader GTM lifecycle workflows</td>
+              <td><a href="https://www.pipedrive.com/" target="_blank" rel="nofollow sponsored noopener">Pipedrive</a></td>
+            </tr>
+            <tr>
+              <td>Monday CRM</td>
+              <td>Teams linking sales process to project and operations workflows</td>
+              <td>Needs process discipline to avoid over-customized complexity</td>
+              <td><a href="https://monday.com/crm" target="_blank" rel="nofollow sponsored noopener">Monday CRM</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section">
+        <h2>Pick By Business Stage</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Early Revenue (1-5 people)</h3>
+            <p>Default to Pipedrive when speed and focused sales execution matter most.</p>
+          </article>
+          <article class="card">
+            <h3>Growth (6-20 people)</h3>
+            <p>Default to HubSpot when marketing and sales workflows are converging.</p>
+          </article>
+          <article class="card">
+            <h3>Cross-Functional Ops</h3>
+            <p>Default to Monday CRM when sales and delivery workflows need one shared system.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>30-Day Rollout Plan</h2>
+        <ul>
+          <li>Week 1: migrate only active deals and core contact fields. Keep scope narrow.</li>
+          <li>Week 2: enforce one non-negotiable activity logging rule per rep.</li>
+          <li>Week 3: run one full pipeline review from CRM data only. No spreadsheet fallback.</li>
+          <li>Week 4: score adoption, reporting trust, and admin effort. Commit to one platform.</li>
+        </ul>
+        <p>
+          Buying decision rule: the best CRM is the one your team updates daily without executive chasing.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Related Comparison Pages</h2>
+        <div class="links">
+          <a href="/crm/">CRM hub and fit tool</a>
+          <a href="/crm/hubspot-vs-pipedrive/">HubSpot vs Pipedrive</a>
+          <a href="/crm/hubspot-vs-monday/">HubSpot vs Monday CRM</a>
+        </div>
+      </section>
+    </main>
+    <Footer />
+    <script is:inline>
+      function trackEvent(eventName, params = {}) {
+        if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+          window.gtag('event', eventName, params);
+        }
+      }
+
+      function resolveVendor(href) {
+        if (href.includes('hubspot.com')) {
+          return 'hubspot';
+        }
+        if (href.includes('pipedrive.com')) {
+          return 'pipedrive';
+        }
+        if (href.includes('monday.com')) {
+          return 'monday';
+        }
+        return 'other';
+      }
+
+      document.querySelectorAll('a[rel~="sponsored"]').forEach((link) => {
+        link.addEventListener('click', () => {
+          const href = link.getAttribute('href') || '';
+          trackEvent('crm_affiliate_link_click', {
+            location: 'crm_best_small_business',
+            vendor: resolveVendor(href),
+            link_text: (link.textContent || '').trim() || 'unknown',
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

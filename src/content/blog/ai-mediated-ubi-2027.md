@@ -1,11 +1,14 @@
 ---
-title: "AI-Mediated UBI 2027: Universal Basic Income & Automation Economics"
-description: "Analyze AI-mediated universal basic income in 2027: how automation drives UBI, pilot programs, economic models, and the future of work."
-pubDate: "Jan 03 2026"
-heroImage: "/assets/ai-mediated-ubi.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:25:51.216164'
+am_last_deterministic_review_by: worker-21
+description: 'Analyze AI-mediated universal basic income in 2027: how automation drives
+  UBI, pilot programs, economic models, and the future of work.'
+heroImage: /assets/ai-mediated-ubi.webp
+pubDate: Jan 03 2026
+tags:
+- Analysis
+title: 'AI-Mediated UBI 2027: Universal Basic Income & Automation Economics'
 ---
-
 Forget breathless pronouncements of AI-driven UBI alternatives. As a CTO, I'm less interested in the utopian destination and far more concerned with the potholes that will shred our tires along the way. The dream of "Autonomous Affluence," fueled by generative AI agents, is seductive. But the reality, as always, is far more complex – and fraught with very specific, production-level challenges.
 
 Let's dissect this "self-generating wealth" fantasy, not from a philosophical standpoint, but from the trenches of implementation. What happens when your perfectly crafted AI agent hits the unforgiving wall of real-world constraints?
@@ -251,4 +254,3 @@ This isn't about killing the dream. It's about injecting a dose of engineering r
 - [The Agent Bazaar: Monetizing AI Agents in the 2026 Marketplace Economy](/blog/ai-agent-marketplace-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

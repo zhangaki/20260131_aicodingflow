@@ -1,11 +1,13 @@
 ---
-title: "You.com vs Phind 2026: The Data-Backed Truth"
-description: "We compared You.com and Phind over 30 days of testing. See the raw results,"
-pubDate: "Dec 01 2025"
-heroImage: "/assets/youcom-vs-phind-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:23:00.892563'
+am_last_deterministic_review_by: worker-26
+description: We compared You.com and Phind over 30 days of testing. See the raw results,
+heroImage: /assets/youcom-vs-phind-2026.webp
+pubDate: Dec 01 2025
+tags:
+- Analysis
+title: 'You.com vs Phind 2026: The Data-Backed Truth'
 ---
-
 # You.com vs Phind 2026: The Data-Backed Truth
 
 ## You.com vs. Phind: An Engineer's Perspective (2026)

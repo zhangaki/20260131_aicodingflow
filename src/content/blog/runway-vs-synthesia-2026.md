@@ -1,11 +1,14 @@
 ---
-title: "Runway vs Synthesia 2026: Which AI Video Tool is Better?"
-description: "Compare Runway Gen-3 vs Synthesia in 2026: video editing vs avatar generation, pricing, features, and which AI video tool wins for creators."
-pubDate: "Dec 08 2025"
-heroImage: "/assets/runway-vs-synthesia-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:32.757689'
+am_last_deterministic_review_by: worker-41
+description: 'Compare Runway Gen-3 vs Synthesia in 2026: video editing vs avatar generation,
+  pricing, features, and which AI video tool wins for creators.'
+heroImage: /assets/runway-vs-synthesia-2026.webp
+pubDate: Dec 08 2025
+tags:
+- Analysis
+title: 'Runway vs Synthesia 2026: Which AI Video Tool is Better?'
 ---
-
 # Which Wins in 2026? Runway vs Synthesia Breakdown
 
 | Feature                  | Runway                                                                 | Synthesia                                                                       |

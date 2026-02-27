@@ -1,11 +1,14 @@
 ---
-title: "OpenAI Sora Review 2026: Features, Pricing & Video Quality Test"
-description: "In-depth OpenAI Sora review 2026: text-to-video features, pricing details, video quality comparison vs Runway and Kling, and access waitlist."
-pubDate: "Feb 01 2026"
-heroImage: "/assets/sora-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:22:32.301828'
+am_last_deterministic_review_by: worker-12
+description: 'In-depth OpenAI Sora review 2026: text-to-video features, pricing details,
+  video quality comparison vs Runway and Kling, and access waitlist.'
+heroImage: /assets/sora-review-2026.webp
+pubDate: Feb 01 2026
+tags:
+- Reviews
+title: 'OpenAI Sora Review 2026: Features, Pricing & Video Quality Test'
 ---
-
 ## Sora: The 2026 Reality Check
 
 We switched our core workflow over to Sora for a recent client project to see if it lived up to the noise. Here's what we found.

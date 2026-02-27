@@ -1,0 +1,7 @@
+Rewrite Actions for `10-ai-tools-for-content-creation-checklist-updated.md`:
+
+*   **Specificity:**
+    *   In the "Generate Ideas" section, make the pass/fail criteria more specific. For example, "Generated at least 10 unique and relevant content ideas that align with the target audience and content strategy, with at least 5 of them being directly applicable to the reader's business."
+    *   In the "Analyze Trends" section, provide more specific examples of how to use Google Trends and BuzzSumo to identify content gaps. For example, "Use Google Trends to identify rising keywords related to 'AI in healthcare' and then use BuzzSumo to find the most shared articles on those keywords. Identify at least 3 content gaps that are not being adequately addressed by existing articles."
+*   **Factuality:**
+    *   Add citations to support claims about the effectiveness of the AI tools mentioned. For example, "John Doe, a marketing consultant, used Rytr to generate 50 blog post ideas in under an hour, saving him valuable time and allowing him to focus on content strategy and promotion. He reported a 20% increase in blog traffic after implementing these AI-generated ideas. *Source: John Doe Marketing Case Study, 2024*."

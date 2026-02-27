@@ -1,0 +1,1 @@
+See this guide to [improve CTR](./improve_high_impression_low_ctr_page.md).

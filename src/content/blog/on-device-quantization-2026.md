@@ -1,11 +1,13 @@
 ---
-title: "The Math of Compression: Fitting 400B Parameters in Your Pocket"
-description: "How 1.58-bit quantization and bit-linear architectures are bringing the"
-pubDate: "Jan 13 2026"
-heroImage: "/assets/on-device-quantization-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:09.380957'
+am_last_deterministic_review_by: worker-14
+description: How 1.58-bit quantization and bit-linear architectures are bringing the
+heroImage: /assets/on-device-quantization-2026.webp
+pubDate: Jan 13 2026
+tags:
+- Analysis
+title: 'The Math of Compression: Fitting 400B Parameters in Your Pocket'
 ---
-
 # The Math of Compression: Fitting 400B Parameters in Your Pocket
 
 ## The Geometry of Weight Space
@@ -177,4 +179,3 @@ This code snippet demonstrates how to quantize a Llama-3-70B model using `autoaw
 - ['The Algorithmic Auditor: Building AI-Native Architectures for Fintech Compliance](/blog/ai-native-fintech-architecture-2026/)
 - [Cursor vs. GitHub Copilot: The Production Inferno (2026)](/blog/cursor-vs-copilot-2026/)
 - [ChatGPT vs Gemini vs Copilot: Best AI Chatbot in 2026?](/blog/best-ai-chatgpt-vs-gemini-vs-copilot-2026/)
-

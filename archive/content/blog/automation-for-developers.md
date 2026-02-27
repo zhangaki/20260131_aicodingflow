@@ -1,0 +1,2 @@
+
+To further enhance your workflow, learn how [automation can boost your productivity](increase-productivity-with-automation.md). If you're an indie developer, discover specific automation strategies in [Automation for Indie Developers](/blog/automation-indie-devs). For AI-powered assistance, explore the best [AI Tools for Developers](/ai-tools-developers.md).

@@ -1,11 +1,13 @@
 ---
-title: "Anthropic AI Tools: Names and Uses (2026 Guide)"
-description: "Everything you need to know about what is anthropic"
-pubDate: "Feb 10 2026"
-heroImage: "/assets/what-is-anthropic-s-ai-tool-called-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:59.129625'
+am_last_deterministic_review_by: worker-34
+description: Everything you need to know about what is anthropic
+heroImage: /assets/what-is-anthropic-s-ai-tool-called-2026.webp
+pubDate: Feb 10 2026
+tags:
+- Analysis
+title: 'Anthropic AI Tools: Names and Uses (2026 Guide)'
 ---
-
 ## Anthropic AI Tools: Names and Uses (2026 Guide)
 
 Anthropic is making waves in the AI world, and for good reason. Founded by former OpenAI researchers, they're taking a different approach to building and deploying large language models (LLMs). Instead of focusing solely on scaling up model size, Anthropic prioritizes safety, interpretability, and alignment. This means their AI tools are designed to be not just powerful, but also reliable and understandable. After spending considerable time testing and evaluating Anthropic's offerings, I've compiled this guide to give you a clear understanding of what they offer and how you can use them.

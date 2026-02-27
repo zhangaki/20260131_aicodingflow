@@ -1,11 +1,13 @@
 ---
-title: "Claude 4.6 Opus vs OpenAI o3 2026: The Data-Backed Truth"
-description: "We compared Claude 4.6 Opus and OpenAI o3 over 30 days of testing. See"
-pubDate: "Jan 24 2026"
-heroImage: "/assets/claude-46-opus-vs-openai-o3-2026.webp"
-tags: ["AI Tools"]
+am_last_deterministic_review_at: '2026-02-25T16:20:17.836902'
+am_last_deterministic_review_by: worker-21
+description: We compared Claude 4.6 Opus and OpenAI o3 over 30 days of testing. See
+heroImage: /assets/claude-46-opus-vs-openai-o3-2026.webp
+pubDate: Jan 24 2026
+tags:
+- AI Tools
+title: 'Claude 4.6 Opus vs OpenAI o3 2026: The Data-Backed Truth'
 ---
-
 # Claude 4.6 Opus vs OpenAI o3 2026: The Data-Backed Truth
 
 | Feature | Claude 4.6 Opus | OpenAI o3 |

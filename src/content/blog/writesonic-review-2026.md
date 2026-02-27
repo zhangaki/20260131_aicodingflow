@@ -1,11 +1,13 @@
 ---
-title: "Writesonic in 2026: A Practitioner"
-description: "We used Writesonic for 30 days straight. Here"
-pubDate: "Dec 03 2025"
-heroImage: "/assets/writesonic-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:22:58.186610'
+am_last_deterministic_review_by: worker-35
+description: We used Writesonic for 30 days straight. Here
+heroImage: /assets/writesonic-review-2026.webp
+pubDate: Dec 03 2025
+tags:
+- Reviews
+title: 'Writesonic in 2026: A Practitioner'
 ---
-
 ## Writesonic: The 2026 Reality Check
 
 We switched our core workflow over to Writesonic for a recent client project to see if it lived up to the noise. Here's what we found.

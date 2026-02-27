@@ -1,16 +1,19 @@
 ---
-title: "Breaking: Figma Partners With Anthropic to Turn AI-Generated Code Into Editable Designs"
-description: "Figma teams with Anthropic to convert AI-generated UI code into editable designs—speeding prototypes and reshaping design-dev workflows."
-pubDate: "Feb 19 2026"
-heroImage: "/assets/figma-anthropic-ai-generated-code-editable-designs.webp"
+am_last_deterministic_review_at: '2026-02-25T16:18:24.841634'
+am_last_deterministic_review_by: worker-29
+description: Figma teams with Anthropic to convert AI-generated UI code into editable
+  designs—speeding prototypes and reshaping design-dev workflows.
+heroImage: /assets/figma-anthropic-ai-generated-code-editable-designs.webp
+pubDate: Feb 19 2026
 tags:
 - Figma
 - Anthropic
 - Claude
 - AI code generation
 - design to code
+title: 'Breaking: Figma Partners With Anthropic to Turn AI-Generated Code Into Editable
+  Designs'
 ---
-
 # I Don’t Trust “Code-to-Figma” Demos Yet (Here’s How I’d Try to Break This Figma + Anthropic Idea)
 
 I’m not coming at this as a brand evangelist or a “future of design” narrator. I’m the person who gets handed the shiny prototype and then has to figure out why it falls apart the moment you feed it real product code, real tokens, and real edge cases.

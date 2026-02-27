@@ -1,14 +1,15 @@
 ---
-title: 'Tabnine Pricing 2026: Plans, Costs, What You Get'
+am_last_deterministic_review_at: '2026-02-25T16:22:55.122051'
+am_last_deterministic_review_by: worker-23
 description: 'Tabnine pricing 2026 breakdown: plan tiers, key features, team options,
   and when it beats Copilot. Compare costs and choose the right plan.'
-pubDate: Dec 28 2025
 heroImage: /assets/tabnine-review-2026.webp
+pubDate: Dec 28 2025
 tags:
 - Reviews
+title: 'Tabnine Pricing 2026: Plans, Costs, What You Get'
 updatedDate: Feb 20 2026
 ---
-
 ## Tabnine Review 2026: Is It Worth Your Money?
 
 We first discovered Tabnine during a hackathon, and it's been a mainstay in our stack ever since.

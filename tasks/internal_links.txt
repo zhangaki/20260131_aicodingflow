@@ -1,0 +1,19 @@
+Source Page: /blog/ai-writing-tools
+Target Page: /blog/ai-productivity-hacks
+Anchor Text: boost your writing efficiency
+
+Source Page: /blog/best-tools-solo-devs
+Target Page: /blog/marketing-for-indie-devs
+Anchor Text: promote your app
+
+Source Page: /blog/automate-social-media
+Target Page: /blog/productivity-tools
+Anchor Text: streamline your workflow
+
+Source Page: /blog/workflow-automation-devs
+Target Page: /blog/coding-efficiency
+Anchor Text: improve your development workflow
+
+Source Page: /blog/time-management-tips-devs
+Target Page: /blog/productivity-tools
+Anchor Text: manage your time effectively

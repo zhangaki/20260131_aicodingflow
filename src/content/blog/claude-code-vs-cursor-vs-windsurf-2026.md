@@ -1,11 +1,15 @@
 ---
-title: "Claude Code vs Cursor vs Windsurf 2026: Ultimate AI Editor Comparison"
-description: "The definitive 3-way comparison: Claude Code vs Cursor vs Windsurf in 2026. Pricing, features, performance benchmarks, and which AI editor to choose."
-pubDate: "Feb 03 2026"
-heroImage: "/assets/claude-code-vs-cursor-vs-windsurf-2026.webp"
-tags: ["AI Tools", "IDE"]
+am_last_deterministic_review_at: '2026-02-25T16:33:33.185611'
+am_last_deterministic_review_by: worker-47
+description: 'The definitive 3-way comparison: Claude Code vs Cursor vs Windsurf in
+  2026. Pricing, features, performance benchmarks, and which AI editor to choose.'
+heroImage: /assets/claude-code-vs-cursor-vs-windsurf-2026.webp
+pubDate: Feb 03 2026
+tags:
+- AI Tools
+- IDE
+title: 'Claude Code vs Cursor vs Windsurf 2026: Ultimate AI Editor Comparison'
 ---
-
 # Claude Code vs Cursor vs Windsurf: We Used All Three for 30 Days
 
 ## 30-Second Verdict
@@ -347,4 +351,3 @@ After extensive use, **Windsurf (formerly Codeium) emerges as our top pick.** Wh
 - [Best AI Tools for Coding 2026: Top 6 Tested & Compared](/blog/best-ai-tools-for-coding-2026/)
 - [Claude Code Review 2026: Features, Pricing, and Our Honest Verdict](/blog/claude-code-review-2026/)
 - [Cursor Review 2026: Features, Pricing, and Our Honest Verdict](/blog/cursor-review-2026/)
-

@@ -1,11 +1,14 @@
 ---
-title: "Somatic Data Visualization 2027: Embodied AI Data Experience"
-description: "Explore somatic data visualization in 2027: embodied AI, haptic feedback, VR/AR data immersion, and the future of experiential analytics."
-pubDate: "Dec 21 2025"
-heroImage: "/assets/somatic-data.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:22:36.728930'
+am_last_deterministic_review_by: worker-07
+description: 'Explore somatic data visualization in 2027: embodied AI, haptic feedback,
+  VR/AR data immersion, and the future of experiential analytics.'
+heroImage: /assets/somatic-data.webp
+pubDate: Dec 21 2025
+tags:
+- Analysis
+title: 'Somatic Data Visualization 2027: Embodied AI Data Experience'
 ---
-
 The visual cortex is biologically bandwidth-limited. Consciously, you can process about 40-80 bits of visual information per second.
 However, parallel to your vision, the **Somatosensory System** (touch, heat, proprioception, pain) and the **Auditory System** are processing gigabytes of ambient data.
 Yet, 99.9% of our software output is channeled exclusively through the bottleneck of the eyes. We are wasting our body's immense capacity to understand information intuitively.

@@ -1,14 +1,14 @@
 ---
-title: "Sub-100ms or Bust: The CTO’s Guide to AI Inference Latency"
-description: "In 2026, if your TTFT is over 200ms, you don’t have a product. This is"
-pubDate: "Jan 18 2026"
-heroImage: "/assets/ai-latency-optimization.webp"
+am_last_deterministic_review_at: '2026-02-25T16:25:03.130478'
+am_last_deterministic_review_by: worker-28
+description: In 2026, if your TTFT is over 200ms, you don’t have a product. This is
+heroImage: /assets/ai-latency-optimization.webp
 noindex: true
-tags: ["Performance"]
+pubDate: Jan 18 2026
+tags:
+- Performance
+title: 'Sub-100ms or Bust: The CTO’s Guide to AI Inference Latency'
 ---
-
-
-
 **Accuracy is table stakes. Latency is the differentiator.**
 
 In 2026, user patience has hit a hard ceiling: **100ms**. That is the psychological limit of "interactive feel." Anything beyond that is just a glorified loading spinner. If you're building a "Super Individual" scale application, you cannot afford cloud-provider-induced lag.

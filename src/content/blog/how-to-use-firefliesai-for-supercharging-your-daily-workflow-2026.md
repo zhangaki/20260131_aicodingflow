@@ -1,11 +1,13 @@
 ---
-title: "Using Fireflies.ai for Supercharging Your Daily Workflow: A Practical 2026"
-description: "Learn how to use Fireflies.ai effectively for supercharging your daily"
-pubDate: "Dec 05 2025"
-heroImage: "/assets/how-to-use-firefliesai-for-supercharging-your-daily-workflow-2026.webp"
-tags: ["Guides"]
+am_last_deterministic_review_at: '2026-02-25T16:28:53.458371'
+am_last_deterministic_review_by: worker-06
+description: Learn how to use Fireflies.ai effectively for supercharging your daily
+heroImage: /assets/how-to-use-firefliesai-for-supercharging-your-daily-workflow-2026.webp
+pubDate: Dec 05 2025
+tags:
+- Guides
+title: 'Using Fireflies.ai for Supercharging Your Daily Workflow: A Practical 2026'
 ---
-
 ## A Practitioner's Guide to Fireflies.ai for Supercharging Your Daily Workflow
 
 Our team ran Fireflies.ai alongside three competitors for a month-long stress test. The results were not what we expected.

@@ -1,11 +1,14 @@
 ---
-title: "Trae Review 2026: Free AI Coding Assistant Features & Pricing"
-description: "Comprehensive Trae AI coding assistant review 2026: free tier, paid plans, code generation quality, and comparison vs GitHub Copilot."
-pubDate: "Dec 26 2025"
-heroImage: "/assets/trae-review-2026.webp"
-tags: ["Reviews"]
+am_last_deterministic_review_at: '2026-02-25T16:22:55.658441'
+am_last_deterministic_review_by: worker-31
+description: 'Comprehensive Trae AI coding assistant review 2026: free tier, paid
+  plans, code generation quality, and comparison vs GitHub Copilot.'
+heroImage: /assets/trae-review-2026.webp
+pubDate: Dec 26 2025
+tags:
+- Reviews
+title: 'Trae Review 2026: Free AI Coding Assistant Features & Pricing'
 ---
-
 ## Trae Review 2026: Is It Worth Your Money?
 
 We switched our core workflow over to Trae for a recent client project to see if it lived up to the noise. Here's what we found.

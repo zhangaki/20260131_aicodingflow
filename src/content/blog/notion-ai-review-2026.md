@@ -1,13 +1,15 @@
 ---
-title: "Notion AI Updates 2026: New Features, Pricing & February Changes"
-description: "Notion AI updates 2026 with February feature changes, pricing tiers, and practical use cases for docs and workflows."
-pubDate: Jan 08 2026
+am_last_deterministic_review_at: '2026-02-25T16:22:08.307138'
+am_last_deterministic_review_by: worker-29
+description: Notion AI updates 2026 with February feature changes, pricing tiers,
+  and practical use cases for docs and workflows.
 heroImage: /assets/notion-ai-review-2026.webp
+pubDate: Jan 08 2026
 tags:
 - Reviews
+title: 'Notion AI Updates 2026: New Features, Pricing & February Changes'
 updatedDate: Feb 18 2026
 ---
-
 ## Notion AI: The 2026 Reality Check
 
 I've been testing Notion AI on several side projects lately, and the real-world performance is impressive compared to the marketing hype.

@@ -1,0 +1,3 @@
+... (Existing content) ...
+
+Looking to further boost your writing efficiency? Check out these [time-saving automation hacks](time-saving-automation-hacks.md) for writers. Also, you might be interested in how to [automate your social media](automate-social-media.md) with AI.

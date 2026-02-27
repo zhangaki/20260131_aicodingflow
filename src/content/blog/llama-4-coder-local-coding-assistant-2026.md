@@ -1,11 +1,13 @@
 ---
-title: "Llama 4 Coder: How to Run Meta"
-description: "Complete guide to running Llama 4 Coder as a local coding assistant."
-pubDate: "Feb 03 2026"
-heroImage: "/assets/llama-4-coder-local-coding-assistant-2026.webp"
-tags: ["Analysis"]
+am_last_deterministic_review_at: '2026-02-25T16:23:03.741343'
+am_last_deterministic_review_by: worker-43
+description: Complete guide to running Llama 4 Coder as a local coding assistant.
+heroImage: /assets/llama-4-coder-local-coding-assistant-2026.webp
+pubDate: Feb 03 2026
+tags:
+- Analysis
+title: 'Llama 4 Coder: How to Run Meta'
 ---
-
 # Llama 4 Coder: How to Run Meta's Coding LLM Locally in 2026
 
 ## Llama 4 Coder: Your Local, Open-Source Coding Assistant in 2026
@@ -345,4 +347,3 @@ Llama 4 Coder provides a powerful and private alternative to cloud-based coding 
 - [7 Best Local AI Assistants That Work Completely Offline in 2026](/blog/best-local-ai-assistants-offline-2026/)
 - [How to Build a Private AI Knowledge Base (No Cloud, No API Calls)](/blog/build-private-ai-knowledge-base-2026/)
 - [Home Assistant + Local AI: Complete Offline Smart Home Setup (2026)](/blog/home-assistant-local-ai-integration-2026/)
-
