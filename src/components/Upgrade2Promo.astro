@@ -1,0 +1,177 @@
+---
+interface Props {
+  placement?: string;
+  compact?: boolean;
+}
+
+const { placement = "default", compact = false } = Astro.props;
+const href = `https://upgrade2.pro/?utm_source=ai-coding-flow&utm_medium=referral&utm_campaign=${placement}`;
+---
+
+<section class:list={["upgrade2-promo", compact && "is-compact"]}>
+  <div class="promo-copy">
+    <span class="promo-kicker">Recommended for AI coding users</span>
+    <h3>Need GPT Plus without paying the full official price?</h3>
+    <p>
+      If you rely on ChatGPT for coding, debugging, and longer sessions, this GPT Plus top-up
+      offer is the cleanest low-friction next step we have found.
+    </p>
+    <ul class="promo-points">
+      <li>1-month GPT Plus top-up</li>
+      <li>Fast order lookup and code delivery</li>
+      <li>Current offer: only $9.90</li>
+    </ul>
+  </div>
+
+  <div class="promo-actions">
+    <span class="promo-price">$9.90</span>
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="promo-cta"
+      data-acf-event="acf_partner_offer_click"
+      data-acf-id={`upgrade2_${placement}`}
+      data-acf-tool="upgrade2_pro"
+    >
+      Get GPT Plus Deal
+    </a>
+  </div>
+</section>
+
+<style>
+  .upgrade2-promo {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) auto;
+    gap: 1.5rem;
+    align-items: center;
+    margin: 2.5rem 0;
+    padding: 1.6rem 1.75rem;
+    border-radius: 24px;
+    border: 1px solid rgba(233, 107, 70, 0.22);
+    background:
+      radial-gradient(circle at top right, rgba(233, 107, 70, 0.14), transparent 34%),
+      linear-gradient(135deg, rgba(28, 28, 28, 0.82) 0%, rgba(11, 11, 11, 0.92) 100%);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.22);
+  }
+
+  .upgrade2-promo.is-compact {
+    margin: 1.5rem 0 0;
+    padding: 1.2rem 1.3rem;
+    border-radius: 20px;
+  }
+
+  .promo-copy h3 {
+    margin: 0.35rem 0 0.7rem;
+    font-size: 1.5rem;
+    line-height: 1.12;
+    color: #fff;
+    letter-spacing: -0.03em;
+  }
+
+  .promo-copy p {
+    margin: 0;
+    color: #cbd5e1;
+    line-height: 1.65;
+    font-size: 0.98rem;
+  }
+
+  .promo-kicker {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.28rem 0.7rem;
+    border-radius: 999px;
+    background: rgba(233, 107, 70, 0.14);
+    color: #ffb298;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .promo-points {
+    margin: 0.9rem 0 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 0.45rem;
+  }
+
+  .promo-points li {
+    position: relative;
+    padding-left: 1rem;
+    color: #e2e8f0;
+    font-size: 0.92rem;
+  }
+
+  .promo-points li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.58rem;
+    width: 0.42rem;
+    height: 0.42rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #ff925e 0%, #e96b46 100%);
+  }
+
+  .promo-actions {
+    display: grid;
+    gap: 0.75rem;
+    justify-items: end;
+    min-width: 170px;
+  }
+
+  .promo-price {
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    color: #fff;
+  }
+
+  .promo-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 1.2rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #fff;
+    background: linear-gradient(135deg, #ff7f50 0%, #e96b46 55%, #c3472b 100%);
+    box-shadow: 0 16px 28px rgba(233, 107, 70, 0.28);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .promo-cta:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 18px 34px rgba(233, 107, 70, 0.34);
+  }
+
+  @media (max-width: 720px) {
+    .upgrade2-promo {
+      grid-template-columns: 1fr;
+      padding: 1.25rem 1.1rem;
+      gap: 1rem;
+    }
+
+    .promo-copy h3 {
+      font-size: 1.22rem;
+    }
+
+    .promo-actions {
+      justify-items: stretch;
+      min-width: 0;
+    }
+
+    .promo-price {
+      font-size: 1.7rem;
+    }
+
+    .promo-cta {
+      width: 100%;
+    }
+  }
+</style>

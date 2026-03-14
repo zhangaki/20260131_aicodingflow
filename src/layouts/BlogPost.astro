@@ -8,6 +8,7 @@ import Header from '../components/Header.astro';
 import BackgroundEffects from '../components/BackgroundEffects.astro';
 import AffiliateCard from '../components/AffiliateCard.astro';
 import SocialShare from '../components/SocialShare.astro';
+import Upgrade2Promo from '../components/Upgrade2Promo.astro';
 
 const { post, prevPost, nextPost, headings = [] } = Astro.props;
 import { getCollection } from 'astro:content';
@@ -599,6 +600,8 @@ const relatedPosts = post ? allPosts
 						<div class="ad-unit ad-unit-bottom" style="margin: 0; text-align: center;">
 							<div id="ad-banner-bottom" class="ad-banner-shell"></div>
 						</div>
+
+						<Upgrade2Promo placement="blog_post_footer" />
 
 						{relatedPosts.length > 0 && (
 							<div class="related-posts">

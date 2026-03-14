@@ -19,6 +19,17 @@ import HeaderLink from './HeaderLink.astro';
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
 		<div class="action-links">
+			<a
+				href="https://upgrade2.pro/?utm_source=ai-coding-flow&utm_medium=referral&utm_campaign=header_nav"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="header-upgrade-link"
+				data-acf-event="acf_partner_offer_click"
+				data-acf-id="upgrade2_header_nav"
+				data-acf-tool="upgrade2_pro"
+			>
+				GPT Plus $9.90
+			</a>
 			<button class="menu-toggle" onclick="document.getElementById('mobileMenu').classList.toggle('open')" aria-label="Menu">
 				<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
 					<path d="M3 12h18M3 6h18M3 18h18"/>
@@ -34,6 +45,18 @@ import HeaderLink from './HeaderLink.astro';
 		<a href="/crm/" onclick="document.getElementById('mobileMenu').classList.remove('open')">CRM Compare</a>
 		<a href="/tools/aeo-audit" class="accent-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">AI Visibility</a>
 		<a href="/about" onclick="document.getElementById('mobileMenu').classList.remove('open')">About</a>
+		<a
+			href="https://upgrade2.pro/?utm_source=ai-coding-flow&utm_medium=referral&utm_campaign=mobile_menu"
+			class="promo-link"
+			target="_blank"
+			rel="noopener noreferrer"
+			data-acf-event="acf_partner_offer_click"
+			data-acf-id="upgrade2_mobile_menu"
+			data-acf-tool="upgrade2_pro"
+			onclick="document.getElementById('mobileMenu').classList.remove('open')"
+		>
+			GPT Plus top-up for $9.90
+		</a>
 	</div>
 </header>
 
@@ -140,6 +163,20 @@ import HeaderLink from './HeaderLink.astro';
 	.action-links a:hover {
 		color: #fff;
 	}
+	.header-upgrade-link {
+		padding: 0.65rem 1.05rem !important;
+		border-radius: 999px;
+		text-decoration: none;
+		font-size: 0.95rem;
+		font-weight: 800;
+		color: #fff !important;
+		background: linear-gradient(135deg, rgba(233, 107, 70, 0.95) 0%, rgba(195, 71, 43, 0.95) 100%);
+		box-shadow: 0 12px 26px rgba(233, 107, 70, 0.22);
+	}
+	.header-upgrade-link:hover {
+		transform: translateY(-1px);
+		background: linear-gradient(135deg, rgba(247, 124, 89, 0.98) 0%, rgba(210, 81, 51, 0.98) 100%);
+	}
 	
 	/* Menu Toggle */
 	.menu-toggle {
@@ -184,6 +221,12 @@ import HeaderLink from './HeaderLink.astro';
 	.mobile-menu a.accent-link {
 		color: var(--accent);
 	}
+	.mobile-menu a.promo-link {
+		margin-top: 0.5rem;
+		background: rgba(233, 107, 70, 0.12);
+		border: 1px solid rgba(233, 107, 70, 0.22);
+		color: #ffb298;
+	}
 
 	@media (max-width: 720px) {
 		header {
@@ -203,6 +246,7 @@ import HeaderLink from './HeaderLink.astro';
 		}
 		.internal-links { display: none; }
 		.github-link { display: none; }
+		.header-upgrade-link { display: none !important; }
 		.menu-toggle { display: flex; }
 	}
 </style>

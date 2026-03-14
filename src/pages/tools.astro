@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Upgrade2Promo from '../components/Upgrade2Promo.astro';
 
 const title = "Free AI & Business Tools | Calculators, Templates & Planners";
 const description = "Free online tools for freelancers, ecommerce sellers, marketers and more. Calculators, checklists, templates and planners — no signup required.";
@@ -73,6 +74,8 @@ const tools = [
           Free calculators, templates and planners for freelancers, ecommerce sellers,
           marketers and business owners. No signup required.
         </p>
+
+        <Upgrade2Promo placement="tools_hub" compact />
 
         <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;">
           {tools.map(tool => (
